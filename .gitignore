@@ -1,0 +1,5 @@
+sta_env/
+__pycache__/
+*.pyc
+hf_models/
+results/
