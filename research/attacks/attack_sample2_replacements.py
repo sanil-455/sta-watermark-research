@@ -6,10 +6,7 @@ import traceback
 import torch
 from transformers import AutoTokenizer
 
-
-# ============================================================
 # CONFIGURATION
-# ============================================================
 
 MODEL_PATH = "hf_models/Llama-2-7b-hf"
 
@@ -21,7 +18,6 @@ SUMMARY_PATH = os.path.join(
     OUTPUT_DIR,
     "sample2_replacement_summary.json"
 )
-
 GAMMA = 0.5
 Z_THRESHOLD = 2.0
 
@@ -30,15 +26,7 @@ HASH_KEY2 = 17624813
 
 PROMPT_MAX_LENGTH = 2048
 
-
-# ============================================================
-# EXACT TARGETS
-# ============================================================
-#
-# These positions come from the verified Sample 2 worksheet.
-# DO NOT change these positions manually.
-#
-# ============================================================
+# EXACT TARGETS,not to be changed
 
 TARGETS = [
     {
@@ -97,10 +85,7 @@ TARGETS = [
     },
 ]
 
-
-# ============================================================
 # SETUP
-# ============================================================
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
@@ -117,12 +102,7 @@ tokenizer = AutoTokenizer.from_pretrained(
     use_fast=True,
 )
 
-print("[✓] Tokenizer loaded")
-
-
-# ============================================================
 # LOAD BASELINE
-# ============================================================
 
 with open(BASELINE_PATH, "r") as f:
     baseline = json.load(f)
@@ -139,10 +119,7 @@ print()
 print("Stored baseline z:", stored_z)
 print("Worksheet z:", worksheet["original_z"])
 
-
-# ============================================================
 # STA DETECTOR
-# ============================================================
 
 def calculate_sta_z(text):
 
@@ -199,10 +176,7 @@ def calculate_sta_z(text):
         "token_count": int(len(ids)),
     }
 
-
-# ============================================================
 # BASELINE VALIDATION
-# ============================================================
 
 print()
 print("=" * 90)
@@ -228,12 +202,7 @@ if baseline_z_error > 1e-6:
         "No attacks will be run."
     )
 
-print("[✓] BASELINE VALIDATED")
-
-
-# ============================================================
 # ORIGINAL OFFSETS
-# ============================================================
 
 original_encoded = tokenizer(
     original_text,
@@ -249,10 +218,7 @@ original_offsets = original_encoded["offset_mapping"]
 print()
 print("Original tokenizer length:", len(original_ids))
 
-
-# ============================================================
 # EXACT WORD SPAN EXTRACTION
-# ============================================================
 
 def get_actual_word_span(text, raw_start, raw_end):
 
@@ -292,10 +258,7 @@ def get_actual_word_span(text, raw_start, raw_end):
 
     return word_start, word_end, word
 
-
-# ============================================================
 # VALIDATE TARGET POSITIONS
-# ============================================================
 
 print()
 print("=" * 90)
@@ -451,10 +414,7 @@ def save_summary():
         f"[✓ SAVED SUMMARY] {SUMMARY_PATH}"
     )
 
-
-# ============================================================
 # RUN EACH ATTACK INDEPENDENTLY
-# ============================================================
 
 for target in validated_targets:
 
@@ -497,11 +457,7 @@ for target in validated_targets:
         )
 
         try:
-
-            # ------------------------------------------------
             # Replacement tokenization
-            # ------------------------------------------------
-
             replacement_ids = tokenizer.encode(
                 " " + replacement,
                 add_special_tokens=False,
@@ -534,10 +490,7 @@ for target in validated_targets:
                 "Attack class:",
                 attack_class
             )
-
-            # ------------------------------------------------
             # Construct replacement while preserving whitespace
-            # ------------------------------------------------
 
             raw_target_span = original_text[
                 target["raw_start"]:
@@ -569,9 +522,7 @@ for target in validated_targets:
                 + original_text[target["raw_end"]:]
             )
 
-            # ------------------------------------------------
             # Local construction validation
-            # ------------------------------------------------
 
             before_local = original_text[
                 context_start:context_end
@@ -610,10 +561,7 @@ for target in validated_targets:
                     "Replacement construction validation failed."
                 )
 
-            # ------------------------------------------------
             # Detect attacked text
-            # ------------------------------------------------
-
             attacked_detection = calculate_sta_z(
                 attacked_text
             )
@@ -726,9 +674,7 @@ for target in validated_targets:
                     attacked_text,
             }
 
-            # ------------------------------------------------
             # SAVE THIS EXPERIMENT IMMEDIATELY
-            # ------------------------------------------------
 
             with open(output_path, "w") as f:
                 json.dump(result, f, indent=2)
@@ -737,17 +683,13 @@ for target in validated_targets:
                 f"[✓ SAVED] {output_path}"
             )
 
-            # ------------------------------------------------
             # Add to summary and save immediately
-            # ------------------------------------------------
 
             results.append(result)
 
             save_summary()
 
-            # ------------------------------------------------
             # Print numerical result
-            # ------------------------------------------------
 
             print()
             print("RESULT")
@@ -854,11 +796,7 @@ for target in validated_targets:
 
             continue
 
-
-# ============================================================
 # FINAL REPORT
-# ============================================================
-
 print()
 print("=" * 90)
 print("SAMPLE 2 — FINAL ATTACK REPORT")
@@ -906,5 +844,3 @@ for r in sorted(
     )
 
 print()
-print("[✓ SAMPLE 2 ATTACK COMPLETE]")
-print("[✓ ALL ATTEMPTS PERSISTED]")
