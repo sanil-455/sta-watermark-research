@@ -1,0 +1,20 @@
+{
+  "sample": 1,
+  "attack_type": "manual_STA_aware",
+  "position": 301,
+  "old_token": "and",
+  "new_token": "for",
+  "new_token_id": 363,
+  "decoded_replacement": "for",
+  "original_z": 3.363765319856875,
+  "attacked_z": 3.1535299873658205,
+  "delta_z": 0.21023533249105464,
+  "original_green_count": 213,
+  "attacked_green_count": 211,
+  "original_pair_count": 362,
+  "attacked_pair_count": 362,
+  "detected_before": true,
+  "detected_after": true,
+  "original_text": "The former first daughter on Tuesday tweeted about her love for Cincinnati's most important citizen.\nChelsea Clinton is coming to Cincinnati next week to promote her new book, \"Start Now! You Can Make a Difference.\"\nBut that's not all she's looking forward to doing during her visit to the Queen City.\nThe former first daughter tweeted on Tuesday that, in addition to her Monday book signing at Joseph-Beth Booksellers in Norwood, she'd be making a pit stop by the Cincinnati Zoo & Botanical Garden to see her \"celebrity crush,\" Fiona the hippo.\nMoment of comic relief today: Shared my celebrity crush, Fiona the hippo, w fellow @RebuildHealth co-founders Jennifer Fry & Christie Olejniczak! pic.twitter.com/uWoQM0X8bj\n\u2014 Chelsea Clinton (@ChelseaClinton) June 12, 2018\nA quick internet search shows that Clinton isn't the only one in love with Fiona.\nUSA Today reported that her first tweet on April 14, 2017, was, \"Hello Fiona! I am a proud feminist, who loves, admires, and desperately admires you. #TeamFintan #BringFionaHome.\"\nI love Fiona. I'll take you to Cincinnati with me - although it looks like she might be coming to us. The zoo said the plan now is to bring Fiona to",
+  "attacked_text": "The former first daughter on Tuesday tweeted about her love for Cincinnati's most important citizen.\nChelsea Clinton is coming to Cincinnati next week to promote her new book, \"Start Now! You Can Make a Difference.\"\nBut that's not all she's looking forward to doing during her visit to the Queen City.\nThe former first daughter tweeted on Tuesday that, in addition to her Monday book signing at Joseph-Beth Booksellers in Norwood, she'd be making a pit stop by the Cincinnati Zoo & Botanical Garden to see her \"celebrity crush,\" Fiona the hippo.\nMoment of comic relief today: Shared my celebrity crush, Fiona the hippo, w fellow @RebuildHealth co-founders Jennifer Fry & Christie Olejniczak! pic.twitter.com/uWoQM0X8bj\n\u2014 Chelsea Clinton (@ChelseaClinton) June 12, 2018\nA quick internet search shows that Clinton isn't the only one in love with Fiona.\nUSA Today reported that her first tweet on April 14, 2017, was, \"Hello Fiona! I am a proud feminist, who loves, admires, for desperately admires you. #TeamFintan #BringFionaHome.\"\nI love Fiona. I'll take you to Cincinnati with me - although it looks like she might be coming to us. The zoo said the plan now is to bring Fiona to"
+}
