@@ -3,3 +3,10 @@ __pycache__/
 *.pyc
 hf_models/
 results/
+
+# Large local model weights — never commit
+hf_models/
+*.safetensors
+*.bin
+*.pt
+*.pth

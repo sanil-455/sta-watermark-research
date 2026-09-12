@@ -1,0 +1,798 @@
+{
+  "checkpoint": "Samples 2 and 3 targeted substitution attack",
+  "created_local": "2026-09-12T21:37:34.037804+05:30",
+  "repository": "sanil-455/sta-watermark-research",
+  "baseline": {
+    "sample2_z": 2.8160458729081004,
+    "sample2_detected": true,
+    "sample3_z": 3.049618749953805,
+    "sample3_detected": true,
+    "threshold": 2.0
+  },
+  "individual_attacks": {
+    "sample2_completed": 13,
+    "sample2_errors": 0,
+    "sample2_breaks": 0,
+    "sample3_completed": 12,
+    "sample3_errors": 0,
+    "sample3_breaks": 0
+  },
+  "combined_attacks": {
+    "sample2_completed": 96,
+    "sample2_errors": 0,
+    "sample2_breaks": 0,
+    "sample3_completed": 36,
+    "sample3_errors": 0,
+    "sample3_breaks": 0
+  },
+  "best_results": {
+    "sample2_best_combined_delta_z": -0.43380012221659436,
+    "sample2_best_combined_z": 2.382245750691506,
+    "sample3_best_individual_delta_z": -0.2113535881128854,
+    "sample3_best_combined_delta_z": -0.803514856773007,
+    "sample3_best_combined_z": 2.246103893180798
+  },
+  "manual_attack_results": [
+    {
+      "path": "results/raw/manual_attacks/BREAKS/ALL_ATTACK_ERRORS.json",
+      "size_bytes": 34
+    },
+    {
+      "path": "results/raw/manual_attacks/BREAKS/ALL_INDIVIDUAL_ATTACK_RESULTS.json",
+      "size_bytes": 208411
+    },
+    {
+      "path": "results/raw/manual_attacks/BREAKS/ALL_VALID_NON_BREAKING_ATTACKS.json",
+      "size_bytes": 104183
+    },
+    {
+      "path": "results/raw/manual_attacks/BREAKS/ALL_WATERMARK_BREAKS.json",
+      "size_bytes": 145
+    },
+    {
+      "path": "results/raw/manual_attacks/BREAKS/BREAK_ANALYSIS_CHECKPOINT.json",
+      "size_bytes": 942
+    },
+    {
+      "path": "results/raw/manual_attacks/all5_replaceable_candidates.json",
+      "size_bytes": 199400
+    },
+    {
+      "path": "results/raw/manual_attacks/sample1_and_to_for.json",
+      "size_bytes": 2894
+    },
+    {
+      "path": "results/raw/manual_attacks/sample1_pos345_might_to_can.json",
+      "size_bytes": 3020
+    },
+    {
+      "path": "results/raw/manual_attacks/sample1_pos345_might_to_could.json",
+      "size_bytes": 2873
+    },
+    {
+      "path": "results/raw/manual_attacks/sample1_pos345_might_to_could_corrected.json",
+      "size_bytes": 3060
+    },
+    {
+      "path": "results/raw/manual_attacks/sample1_pos345_might_to_could_diagnostic.json",
+      "size_bytes": 435
+    },
+    {
+      "path": "results/raw/manual_attacks/sample1_pos345_might_to_may.json",
+      "size_bytes": 3004
+    },
+    {
+      "path": "results/raw/manual_attacks/sample1_replaceable_candidates.json",
+      "size_bytes": 10198
+    },
+    {
+      "path": "results/raw/manual_attacks/sample1_top50_meaningful_review.json",
+      "size_bytes": 32019
+    },
+    {
+      "path": "results/raw/manual_attacks/sample1_vulnerability_shortlist.json",
+      "size_bytes": 67842
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_best_single_attack.json",
+      "size_bytes": 4349
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combined_summary.json",
+      "size_bytes": 387969
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0001.json",
+      "size_bytes": 3977
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0002.json",
+      "size_bytes": 3988
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0003.json",
+      "size_bytes": 3980
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0004.json",
+      "size_bytes": 3989
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0005.json",
+      "size_bytes": 3974
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0006.json",
+      "size_bytes": 3983
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0007.json",
+      "size_bytes": 3977
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0008.json",
+      "size_bytes": 3986
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0009.json",
+      "size_bytes": 3978
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0010.json",
+      "size_bytes": 3990
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0011.json",
+      "size_bytes": 3974
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0012.json",
+      "size_bytes": 3983
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0013.json",
+      "size_bytes": 3978
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0014.json",
+      "size_bytes": 3989
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0015.json",
+      "size_bytes": 3981
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0016.json",
+      "size_bytes": 3990
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0017.json",
+      "size_bytes": 3975
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0018.json",
+      "size_bytes": 3984
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0019.json",
+      "size_bytes": 3978
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0020.json",
+      "size_bytes": 3987
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0021.json",
+      "size_bytes": 3979
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0022.json",
+      "size_bytes": 3990
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0023.json",
+      "size_bytes": 3974
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0024.json",
+      "size_bytes": 3983
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0025.json",
+      "size_bytes": 3984
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0026.json",
+      "size_bytes": 3995
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0027.json",
+      "size_bytes": 3987
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0028.json",
+      "size_bytes": 3996
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0029.json",
+      "size_bytes": 3981
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0030.json",
+      "size_bytes": 3990
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0031.json",
+      "size_bytes": 3984
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0032.json",
+      "size_bytes": 3993
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0033.json",
+      "size_bytes": 3985
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0034.json",
+      "size_bytes": 3996
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0035.json",
+      "size_bytes": 3980
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0036.json",
+      "size_bytes": 3989
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0037.json",
+      "size_bytes": 3984
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0038.json",
+      "size_bytes": 3995
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0039.json",
+      "size_bytes": 3987
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0040.json",
+      "size_bytes": 3996
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0041.json",
+      "size_bytes": 3981
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0042.json",
+      "size_bytes": 3990
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0043.json",
+      "size_bytes": 3984
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0044.json",
+      "size_bytes": 3993
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0045.json",
+      "size_bytes": 3985
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0046.json",
+      "size_bytes": 3996
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0047.json",
+      "size_bytes": 3980
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0048.json",
+      "size_bytes": 3989
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0049.json",
+      "size_bytes": 3983
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0050.json",
+      "size_bytes": 3992
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0051.json",
+      "size_bytes": 3984
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0052.json",
+      "size_bytes": 3995
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0053.json",
+      "size_bytes": 3978
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0054.json",
+      "size_bytes": 3990
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0055.json",
+      "size_bytes": 3982
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0056.json",
+      "size_bytes": 3992
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0057.json",
+      "size_bytes": 3984
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0058.json",
+      "size_bytes": 3994
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0059.json",
+      "size_bytes": 3977
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0060.json",
+      "size_bytes": 3987
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0061.json",
+      "size_bytes": 3983
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0062.json",
+      "size_bytes": 3992
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0063.json",
+      "size_bytes": 3984
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0064.json",
+      "size_bytes": 3995
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0065.json",
+      "size_bytes": 3978
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0066.json",
+      "size_bytes": 3990
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0067.json",
+      "size_bytes": 3982
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0068.json",
+      "size_bytes": 3992
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0069.json",
+      "size_bytes": 3984
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0070.json",
+      "size_bytes": 3994
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0071.json",
+      "size_bytes": 3977
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0072.json",
+      "size_bytes": 3987
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0073.json",
+      "size_bytes": 3989
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0074.json",
+      "size_bytes": 3998
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0075.json",
+      "size_bytes": 3990
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0076.json",
+      "size_bytes": 4001
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0077.json",
+      "size_bytes": 3984
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0078.json",
+      "size_bytes": 3996
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0079.json",
+      "size_bytes": 3988
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0080.json",
+      "size_bytes": 3998
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0081.json",
+      "size_bytes": 3990
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0082.json",
+      "size_bytes": 4000
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0083.json",
+      "size_bytes": 3983
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0084.json",
+      "size_bytes": 3993
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0085.json",
+      "size_bytes": 3989
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0086.json",
+      "size_bytes": 3998
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0087.json",
+      "size_bytes": 3990
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0088.json",
+      "size_bytes": 4001
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0089.json",
+      "size_bytes": 3984
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0090.json",
+      "size_bytes": 3996
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0091.json",
+      "size_bytes": 3988
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0092.json",
+      "size_bytes": 3998
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0093.json",
+      "size_bytes": 3990
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0094.json",
+      "size_bytes": 4000
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0095.json",
+      "size_bytes": 3983
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined/sample2_combo_0096.json",
+      "size_bytes": 3993
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_combined_best_and_summary.json",
+      "size_bytes": 45100
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_meaningful_vulnerability_candidates.json",
+      "size_bytes": 200601
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_replaceable_candidates.json",
+      "size_bytes": 40525
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_replacements/sample2_pos292_capacity_to_output.json",
+      "size_bytes": 4307
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_replacements/sample2_pos292_capacity_to_volume.json",
+      "size_bytes": 4307
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_replacements/sample2_pos377_releases_to_disengages.json",
+      "size_bytes": 4349
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_replacements/sample2_pos377_releases_to_eases_off.json",
+      "size_bytes": 4350
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_replacements/sample2_pos515_separation_to_severance.json",
+      "size_bytes": 4342
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_replacements/sample2_pos515_separation_to_termination.json",
+      "size_bytes": 4346
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_replacements/sample2_pos610_growth_to_demand.json",
+      "size_bytes": 4322
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_replacements/sample2_pos610_growth_to_expansion.json",
+      "size_bytes": 4329
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_replacements/sample2_pos713_making_to_achieving.json",
+      "size_bytes": 4336
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_replacements/sample2_pos713_making_to_delivering.json",
+      "size_bytes": 4337
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_replacements/sample2_pos713_making_to_driving.json",
+      "size_bytes": 4324
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_replacements/sample2_pos714_some_to_significant.json",
+      "size_bytes": 4310
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_replacements/sample2_pos714_some_to_steady.json",
+      "size_bytes": 4318
+    },
+    {
+      "path": "results/raw/manual_attacks/sample2_replacements/sample2_replacement_summary.json",
+      "size_bytes": 57075
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_best_single_attack.json",
+      "size_bytes": 3465
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combined_summary.json",
+      "size_bytes": 113048
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0001.json",
+      "size_bytes": 3087
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0002.json",
+      "size_bytes": 3084
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0003.json",
+      "size_bytes": 3081
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0004.json",
+      "size_bytes": 3079
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0005.json",
+      "size_bytes": 3083
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0006.json",
+      "size_bytes": 3080
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0007.json",
+      "size_bytes": 3077
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0008.json",
+      "size_bytes": 3075
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0009.json",
+      "size_bytes": 3085
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0010.json",
+      "size_bytes": 3083
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0011.json",
+      "size_bytes": 3080
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0012.json",
+      "size_bytes": 3078
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0013.json",
+      "size_bytes": 3096
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0014.json",
+      "size_bytes": 3094
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0015.json",
+      "size_bytes": 3090
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0016.json",
+      "size_bytes": 3087
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0017.json",
+      "size_bytes": 3092
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0018.json",
+      "size_bytes": 3090
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0019.json",
+      "size_bytes": 3086
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0020.json",
+      "size_bytes": 3083
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0021.json",
+      "size_bytes": 3094
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0022.json",
+      "size_bytes": 3092
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0023.json",
+      "size_bytes": 3088
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0024.json",
+      "size_bytes": 3085
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0025.json",
+      "size_bytes": 3083
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0026.json",
+      "size_bytes": 3094
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0027.json",
+      "size_bytes": 3092
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0028.json",
+      "size_bytes": 3090
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0029.json",
+      "size_bytes": 3079
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0030.json",
+      "size_bytes": 3090
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0031.json",
+      "size_bytes": 3088
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0032.json",
+      "size_bytes": 3086
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0033.json",
+      "size_bytes": 3081
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0034.json",
+      "size_bytes": 3092
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0035.json",
+      "size_bytes": 3090
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined/sample3_combo_0036.json",
+      "size_bytes": 3088
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_combined_best_and_summary.json",
+      "size_bytes": 35230
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_meaningful_vulnerability_candidates.json",
+      "size_bytes": 177027
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_replaceable_candidates.json",
+      "size_bytes": 35708
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_replacements/sample3_pos102_interest_to_appreciation.json",
+      "size_bytes": 3465
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_replacements/sample3_pos102_interest_to_fascination.json",
+      "size_bytes": 3465
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_replacements/sample3_pos102_interest_to_passion.json",
+      "size_bytes": 3448
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_replacements/sample3_pos213_away_to_far.json",
+      "size_bytes": 3421
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_replacements/sample3_pos374_times_to_moments.json",
+      "size_bytes": 3452
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_replacements/sample3_pos381_stretch_to_chore.json",
+      "size_bytes": 3450
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_replacements/sample3_pos381_stretch_to_leap.json",
+      "size_bytes": 3448
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_replacements/sample3_pos381_stretch_to_strain.json",
+      "size_bytes": 3453
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_replacements/sample3_pos502_reaches_to_attains.json",
+      "size_bytes": 3465
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_replacements/sample3_pos502_reaches_to_hits.json",
+      "size_bytes": 3451
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_replacements/sample3_pos66_However_to_Nevertheless.json",
+      "size_bytes": 3454
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_replacements/sample3_pos66_However_to_Nonetheless.json",
+      "size_bytes": 3470
+    },
+    {
+      "path": "results/raw/manual_attacks/sample3_replacements/sample3_replacement_summary.json",
+      "size_bytes": 42180
+    },
+    {
+      "path": "results/raw/manual_attacks/sample4_pos275_plant_to_facility.json",
+      "size_bytes": 11056
+    },
+    {
+      "path": "results/raw/manual_attacks/sample4_pos275_plant_to_station.json",
+      "size_bytes": 11053
+    },
+    {
+      "path": "results/raw/manual_attacks/sample4_replaceable_candidates.json",
+      "size_bytes": 56685
+    },
+    {
+      "path": "results/raw/manual_attacks/sample5_replaceable_candidates.json",
+      "size_bytes": 45434
+    },
+    {
+      "path": "results/raw/manual_attacks/samples2_3_adaptive_substitution_checkpoint_data.json",
+      "size_bytes": 852
+    },
+    {
+      "path": "results/raw/manual_attacks/samples2_3_meaningful_vulnerability_candidates.json",
+      "size_bytes": 416448
+    }
+  ],
+  "model_weights": "NOT STORED IN GIT"
+}
