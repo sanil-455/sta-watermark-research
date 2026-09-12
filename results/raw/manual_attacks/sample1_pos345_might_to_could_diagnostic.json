@@ -1,0 +1,12 @@
+{
+  "experiment": "manual_semantic_substitution",
+  "status": "implementation_diagnostic",
+  "sample": 1,
+  "position": 345,
+  "old_word": "might",
+  "new_word": "could",
+  "token_id": 1795,
+  "tokenizer_span": " might",
+  "previous_error": "AssertionError caused by comparing tokenizer span ' might' directly with word 'might'.",
+  "correction": "Preserve leading whitespace and replace only the word portion of the tokenizer span."
+}
