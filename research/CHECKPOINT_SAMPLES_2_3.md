@@ -1,14 +1,7 @@
 # STA Watermark Research — Samples 2 & 3 Checkpoint
 
-## Checkpoint purpose
-
 This checkpoint preserves the complete targeted meaningful-word substitution
 attack work performed on baseline Samples 2 and 3.
-
-The repository should be sufficient to resume the research without rerunning
-the completed attacks.
-
----
 
 # Baseline
 
@@ -35,8 +28,6 @@ Baseline watermarked z:
 Baseline detection:
 
     TRUE
-
----
 
 # Attack 1 — Individual meaningful-word substitution
 
@@ -174,7 +165,7 @@ Detection:
 
 ---
 
-# Overall conclusion at this checkpoint
+conclusion at this checkpoint
 
 No tested individual meaningful-word substitution changed detection:
 
@@ -190,8 +181,6 @@ The strongest result so far is Sample 3's coordinated attack:
 
     z = 3.049619 -> 2.246104
     Δz = -0.803515
-
-This is a substantial reduction but remains above the detection threshold.
 
 This conclusion is scoped to the tested Samples 2 and 3 and the tested
 replacement vocabulary. It is NOT a claim that STA is generally robust.
@@ -210,10 +199,6 @@ treated as proof of a vulnerability.
 
 The coordinated attack also demonstrates that individually non-breaking edits
 can collectively produce a substantially larger reduction in z.
-
----
-
-# Completed files
 
 Important directories:
 
@@ -252,25 +237,5 @@ Break extraction:
 
     research/attacks/extract_watermark_breaks.py
 
----
 
-# Next research directions
-
-The meaningful lexical substitution attack should NOT be treated as a
-successful STA break.
-
-Potential next attack families:
-
-1. Adaptive minimum-edit attack
-2. Token-level targeted attack
-3. Capitalization / orthographic changes
-4. Insertion attacks
-5. Deletion attacks
-6. Clustered versus dispersed edits
-7. Copy-paste attack
-8. Paraphrase attacks
-9. Attacks explicitly exploiting overlapping STA token pairs
-10. Combined adaptive attacks
-
-Before moving on, preserve this checkpoint in Git.
 
