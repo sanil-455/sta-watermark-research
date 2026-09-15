@@ -2,18 +2,12 @@ import torch
 import torch.nn.functional as F
 from transformers import AutoTokenizer, AutoModel
 
-# Lightweight embedding model for fast semantic evaluation
 EMBEDDING_MODEL_PATH = 'sentence-transformers/all-MiniLM-L6-v2'
 
 
 class SemanticChecker:
-    """
-    Evaluates semantic preservation and edit distance between 
-    original watermarked text and modified (attacked) text.
-    """
     def __init__(self, model_name=EMBEDDING_MODEL_PATH, device=None):
         self.device = device if device else ('cuda' if torch.cuda.is_available() else 'cpu')
-        print(f"[SemanticChecker] Loading similarity encoder on {self.device}...")
         self.tokenizer = AutoTokenizer.from_pretrained(model_name)
         self.model = AutoModel.from_pretrained(model_name).to(self.device)
         self.model.eval()
@@ -33,8 +27,7 @@ class SemanticChecker:
     def compute_similarity(self, text_orig, text_attacked):
         emb_orig = self.get_embedding(text_orig)
         emb_attacked = self.get_embedding(text_attacked)
-        similarity = torch.mm(emb_orig, emb_attacked.T).item()
-        return float(similarity)
+        return float(torch.mm(emb_orig, emb_attacked.T).item())
 
     @staticmethod
     def compute_token_edit_distance(tokens_orig, tokens_attacked):
@@ -51,20 +44,15 @@ class SemanticChecker:
                 if tokens_orig[i - 1] == tokens_attacked[j - 1]:
                     dp[i][j] = dp[i - 1][j - 1]
                 else:
-                    dp[i][j] = 1 + min(
-                        dp[i - 1][j],      # Deletion
-                        dp[i][j - 1],      # Insertion
-                        dp[i - 1][j - 1]   # Replacement
-                    )
+                    dp[i][j] = 1 + min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1])
         
         edit_dist = dp[m][n]
-        rel_distance = edit_dist / float(max(m, 1))
-        return edit_dist, rel_distance
+        return edit_dist, edit_dist / float(max(m, 1))
 
 
 def main():
     print("=" * 60)
-    print("TESTING SEMANTIC CHECKER MODULE")
+    print("MODULE 1.5: SEMANTIC CHECKER EVALUATION")
     print("=" * 60)
     
     checker = SemanticChecker()
@@ -75,12 +63,12 @@ def main():
     sim_score = checker.compute_similarity(t1, t2)
     print(f"Original Text: {t1}")
     print(f"Attacked Text: {t2}")
-    print(f"Semantic Cosine Similarity: {sim_score:.4f}")
+    print(f"Cosine Similarity: {sim_score:.4f}")
     
     if sim_score >= 0.90:
-        print("[✓ PASSED] High semantic preservation preserved (> 0.90)")
+        print("[✓ PASSED] Cosine Similarity >= 0.90")
     else:
-        print("[✗ FAILED] Severe semantic drift detected!")
+        print("[✗ FAILED] Cosine Similarity < 0.90")
     print("=" * 60)
 
 
