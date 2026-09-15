@@ -4,9 +4,7 @@ import os
 import torch
 from transformers import AutoTokenizer
 
-# -----------------------------------------------------------------------------
 # STA PRG Constants (from STA Paper)
-# -----------------------------------------------------------------------------
 H1 = 15485863
 H2 = 17624813
 GAMMA = 0.5
