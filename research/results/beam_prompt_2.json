@@ -1,0 +1,124 @@
+{
+  "prompt_id": 2,
+  "baseline_z": 3.049618749953805,
+  "baseline_green": 323,
+  "baseline_pairs": 573,
+  "threshold": 2.0,
+  "pool_size": 49,
+  "settings": {
+    "prompt_id": 2,
+    "depth": 12,
+    "beam": 200,
+    "rank_width": 1200,
+    "sem": 0.95,
+    "breaks": 5
+  },
+  "best_z": 1.963453167778477,
+  "delta_z": -1.086165582175328,
+  "breaks_found": 400,
+  "breaks": [
+    {
+      "z": 1.963453167778477,
+      "sim": 0.9990338087081909,
+      "depth": 9,
+      "edits": "want->desire + really->truly + very->really + details->detail + earnest->solemn + matters->matter + companion->familiar + reaches->hit + away->off",
+      "text": "When Graham Caveney was a young boy growing up in Carrington, a small town in the north of England, he wanted what most adolescents desire: acceptance. That\u2019s an extreme distillation of what is truly a really rich and complicated memoir from the journalist, academic and critic. However, it isn\u2019t too far off the mark in terms of what consumed him in those early years \u2014 his family and school life, friendships, his curiosity about and interest in the arts, but also, the abuse he still struggles to survive.\nCaveney\u2019s parents were modest people. His mother was a millworker, his father a groundskeeper. Referring to his parents by their first names, Kathleen and Jack, Caveney detail his formative years with the simple, solemn, chain-smoking parents who never managed to move past the confines of their small burgh.\nBut Caveney did. He managed to win a spot at a Catholic school away from home. Here he fed his insatiable curiosity for learning, his penchant for literature, and his obsession with popular music, plays, movies and books, concerns that move him further from an easy communication with his parents and extended family.\nThese are also matter, however, that move him closer to \u201cRev Kev,\u201d the headmaster at his new school. The charismatic priest takes Graham under his wing. He recognizes in his young charge undeniable intellectual gifts, but perhaps zeroes in on his vulnerabilities. After a trip to the theater and meaningful discussions about the stage production of \u201cWho\u2019s Afraid of Virginia Woolf?\u201d the priest molests the boy.\nThis is a difficult book, and there are times when it can feel like a stretch to find Caveney\u2019s purpose in going into such painful detail about his early abuse. However, after the buried soul of his father\u2019s abuse is revealed, these painful anecdotes begin to make more sense. In the past, this abuse has served as the headline of Caveney\u2019s stories online and in print, and over time, he\u2019s come to tribes with his pain on debut documentaries for the BBC\u2019s Radio Days project, which are presented on the familiar audio-CD to \u201cGibberish.\u201d But as he hit two critical milestones, entering his 50s and 60s, he\u2019s moved off from the spectacle of the abuse and started to look at the context in which it happened. So, with \u201cGibberish\u201d he\u2019s moved from pornography to an exploration of what incest, trauma",
+      "green": 310,
+      "pairs": 573
+    },
+    {
+      "z": 1.963453167778477,
+      "sim": 0.99947190284729,
+      "depth": 9,
+      "edits": "want->desire + really->truly + very->really + details->detail + move->travel + matters->matter + companion->familiar + reaches->hit + away->off",
+      "text": "When Graham Caveney was a young boy growing up in Carrington, a small town in the north of England, he wanted what most adolescents desire: acceptance. That\u2019s an extreme distillation of what is truly a really rich and complicated memoir from the journalist, academic and critic. However, it isn\u2019t too far off the mark in terms of what consumed him in those early years \u2014 his family and school life, friendships, his curiosity about and interest in the arts, but also, the abuse he still struggles to survive.\nCaveney\u2019s parents were modest people. His mother was a millworker, his father a groundskeeper. Referring to his parents by their first names, Kathleen and Jack, Caveney detail his formative years with the simple, earnest, chain-smoking parents who never managed to travel past the confines of their small burgh.\nBut Caveney did. He managed to win a spot at a Catholic school away from home. Here he fed his insatiable curiosity for learning, his penchant for literature, and his obsession with popular music, plays, movies and books, concerns that move him further from an easy communication with his parents and extended family.\nThese are also matter, however, that move him closer to \u201cRev Kev,\u201d the headmaster at his new school. The charismatic priest takes Graham under his wing. He recognizes in his young charge undeniable intellectual gifts, but perhaps zeroes in on his vulnerabilities. After a trip to the theater and meaningful discussions about the stage production of \u201cWho\u2019s Afraid of Virginia Woolf?\u201d the priest molests the boy.\nThis is a difficult book, and there are times when it can feel like a stretch to find Caveney\u2019s purpose in going into such painful detail about his early abuse. However, after the buried soul of his father\u2019s abuse is revealed, these painful anecdotes begin to make more sense. In the past, this abuse has served as the headline of Caveney\u2019s stories online and in print, and over time, he\u2019s come to tribes with his pain on debut documentaries for the BBC\u2019s Radio Days project, which are presented on the familiar audio-CD to \u201cGibberish.\u201d But as he hit two critical milestones, entering his 50s and 60s, he\u2019s moved off from the spectacle of the abuse and started to look at the context in which it happened. So, with \u201cGibberish\u201d he\u2019s moved from pornography to an exploration of what incest, trauma",
+      "green": 310,
+      "pairs": 573
+    },
+    {
+      "z": 1.963453167778477,
+      "sim": 0.999529242515564,
+      "depth": 9,
+      "edits": "want->desire + really->truly + very->really + details->detail + move->go + matters->matter + companion->familiar + reaches->hit + away->off",
+      "text": "When Graham Caveney was a young boy growing up in Carrington, a small town in the north of England, he wanted what most adolescents desire: acceptance. That\u2019s an extreme distillation of what is truly a really rich and complicated memoir from the journalist, academic and critic. However, it isn\u2019t too far off the mark in terms of what consumed him in those early years \u2014 his family and school life, friendships, his curiosity about and interest in the arts, but also, the abuse he still struggles to survive.\nCaveney\u2019s parents were modest people. His mother was a millworker, his father a groundskeeper. Referring to his parents by their first names, Kathleen and Jack, Caveney detail his formative years with the simple, earnest, chain-smoking parents who never managed to go past the confines of their small burgh.\nBut Caveney did. He managed to win a spot at a Catholic school away from home. Here he fed his insatiable curiosity for learning, his penchant for literature, and his obsession with popular music, plays, movies and books, concerns that move him further from an easy communication with his parents and extended family.\nThese are also matter, however, that move him closer to \u201cRev Kev,\u201d the headmaster at his new school. The charismatic priest takes Graham under his wing. He recognizes in his young charge undeniable intellectual gifts, but perhaps zeroes in on his vulnerabilities. After a trip to the theater and meaningful discussions about the stage production of \u201cWho\u2019s Afraid of Virginia Woolf?\u201d the priest molests the boy.\nThis is a difficult book, and there are times when it can feel like a stretch to find Caveney\u2019s purpose in going into such painful detail about his early abuse. However, after the buried soul of his father\u2019s abuse is revealed, these painful anecdotes begin to make more sense. In the past, this abuse has served as the headline of Caveney\u2019s stories online and in print, and over time, he\u2019s come to tribes with his pain on debut documentaries for the BBC\u2019s Radio Days project, which are presented on the familiar audio-CD to \u201cGibberish.\u201d But as he hit two critical milestones, entering his 50s and 60s, he\u2019s moved off from the spectacle of the abuse and started to look at the context in which it happened. So, with \u201cGibberish\u201d he\u2019s moved from pornography to an exploration of what incest, trauma",
+      "green": 310,
+      "pairs": 573
+    }
+  ],
+  "history": [
+    {
+      "depth": 1,
+      "generated": 49,
+      "passed": 45,
+      "best_z": 2.882516352696062,
+      "best_sim": 0.9998834133148193,
+      "breaks": 0
+    },
+    {
+      "depth": 2,
+      "generated": 1150,
+      "passed": 400,
+      "best_z": 2.7154139554383194,
+      "best_sim": 0.9997464418411255,
+      "breaks": 0
+    },
+    {
+      "depth": 3,
+      "generated": 5150,
+      "passed": 400,
+      "best_z": 2.5483115581805764,
+      "best_sim": 0.9996345043182373,
+      "breaks": 0
+    },
+    {
+      "depth": 4,
+      "generated": 5112,
+      "passed": 400,
+      "best_z": 2.381209160922834,
+      "best_sim": 0.9995768070220947,
+      "breaks": 0
+    },
+    {
+      "depth": 5,
+      "generated": 4680,
+      "passed": 400,
+      "best_z": 2.2976579622939624,
+      "best_sim": 0.9995500445365906,
+      "breaks": 0
+    },
+    {
+      "depth": 6,
+      "generated": 4189,
+      "passed": 400,
+      "best_z": 2.2141067636650913,
+      "best_sim": 0.9995616674423218,
+      "breaks": 0
+    },
+    {
+      "depth": 7,
+      "generated": 4114,
+      "passed": 400,
+      "best_z": 2.13055556503622,
+      "best_sim": 0.9995620846748352,
+      "breaks": 0
+    },
+    {
+      "depth": 8,
+      "generated": 3941,
+      "passed": 400,
+      "best_z": 2.0470043664073483,
+      "best_sim": 0.9995613098144531,
+      "breaks": 0
+    },
+    {
+      "depth": 9,
+      "generated": 3676,
+      "passed": 400,
+      "best_z": 1.963453167778477,
+      "best_sim": 0.9990338087081909,
+      "breaks": 400
+    }
+  ],
+  "breaks_total_found": 400,
+  "note": "400 states fell below threshold; top 3 retained here"
+}

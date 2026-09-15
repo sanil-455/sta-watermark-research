@@ -1,0 +1,100 @@
+{
+  "prompt_id": 1,
+  "baseline_z": 2.8160458729081004,
+  "baseline_green": 433,
+  "baseline_pairs": 787,
+  "threshold": 2.0,
+  "pool_size": 162,
+  "settings": {
+    "prompt_id": 1,
+    "depth": 14,
+    "beam": 200,
+    "rank_width": 1200,
+    "sem": 0.95,
+    "breaks": 5
+  },
+  "best_z": 1.9605382659486774,
+  "delta_z": -0.855507606959423,
+  "breaks_found": 1200,
+  "breaks": [
+    {
+      "z": 1.9605382659486774,
+      "sim": 0.997001588344574,
+      "depth": 6,
+      "edits": "market->mart + intent->purpose + capacity->content + maintain->keep + able->capable + estimates->estimate",
+      "text": "When a company reports its quarterly earnings, management often presents just a sketch of how the company performed. But equally important for investors is the conference call, where management&apos;s commentary provides the full picture of the company&apos;s recent performance.Let&apos;s look at some highlights from Johnson Controls&apos; (NYSE: JCI)most recent conference call to help discern the full picture for Q3 2016.\nExcluding foreign exchange, the building efficiency segment reported a 48% year-over-year improvement in segment margin -- an improvement which management attributed \"primarily to the volumes in North America and Asia and the contribution of the Hitachi joint venture.\"\nThat&apos;s putting it mildly. According to the company&apos;s 10-Q, the joint venture with Hitachi yielded $826 million in sales for the quarter and $111 million in segment income.\nJust the start of start-stop?\nManagement&apos;s enthusiasm for seizing the start-stop vehicle mart opportunity is no surprise. Earlier in the summer, it announced its purpose to invest $780 million from 2015 through 2020 to expandits absorbent glass mat (AGM) battery manufacturing content.\nJohnson Controls&apos; heavy-duty truck AGM batteries offer twice the performance and life of flooded batteries. Image source: Johnson Controls.\nFound in start-stop vehicles, whose engines shut off when the engine is idle, AGM batteries are designed to handle the additional stresses placed on them as the vehicles keep power to other systems until the driver releases the brake or clutch.\nWhat does come as a surprise, though, is the success the company is already recognizing from its AGM offerings. According to management, \"start-stop growth, which is the future of our business over the next five years\" increased 22% year over year during the quarter, driven primarily by the Americas and China, which increased 78% and 79%, respectively.\nBesides adhering well to the expected timeline of events, management is also crediting itself with how well it has been capable to execute the transition in terms of staying on budget. Previous estimate had targeted separation costs between $400 million and $600 million, and according to McDonald, management is \"tracking well within those estimates.\"\nAlthough it was glad to report its success in beating Q3 estimates by $0.04 and reporting EPS of $1.07, management was especially keen on identifying the factors that lead to that outcome.\n\"In North America we rebalanced the business to benefit from cooling growth,\" according to management. Though this isn&apos;t rocket science, its manifestation has been particularly important. In addition to an 8% growth, North America represented 45% of the region&apos;s segment income; more broadly, North America represented 60% of income while Europe, Middle East, and Africa produced 27% -- a significant rebalancing of the income distribution.\nNews also came from the China business. \"We have been making some good progress with the regional leadership team to proactively address nonprofitable projects, which we expect to result in lower working capital needs for the business,\" according to McDonald.\nJohnson Controls is the biggest company you&apos;ve never heard of. You&apos;ve probably used its products, without knowing it, if for instance",
+      "green": 421,
+      "pairs": 787
+    },
+    {
+      "z": 1.9605382659486774,
+      "sim": 0.996863603591919,
+      "depth": 6,
+      "edits": "market->mart + intent->purpose + capacity->content + maintain->keep + able->capable + estimates->estimation",
+      "text": "When a company reports its quarterly earnings, management often presents just a sketch of how the company performed. But equally important for investors is the conference call, where management&apos;s commentary provides the full picture of the company&apos;s recent performance.Let&apos;s look at some highlights from Johnson Controls&apos; (NYSE: JCI)most recent conference call to help discern the full picture for Q3 2016.\nExcluding foreign exchange, the building efficiency segment reported a 48% year-over-year improvement in segment margin -- an improvement which management attributed \"primarily to the volumes in North America and Asia and the contribution of the Hitachi joint venture.\"\nThat&apos;s putting it mildly. According to the company&apos;s 10-Q, the joint venture with Hitachi yielded $826 million in sales for the quarter and $111 million in segment income.\nJust the start of start-stop?\nManagement&apos;s enthusiasm for seizing the start-stop vehicle mart opportunity is no surprise. Earlier in the summer, it announced its purpose to invest $780 million from 2015 through 2020 to expandits absorbent glass mat (AGM) battery manufacturing content.\nJohnson Controls&apos; heavy-duty truck AGM batteries offer twice the performance and life of flooded batteries. Image source: Johnson Controls.\nFound in start-stop vehicles, whose engines shut off when the engine is idle, AGM batteries are designed to handle the additional stresses placed on them as the vehicles keep power to other systems until the driver releases the brake or clutch.\nWhat does come as a surprise, though, is the success the company is already recognizing from its AGM offerings. According to management, \"start-stop growth, which is the future of our business over the next five years\" increased 22% year over year during the quarter, driven primarily by the Americas and China, which increased 78% and 79%, respectively.\nBesides adhering well to the expected timeline of events, management is also crediting itself with how well it has been capable to execute the transition in terms of staying on budget. Previous estimation had targeted separation costs between $400 million and $600 million, and according to McDonald, management is \"tracking well within those estimates.\"\nAlthough it was glad to report its success in beating Q3 estimates by $0.04 and reporting EPS of $1.07, management was especially keen on identifying the factors that lead to that outcome.\n\"In North America we rebalanced the business to benefit from cooling growth,\" according to management. Though this isn&apos;t rocket science, its manifestation has been particularly important. In addition to an 8% growth, North America represented 45% of the region&apos;s segment income; more broadly, North America represented 60% of income while Europe, Middle East, and Africa produced 27% -- a significant rebalancing of the income distribution.\nNews also came from the China business. \"We have been making some good progress with the regional leadership team to proactively address nonprofitable projects, which we expect to result in lower working capital needs for the business,\" according to McDonald.\nJohnson Controls is the biggest company you&apos;ve never heard of. You&apos;ve probably used its products, without knowing it, if for instance",
+      "green": 421,
+      "pairs": 787
+    },
+    {
+      "z": 1.9605382659486774,
+      "sim": 0.9962574243545532,
+      "depth": 6,
+      "edits": "market->mart + intent->purpose + capacity->content + maintain->keep + able->capable + according->agree",
+      "text": "When a company reports its quarterly earnings, management often presents just a sketch of how the company performed. But equally important for investors is the conference call, where management&apos;s commentary provides the full picture of the company&apos;s recent performance.Let&apos;s look at some highlights from Johnson Controls&apos; (NYSE: JCI)most recent conference call to help discern the full picture for Q3 2016.\nExcluding foreign exchange, the building efficiency segment reported a 48% year-over-year improvement in segment margin -- an improvement which management attributed \"primarily to the volumes in North America and Asia and the contribution of the Hitachi joint venture.\"\nThat&apos;s putting it mildly. According to the company&apos;s 10-Q, the joint venture with Hitachi yielded $826 million in sales for the quarter and $111 million in segment income.\nJust the start of start-stop?\nManagement&apos;s enthusiasm for seizing the start-stop vehicle mart opportunity is no surprise. Earlier in the summer, it announced its purpose to invest $780 million from 2015 through 2020 to expandits absorbent glass mat (AGM) battery manufacturing content.\nJohnson Controls&apos; heavy-duty truck AGM batteries offer twice the performance and life of flooded batteries. Image source: Johnson Controls.\nFound in start-stop vehicles, whose engines shut off when the engine is idle, AGM batteries are designed to handle the additional stresses placed on them as the vehicles keep power to other systems until the driver releases the brake or clutch.\nWhat does come as a surprise, though, is the success the company is already recognizing from its AGM offerings. According to management, \"start-stop growth, which is the future of our business over the next five years\" increased 22% year over year during the quarter, driven primarily by the Americas and China, which increased 78% and 79%, respectively.\nBesides adhering well to the expected timeline of events, management is also crediting itself with how well it has been capable to execute the transition in terms of staying on budget. Previous estimates had targeted separation costs between $400 million and $600 million, and agree to McDonald, management is \"tracking well within those estimates.\"\nAlthough it was glad to report its success in beating Q3 estimates by $0.04 and reporting EPS of $1.07, management was especially keen on identifying the factors that lead to that outcome.\n\"In North America we rebalanced the business to benefit from cooling growth,\" according to management. Though this isn&apos;t rocket science, its manifestation has been particularly important. In addition to an 8% growth, North America represented 45% of the region&apos;s segment income; more broadly, North America represented 60% of income while Europe, Middle East, and Africa produced 27% -- a significant rebalancing of the income distribution.\nNews also came from the China business. \"We have been making some good progress with the regional leadership team to proactively address nonprofitable projects, which we expect to result in lower working capital needs for the business,\" according to McDonald.\nJohnson Controls is the biggest company you&apos;ve never heard of. You&apos;ve probably used its products, without knowing it, if for instance",
+      "green": 421,
+      "pairs": 787
+    }
+  ],
+  "history": [
+    {
+      "depth": 1,
+      "generated": 162,
+      "passed": 162,
+      "best_z": 2.6734612717481965,
+      "best_sim": 0.997648298740387,
+      "breaks": 0
+    },
+    {
+      "depth": 2,
+      "generated": 12933,
+      "passed": 1200,
+      "best_z": 2.5308766705882926,
+      "best_sim": 0.9975417852401733,
+      "breaks": 0
+    },
+    {
+      "depth": 3,
+      "generated": 28065,
+      "passed": 1200,
+      "best_z": 2.388292069428389,
+      "best_sim": 0.996961772441864,
+      "breaks": 0
+    },
+    {
+      "depth": 4,
+      "generated": 27836,
+      "passed": 1200,
+      "best_z": 2.245707468268485,
+      "best_sim": 0.9970338940620422,
+      "breaks": 0
+    },
+    {
+      "depth": 5,
+      "generated": 27467,
+      "passed": 1200,
+      "best_z": 2.1031228671085813,
+      "best_sim": 0.9970511794090271,
+      "breaks": 0
+    },
+    {
+      "depth": 6,
+      "generated": 27237,
+      "passed": 1200,
+      "best_z": 1.9605382659486774,
+      "best_sim": 0.997001588344574,
+      "breaks": 1200
+    }
+  ],
+  "breaks_total_found": 1200,
+  "note": "1200 states fell below threshold; top 3 retained here"
+}

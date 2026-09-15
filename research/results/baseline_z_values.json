@@ -1,0 +1,27 @@
+[
+  {
+    "prompt_id": 0,
+    "watermarked_z": 3.363765319856875,
+    "detected": true
+  },
+  {
+    "prompt_id": 1,
+    "watermarked_z": 2.8160458729081004,
+    "detected": true
+  },
+  {
+    "prompt_id": 2,
+    "watermarked_z": 3.049618749953805,
+    "detected": true
+  },
+  {
+    "prompt_id": 3,
+    "watermarked_z": 0.6216937087382038,
+    "detected": false
+  },
+  {
+    "prompt_id": 4,
+    "watermarked_z": 1.9549344509427915,
+    "detected": false
+  }
+]
