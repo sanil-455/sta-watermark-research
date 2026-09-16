@@ -4,14 +4,13 @@ This documents an attack on STA-1, the text watermarking
 scheme from *Watermarking Large Language Models: An Unbiased
 and Low-risk Method* (ACL 2025).
 
-The short version: changing about one word in a hundred is
+The short version: changing one or two words in a hundred is
 enough to make watermarked text look unwatermarked, and the
-result still reads like ordinary English.
+result reads like ordinary English.
 
-Six attempts failed before one worked. Each failure is
-documented separately in [`../trials/`](../trials/), because
-the progression of what broke is probably more useful than the
-final number.
+Seven attempts were needed. Each failure is documented
+separately in [`../trials/`](../trials/), because the story of
+what broke is more useful than the final number.
 
 ---
 
@@ -55,8 +54,6 @@ it against the original on five watermarked documents. All
 five matched to zero difference. Not close enough, but
 bit-for-bit identical.
 
-This matters because every number downstream depends on it.
-
     python research/attacks/verify_sta_core.py
 
 One wrinkle worth recording: the paper's published equation
@@ -67,34 +64,42 @@ numbers.
 
 ---
 
-## The result
+## Results
 
-Sample 2, a Johnson Controls earnings article, 788 words.
+Two documents, both broken, no grammatical errors in either.
 
-| | |
-|---|---|
-| Score before | 2.82, flagged as watermarked |
-| Score after | 2.00, not flagged |
-| Words changed | 9 |
-| Proportion of document | 1.1% |
-| Meaning preserved | 99.98% |
-| New grammar errors | 0 |
+| | Sample 2 | Sample 3 |
+|---|---|---|
+| Type | Financial news | Book review |
+| Length | 788 words | 574 words |
+| Score before | 2.82, flagged | 3.05, flagged |
+| Score after | 2.00, not flagged | 1.96, not flagged |
+| Words changed | 9 | 11 |
+| Proportion | 1.1% | 1.9% |
+| Meaning preserved | 99.98% | 99.84% |
+| Grammatical errors | 0 | 0 |
 
-The nine changes:
+Sample 2 changed these nine words:
 
-    reports       ->  describes
-    provides      ->  supplies
-    additional    ->  extra
-    maintain      ->  keep
-    report        ->  describe
-    benefit       ->  profit
-    particularly  ->  especially
-    probably      ->  likely
-    also          ->  (deleted)
+    reports -> describes      provides -> supplies
+    additional -> extra       maintain -> keep
+    report -> describe        benefit -> profit
+    particularly -> especially    probably -> likely
+    also -> (deleted)
 
-Every one is a word a copy editor might suggest. The text was
-read in full and contains no grammatical errors, no misused
-words, and no broken phrases.
+Sample 3 changed these eleven:
+
+    want -> desire            really -> truly
+    very -> really            earnest -> solemn
+    move -> go                spot -> place
+    matters -> things         begin -> start
+    stories -> tales          reaches -> hits
+    away -> off
+
+Both texts were read in full. Sample 2 reads as though a copy
+editor had passed over it. Sample 3 has two awkward moments,
+"truly a really rich memoir" and "moved off from the
+spectacle", neither of which is an error.
 
 For comparison, the original paper reports that rewriting text
 entirely with GPT-3.5 reduces detection accuracy to 0.63. Nine
@@ -104,8 +109,8 @@ words achieve complete evasion.
 
 ## What this means
 
-**Small pools beat large noisy ones.** The final run used 18
-candidate words, down from 159 before filtering, and found
+**Small pools beat large noisy ones.** The Sample 2 run used
+18 candidate words, down from 159 before filtering, and found
 more working attacks at greater depth than the unfiltered
 version. Bad candidates crowd out good ones in a beam search.
 
@@ -116,7 +121,15 @@ what a text is about. They are close to blind to whether it is
 written correctly.
 
 **Fifty attacks, one needs to work.** The defender must stop
-every variant. The attacker picks the best one.
+every variant. The attacker picks the best one. Sample 2
+produced fifty working combinations and thirty-five of them
+avoided the one word that read badly.
+
+**Automated checks narrow the field but do not close it.**
+Sample 3 required three candidates to be blocked by name after
+a person read the output. All three had passed every automated
+gate, including one that was outright ungrammatical. This is
+documented in [trial 7](../trials/07_sample3_blacklist/).
 
 ---
 
@@ -143,7 +156,13 @@ next piece of work.
 
     python research/attacks/verify_sta_core.py
     python research/attacks/scan_samples.py
+
+    # Sample 2
     python research/attacks/run_attack.py 1 --depth 14 --breaks 50 --fit 7.0
+
+    # Sample 3
+    python research/attacks/run_attack.py 2 --depth 18 --breaks 50 \
+        --fit 8.0 --beam 400 --ppl 1.08
 
 Needs nltk with WordNet, spacy with en_core_web_sm,
 lemminflect, language-tool-python which needs Java, and a
@@ -167,12 +186,12 @@ does. It receives writing, not internal representations.
 
 ## Still to do
 
-Sample 3 has not been run with the final filters. It is a
-harder target: thirteen pairs to flip rather than twelve, from
-a smaller pool. It may not break under these constraints,
-which would itself be worth reporting.
-
 The mathematics above needs working out properly.
 
 The collocation problem from trial 6 deserves a real solution
 rather than the workaround used here.
+
+Three of the five documents in our sample were never
+watermarked strongly enough to be detected in the first place.
+That is a small sample and proves nothing on its own, but it
+is worth a longer look.
