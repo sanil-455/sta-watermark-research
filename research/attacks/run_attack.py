@@ -14,6 +14,8 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from sta_core import load_tokenizer, text_to_ids, sta_stats
 from candidates import scan_all
+from context_fit import ContextFit, filter_pool
+from fluency import Fluency
 from beam import search
 
 BASELINE = Path("results/raw/baseline_safe.json")
@@ -27,7 +29,9 @@ def main():
     ap.add_argument("--beam", type=int, default=200)
     ap.add_argument("--rank-width", type=int, default=1200)
     ap.add_argument("--sem", type=float, default=0.95)
-    ap.add_argument("--breaks", type=int, default=5)
+    ap.add_argument("--breaks", type=int, default=50)
+    ap.add_argument("--fit", type=float, default=4.0)
+    ap.add_argument("--ppl", type=float, default=1.05)
     args = ap.parse_args()
 
     tok = load_tokenizer()
@@ -70,13 +74,24 @@ def main():
     if not pool:
         raise SystemExit("empty candidate pool")
 
+    # Reject candidates that are valid synonyms but do not
+    # fit this context. Done once, before the search.
+    fluency = Fluency(tok)
+    fit = ContextFit(tok, fluency.model, fluency.device)
+    pool = filter_pool(pool, ids, fit, max_drop=args.fit)
+
+    if not pool:
+        raise SystemExit("pool empty after contextual filter")
+
     breaks, best, history = search(
         tok, ids, pool,
         max_depth=args.depth,
         beam=args.beam,
         rank_width=args.rank_width,
         sem_threshold=args.sem,
+        max_ppl_ratio=args.ppl,
         max_breaks=args.breaks,
+        fluency=fluency,
     )
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)

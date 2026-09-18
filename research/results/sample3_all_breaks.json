@@ -1,0 +1,407 @@
+{
+  "baseline_z": 3.049618749953805,
+  "best_z": 1.8799019691496057,
+  "total_breaks_found": 50,
+  "breaks": [
+    {
+      "index": 0,
+      "z": 1.963453167778477,
+      "sim": 0.9984267354011536,
+      "ppl_ratio": 1.051627609219949,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + earnest->solemn + move->go + spot->place + matters->things + begin->start + stories->tales + reaches->hits + away->off"
+    },
+    {
+      "index": 1,
+      "z": 1.963453167778477,
+      "sim": 0.9984315037727356,
+      "ppl_ratio": 1.069680708607183,
+      "depth": 11,
+      "edits": "want->desire + really->truly + earnest->solemn + move->go + spot->place + matters->things + begin->start + stories->tales + companion->associate + reaches->hits + away->off"
+    },
+    {
+      "index": 2,
+      "z": 1.963453167778477,
+      "sim": 0.998344361782074,
+      "ppl_ratio": 1.072393157552097,
+      "depth": 11,
+      "edits": "want->desire + really->truly + earnest->solemn + move->go + spot->place + matters->things + begin->start + make->do + stories->tales + reaches->hits + away->off"
+    },
+    {
+      "index": 3,
+      "z": 1.963453167778477,
+      "sim": 0.9979067444801331,
+      "ppl_ratio": 1.0612860322515005,
+      "depth": 11,
+      "edits": "want->desire + really->truly + earnest->solemn + move->go + spot->place + matters->things + begin->start + stories->tales + project->task + reaches->hits + away->off"
+    },
+    {
+      "index": 4,
+      "z": 1.963453167778477,
+      "sim": 0.9984274506568909,
+      "ppl_ratio": 1.0772405499579392,
+      "depth": 11,
+      "edits": "want->desire + very->really + earnest->solemn + move->go + spot->place + matters->things + begin->start + stories->tales + companion->associate + reaches->hits + away->off"
+    },
+    {
+      "index": 5,
+      "z": 1.963453167778477,
+      "sim": 0.9979358911514282,
+      "ppl_ratio": 1.069312720399588,
+      "depth": 11,
+      "edits": "want->desire + very->really + earnest->solemn + move->go + spot->place + matters->things + begin->start + stories->tales + project->task + reaches->hits + away->off"
+    },
+    {
+      "index": 6,
+      "z": 1.963453167778477,
+      "sim": 0.9987359642982483,
+      "ppl_ratio": 1.0718805963052236,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + earnest->solemn + move->go + spot->place + matters->things + begin->start + companion->associate + reaches->hits + away->off"
+    },
+    {
+      "index": 7,
+      "z": 1.963453167778477,
+      "sim": 0.9987602829933167,
+      "ppl_ratio": 1.0742302141219364,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + earnest->solemn + move->go + spot->place + matters->things + begin->start + make->do + reaches->hits + away->off"
+    },
+    {
+      "index": 8,
+      "z": 1.963453167778477,
+      "sim": 0.998336672782898,
+      "ppl_ratio": 1.0635571575716765,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + earnest->solemn + move->go + spot->place + matters->things + begin->start + project->task + reaches->hits + away->off"
+    },
+    {
+      "index": 9,
+      "z": 1.963453167778477,
+      "sim": 0.9989292025566101,
+      "ppl_ratio": 1.0742578350895373,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + move->go + spot->place + matters->things + begin->start + stories->tales + companion->associate + reaches->hits + away->off"
+    },
+    {
+      "index": 10,
+      "z": 1.963453167778477,
+      "sim": 0.998883843421936,
+      "ppl_ratio": 1.077146935855722,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + move->go + spot->place + matters->things + begin->start + make->do + stories->tales + reaches->hits + away->off"
+    },
+    {
+      "index": 11,
+      "z": 1.963453167778477,
+      "sim": 0.9984615445137024,
+      "ppl_ratio": 1.066662068999275,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + move->go + spot->place + matters->things + begin->start + stories->tales + project->task + reaches->hits + away->off"
+    },
+    {
+      "index": 12,
+      "z": 1.963453167778477,
+      "sim": 0.9983140230178833,
+      "ppl_ratio": 1.0447090812846618,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + earnest->solemn + move->travel + spot->place + matters->things + begin->start + stories->tales + reaches->hits + away->off"
+    },
+    {
+      "index": 13,
+      "z": 1.963453167778477,
+      "sim": 0.9984978437423706,
+      "ppl_ratio": 1.073204392363187,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + earnest->solemn + spot->place + matters->things + begin->start + stories->tales + companion->associate + reaches->hits + away->off"
+    },
+    {
+      "index": 14,
+      "z": 1.963453167778477,
+      "sim": 0.9984087944030762,
+      "ppl_ratio": 1.0765808808361532,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + earnest->solemn + spot->place + matters->things + begin->start + make->do + stories->tales + reaches->hits + away->off"
+    },
+    {
+      "index": 15,
+      "z": 1.963453167778477,
+      "sim": 0.9979944825172424,
+      "ppl_ratio": 1.0654817970830859,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + earnest->solemn + spot->place + matters->things + begin->start + stories->tales + project->task + reaches->hits + away->off"
+    },
+    {
+      "index": 16,
+      "z": 1.963453167778477,
+      "sim": 0.9983274340629578,
+      "ppl_ratio": 1.0626657695096684,
+      "depth": 11,
+      "edits": "want->desire + really->truly + earnest->solemn + move->travel + spot->place + matters->things + begin->start + stories->tales + companion->associate + reaches->hits + away->off"
+    },
+    {
+      "index": 17,
+      "z": 1.963453167778477,
+      "sim": 0.9981933832168579,
+      "ppl_ratio": 1.0735322602412605,
+      "depth": 11,
+      "edits": "want->desire + really->truly + earnest->solemn + move->travel + spot->place + matters->things + begin->start + stories->tales + companion->fellow + reaches->hits + away->off"
+    },
+    {
+      "index": 18,
+      "z": 1.963453167778477,
+      "sim": 0.9982383847236633,
+      "ppl_ratio": 1.0651430031893476,
+      "depth": 11,
+      "edits": "want->desire + really->truly + earnest->solemn + move->travel + spot->place + matters->things + begin->start + make->do + stories->tales + reaches->hits + away->off"
+    },
+    {
+      "index": 19,
+      "z": 1.963453167778477,
+      "sim": 0.9977976083755493,
+      "ppl_ratio": 1.0544277285145582,
+      "depth": 11,
+      "edits": "want->desire + really->truly + earnest->solemn + move->travel + spot->place + matters->things + begin->start + stories->tales + project->task + reaches->hits + away->off"
+    },
+    {
+      "index": 20,
+      "z": 1.963453167778477,
+      "sim": 0.998325765132904,
+      "ppl_ratio": 1.0700794644748906,
+      "depth": 11,
+      "edits": "want->desire + very->really + earnest->solemn + move->travel + spot->place + matters->things + begin->start + stories->tales + companion->associate + reaches->hits + away->off"
+    },
+    {
+      "index": 21,
+      "z": 1.963453167778477,
+      "sim": 0.9982479214668274,
+      "ppl_ratio": 1.07292477377029,
+      "depth": 11,
+      "edits": "want->desire + very->really + earnest->solemn + move->travel + spot->place + matters->things + begin->start + make->do + stories->tales + reaches->hits + away->off"
+    },
+    {
+      "index": 22,
+      "z": 1.963453167778477,
+      "sim": 0.9978287816047668,
+      "ppl_ratio": 1.0619626585495985,
+      "depth": 11,
+      "edits": "want->desire + very->really + earnest->solemn + move->travel + spot->place + matters->things + begin->start + stories->tales + project->task + reaches->hits + away->off"
+    },
+    {
+      "index": 23,
+      "z": 1.963453167778477,
+      "sim": 0.9986353516578674,
+      "ppl_ratio": 1.065084264929133,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + earnest->solemn + move->travel + spot->place + matters->things + begin->start + companion->associate + reaches->hits + away->off"
+    },
+    {
+      "index": 24,
+      "z": 1.963453167778477,
+      "sim": 0.9985449314117432,
+      "ppl_ratio": 1.075180864892911,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + earnest->solemn + move->travel + spot->place + matters->things + begin->start + companion->fellow + reaches->hits + away->off"
+    },
+    {
+      "index": 25,
+      "z": 1.963453167778477,
+      "sim": 0.9986568093299866,
+      "ppl_ratio": 1.0670289209012407,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + earnest->solemn + move->travel + spot->place + matters->things + begin->start + make->do + reaches->hits + away->off"
+    },
+    {
+      "index": 26,
+      "z": 1.963453167778477,
+      "sim": 0.9982298612594604,
+      "ppl_ratio": 1.0564223819343488,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + earnest->solemn + move->travel + spot->place + matters->things + begin->start + project->task + reaches->hits + away->off"
+    },
+    {
+      "index": 27,
+      "z": 1.963453167778477,
+      "sim": 0.9980339407920837,
+      "ppl_ratio": 1.074517349813611,
+      "depth": 11,
+      "edits": "want->desire + really->truly + earnest->solemn + move->travel + spot->place + matters->things + begin->start + project->task + companion->associate + reaches->hits + away->off"
+    },
+    {
+      "index": 28,
+      "z": 1.963453167778477,
+      "sim": 0.9980162978172302,
+      "ppl_ratio": 1.0778392956163776,
+      "depth": 11,
+      "edits": "want->desire + really->truly + earnest->solemn + move->travel + spot->place + matters->things + begin->start + make->do + project->task + reaches->hits + away->off"
+    },
+    {
+      "index": 29,
+      "z": 1.963453167778477,
+      "sim": 0.9988508224487305,
+      "ppl_ratio": 1.067676090661106,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + move->travel + spot->place + matters->things + begin->start + stories->tales + companion->associate + reaches->hits + away->off"
+    },
+    {
+      "index": 30,
+      "z": 1.963453167778477,
+      "sim": 0.9987481832504272,
+      "ppl_ratio": 1.0786200249917313,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + move->travel + spot->place + matters->things + begin->start + stories->tales + companion->fellow + reaches->hits + away->off"
+    },
+    {
+      "index": 31,
+      "z": 1.963453167778477,
+      "sim": 0.9988035559654236,
+      "ppl_ratio": 1.0702113633359975,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + move->travel + spot->place + matters->things + begin->start + make->do + stories->tales + reaches->hits + away->off"
+    },
+    {
+      "index": 32,
+      "z": 1.963453167778477,
+      "sim": 0.9983770847320557,
+      "ppl_ratio": 1.0597993074479415,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + move->travel + spot->place + matters->things + begin->start + stories->tales + project->task + reaches->hits + away->off"
+    },
+    {
+      "index": 33,
+      "z": 1.963453167778477,
+      "sim": 0.9982206225395203,
+      "ppl_ratio": 1.076183873130952,
+      "depth": 11,
+      "edits": "want->desire + really->truly + move->travel + spot->place + matters->things + begin->start + stories->tales + project->task + companion->associate + reaches->hits + away->off"
+    },
+    {
+      "index": 34,
+      "z": 1.963453167778477,
+      "sim": 0.9985812902450562,
+      "ppl_ratio": 1.0786940596738768,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + move->travel + spot->place + matters->things + begin->start + project->task + companion->associate + reaches->hits + away->off"
+    },
+    {
+      "index": 35,
+      "z": 1.963453167778477,
+      "sim": 0.9985083937644958,
+      "ppl_ratio": 1.0788489468719429,
+      "depth": 11,
+      "edits": "really->truly + very->really + earnest->solemn + move->go + spot->place + matters->things + begin->start + stories->tales + companion->associate + reaches->hits + away->off"
+    },
+    {
+      "index": 36,
+      "z": 1.963453167778477,
+      "sim": 0.9980618953704834,
+      "ppl_ratio": 1.0713591194295675,
+      "depth": 11,
+      "edits": "really->truly + very->really + earnest->solemn + move->go + spot->place + matters->things + begin->start + stories->tales + project->task + reaches->hits + away->off"
+    },
+    {
+      "index": 37,
+      "z": 1.963453167778477,
+      "sim": 0.9984082579612732,
+      "ppl_ratio": 1.0717944993017838,
+      "depth": 11,
+      "edits": "really->truly + very->really + earnest->solemn + move->travel + spot->place + matters->things + begin->start + stories->tales + companion->associate + reaches->hits + away->off"
+    },
+    {
+      "index": 38,
+      "z": 1.963453167778477,
+      "sim": 0.9983446002006531,
+      "ppl_ratio": 1.0747650644407662,
+      "depth": 11,
+      "edits": "really->truly + very->really + earnest->solemn + move->travel + spot->place + matters->things + begin->start + make->do + stories->tales + reaches->hits + away->off"
+    },
+    {
+      "index": 39,
+      "z": 1.963453167778477,
+      "sim": 0.9979568719863892,
+      "ppl_ratio": 1.0639594097643967,
+      "depth": 11,
+      "edits": "really->truly + very->really + earnest->solemn + move->travel + spot->place + matters->things + begin->start + stories->tales + project->task + reaches->hits + away->off"
+    },
+    {
+      "index": 40,
+      "z": 1.963453167778477,
+      "sim": 0.9984954595565796,
+      "ppl_ratio": 1.0779648136843365,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + earnest->solemn + move->go + spot->place + matters->things + begin->start + stories->tales + companion->associate + away->off"
+    },
+    {
+      "index": 41,
+      "z": 1.963453167778477,
+      "sim": 0.997977077960968,
+      "ppl_ratio": 1.0712250353653274,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + earnest->solemn + move->go + spot->place + matters->things + begin->start + stories->tales + project->task + away->off"
+    },
+    {
+      "index": 42,
+      "z": 1.963453167778477,
+      "sim": 0.9983910918235779,
+      "ppl_ratio": 1.0708909615103566,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + earnest->solemn + move->travel + spot->place + matters->things + begin->start + stories->tales + companion->associate + away->off"
+    },
+    {
+      "index": 43,
+      "z": 1.963453167778477,
+      "sim": 0.9982889294624329,
+      "ppl_ratio": 1.0733599788262558,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + earnest->solemn + move->travel + spot->place + matters->things + begin->start + make->do + stories->tales + away->off"
+    },
+    {
+      "index": 44,
+      "z": 1.963453167778477,
+      "sim": 0.9978682398796082,
+      "ppl_ratio": 1.063919551659251,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + earnest->solemn + move->travel + spot->place + matters->things + begin->start + stories->tales + project->task + away->off"
+    },
+    {
+      "index": 45,
+      "z": 1.963453167778477,
+      "sim": 0.9979321956634521,
+      "ppl_ratio": 1.075412846057509,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + earnest->solemn + move->go + spot->place + matters->things + stories->tales + project->task + reaches->hits + away->off"
+    },
+    {
+      "index": 46,
+      "z": 1.963453167778477,
+      "sim": 0.9983503222465515,
+      "ppl_ratio": 1.0760060850040523,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + earnest->solemn + move->travel + spot->place + matters->things + stories->tales + companion->associate + reaches->hits + away->off"
+    },
+    {
+      "index": 47,
+      "z": 1.963453167778477,
+      "sim": 0.9982420206069946,
+      "ppl_ratio": 1.0789747271642776,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + earnest->solemn + move->travel + spot->place + matters->things + make->do + stories->tales + reaches->hits + away->off"
+    },
+    {
+      "index": 48,
+      "z": 1.963453167778477,
+      "sim": 0.9978199005126953,
+      "ppl_ratio": 1.0682519353907107,
+      "depth": 11,
+      "edits": "want->desire + really->truly + very->really + earnest->solemn + move->travel + spot->place + matters->things + stories->tales + project->task + reaches->hits + away->off"
+    },
+    {
+      "index": 49,
+      "z": 1.8799019691496057,
+      "sim": 0.9979613423347473,
+      "ppl_ratio": 1.074101199728965,
+      "depth": 12,
+      "edits": "want->desire + really->truly + very->really + earnest->solemn + move->go + spot->place + matters->things + begin->start + stories->tales + project->task + reaches->hits + away->off"
+    }
+  ]
+}

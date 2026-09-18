@@ -1,0 +1,407 @@
+{
+  "baseline_z": 2.8160458729081004,
+  "best_z": 1.9630341781826866,
+  "total_breaks_found": 50,
+  "breaks": [
+    {
+      "index": 0,
+      "z": 1.9974538500179806,
+      "sim": 0.9997499585151672,
+      "ppl_ratio": 1.048148382684638,
+      "depth": 9,
+      "edits": "reports->describes + additional->extra + maintain->keep + report->describe + benefit->profit + particularly->especially + del(also) + making->doing + probably->likely"
+    },
+    {
+      "index": 1,
+      "z": 1.9974538500179806,
+      "sim": 0.9998476505279541,
+      "ppl_ratio": 1.049723997812563,
+      "depth": 9,
+      "edits": "provides->supplies + contribution->share + additional->extra + maintain->keep + benefit->profit + particularly->especially + del(also) + making->doing + probably->likely"
+    },
+    {
+      "index": 2,
+      "z": 1.9974538500179806,
+      "sim": 0.9998556971549988,
+      "ppl_ratio": 1.048600322874861,
+      "depth": 9,
+      "edits": "contribution->share + additional->extra + maintain->keep + report->describe + benefit->profit + particularly->especially + del(also) + making->doing + probably->likely"
+    },
+    {
+      "index": 3,
+      "z": 1.9974538500179806,
+      "sim": 0.9998883008956909,
+      "ppl_ratio": 1.0478593948082082,
+      "depth": 9,
+      "edits": "provides->supplies + additional->extra + maintain->keep + benefit->profit + particularly->especially + growth->development + del(also) + making->doing + probably->likely"
+    },
+    {
+      "index": 4,
+      "z": 1.9974538500179806,
+      "sim": 0.9998883008956909,
+      "ppl_ratio": 1.0480965218142515,
+      "depth": 9,
+      "edits": "provides->supplies + additional->extra + maintain->keep + benefit->profit + particularly->especially + del(also) + making->doing + projects->tasks + probably->likely"
+    },
+    {
+      "index": 5,
+      "z": 1.9974538500179806,
+      "sim": 0.9998736381530762,
+      "ppl_ratio": 1.0429578601768155,
+      "depth": 9,
+      "edits": "provides->supplies + additional->extra + maintain->keep + report->describe + benefit->profit + particularly->especially + del(also) + making->doing + probably->likely"
+    },
+    {
+      "index": 6,
+      "z": 1.9974538500179806,
+      "sim": 0.9994134902954102,
+      "ppl_ratio": 1.048210479253127,
+      "depth": 9,
+      "edits": "provides->supplies + additional->extra + maintain->keep + growth->growing + benefit->profit + particularly->especially + del(also) + making->doing + probably->likely"
+    },
+    {
+      "index": 7,
+      "z": 1.9974538500179806,
+      "sim": 0.99991774559021,
+      "ppl_ratio": 1.0468733558909922,
+      "depth": 9,
+      "edits": "additional->extra + maintain->keep + report->describe + benefit->profit + particularly->especially + growth->development + del(also) + making->doing + probably->likely"
+    },
+    {
+      "index": 8,
+      "z": 1.9974538500179806,
+      "sim": 0.99991774559021,
+      "ppl_ratio": 1.0470313268317089,
+      "depth": 9,
+      "edits": "additional->extra + maintain->keep + report->describe + benefit->profit + particularly->especially + del(also) + making->doing + projects->tasks + probably->likely"
+    },
+    {
+      "index": 9,
+      "z": 1.9974538500179806,
+      "sim": 0.9995250701904297,
+      "ppl_ratio": 1.047136072142292,
+      "depth": 9,
+      "edits": "additional->extra + maintain->keep + growth->growing + report->describe + benefit->profit + particularly->especially + del(also) + making->doing + probably->likely"
+    },
+    {
+      "index": 10,
+      "z": 1.9974538500179806,
+      "sim": 0.9996935129165649,
+      "ppl_ratio": 1.0488801668609857,
+      "depth": 9,
+      "edits": "reports->describes + contribution->share + additional->extra + maintain->keep + report->describe + benefit->profit + particularly->especially + del(also) + probably->likely"
+    },
+    {
+      "index": 11,
+      "z": 1.9974538500179806,
+      "sim": 0.9998298287391663,
+      "ppl_ratio": 1.0499464536513259,
+      "depth": 9,
+      "edits": "reports->describes + provides->supplies + additional->extra + maintain->keep + benefit->profit + particularly->especially + growth->development + del(also) + probably->likely"
+    },
+    {
+      "index": 12,
+      "z": 1.9974538500179806,
+      "sim": 0.999761700630188,
+      "ppl_ratio": 1.0424430728002427,
+      "depth": 9,
+      "edits": "reports->describes + provides->supplies + additional->extra + maintain->keep + report->describe + benefit->profit + particularly->especially + del(also) + probably->likely"
+    },
+    {
+      "index": 13,
+      "z": 1.9974538500179806,
+      "sim": 0.9997499585151672,
+      "ppl_ratio": 1.047521070866924,
+      "depth": 9,
+      "edits": "reports->describes + additional->extra + maintain->keep + report->describe + benefit->profit + particularly->especially + growth->development + del(also) + probably->likely"
+    },
+    {
+      "index": 14,
+      "z": 1.9974538500179806,
+      "sim": 0.9997499585151672,
+      "ppl_ratio": 1.0474097747095552,
+      "depth": 9,
+      "edits": "reports->describes + additional->extra + maintain->keep + report->describe + benefit->profit + particularly->especially + del(also) + projects->tasks + probably->likely"
+    },
+    {
+      "index": 15,
+      "z": 1.9974538500179806,
+      "sim": 0.9993863701820374,
+      "ppl_ratio": 1.0478398105058386,
+      "depth": 9,
+      "edits": "reports->describes + additional->extra + maintain->keep + growth->growing + report->describe + benefit->profit + particularly->especially + del(also) + probably->likely"
+    },
+    {
+      "index": 16,
+      "z": 1.9974538500179806,
+      "sim": 0.9998476505279541,
+      "ppl_ratio": 1.048872455968415,
+      "depth": 9,
+      "edits": "provides->supplies + contribution->share + additional->extra + maintain->keep + benefit->profit + particularly->especially + growth->development + del(also) + probably->likely"
+    },
+    {
+      "index": 17,
+      "z": 1.9974538500179806,
+      "sim": 0.9998476505279541,
+      "ppl_ratio": 1.0490984601825202,
+      "depth": 9,
+      "edits": "provides->supplies + contribution->share + additional->extra + maintain->keep + benefit->profit + particularly->especially + del(also) + projects->tasks + probably->likely"
+    },
+    {
+      "index": 18,
+      "z": 1.9974538500179806,
+      "sim": 0.9998393058776855,
+      "ppl_ratio": 1.0438273486116367,
+      "depth": 9,
+      "edits": "provides->supplies + contribution->share + additional->extra + maintain->keep + report->describe + benefit->profit + particularly->especially + del(also) + probably->likely"
+    },
+    {
+      "index": 19,
+      "z": 1.9974538500179806,
+      "sim": 0.9993682503700256,
+      "ppl_ratio": 1.0494328263205381,
+      "depth": 9,
+      "edits": "provides->supplies + contribution->share + additional->extra + maintain->keep + growth->growing + benefit->profit + particularly->especially + del(also) + probably->likely"
+    },
+    {
+      "index": 20,
+      "z": 1.9974538500179806,
+      "sim": 0.9998556971549988,
+      "ppl_ratio": 1.0478333278970404,
+      "depth": 9,
+      "edits": "contribution->share + additional->extra + maintain->keep + report->describe + benefit->profit + particularly->especially + growth->development + del(also) + probably->likely"
+    },
+    {
+      "index": 21,
+      "z": 1.9974538500179806,
+      "sim": 0.9998556971549988,
+      "ppl_ratio": 1.04788484757749,
+      "depth": 9,
+      "edits": "contribution->share + additional->extra + maintain->keep + report->describe + benefit->profit + particularly->especially + del(also) + projects->tasks + probably->likely"
+    },
+    {
+      "index": 22,
+      "z": 1.9974538500179806,
+      "sim": 0.9994567036628723,
+      "ppl_ratio": 1.0483283944952688,
+      "depth": 9,
+      "edits": "contribution->share + additional->extra + maintain->keep + growth->growing + report->describe + benefit->profit + particularly->especially + del(also) + probably->likely"
+    },
+    {
+      "index": 23,
+      "z": 1.9974538500179806,
+      "sim": 0.9998883008956909,
+      "ppl_ratio": 1.0470785475189555,
+      "depth": 9,
+      "edits": "provides->supplies + additional->extra + maintain->keep + benefit->profit + particularly->especially + growth->development + del(also) + projects->tasks + probably->likely"
+    },
+    {
+      "index": 24,
+      "z": 1.9974538500179806,
+      "sim": 0.9998736381530762,
+      "ppl_ratio": 1.0419536699549643,
+      "depth": 9,
+      "edits": "provides->supplies + additional->extra + maintain->keep + report->describe + benefit->profit + particularly->especially + growth->development + del(also) + probably->likely"
+    },
+    {
+      "index": 25,
+      "z": 1.9974538500179806,
+      "sim": 0.9994134902954102,
+      "ppl_ratio": 1.047512336404543,
+      "depth": 9,
+      "edits": "provides->supplies + additional->extra + maintain->keep + growth->growing + benefit->profit + particularly->especially + growth->development + del(also) + probably->likely"
+    },
+    {
+      "index": 26,
+      "z": 1.9974538500179806,
+      "sim": 0.9998736381530762,
+      "ppl_ratio": 1.042288377282919,
+      "depth": 9,
+      "edits": "provides->supplies + additional->extra + maintain->keep + report->describe + benefit->profit + particularly->especially + del(also) + projects->tasks + probably->likely"
+    },
+    {
+      "index": 27,
+      "z": 1.9974538500179806,
+      "sim": 0.9994134902954102,
+      "ppl_ratio": 1.0476330494041663,
+      "depth": 9,
+      "edits": "provides->supplies + additional->extra + maintain->keep + growth->growing + benefit->profit + particularly->especially + del(also) + projects->tasks + probably->likely"
+    },
+    {
+      "index": 28,
+      "z": 1.9974538500179806,
+      "sim": 0.9994336366653442,
+      "ppl_ratio": 1.0424492824570917,
+      "depth": 9,
+      "edits": "provides->supplies + additional->extra + maintain->keep + growth->growing + report->describe + benefit->profit + particularly->especially + del(also) + probably->likely"
+    },
+    {
+      "index": 29,
+      "z": 1.9974538500179806,
+      "sim": 0.9998736381530762,
+      "ppl_ratio": 1.0466400502122406,
+      "depth": 9,
+      "edits": "provides->supplies + additional->extra + maintain->keep + report->describe + benefit->profit + particularly->especially + growth->growing + del(also) + probably->likely"
+    },
+    {
+      "index": 30,
+      "z": 1.9974538500179806,
+      "sim": 0.99991774559021,
+      "ppl_ratio": 1.046075312628927,
+      "depth": 9,
+      "edits": "additional->extra + maintain->keep + report->describe + benefit->profit + particularly->especially + growth->development + del(also) + projects->tasks + probably->likely"
+    },
+    {
+      "index": 31,
+      "z": 1.9974538500179806,
+      "sim": 0.9995250701904297,
+      "ppl_ratio": 1.0463911180343857,
+      "depth": 9,
+      "edits": "additional->extra + maintain->keep + growth->growing + report->describe + benefit->profit + particularly->especially + growth->development + del(also) + probably->likely"
+    },
+    {
+      "index": 32,
+      "z": 1.9974538500179806,
+      "sim": 0.9995250701904297,
+      "ppl_ratio": 1.0465222714460736,
+      "depth": 9,
+      "edits": "additional->extra + maintain->keep + growth->growing + report->describe + benefit->profit + particularly->especially + del(also) + projects->tasks + probably->likely"
+    },
+    {
+      "index": 33,
+      "z": 1.9630341781826866,
+      "sim": 0.9988636374473572,
+      "ppl_ratio": 1.0485531021876144,
+      "depth": 10,
+      "edits": "provides->supplies + additional->extra + maintain->keep + del(already) + report->describe + benefit->profit + particularly->especially + del(also) + making->doing + probably->likely"
+    },
+    {
+      "index": 34,
+      "z": 1.9630341781826866,
+      "sim": 0.9993961453437805,
+      "ppl_ratio": 1.0456041975642587,
+      "depth": 10,
+      "edits": "provides->supplies + additional->extra + maintain->keep + del(also) + report->describe + benefit->profit + particularly->especially + del(also) + making->doing + probably->likely"
+    },
+    {
+      "index": 35,
+      "z": 1.9630341781826866,
+      "sim": 0.9994509816169739,
+      "ppl_ratio": 1.0495862253161024,
+      "depth": 10,
+      "edits": "additional->extra + maintain->keep + del(also) + report->describe + benefit->profit + particularly->especially + growth->development + del(also) + making->doing + probably->likely"
+    },
+    {
+      "index": 36,
+      "z": 1.9630341781826866,
+      "sim": 0.9994509816169739,
+      "ppl_ratio": 1.0498354304459065,
+      "depth": 10,
+      "edits": "additional->extra + maintain->keep + del(also) + report->describe + benefit->profit + particularly->especially + del(also) + making->doing + projects->tasks + probably->likely"
+    },
+    {
+      "index": 37,
+      "z": 1.9630341781826866,
+      "sim": 0.9990468621253967,
+      "ppl_ratio": 1.0498780109500134,
+      "depth": 10,
+      "edits": "additional->extra + maintain->keep + growth->growing + del(also) + report->describe + benefit->profit + particularly->especially + del(also) + making->doing + probably->likely"
+    },
+    {
+      "index": 38,
+      "z": 1.9630341781826866,
+      "sim": 0.9988000988960266,
+      "ppl_ratio": 1.0479154864338105,
+      "depth": 10,
+      "edits": "reports->describes + provides->supplies + additional->extra + maintain->keep + del(already) + report->describe + benefit->profit + particularly->especially + del(also) + probably->likely"
+    },
+    {
+      "index": 39,
+      "z": 1.9630341781826866,
+      "sim": 0.9993513226509094,
+      "ppl_ratio": 1.045191016550851,
+      "depth": 10,
+      "edits": "reports->describes + provides->supplies + additional->extra + maintain->keep + del(also) + report->describe + benefit->profit + particularly->especially + del(also) + probably->likely"
+    },
+    {
+      "index": 40,
+      "z": 1.9630341781826866,
+      "sim": 0.9988558888435364,
+      "ppl_ratio": 1.049276493091518,
+      "depth": 10,
+      "edits": "provides->supplies + contribution->share + additional->extra + maintain->keep + del(already) + report->describe + benefit->profit + particularly->especially + del(also) + probably->likely"
+    },
+    {
+      "index": 41,
+      "z": 1.9630341781826866,
+      "sim": 0.9993501305580139,
+      "ppl_ratio": 1.046468841101978,
+      "depth": 10,
+      "edits": "provides->supplies + contribution->share + additional->extra + maintain->keep + del(also) + report->describe + benefit->profit + particularly->especially + del(also) + probably->likely"
+    },
+    {
+      "index": 42,
+      "z": 1.9630341781826866,
+      "sim": 0.9993775486946106,
+      "ppl_ratio": 1.0497228377667782,
+      "depth": 10,
+      "edits": "provides->supplies + additional->extra + maintain->keep + del(also) + benefit->profit + particularly->especially + growth->development + del(also) + projects->tasks + probably->likely"
+    },
+    {
+      "index": 43,
+      "z": 1.9630341781826866,
+      "sim": 0.9988636374473572,
+      "ppl_ratio": 1.0474305872956973,
+      "depth": 10,
+      "edits": "provides->supplies + additional->extra + maintain->keep + del(already) + report->describe + benefit->profit + particularly->especially + growth->development + del(also) + probably->likely"
+    },
+    {
+      "index": 44,
+      "z": 1.9630341781826866,
+      "sim": 0.9993961453437805,
+      "ppl_ratio": 1.0446759562223287,
+      "depth": 10,
+      "edits": "provides->supplies + additional->extra + maintain->keep + del(also) + report->describe + benefit->profit + particularly->especially + growth->development + del(also) + probably->likely"
+    },
+    {
+      "index": 45,
+      "z": 1.9630341781826866,
+      "sim": 0.9988636374473572,
+      "ppl_ratio": 1.047818110825861,
+      "depth": 10,
+      "edits": "provides->supplies + additional->extra + maintain->keep + del(already) + report->describe + benefit->profit + particularly->especially + del(also) + projects->tasks + probably->likely"
+    },
+    {
+      "index": 46,
+      "z": 1.9630341781826866,
+      "sim": 0.9993961453437805,
+      "ppl_ratio": 1.0449227730225756,
+      "depth": 10,
+      "edits": "provides->supplies + additional->extra + maintain->keep + del(also) + report->describe + benefit->profit + particularly->especially + del(also) + projects->tasks + probably->likely"
+    },
+    {
+      "index": 47,
+      "z": 1.9630341781826866,
+      "sim": 0.9984052777290344,
+      "ppl_ratio": 1.048552419807741,
+      "depth": 10,
+      "edits": "provides->supplies + additional->extra + maintain->keep + del(already) + growth->growing + report->describe + benefit->profit + particularly->especially + del(also) + probably->likely"
+    },
+    {
+      "index": 48,
+      "z": 1.9630341781826866,
+      "sim": 0.9989473819732666,
+      "ppl_ratio": 1.0453448249743391,
+      "depth": 10,
+      "edits": "provides->supplies + additional->extra + maintain->keep + growth->growing + del(also) + report->describe + benefit->profit + particularly->especially + del(also) + probably->likely"
+    },
+    {
+      "index": 49,
+      "z": 1.9630341781826866,
+      "sim": 0.9993961453437805,
+      "ppl_ratio": 1.0491669028838329,
+      "depth": 10,
+      "edits": "provides->supplies + additional->extra + maintain->keep + del(also) + report->describe + benefit->profit + particularly->especially + growth->growing + del(also) + probably->likely"
+    }
+  ]
+}

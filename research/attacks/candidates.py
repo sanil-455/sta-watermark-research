@@ -12,6 +12,7 @@ they rank candidates cheaply. Truth comes from the detector.
 """
 
 import spacy
+from lemminflect import getInflection
 from nltk.corpus import wordnet as wn
 
 from sta_core import is_green_pair
@@ -34,6 +35,21 @@ DELETABLE_POS = {"ADV", "ADJ", "INTJ", "PART"}
 
 # POS tags eligible for substitution.
 REPLACEABLE_POS = {"NOUN", "VERB", "ADJ", "ADV"}
+
+# Fine-grained tags that are already base forms.
+#
+# WordNet lemma names are always base forms, so an inflected
+# source word can only receive a mismatched replacement:
+#   matters (NNS) -> matter (NN)   "These are also matter"
+#   reaches (VBZ) -> hit  (VB)     "as he hit two milestones"
+# Restricting substitution to base-form sources removes this
+# whole failure class.
+#
+# The check is on the SOURCE only. Tagging a candidate in
+# isolation is unreliable -- spaCy reads bare "solemn" as a
+# verb and bare "place" as a noun -- so comparing source tag
+# to isolated candidate tag would reject good edits.
+BASE_FORM_TAGS = {"NN", "VB", "VBP", "JJ", "RB"}
 
 # WordNet POS codes keyed by spaCy tag.
 WN_POS = {
@@ -143,6 +159,17 @@ def scan_substitutions(ids, tokenizer, pos_map, min_drop=1):
         before = _green(ids, i - 1) + _green(ids, i)
 
         for syn in synonyms(word, tok.pos_):
+            # WordNet lemmas are base forms. Inflect to match
+            # the source tag, otherwise an inflected source
+            # receives a mismatched replacement:
+            #   matters (NNS) -> matter  "These are also matter"
+            #   reaches (VBZ) -> hit     "as he hit two ..."
+            if tok.tag_ not in BASE_FORM_TAGS:
+                forms = getInflection(syn, tag=tok.tag_)
+                if not forms:
+                    continue
+                syn = forms[0]
+
             enc = tokenizer.encode(
                 " " + syn, add_special_tokens=False
             )
