@@ -14,7 +14,7 @@
     "breaks": 50,
     "fit": 7.0
   },
-  "best_z": 1.9630341781826866,
+  "best_z": 1.9974538500179806,
   "delta_z": -0.8530116947254138,
   "breaks_found": 50,
   "breaks": [
@@ -140,5 +140,6 @@
       "best_ppl_ratio": 1.0485531021876144,
       "breaks": 50
     }
-  ]
+  ],
+  "note": "A deeper search candidate reached z=1.9630 using two stacked deletions, but was not manually verified for readability. This file keeps the verified, human-read clean break instead (z=1.9975, 9 edits, no grammar errors). Full candidate list: sample2_all_breaks.json"
 }
