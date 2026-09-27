@@ -1,5 +1,6 @@
 """
 Perplexity gate using the generating model.
+# IT MEANS THAT HOW MUCH THE NEW TEXT IS LESS LIKELY TO BE GENRATED THAN ORIGINAL TEXT
 
 Embedding similarity measures topical overlap and is close to
 blind to grammar and word sense: "capable to execute" scored
@@ -28,7 +29,7 @@ class Fluency:
             device_map=self.device,
         ).eval()
         self.base = None
-
+    # tokenize the whole text capping at 2048 tokens and move resulting numbers 
     @torch.no_grad()
     def perplexity(self, text):
         ids = self.tok(
@@ -38,12 +39,14 @@ class Fluency:
             max_length=2048,
         ).input_ids.to(self.device)
 
+        # if theres fewer than 2 tokens thers no meaningful next token ..
         if ids.shape[1] < 2:
             return float("inf")
-
+        # average over all the tokens is the loss
         loss = self.model(ids, labels=ids).loss
         return float(torch.exp(loss))
-
+    # Measures the perplexity of one specific piece of text — intended to be the original,
+    # unedited document and stores it in self.base for later comparisons.
     def set_reference(self, text):
         self.base = self.perplexity(text)
         return self.base
