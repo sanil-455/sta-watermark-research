@@ -184,14 +184,4 @@ does. It receives writing, not internal representations.
 
 ---
 
-## Still to do
 
-The mathematics above needs working out properly.
-
-The collocation problem from trial 6 deserves a real solution
-rather than the workaround used here.
-
-Three of the five documents in our sample were never
-watermarked strongly enough to be detected in the first place.
-That is a small sample and proves nothing on its own, but it
-is worth a longer look.
