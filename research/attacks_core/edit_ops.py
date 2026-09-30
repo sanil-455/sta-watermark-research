@@ -85,6 +85,8 @@ def roundtrip_ids(tokenizer, token_ids, edits):
 def edit_signature(edits):
     # this creates a unique identity for an edit set.
     # we use tuple as it is immutable if we later use it in set
+    # we sort as in beam.py the search explores many different paths, 
+    #and it's entirely possible for two different paths to arrive at the same underlying set of edits
     return tuple(sorted(
         (e["pos"], e["type"], e["new_id"]) for e in edits
     ))
