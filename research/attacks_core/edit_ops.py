@@ -83,6 +83,9 @@ def roundtrip_ids(tokenizer, token_ids, edits):
 
 
 def edit_signature(edits):
+    # candidates.py's scan_deletions, the only place that currently creates delete edits
+    # always passes None so even though passing token id for delete can harm this fn its fine
+    
     # this creates a unique identity for an edit set.
     # we use tuple as it is immutable if we later use it in set
     # we sort as in beam.py the search explores many different paths, 
