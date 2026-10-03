@@ -88,3 +88,55 @@ Generated-span scoring (the paper's protocol):
 
 Only the second speaks to STA-1 as published. The first is a real
 deployment scenario but a different claim.
+
+## Session 2: expansion attack
+
+Multi-token substitution ("said" -> "went on to say") destroys the
+two pairs around the trigger AND raises gamma*T by 0.5(k-1), so the
+numerator falls by 2 + 0.5(k-1). At k=5 that is -4.0, twice a plain
+substitution. Most efficient operation found.
+
+Numerator change per operation, best case:
+  single substitution   -2.0
+  deletion              -1.5  (also shrinks the denominator)
+  adjacent swap         -3.0  (untested)
+  insert 5 tokens       -3.5
+  substitute 1->5       -4.0
+
+research/blackbox/expansions.py: 123 triggers, 248 phrases.
+Coverage 9-17 hits per 200-token span, clears the ~8 needed.
+
+Span sweep WITH expansions (results/raw/span_sweep_exp.json):
+  id     z0      z1   edits  queries  broke
+  25   3.818   1.816      9       17  YES
+  20   3.253   1.888     10       12  YES
+   0   3.960   1.925     10       14  YES
+  22   4.667   1.972     20       81  YES
+  24   5.091   3.283     16       74  no
+   2   5.515   1.957     19       77  YES
+  23   5.374   2.133     20      105  no
+   1   6.505   3.486     18       72  no
+  27   6.364   2.772     18       36  no
+
+5 of 9 on z. QUALITY AUDIT NOT DONE except prompt 0, which FAILED.
+
+## Why prompt 0 failed, and the fix
+
+The table assumed every expansion is interchangeable with its
+trigger in any context. False for function words:
+
+  "isn't the no more than one"     only->no more than
+  "in love along with Fiona"       with->along with
+  "loves, admires, as well as"     and->as well as, inside a list
+  "she stood a chance to be"       might->stood a chance to
+
+Expansions that DID read correctly are content verbs and
+clause-initial connectives, where the grammatical role is fixed:
+reported->went on to report, said->went on to say,
+now->as things stand, although->in spite of the fact that.
+
+NEXT: prune every trigger whose grammatical role varies -- and,
+with, only, just, about, all, both, some, each, set, put, and all
+modals. Keep reporting verbs and clause connectives. Coverage will
+roughly halve, so the rate may fall below 5 of 9. Then rerun and
+audit every breaking text by reading it.

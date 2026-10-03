@@ -18,6 +18,42 @@ from edit_ops import make_edit
 from candidates_bb import propose_substitutions, propose_deletions
 from edit_ops import make_edit, edits_to_text, edits_conflict
 from context_fit import ContextFit, BLOCKED
+from expansions import EXPANSIONS
+
+def propose_expansions(tokenizer, ids, start):
+    """
+    Replace a single token with a longer phrase meaning the same.
+
+    Destroys the two pairs around the trigger AND raises gamma*T
+    by 0.5(k-1) for a k-token replacement, so the numerator falls
+    by 2 + 0.5(k-1). At k=5 that is -4.0, against -2.0 for a
+    single-word substitution.
+
+    No spacing rule: expansions land on different words across
+    the span, so they do not cluster the way asides do.
+    """
+    out = []
+
+    for i in range(start, len(ids) - 1):
+        if not is_word_start(tokenizer, ids[i]):
+            continue
+
+        word = tokenizer.decode([ids[i]]).strip()
+        key = word.lower()
+        if key not in EXPANSIONS:
+            continue
+
+        for phrase in EXPANSIONS[key]:
+            enc = tokenizer.encode(" " + phrase,
+                                   add_special_tokens=False)
+            if len(enc) < 2:
+                continue
+            out.append(
+                make_edit(i, "replace", enc,
+                          "%s->%s" % (word, phrase))
+            )
+
+    return out
 
 def filter_span_pool(pool, ids, fit, max_drop=8.0, log=print):
     """
@@ -144,14 +180,21 @@ def build_pool(tokenizer, ids, n_prompt):
         if e["pos"] >= start
     ]
     ins, n_slots = propose_clauses(tokenizer, ids, pos_map, start)
-
+    exps = propose_expansions(tokenizer, ids, start)
     stats = {
         "substitutions": len(subs),
         "deletions": len(dels),
         "clause_slots": n_slots,
         "clause_candidates": len(ins),
     }
-    return subs + dels + ins, stats
+    stats = {
+        "substitutions": len(subs),
+        "deletions": len(dels),
+        "clause_slots": n_slots,
+        "clause_candidates": len(ins),
+        "expansions": len(exps),
+    }
+    return subs + dels + exps + ins, stats
 
 # Mid-sentence asides. Each follows a comma and ends with one,
 # so no capitalisation is needed and the sentence resumes
@@ -235,7 +278,24 @@ def clause_slots(tokenizer, ids, pos_map, start):
         if tokenizer.decode([ids[i]]).strip().lower() != tok.text.lower():
             continue
 
+        # A clause boundary, where an aside can sit without
+        # needing a capital. Two kinds:
+        #
+        #   after a comma, but NOT one inside a list. spaCy
+        #   marks list items with conj/appos dependencies, so
+        #   a comma whose following token has one of those is
+        #   skipped: that is what produced "with sharp,
+        #   bulbous, as the company noted, bright orange".
+        #
+        #   before a subordinating conjunction, where an aside
+        #   reads naturally and no comma is required.
+        SUBORD = ("which", "while", "although", "because",
+                  "since", "whereas", "though")
+
         if prev.text in (",", ";"):
+            if tok.dep_ not in ("conj", "appos", "amod"):
+                out.append(i)
+        elif tok.text.lower() in SUBORD:
             out.append(i)
 
     return out
