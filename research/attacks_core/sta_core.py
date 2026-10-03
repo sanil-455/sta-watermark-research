@@ -1,7 +1,7 @@
 import math
 
 import torch
-from transformers import AutoTokenizer
+from transformers import AutoTokenizer # converts text -> tokenizer and then token ids
 
 H1 = 15485863
 H2 = 17624813
@@ -11,7 +11,7 @@ MAX_LENGTH = 2048
 MODEL_PATH = "hf_models/Llama-2-7b-hf"
 
 _DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-_RNG = torch.Generator(device=_DEVICE)
+_RNG = torch.Generator(device=_DEVICE) # psudo rand no. generator which can be seeded to reprduce the same results
 _GREEN_CACHE = {} # doing memoization ie. will look up the same prev,curr id every time so that it 
                 # does not compute the same pair again and again
 
@@ -50,11 +50,12 @@ def is_green_pair(prev_id, curr_id):
     _RNG.manual_seed(H1 * prev_id + H2 * curr_id)
 
     verdict = (
+        # generating a random number and then storing as true/false finally afterr comparing
         torch.rand(1, device=_DEVICE, generator=_RNG).item() # reuisng the same seed again and again to reproduce the same result
         < GAMMA
     )
 
-    _GREEN_CACHE[key] = verdict
+    _GREEN_CACHE[key] = verdict # save the result
     return verdict
 
 
@@ -78,12 +79,12 @@ def sta_stats(input_ids):
             "detected": False,
         }
     # checks every pairs and calling is_green_pair fn on each and sums up true and false results
-    # thus counting number of green tokens as each true =1
+    # thus counting number of green adjacent token pairs as each true =1
     green = sum(
         is_green_pair(input_ids[i], input_ids[i + 1])
         for i in range(pairs)
     )
-    # z=observed-what expect by chance divided by std of the expectation
+    # z=observed-what observed-expect by chance divided by std of the expectation
     z = (green - GAMMA * pairs) / math.sqrt(GAMMA * (1.0 - GAMMA) * pairs)
     
     # returns a dictionary of req data
