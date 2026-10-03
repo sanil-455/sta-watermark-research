@@ -48,3 +48,43 @@ Before building on any measurement, check that it targets the signal the paper e
 2. Rerun on the 9 documents, report success rate, edits, queries, and z_gen.
 3. Generate more samples if time allows (n=50 is about 2-3 hours unattended GPU).
 4. Fix the README, then write up.
+
+## Span-restricted attack (the paper's evaluation protocol)
+
+Attacks the generated span only, with fit filtering and no clause
+repetition. Substitutions plus comma-anchored clause insertions.
+
+  id     z0      z1   edits  queries  broke
+  25   3.818   2.210      9       32  no
+  20   3.253   1.833      7       17  YES
+   0   3.960   2.796      5       12  no
+  22   4.667   1.745     16       76  YES
+  24   5.091   3.522      8       36  no
+   2   5.515   3.252     12       75  no
+  23   5.374   3.717      7       28  no
+   1   6.505   4.371     12       34  no
+  27   6.364   4.888      7       21  no
+
+2 of 9. Every failure is pool exhaustion, not a quality rejection.
+Success tracks pool size relative to greens needed, not baseline z
+alone: prompt 22 broke from 4.667 because it had 43 substitutions,
+while prompt 25 stalled from 3.818 with only 11.
+
+Clause insertion is ~2.6x more effective per operation than
+substitution, because each added token raises gamma*T by 0.5.
+Measured: 25.5% of filler tokens give two red pairs (theory 25%).
+
+Known unfixed: clause placement uses "preceded by a comma", which
+also matches commas inside lists, producing "with sharp, bulbous,
+as the company noted, bright orange lights". Fixing this needs the
+dependency parse and would cut slots further.
+
+## Two threat models, two results
+
+Full-document scoring (detector sees prompt + generation):
+  5 of 9 break with clean text, ~50 queries each.
+Generated-span scoring (the paper's protocol):
+  2 of 9 break.
+
+Only the second speaks to STA-1 as published. The first is a real
+deployment scenario but a different claim.
