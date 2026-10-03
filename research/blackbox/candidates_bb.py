@@ -1,0 +1,103 @@
+"""
+Candidate generation without the watermark key.
+
+Everything linguistic in candidates.py works without H1 or H2:
+word boundaries, part of speech, named entities, WordNet senses,
+morphological inflection. Only the green-pair arithmetic needs
+the key, and that is removed here.
+
+The result is a pool of valid substitutions with no prediction
+of which ones help. Ranking them is the oracle's job.
+"""
+
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).parent.parent / "attacks_core"))
+
+from lemminflect import getInflection
+
+from candidates import (
+    NLP, DROPPABLE, DELETABLE_POS, REPLACEABLE_POS,
+    BASE_FORM_TAGS, is_word_start, build_pos_map, synonyms,
+)
+from edit_ops import make_edit
+
+
+def propose_substitutions(ids, tokenizer, pos_map):
+    """
+    Every grammatically valid single-token substitution.
+
+    Identical to scan_substitutions except that no green-pair
+    arithmetic happens and no `drop` is recorded, because a
+    key-free attacker cannot compute either.
+    """
+    found = []
+
+    for i in range(1, len(ids) - 1):
+        if not is_word_start(tokenizer, ids[i]):
+            continue
+
+        tok = pos_map.get(i)
+        if tok is None or tok.pos_ not in REPLACEABLE_POS:
+            continue
+        if tok.ent_type_ or tok.text[0].isupper():
+            continue
+
+        word = tokenizer.decode([ids[i]]).strip()
+        if not word.isalpha() or len(word) < 3:
+            continue
+        if word.lower() != tok.text.lower():
+            continue
+
+        for syn in synonyms(word, tok.pos_):
+            if tok.tag_ not in BASE_FORM_TAGS:
+                forms = getInflection(syn, tag=tok.tag_)
+                if not forms:
+                    continue
+                syn = forms[0]
+
+            enc = tokenizer.encode(" " + syn, add_special_tokens=False)
+            if len(enc) != 1 or enc[0] == ids[i]:
+                continue
+
+            found.append(make_edit(i, "replace", enc[0], f"{word}->{syn}"))
+
+    return found
+
+
+def propose_deletions(ids, tokenizer, pos_map):
+    """Every safe single-token deletion, again unscored."""
+    found = []
+
+    for i in range(1, len(ids) - 1):
+        if not is_word_start(tokenizer, ids[i]):
+            continue
+        if i + 1 < len(ids) and not is_word_start(tokenizer, ids[i + 1]):
+            continue
+
+        tok = pos_map.get(i)
+        if tok is None or tok.ent_type_:
+            continue
+
+        word = tokenizer.decode([ids[i]]).strip()
+        if not word.isalpha() or len(word) < 2:
+            continue
+        if word.lower() != tok.text.lower():
+            continue
+
+        if word.lower() not in DROPPABLE or tok.pos_ not in DELETABLE_POS:
+            continue
+
+        found.append(make_edit(i, "delete", None, f"del({word})"))
+
+    return found
+
+
+def propose_all(ids, tokenizer):
+    """Build the pos map once, then both candidate kinds."""
+    pos_map = build_pos_map(tokenizer, ids)
+    return (
+        propose_substitutions(ids, tokenizer, pos_map)
+        + propose_deletions(ids, tokenizer, pos_map)
+    )

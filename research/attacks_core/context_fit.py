@@ -126,6 +126,27 @@ BLOCKED = {
     # a milestone. Make does not collocate with it. The same
     # position offers reaches->hits, which is correct.
     "reaches->makes",
+    
+    # "doing some good progress". You make progress, not do it.
+    # The fit scorer looks one token ahead, so it cannot see that
+    # the word it breaks sits three positions later.
+    "making->doing",
+
+    # Collocation breaks. The fit scorer looks one token ahead,
+    # so it cannot see the word further on that these destroy:
+    #   make a plan, put a hold on, cast a ballot, have a margin
+    "make->do",
+    "putting->setting",
+    "cast->throw",
+    "have->hold",
+
+    # "aid you charter the boat". Help takes a bare infinitive,
+    # aid does not -- it needs "aid you in chartering".
+    "help->aid",
+
+    # "a cave construction". Construction is the act of building,
+    # not the thing built.
+    "structure->construction",
 }
 
 
