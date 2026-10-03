@@ -93,3 +93,30 @@ def describe(edits):
         e["label"] or f"{e['type']}@{e['pos']}"
         for e in sorted(edits, key=lambda x: x["pos"])
     )
+
+
+# Multi-token support. Python resolves function names when they are
+# called, so these definitions replace the earlier ones above.
+
+def apply_edits(token_ids, edits):
+    out = list(token_ids)
+    for e in sorted(edits, key=lambda x: x["pos"], reverse=True):
+        pos = e["pos"]
+        if pos < 0 or pos >= len(token_ids):
+            raise IndexError(f"pos {pos} outside sequence of length {len(token_ids)}")
+        n = e["new_id"]
+        new = list(n) if isinstance(n, (list, tuple)) else [n]
+        if e["type"] == "replace":
+            out[pos:pos + 1] = new
+        elif e["type"] == "delete":
+            del out[pos]
+        else:
+            out[pos:pos] = new
+    return out
+
+
+def edit_signature(edits):
+    def key(e):
+        n = e["new_id"]
+        return tuple(n) if isinstance(n, (list, tuple)) else n
+    return tuple(sorted((e["pos"], e["type"], key(e)) for e in edits))
