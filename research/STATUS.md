@@ -190,3 +190,62 @@ LIMIT
 A 200-token span contains too few grammatically safe edits.
 Prompt 1 needs 32 greens removed; after filtering it has roughly
 5 expansion sites and 7 substitutions. Arithmetic, not tuning.
+
+## FINAL: span-restricted attack fails the quality audit
+
+All three breaks were read in full. All three contain grammatical
+errors:
+
+  prompt 25  "have contributed significantly in advance of"
+             before was adverbial, not prepositional
+             "for over that stretch, which he was went on to describe"
+  prompt 20  "a correction is inevitable, in the event that not overdue"
+             "disastrous performance given the fact that March"
+             since was temporal, the expansion made it causal
+  prompt 22  "her figure overestimated", "a modification in her
+             antibiotics", "that near set her in the hospital"
+
+0 of 9 under the paper's protocol at an acceptable quality bar.
+
+The failure is structural. Expansions that are grammatically safe
+in every context are rare; the common ones (and, with, only,
+about, before, since, modals) carry multiple syntactic roles and
+break when substituted blindly. Context-sensitive expansion would
+need a parser deciding role per occurrence, which is a different
+system from a lookup table.
+
+## What this work establishes
+
+STA-1 resists this attack on 200-token spans. That is a positive
+result for the scheme, measured rather than assumed.
+
+The contributions are elsewhere:
+
+1. Query access substitutes for the secret key. ~55 detector
+   queries recover the same edits, same final z, as holding H1
+   and H2. The paper's ethical statement says to protect the key;
+   this shows that is not sufficient.
+
+2. Attack cost law, verified on two documents to within one edit:
+       E = [(p-g)T - z*sqrt(g(1-g)T)] / eta
+   An attacker need only erase the margin above the threshold,
+   not the watermark. For one document that was 29% of the signal.
+
+3. Operation efficiency on the numerator:
+       substitution -2.0, deletion -1.5, insert-5 -3.5,
+       substitute-1-to-5 -4.0
+   Adding tokens helps because each raises gamma*T by 0.5.
+
+4. Prompt inclusion suppresses detection. Same documents score
+   z_gen 3.4-6.5 but z_all 0.6-3.4. Two of five looked undetected
+   purely from dilution.
+
+5. Theorem 3's independence assumption holds empirically
+   (pooled lag-1 correlation 0.020). Our critique of it failed
+   and is withdrawn.
+
+## Limits of these conclusions
+
+n=9. No statistical confidence on any rate. Binary-oracle
+resistance was asserted, never tested. The cost law is fitted on
+two points.
