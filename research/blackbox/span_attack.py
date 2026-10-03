@@ -18,7 +18,7 @@ from edit_ops import make_edit
 from candidates_bb import propose_substitutions, propose_deletions
 from edit_ops import make_edit, edits_to_text, edits_conflict
 from context_fit import ContextFit, BLOCKED
-from expansions import EXPANSIONS
+from expansions_safe import EXPANSIONS
 
 def propose_expansions(tokenizer, ids, start):
     """

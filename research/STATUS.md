@@ -140,3 +140,53 @@ with, only, just, about, all, both, some, each, set, put, and all
 modals. Keep reporting verbs and clause connectives. Coverage will
 roughly halve, so the rate may fall below 5 of 9. Then rerun and
 audit every breaking text by reading it.
+
+## Final span-restricted result (pruned expansion table)
+
+Pruning removed triggers whose grammatical role varies. Coverage
+fell from 9-17 hits per span to 1-5, because the high-frequency
+function words (and, with, only, about, modals) were carrying
+nearly all the coverage and are exactly the unsafe ones.
+
+  id     z0      z1   edits  queries  broke
+  25   3.818   1.987      8       33  YES
+  20   3.253   1.925      9       16  YES
+   0   3.960   2.119      8       16  no
+  22   4.667   1.933     16       68  YES
+  24   5.091   3.598      9       48  no
+   2   5.515   2.463     16       72  no
+  23   5.374   2.472     16       82  no
+   1   6.505   4.075     15       38  no
+  27   6.364   4.220      9       23  no
+
+3 of 9 on z. Texts in results/raw/final_audit.txt.
+
+Unpruned table gave 5 of 9 but prompt 0's text failed on
+"in love along with Fiona" and "stood a chance to be coming".
+
+## Summary of everything established
+
+VERIFIED
+- Detector reproduces the official implementation exactly.
+- Black-box oracle recovers what the key provides: same edits,
+  same final z, ~55 queries. The key is not the security boundary.
+- Cost law E = [(p-g)T - z*sqrt(g(1-g)T)]/eta predicts edits within
+  one, fitted on two documents (eta 1.27 and 1.14).
+- Operation efficiency: substitution -2.0, deletion -1.5,
+  insert-5 -3.5, substitute-1-to-5 -4.0 on the numerator.
+- Prompt inclusion suppresses detection: z_gen 3.4-6.5 against
+  z_all 0.6-3.4 on the same documents.
+- Theorem 3's independence assumption holds empirically
+  (lag-1 correlation 0.020). Our critique of it failed.
+
+NOT ESTABLISHED
+- Any claim to break STA-1 generally. 3 of 9 under its own
+  protocol, and the full-document result attacks a signal a
+  deployed detector would not see.
+- Binary-oracle resistance. Never tested, only asserted.
+- Statistical confidence. n=9.
+
+LIMIT
+A 200-token span contains too few grammatically safe edits.
+Prompt 1 needs 32 greens removed; after filtering it has roughly
+5 expansion sites and 7 substitutions. Arithmetic, not tuning.
