@@ -1,0 +1,55 @@
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   1%|          | 2/339 [00:00<00:32, 10.48it/s]Loading weights:   4%|▍         | 15/339 [00:00<00:05, 61.20it/s]Loading weights:   9%|▉         | 30/339 [00:00<00:03, 90.24it/s]Loading weights:  15%|█▌        | 52/339 [00:00<00:02, 132.75it/s]Loading weights:  20%|█▉        | 67/339 [00:00<00:01, 137.16it/s]Loading weights:  26%|██▋       | 89/339 [00:00<00:01, 158.06it/s]Loading weights:  32%|███▏      | 107/339 [00:00<00:01, 164.60it/s]Loading weights:  37%|███▋      | 125/339 [00:00<00:01, 168.23it/s]Loading weights:  42%|████▏     | 144/339 [00:01<00:01, 174.20it/s]Loading weights:  48%|████▊     | 162/339 [00:01<00:01, 168.62it/s]Loading weights:  54%|█████▍    | 184/339 [00:01<00:00, 183.32it/s]Loading weights:  60%|█████▉    | 203/339 [00:01<00:00, 181.90it/s]Loading weights:  65%|██████▌   | 222/339 [00:01<00:00, 170.81it/s]Loading weights:  72%|███████▏  | 243/339 [00:01<00:00, 181.22it/s]Loading weights:  77%|███████▋  | 262/339 [00:01<00:00, 167.08it/s]Loading weights:  83%|████████▎ | 280/339 [00:01<00:00, 168.71it/s]Loading weights:  88%|████████▊ | 298/339 [00:01<00:00, 163.20it/s]Loading weights:  93%|█████████▎| 316/339 [00:02<00:00, 166.86it/s]Loading weights:  98%|█████████▊| 333/339 [00:02<00:00, 160.50it/s]Loading weights: 100%|██████████| 339/339 [00:02<00:00, 156.16it/s]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 12679.42it/s]
+prompt 1, start span z = 6.5054
+
+==================================================================
+threshold 0.30 -> span z 3.2392  (50.2% drop)  
+==================================================================
+
+WAS: Though this isn&apos;t rocket science, its manifestation has been particularly important.
+NOW: Although this may seem basic, its impact has been particularly significant.
+
+WAS: In addition to an 8% growth, North America represented 45% of the region&apos;s segment income; more broadly, North America represented 60% of income 
+NOW: In addition to a 8% increase, North America accounted for 45% of the region’s segment earnings; overall, North America constituted 60% of earnings, wh
+
+WAS: News also came from the China business.
+NOW: Updates also came from the China business sector.
+
+WAS: Johnson Controls is the biggest company you&apos;ve never heard of.
+NOW: Johnson Controls is the largest company you've never heard of.
+
+WAS: You&apos;ve probably used its products, without knowing it, if for instance
+NOW: If you&apos;ve likely used its products without realizing it, such as
+
+==================================================================
+threshold 0.45 -> span z 4.4286  (31.9% drop)  
+==================================================================
+
+WAS: In addition to an 8% growth, North America represented 45% of the region&apos;s segment income; more broadly, North America represented 60% of income 
+NOW: North America accounted for 45% of the regional segment income in addition to an 8% gain, while constituting 60% of total income; conversely, Europe, 
+
+WAS: News also came from the China business.
+NOW: Updates also stemmed from the China business.
+
+WAS: Johnson Controls is the biggest company you&apos;ve never heard of.
+NOW: Johnson Controls is the largest company you've never heard of.
+
+WAS: You&apos;ve probably used its products, without knowing it, if for instance
+NOW: It's likely you've used its products without realizing it, especially if for instance
+
+==================================================================
+threshold 0.60 -> span z 4.0206  (38.2% drop)  
+==================================================================
+
+WAS: In addition to an 8% growth, North America represented 45% of the region&apos;s segment income; more broadly, North America represented 60% of income 
+NOW: In addition to 8% growth, North America accounted for 45% of the region's segment income; overall, North America contributed 60% of the income, wherea
+
+WAS: News also came from the China business.
+NOW: Updates also stemmed from the China business.
+
+WAS: Johnson Controls is the biggest company you&apos;ve never heard of.
+NOW: Johnson Controls is the largest company you've never heard of.
+
+WAS: You&apos;ve probably used its products, without knowing it, if for instance
+NOW: If you've likely used its products without realizing it, for example,
+

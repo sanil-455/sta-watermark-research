@@ -68,20 +68,21 @@ def passes(original, candidate):
     facts      exact match both ways, so a rewrite that invents
                a figure is as wrong as one that drops it
     negation   exact count match, since dropping one inverts
-               the claim
-    relations  prepositions may be added but not dropped; a
-               rewrite is allowed to be more explicit
+               the claim while barely moving an embedding
+
+    A relational-preposition check was tried and removed. It was
+    added for "without a change in her antibiotics" becoming
+    "without antibiotics", but the word that mattered there was
+    "change", a content word the semantic filter catches, and
+    "without" itself is in NEGATIONS. The rule meanwhile
+    rejected every faithful rewrite that swapped a preposition:
+    "painting with sharp lights" becoming "painting featuring
+    sharp lights" took 27 candidates to 0 on one sentence.
     """
     if extract_facts(original) != extract_facts(candidate):
         return False
 
     if count_words(original, NEGATIONS) != count_words(candidate, NEGATIONS):
         return False
-
-    o_rel = count_words(original, RELATIONAL)
-    c_rel = count_words(candidate, RELATIONAL)
-    for word, n in o_rel.items():
-        if c_rel.get(word, 0) < n:
-            return False
 
     return True

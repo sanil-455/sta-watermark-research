@@ -297,3 +297,49 @@ The binding constraint is paraphrase fidelity, not the attack.
 A model that preserves factual direction would make this a
 clean break. That is a tooling question, not a limitation of
 the method.
+
+## Structure check: tried, net loss, reverted
+
+Added a check requiring the candidate to keep the original's
+sentence count and a length ratio of 0.65 to 1.15, after the
+audit showed every failure restructured across clause
+boundaries while every clean rewrite preserved structure.
+
+Measured from the audit data: clean rewrites ran 0.67 to 1.11,
+failures 0.61 to 1.27. The ranges overlap almost entirely, so
+length alone is a weak discriminator and the sentence-count
+test does the real work.
+
+Result: 5 of 9 evade, 2 clean (22, 24), against 6 of 9 and 3
+clean (24, 25, 27) without it. It fixed prompt 22's "the
+freedom her job gave her" becoming "freedom her job lacked",
+but cost prompts 25 and 27, both previously clean. Prompt 27
+was the strongest single result in the project, z 6.364 to
+1.552. Reverted.
+
+## What the remaining failures are
+
+Comprehension errors, not statistical or structural ones:
+
+  prompt 0   "USA Today reported that her first tweet was" became
+             "her first tweet to USA Today read" -- a fabricated
+             relationship. A direct address to Fiona became
+             third-person commentary.
+  prompt 2   "he's come to tribes with his pain" is a typo for
+             "come to terms". Read literally, producing invented
+             travel to tribal communities.
+  prompt 20  "tech stocks are the worst offenders because they're
+             the ones you've got to buy" became "as I have to buy
+             them most often", turning a causal claim into a
+             statement about purchasing frequency.
+
+Regex, embeddings and sentence counts have all been tried and
+none catch these. They require reading comprehension.
+
+## Final position
+
+The attack's ceiling is set by the paraphraser's comprehension,
+not by the watermark's strength. STA-1 is evaded on 6 of 9
+documents, 3 of which survive reading, using 46 to 175 detector
+queries and no watermark key, rewriting 50 to 86 percent of
+sentences in the generated span.
