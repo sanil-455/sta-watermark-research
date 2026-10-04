@@ -25,6 +25,7 @@ class DetectorOracle:
 
     mode "score"  : returns the z-score, modelling a research
                     API that reports confidence
+                    # this also helps as it helps to calculate gradient
     mode "binary" : returns True/False only, modelling a
                     deployed service that answers nothing more
                     than "is this watermarked"
@@ -35,7 +36,9 @@ class DetectorOracle:
             raise ValueError("mode must be 'score' or 'binary'")
         self.tok = tokenizer
         self.mode = mode
+        # no. of attack calls made 
         self.queries = 0
+        # memory of past answers of queries
         self._cache = {}
 
     def query(self, text):
@@ -46,6 +49,8 @@ class DetectorOracle:
         twice, since an attacker would not pay to ask the same
         question again.
         """
+        # the cache check happens before the counter increments.
+        # as attacker dont pay again for same query
         if text in self._cache:
             return self._cache[text]
 
@@ -56,8 +61,11 @@ class DetectorOracle:
             stats["z"] if self.mode == "score"
             else stats["z"] > Z_THRESHOLD
         )
+        # caching the query asked as attacker would not pay to qn the same qn repeatedly
         self._cache[text] = answer
         return answer
+# in white box llm attack the change of word and checking if pairs stop being green worked for attack
+# in blackbox we change candidate words and check if score dropped
 
     def is_broken(self, text):
         """Has this text escaped detection? Costs one query."""
