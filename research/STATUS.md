@@ -249,3 +249,51 @@ The contributions are elsewhere:
 n=9. No statistical confidence on any rate. Binary-oracle
 resistance was asserted, never tested. The cost law is fitted on
 two points.
+
+## Llama-2-7B-chat: tested, worse, abandoned
+
+Switched to the instruction-tuned model to fix factual
+substitution, with a system prompt stating "never change a
+number, percentage, date, name or quotation; never reverse a
+comparison or a negation".
+
+It reversed direction on EVERY candidate:
+  "her number overestimated how long she could go"
+  -> "her estimate undervalued the duration"
+  -> "her projection undervalued the duration"
+  -> "her prediction undervalued the duration"
+  -> "her estimate undercounted the duration"
+
+The base model got this wrong sometimes. The chat model gets
+it wrong consistently, despite the explicit instruction.
+
+It also changed "Anglos" to "non-Hispanics", a different
+demographic category, while correctly preserving "half" and
+"a quarter" as distinct quantities.
+
+Both available paraphrasers are now tested. Neither preserves
+factual direction reliably. Reverted to the base model.
+
+## Final position
+
+The attack mechanism is proven and the limitation is precisely
+located.
+
+PROVEN: oracle-guided selective paraphrase evades STA-1 on the
+generated span, which is what the paper evaluates. 3 to 6 of 9
+documents depending on how strict the content gates are, using
+63 to 184 detector queries and no watermark key. Token-level
+editing cannot do this: a 200-token span holds too few safe
+single-word edits, while sentences can be rewritten without
+limit.
+
+NOT ACHIEVED: faithful rewrites. Both Llama-2-7B base and chat
+substitute content words in ways that invert meaning. No gate
+built from regex or embeddings catches this, because the
+substituted word exists, counts match, and embeddings barely
+move on a single antonym.
+
+The binding constraint is paraphrase fidelity, not the attack.
+A model that preserves factual direction would make this a
+clean break. That is a tooling question, not a limitation of
+the method.

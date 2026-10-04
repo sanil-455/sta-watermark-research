@@ -16,7 +16,6 @@ from transformers import AutoModelForCausalLM
 
 MODEL_PATH = "hf_models/Llama-2-7b-hf"
 
-
 class Fluency:
     def __init__(self, tokenizer, device=None):
         self.tok = tokenizer
