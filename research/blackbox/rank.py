@@ -15,7 +15,6 @@ sys.path.insert(0, str(Path(__file__).parent.parent / "attacks_core"))
 
 from edit_ops import edits_to_text
 
-
 def rank_candidates(oracle, tokenizer, base_ids, pool, log=print):
     """
     Measure every candidate alone and sort by how much it helps.
@@ -33,7 +32,7 @@ def rank_candidates(oracle, tokenizer, base_ids, pool, log=print):
         raise ValueError(
             "ranking needs z-scores; a binary oracle gives no gradient"
         )
-
+    # converting back to text from tokens as text is what passsed through detector
     base_text = tokenizer.decode(base_ids, skip_special_tokens=True)
     base_z = oracle.query(base_text)
 
@@ -44,7 +43,7 @@ def rank_candidates(oracle, tokenizer, base_ids, pool, log=print):
         text = edits_to_text(tokenizer, base_ids, [edit])
         z = oracle.query(text)
         measured.append((edit, z, z - base_z))
-
+    # sort the changes with most negative first
     measured.sort(key=lambda row: row[2])
 
     helpful = sum(1 for _, _, d in measured if d < 0)
