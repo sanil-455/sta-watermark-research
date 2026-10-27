@@ -1,0 +1,126 @@
+{
+ "repl": {
+  "3": "At the November ASB Executive Council meeting, Miller stated his goal to secure sufficient sponsorship funds for Everybody\u2019s Formal \u201cadministered funds,\u201d which he defines as the cash available for ASB-sponsored events.",
+  "9": "During her meeting with the present ASB director, Morgan mentioned that she giggles as they discuss three to four years ahead about the precise state of the organization at that time.",
+  "13": "He is considered for the potential future ASB director role at Everybody\u2019s Formal, as per Athletic Director Keith Carter\u2019s recommendation letter including Miller.",
+  "11": "Mullins, the ASB President during the 2013-14 school year, stated that the aim is to get everyone who wants to go to Everybody\u2019s Formal to come.",
+  "14": "He stated he was hired for a special projects coordinator role in Student Affairs, focusing on recruiting millennial and older \"menthol stroke\" students.",
+  "15": "Mullins stated that incoming students ought to take full advantage of ASB\u2019s events, including Everybody\u2019s Formal, Geeks Prom, Speak Freely, and IMPULSE.",
+  "8": "ASB President Elam Miller aimed for 30 formal commitments last year and noted that he would be satisfied if ASB achieved its goals.",
+  "5": "If ASB gathers sufficient allocated funds for the upcoming events, Miller said they can afford to fail quickly.",
+  "12": "Greg Miner, who serves as Special Projects coordinator in Student Affairs, is a member of Kappa Sigma.",
+  "16": "Miner expressed his excitement about working remotely for the University to ensure smooth operations for incoming, transfer, and non-traditional students.",
+  "4": "ASB assigns various budget types to support student organizations in hosting events."
+ },
+ "provenance": {
+  "3": "kept from the reading",
+  "9": "kept from the reading",
+  "13": "kept from the reading",
+  "11": "kept from the reading",
+  "14": "kept from the reading",
+  "15": "kept from the reading",
+  "8": "kept from the reading",
+  "5": "kept from the reading",
+  "12": "kept from the reading",
+  "16": "approved by the user",
+  "4": "approved by the user"
+ },
+ "old_bad": {
+  "16": "The miner expressed his excitement about working remotely for the University, helping incoming, transfer, and non-traditional students with smooth operations."
+ },
+ "rejected": {
+  "16": [
+   "The miner expressed his excitement about working remotely for the University, helping to ensure smooth operations for incoming, transfer, and non-traditional students.",
+   "The miner stated that he was excited to work for the University remotely and ensure smooth operations for incoming, transfer, and non-traditional students.",
+   "The miner said he was excited to work for the University remotely and ensure smooth operations for incoming, transfer, and non-traditional students.",
+   "The miner expressed his excitement about working remotely for the University and helping both incoming, transfer, and non-traditional students.",
+   "The miner stated that he was excited to work remotely for the University and ensure smooth operations for incoming, transfer, and non-traditional students.",
+   "The miner expressed his excitement about working remotely for the University and assisting incoming, transfer, and non-traditional students.",
+   "The miner said he was excited to work remotely for the University and ensure smooth operations for incoming, transfer, and non-traditional students."
+  ]
+ },
+ "skipped": [],
+ "decisions": [
+  {
+   "segment": 16,
+   "answer": "n",
+   "proposal": "The miner expressed his excitement about working remotely for the University, helping to ensure smooth operations for incoming, transfer, and non-traditional students.",
+   "z_before": 2.6254655409909105,
+   "z_after": 1.9172752368911523,
+   "similarity": 0.9048813581466675
+  },
+  {
+   "segment": 16,
+   "answer": "n",
+   "proposal": "The miner stated that he was excited to work for the University remotely and ensure smooth operations for incoming, transfer, and non-traditional students.",
+   "z_before": 2.6254655409909105,
+   "z_after": 2.0064508293046943,
+   "similarity": 0.9357542991638184
+  },
+  {
+   "segment": 16,
+   "answer": "n",
+   "proposal": "The miner said he was excited to work for the University remotely and ensure smooth operations for incoming, transfer, and non-traditional students.",
+   "z_before": 2.6254655409909105,
+   "z_after": 2.053080476316278,
+   "similarity": 0.9424582123756409
+  },
+  {
+   "segment": 16,
+   "answer": "n",
+   "proposal": "The miner expressed his excitement about working remotely for the University and helping both incoming, transfer, and non-traditional students.",
+   "z_before": 2.6254655409909105,
+   "z_after": 2.1040089608684727,
+   "similarity": 0.919115424156189
+  },
+  {
+   "segment": 16,
+   "answer": "n",
+   "proposal": "The miner stated that he was excited to work remotely for the University and ensure smooth operations for incoming, transfer, and non-traditional students.",
+   "z_before": 2.6254655409909105,
+   "z_after": 2.1848020141317783,
+   "similarity": 0.9337042570114136
+  },
+  {
+   "segment": 16,
+   "answer": "n",
+   "proposal": "The miner expressed his excitement about working remotely for the University and assisting incoming, transfer, and non-traditional students.",
+   "z_before": 2.6254655409909105,
+   "z_after": 2.193541257075642,
+   "similarity": 0.9113954901695251
+  },
+  {
+   "segment": 16,
+   "answer": "n",
+   "proposal": "The miner said he was excited to work remotely for the University and ensure smooth operations for incoming, transfer, and non-traditional students.",
+   "z_before": 2.6254655409909105,
+   "z_after": 2.2316092133872587,
+   "similarity": 0.9370466470718384
+  },
+  {
+   "segment": 16,
+   "answer": "y",
+   "proposal": "Miner expressed his excitement about working remotely for the University to ensure smooth operations for incoming, transfer, and non-traditional students.",
+   "z_before": 2.6254655409909105,
+   "z_after": 2.23606797749979,
+   "similarity": 0.901588499546051
+  },
+  {
+   "segment": 4,
+   "answer": "y",
+   "proposal": "ASB assigns various budget types to support student organizations in hosting events.",
+   "z_before": 2.23606797749979,
+   "z_after": 1.6563474798326274,
+   "similarity": 0.9015179872512817
+  }
+ ],
+ "calls": 2,
+ "status": "broken",
+ "sample_id": "samples_len500:81",
+ "z0": 7.781516561699267,
+ "z_start_of_repair": 2.6254655409909105,
+ "z_final": 1.6563474798326274,
+ "final_span": "sponsorships for the event started in September. The sponsoring entities spent a collective $18,000 on Everybody\u2019s Formal.\nSistrunk said she\u2019s attended Everybody\u2019s Formal for the last two years.\nAt the November ASB Executive Council meeting, Miller stated his goal to secure sufficient sponsorship funds for Everybody\u2019s Formal \u201cadministered funds,\u201d which he defines as the cash available for ASB-sponsored events. ASB assigns various budget types to support student organizations in hosting events. If ASB gathers sufficient allocated funds for the upcoming events, Miller said they can afford to fail quickly.\nASB\u2019s target for fundraising was the goal Morgan left for the organization. Morgan left in August.\nASB President Elam Miller aimed for 30 formal commitments last year and noted that he would be satisfied if ASB achieved its goals.\nDuring her meeting with the present ASB director, Morgan mentioned that she giggles as they discuss three to four years ahead about the precise state of the organization at that time.\nMullins is the president of Ole Miss\u2019 Beta Theta Pi fraternity.\nMullins, the ASB President during the 2013-14 school year, stated that the aim is to get everyone who wants to go to Everybody\u2019s Formal to come.\nGreg Miner, who serves as Special Projects coordinator in Student Affairs, is a member of Kappa Sigma. He is considered for the potential future ASB director role at Everybody\u2019s Formal, as per Athletic Director Keith Carter\u2019s recommendation letter including Miller. He stated he was hired for a special projects coordinator role in Student Affairs, focusing on recruiting millennial and older \"menthol stroke\" students.\nMullins stated that incoming students ought to take full advantage of ASB\u2019s events, including Everybody\u2019s Formal, Geeks Prom, Speak Freely, and IMPULSE.\nMiner expressed his excitement about working remotely for the University to ensure smooth operations for incoming, transfer, and non-traditional students.\nFall housing check out runs from noon to 4 p.m. Jan. 19 at the Band Hall, Hasley Circle",
+ "queries": 42,
+ "seconds": 201.5
+}

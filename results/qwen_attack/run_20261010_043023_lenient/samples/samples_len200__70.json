@@ -1,0 +1,153 @@
+{
+ "sample_id": "samples_len200:70",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.5580774365821095,
+ "needed_share": 0.5714504356445167,
+ "delta_needed": 0.003953832749109054,
+ "segmentation": {
+  "chars": 749,
+  "segments": 4,
+  "eligible": 2,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 418,
+  "eligible_char_share": 0.5580774365821095
+ },
+ "attack": {
+  "z0": 4.666904755831213,
+  "z_final": 1.7995393768717365,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 82,
+  "seconds": 122.9,
+  "seconds_by_phase": {
+   "generate": 115.3,
+   "gates": 7.6,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 255,
+    "z_before": 4.666904755831213,
+    "z_after": 2.7057079692703834,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "CJK text": 5,
+      "unknown word": 11,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 43,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 59.91
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 163,
+    "z_before": 2.7057079692703834,
+    "z_after": 1.7995393768717365,
+    "accepted": true,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "CJK text": 4,
+      "several lines": 2,
+      "unknown word": 12,
+      "meaning too different": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 82,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 55.36
+   }
+  ],
+  "rewrites": {
+   "1": {
+    "original": "There were also chances for Dnipro to seize the lead through Olexander Khacheridi as he burst through on goal, but an offside penalty appeals was waved away by the linesman, and Gael Clichy blocked the Ukraine's chance to take the lead in the 59th minute.",
+    "rewrite": "Opportunities arose for Dnipro through Olexander Khacheridi, who broke through on goal, yet the linesman dismissed an offside appeal, and Gael Clichy prevented Ukraine from taking the lead in the 59th minute."
+   },
+   "2": {
+    "original": "Clichy was in the wars again in the 76th minute as his challenge left the visiting keeper looking at the sky and Yevhen Konoplyanka was sent clean through on goal.",
+    "rewrite": "Clichy caused chaos for the visiting keeper with a challenge in the 76th minute, leaving the keeper looking skyward, and creating a clear goal-scoring opportunity for Yevhen Konoplyanka."
+   }
+  },
+  "final_span": "the Dnipro keeper by surprise and he let the chance slip through his hands.\nOpportunities arose for Dnipro through Olexander Khacheridi, who broke through on goal, yet the linesman dismissed an offside appeal, and Gael Clichy prevented Ukraine from taking the lead in the 59th minute.\nClichy caused chaos for the visiting keeper with a challenge in the 76th minute, leaving the keeper looking skyward, and creating a clear goal-scoring opportunity for Yevhen Konoplyanka.\nThe Ukrainian squared the ball to Maksim Mahatachyan who dragged a shot wide from 12 yards but Konoplyanka ran onto the rebound and tapped the ball in before unleashing a celebratory song and dance from the porch for the small Ukrainian contingent among",
+  "break_point": {
+   "step": 1,
+   "sentences_rewritten": 2,
+   "queries": 82
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 2,
+   "segments": 4,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 50.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 194,
+   "length_change": -7,
+   "pct_not_preserved": 24.87562189054726,
+   "pct_new": 22.164948453608247
+  },
+  "words": {
+   "original": 132,
+   "final": 117,
+   "length_change": -15,
+   "pct_not_preserved": 35.60606060606061,
+   "pct_new": 27.350427350427353
+  },
+  "characters": {
+   "original": 749,
+   "final": 725,
+   "length_change": -24,
+   "pct_not_preserved": 26.83578104138852,
+   "pct_new": 24.413793103448278
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 133,
+   "green_after": 109,
+   "pairs_before": 200,
+   "pairs_after": 193,
+   "pairs_changed_before": 65,
+   "pairs_changed_after": 58,
+   "green_fraction_of_new_pairs": 0.41379310344827586,
+   "delta_achieved": 0.08620689655172414
+  }
+ }
+}

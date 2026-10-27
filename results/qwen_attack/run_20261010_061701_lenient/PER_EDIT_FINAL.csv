@@ -1,0 +1,163 @@
+sample,segment,origin_of_rewrite,words_before,words_after,words_not_kept%,words_new%,tokens_not_kept%,tokens_new%,chars_not_kept%,chars_new%,meaning_similarity
+samples_len500:28,1,"attack, accepted by the reading",15,13,60.0,53.8,45.0,42.1,34.2,35.9,0.869
+samples_len500:28,2,"attack, accepted by the reading",19,18,47.4,44.4,40.9,35.0,36.1,31.9,0.868
+samples_len500:28,3,"attack, accepted by the reading",12,10,66.7,60.0,36.8,29.4,31.5,32.4,0.959
+samples_len500:28,4,"attack, accepted by the reading",13,14,46.2,50.0,41.2,37.5,31.7,30.6,0.826
+samples_len500:28,5,"attack, accepted by the reading",6,10,83.3,90.0,69.2,66.7,57.1,64.3,0.815
+samples_len500:28,7,"attack, accepted by the reading",22,24,36.4,41.7,22.9,30.8,22.1,28.0,0.963
+samples_len500:28,9,"attack, accepted by the reading",14,12,57.1,50.0,42.1,50.0,25.6,26.4,0.966
+samples_len500:28,11,"attack, accepted by the reading",35,34,48.6,47.1,36.5,33.3,30.4,30.7,0.943
+samples_len500:28,12,"attack, accepted by the reading",12,12,50.0,50.0,26.1,29.2,26.8,30.7,0.943
+samples_len500:30,1,kept from the reading,25,23,56.0,52.2,55.2,50.0,38.7,33.1,0.858
+samples_len500:30,2,kept from the reading,24,26,16.7,23.1,10.0,14.3,10.1,12.8,0.920
+samples_len500:30,4,approved by the user,29,32,17.2,25.0,13.0,16.7,10.3,16.7,0.959
+samples_len500:30,5,kept from the reading,28,26,42.9,38.5,36.1,25.8,25.0,19.2,0.916
+samples_len500:30,7,kept from the reading,27,30,7.4,16.7,5.1,11.9,6.8,8.7,0.964
+samples_len500:30,8,approved by the user,9,10,55.6,60.0,46.2,50.0,40.0,43.2,0.976
+samples_len500:30,9,kept from the reading,15,16,46.7,50.0,36.8,45.5,20.8,27.3,0.904
+samples_len500:30,10,kept from the reading,14,14,57.1,57.1,56.5,61.5,40.4,47.7,0.852
+samples_len500:30,11,kept from the reading,17,20,41.2,50.0,20.0,33.3,18.1,31.2,0.978
+samples_len500:30,12,kept from the reading,28,29,60.7,62.1,56.2,58.8,44.1,52.6,0.753
+samples_len500:30,13,kept from the reading,17,19,64.7,68.4,47.6,60.7,45.1,59.1,0.894
+samples_len500:34,3,"attack, accepted by the reading",24,24,45.8,45.8,39.4,35.5,19.7,23.4,0.935
+samples_len500:34,5,"attack, accepted by the reading",39,40,20.5,22.5,16.1,19.0,13.3,18.4,0.985
+samples_len500:34,6,"attack, accepted by the reading",23,19,47.8,36.8,38.7,26.9,31.7,21.8,0.891
+samples_len500:34,7,"attack, accepted by the reading",18,17,38.9,35.3,28.0,25.0,19.6,26.1,0.891
+samples_len500:34,10,"attack, accepted by the reading",24,25,25.0,28.0,10.8,17.5,6.1,14.3,0.884
+samples_len500:34,13,"attack, accepted by the reading",19,19,68.4,68.4,56.0,60.7,49.1,54.1,0.862
+samples_len500:34,14,"attack, accepted by the reading",39,29,76.9,69.0,66.7,62.8,56.0,49.8,0.864
+samples_len500:34,15,"attack, accepted by the reading",19,20,42.1,45.0,27.6,34.4,16.0,23.7,0.918
+samples_len500:34,16,"attack, accepted by the reading",25,22,72.0,68.2,53.1,44.4,46.7,50.8,0.831
+samples_len500:34,17,"attack, accepted by the reading",15,15,33.3,33.3,28.6,25.0,22.0,22.0,0.857
+samples_len500:43,2,kept from the reading,20,22,65.0,68.2,41.9,53.8,30.5,45.7,0.899
+samples_len500:43,6,kept from the reading,15,17,46.7,52.9,31.6,40.9,19.5,38.1,0.888
+samples_len500:43,7,kept from the reading,11,14,45.5,57.1,50.0,53.3,19.6,37.5,0.800
+samples_len500:43,8,kept from the reading,40,39,47.5,46.2,42.6,40.0,35.5,34.6,0.847
+samples_len500:43,9,kept from the reading,40,36,97.5,97.2,87.5,78.0,76.3,74.7,0.995
+samples_len500:43,11,kept from the reading,22,23,27.3,30.4,35.3,40.0,20.2,24.8,0.815
+samples_len500:44,2,"attack, accepted by the reading",25,18,76.0,66.7,67.6,54.2,47.5,32.0,0.823
+samples_len500:44,5,"attack, accepted by the reading",24,26,70.8,73.1,55.2,61.8,30.7,40.4,0.864
+samples_len500:44,6,"attack, accepted by the reading",30,25,66.7,60.0,44.2,38.5,37.3,34.7,0.877
+samples_len500:44,12,"attack, accepted by the reading",27,24,55.6,50.0,47.1,51.4,39.0,32.9,0.904
+samples_len500:44,13,"attack, accepted by the reading",26,24,69.2,66.7,48.6,52.6,37.3,43.6,0.948
+samples_len500:44,15,"attack, accepted by the reading",26,28,26.9,32.1,21.9,28.6,11.2,21.1,0.846
+samples_len500:44,16,"attack, accepted by the reading",40,36,45.0,38.9,40.4,39.1,26.2,28.6,0.901
+samples_len500:46,1,kept from the reading,10,9,50.0,44.4,31.2,26.7,11.1,20.0,0.880
+samples_len500:46,2,kept from the reading,8,7,62.5,57.1,50.0,44.4,35.0,27.8,0.892
+samples_len500:46,3,kept from the reading,35,31,42.9,35.5,31.5,24.5,28.8,26.6,0.890
+samples_len500:46,6,approved by the user,29,31,44.8,48.4,31.6,35.0,27.8,31.8,0.972
+samples_len500:46,7,kept from the reading,30,33,53.3,57.6,45.7,50.0,37.0,43.3,0.957
+samples_len500:46,8,kept from the reading,17,15,64.7,60.0,42.3,42.3,45.7,45.7,0.807
+samples_len500:46,23,kept from the reading,7,13,85.7,92.3,76.9,87.5,51.1,72.2,0.848
+samples_len500:47,1,kept from the reading,40,26,85.0,76.9,73.5,69.8,61.6,53.4,0.873
+samples_len500:47,3,kept from the reading,33,28,51.5,42.9,34.6,30.6,35.5,29.1,0.912
+samples_len500:47,5,kept from the reading,36,35,55.6,54.3,55.6,53.5,38.1,45.2,0.866
+samples_len500:47,6,approved by the user,45,36,55.6,44.4,47.6,32.7,39.5,28.2,0.917
+samples_len500:47,8,kept from the reading,31,29,51.6,48.3,47.4,50.0,33.7,40.3,0.916
+samples_len500:47,9,kept from the reading,33,33,72.7,72.7,54.0,57.4,39.1,48.6,0.831
+samples_len500:47,10,kept from the reading,45,37,71.1,64.9,54.5,49.3,40.2,33.7,0.902
+samples_len500:51,2,"attack, accepted by the reading",28,27,39.3,37.0,36.6,33.3,25.8,23.9,0.897
+samples_len500:51,5,"attack, accepted by the reading",15,17,33.3,41.2,18.8,27.8,13.2,21.4,0.979
+samples_len500:51,6,"attack, accepted by the reading",8,9,12.5,22.2,5.3,10.0,1.8,9.7,0.981
+samples_len500:51,8,"attack, accepted by the reading",40,36,70.0,66.7,60.0,60.0,48.9,45.7,0.904
+samples_len500:51,9,"attack, accepted by the reading",29,26,62.1,57.7,48.7,42.9,41.7,34.5,0.903
+samples_len500:51,10,"attack, accepted by the reading",40,33,70.0,63.6,54.4,53.6,43.1,41.7,0.868
+samples_len500:52,3,"attack, accepted by the reading",11,11,81.8,81.8,57.1,57.1,47.5,50.0,0.841
+samples_len500:52,6,"attack, accepted by the reading",11,11,81.8,81.8,80.0,80.0,54.5,57.7,0.815
+samples_len500:52,7,"attack, accepted by the reading",14,10,78.6,70.0,63.2,50.0,38.6,26.1,0.868
+samples_len500:52,8,"attack, accepted by the reading",11,11,36.4,36.4,38.1,35.0,19.1,25.0,0.855
+samples_len500:52,9,"attack, accepted by the reading",10,9,50.0,44.4,35.7,40.0,26.4,26.4,0.900
+samples_len500:52,10,"attack, accepted by the reading",15,18,40.0,50.0,29.4,42.9,23.7,40.2,0.834
+samples_len500:52,11,"attack, accepted by the reading",11,13,36.4,46.2,33.3,41.2,17.5,38.8,0.872
+samples_len500:52,12,"attack, accepted by the reading",21,21,61.9,61.9,53.6,55.2,37.8,42.2,0.833
+samples_len500:52,13,"attack, accepted by the reading",9,9,44.4,44.4,53.3,56.2,21.7,31.9,0.876
+samples_len500:52,14,"attack, accepted by the reading",13,11,46.2,36.4,43.8,35.7,25.7,31.2,0.829
+samples_len500:52,17,"attack, accepted by the reading",16,17,43.8,47.1,29.6,34.5,13.8,27.4,0.853
+samples_len500:52,18,"attack, accepted by the reading",22,21,54.5,52.4,38.9,40.5,28.7,32.1,0.791
+samples_len500:52,19,"attack, accepted by the reading",11,7,81.8,71.4,69.2,63.6,37.0,33.3,0.841
+samples_len500:52,21,"attack, accepted by the reading",11,9,63.6,55.6,46.2,41.7,55.6,53.3,0.948
+samples_len500:56,1,"attack, accepted by the reading",11,9,63.6,55.6,52.6,47.1,28.8,21.7,0.917
+samples_len500:56,3,"attack, accepted by the reading",32,33,40.6,42.4,30.0,34.9,20.5,24.0,0.931
+samples_len500:56,4,"attack, accepted by the reading",28,27,64.3,63.0,59.5,58.3,52.1,51.2,0.900
+samples_len500:56,5,"attack, accepted by the reading",14,12,42.9,33.3,30.0,22.2,27.1,26.1,0.881
+samples_len500:56,6,"attack, accepted by the reading",11,11,54.5,54.5,46.2,50.0,37.9,41.4,0.968
+samples_len500:56,7,"attack, accepted by the reading",20,17,50.0,41.2,34.1,20.6,37.6,20.5,0.934
+samples_len500:56,8,"attack, accepted by the reading",27,30,48.1,53.3,32.5,40.0,22.6,32.0,0.807
+samples_len500:56,9,"attack, accepted by the reading",20,17,65.0,58.8,62.1,52.2,42.9,32.0,0.850
+samples_len500:56,10,"attack, accepted by the reading",9,11,55.6,63.6,46.2,56.2,33.3,51.4,0.860
+samples_len500:56,11,"attack, accepted by the reading",20,20,35.0,35.0,22.9,20.6,18.9,16.4,0.970
+samples_len500:56,12,"attack, accepted by the reading",24,21,62.5,57.1,51.4,46.9,42.6,37.5,0.888
+samples_len500:56,13,"attack, accepted by the reading",11,10,54.5,50.0,53.3,56.2,26.3,32.3,0.912
+samples_len500:56,14,"attack, accepted by the reading",10,10,30.0,30.0,20.0,20.0,13.5,26.2,0.921
+samples_len500:56,15,"attack, accepted by the reading",24,22,54.2,50.0,38.5,33.3,26.4,25.4,0.926
+samples_len500:62,6,kept from the reading,42,35,64.3,57.1,56.0,51.1,49.0,37.7,0.856
+samples_len500:62,7,approved by the user,40,39,42.5,41.0,33.3,29.6,22.1,22.3,0.927
+samples_len500:64,5,"attack, accepted by the reading",27,25,63.0,60.0,54.5,50.0,35.6,38.3,0.768
+samples_len500:64,9,"attack, accepted by the reading",36,37,41.7,43.2,43.2,45.7,32.4,41.7,0.907
+samples_len500:64,10,"attack, accepted by the reading",27,33,66.7,72.7,55.6,63.6,40.3,57.8,0.878
+samples_len500:64,12,"attack, accepted by the reading",34,31,52.9,48.4,43.9,41.0,30.5,30.5,0.910
+samples_len500:64,13,"attack, accepted by the reading",14,15,50.0,53.3,47.6,45.0,35.3,45.5,0.866
+samples_len500:64,14,"attack, accepted by the reading",30,30,20.0,20.0,14.6,14.6,10.4,11.7,0.923
+samples_len500:64,15,"attack, accepted by the reading",34,38,44.1,50.0,38.8,38.8,23.6,31.8,0.944
+samples_len500:64,18,"attack, accepted by the reading",17,13,82.4,76.9,65.0,63.2,64.4,64.4,0.879
+samples_len500:65,3,"attack, accepted by the reading",24,21,54.2,47.6,39.0,35.9,27.4,25.5,0.922
+samples_len500:65,5,"attack, accepted by the reading",9,10,55.6,60.0,38.5,52.9,30.2,44.8,0.952
+samples_len500:66,3,approved by the user,21,16,47.6,31.2,37.0,22.7,36.7,30.3,0.905
+samples_len500:66,4,kept from the reading,16,16,87.5,87.5,60.7,62.1,54.6,53.3,0.821
+samples_len500:66,5,kept from the reading,22,20,50.0,45.0,43.8,35.7,28.5,29.9,0.766
+samples_len500:66,6,kept from the reading,30,31,63.3,64.5,61.4,63.0,39.7,42.4,0.836
+samples_len500:66,11,kept from the reading,22,22,50.0,50.0,46.2,48.1,30.2,38.4,0.878
+samples_len500:66,12,kept from the reading,23,22,43.5,40.9,33.3,40.0,27.9,33.6,0.927
+samples_len500:66,13,kept from the reading,45,47,26.7,29.8,21.1,26.8,15.4,23.0,0.945
+samples_len500:66,15,kept from the reading,22,21,27.3,23.8,30.0,22.2,21.1,16.7,0.820
+samples_len500:69,1,kept from the reading,39,47,38.5,48.9,31.0,39.4,23.9,35.3,0.916
+samples_len500:69,2,kept from the reading,39,38,43.6,42.1,37.9,34.5,28.7,30.2,0.904
+samples_len500:69,5,approved by the user,28,33,39.3,48.5,38.8,31.8,21.7,26.7,0.914
+samples_len500:69,6,approved by the user,31,36,29.0,38.9,24.0,32.1,5.5,20.3,0.946
+samples_len500:69,8,kept from the reading,25,27,72.0,74.1,57.6,58.8,38.7,45.9,0.877
+samples_len500:69,13,kept from the reading,30,25,80.0,76.0,52.5,45.7,35.4,32.9,0.887
+samples_len500:71,7,"attack, accepted by the reading",22,22,50.0,50.0,38.7,38.7,36.3,33.6,0.884
+samples_len500:72,2,kept from the reading,10,12,40.0,50.0,29.4,40.0,20.3,33.8,0.861
+samples_len500:72,3,kept from the reading,7,12,42.9,66.7,15.0,29.2,16.7,42.6,0.963
+samples_len500:72,4,kept from the reading,12,13,25.0,30.8,9.7,12.5,4.1,11.4,0.992
+samples_len500:72,6,kept from the reading,15,13,86.7,84.6,72.7,73.9,55.7,53.9,0.939
+samples_len500:72,7,kept from the reading,11,11,27.3,27.3,35.3,35.3,29.2,30.3,0.902
+samples_len500:72,11,kept from the reading,27,24,55.6,50.0,46.3,45.0,47.3,39.8,0.978
+samples_len500:72,12,kept from the reading,23,20,47.8,40.0,38.2,36.4,29.5,23.4,0.951
+samples_len500:72,13,kept from the reading,46,37,56.5,45.9,44.9,37.7,37.1,28.4,0.924
+samples_len500:72,14,kept from the reading,17,16,41.2,37.5,20.6,12.9,32.3,23.2,0.977
+samples_len500:72,16,kept from the reading,24,24,54.2,54.2,44.1,40.6,28.8,32.5,0.886
+samples_len500:74,1,kept from the reading,17,17,29.4,29.4,23.1,20.0,10.4,18.9,0.938
+samples_len500:74,2,approved by the user,19,20,31.6,35.0,35.5,28.6,16.5,20.2,0.940
+samples_len500:74,5,kept from the reading,25,22,36.0,27.3,28.1,23.3,19.8,21.7,0.944
+samples_len500:74,10,kept from the reading,15,16,66.7,68.8,63.0,63.0,45.8,52.1,0.814
+samples_len500:74,11,kept from the reading,51,41,52.9,41.5,42.1,36.2,32.4,23.5,0.932
+samples_len500:74,12,approved by the user,21,23,57.1,60.9,34.4,40.0,22.3,32.2,0.905
+samples_len500:78,1,"attack, accepted by the reading",18,18,55.6,55.6,43.5,45.8,36.6,37.2,0.858
+samples_len500:78,3,"attack, accepted by the reading",32,25,65.6,56.0,50.0,44.4,46.6,39.6,0.916
+samples_len500:78,8,"attack, accepted by the reading",31,27,67.7,63.0,64.1,61.1,53.0,47.9,0.772
+samples_len500:78,9,"attack, accepted by the reading",32,32,46.9,46.9,43.2,46.8,36.5,39.7,0.807
+samples_len500:78,11,"attack, accepted by the reading",23,20,60.9,55.0,48.3,44.4,44.3,43.8,0.776
+samples_len500:78,15,"attack, accepted by the reading",48,46,58.3,56.5,48.4,50.0,36.9,38.1,0.892
+samples_len500:78,16,"attack, accepted by the reading",38,34,57.9,52.9,47.2,47.2,55.1,55.9,0.934
+samples_len500:81,3,kept from the reading,35,31,45.7,38.7,28.8,26.0,21.6,18.3,0.963
+samples_len500:81,4,approved by the user,12,12,58.3,58.3,56.2,53.3,28.0,29.8,0.902
+samples_len500:81,5,kept from the reading,17,18,41.2,44.4,39.1,39.1,31.7,37.8,0.881
+samples_len500:81,8,kept from the reading,21,23,57.1,60.9,47.2,38.7,38.9,41.2,0.918
+samples_len500:81,9,kept from the reading,38,31,68.4,61.3,64.3,58.3,45.1,38.3,0.920
+samples_len500:81,11,kept from the reading,24,26,33.3,38.5,19.5,23.3,16.9,18.1,0.925
+samples_len500:81,12,kept from the reading,14,17,0.0,17.6,0.0,12.0,0.0,13.7,0.991
+samples_len500:81,13,kept from the reading,21,23,47.6,52.2,27.6,36.4,17.6,24.7,0.966
+samples_len500:81,14,kept from the reading,21,23,57.1,60.9,43.3,51.4,45.9,52.9,0.950
+samples_len500:81,15,kept from the reading,19,22,21.1,31.8,7.9,16.7,5.3,17.8,0.975
+samples_len500:81,16,approved by the user,22,20,68.2,65.0,50.0,41.4,26.7,30.5,0.902
+samples_len500:86,2,"attack, accepted by the reading",17,15,35.3,26.7,25.9,23.1,11.2,11.2,0.993
+samples_len500:86,7,"attack, accepted by the reading",16,13,75.0,69.2,54.2,50.0,32.1,24.8,0.845
+samples_len500:86,8,"attack, accepted by the reading",23,21,60.9,57.1,57.1,57.1,37.4,40.0,0.925
+samples_len500:86,12,"attack, accepted by the reading",19,16,68.4,62.5,55.6,50.0,47.8,37.4,0.896
+samples_len500:86,14,"attack, accepted by the reading",22,22,27.3,27.3,19.2,27.6,14.1,20.5,0.964
+samples_len500:86,16,"attack, accepted by the reading",17,18,29.4,33.3,29.2,29.2,10.1,14.4,0.907
+samples_len500:86,18,"attack, accepted by the reading",14,13,42.9,38.5,47.1,52.6,24.0,30.9,0.760
+samples_len500:86,19,"attack, accepted by the reading",15,15,33.3,33.3,25.0,28.6,11.3,12.2,0.956
+samples_len500:86,20,"attack, accepted by the reading",18,16,66.7,62.5,46.2,48.1,33.6,31.2,0.933
+samples_len500:86,21,"attack, accepted by the reading",14,13,57.1,53.8,44.4,44.4,28.4,30.5,0.949

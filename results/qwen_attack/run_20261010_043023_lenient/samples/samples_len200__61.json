@@ -1,0 +1,219 @@
+{
+ "sample_id": "samples_len200:61",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.825503355704698,
+ "needed_share": 0.6071628993408069,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 745,
+  "segments": 8,
+  "eligible": 5,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "no final punctuation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 615,
+  "eligible_char_share": 0.825503355704698
+ },
+ "attack": {
+  "z0": 5.091168824543142,
+  "z_final": 0.9801960588196068,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 174,
+  "seconds": 158.5,
+  "seconds_by_phase": {
+   "generate": 144.4,
+   "gates": 14.0,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 183,
+    "z_before": 5.091168824543142,
+    "z_after": 3.8227642577130374,
+    "accepted": true,
+    "survivors": 56,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 56,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 57,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.07
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 158,
+    "z_before": 3.8227642577130374,
+    "z_after": 3.0362884611063587,
+    "accepted": true,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 39,
+     "after_content": 39,
+     "after_semantic": 39,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "CJK text": 9,
+      "duplicate": 1,
+      "unknown word": 11,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 95,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.73
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 122,
+    "z_before": 3.0362884611063587,
+    "z_after": 2.0701966780270626,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "duplicate": 2,
+      "CJK text": 1,
+      "unknown word": 3,
+      "meaning too different": 11,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 136,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.66
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 82,
+    "z_before": 2.0701966780270626,
+    "z_after": 0.9801960588196068,
+    "accepted": true,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 46,
+     "after_content": 42,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "duplicate": 8,
+      "CJK text": 1,
+      "unknown word": 5,
+      "negation count changed": 4,
+      "meaning too different": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 174,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.98
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "Things got worse for TFC five minutes before halftime, as Giovinco and Altidore were denied by the approaching referee; a goal kick was awarded, and Montreal immediately scored again.",
+    "rewrite": "Five minutes before halftime, TFC's situation deteriorated when Giovinco and Altidore were foiled by the encroaching referee; a goal kick was granted, and Montreal scored again almost instantly."
+   },
+   "4": {
+    "original": "TFC midfielder Benoit Cheyrou fouled Piatti, giving Impact super-sub Romualdo a chance to whack a free kick high into the upper reaches of the north end goal.",
+    "rewrite": "TFC midfielder Benoit Cheyrou committed a foul on Piatti, providing an opportunity for Impact's substitute, Romualdo, to unleash a high free kick towards the north end goal."
+   },
+   "6": {
+    "original": "In the scintilla of time remaining before intermission, Giovinco floated a free kick over the wall and onto the left post.",
+    "rewrite": "In the brief moments left before halftime, Giovinco executed a free kick that bypassed the wall and hit the left post."
+   },
+   "1": {
+    "original": "It sounded as ominous as the Impact's Sigi Schmid anyone-but-Toronto soccer chant.",
+    "rewrite": "It seemed just as ominous as any chants against Sigi Schmid by the Impact fans."
+   }
+  },
+  "final_span": "the ball home. It seemed just as ominous as any chants against Sigi Schmid by the Impact fans.\nWhat did the MLS notebook contain\nFive minutes before halftime, TFC's situation deteriorated when Giovinco and Altidore were foiled by the encroaching referee; a goal kick was granted, and Montreal scored again almost instantly.\nTFC midfielder Benoit Cheyrou committed a foul on Piatti, providing an opportunity for Impact's substitute, Romualdo, to unleash a high free kick towards the north end goal.\nOn the next kick, Piatti sent a game-sealing volley sailing just wide.\nIn the brief moments left before halftime, Giovinco executed a free kick that bypassed the wall and hit the left post. Soon thereafter, he took a hand in the damage he'd helped prevent in the Old",
+  "break_point": {
+   "step": 3,
+   "sentences_rewritten": 4,
+   "queries": 174
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 4,
+   "eligible": 5,
+   "segments": 8,
+   "pct_of_eligible": 80.0,
+   "pct_of_segments": 50.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 205,
+   "length_change": 4,
+   "pct_not_preserved": 29.35323383084577,
+   "pct_new": 30.731707317073177
+  },
+  "words": {
+   "original": 125,
+   "final": 127,
+   "length_change": 2,
+   "pct_not_preserved": 32.8,
+   "pct_new": 33.85826771653543
+  },
+  "characters": {
+   "original": 745,
+   "final": 764,
+   "length_change": 19,
+   "pct_not_preserved": 23.89261744966443,
+   "pct_new": 25.78534031413613
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 136,
+   "green_after": 109,
+   "pairs_before": 200,
+   "pairs_after": 204,
+   "pairs_changed_before": 80,
+   "pairs_changed_after": 84,
+   "green_fraction_of_new_pairs": 0.35714285714285715,
+   "delta_achieved": 0.14285714285714285
+  }
+ }
+}

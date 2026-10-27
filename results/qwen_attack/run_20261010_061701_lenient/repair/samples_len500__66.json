@@ -1,0 +1,48 @@
+{
+ "repl": {
+  "13": "Congress general secretary Randeep Surjewala stated that a three-member committee from the joint parliamentary committee or JPC was submitting its report with \"facts\" regarding Robert Vadra\u2019s financial activities, alleged land acquisition issues, alleged misuse of government choppers for luxury trips, and Union minister Smriti Irani\u2019s forged certificates.",
+  "6": "Ministers deemed the accusations unfounded, stating that Vadra had previously been under inquiry, yet the electorate had still chosen him for office, and he was now being probed by several agencies.",
+  "5": "The continuous noise regarding the land deal involving Vadra's suspected irregular transactions kept the Centre occupied as government departments probed.",
+  "12": "Congress asserts that the issue was investigated previously when Vadra, as a director alongside another individual, was involved with a limited company.",
+  "15": "However, a minister stated that the government and the Modi government were not nearly as ineffective on the issue as alleged.",
+  "11": "Ministers stated that the issue concerned real property acquisition under the law and thus should be handled in accordance with those regulations.",
+  "4": "Last year, when Prasad called Rahul Gandhi 'Pappu', it led to brainstorming becoming a standard practice.",
+  "3": "The party organized an all-night brainstorming session on Saturday following a family meeting in the morning."
+ },
+ "provenance": {
+  "13": "kept from the reading",
+  "6": "kept from the reading",
+  "5": "kept from the reading",
+  "12": "kept from the reading",
+  "15": "kept from the reading",
+  "11": "kept from the reading",
+  "4": "kept from the reading",
+  "3": "approved by the user"
+ },
+ "old_bad": {
+  "3": "The party held an all-night brainstorming on Saturday regarding the subject following a meeting with the family in the morning."
+ },
+ "rejected": {},
+ "skipped": [
+  8
+ ],
+ "decisions": [
+  {
+   "segment": 3,
+   "answer": "y",
+   "proposal": "The party organized an all-night brainstorming session on Saturday following a family meeting in the morning.",
+   "z_before": 2.578414501951445,
+   "z_after": 2.010451732239466,
+   "similarity": 0.9051579833030701
+  }
+ ],
+ "calls": 4,
+ "status": "not broken: no accepted proposal got z under 2.0",
+ "sample_id": "samples_len500:66",
+ "z0": 7.513188404399293,
+ "z_start_of_repair": 2.578414501951445,
+ "z_final": 2.010451732239466,
+ "final_span": ". \u201cThese are not ad hominem attacks. We made them because Sardar Patel has also become a brand as Nepotism Buster of the parties,\u201d spokesperson Sambit Patra said. The party organized an all-night brainstorming session on Saturday following a family meeting in the morning. Last year, when Prasad called Rahul Gandhi 'Pappu', it led to brainstorming becoming a standard practice.\nThe continuous noise regarding the land deal involving Vadra's suspected irregular transactions kept the Centre occupied as government departments probed.\nMinisters deemed the accusations unfounded, stating that Vadra had previously been under inquiry, yet the electorate had still chosen him for office, and he was now being probed by several agencies.\nA commerce ministry official said, \u201cThe objective seems to be to spread confusion by trying to suggest that some questionable incidents are related to Vadra as owner of real property and not just to another person who holds directorship and is merely providing right assistance as three others claim...\u201d The official insisted that the whatsapp message is circulating in a questionable form. \u201cIt\u2019s not even establishing an online or serial connection it seems.\u201d The official said, \u201cThere is no actual basis even to address it.\u201d Ministers stated that the issue concerned real property acquisition under the law and thus should be handled in accordance with those regulations.\nCongress asserts that the issue was investigated previously when Vadra, as a director alongside another individual, was involved with a limited company.\nCongress general secretary Randeep Surjewala stated that a three-member committee from the joint parliamentary committee or JPC was submitting its report with \"facts\" regarding Robert Vadra\u2019s financial activities, alleged land acquisition issues, alleged misuse of government choppers for luxury trips, and Union minister Smriti Irani\u2019s forged certificates.\n\u201cIt\u2019s a matter of the police followed it and it\u2019s currently in front of the departmental internal audit committee.\u201d However, a minister stated that the government and the Modi government were not nearly as ineffective on the issue as alleged.\nThe minister said, \u201cRobert Vadra as a holding company had",
+ "queries": 19,
+ "seconds": 420.5
+}

@@ -1,0 +1,1303 @@
+{
+ "model": "FacebookAI/roberta-large-mnli",
+ "parameters": 355362819,
+ "thresholds": {
+  "faithful": 0.8,
+  "minor": 0.4,
+  "contradiction": 0.5
+ },
+ "spans": [
+  {
+   "sample_id": "baseline_extra:20",
+   "z0": 3.394112549695428,
+   "z_final": 1.8950284971277105,
+   "rewrites": [
+    {
+     "segment": 3,
+     "original": "But reason No. 5 is the one that keeps the host of \"Mad Money\" up at night.",
+     "rewrite": "Yet reason No. 5 is the one causing the host of \"Mad Money\" sleepless nights.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9913812279701233,
+     "rewrite_entails_original": 0.9941459894180298,
+     "contradiction": 0.0011737094027921557
+    },
+    {
+     "segment": 5,
+     "original": "Health care's disastrous performance since March, fueled by criticism from the president and lackluster earnings reports, could ruin the market's momentum.",
+     "rewrite": "Since March, health care's poor performance, spurred by presidential criticism and disappointing earnings reports, threatens to undermine the market's momentum.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9946027398109436,
+     "rewrite_entails_original": 0.9948439598083496,
+     "contradiction": 0.0010023197392001748
+    }
+   ],
+   "status": "clean"
+  },
+  {
+   "sample_id": "baseline_extra:22",
+   "z0": 4.666904755831213,
+   "z_final": 1.3536939497702833,
+   "rewrites": [
+    {
+     "segment": 1,
+     "original": "It had to do with the way she felt about the new boyfriend and the sense of freedom her responsibility-free job gave her.",
+     "rewrite": "It pertained to how she felt about her new boyfriend and the sense of freedom from responsibilities her job lacked.",
+     "verdict": "minor drift",
+     "reasons": [],
+     "original_entails_rewrite": 0.6790493726730347,
+     "rewrite_entails_original": 0.5172892212867737,
+     "contradiction": 0.46399256587028503
+    },
+    {
+     "segment": 2,
+     "original": "Ultimately, her number overestimated how long she could go without a change in her antibiotics, leading to a severe infection in her lungs that nearly put her in the hospital.",
+     "rewrite": "In the end, her dosage overestimated the duration she could use antibiotics without a switch, resulting in a serious lung infection that nearly hospitalized her.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.993837296962738,
+     "rewrite_entails_original": 0.9945861101150513,
+     "contradiction": 0.0011114863445982337
+    },
+    {
+     "segment": 4,
+     "original": "Treat the person, not the problem\u0097watch closely for the changes in the patient's life that might suggest a change in treatment.",
+     "rewrite": "Approach the individual, not the issue; carefully observe any shifts in the patient\u2019s life that may indicate the need to adjust their treatment.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9941978454589844,
+     "rewrite_entails_original": 0.9930940866470337,
+     "contradiction": 0.001110889483243227
+    },
+    {
+     "segment": 7,
+     "original": "What's so compelling is the systematic, predictable, and methodical way the doctor worked with the student.",
+     "rewrite": "The doctor's systematic, predictable, and methodical approach to working with the student is notably compelling.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9937580823898315,
+     "rewrite_entails_original": 0.9938974976539612,
+     "contradiction": 0.0016317700501531363
+    }
+   ],
+   "status": "clean"
+  },
+  {
+   "sample_id": "baseline_extra:24",
+   "z0": 5.091168824543142,
+   "z_final": 0.457495710997814,
+   "rewrites": [
+    {
+     "segment": 2,
+     "original": "In California, there has been an official guidance document put forth by the Secretary of the California Business, Transportation and Housing Agency,describing the potential elements an autonomous vehicle self-identification form might include.",
+     "rewrite": "The Secretary of California's Business, Transportation and Housing Agency has issued an official guidance document outlining possible components of an autonomous vehicle self-identification form.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9945031404495239,
+     "rewrite_entails_original": 0.9924561977386475,
+     "contradiction": 0.0021098614670336246
+    },
+    {
+     "segment": 3,
+     "original": "It is a rather lengthy 52 pages, but the document basically outlines the first steps manufacturers need to take in order to have their autonomous vehicles considered for licensing.",
+     "rewrite": "The document, spanning 52 pages, primarily details the initial steps manufacturers must follow to gain licensing for their autonomous vehicles.",
+     "verdict": "meaning changed",
+     "reasons": [
+      "entailment 0.13"
+     ],
+     "original_entails_rewrite": 0.9932464361190796,
+     "rewrite_entails_original": 0.13438072800636292,
+     "contradiction": 0.0023717975709587336
+    },
+    {
+     "segment": 4,
+     "original": "Manufacturers have an opportunity to provide information such as who is responsible for claims, any intellectual property rights that might be involved and system descriptions.",
+     "rewrite": "Manufacturers can offer details including the parties handling claims, potential intellectual property rights, and explanations of the systems involved.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.993938684463501,
+     "rewrite_entails_original": 0.9940676689147949,
+     "contradiction": 0.0012422313448041677
+    },
+    {
+     "segment": 5,
+     "original": "A spokesperson for the Department of Motor Vehicles responded to inquiries about the Arizona incident by emailing a previously-released statement.",
+     "rewrite": "A Department of Motor Vehicles spokesperson responded to questions regarding the Arizona event through an emailed earlier released statement.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9931439161300659,
+     "rewrite_entails_original": 0.9928798079490662,
+     "contradiction": 0.0026708587538450956
+    }
+   ],
+   "status": "not clean"
+  },
+  {
+   "sample_id": "baseline_extra:26",
+   "z0": 2.82842712474619,
+   "z_final": 1.125756071568467,
+   "rewrites": [
+    {
+     "segment": 4,
+     "original": "In addition to supporting abortion, Planned Parenthood provides general health care services such as cancer screenings and STD testing to low-income women.",
+     "rewrite": "Along with advocacy for abortion rights, Planned Parenthood also offers healthcare services like cancer screenings and STD tests to women with low incomes.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9943276047706604,
+     "rewrite_entails_original": 0.9943020343780518,
+     "contradiction": 0.0011489514727145433
+    }
+   ],
+   "status": "clean"
+  },
+  {
+   "sample_id": "baseline_extra:27",
+   "z0": 6.222539674441618,
+   "z_final": 1.741143000264028,
+   "rewrites": [
+    {
+     "segment": 0,
+     "original": "Harry Horn that can be seen from the boat.",
+     "rewrite": "Harry Horn can be viewed from the boat.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.990889847278595,
+     "rewrite_entails_original": 0.9830118417739868,
+     "contradiction": 0.008512979373335838
+    },
+    {
+     "segment": 1,
+     "original": "One of the key features of the Riverwalk is the shops and restaurants.",
+     "rewrite": "A major feature of the Riverwalk includes its shops and restaurants.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9934993982315063,
+     "rewrite_entails_original": 0.993613064289093,
+     "contradiction": 0.0020027239806950092
+    },
+    {
+     "segment": 2,
+     "original": "Whether you're looking for Texan Tex-Mex or American barbecue, you can find it along the Riverwalk.",
+     "rewrite": "Whatever your preference for Tex-Mex from Texas or barbecue from America, you'll find it along the Riverwalk.",
+     "verdict": "meaning changed",
+     "reasons": [
+      "name changed"
+     ],
+     "original_entails_rewrite": 0.9916537404060364,
+     "rewrite_entails_original": 0.9940542578697205,
+     "contradiction": 0.001624744152650237
+    },
+    {
+     "segment": 3,
+     "original": "To get started, head over to the Rivercentre Shops, an official Riverwalk shopping area, to peruse stores like Marc's, the Little Store, McKenna's, and the Jimmy Bryan location of Kendra Scott Jewelry.",
+     "rewrite": "To begin, visit the Rivercentre Shops, an official Riverwalk shopping district, to browse through stores including Marc's, the Little Store, McKenna's, and the Jimmy Bryan outlet of Kendra Scott Jewelry.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9936215281486511,
+     "rewrite_entails_original": 0.9931302666664124,
+     "contradiction": 0.0024374681524932384
+    },
+    {
+     "segment": 4,
+     "original": "Other notable shopping options include the Yamani Museum Shops, where you can purchase souvenirs, and the many boutiques located in the surrounding King William and Southtown districts.",
+     "rewrite": "Other highlights for shoppers are the souvenirs available at the Yamani Museum Shops, along with numerous boutiques found in the nearby King William and Southtown areas.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9945220947265625,
+     "rewrite_entails_original": 0.9945401549339294,
+     "contradiction": 0.0009527400834485888
+    },
+    {
+     "segment": 5,
+     "original": "If you're looking for a lively night out complete with live music, head over to the Twilite Alley Bar for a night of cheap beers and cheap tequila shots.",
+     "rewrite": "If you are seeking a vibrant evening with live entertainment, check out Twilite Alley Bar for affordable beers and tequila shots.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9944585561752319,
+     "rewrite_entails_original": 0.9939075112342834,
+     "contradiction": 0.001045142998918891
+    }
+   ],
+   "status": "not clean"
+  },
+  {
+   "sample_id": "baseline_safe:2",
+   "z0": 5.374011537017761,
+   "z_final": 1.5634719199411433,
+   "rewrites": [
+    {
+     "segment": 1,
+     "original": "However, after the buried soul of his father\u2019s abuse is revealed, these painful anecdotes begin to make more sense.",
+     "rewrite": "Nevertheless, once the hidden essence of his father\u2019s abuse was uncovered, these hurtful stories started to become clearer.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9936955571174622,
+     "rewrite_entails_original": 0.9926599860191345,
+     "contradiction": 0.000636559387203306
+    },
+    {
+     "segment": 2,
+     "original": "In the past, this abuse has served as the headline of Caveney\u2019s stories online and in print, and over time, he\u2019s come to tribes with his pain on debut documentaries for the BBC\u2019s Radio Days project, which are presented on the companion audio-CD to \u201cGibberish.\u201d",
+     "rewrite": "In previous years, such mistreatment featured prominently in Caveney\u2019s articles online and in magazines, eventually leading him to travel to Indigenous communities to share his struggles through inaugural BBC docudramas for the Radio Days initiative, featured on the accompanying audio-CD of \u201cGibberish.\u201d",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9841046929359436,
+     "rewrite_entails_original": 0.9921211004257202,
+     "contradiction": 0.0007009712280705571
+    },
+    {
+     "segment": 3,
+     "original": "But as he reaches two critical milestones, entering his 50s and 60s, he\u2019s moved away from the spectacle of the abuse and started to look at the context in which it happened.",
+     "rewrite": "Yet as he approaches two key milestones by turning 50 and 60, he has distanced himself from the public displays of abuse and begun to examine the circumstances surrounding them.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9947301149368286,
+     "rewrite_entails_original": 0.9946580529212952,
+     "contradiction": 0.0009396549430675805
+    }
+   ],
+   "status": "clean"
+  },
+  {
+   "sample_id": "baseline_safe:3",
+   "z0": 3.6814319464673777,
+   "z_final": 1.7179113807746667,
+   "rewrites": [
+    {
+     "segment": 1,
+     "original": "Sustainability policies should also give room for communities who opt for different energy and climate policies over and above state mandates.",
+     "rewrite": "Community choices for various energy and climate policies deserve consideration alongside existing sustainability mandates.",
+     "verdict": "minor drift",
+     "reasons": [],
+     "original_entails_rewrite": 0.9886166453361511,
+     "rewrite_entails_original": 0.6627253890037537,
+     "contradiction": 0.01102968119084835
+    },
+    {
+     "segment": 2,
+     "original": "Mario Oriani-Ambrosini is Vice President of Nuclear Policy Initiatives at the Nuclear Energy Institute.",
+     "rewrite": "Mario Oriani-Ambrosini serves as Vice President of Nuclear Policy Initiatives at the Nuclear Energy Institute.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9906010627746582,
+     "rewrite_entails_original": 0.9917621612548828,
+     "contradiction": 0.004282872658222914
+    },
+    {
+     "segment": 3,
+     "original": "He has also served in the executive leadership role as SVP International and policy at the American Solar Energy Society.",
+     "rewrite": "He also held the position of SVP International and Policy in the executive leadership at the American Solar Energy Society.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.992124617099762,
+     "rewrite_entails_original": 0.9910337328910828,
+     "contradiction": 0.004130025859922171
+    }
+   ],
+   "status": "clean"
+  },
+  {
+   "sample_id": "baseline_safe:4",
+   "z0": 3.5355339059327373,
+   "z_final": 1.9236703496735605,
+   "rewrites": [
+    {
+     "segment": 1,
+     "original": "People also have to understand my company receives compensation and airtime from over a hundred private advertisers who support me, and that we accept compensation for producing television shows for educational institutions, trade associations, and dozens of other entities.",
+     "rewrite": "Individuals should recognize that my company gets compensated and receives airtime from more than a hundred private advertisers who back us, and that we accept compensation for creating television shows for educational institutions, trade associations, and many other organizations.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9947593808174133,
+     "rewrite_entails_original": 0.9928146600723267,
+     "contradiction": 0.0008193290559574962
+    },
+    {
+     "segment": 3,
+     "original": "Any column, audio or video will be free from any compensation so that readers can trust they are uninfluenced by those who are paying us.",
+     "rewrite": "Each column, audio piece, or video will remain uncompensated to ensure readers believe they are uninfluenced by paying sources.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9937938451766968,
+     "rewrite_entails_original": 0.9925411939620972,
+     "contradiction": 0.001379064517095685
+    }
+   ],
+   "status": "clean"
+  },
+  {
+   "sample_id": "samples_len200:29",
+   "z0": 4.808326112068523,
+   "z_final": 1.7902871850985822,
+   "rewrites": [
+    {
+     "segment": 1,
+     "original": "Giving more examples of the organization's achievements, Tomassetti recalled an earlier event in which kids who attended a volleyball club, sponsored by ASPO, played against able-bodied kids.",
+     "rewrite": "Tomassetti highlighted additional instances of the organization's accomplishments by reminiscing about a past event where children from the ASPO-sponsored volleyball club competed against able-bodied children.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9943189024925232,
+     "rewrite_entails_original": 0.9935006499290466,
+     "contradiction": 0.0020985412411391735
+    },
+    {
+     "segment": 5,
+     "original": "In an interview, Followay paid tribute to the hard work being done in helping youth fail fast and learn how to be successful after their disabilities, during their journey through both school and career.",
+     "rewrite": "In an interview, Followay honored the significant efforts dedicated to assisting youth in quickly identifying challenges and acquiring success skills throughout their education and professional life despite disabilities.",
+     "verdict": "meaning changed",
+     "reasons": [
+      "contradiction 0.63",
+      "entailment 0.30"
+     ],
+     "original_entails_rewrite": 0.9880414009094238,
+     "rewrite_entails_original": 0.30445101857185364,
+     "contradiction": 0.6281394362449646
+    }
+   ],
+   "status": "not clean"
+  },
+  {
+   "sample_id": "samples_len200:30",
+   "z0": 4.1012193308819755,
+   "z_final": 1.7056057308448835,
+   "rewrites": [
+    {
+     "segment": 1,
+     "original": "He said after meeting with the family over the past two days that he initially planned to divulge everything he knew to their grieving family.",
+     "rewrite": "He mentioned after spending two days with the family that his initial plan was to share all he knew with their grieving relatives.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9942671656608582,
+     "rewrite_entails_original": 0.9938586354255676,
+     "contradiction": 0.0014289366081357002
+    },
+    {
+     "segment": 2,
+     "original": "While Frey has said he didn't want anything to \"prematurely undermine\" the investigation by Chief Medaria Arradondo, Frey visited with the family again Friday.",
+     "rewrite": "While Frey stated he didn't want anything to \"prematurely undermine\" the investigation led by Chief Medaria Arradondo, Frey met with the family once more on Friday.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9941376447677612,
+     "rewrite_entails_original": 0.9946938157081604,
+     "contradiction": 0.0010704871965572238
+    },
+    {
+     "segment": 4,
+     "original": "According to court documents, investigators looked for data from the phones of 4-year- vehicle-crime detective Matthew Harrity and a neighboring officer, nearly a week after the July 15 shooting.",
+     "rewrite": "According to court documents, investigators searched for phone data related to 4-year-vehicle-crime detective Matthew Harrity and a nearby officer, approximately one week after the July 15 shooting.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9905868172645569,
+     "rewrite_entails_original": 0.9934000968933105,
+     "contradiction": 0.0033099495340138674
+    }
+   ],
+   "status": "clean"
+  },
+  {
+   "sample_id": "samples_len200:31",
+   "z0": 5.091168824543142,
+   "z_final": 1.7056057308448835,
+   "rewrites": [
+    {
+     "segment": 1,
+     "original": "Johnson, who identifies as pro-choice to the audience, made the controversial transformation to pro-life activist after she witnessed the procedure of an abortion.",
+     "rewrite": "Johnson, who portrays herself as pro-choice publicly, shifted to becoming a pro-life activist after witnessing an abortion procedure.",
+     "verdict": "meaning changed",
+     "reasons": [
+      "entailment 0.13"
+     ],
+     "original_entails_rewrite": 0.9943483471870422,
+     "rewrite_entails_original": 0.13253654539585114,
+     "contradiction": 0.0011858877260237932
+    },
+    {
+     "segment": 3,
+     "original": "In the advertisement, Johnson described the image of the unborn baby as it emerges from its mother\u2019s womb, which she according to the film said she will never forget.",
+     "rewrite": "In the ad, Johnson depicted the scene of the unborn baby\u2019s emergence from its mother\u2019s womb, an image she stated in the film that she will never forget.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9933398365974426,
+     "rewrite_entails_original": 0.9942126870155334,
+     "contradiction": 0.002495654858648777
+    },
+    {
+     "segment": 4,
+     "original": "Johnson described the scene in her debut memoir according to The New York Times.",
+     "rewrite": "The New York Times reported that Johnson recounted the scene in her debut memoir.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9900195598602295,
+     "rewrite_entails_original": 0.9931361675262451,
+     "contradiction": 0.0053365183994174
+    }
+   ],
+   "status": "not clean"
+  },
+  {
+   "sample_id": "samples_len200:34",
+   "z0": 3.2526911934581184,
+   "z_final": 1.622294916474776,
+   "rewrites": [
+    {
+     "segment": 3,
+     "original": "And, Martin added, the regional psychiatric clinic for children \u2014 Child and Family services \u2014 has received its state-license and is up and running.",
+     "rewrite": "Martin noted that the regional psychiatric clinic for children, known as Child and Family services, has obtained its state license and is now operational.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9946304559707642,
+     "rewrite_entails_original": 0.9935846924781799,
+     "contradiction": 0.0022133945021778345
+    },
+    {
+     "segment": 4,
+     "original": "The Next Step in Mental Health: Supports, Case Management, Community Services, Treatment.",
+     "rewrite": "Advancing Mental Health Support: Services, Case Management, Community Programs, Treatments.",
+     "verdict": "meaning changed",
+     "reasons": [
+      "name changed"
+     ],
+     "original_entails_rewrite": 0.9756048917770386,
+     "rewrite_entails_original": 0.9365410804748535,
+     "contradiction": 0.0021987108048051596
+    },
+    {
+     "segment": 5,
+     "original": "In the fall of 2017 during the Eagle County Peak Parenting class, Kate Eastwood, executive director of the Vail Health Mental Health Institute, talked about what constitutes a healthy community and the wide net of the Mental Health Alliance.",
+     "rewrite": "During the fall of 2017 at the Eagle County Peak Parenting class, Kate Eastwood, the executive director of the Vail Health Mental Health Institute, discussed what defines a healthy community and the expansive support provided by the Mental Health Alliance.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.988980770111084,
+     "rewrite_entails_original": 0.9910337328910828,
+     "contradiction": 0.00048484254512004554
+    }
+   ],
+   "status": "not clean"
+  },
+  {
+   "sample_id": "samples_len200:35",
+   "z0": 5.939696961966999,
+   "z_final": 1.346874289515838,
+   "rewrites": [
+    {
+     "segment": 1,
+     "original": "If Samsung/HTC/whoever is going to put my large screen on this phone, I'll happily switch over.",
+     "rewrite": "Should Samsung/HTC/whoever place a large screen on this phone, I'll happily make the switch.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9940484762191772,
+     "rewrite_entails_original": 0.9761585593223572,
+     "contradiction": 0.0016677416861057281
+    },
+    {
+     "segment": 3,
+     "original": "You don't mind the tiny ones because you've already owned the iPhone.",
+     "rewrite": "You aren't bothered by the smaller models since you have already invested in an iPhone.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.993240237236023,
+     "rewrite_entails_original": 0.9944769740104675,
+     "contradiction": 0.0011411551386117935
+    },
+    {
+     "segment": 7,
+     "original": "Using a 4 inch screen on the other hand fits comfortably in your hand, and works for long reading sessions.",
+     "rewrite": "A 4-inch screen, by contrast, is comfortable to hold and suitable for extended reading periods.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9941441416740417,
+     "rewrite_entails_original": 0.9932903051376343,
+     "contradiction": 0.001368131721392274
+    },
+    {
+     "segment": 8,
+     "original": "And I've been conditioned to only use the lower half of the screen for typing, so to me the higher end type of screens - although extremely useful - don't fit well.",
+     "rewrite": "I have been conditioned to use solely the lower half of the screen for typing, thus for me, even though higher-end types are very useful, they do not quite match my habits.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9527153372764587,
+     "rewrite_entails_original": 0.9943389296531677,
+     "contradiction": 0.0007311078370548785
+    }
+   ],
+   "status": "clean"
+  },
+  {
+   "sample_id": "samples_len200:36",
+   "z0": 5.091168824543142,
+   "z_final": 1.7811762496977412,
+   "rewrites": [
+    {
+     "segment": 1,
+     "original": "A key to the speed is the new driver that supports Xerox Streamnames for up to three scan engines at a time.",
+     "rewrite": "The cornerstone of the speed lies in the new driver that enables Xerox Streamnames to handle up to three scan engines simultaneously.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.988009512424469,
+     "rewrite_entails_original": 0.991424024105072,
+     "contradiction": 0.004837247543036938
+    },
+    {
+     "segment": 2,
+     "original": "It also supports most common operating systems, including Windows, Linux, and Mac OS X. The driver enables a single-user-to-several-user installation according to the needs of the workgroup in large networks.",
+     "rewrite": "It supports a range of operating systems like Windows, Linux, and Mac OS X, and the driver facilitates a single license for multiple user installations based on the group size in extensive network environments.",
+     "verdict": "meaning changed",
+     "reasons": [
+      "name changed"
+     ],
+     "original_entails_rewrite": 0.9859370589256287,
+     "rewrite_entails_original": 0.9361340999603271,
+     "contradiction": 0.0022776189725846052
+    },
+    {
+     "segment": 4,
+     "original": "The Xerox DocuMate 6710 is the next generation vehicle for an increasingly popular scanner.",
+     "rewrite": "The Xerox DocuMate 6710 represents the next generation in an expanding range of scanners.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.8967621326446533,
+     "rewrite_entails_original": 0.8571961522102356,
+     "contradiction": 0.0012393855722621083
+    }
+   ],
+   "status": "not clean"
+  },
+  {
+   "sample_id": "samples_len200:42",
+   "z0": 3.676955262170047,
+   "z_final": 1.9536514342895384,
+   "rewrites": [
+    {
+     "segment": 1,
+     "original": "Besides their problem with giving homebuyer an amped up role, most developers are also not in favour of Rera being treated as the apex regulator to redress their grievances according to them, the only regulator which gives powers to tribesmen as well as built buyers.",
+     "rewrite": "Apart from concerns about elevating home buyers' roles, most developers also do not support Rera as the ultimate regulator for addressing grievances. According to them, only regulators grant powers to tribal members as well as home buyers.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9941146969795227,
+     "rewrite_entails_original": 0.9937600493431091,
+     "contradiction": 0.0009413609514012933
+    }
+   ],
+   "status": "clean"
+  },
+  {
+   "sample_id": "samples_len200:43",
+   "z0": 6.788225099390856,
+   "z_final": 1.9964423333823913,
+   "rewrites": [
+    {
+     "segment": 2,
+     "original": "Mind blowing, there was a madressah blast in Lahore that injured 12 students and it was widely condemned and reported.",
+     "rewrite": "Amazingly shocking, a madressah explosion occurred in Lahore, causing injuries to 12 students, and was extensively criticized and covered by the media.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9754128456115723,
+     "rewrite_entails_original": 0.9880359768867493,
+     "contradiction": 0.0006346317240968347
+    },
+    {
+     "segment": 3,
+     "original": "And because it involved a madressah in Lahore which is location A, tribes are already forming on location B and according to you\u2019re the mind whfleingly, tribal tensions in Yemen.",
+     "rewrite": "And since it involved a madressah in Lahore (location A), tribal tensions are already rising in location B, and as you know, tribal rivalries are intensifying in Yemen.",
+     "verdict": "minor drift",
+     "reasons": [],
+     "original_entails_rewrite": 0.953311562538147,
+     "rewrite_entails_original": 0.5663554668426514,
+     "contradiction": 0.01020145881921053
+    },
+    {
+     "segment": 4,
+     "original": "Bad news always gets buried, good news is spoken about by all, no matter how trivial, no point picking on it.",
+     "rewrite": "Good news is often highlighted, while bad news remains unnoticed, no matter how significant, not worth focusing on the latter.",
+     "verdict": "minor drift",
+     "reasons": [],
+     "original_entails_rewrite": 0.985776960849762,
+     "rewrite_entails_original": 0.7788110375404358,
+     "contradiction": 0.07806864380836487
+    },
+    {
+     "segment": 6,
+     "original": "India is the biggest target of terrorist attacks, Pakistan is left with third to tenth.",
+     "rewrite": "India faces the greatest number of terrorist attacks, with Pakistan experiencing attacks in third to tenth place.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.989693820476532,
+     "rewrite_entails_original": 0.9900395274162292,
+     "contradiction": 0.002545654773712158
+    },
+    {
+     "segment": 7,
+     "original": "So why such apathy in losing people in your own country?",
+     "rewrite": "Why such lack of interest in the loss of people within your own country?",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9874217510223389,
+     "rewrite_entails_original": 0.9781087636947632,
+     "contradiction": 0.008388969115912914
+    }
+   ],
+   "status": "clean"
+  },
+  {
+   "sample_id": "samples_len200:44",
+   "z0": 5.091168824543142,
+   "z_final": 1.0853619079386325,
+   "rewrites": [
+    {
+     "segment": 2,
+     "original": "Small employers who don\u2019t have much in the way of overlapping offerings such as health insurance and meals could club together to provide additional benefits.",
+     "rewrite": "Smaller employers without many similar offerings like healthcare and meal plans could join forces to offer extra benefits.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9917240738868713,
+     "rewrite_entails_original": 0.9926632642745972,
+     "contradiction": 0.0005268214736133814
+    },
+    {
+     "segment": 5,
+     "original": "These plans typically take over key management duties such as creating and maintaining investment portfolios and making sure the administrative tasks are carried out.",
+     "rewrite": "These plans usually assume responsibility for core management functions, including the creation and upkeep of investment portfolios, as well as ensuring that administrative tasks are performed.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9944341778755188,
+     "rewrite_entails_original": 0.9947962164878845,
+     "contradiction": 0.0013574549229815602
+    },
+    {
+     "segment": 6,
+     "original": "There is some risk, which is why existing multiple-employer plans typically have caps of $50 to $500 on how much employees can invest, but the plan itself has unlimited capital.",
+     "rewrite": "Due to some risk involved, existing multiple-employer plans commonly set investment limits between $50 and $500 per employee, while the plan can handle unlimited capital.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9944993257522583,
+     "rewrite_entails_original": 0.9926145076751709,
+     "contradiction": 0.000797104206867516
+    }
+   ],
+   "status": "clean"
+  },
+  {
+   "sample_id": "samples_len200:46",
+   "z0": 2.1213203435596424,
+   "z_final": 1.7902871850985822,
+   "rewrites": [
+    {
+     "segment": 3,
+     "original": "It came on the heels of an offseason during which the head coach and offensive coordinator reportedly made comments that were \u201cbelittling,\u201d Jimmyond Mathews, a former Browns second-round draft pick, said publicly on social media.",
+     "rewrite": "It followed an offseason where the head coach and offensive coordinator reportedly made comments perceived as \u201cbelittling,\u201d according to publicly posted remarks by Jimmyond Mathews, a former Browns second-round draft pick.",
+     "verdict": "minor drift",
+     "reasons": [],
+     "original_entails_rewrite": 0.9929057359695435,
+     "rewrite_entails_original": 0.6624637842178345,
+     "contradiction": 0.000740338466130197
+    }
+   ],
+   "status": "clean"
+  },
+  {
+   "sample_id": "samples_len200:47",
+   "z0": 5.5154328932550705,
+   "z_final": 1.1607620001760186,
+   "rewrites": [
+    {
+     "segment": 1,
+     "original": "A concept that is already generating CGI kudos this is the first time that a system like this has been offered by a mainstream car manufacturer \u2013 and it\u2019s a clever way to set the Yeti apart from the competition.",
+     "rewrite": "This concept, garnering significant CGI praise, is unprecedented for a major automobile company to offer such a system\u2014and it cleverly distinguishes the Yeti from its rivals.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9941569566726685,
+     "rewrite_entails_original": 0.9936860203742981,
+     "contradiction": 0.0007980612572282553
+    },
+    {
+     "segment": 3,
+     "original": "Developed jointly by Skoda\u2019s design team and the Czech engineers at Volkswagen\u2019s RCD division, its soft-touch interior follows the form and looks similar to its sister products the Audi A1, A4 and A6.",
+     "rewrite": "Created collaboratively by Skoda\u2019s design team and Volkswagen\u2019s RCD division in Czech, its soft-touch interior mirrors the design of sister Audi models, including the A1, A4, and A6.",
+     "verdict": "minor drift",
+     "reasons": [],
+     "original_entails_rewrite": 0.9816659092903137,
+     "rewrite_entails_original": 0.49178624153137207,
+     "contradiction": 0.0012805534061044455
+    },
+    {
+     "segment": 4,
+     "original": "The canvas-textured materials look and feel like natural surroundings, differing only subtly from the version used in the base models.",
+     "rewrite": "The canvas-textured materials appear and sense similar to natural surroundings, differing only slightly from the material used in the basic models.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9918701648712158,
+     "rewrite_entails_original": 0.994074285030365,
+     "contradiction": 0.001087136217392981
+    }
+   ],
+   "status": "clean"
+  },
+  {
+   "sample_id": "samples_len200:52",
+   "z0": 5.232590180780451,
+   "z_final": 1.5556349186104046,
+   "rewrites": [
+    {
+     "segment": 6,
+     "original": "Here\u2019s what matters most: leadership on trade makes us better off.",
+     "rewrite": "What's crucial is that effective trade leadership benefits us the most.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9544684886932373,
+     "rewrite_entails_original": 0.9890355467796326,
+     "contradiction": 0.0009467736235819757
+    },
+    {
+     "segment": 7,
+     "original": "Any American, irrespective of which location or region he or she is from, benefits.",
+     "rewrite": "Anyone in America, regardless of location or region, derives benefit.",
+     "verdict": "meaning changed",
+     "reasons": [
+      "name changed"
+     ],
+     "original_entails_rewrite": 0.9938945174217224,
+     "rewrite_entails_original": 0.993444561958313,
+     "contradiction": 0.0015985071659088135
+    },
+    {
+     "segment": 8,
+     "original": "These pacts\u2019 success will especially help manufacturers, farmers, and service industries.",
+     "rewrite": "These agreements' success will particularly benefit manufacturers, farmers, and service sectors.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9943576455116272,
+     "rewrite_entails_original": 0.9926089644432068,
+     "contradiction": 0.0015373878413811326
+    },
+    {
+     "segment": 10,
+     "original": "As key players in Congress fail to agree, the rest of the world moves ahead.",
+     "rewrite": "Due to the lack of agreement among key players in Congress, the rest of the world proceeds ahead.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9940792322158813,
+     "rewrite_entails_original": 0.9933528900146484,
+     "contradiction": 0.002415231429040432
+    },
+    {
+     "segment": 12,
+     "original": "It is getting to a point in its development where it\u2019s losing its agricultural edge, yet it trails us in manufacturing.",
+     "rewrite": "As it evolves, it is reaching a stage where it loses its agricultural advantage, while still lagging behind us in manufacturing.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9937340617179871,
+     "rewrite_entails_original": 0.9938595294952393,
+     "contradiction": 0.0018820898840203881
+    }
+   ],
+   "status": "not clean"
+  },
+  {
+   "sample_id": "samples_len200:56",
+   "z0": 3.5355339059327373,
+   "z_final": 1.6045149064768403,
+   "rewrites": [
+    {
+     "segment": 3,
+     "original": "Water is not only natural, safe and healthy but drinking a glass of water can curb your appetite because water fills you up sooner than any other food source in your diet.",
+     "rewrite": "Water is not only natural, safe, and healthy, but also helps curb your appetite by filling you up more quickly than most foods in your diet.",
+     "verdict": "meaning changed",
+     "reasons": [
+      "entailment 0.31"
+     ],
+     "original_entails_rewrite": 0.9931530952453613,
+     "rewrite_entails_original": 0.3133596181869507,
+     "contradiction": 0.0013381117023527622
+    },
+    {
+     "segment": 4,
+     "original": "Moreover, adequate consumption of water can also help you lose weight because liquids do not contain calories and water intake does not add to your daily calorie intake.",
+     "rewrite": "Additionally, drinking enough water can aid in weight loss since it contains no calories and does not contribute to your daily calorie intake.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9950417876243591,
+     "rewrite_entails_original": 0.9923902153968811,
+     "contradiction": 0.0009132726700045168
+    }
+   ],
+   "status": "not clean"
+  },
+  {
+   "sample_id": "samples_len200:60",
+   "z0": 5.5154328932550705,
+   "z_final": 1.5784566588059405,
+   "rewrites": [
+    {
+     "segment": 3,
+     "original": "Start-up founders describe tricky tech elements of running a business Chris Murphy, co-founder and CEO at Made, and Ian Hogarth, co-founder and MD of SongKick, discuss tricky tech elements of running a start-up.",
+     "rewrite": "Chris Murphy, co-founder and CEO at Made, and Ian Hogarth, co-founder and MD of SongKick, explore complex technical aspects of operating a start-up.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9586884379386902,
+     "rewrite_entails_original": 0.9606525301933289,
+     "contradiction": 0.0009398672264069319
+    },
+    {
+     "segment": 4,
+     "original": "Photo-sharing app Instagram to go pro with new tool To prevent copyright infringement, Instagram is bolstering its service with a new analytics tool for companies to track their brands on the hot photo-sharing vehicle.",
+     "rewrite": "Instagram is enhancing its platform for businesses to combat copyright infringement by introducing new analytics tools that permit companies to monitor their brands across the popular photo-sharing site.",
+     "verdict": "meaning changed",
+     "reasons": [
+      "name changed"
+     ],
+     "original_entails_rewrite": 0.9936239719390869,
+     "rewrite_entails_original": 0.9422674775123596,
+     "contradiction": 0.0016731222858652472
+    }
+   ],
+   "status": "not clean"
+  },
+  {
+   "sample_id": "samples_len200:61",
+   "z0": 5.091168824543142,
+   "z_final": 0.9801960588196068,
+   "rewrites": [
+    {
+     "segment": 1,
+     "original": "It sounded as ominous as the Impact's Sigi Schmid anyone-but-Toronto soccer chant.",
+     "rewrite": "It seemed just as ominous as any chants against Sigi Schmid by the Impact fans.",
+     "verdict": "meaning changed",
+     "reasons": [
+      "name changed",
+      "entailment 0.02"
+     ],
+     "original_entails_rewrite": 0.9698935151100159,
+     "rewrite_entails_original": 0.01631913334131241,
+     "contradiction": 0.0348377451300621
+    },
+    {
+     "segment": 3,
+     "original": "Things got worse for TFC five minutes before halftime, as Giovinco and Altidore were denied by the approaching referee; a goal kick was awarded, and Montreal immediately scored again.",
+     "rewrite": "Five minutes before halftime, TFC's situation deteriorated when Giovinco and Altidore were foiled by the encroaching referee; a goal kick was granted, and Montreal scored again almost instantly.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9929637312889099,
+     "rewrite_entails_original": 0.994743824005127,
+     "contradiction": 0.0007357749273069203
+    },
+    {
+     "segment": 4,
+     "original": "TFC midfielder Benoit Cheyrou fouled Piatti, giving Impact super-sub Romualdo a chance to whack a free kick high into the upper reaches of the north end goal.",
+     "rewrite": "TFC midfielder Benoit Cheyrou committed a foul on Piatti, providing an opportunity for Impact's substitute, Romualdo, to unleash a high free kick towards the north end goal.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9941418766975403,
+     "rewrite_entails_original": 0.9797496795654297,
+     "contradiction": 0.0014567471807822585
+    },
+    {
+     "segment": 6,
+     "original": "In the scintilla of time remaining before intermission, Giovinco floated a free kick over the wall and onto the left post.",
+     "rewrite": "In the brief moments left before halftime, Giovinco executed a free kick that bypassed the wall and hit the left post.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9933041930198669,
+     "rewrite_entails_original": 0.9923621416091919,
+     "contradiction": 0.0019774851389229298
+    }
+   ],
+   "status": "not clean"
+  },
+  {
+   "sample_id": "samples_len200:64",
+   "z0": 4.1012193308819755,
+   "z_final": 1.8027756377319948,
+   "rewrites": [
+    {
+     "segment": 2,
+     "original": "It can immediately disarm an awkward, overly-signaling situation.",
+     "rewrite": "It can swiftly de-escalate a cumbersome, overly signaling situation.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9915452599525452,
+     "rewrite_entails_original": 0.9792045950889587,
+     "contradiction": 0.010102998465299606
+    },
+    {
+     "segment": 3,
+     "original": "Who doesn\u2019t feel relaxed after an office jester makes fun of their mistake?",
+     "rewrite": "Is there anyone who doesn't feel relaxed when an office jester makes light of their mistake?",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9793913960456848,
+     "rewrite_entails_original": 0.9449201226234436,
+     "contradiction": 0.04065025597810745
+    },
+    {
+     "segment": 5,
+     "original": "And when I first heard about a key hire that wasn\u2019t a gender diverse one, I asked the person my immediate boss what that was all about.",
+     "rewrite": "When I first learned of a key hire who was not gender diverse, I inquired of the person who was my supervisor about it.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9112144112586975,
+     "rewrite_entails_original": 0.8119670152664185,
+     "contradiction": 0.002091629896312952
+    },
+    {
+     "segment": 8,
+     "original": "Working on Wall Street, I learned about humor from the very top.",
+     "rewrite": "At Wall Street, I discovered that even the highest levels imbue humor into everyday operations.",
+     "verdict": "minor drift",
+     "reasons": [],
+     "original_entails_rewrite": 0.7155172228813171,
+     "rewrite_entails_original": 0.9820497632026672,
+     "contradiction": 0.0012205705279484391
+    }
+   ],
+   "status": "clean"
+  },
+  {
+   "sample_id": "samples_len200:65",
+   "z0": 2.262741699796952,
+   "z_final": 1.7722030125208397,
+   "rewrites": [
+    {
+     "segment": 3,
+     "original": "Offensive coordinator Pat Shurmur was impressed by the Vikings offensive line, saying they didn't make any \"catastrophes\" and they did \"an overall good job.\"",
+     "rewrite": "Offensive coordinator Pat Shurmur praised the Vikings offensive line, noting they committed no \"catastrophes\" and executed \"an overall good job.\"",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9925711750984192,
+     "rewrite_entails_original": 0.9930364489555359,
+     "contradiction": 0.0009955733548849821
+    },
+    {
+     "segment": 5,
+     "original": "Vikings coach Mike Zimmer said of the offensive line.",
+     "rewrite": "Mike Zimmer, the Vikings' coach, commented on the offensive line.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9927988052368164,
+     "rewrite_entails_original": 0.9921203851699829,
+     "contradiction": 0.0035820850171148777
+    }
+   ],
+   "status": "clean"
+  },
+  {
+   "sample_id": "samples_len200:66",
+   "z0": 5.79827560572969,
+   "z_final": 0.9949366763261821,
+   "rewrites": [
+    {
+     "segment": 3,
+     "original": "The party called an all-night brainstorming on the subject on Saturday after a meeting by the family earlier in the day.",
+     "rewrite": "The party held an all-night brainstorming on Saturday regarding the subject following a meeting with the family in the morning.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9817230105400085,
+     "rewrite_entails_original": 0.9922701120376587,
+     "contradiction": 0.0014213756658136845
+    },
+    {
+     "segment": 4,
+     "original": "Brainstorming meeting became a standard after Prasad attacked Rahul Gandhi by calling him \u2018Pappu\u2019 last year.",
+     "rewrite": "Last year, when Prasad called Rahul Gandhi 'Pappu', it led to brainstorming becoming a standard practice.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9941611886024475,
+     "rewrite_entails_original": 0.8744611740112305,
+     "contradiction": 0.0015030389185994864
+    },
+    {
+     "segment": 5,
+     "original": "The ongoing din over the question of land deal involving Vadra\u2019s alleged dubious transactions kept the Centre busy with government departments probing.",
+     "rewrite": "The continuous noise regarding the land deal involving Vadra's suspected irregular transactions kept the Centre occupied as government departments probed.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9945951104164124,
+     "rewrite_entails_original": 0.9921688437461853,
+     "contradiction": 0.0013910364359617233
+    },
+    {
+     "segment": 6,
+     "original": "Ministers dismissed the allegations as baseless, saying Vadra had faced inquiries in the past, but people had voted him to office and he was presently facing enquiries in multiple agencies.",
+     "rewrite": "Ministers deemed the accusations unfounded, stating that Vadra had previously been under inquiry, yet the electorate had still chosen him for office, and he was now being probed by several agencies.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.994600772857666,
+     "rewrite_entails_original": 0.994516909122467,
+     "contradiction": 0.0010964554967358708
+    }
+   ],
+   "status": "clean"
+  },
+  {
+   "sample_id": "samples_len200:69",
+   "z0": 3.111269837220809,
+   "z_final": 1.7811762496977412,
+   "rewrites": [
+    {
+     "segment": 2,
+     "original": "Yet, the U.S. failed repeatedly to ratify a protocol that would penalize parents who send their children on perilous journeys to the U.S. To prevent further suffering, we must, at a minimum, be in compliance with the original convention.",
+     "rewrite": "Nevertheless, the U.S. repeatedly declined to ratify a protocol intended to penalize parents for sending their children on dangerous trips to the U.S. To halt additional suffering, we must, at the very least, adhere to the initial convention.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9918630123138428,
+     "rewrite_entails_original": 0.9929574728012085,
+     "contradiction": 0.0010000488255172968
+    }
+   ],
+   "status": "clean"
+  },
+  {
+   "sample_id": "samples_len200:70",
+   "z0": 4.666904755831213,
+   "z_final": 1.7995393768717365,
+   "rewrites": [
+    {
+     "segment": 1,
+     "original": "There were also chances for Dnipro to seize the lead through Olexander Khacheridi as he burst through on goal, but an offside penalty appeals was waved away by the linesman, and Gael Clichy blocked the Ukraine's chance to take the lead in the 59th minute.",
+     "rewrite": "Opportunities arose for Dnipro through Olexander Khacheridi, who broke through on goal, yet the linesman dismissed an offside appeal, and Gael Clichy prevented Ukraine from taking the lead in the 59th minute.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9938840270042419,
+     "rewrite_entails_original": 0.9887492656707764,
+     "contradiction": 0.0024782931432127953
+    },
+    {
+     "segment": 2,
+     "original": "Clichy was in the wars again in the 76th minute as his challenge left the visiting keeper looking at the sky and Yevhen Konoplyanka was sent clean through on goal.",
+     "rewrite": "Clichy caused chaos for the visiting keeper with a challenge in the 76th minute, leaving the keeper looking skyward, and creating a clear goal-scoring opportunity for Yevhen Konoplyanka.",
+     "verdict": "minor drift",
+     "reasons": [],
+     "original_entails_rewrite": 0.9160258173942566,
+     "rewrite_entails_original": 0.43109777569770813,
+     "contradiction": 0.007136292289942503
+    }
+   ],
+   "status": "clean"
+  },
+  {
+   "sample_id": "samples_len200:73",
+   "z0": 3.959797974644666,
+   "z_final": 1.979898987322333,
+   "rewrites": [
+    {
+     "segment": 1,
+     "original": "Amala Paul\u2019s biopic is planned for a release on 7 December, as she mentions in a recent Instagram photo, reports suggest.",
+     "rewrite": "Amala Paul's biopic, which sources report is set for a release on 7 December, was recently mentioned by her in an Instagram photo.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9945226907730103,
+     "rewrite_entails_original": 0.9941113591194153,
+     "contradiction": 0.001150790136307478
+    },
+    {
+     "segment": 3,
+     "original": "And one such superhero movie was revealed by Amala Paul recently, named as Thalaivii, according reports.",
+     "rewrite": "A superheroes film named Thalaivii, released recently by Amala Paul, was reported so.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9900858402252197,
+     "rewrite_entails_original": 0.9881425499916077,
+     "contradiction": 0.0033994426485151052
+    }
+   ],
+   "status": "clean"
+  },
+  {
+   "sample_id": "samples_len200:74",
+   "z0": 2.9698484809834995,
+   "z_final": 1.638682149721922,
+   "rewrites": [
+    {
+     "segment": 2,
+     "original": "It commemorated President Harry S. Truman, who donated the boxed brush to the Museum after he\u2019d lost a tooth.",
+     "rewrite": "The Museum honored President Harry S. Truman, whom Truman later gave the box of brush after he had lost a tooth.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9773200750350952,
+     "rewrite_entails_original": 0.9853877425193787,
+     "contradiction": 0.006960347294807434
+    },
+    {
+     "segment": 5,
+     "original": "On the return trip, Armstrong asked Buzz Aldrin, his fellow crew member and pilot, to be sure to have a good look at the moon.",
+     "rewrite": "During the return trip, Armstrong requested that Buzz Aldrin, his fellow crew member and pilot, take a thorough gaze at the moon.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9942899942398071,
+     "rewrite_entails_original": 0.9945414662361145,
+     "contradiction": 0.0009382727439515293
+    }
+   ],
+   "status": "clean"
+  },
+  {
+   "sample_id": "samples_len200:78",
+   "z0": 4.949747468305833,
+   "z_final": 1.7142857142857142,
+   "rewrites": [
+    {
+     "segment": 1,
+     "original": "From the beginning, according to Scripture, humans had a purpose that meant something, and their work had value.",
+     "rewrite": "At the outset, as per Scripture, humans possessed a purpose filled with significance, and their labor held value.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.994260311126709,
+     "rewrite_entails_original": 0.9944847226142883,
+     "contradiction": 0.0008981754072010517
+    },
+    {
+     "segment": 3,
+     "original": "We might be able to generate wealth for our clients or our bosses, but according to the prophet Isaiah, we are to be more about contributing to the wealth of our communities.",
+     "rewrite": "We could produce wealth for our clients or bosses; however, as per the prophet Isaiah, our focus should primarily be on enhancing our communities' wealth.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9943721294403076,
+     "rewrite_entails_original": 0.9942195415496826,
+     "contradiction": 0.0011891619069501758
+    },
+    {
+     "segment": 4,
+     "original": "Isaiah tells us that we are to be people of service, not people of personal ambition.",
+     "rewrite": "Isaiah instructs us to be servant-minded, not driven by personal ambitions.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9944749474525452,
+     "rewrite_entails_original": 0.9945833086967468,
+     "contradiction": 0.0007200128166005015
+    }
+   ],
+   "status": "clean"
+  },
+  {
+   "sample_id": "samples_len200:81",
+   "z0": 5.232590180780451,
+   "z_final": 1.6555762267219976,
+   "rewrites": [
+    {
+     "segment": 3,
+     "original": "Miller said at the November ASB Executive Council meeting that he hoped to generate enough sponsorship funds for Everybody\u2019s Formal \u201cadministered funds,\u201d which he\u2019s defined as the cash on hand reserved for ASB sponsored events.",
+     "rewrite": "At the November ASB Executive Council meeting, Miller stated his goal to secure sufficient sponsorship funds for Everybody\u2019s Formal \u201cadministered funds,\u201d which he defines as the cash available for ASB-sponsored events.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9942165613174438,
+     "rewrite_entails_original": 0.9879706501960754,
+     "contradiction": 0.0016117262421175838
+    },
+    {
+     "segment": 4,
+     "original": "ASB allocates budgets of different types for student organizations to host events.",
+     "rewrite": "ASB assigns various budget types to support student organizations in hosting events.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9919658899307251,
+     "rewrite_entails_original": 0.9933466911315918,
+     "contradiction": 0.0022818120196461678
+    },
+    {
+     "segment": 5,
+     "original": "If ASB can generate enough administered funds for the coming events, Miller said, they can fail fast.",
+     "rewrite": "If ASB gathers sufficient allocated funds for the upcoming events, Miller said they can afford to fail quickly.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9795436263084412,
+     "rewrite_entails_original": 0.990659773349762,
+     "contradiction": 0.003438157495111227
+    },
+    {
+     "segment": 6,
+     "original": "ASB\u2019s target for fundraising was the goal Morgan left for the organization.",
+     "rewrite": "ASB aimed to meet the fundraising goal set by Morgan.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9847359657287598,
+     "rewrite_entails_original": 0.9191626310348511,
+     "contradiction": 0.0016447153175249696
+    }
+   ],
+   "status": "clean"
+  },
+  {
+   "sample_id": "samples_len200:84",
+   "z0": 2.545584412271571,
+   "z_final": 1.7320508075688774,
+   "rewrites": [
+    {
+     "segment": 3,
+     "original": "The weekly chart, below, is a run at a breakout and approaching stronger overhead resistance at the former rising 200-day average line near $58.",
+     "rewrite": "Below, the weekly chart attempts to breach resistance near the previous 200-day moving average around $58.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9921033978462219,
+     "rewrite_entails_original": 0.8140621781349182,
+     "contradiction": 0.006427539512515068
+    }
+   ],
+   "status": "clean"
+  },
+  {
+   "sample_id": "samples_len200:85",
+   "z0": 3.959797974644666,
+   "z_final": 1.6142835345902717,
+   "rewrites": [
+    {
+     "segment": 1,
+     "original": "XLP is home to household-name brands like Procter & Gamble, Clorox and Coca-Cola.",
+     "rewrite": "XLP shelters well-known brands such as Procter & Gamble, Clorox, and Coca-Cola.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9930134415626526,
+     "rewrite_entails_original": 0.9896129965782166,
+     "contradiction": 0.003934130538254976
+    },
+    {
+     "segment": 2,
+     "original": "The ETF is holding up well this year as consumer staples stocks have rallied stronger than the broad market and emerging markets, where the China-US tariff dispute began.",
+     "rewrite": "This year, the ETF is performing well as consumer staples stocks have gained more than the broader market and emerging markets, where the trade disagreement between China and the US started.",
+     "verdict": "minor drift",
+     "reasons": [],
+     "original_entails_rewrite": 0.9942089319229126,
+     "rewrite_entails_original": 0.661026120185852,
+     "contradiction": 0.0013815436977893114
+    },
+    {
+     "segment": 6,
+     "original": "Staples companies were able to supply consumers with basic necessities without much damage to profits.",
+     "rewrite": "Staples firms managed to provide customers with essentials without significantly affecting their profitability.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9943981766700745,
+     "rewrite_entails_original": 0.9943978786468506,
+     "contradiction": 0.001420360989868641
+    }
+   ],
+   "status": "clean"
+  },
+  {
+   "sample_id": "samples_len200:86",
+   "z0": 3.394112549695428,
+   "z_final": 1.7722030125208397,
+   "rewrites": [
+    {
+     "segment": 2,
+     "original": "In a recent article, we outlined five examples of digital transformation in healthcare: Online screening and self-monitoring.",
+     "rewrite": "Recently, an article highlighted five examples of digital transformation in healthcare: Online screening and self-monitoring.",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9942692518234253,
+     "rewrite_entails_original": 0.9943916201591492,
+     "contradiction": 0.0016451566480100155
+    },
+    {
+     "segment": 8,
+     "original": "Are financial services companies \u2014 such as banks and investment firms \u2014 well on their way to elevating digital in their corporate strategy?",
+     "rewrite": "Do financial services firms, including banks and investment houses, already regard digital enhancement as a key part of their corporate strategy?",
+     "verdict": "faithful",
+     "reasons": [],
+     "original_entails_rewrite": 0.9214373230934143,
+     "rewrite_entails_original": 0.8632238507270813,
+     "contradiction": 0.004311890807002783
+    }
+   ],
+   "status": "clean"
+  }
+ ]
+}

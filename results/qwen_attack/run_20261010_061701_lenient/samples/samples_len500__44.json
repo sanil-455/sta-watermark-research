@@ -1,0 +1,312 @@
+{
+ "sample_id": "samples_len500:44",
+ "source": "results/raw/samples_len500.json",
+ "layout": "prompt+text",
+ "tokens": 500,
+ "eligible_share": 0.9899563318777292,
+ "needed_share": 0.7096015613636637,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2290,
+  "segments": 18,
+  "eligible": 16,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 2267,
+  "eligible_char_share": 0.9899563318777292
+ },
+ "attack": {
+  "z0": 6.887089370699352,
+  "z_final": 1.7458797760397964,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 246,
+  "seconds": 266.4,
+  "seconds_by_phase": {
+   "generate": 248.4,
+   "gates": 17.9,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 16,
+    "chars": 240,
+    "z_before": 6.887089370699352,
+    "z_after": 6.401559178812587,
+    "accepted": true,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 53,
+     "after_content": 2,
+     "after_semantic": 2,
+     "fluency_skipped": true,
+     "after_fluency": 2,
+     "rejected": {
+      "CJK text": 2,
+      "several lines": 1,
+      "unknown word": 4,
+      "negation count changed": 51
+     }
+    },
+    "queries_total": 3,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 55.09
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 177,
+    "z_before": 6.401559178812587,
+    "z_after": 5.618332187193684,
+    "accepted": true,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 59,
+     "after_content": 22,
+     "after_semantic": 19,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "unknown word": 1,
+      "negation count changed": 37,
+      "meaning too different": 3
+     }
+    },
+    "queries_total": 22,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.97
+   },
+   {
+    "pass": 1,
+    "segment": 13,
+    "chars": 169,
+    "z_before": 5.618332187193684,
+    "z_after": 4.749973578451141,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 55,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "duplicate": 2,
+      "CJK text": 1,
+      "unknown word": 2,
+      "negation count changed": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 72,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.82
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 166,
+    "z_before": 4.749973578451141,
+    "z_after": 3.7899626775755335,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 5,
+      "unknown word": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 122,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.8
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 164,
+    "z_before": 3.7899626775755335,
+    "z_after": 3.022968726425832,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 7,
+      "several lines": 1
+     }
+    },
+    "queries_total": 174,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.94
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 158,
+    "z_before": 3.022968726425832,
+    "z_after": 2.2450662753346866,
+    "accepted": true,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 50,
+     "after_content": 34,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "duplicate": 7,
+      "CJK text": 2,
+      "unknown word": 1,
+      "negation count changed": 16,
+      "meaning too different": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 205,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.89
+   },
+   {
+    "pass": 1,
+    "segment": 15,
+    "chars": 152,
+    "z_before": 2.2450662753346866,
+    "z_after": 1.7458797760397964,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 2,
+      "negation count changed": 14,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 246,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 31.85
+   }
+  ],
+  "rewrites": {
+   "16": {
+    "original": "That\u2019s not to say that neither government officials nor employees have conflicts of interests (the latter example is, of course, obvious) but rather that Uncle Sam already has his hands full making sure the existing system is fair and free.",
+    "rewrite": "It\u2019s not to say that neither government officials nor employees have conflicts of interest (the latter being, naturally, quite apparent), but rather that Uncle Sam is sufficiently preoccupied ensuring the current system functions fairly and freely."
+   },
+   "6": {
+    "original": "There is some risk, which is why existing multiple-employer plans typically have caps of $50 to $500 on how much employees can invest, but the plan itself has unlimited capital.",
+    "rewrite": "Due to some risk involved, existing multiple-employer plans commonly set investment limits between $50 and $500 per employee, while the plan can handle unlimited capital."
+   },
+   "13": {
+    "original": "By getting more people to save, multiple-employer plans also ensure that more people pay into Social Security and Medicare as well, which helps stabilize these programs.",
+    "rewrite": "Multiple-employer plans can also facilitate greater savings among individuals, thereby ensuring more contributors to Social Security and Medicare, which aids in stabilizing these programs."
+   },
+   "5": {
+    "original": "These plans typically take over key management duties such as creating and maintaining investment portfolios and making sure the administrative tasks are carried out.",
+    "rewrite": "These plans usually assume responsibility for core management functions, including the creation and upkeep of investment portfolios, as well as ensuring that administrative tasks are performed."
+   },
+   "12": {
+    "original": "And it\u2019s important to remember that these rules would preclude the cost of the plan being possible market manipulation, which is pretty common given loads and fees.",
+    "rewrite": "It\u2019s crucial to note that these rules would prevent the plan\u2019s cost from enabling market manipulation, a problem often exacerbated by loads and fees."
+   },
+   "2": {
+    "original": "Small employers who don\u2019t have much in the way of overlapping offerings such as health insurance and meals could club together to provide additional benefits.",
+    "rewrite": "Smaller employers without many similar offerings like healthcare and meal plans could join forces to offer extra benefits."
+   },
+   "15": {
+    "original": "It should not craft laws or write regulations that arbitrarily raise costs or disadvantage certain funds, which is exactly what it has done in the past.",
+    "rewrite": "It must not create laws or formulate regulations that arbitrarily increase costs or place disadvantages on specific funds, which is precisely what it has done in the past."
+   }
+  },
+  "final_span": ". That way, any employer could partner up with other local businesses who offer similar products or services. Smaller employers without many similar offerings like healthcare and meal plans could join forces to offer extra benefits.\nThere is no reason why these kinds of arrangements cannot do well. Several multi-employer plans already exist, and they offer \u201cadministered funds,\u201d rather than each employer having to sponsor its own separate account. These plans usually assume responsibility for core management functions, including the creation and upkeep of investment portfolios, as well as ensuring that administrative tasks are performed. Due to some risk involved, existing multiple-employer plans commonly set investment limits between $50 and $500 per employee, while the plan can handle unlimited capital.\nThere are some minor issues that would have to be addressed, since 401(k) is not the only window dressing. But as Kevin Kelleher discussed earlier this month, if the rules only apply to rightfully established multiple-employer plans, it\u2019s not a big deal. Multiple employer plans could not only benefit members but also other employers in the area, much like the local Chamber of Commerce.\nCheap and accessible investment options are much better than having no access to plans at all. To put it in perspective, the median employer cost per worker is less than $1,000 in a 401(k) plan, according to multiple sources. It\u2019s crucial to note that these rules would prevent the plan\u2019s cost from enabling market manipulation, a problem often exacerbated by loads and fees. Multiple-employer plans can also facilitate greater savings among individuals, thereby ensuring more contributors to Social Security and Medicare, which aids in stabilizing these programs.\nOf course, to ensure that everyone is covered by both safety nets, the government has to keep its hands off. It must not create laws or formulate regulations that arbitrarily increase costs or place disadvantages on specific funds, which is precisely what it has done in the past. It\u2019s not to say that neither government officials nor employees have conflicts of interest (the latter being, naturally, quite apparent), but rather that Uncle Sam is sufficiently preoccupied ensuring the current system functions fairly and freely.\nThere",
+  "break_point": {
+   "step": 6,
+   "sentences_rewritten": 7,
+   "queries": 246
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 7,
+   "eligible": 16,
+   "segments": 18,
+   "pct_of_eligible": 43.75,
+   "pct_of_segments": 38.888888888888886
+  },
+  "tokens": {
+   "original": 501,
+   "final": 500,
+   "length_change": -1,
+   "pct_not_preserved": 23.35329341317365,
+   "pct_new": 23.2
+  },
+  "words": {
+   "original": 373,
+   "final": 356,
+   "length_change": -17,
+   "pct_not_preserved": 30.563002680965145,
+   "pct_new": 27.247191011235962
+  },
+  "characters": {
+   "original": 2290,
+   "final": 2305,
+   "length_change": 15,
+   "pct_not_preserved": 17.423580786026204,
+   "pct_new": 17.96095444685466
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 327,
+   "green_after": 269,
+   "pairs_before": 500,
+   "pairs_after": 499,
+   "pairs_changed_before": 166,
+   "pairs_changed_after": 165,
+   "green_fraction_of_new_pairs": 0.37575757575757573,
+   "delta_achieved": 0.12424242424242427
+  }
+ }
+}

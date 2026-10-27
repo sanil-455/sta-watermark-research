@@ -1,0 +1,44 @@
+{
+ "repl": {
+  "10": "Both the smart-idle stop-start system, which disables the engine during idling and reactivates it when the throttle is opened, and a six-speed gearbox featuring Tiptronic, contribute to the Yeti\u2019s notable fuel efficiency, achieving gains of 5.6 mpg.",
+  "1": "This concept, garnering significant CGI praise, is unprecedented for a major automobile company to offer such a system\u2014and it cleverly distinguishes the Yeti from its rivals.",
+  "3": "Created collaboratively by Skoda\u2019s design team and Volkswagen\u2019s RCD division in Czech, its soft-touch interior mirrors the design of sister Audi models, including the A1, A4, and A6.",
+  "9": "While power sent to the front wheels isn't inexpensive given the engine's displacement of merely 2.0 liters, it wouldn't be accurate to suggest the Yeti lacks power since it possesses substantial torque reserves.",
+  "5": "On a chilly and gloomy November afternoon, it is evident that the Yeti belongs to the same lineage as other Volkswagen Group models, and finding its cabin fitting into the range comes as no surprise.",
+  "8": "The gearbox is skillfully designed with a throw of a tastefully positioned lever that feels exceptionally lightweight, making it clear why this system was successful in the Audi A4.",
+  "6": "The proper arrangement of three rows of buttons for the gearbox, lights, hazards, and wipers \u2013 instead found deep in the centre console \u2013 implies that the driver might be eager to test the Yeti's capabilities."
+ },
+ "provenance": {
+  "10": "kept from the reading",
+  "1": "kept from the reading",
+  "3": "kept from the reading",
+  "9": "kept from the reading",
+  "5": "kept from the reading",
+  "8": "kept from the reading",
+  "6": "approved by the user"
+ },
+ "old_bad": {
+  "6": "Three rows of buttons in the main panel, which ought to be correctly placed, instead sit uncomfortably deep in the center console, leading to the probable conclusion that the driver is eager to test the Yeti's capabilities."
+ },
+ "rejected": {},
+ "skipped": [],
+ "decisions": [
+  {
+   "segment": 6,
+   "answer": "y",
+   "proposal": "The proper arrangement of three rows of buttons for the gearbox, lights, hazards, and wipers \u2013 instead found deep in the centre console \u2013 implies that the driver might be eager to test the Yeti's capabilities.",
+   "z_before": 2.630933427433784,
+   "z_after": 1.4729193886373175,
+   "similarity": 0.91666179895401
+  }
+ ],
+ "calls": 1,
+ "status": "broken",
+ "sample_id": "samples_len500:47",
+ "z0": 8.765386471799175,
+ "z_start_of_repair": 2.630933427433784,
+ "z_final": 1.4729193886373175,
+ "final_span": "tilted or rotated or folded to let the driver carry long objects inside the vehicle.\nThis concept, garnering significant CGI praise, is unprecedented for a major automobile company to offer such a system\u2014and it cleverly distinguishes the Yeti from its rivals.\nAnother area where the Yeti takes a different approach is in cabin materials.\nCreated collaboratively by Skoda\u2019s design team and Volkswagen\u2019s RCD division in Czech, its soft-touch interior mirrors the design of sister Audi models, including the A1, A4, and A6.\nThe canvas-textured materials look and feel like natural surroundings, differing only subtly from the version used in the base models.\nOn a chilly and gloomy November afternoon, it is evident that the Yeti belongs to the same lineage as other Volkswagen Group models, and finding its cabin fitting into the range comes as no surprise.\nThe proper arrangement of three rows of buttons for the gearbox, lights, hazards, and wipers \u2013 instead found deep in the centre console \u2013 implies that the driver might be eager to test the Yeti's capabilities.\nOut on the road the Yeti displays all the traits one expects of the Volkswagen Group.\nThe gearbox is skillfully designed with a throw of a tastefully positioned lever that feels exceptionally lightweight, making it clear why this system was successful in the Audi A4.\nWhile power sent to the front wheels isn't inexpensive given the engine's displacement of merely 2.0 liters, it wouldn't be accurate to suggest the Yeti lacks power since it possesses substantial torque reserves.\nBoth the smart-idle stop-start system, which disables the engine during idling and reactivates it when the throttle is opened, and a six-speed gearbox featuring Tiptronic, contribute to the Yeti\u2019s notable fuel efficiency, achieving gains of 5.6 mpg.\nThere\u2019s also a choice of two diesel engines, with a 2.0 litre, and a 1.8 lit",
+ "queries": 40,
+ "seconds": 712.7
+}

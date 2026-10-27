@@ -1,0 +1,430 @@
+{
+ "sample_id": "baseline_extra:23",
+ "source": "results/raw/baseline_extra.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.474034620505992,
+ "needed_share": 0.6177801182775418,
+ "delta_needed": 0.056099103182276074,
+ "segmentation": {
+  "chars": 751,
+  "segments": 10,
+  "eligible": 4,
+  "skipped": 6,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "too short": 1,
+   "quotation": 3,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 356,
+  "eligible_char_share": 0.474034620505992
+ },
+ "attack": {
+  "z0": 5.232590180780451,
+  "z_final": 2.783261356538736,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 203,
+  "seconds": 335.0,
+  "seconds_by_phase": {
+   "generate": 317.5,
+   "gates": 17.5,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 149,
+    "z_before": 5.232590180780451,
+    "z_after": 4.503024286273868,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 49,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "several lines": 5,
+      "CJK text": 3,
+      "duplicate": 2,
+      "unknown word": 1,
+      "numbers changed": 5
+     }
+    },
+    "queries_total": 45,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.57
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 91,
+    "z_before": 4.503024286273868,
+    "z_after": 3.9207842352784272,
+    "accepted": true,
+    "survivors": 3,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 26,
+     "after_content": 3,
+     "after_semantic": 3,
+     "fluency_skipped": false,
+     "after_fluency": 3,
+     "rejected": {
+      "duplicate": 33,
+      "unknown word": 1,
+      "numbers changed": 23
+     }
+    },
+    "queries_total": 48,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.58
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 69,
+    "z_before": 3.9207842352784272,
+    "z_after": 3.2826223901170173,
+    "accepted": true,
+    "survivors": 17,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 21,
+     "after_spelling": 21,
+     "after_content": 21,
+     "after_semantic": 21,
+     "fluency_skipped": false,
+     "after_fluency": 17,
+     "rejected": {
+      "duplicate": 39,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 65,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.91
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 47,
+    "z_before": 3.2826223901170173,
+    "z_after": 3.0032502718091862,
+    "accepted": true,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 5,
+     "after_spelling": 5,
+     "after_content": 5,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "duplicate": 55
+     }
+    },
+    "queries_total": 70,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.18
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 149,
+    "z_before": 3.0032502718091862,
+    "z_after": 2.857738033247041,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 44,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "several lines": 6,
+      "duplicate": 5,
+      "CJK text": 1,
+      "hit length limit": 1,
+      "unknown word": 3,
+      "numbers changed": 2
+     }
+    },
+    "queries_total": 112,
+    "hit_limit": 3,
+    "oom_events": [],
+    "seconds_generate": 56.98
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 91,
+    "z_before": 2.857738033247041,
+    "z_after": 3.054799049859588,
+    "accepted": false,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 37,
+     "after_spelling": 37,
+     "after_content": 4,
+     "after_semantic": 4,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "duplicate": 22,
+      "CJK text": 1,
+      "numbers changed": 33
+     }
+    },
+    "queries_total": 116,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.22
+   },
+   {
+    "pass": 2,
+    "segment": 6,
+    "chars": 69,
+    "z_before": 2.857738033247041,
+    "z_after": 2.783261356538736,
+    "accepted": true,
+    "survivors": 17,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 18,
+     "after_spelling": 18,
+     "after_content": 18,
+     "after_semantic": 18,
+     "fluency_skipped": false,
+     "after_fluency": 17,
+     "rejected": {
+      "duplicate": 40,
+      "CJK text": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 133,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.04
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 47,
+    "z_before": 2.783261356538736,
+    "z_after": 2.783261356538736,
+    "accepted": false,
+    "survivors": 8,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 8,
+     "after_spelling": 8,
+     "after_content": 8,
+     "after_semantic": 8,
+     "fluency_skipped": false,
+     "after_fluency": 8,
+     "rejected": {
+      "duplicate": 52
+     }
+    },
+    "queries_total": 140,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.24
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 149,
+    "z_before": 2.783261356538736,
+    "z_after": 3.0806161848616216,
+    "accepted": false,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "CJK text": 2,
+      "several lines": 1,
+      "duplicate": 1,
+      "unknown word": 1,
+      "numbers changed": 6,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 187,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.75
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 91,
+    "z_before": 2.783261356538736,
+    "z_after": 2.8710608935035857,
+    "accepted": false,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 40,
+     "after_spelling": 40,
+     "after_content": 4,
+     "after_semantic": 4,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "duplicate": 19,
+      "CJK text": 1,
+      "numbers changed": 36
+     }
+    },
+    "queries_total": 191,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.03
+   },
+   {
+    "pass": 3,
+    "segment": 6,
+    "chars": 69,
+    "z_before": 2.783261356538736,
+    "z_after": 2.857738033247041,
+    "accepted": false,
+    "survivors": 16,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 17,
+     "after_spelling": 17,
+     "after_content": 17,
+     "after_semantic": 17,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "duplicate": 40,
+      "several lines": 1,
+      "CJK text": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 201,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.78
+   },
+   {
+    "pass": 3,
+    "segment": 5,
+    "chars": 47,
+    "z_before": 2.783261356538736,
+    "z_after": 2.783261356538736,
+    "accepted": false,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 10,
+     "after_spelling": 10,
+     "after_content": 10,
+     "after_semantic": 10,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "duplicate": 50,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 203,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.24
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "Half of Hispanics and a quarter of Anglos said Cruz is honest, and just under a quarter of Hispanics said O\u2019Rourke was honest, according to the poll.",
+    "rewrite": "According to the poll, half of those identifying as Hispanic and one-quarter of non-Hispanics believed Cruz is honest, while nearly a quarter of those identifying as Hispanic thought O'Rourke was honest."
+   },
+   "2": {
+    "original": "Seventy-three percent of Republicans said they found their preferred candidate trustworthy.",
+    "rewrite": "Ninety-seven percent of Republicans stated that they perceived their chosen candidate as credible."
+   },
+   "6": {
+    "original": "The small sample size is typical of Ipsos online polls, Jackson said.",
+    "rewrite": "The modest sample size is common in Ipsos online polls, as Jackson noted."
+   },
+   "5": {
+    "original": "The poll was conducted between Sept. 11 and 12.",
+    "rewrite": "The survey was carried out from September 11 to 12."
+   }
+  },
+  "final_span": "honest or not. The answers were mixed. Ninety-seven percent of Republicans stated that they perceived their chosen candidate as credible. According to the poll, half of those identifying as Hispanic and one-quarter of non-Hispanics believed Cruz is honest, while nearly a quarter of those identifying as Hispanic thought O'Rourke was honest. Ipsos used a convenience sample of 1,005 self-identified \u201cadministered in English and Spanish\u201d in Texas, according to the poll. The survey was carried out from September 11 to 12. The modest sample size is common in Ipsos online polls, as Jackson noted. But that\u2019s not to say \u201cthere won\u2019t be any error.\u201d The margin of error \u201ccould be plus or minus than margin of error,\u201d he said. While most online polls have larger-than-threshold margins of error, Ipsos\u2019 polls don\u2019t since 2017",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 4,
+   "eligible": 4,
+   "segments": 10,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 40.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 218,
+   "length_change": 17,
+   "pct_not_preserved": 19.402985074626866,
+   "pct_new": 25.688073394495415
+  },
+  "words": {
+   "original": 124,
+   "final": 132,
+   "length_change": 8,
+   "pct_not_preserved": 28.2258064516129,
+   "pct_new": 32.57575757575758
+  },
+  "characters": {
+   "original": 751,
+   "final": 820,
+   "length_change": 69,
+   "pct_not_preserved": 25.832223701731028,
+   "pct_new": 32.073170731707314
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 137,
+   "green_after": 129,
+   "pairs_before": 200,
+   "pairs_after": 217,
+   "pairs_changed_before": 61,
+   "pairs_changed_after": 78,
+   "green_fraction_of_new_pairs": 0.38461538461538464,
+   "delta_achieved": 0.11538461538461536
+  }
+ }
+}

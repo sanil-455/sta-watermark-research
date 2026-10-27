@@ -1,0 +1,127 @@
+{
+ "repl": {
+  "5": "Executive director Andy Stoute of the Minnesota Chiefs of Police Association chose not to comment on the officer who requested to search his married father's computer.",
+  "12": "The department stated that the officers were reacting to a woman requesting assistance, yet no specific information regarding the event causing the shooting has been disclosed to the public.",
+  "2": "While Frey stated he didn't want anything to \"prematurely undermine\" the investigation led by Chief Medaria Arradondo, Frey met with the family once more on Friday.",
+  "7": "Chynna Demian, who is a cousin of Harrity and the sister of his wife, was at the woman's home on Friday as BCA agent Brandon Long knocked on the door.",
+  "1": "He mentioned after spending two days with the family that his initial plan was to share all he knew with their grieving relatives.",
+  "13": "Officers are frequently indicted by these courts and prosecutors because Minnesota is considered a place with overly aggressive policing.",
+  "9": "The authorities have not disclosed the officers' names, owing to the ongoing investigation into their actions.",
+  "10": "Harrity has initiated a precautionary lawsuit to safeguard himself from possible accusations of misconduct.",
+  "11": "Damond, while dressed in her pajamas, was shot after she called 911 to report a potential assault near her home.",
+  "4": "According to court documents, investigators searched for phone data related to the phones of 4-year veteran vehicle-crime detective Matthew Harrity and a nearby officer, about a week after the July 15 shooting.",
+  "8": "After meeting with the police investigator, relatives declined to comment."
+ },
+ "provenance": {
+  "5": "kept from the reading",
+  "12": "kept from the reading",
+  "2": "kept from the reading",
+  "7": "kept from the reading",
+  "1": "kept from the reading",
+  "13": "kept from the reading",
+  "9": "kept from the reading",
+  "10": "kept from the reading",
+  "11": "kept from the reading",
+  "4": "approved by the user",
+  "8": "approved by the user"
+ },
+ "old_bad": {
+  "4": "Per court documents, investigators sought phone data related to the vehicles of 4-year veteran Detective Matthew Harrity and a nearby officer, nearly a week following the July 15 shooting."
+ },
+ "rejected": {
+  "14": [
+   "These liberals acted without the victim's consent, Justine.",
+   "Those liberals acted without the victim's consent, Justine.",
+   "These liberals were acting without the victim's consent, Justine.",
+   "Those liberal individuals were acting without the victim's consent, Justine.",
+   "These liberalism supporters were acting without the victim's consent, Justine.",
+   "These liberal individuals were acting without the victim's consent, Justine."
+  ]
+ },
+ "skipped": [
+  14
+ ],
+ "decisions": [
+  {
+   "segment": 4,
+   "answer": "y",
+   "proposal": "According to court documents, investigators searched for phone data related to the phones of 4-year veteran vehicle-crime detective Matthew Harrity and a nearby officer, about a week after the July 15 shooting.",
+   "z_before": 2.3772174470791843,
+   "z_after": 2.0211239657532354,
+   "similarity": 0.9592587947845459
+  },
+  {
+   "segment": 14,
+   "answer": "n",
+   "proposal": "These liberals acted without the victim's consent, Justine.",
+   "z_before": 2.0211239657532354,
+   "z_after": 1.6728567220186852,
+   "similarity": 0.9122169017791748
+  },
+  {
+   "segment": 14,
+   "answer": "n",
+   "proposal": "Those liberals acted without the victim's consent, Justine.",
+   "z_before": 2.0211239657532354,
+   "z_after": 1.6728567220186852,
+   "similarity": 0.9054216742515564
+  },
+  {
+   "segment": 14,
+   "answer": "n",
+   "proposal": "These liberals were acting without the victim's consent, Justine.",
+   "z_before": 2.0211239657532354,
+   "z_after": 1.7152180388208156,
+   "similarity": 0.922414243221283
+  },
+  {
+   "segment": 14,
+   "answer": "n",
+   "proposal": "Those liberal individuals were acting without the victim's consent, Justine.",
+   "z_before": 2.0211239657532354,
+   "z_after": 1.8031779382475241,
+   "similarity": 0.9294028282165527
+  },
+  {
+   "segment": 14,
+   "answer": "n",
+   "proposal": "These liberalism supporters were acting without the victim's consent, Justine.",
+   "z_before": 2.0211239657532354,
+   "z_after": 1.8418218405447615,
+   "similarity": 0.8843886852264404
+  },
+  {
+   "segment": 14,
+   "answer": "n",
+   "proposal": "These liberal individuals were acting without the victim's consent, Justine.",
+   "z_before": 2.0211239657532354,
+   "z_after": 1.8911378376742325,
+   "similarity": 0.9350583553314209
+  },
+  {
+   "segment": 14,
+   "answer": "s",
+   "proposal": "These liberal individuals acted without the victim's consent, just as Justine described.",
+   "z_before": 2.0211239657532354,
+   "z_after": 1.4485392283102854,
+   "similarity": 0.9033857583999634
+  },
+  {
+   "segment": 8,
+   "answer": "y",
+   "proposal": "After meeting with the police investigator, relatives declined to comment.",
+   "z_before": 2.0211239657532354,
+   "z_after": 1.7119099970939737,
+   "similarity": 0.9756113290786743
+  }
+ ],
+ "calls": 4,
+ "status": "broken",
+ "sample_id": "samples_len500:30",
+ "z0": 7.33430296619931,
+ "z_start_of_repair": 2.3772174470791843,
+ "z_final": 1.7119099970939737,
+ "final_span": "approved hours after Mayor Jacob Frey apologized to Damond's family for not being transparent enough about what has become a deeply controversial case. He mentioned after spending two days with the family that his initial plan was to share all he knew with their grieving relatives.\nWhile Frey stated he didn't want anything to \"prematurely undermine\" the investigation led by Chief Medaria Arradondo, Frey met with the family once more on Friday.\n\"I offered our apology on behalf of the city to whomever they would choose to accept it from,\" Frey said outside City Hall in his two-hour meeting with the family.\nAccording to court documents, investigators searched for phone data related to the phones of 4-year veteran vehicle-crime detective Matthew Harrity and a nearby officer, about a week after the July 15 shooting.\nExecutive director Andy Stoute of the Minnesota Chiefs of Police Association chose not to comment on the officer who requested to search his married father's computer. The application said the officers did not suspect a crime was committed but that a search was needed so \"hypothetical answers may be tested.\"\nChynna Demian, who is a cousin of Harrity and the sister of his wife, was at the woman's home on Friday as BCA agent Brandon Long knocked on the door.\nAfter meeting with the police investigator, relatives declined to comment.\nThe authorities have not disclosed the officers' names, owing to the ongoing investigation into their actions. Harrity has initiated a precautionary lawsuit to safeguard himself from possible accusations of misconduct.\nDamond, while dressed in her pajamas, was shot after she called 911 to report a potential assault near her home. The department stated that the officers were reacting to a woman requesting assistance, yet no specific information regarding the event causing the shooting has been disclosed to the public.\nOfficers are frequently indicted by these courts and prosecutors because Minnesota is considered a place with overly aggressive policing. These liberal scum were acting without the consent of the victim, Justine. She called 911 to assist, not to be made a target of the police\nUnion backing judge in cop's civil suit; recall campaign underway\nBy: Teri Cadeau | Forum News Service |",
+ "queries": 59,
+ "seconds": 235.8
+}

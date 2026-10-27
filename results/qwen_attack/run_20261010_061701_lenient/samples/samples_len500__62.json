@@ -1,0 +1,152 @@
+{
+ "sample_id": "samples_len500:62",
+ "source": "results/raw/samples_len500.json",
+ "layout": "prompt+text",
+ "tokens": 500,
+ "eligible_share": 0.7087378640776699,
+ "needed_share": 0.5242408558511086,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2163,
+  "segments": 14,
+  "eligible": 9,
+  "skipped": 5,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "no final punctuation": 2,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1533,
+  "eligible_char_share": 0.7087378640776699
+ },
+ "attack": {
+  "z0": 4.203807797699604,
+  "z_final": 1.7996850826633901,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 107,
+  "seconds": 112.3,
+  "seconds_by_phase": {
+   "generate": 102.4,
+   "gates": 9.8,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 272,
+    "z_before": 4.203807797699604,
+    "z_after": 2.9575307186582576,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 2,
+      "unknown word": 4
+     }
+    },
+    "queries_total": 54,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 56.89
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 243,
+    "z_before": 2.9575307186582576,
+    "z_after": 1.7996850826633901,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 59,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "unknown word": 1,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 107,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 45.51
+   }
+  ],
+  "rewrites": {
+   "7": {
+    "original": "The USA Freedom Act, as MintPress previously reported, would give bulk surveillance powers to the FBI and NSA, according to the Guardian, while also blocking the government's use of National Security Letters for authorizing secret searches of Americans' private documents.",
+    "rewrite": "MintPress previously reported that the USA Freedom Act, as The Guardian noted, grants bulk surveillance capabilities to the FBI and NSA, and also prevents the government from using National Security Letters to endorse secret searches of Americans' personal documents."
+   },
+   "6": {
+    "original": "Before Congress can repeal the Patriot Act, part of the process would entail passing the USA Freedom Act, which may be voted on sometime next week after versions of the bill have passed through both the Senate and the House of Representatives.",
+    "rewrite": "Prior to Congress repealing the Patriot Act, they must approve the USA Freedom Act, a bill that could be debated next week once it has cleared both chambers following passage in the Senate and House."
+   }
+  },
+  "final_span": "investigation \u201cupon request by the individual whose information is contained in the FISA surveillance system.\u201d\nCo-sponsor of the bill, Rep. Thomas Massie said:\nIt\u2019s past time to end the overbroad, unnecessary and unconstitutional surveillance that has put Americans\u2019 Fourth Amendment rights at risk. Because of the PATRIOT Act, the government can collect your personal location information, read your emails, listen to your phone calls and obtain your browsing history without a warrant. The government should have to get a court order based on probable cause before infringing on Americans\u2019 rights. I\u2019m proud to join Rep. Pocan and other co-sponsors to right this wrong by repealing the PATRIOT Act and ending the surveillance state.\nPrior to Congress repealing the Patriot Act, they must approve the USA Freedom Act, a bill that could be debated next week once it has cleared both chambers following passage in the Senate and House. MintPress previously reported that the USA Freedom Act, as The Guardian noted, grants bulk surveillance capabilities to the FBI and NSA, and also prevents the government from using National Security Letters to endorse secret searches of Americans' personal documents.\nClapper omitted Snowden revelations, Congress neglecting their responsibility\nThroughout former National Intelligence Director James Clapper's time as a public official, he always refused to answer any questions asked by Congress about surveillance of U.S. persons. The omission in his testimony of the degree to which the NSA spied domestically, as leaked by whistleblower Edward Snowden, is, according to legal strategist Jeffrey Folkerts, \u201cyet another indicator that Congress is failing the American people by not adhering to its Constitutional duties regarding foreign invasions of privacy.\u201d\nFormer NSA analyst and whistleblower, Kurt W. Richardson, brought the full extent of mass surveillance under US planners, to the table nearly a decade ago. His book Boundless Informant, exposed the legal and regulatory surrounding of mass domestic surveillance.\nAccording to Richardson, NSA analysts use RIDEs, or \"",
+  "break_point": {
+   "step": 1,
+   "sentences_rewritten": 2,
+   "queries": 107
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 9,
+   "segments": 14,
+   "pct_of_eligible": 22.22222222222222,
+   "pct_of_segments": 14.285714285714286
+  },
+  "tokens": {
+   "original": 501,
+   "final": 495,
+   "length_change": -6,
+   "pct_not_preserved": 10.578842315369263,
+   "pct_new": 9.49494949494949
+  },
+  "words": {
+   "original": 327,
+   "final": 319,
+   "length_change": -8,
+   "pct_not_preserved": 14.067278287461772,
+   "pct_new": 11.91222570532915
+  },
+  "characters": {
+   "original": 2163,
+   "final": 2114,
+   "length_change": -49,
+   "pct_not_preserved": 9.801202034211743,
+   "pct_new": 7.7105014191106935
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 297,
+   "green_after": 267,
+   "pairs_before": 500,
+   "pairs_after": 494,
+   "pairs_changed_before": 71,
+   "pairs_changed_after": 65,
+   "green_fraction_of_new_pairs": 0.3384615384615385,
+   "delta_achieved": 0.16153846153846152
+  }
+ }
+}

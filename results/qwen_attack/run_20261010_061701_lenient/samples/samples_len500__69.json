@@ -1,0 +1,278 @@
+{
+ "sample_id": "samples_len500:69",
+ "source": "results/raw/samples_len500.json",
+ "layout": "prompt+text",
+ "tokens": 500,
+ "eligible_share": 0.8415094339622642,
+ "needed_share": 0.6936893181507138,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2120,
+  "segments": 15,
+  "eligible": 13,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1784,
+  "eligible_char_share": 0.8415094339622642
+ },
+ "attack": {
+  "z0": 6.529318494299385,
+  "z_final": 1.4368424162141993,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 271,
+  "seconds": 306.8,
+  "seconds_by_phase": {
+   "generate": 283.2,
+   "gates": 23.5,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 237,
+    "z_before": 6.529318494299385,
+    "z_after": 5.696728561006458,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 2,
+      "several lines": 1,
+      "unknown word": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 54,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.58
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 226,
+    "z_before": 5.696728561006458,
+    "z_after": 4.850436338440835,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 2,
+      "unknown word": 4
+     }
+    },
+    "queries_total": 107,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 62.84
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 207,
+    "z_before": 4.850436338440835,
+    "z_after": 3.7230588233349295,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 55,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 4,
+      "negation count changed": 2,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 156,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 39.31
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 199,
+    "z_before": 3.7230588233349295,
+    "z_after": 2.9516097302997224,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 7,
+      "several lines": 1,
+      "duplicate": 2,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 205,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 55.05
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 160,
+    "z_before": 2.9516097302997224,
+    "z_after": 2.1891585528829745,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "CJK text": 11,
+      "unknown word": 3,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 248,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.39
+   },
+   {
+    "pass": 1,
+    "segment": 13,
+    "chars": 158,
+    "z_before": 2.1891585528829745,
+    "z_after": 1.4368424162141993,
+    "accepted": true,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 24,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "CJK text": 1,
+      "negation count changed": 35,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 271,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.98
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "Yet, the U.S. failed repeatedly to ratify a protocol that would penalize parents who send their children on perilous journeys to the U.S. To prevent further suffering, we must, at a minimum, be in compliance with the original convention.",
+    "rewrite": "Nevertheless, the U.S. repeatedly declined to ratify a protocol intended to penalize parents for sending their children on dangerous trips to the U.S. To halt additional suffering, we must, at the very least, adhere to the initial convention."
+   },
+   "1": {
+    "original": "Detention deters little, harms youth and is inconsistent with children\u2019s rights as described in the UN Convention on the Rights of the Child, which governs the U.S. The United States was an early adopter of the treaty in 1995.",
+    "rewrite": "Detention has little effect on deterrence, can harm youth and goes against children\u2019s rights as outlined in the UN Convention on the Rights of the Child, a document that guides the U.S. The United States joined the treaty in 1995, among the first countries to do so."
+   },
+   "5": {
+    "original": "Mass incarceration is racialized, yielding the largest Black youth prison population and the highest rate of children in detention contrary to their best interest in modern three-strikes-and-you\u2019re-out laws.",
+    "rewrite": "Mass incarceration has racial undertones, resulting in the greatest proportion of Black youth in prison and the highest instances of detained children against their benefit due to three-strikes laws."
+   },
+   "6": {
+    "original": "In immigration, youth from El Salvador, Guatemala and Honduras have been kidnaped, raped, beaten and tortured by gangs, forced to live in fear and witness family members executed or otherwise maimed.",
+    "rewrite": "In immigration, youth from El Salvador, Guatemala, and Honduras have been abducted, abused, assaulted, and tormented by gangs, forced to dwell in fear and observe family members murdered or otherwise harmed."
+   },
+   "8": {
+    "original": "Mass incarceration is arbitrary, depriving a whole class of young people of educational opportunity and sending them down a path more likely to be criminalized.",
+    "rewrite": "Mass incarceration is random, removing from an entire group of young individuals their chance for education and increasing their likelihood of falling into a criminalized life path."
+   },
+   "13": {
+    "original": "In other words, the older a prisoner, the more he or she is assumed to be worthy of punishment; the younger a child, the more innocent, not deserving of jail.",
+    "rewrite": "Conversely, an older prisoner is seen as more deserving of punishment, while a younger child is considered more innocent and not deserving of jail time."
+   }
+  },
+  "final_span": "aren\u2019t coming to court, Detention Watch Network reported that child protection teams in states like California can help children without interfering with their ability to work with sponsors.\nDetention has little effect on deterrence, can harm youth and goes against children\u2019s rights as outlined in the UN Convention on the Rights of the Child, a document that guides the U.S. The United States joined the treaty in 1995, among the first countries to do so. Nevertheless, the U.S. repeatedly declined to ratify a protocol intended to penalize parents for sending their children on dangerous trips to the U.S. To halt additional suffering, we must, at the very least, adhere to the initial convention. And we must make sure we release kids who are eligible for reunification with their families.\nJuvenile justice reform is in many ways a mirror of the immigration tragedy. Mass incarceration has racial undertones, resulting in the greatest proportion of Black youth in prison and the highest instances of detained children against their benefit due to three-strikes laws. In immigration, youth from El Salvador, Guatemala, and Honduras have been abducted, abused, assaulted, and tormented by gangs, forced to dwell in fear and observe family members murdered or otherwise harmed. Children cannot move across borders in harm\u2019s way.\nMass incarceration is random, removing from an entire group of young individuals their chance for education and increasing their likelihood of falling into a criminalized life path. In immigration, the arbitrary use of the term \u201cchild\u201d cannot be justified. Too many children, including babies, are detained. The arbitrary remedy is to make sure that no child who legitimately qualifies as a child is subjected to detention.\nMass incarceration is based in punishment and deterrence, its physical setting reflecting the moral truth of the individual being punished. Conversely, an older prisoner is seen as more deserving of punishment, while a younger child is considered more innocent and not deserving of jail time.\nThere\u2019s a new bill in the Senate called the Dignity for Detained Children Act, which seeks to reform holding conditions for children",
+  "break_point": {
+   "step": 5,
+   "sentences_rewritten": 6,
+   "queries": 271
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 6,
+   "eligible": 13,
+   "segments": 15,
+   "pct_of_eligible": 46.15384615384615,
+   "pct_of_segments": 40.0
+  },
+  "tokens": {
+   "original": 501,
+   "final": 497,
+   "length_change": -4,
+   "pct_not_preserved": 23.55289421157685,
+   "pct_new": 22.937625754527158
+  },
+  "words": {
+   "original": 338,
+   "final": 343,
+   "length_change": 5,
+   "pct_not_preserved": 28.99408284023669,
+   "pct_new": 30.029154518950442
+  },
+  "characters": {
+   "original": 2120,
+   "final": 2180,
+   "length_change": 60,
+   "pct_not_preserved": 16.226415094339618,
+   "pct_new": 18.532110091743114
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 323,
+   "green_after": 264,
+   "pairs_before": 500,
+   "pairs_after": 496,
+   "pairs_changed_before": 172,
+   "pairs_changed_after": 168,
+   "green_fraction_of_new_pairs": 0.3392857142857143,
+   "delta_achieved": 0.1607142857142857
+  }
+ }
+}

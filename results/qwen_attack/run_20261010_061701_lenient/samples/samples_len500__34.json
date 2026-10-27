@@ -1,0 +1,399 @@
+{
+ "sample_id": "samples_len500:34",
+ "source": "results/raw/samples_len500.json",
+ "layout": "prompt+text",
+ "tokens": 500,
+ "eligible_share": 0.8724800750117205,
+ "needed_share": 0.7096015613636637,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2133,
+  "segments": 19,
+  "eligible": 16,
+  "skipped": 3,
+  "skip_reasons": {
+   "quotation": 1,
+   "too short": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1861,
+  "eligible_char_share": 0.8724800750117205
+ },
+ "attack": {
+  "z0": 6.887089370699352,
+  "z_final": 1.623005342401378,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 377,
+  "seconds": 347.7,
+  "seconds_by_phase": {
+   "generate": 318.4,
+   "gates": 29.0,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 14,
+    "chars": 243,
+    "z_before": 6.887089370699352,
+    "z_after": 6.067798762169179,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 6,
+      "duplicate": 1,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 52,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.88
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 241,
+    "z_before": 6.067798762169179,
+    "z_after": 5.646195008347583,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "duplicate": 13
+     }
+    },
+    "queries_total": 99,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 51.84
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 147,
+    "z_before": 5.646195008347583,
+    "z_after": 5.388159060803248,
+    "accepted": true,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 39,
+     "after_spelling": 38,
+     "after_content": 38,
+     "after_semantic": 38,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "duplicate": 20,
+      "CJK text": 1,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 137,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.57
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 147,
+    "z_before": 5.388159060803248,
+    "z_after": 4.879510143290713,
+    "accepted": true,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 36,
+     "after_spelling": 36,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "duplicate": 24,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 169,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.35
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 142,
+    "z_before": 4.879510143290713,
+    "z_after": 4.0984338769105095,
+    "accepted": true,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 42,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "duplicate": 18,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 204,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.47
+   },
+   {
+    "pass": 1,
+    "segment": 16,
+    "chars": 120,
+    "z_before": 4.0984338769105095,
+    "z_after": 3.1687511114881484,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "CJK text": 5,
+      "duplicate": 4,
+      "several lines": 2,
+      "unknown word": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 249,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.09
+   },
+   {
+    "pass": 1,
+    "segment": 15,
+    "chars": 119,
+    "z_before": 3.1687511114881484,
+    "z_after": 2.7528914626797976,
+    "accepted": true,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 33,
+     "after_spelling": 32,
+     "after_content": 32,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "duplicate": 25,
+      "CJK text": 2,
+      "unknown word": 1,
+      "meaning too different": 3,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 276,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.18
+   },
+   {
+    "pass": 1,
+    "segment": 13,
+    "chars": 110,
+    "z_before": 2.7528914626797976,
+    "z_after": 2.3395906074624073,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 12
+     }
+    },
+    "queries_total": 323,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.07
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 102,
+    "z_before": 2.3395906074624073,
+    "z_after": 2.0266980709997022,
+    "accepted": true,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 46,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 11,
+      "unknown word": 1,
+      "quotation changed": 4,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 363,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.66
+   },
+   {
+    "pass": 1,
+    "segment": 17,
+    "chars": 91,
+    "z_before": 2.0266980709997022,
+    "z_after": 1.623005342401378,
+    "accepted": true,
+    "survivors": 14,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 14,
+     "after_spelling": 14,
+     "after_content": 14,
+     "after_semantic": 14,
+     "fluency_skipped": false,
+     "after_fluency": 14,
+     "rejected": {
+      "duplicate": 46
+     }
+    },
+    "queries_total": 377,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.3
+   }
+  ],
+  "rewrites": {
+   "14": {
+    "original": "It can be time consuming and sometimes overwhelming for kids and families to just get the right application for a professional to evaluate the child and decide what treatment options are available, and sometimes those are perceived as lacking.",
+    "rewrite": "Obtaining the proper application for a professional evaluation can be time-consuming and overwhelming for both children and families, and the perceived inadequacy of available treatment options is sometimes noted."
+   },
+   "5": {
+    "original": "In the fall of 2017 during the Eagle County Peak Parenting class, Kate Eastwood, executive director of the Vail Health Mental Health Institute, talked about what constitutes a healthy community and the wide net of the Mental Health Alliance.",
+    "rewrite": "During the fall of 2017 at the Eagle County Peak Parenting class, Kate Eastwood, the executive director of the Vail Health Mental Health Institute, discussed what defines a healthy community and the expansive support provided by the Mental Health Alliance."
+   },
+   "3": {
+    "original": "And, Martin added, the regional psychiatric clinic for children \u2014 Child and Family services \u2014 has received its state-license and is up and running.",
+    "rewrite": "Martin noted that the regional psychiatric clinic for children, known as Child and Family services, has obtained its state license and is now operational."
+   },
+   "10": {
+    "original": "Betsy Ward and Gwen Lachelt joined commissioner Jeanne McQueeney to spend 95 percent of the in a meeting to discuss the implementation of services.",
+    "rewrite": "Betsy Ward and Gwen Lachelt, along with commissioner Jeanne McQueeney, allocated 95 percent of their time in a meeting to discuss the implementation of services."
+   },
+   "6": {
+    "original": "While the community discussed youth mental health at length, she reminded the class of what her three-year plan for the Alliance had entailed.",
+    "rewrite": "As the community thoroughly examined youth mental health, she recounted the details of her three-year plan for the Alliance."
+   },
+   "16": {
+    "original": "Or, they can be settled for the status quo when it\u2019s not always what, or nearly what, is best for the care of the child.",
+    "rewrite": "Alternatively, the status quo can be accepted even though it may not always be, or nearly, the optimal arrangement for child care."
+   },
+   "15": {
+    "original": "The process or is intimidating or uncomfortable, which may prevent kids or families from advocating for what they need.",
+    "rewrite": "Going through the process can be intimidating or uncomfortable, which might deter kids or families from advocating for their needs."
+   },
+   "13": {
+    "original": "It takes the family, teacher, counselor to recognize that a child is struggling and to arrange access to help.",
+    "rewrite": "A child's struggle needs to be identified by the family, teacher, and counselor, who then facilitate access to assistance."
+   },
+   "7": {
+    "original": "She had divided her game plan into four sections and what she deemed to be \u201cEarly Warning Indicators.\u201d",
+    "rewrite": "She broke down her strategy into four sections, including what she considered to be \u201cEarly Warning Indicators.\u201d"
+   },
+   "17": {
+    "original": "The new school counselors plan to be outreach and educational experts for the school staff.",
+    "rewrite": "The new school counselors intend to become leaders in outreach and education for the staff."
+   }
+  },
+  "final_span": "Valley and Roaring Fork schools, to rebalance the mental health marijuana tax funds.\nCoincidentally, kids this fall will have more options to get aid.\nIn addition to what Martin described as a \u201cleveled up mental health system\u201d run by Eagle County\u2019s Total Health Alliance, Colorado Crisis Service has announced a brand-new Trevor Project Crisis Line for teens. Martin noted that the regional psychiatric clinic for children, known as Child and Family services, has obtained its state license and is now operational.\nThe Next Step in Mental Health: Supports, Case Management, Community Services, Treatment.\nDuring the fall of 2017 at the Eagle County Peak Parenting class, Kate Eastwood, the executive director of the Vail Health Mental Health Institute, discussed what defines a healthy community and the expansive support provided by the Mental Health Alliance.\nAs the community thoroughly examined youth mental health, she recounted the details of her three-year plan for the Alliance. She broke down her strategy into four sections, including what she considered to be \u201cEarly Warning Indicators.\u201d The first part is School-based counseling services.\nThis week, the County Commissioner got there first. Betsy Ward and Gwen Lachelt, along with commissioner Jeanne McQueeney, allocated 95 percent of their time in a meeting to discuss the implementation of services.\nKids have many barriers to accessing mental health service. It takes preplanning. A child's struggle needs to be identified by the family, teacher, and counselor, who then facilitate access to assistance. Obtaining the proper application for a professional evaluation can be time-consuming and overwhelming for both children and families, and the perceived inadequacy of available treatment options is sometimes noted. Going through the process can be intimidating or uncomfortable, which might deter kids or families from advocating for their needs. Alternatively, the status quo can be accepted even though it may not always be, or nearly, the optimal arrangement for child care.\nThe new school counselors intend to become leaders in outreach and education for the staff. Many of them will use tra",
+  "break_point": {
+   "step": 9,
+   "sentences_rewritten": 10,
+   "queries": 377
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 10,
+   "eligible": 16,
+   "segments": 19,
+   "pct_of_eligible": 62.5,
+   "pct_of_segments": 52.63157894736842
+  },
+  "tokens": {
+   "original": 501,
+   "final": 493,
+   "length_change": -8,
+   "pct_not_preserved": 24.55089820359282,
+   "pct_new": 23.326572008113587
+  },
+  "words": {
+   "original": 347,
+   "final": 332,
+   "length_change": -15,
+   "pct_not_preserved": 33.71757925072046,
+   "pct_new": 30.722891566265066
+  },
+  "characters": {
+   "original": 2133,
+   "final": 2164,
+   "length_change": 31,
+   "pct_not_preserved": 19.549929676511958,
+   "pct_new": 20.702402957486132
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 327,
+   "green_after": 264,
+   "pairs_before": 500,
+   "pairs_after": 492,
+   "pairs_changed_before": 179,
+   "pairs_changed_after": 171,
+   "green_fraction_of_new_pairs": 0.36257309941520466,
+   "delta_achieved": 0.13742690058479534
+  }
+ }
+}

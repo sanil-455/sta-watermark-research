@@ -1,0 +1,344 @@
+{
+ "sample_id": "samples_len500:66",
+ "source": "results/raw/samples_len500.json",
+ "layout": "prompt+text",
+ "tokens": 500,
+ "eligible_share": 0.6375807940904894,
+ "needed_share": 0.733801431250025,
+ "delta_needed": 0.02535375468117965,
+ "segmentation": {
+  "chars": 2166,
+  "segments": 17,
+  "eligible": 9,
+  "skipped": 8,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 6,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1381,
+  "eligible_char_share": 0.6375807940904894
+ },
+ "attack": {
+  "z0": 7.513188404399293,
+  "z_final": 1.9134748858069346,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 291,
+  "seconds": 319.6,
+  "seconds_by_phase": {
+   "generate": 294.9,
+   "gates": 24.6,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 13,
+    "chars": 325,
+    "z_before": 7.513188404399293,
+    "z_after": 6.757224212010684,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 55,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 3,
+      "quotation changed": 4
+     }
+    },
+    "queries_total": 52,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 72.81
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 189,
+    "z_before": 6.757224212010684,
+    "z_after": 5.679081660263129,
+    "accepted": true,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 59,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "unknown word": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 109,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.59
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 151,
+    "z_before": 5.679081660263129,
+    "z_after": 5.167050676973538,
+    "accepted": true,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 19,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 9,
+      "unknown word": 4,
+      "meaning too different": 27,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 127,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.32
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 140,
+    "z_before": 5.167050676973538,
+    "z_after": 4.307921239337977,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 11,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 174,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.85
+   },
+   {
+    "pass": 1,
+    "segment": 15,
+    "chars": 133,
+    "z_before": 4.307921239337977,
+    "z_after": 4.008918628686366,
+    "accepted": true,
+    "survivors": 24,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 46,
+     "after_spelling": 33,
+     "after_content": 24,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 24,
+     "rejected": {
+      "duplicate": 12,
+      "hit length limit": 1,
+      "CJK text": 1,
+      "unknown word": 13,
+      "negation count changed": 9
+     }
+    },
+    "queries_total": 198,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 32.06
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 129,
+    "z_before": 4.008918628686366,
+    "z_after": 3.337456196174886,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 3,
+      "several lines": 1,
+      "meaning too different": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 248,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.04
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 120,
+    "z_before": 3.337456196174886,
+    "z_after": 2.6726124191242437,
+    "accepted": true,
+    "survivors": 26,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 26,
+     "rejected": {
+      "duplicate": 30,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 274,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.53
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 108,
+    "z_before": 2.6726124191242437,
+    "z_after": 1.9134748858069346,
+    "accepted": true,
+    "survivors": 17,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 18,
+     "after_content": 18,
+     "after_semantic": 18,
+     "fluency_skipped": false,
+     "after_fluency": 17,
+     "rejected": {
+      "CJK text": 3,
+      "hit length limit": 1,
+      "duplicate": 4,
+      "unknown word": 34,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 291,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 33.65
+   }
+  ],
+  "rewrites": {
+   "13": {
+    "original": "Congress general secretary Randeep Surjewala said a three-member committee of the joint parliamentary committee or JPC of parliament was presenting its report with \u201cfacts\u201d about Robert Vadra\u2019s financial dealings, alleged land grab, misuse of luxury government choppers and the Union minister Smriti Irani\u2019s fake certificates.",
+    "rewrite": "Congress general secretary Randeep Surjewala stated that a three-member committee from the joint parliamentary committee or JPC was submitting its report with \"facts\" regarding Robert Vadra\u2019s financial activities, alleged land acquisition issues, alleged misuse of government choppers for luxury trips, and Union minister Smriti Irani\u2019s forged certificates."
+   },
+   "6": {
+    "original": "Ministers dismissed the allegations as baseless, saying Vadra had faced inquiries in the past, but people had voted him to office and he was presently facing enquiries in multiple agencies.",
+    "rewrite": "Ministers deemed the accusations unfounded, stating that Vadra had previously been under inquiry, yet the electorate had still chosen him for office, and he was now being probed by several agencies."
+   },
+   "5": {
+    "original": "The ongoing din over the question of land deal involving Vadra\u2019s alleged dubious transactions kept the Centre busy with government departments probing.",
+    "rewrite": "The continuous noise regarding the land deal involving Vadra's suspected irregular transactions kept the Centre occupied as government departments probed."
+   },
+   "12": {
+    "original": "Congress has claimed that the matter was even investigated earlier when Vadra was a director involved with another man in a limited company.",
+    "rewrite": "Congress asserts that the issue was investigated previously when Vadra, as a director alongside another individual, was involved with a limited company."
+   },
+   "15": {
+    "original": "However, a minister said the government and the Modi government, were not nearly as non-performing on the matter as has been alleged.",
+    "rewrite": "However, a minister stated that the government and the Modi government were not nearly as ineffective on the issue as alleged."
+   },
+   "11": {
+    "original": "Ministers said the matter was of real property acquisition within the provisions of law so should be addressed in line with that.",
+    "rewrite": "Ministers stated that the issue concerned real property acquisition under the law and thus should be handled in accordance with those regulations."
+   },
+   "3": {
+    "original": "The party called an all-night brainstorming on the subject on Saturday after a meeting by the family earlier in the day.",
+    "rewrite": "The party held an all-night brainstorming on Saturday regarding the subject following a meeting with the family in the morning."
+   },
+   "4": {
+    "original": "Brainstorming meeting became a standard after Prasad attacked Rahul Gandhi by calling him \u2018Pappu\u2019 last year.",
+    "rewrite": "Last year, when Prasad called Rahul Gandhi 'Pappu', it led to brainstorming becoming a standard practice."
+   }
+  },
+  "final_span": ". \u201cThese are not ad hominem attacks. We made them because Sardar Patel has also become a brand as Nepotism Buster of the parties,\u201d spokesperson Sambit Patra said. The party held an all-night brainstorming on Saturday regarding the subject following a meeting with the family in the morning. Last year, when Prasad called Rahul Gandhi 'Pappu', it led to brainstorming becoming a standard practice.\nThe continuous noise regarding the land deal involving Vadra's suspected irregular transactions kept the Centre occupied as government departments probed.\nMinisters deemed the accusations unfounded, stating that Vadra had previously been under inquiry, yet the electorate had still chosen him for office, and he was now being probed by several agencies.\nA commerce ministry official said, \u201cThe objective seems to be to spread confusion by trying to suggest that some questionable incidents are related to Vadra as owner of real property and not just to another person who holds directorship and is merely providing right assistance as three others claim...\u201d The official insisted that the whatsapp message is circulating in a questionable form. \u201cIt\u2019s not even establishing an online or serial connection it seems.\u201d The official said, \u201cThere is no actual basis even to address it.\u201d Ministers stated that the issue concerned real property acquisition under the law and thus should be handled in accordance with those regulations.\nCongress asserts that the issue was investigated previously when Vadra, as a director alongside another individual, was involved with a limited company.\nCongress general secretary Randeep Surjewala stated that a three-member committee from the joint parliamentary committee or JPC was submitting its report with \"facts\" regarding Robert Vadra\u2019s financial activities, alleged land acquisition issues, alleged misuse of government choppers for luxury trips, and Union minister Smriti Irani\u2019s forged certificates.\n\u201cIt\u2019s a matter of the police followed it and it\u2019s currently in front of the departmental internal audit committee.\u201d However, a minister stated that the government and the Modi government were not nearly as ineffective on the issue as alleged.\nThe minister said, \u201cRobert Vadra as a holding company had",
+  "break_point": {
+   "step": 7,
+   "sentences_rewritten": 8,
+   "queries": 291
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 8,
+   "eligible": 9,
+   "segments": 17,
+   "pct_of_eligible": 88.88888888888889,
+   "pct_of_segments": 47.05882352941177
+  },
+  "tokens": {
+   "original": 501,
+   "final": 506,
+   "length_change": 5,
+   "pct_not_preserved": 22.15568862275449,
+   "pct_new": 22.92490118577075
+  },
+  "words": {
+   "original": 343,
+   "final": 341,
+   "length_change": -2,
+   "pct_not_preserved": 26.239067055393583,
+   "pct_new": 25.806451612903224
+  },
+  "characters": {
+   "original": 2166,
+   "final": 2236,
+   "length_change": 70,
+   "pct_not_preserved": 16.759002770083097,
+   "pct_new": 19.364937388193205
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 334,
+   "green_after": 274,
+   "pairs_before": 500,
+   "pairs_after": 505,
+   "pairs_changed_before": 168,
+   "pairs_changed_after": 173,
+   "green_fraction_of_new_pairs": 0.3468208092485549,
+   "delta_achieved": 0.1531791907514451
+  }
+ }
+}

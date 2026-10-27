@@ -1,0 +1,34 @@
+{
+ "repl": {
+  "5": "During the return trip, Armstrong requested that Buzz Aldrin, his fellow crew member and pilot, take a thorough gaze at the moon.",
+  "2": "It honored President Harry S. Truman, who presented the boxed brush to the Museum following the loss of his tooth."
+ },
+ "provenance": {
+  "5": "kept from the reading",
+  "2": "approved by the user"
+ },
+ "old_bad": {
+  "2": "The Museum honored President Harry S. Truman, whom Truman later gave the box of brush after he had lost a tooth."
+ },
+ "rejected": {},
+ "skipped": [],
+ "decisions": [
+  {
+   "segment": 2,
+   "answer": "y",
+   "proposal": "It honored President Harry S. Truman, who presented the boxed brush to the Museum following the loss of his tooth.",
+   "z_before": 2.4810842175291756,
+   "z_after": 1.5714285714285714,
+   "similarity": 0.9402363896369934
+  }
+ ],
+ "calls": 1,
+ "status": "broken",
+ "sample_id": "samples_len200:74",
+ "z0": 2.9698484809834995,
+ "z_start_of_repair": 2.4810842175291756,
+ "z_final": 1.5714285714285714,
+ "final_span": "tucked under his pocket a toothbrush and a Slinky from the National Museum of American History.\nOn the way to the moon, Armstrong detached the toothbrush from its box, and read an inscription. It honored President Harry S. Truman, who presented the boxed brush to the Museum following the loss of his tooth. The note read \u201cGive a man a toothbrush and you feed his spirit.\u201d Armstrong then tucked the toothbrush back whence it came.\nDuring the return trip, Armstrong requested that Buzz Aldrin, his fellow crew member and pilot, take a thorough gaze at the moon. Aldrin remembers getting the message\u2014teasingly, as Armstrong was fond of doing\u2014that Armstrong wanted him to have a good view, if for no other reason than to send back a photo showing the signatures of the astr",
+ "queries": 32,
+ "seconds": 228.1
+}

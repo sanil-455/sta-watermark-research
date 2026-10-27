@@ -1,0 +1,410 @@
+{
+ "sample_id": "samples_len500:43",
+ "source": "results/raw/samples_len500.json",
+ "layout": "prompt+text",
+ "tokens": 500,
+ "eligible_share": 0.8384615384615385,
+ "needed_share": 0.7369331791176718,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 1560,
+  "segments": 15,
+  "eligible": 11,
+  "skipped": 4,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "does not start like a sentence": 1,
+   "too short": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1308,
+  "eligible_char_share": 0.8384615384615385
+ },
+ "attack": {
+  "z0": 7.602631123499284,
+  "z_final": 1.8372608486985016,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 217,
+  "seconds": 409.3,
+  "seconds_by_phase": {
+   "generate": 390.5,
+   "gates": 18.6,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 211,
+    "z_before": 7.602631123499284,
+    "z_after": 7.169771439171534,
+    "accepted": true,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 8,
+     "after_spelling": 8,
+     "after_content": 5,
+     "after_semantic": 2,
+     "fluency_skipped": true,
+     "after_fluency": 2,
+     "rejected": {
+      "CJK text": 5,
+      "preamble": 45,
+      "hit length limit": 1,
+      "several lines": 1,
+      "negation count changed": 3,
+      "meaning too different": 3
+     }
+    },
+    "queries_total": 3,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 52.12
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 194,
+    "z_before": 7.169771439171534,
+    "z_after": 6.47387541637345,
+    "accepted": true,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 45,
+     "after_content": 34,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "unknown word": 13,
+      "glued punctuation": 2,
+      "negation count changed": 11,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 36,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 64.82
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 178,
+    "z_before": 6.47387541637345,
+    "z_after": 5.741148344514841,
+    "accepted": true,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 11,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 75,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.98
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 141,
+    "z_before": 5.741148344514841,
+    "z_after": 5.607231762191973,
+    "accepted": true,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 48,
+     "after_content": 5,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "unknown word": 12,
+      "numbers changed": 43,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 79,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 52.2
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 118,
+    "z_before": 5.607231762191973,
+    "z_after": 4.9620061846338,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 1,
+      "unknown word": 6,
+      "meaning too different": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 124,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.51
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 114,
+    "z_before": 4.9620061846338,
+    "z_after": 4.109638159202531,
+    "accepted": true,
+    "survivors": 20,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 23,
+     "after_content": 23,
+     "after_semantic": 23,
+     "fluency_skipped": false,
+     "after_fluency": 20,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 1,
+      "unknown word": 33,
+      "glued punctuation": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 144,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 47.27
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 109,
+    "z_before": 4.109638159202531,
+    "z_after": 3.4558175818806856,
+    "accepted": true,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 57,
+     "after_content": 2,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 2,
+      "negation count changed": 55,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 145,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.36
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 87,
+    "z_before": 3.4558175818806856,
+    "z_after": 2.755891273047752,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "duplicate": 7,
+      "perplexity too high": 8
+     }
+    },
+    "queries_total": 190,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.42
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 56,
+    "z_before": 2.755891273047752,
+    "z_after": 2.34004048547973,
+    "accepted": true,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "duplicate": 30,
+      "meaning too different": 1,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 213,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.88
+   },
+   {
+    "pass": 1,
+    "segment": 13,
+    "chars": 56,
+    "z_before": 2.34004048547973,
+    "z_after": 1.8372608486985016,
+    "accepted": true,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 40,
+     "after_content": 40,
+     "after_semantic": 4,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "duplicate": 1,
+      "CJK text": 1,
+      "unknown word": 18,
+      "meaning too different": 36
+     }
+    },
+    "queries_total": 217,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.98
+   }
+  ],
+  "rewrites": {
+   "8": {
+    "original": "Yeah I know, your country and the city, but nah, one may as well ignore what happens in country and city alike, especially if they get buried and should rightfully be three or four pages large stories at a time.",
+    "rewrite": "Yeah, I know about your country versus the city, but really, one might as well ignore events in both areas, particularly when they get buried and deserve to be covered in at least three or four pages at once."
+   },
+   "9": {
+    "original": "DUDE \u2013 IT\u2019S TIME YOU JOINED THE WEIRD GLOBAL COMMUNITY THAT WE LIVE IN \u2013 WHERE A BUDGET OF $12,000 IS NOT SUFFICIENT TO TREAT A MEDICAL NECESSITY IN EGYPT \u2013 WHAT DO WE HAVE TO BE SAD ABOUT THEN?",
+    "rewrite": "Dude, it\u2019s time you joined the weird global community we live in, where a budget of $12,000 isn\u2019t enough to treat a medical necessity in Egypt \u2013 what do we have to be sad about then?"
+   },
+   "3": {
+    "original": "And because it involved a madressah in Lahore which is location A, tribes are already forming on location B and according to you\u2019re the mind whfleingly, tribal tensions in Yemen.",
+    "rewrite": "And since it involved a madressah in Lahore (location A), tribal tensions are already rising in location B, and as you know, tribal rivalries are intensifying in Yemen."
+   },
+   "12": {
+    "original": "AND, I AM SURE DAWOOD FORGE DID 95 % OF ALL BUSINESS THAT THE GOVT MADE IN PAKISTAN; MAKING PRIME MINISTER GROUP BOSS AND 2: OTHERS PARTNERS.",
+    "rewrite": "I AM CERTAIN THAT DAWOOD FORGE PERFORMED 95 % OF THE GOVT'S BUSINESS IN PAKISTAN, MAKING THE PRIME MINISTER AND 2 OTHERS PARTNERS."
+   },
+   "2": {
+    "original": "Mind blowing, there was a madressah blast in Lahore that injured 12 students and it was widely condemned and reported.",
+    "rewrite": "Amazingly shocking, a madressah explosion occurred in Lahore, causing injuries to 12 students, and was extensively criticized and covered by the media."
+   },
+   "11": {
+    "original": "WHAT DO THE PUNKS WANT \u2013 FREE BOOKS FOR SENIORS \u2013 FREE KNIVES AND SCORES OF FOOD FOR THE VAGEC, PARACANTOUS, AWAM?",
+    "rewrite": "WHAT DO THE PUNKS DESIRE \u2013 FREE BOOKS FOR THE ELDEST \u2013 FREE BLADES AND TONS OF SUPPLIES FOR THE VAGUE, PARACANTOUS, AWAM?"
+   },
+   "4": {
+    "original": "Bad news always gets buried, good news is spoken about by all, no matter how trivial, no point picking on it.",
+    "rewrite": "Good news is often highlighted, while bad news remains unnoticed, no matter how significant, not worth focusing on the latter."
+   },
+   "6": {
+    "original": "India is the biggest target of terrorist attacks, Pakistan is left with third to tenth.",
+    "rewrite": "India faces the greatest number of terrorist attacks, with Pakistan experiencing attacks in third to tenth place."
+   },
+   "7": {
+    "original": "So why such apathy in losing people in your own country?",
+    "rewrite": "Why such lack of interest in the loss of people within your own country?"
+   },
+   "13": {
+    "original": "SIMPLY PUT, YOU SOUND BAD IN SO FEW WORDS IN INCREDIBLE.",
+    "rewrite": "SIMPLY PUT, YOU EXCEPTED TO SOUND INcredible WITH FEW WORDS."
+   }
+  },
+  "final_span": "pray that we can tackle this darkness and hate to let the world become a better place which we can live in peace and harmony.\n@Ali: Oh this is so buried, barely not even a passing mention.\nAmazingly shocking, a madressah explosion occurred in Lahore, causing injuries to 12 students, and was extensively criticized and covered by the media. And since it involved a madressah in Lahore (location A), tribal tensions are already rising in location B, and as you know, tribal rivalries are intensifying in Yemen.\nGood news is often highlighted, while bad news remains unnoticed, no matter how significant, not worth focusing on the latter. Did I write the facts wrong? India faces the greatest number of terrorist attacks, with Pakistan experiencing attacks in third to tenth place. Why such lack of interest in the loss of people within your own country? Yeah, I know about your country versus the city, but really, one might as well ignore events in both areas, particularly when they get buried and deserve to be covered in at least three or four pages at once.\nDude, it\u2019s time you joined the weird global community we live in, where a budget of $12,000 isn\u2019t enough to treat a medical necessity in Egypt \u2013 what do we have to be sad about then? WHAT DO WE HAVE TO APPEASE BOTH GOD AND MAN? WHAT DO THE PUNKS DESIRE \u2013 FREE BOOKS FOR THE ELDEST \u2013 FREE BLADES AND TONS OF SUPPLIES FOR THE VAGUE, PARACANTOUS, AWAM? I AM CERTAIN THAT DAWOOD FORGE PERFORMED 95 % OF THE GOVT'S BUSINESS IN PAKISTAN, MAKING THE PRIME MINISTER AND 2 OTHERS PARTNERS. SIMPLY PUT, YOU EXCEPTED TO SOUND INcredible WITH FEW WORDS. SO, WE CAN REST \u2013 RIGHT",
+  "break_point": {
+   "step": 9,
+   "sentences_rewritten": 10,
+   "queries": 217
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 10,
+   "eligible": 11,
+   "segments": 15,
+   "pct_of_eligible": 90.9090909090909,
+   "pct_of_segments": 66.66666666666667
+  },
+  "tokens": {
+   "original": 501,
+   "final": 475,
+   "length_change": -26,
+   "pct_not_preserved": 42.51497005988024,
+   "pct_new": 39.368421052631575
+  },
+  "words": {
+   "original": 296,
+   "final": 291,
+   "length_change": -5,
+   "pct_not_preserved": 46.62162162162162,
+   "pct_new": 45.70446735395189
+  },
+  "characters": {
+   "original": 1560,
+   "final": 1627,
+   "length_change": 67,
+   "pct_not_preserved": 34.03846153846154,
+   "pct_new": 36.75476336816226
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 335,
+   "green_after": 257,
+   "pairs_before": 500,
+   "pairs_after": 474,
+   "pairs_changed_before": 273,
+   "pairs_changed_after": 247,
+   "green_fraction_of_new_pairs": 0.42105263157894735,
+   "delta_achieved": 0.07894736842105265
+  }
+ }
+}

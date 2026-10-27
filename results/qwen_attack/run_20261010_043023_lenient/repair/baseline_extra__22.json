@@ -1,0 +1,27 @@
+{
+ "repl": {
+  "2": "In the end, her dosage overestimated the duration she could use antibiotics without a switch, resulting in a serious lung infection that nearly hospitalized her.",
+  "4": "Approach the individual, not the issue; carefully observe any shifts in the patient\u2019s life that may indicate the need to adjust their treatment.",
+  "7": "The doctor's systematic, predictable, and methodical approach to working with the student is notably compelling."
+ },
+ "provenance": {
+  "2": "kept from the reading",
+  "4": "kept from the reading",
+  "7": "kept from the reading"
+ },
+ "old_bad": {
+  "1": "It pertained to how she felt about her new boyfriend and the sense of freedom from responsibilities her job lacked."
+ },
+ "rejected": {},
+ "skipped": [],
+ "decisions": [],
+ "calls": 0,
+ "status": "broken",
+ "sample_id": "baseline_extra:22",
+ "z0": 4.666904755831213,
+ "z_start_of_repair": 1.7811762496977412,
+ "z_final": 1.7811762496977412,
+ "final_span": "her medicine. It had to do with the way she felt about the new boyfriend and the sense of freedom her responsibility-free job gave her. In the end, her dosage overestimated the duration she could use antibiotics without a switch, resulting in a serious lung infection that nearly hospitalized her.\nSo what can you do with that information? Approach the individual, not the issue; carefully observe any shifts in the patient\u2019s life that may indicate the need to adjust their treatment. \"To my mind, that's an education. Using proactive treatment as education\u0097that is the great game revolution.\"\nThe doctor's systematic, predictable, and methodical approach to working with the student is notably compelling. It reminded me of a film I watched with a group of teachers the other night\u0097Ranking Films. The instructors Greg Whitwell and Brett Kilbourn are both social",
+ "queries": 1,
+ "seconds": 0.0
+}

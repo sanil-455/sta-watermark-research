@@ -1,0 +1,178 @@
+{
+ "sample_id": "baseline_safe:4",
+ "source": "results/raw/baseline_safe.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.8292433537832311,
+ "needed_share": 0.4343145750507619,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 978,
+  "segments": 8,
+  "eligible": 6,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 811,
+  "eligible_char_share": 0.8292433537832311
+ },
+ "attack": {
+  "z0": 3.5355339059327373,
+  "z_final": 1.9236703496735605,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 61,
+  "seconds": 117.2,
+  "seconds_by_phase": {
+   "generate": 112.0,
+   "gates": 5.2,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 274,
+    "z_before": 3.5355339059327373,
+    "z_after": 2.4041630560342613,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 56,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 48.06
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 177,
+    "z_before": 2.4041630560342613,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 56,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 3,
+      "negation count changed": 56
+     }
+    },
+    "queries_total": 56,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.62
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 137,
+    "z_before": 2.4041630560342613,
+    "z_after": 1.9236703496735605,
+    "accepted": true,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 50,
+     "after_content": 17,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 6,
+      "negation count changed": 33,
+      "meaning too different": 12
+     }
+    },
+    "queries_total": 61,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.32
+   }
+  ],
+  "rewrites": {
+   "1": {
+    "original": "People also have to understand my company receives compensation and airtime from over a hundred private advertisers who support me, and that we accept compensation for producing television shows for educational institutions, trade associations, and dozens of other entities.",
+    "rewrite": "Individuals should recognize that my company gets compensated and receives airtime from more than a hundred private advertisers who back us, and that we accept compensation for creating television shows for educational institutions, trade associations, and many other organizations."
+   },
+   "3": {
+    "original": "Any column, audio or video will be free from any compensation so that readers can trust they are uninfluenced by those who are paying us.",
+    "rewrite": "Each column, audio piece, or video will remain uncompensated to ensure readers believe they are uninfluenced by paying sources."
+   }
+  },
+  "final_span": "barriers between my personal views, my company, and the compensation which we do accept. Individuals should recognize that my company gets compensated and receives airtime from more than a hundred private advertisers who back us, and that we accept compensation for creating television shows for educational institutions, trade associations, and many other organizations. I also do commentaries and consult for literally hundreds of companies. Each column, audio piece, or video will remain uncompensated to ensure readers believe they are uninfluenced by paying sources.\nI support and believe in school vouchers and in the power of competition to expose institutions, no matter how big, to the reality that children cannot wait any longer to learn. This initiative represents the bedrock of my beliefs. I now understand that even to speak of anything in commerce must be with a voice that is objective. So, from now on you will see Greg in everything, not the personal voice,",
+  "break_point": {
+   "step": 2,
+   "sentences_rewritten": 2,
+   "queries": 61
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 6,
+   "segments": 8,
+   "pct_of_eligible": 33.333333333333336,
+   "pct_of_segments": 25.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 198,
+   "length_change": -3,
+   "pct_not_preserved": 15.920398009950254,
+   "pct_new": 14.646464646464652
+  },
+  "words": {
+   "original": 161,
+   "final": 155,
+   "length_change": -6,
+   "pct_not_preserved": 17.391304347826086,
+   "pct_new": 14.193548387096778
+  },
+  "characters": {
+   "original": 978,
+   "final": 976,
+   "length_change": -2,
+   "pct_not_preserved": 10.73619631901841,
+   "pct_new": 10.553278688524593
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 125,
+   "green_after": 112,
+   "pairs_before": 200,
+   "pairs_after": 197,
+   "pairs_changed_before": 46,
+   "pairs_changed_after": 43,
+   "green_fraction_of_new_pairs": 0.37209302325581395,
+   "delta_achieved": 0.12790697674418605
+  }
+ }
+}

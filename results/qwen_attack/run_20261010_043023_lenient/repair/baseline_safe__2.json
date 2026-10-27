@@ -1,0 +1,57 @@
+{
+ "repl": {
+  "3": "Yet as he approaches two key milestones by turning 50 and 60, he has distanced himself from the public displays of abuse and begun to examine the circumstances surrounding them.",
+  "1": "Nevertheless, once the hidden essence of his father\u2019s abuse was uncovered, these hurtful stories started to become clearer."
+ },
+ "provenance": {
+  "3": "kept from the reading",
+  "1": "kept from the reading"
+ },
+ "old_bad": {
+  "2": "In previous years, such mistreatment featured prominently in Caveney\u2019s articles online and in magazines, eventually leading him to travel to Indigenous communities to share his struggles through inaugural BBC docudramas for the Radio Days initiative, featured on the accompanying audio-CD of \u201cGibberish.\u201d"
+ },
+ "rejected": {
+  "2": [
+   "In previous times, such abuses had been featured prominently in Caveney\u2019s publications online and in print, and gradually, he has appeared at various tribal gatherings to share his pain through debut documentaries for the BBC\u2019s Radio Days project, which include a companion audio-CD titled \u201cGibberish.\u201d",
+   "In previous years, such abuse was often the main focus of Caveney\u2019s online and print reports, and gradually, he has brought his pain to tribal communities through debut BBC Radio Days documentaries, featured on the accompanying audio-CD to \u201cGibberish.\u201d"
+  ]
+ },
+ "skipped": [
+  2
+ ],
+ "decisions": [
+  {
+   "segment": 2,
+   "answer": "n",
+   "proposal": "In previous times, such abuses had been featured prominently in Caveney\u2019s publications online and in print, and gradually, he has appeared at various tribal gatherings to share his pain through debut documentaries for the BBC\u2019s Radio Days project, which include a companion audio-CD titled \u201cGibberish.\u201d",
+   "z_before": 3.0310889132455356,
+   "z_after": 1.5116130765722586,
+   "similarity": 0.9181203842163086
+  },
+  {
+   "segment": 2,
+   "answer": "n",
+   "proposal": "In previous years, such abuse was often the main focus of Caveney\u2019s online and print reports, and gradually, he has brought his pain to tribal communities through debut BBC Radio Days documentaries, featured on the accompanying audio-CD to \u201cGibberish.\u201d",
+   "z_before": 3.0310889132455356,
+   "z_after": 2.211629342323457,
+   "similarity": 0.9383038282394409
+  },
+  {
+   "segment": 2,
+   "answer": "s",
+   "proposal": "In past years, such mistreatment was the focus of Caveney\u2019s articles both online and in print. Gradually, he has appeared alongside tribes to share his suffering through debut documentaries for the BBC\u2019s Radio Days project, included on the companion audio-CD to \u201cGibberish.\u201d",
+   "z_before": 3.0310889132455356,
+   "z_after": 2.2549181991052545,
+   "similarity": 0.90491783618927
+  }
+ ],
+ "calls": 1,
+ "status": "not broken: no accepted proposal got z under 2.0",
+ "sample_id": "baseline_safe:2",
+ "z0": 5.374011537017761,
+ "z_start_of_repair": 3.0310889132455356,
+ "z_final": 3.0310889132455356,
+ "final_span": "times when it can feel like a stretch to find Caveney\u2019s purpose in going into such painful detail about his early abuse. Nevertheless, once the hidden essence of his father\u2019s abuse was uncovered, these hurtful stories started to become clearer. In the past, this abuse has served as the headline of Caveney\u2019s stories online and in print, and over time, he\u2019s come to tribes with his pain on debut documentaries for the BBC\u2019s Radio Days project, which are presented on the companion audio-CD to \u201cGibberish.\u201d Yet as he approaches two key milestones by turning 50 and 60, he has distanced himself from the public displays of abuse and begun to examine the circumstances surrounding them. So, with \u201cGibberish\u201d he\u2019s moved from pornography to an exploration of what incest, trauma",
+ "queries": 21,
+ "seconds": 240.9
+}

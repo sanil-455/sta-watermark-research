@@ -1,0 +1,151 @@
+{
+ "sample_id": "samples_len200:29",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.7880952380952381,
+ "needed_share": 0.5840548345961485,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 840,
+  "segments": 7,
+  "eligible": 5,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 662,
+  "eligible_char_share": 0.7880952380952381
+ },
+ "attack": {
+  "z0": 4.808326112068523,
+  "z_final": 1.7902871850985822,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 98,
+  "seconds": 78.0,
+  "seconds_by_phase": {
+   "generate": 70.4,
+   "gates": 7.5,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 203,
+    "z_before": 4.808326112068523,
+    "z_after": 2.778634949528476,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 53,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.21
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 191,
+    "z_before": 2.778634949528476,
+    "z_after": 1.7902871850985822,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 51,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "unknown word": 9,
+      "negation count changed": 3,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 98,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.21
+   }
+  ],
+  "rewrites": {
+   "5": {
+    "original": "In an interview, Followay paid tribute to the hard work being done in helping youth fail fast and learn how to be successful after their disabilities, during their journey through both school and career.",
+    "rewrite": "In an interview, Followay honored the significant efforts dedicated to assisting youth in quickly identifying challenges and acquiring success skills throughout their education and professional life despite disabilities."
+   },
+   "1": {
+    "original": "Giving more examples of the organization's achievements, Tomassetti recalled an earlier event in which kids who attended a volleyball club, sponsored by ASPO, played against able-bodied kids.",
+    "rewrite": "Tomassetti highlighted additional instances of the organization's accomplishments by reminiscing about a past event where children from the ASPO-sponsored volleyball club competed against able-bodied children."
+   }
+  },
+  "final_span": "athletes) have gotten to the point where they are competitive and do very well.\"\nTomassetti highlighted additional instances of the organization's accomplishments by reminiscing about a past event where children from the ASPO-sponsored volleyball club competed against able-bodied children. The kids with disabilities were defeated.\nTwo months later, after receiving various forms of coaching and personal support, the kids who had lost won the return match against the able-bodied players.\n\"We are changing lives,\" Tomassetti emphasized, \"over and over again.\"\nIn an interview, Followay honored the significant efforts dedicated to assisting youth in quickly identifying challenges and acquiring success skills throughout their education and professional life despite disabilities.\nFor her part, she has been offering support to all such kids since her son, now 23, was in 5",
+  "break_point": {
+   "step": 1,
+   "sentences_rewritten": 2,
+   "queries": 98
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 5,
+   "segments": 7,
+   "pct_of_eligible": 40.0,
+   "pct_of_segments": 28.571428571428573
+  },
+  "tokens": {
+   "original": 201,
+   "final": 196,
+   "length_change": -5,
+   "pct_not_preserved": 28.855721393034827,
+   "pct_new": 27.040816326530614
+  },
+  "words": {
+   "original": 136,
+   "final": 128,
+   "length_change": -8,
+   "pct_not_preserved": 33.08823529411765,
+   "pct_new": 28.90625
+  },
+  "characters": {
+   "original": 840,
+   "final": 875,
+   "length_change": 35,
+   "pct_not_preserved": 23.214285714285708,
+   "pct_new": 26.285714285714292
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 134,
+   "green_after": 110,
+   "pairs_before": 200,
+   "pairs_after": 195,
+   "pairs_changed_before": 69,
+   "pairs_changed_after": 64,
+   "green_fraction_of_new_pairs": 0.359375,
+   "delta_achieved": 0.140625
+  }
+ }
+}

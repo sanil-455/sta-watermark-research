@@ -1,0 +1,185 @@
+{
+ "sample_id": "samples_len200:47",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.7548543689320388,
+ "needed_share": 0.6373811378530525,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 824,
+  "segments": 6,
+  "eligible": 4,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 622,
+  "eligible_char_share": 0.7548543689320388
+ },
+ "attack": {
+  "z0": 5.5154328932550705,
+  "z_final": 1.1607620001760186,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 136,
+  "seconds": 141.3,
+  "seconds_by_phase": {
+   "generate": 129.7,
+   "gates": 11.6,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 211,
+    "z_before": 5.5154328932550705,
+    "z_after": 3.0154242661945,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 54,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 1,
+      "several lines": 1,
+      "unknown word": 4,
+      "negation count changed": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 50,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 49.64
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 200,
+    "z_before": 3.0154242661945,
+    "z_after": 2.031333500308033,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 6,
+      "unknown word": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 100,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 52.41
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 134,
+    "z_before": 2.031333500308033,
+    "z_after": 1.1607620001760186,
+    "accepted": true,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 37,
+     "after_content": 37,
+     "after_semantic": 37,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 15,
+      "unknown word": 7,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 136,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.68
+   }
+  ],
+  "rewrites": {
+   "1": {
+    "original": "A concept that is already generating CGI kudos this is the first time that a system like this has been offered by a mainstream car manufacturer \u2013 and it\u2019s a clever way to set the Yeti apart from the competition.",
+    "rewrite": "This concept, garnering significant CGI praise, is unprecedented for a major automobile company to offer such a system\u2014and it cleverly distinguishes the Yeti from its rivals."
+   },
+   "3": {
+    "original": "Developed jointly by Skoda\u2019s design team and the Czech engineers at Volkswagen\u2019s RCD division, its soft-touch interior follows the form and looks similar to its sister products the Audi A1, A4 and A6.",
+    "rewrite": "Created collaboratively by Skoda\u2019s design team and Volkswagen\u2019s RCD division in Czech, its soft-touch interior mirrors the design of sister Audi models, including the A1, A4, and A6."
+   },
+   "4": {
+    "original": "The canvas-textured materials look and feel like natural surroundings, differing only subtly from the version used in the base models.",
+    "rewrite": "The canvas-textured materials appear and sense similar to natural surroundings, differing only slightly from the material used in the basic models."
+   }
+  },
+  "final_span": "tilted or rotated or folded to let the driver carry long objects inside the vehicle.\nThis concept, garnering significant CGI praise, is unprecedented for a major automobile company to offer such a system\u2014and it cleverly distinguishes the Yeti from its rivals.\nAnother area where the Yeti takes a different approach is in cabin materials.\nCreated collaboratively by Skoda\u2019s design team and Volkswagen\u2019s RCD division in Czech, its soft-touch interior mirrors the design of sister Audi models, including the A1, A4, and A6.\nThe canvas-textured materials appear and sense similar to natural surroundings, differing only slightly from the material used in the basic models.\nOn a cold and dark November afternoon, it\u2019s clear the Yeti is part of the same mould as other VW Group models and",
+  "break_point": {
+   "step": 2,
+   "sentences_rewritten": 3,
+   "queries": 136
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 4,
+   "segments": 6,
+   "pct_of_eligible": 75.0,
+   "pct_of_segments": 50.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 191,
+   "length_change": -10,
+   "pct_not_preserved": 30.348258706467657,
+   "pct_new": 26.701570680628272
+  },
+  "words": {
+   "original": 144,
+   "final": 126,
+   "length_change": -18,
+   "pct_not_preserved": 39.583333333333336,
+   "pct_new": 30.952380952380953
+  },
+  "characters": {
+   "original": 824,
+   "final": 782,
+   "length_change": -42,
+   "pct_not_preserved": 26.334951456310684,
+   "pct_new": 22.378516624040923
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 139,
+   "green_after": 103,
+   "pairs_before": 200,
+   "pairs_after": 190,
+   "pairs_changed_before": 83,
+   "pairs_changed_after": 73,
+   "green_fraction_of_new_pairs": 0.3561643835616438,
+   "delta_achieved": 0.14383561643835618
+  }
+ }
+}

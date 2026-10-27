@@ -1,0 +1,187 @@
+{
+ "sample_id": "samples_len200:78",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.6451204055766794,
+ "needed_share": 0.5959389821791157,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 789,
+  "segments": 9,
+  "eligible": 6,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 509,
+  "eligible_char_share": 0.6451204055766794
+ },
+ "attack": {
+  "z0": 4.949747468305833,
+  "z_final": 1.7142857142857142,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 112,
+  "seconds": 105.2,
+  "seconds_by_phase": {
+   "generate": 97.4,
+   "gates": 7.8,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 174,
+    "z_before": 4.949747468305833,
+    "z_after": 3.2857142857142856,
+    "accepted": true,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "duplicate": 1,
+      "hit length limit": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 58,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 37.98
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 112,
+    "z_before": 3.2857142857142856,
+    "z_after": 2.351152649601018,
+    "accepted": true,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 43,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 40,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "several lines": 3,
+      "CJK text": 12,
+      "duplicate": 2,
+      "unknown word": 1,
+      "meaning too different": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 96,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.47
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 85,
+    "z_before": 2.351152649601018,
+    "z_after": 1.7142857142857142,
+    "accepted": true,
+    "survivors": 16,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 52,
+     "after_content": 16,
+     "after_semantic": 16,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 2,
+      "unknown word": 3,
+      "negation count changed": 36
+     }
+    },
+    "queries_total": 112,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.91
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "We might be able to generate wealth for our clients or our bosses, but according to the prophet Isaiah, we are to be more about contributing to the wealth of our communities.",
+    "rewrite": "We could produce wealth for our clients or bosses; however, as per the prophet Isaiah, our focus should primarily be on enhancing our communities' wealth."
+   },
+   "1": {
+    "original": "From the beginning, according to Scripture, humans had a purpose that meant something, and their work had value.",
+    "rewrite": "At the outset, as per Scripture, humans possessed a purpose filled with significance, and their labor held value."
+   },
+   "4": {
+    "original": "Isaiah tells us that we are to be people of service, not people of personal ambition.",
+    "rewrite": "Isaiah instructs us to be servant-minded, not driven by personal ambitions."
+   }
+  },
+  "final_span": "second chapter we read that God got involved, took the hand of Adam and Eve, and made a co-creator of humankind. At the outset, as per Scripture, humans possessed a purpose filled with significance, and their labor held value.\nToo often, our work has no lasting effect. We could produce wealth for our clients or bosses; however, as per the prophet Isaiah, our focus should primarily be on enhancing our communities' wealth. Isaiah instructs us to be servant-minded, not driven by personal ambitions. Isaiah 41:17 tells us, \u201cWhen men plot evil, they plot it for themselves\u2026 When I plan an undertaking, I plan it for my people\u201d\u009d . By caring for our brothers and sisters, we care for us. Isaiah speaks of rescuing the prisoners.\u201d The prisoners, once rescued, are",
+  "break_point": {
+   "step": 2,
+   "sentences_rewritten": 3,
+   "queries": 112
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 6,
+   "segments": 9,
+   "pct_of_eligible": 50.0,
+   "pct_of_segments": 33.333333333333336
+  },
+  "tokens": {
+   "original": 201,
+   "final": 197,
+   "length_change": -4,
+   "pct_not_preserved": 19.90049751243781,
+   "pct_new": 18.274111675126903
+  },
+  "words": {
+   "original": 142,
+   "final": 130,
+   "length_change": -12,
+   "pct_not_preserved": 31.690140845070424,
+   "pct_new": 25.384615384615383
+  },
+  "characters": {
+   "original": 789,
+   "final": 760,
+   "length_change": -29,
+   "pct_not_preserved": 19.645120405576677,
+   "pct_new": 16.578947368421048
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 135,
+   "green_after": 110,
+   "pairs_before": 200,
+   "pairs_after": 196,
+   "pairs_changed_before": 58,
+   "pairs_changed_after": 54,
+   "green_fraction_of_new_pairs": 0.35185185185185186,
+   "delta_achieved": 0.14814814814814814
+  }
+ }
+}

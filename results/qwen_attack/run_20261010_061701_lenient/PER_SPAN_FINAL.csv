@@ -1,0 +1,22 @@
+sample,tokens,z0,z_final,result,checked_clean,breaks@2.0,breaks@1.9,breaks@1.5,rewritten,rewritten%_of_eligible,tokens_not_kept%,tokens_new%,words_not_kept%,chars_not_kept%,length_change_tokens,attack_queries,repair_queries,attack_min,repair_min_incl_your_time
+samples_len500:28,500,7.871,3.226,not broken,-,no,no,no,9 of 9,100.0,17.2,16.8,23.5,14.2,-2,1113,0,20.1,0.0
+samples_len500:30,500,7.334,1.712,broken,yes (reading + your approvals),YES,YES,no,11 of 12,91.7,20.8,23.7,26.0,16.6,19,325,59,5.9,3.9
+samples_len500:34,500,6.887,1.623,broken,yes (reading),YES,YES,no,10 of 16,62.5,24.6,23.3,33.7,19.5,-8,377,0,5.8,0.0
+samples_len500:43,500,7.603,3.850,not broken,-,no,no,no,6 of 11,54.5,28.3,24.7,29.7,19.9,-24,217,32,6.8,9.4
+samples_len500:44,500,6.887,1.746,broken,yes (reading),YES,YES,no,7 of 16,43.8,23.4,23.2,30.6,17.4,-1,246,0,4.4,0.0
+samples_len500:46,500,6.172,2.923,not broken,-,no,no,no,7 of 8,87.5,16.4,18.0,20.7,13.5,10,577,25,14.2,16.8
+samples_len500:47,500,8.765,1.473,broken,yes (reading + your approvals),YES,YES,YES,7 of 10,70.0,39.3,35.7,49.0,31.1,-28,275,40,6.6,11.9
+samples_len500:51,500,6.261,1.972,broken,yes (reading),YES,no,no,6 of 6,100.0,21.0,20.6,28.5,17.8,-2,857,0,17.2,0.0
+samples_len500:52,500,7.603,1.699,broken,yes (reading),YES,YES,no,14 of 19,73.7,24.8,24.8,37.7,18.0,0,360,0,5.0,0.0
+samples_len500:56,500,7.692,1.720,broken,yes (reading),YES,YES,no,14 of 16,87.5,31.7,30.1,41.2,24.9,-12,405,0,7.1,0.0
+samples_len500:62,500,4.204,1.847,broken,yes (reading + your approvals),YES,YES,no,2 of 9,22.2,9.4,8.1,13.5,8.3,-7,107,38,1.9,2.2
+samples_len500:64,500,6.708,1.650,broken,yes (reading),YES,YES,no,8 of 16,50.0,24.8,25.2,31.0,18.9,3,263,0,5.9,0.0
+samples_len500:65,500,6.440,5.356,not broken,-,no,no,no,2 of 2,100.0,4.4,4.8,5.2,3.1,2,36,0,3.7,0.0
+samples_len500:66,500,7.513,2.010,not broken,-,no,no,no,8 of 9,88.9,22.8,22.9,27.1,17.3,1,291,19,5.3,7.0
+samples_len500:69,500,6.529,1.875,broken,yes (reading + your approvals),YES,YES,no,6 of 13,46.2,22.2,22.5,27.8,14.0,2,271,78,5.1,4.5
+samples_len500:71,500,7.513,7.155,not broken,-,no,no,no,1 of 1,100.0,2.4,2.4,2.9,2.4,0,160,0,1.6,0.0
+samples_len500:72,500,7.924,2.567,not broken,-,no,no,no,10 of 11,90.9,24.2,23.3,35.4,21.6,-6,558,12,10.1,2.7
+samples_len500:74,500,6.082,1.894,broken,yes (reading + your approvals),YES,YES,no,6 of 11,54.5,17.2,15.8,20.7,12.0,-8,311,38,4.3,2.6
+samples_len500:78,500,8.676,1.660,broken,yes (reading),YES,YES,no,7 of 15,46.7,28.7,28.3,35.8,27.1,-3,218,0,5.4,0.0
+samples_len500:81,500,7.782,1.656,broken,yes (reading + your approvals),YES,YES,no,11 of 15,73.3,25.3,25.2,36.9,20.3,-1,393,42,6.3,3.4
+samples_len500:86,500,6.798,1.968,broken,yes (reading),YES,no,no,10 of 14,71.4,19.6,19.6,25.4,12.9,0,304,0,4.2,0.0

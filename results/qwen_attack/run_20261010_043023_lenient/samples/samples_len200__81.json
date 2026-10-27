@@ -1,0 +1,217 @@
+{
+ "sample_id": "samples_len200:81",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.7775030902348579,
+ "needed_share": 0.6177801182775418,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 809,
+  "segments": 9,
+  "eligible": 6,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "too short": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 629,
+  "eligible_char_share": 0.7775030902348579
+ },
+ "attack": {
+  "z0": 5.232590180780451,
+  "z_final": 1.6555762267219976,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 131,
+  "seconds": 120.0,
+  "seconds_by_phase": {
+   "generate": 110.2,
+   "gates": 9.8,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 227,
+    "z_before": 5.232590180780451,
+    "z_after": 4.488564149238307,
+    "accepted": true,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 53,
+     "after_content": 34,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 3,
+      "quotation changed": 19
+     }
+    },
+    "queries_total": 35,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 45.52
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 101,
+    "z_before": 4.488564149238307,
+    "z_after": 3.3486113494317533,
+    "accepted": true,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "duplicate": 10,
+      "unknown word": 1,
+      "meaning too different": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 81,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.7
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 82,
+    "z_before": 3.3486113494317533,
+    "z_after": 2.4285714285714284,
+    "accepted": true,
+    "survivors": 29,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 29,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 26,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 110,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.05
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 75,
+    "z_before": 2.4285714285714284,
+    "z_after": 1.6555762267219976,
+    "accepted": true,
+    "survivors": 21,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 26,
+     "after_spelling": 25,
+     "after_content": 25,
+     "after_semantic": 25,
+     "fluency_skipped": false,
+     "after_fluency": 21,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 29,
+      "hit length limit": 1,
+      "unknown word": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 131,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 20.94
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "Miller said at the November ASB Executive Council meeting that he hoped to generate enough sponsorship funds for Everybody\u2019s Formal \u201cadministered funds,\u201d which he\u2019s defined as the cash on hand reserved for ASB sponsored events.",
+    "rewrite": "At the November ASB Executive Council meeting, Miller stated his goal to secure sufficient sponsorship funds for Everybody\u2019s Formal \u201cadministered funds,\u201d which he defines as the cash available for ASB-sponsored events."
+   },
+   "5": {
+    "original": "If ASB can generate enough administered funds for the coming events, Miller said, they can fail fast.",
+    "rewrite": "If ASB gathers sufficient allocated funds for the upcoming events, Miller said they can afford to fail quickly."
+   },
+   "4": {
+    "original": "ASB allocates budgets of different types for student organizations to host events.",
+    "rewrite": "ASB assigns various budget types to support student organizations in hosting events."
+   },
+   "6": {
+    "original": "ASB\u2019s target for fundraising was the goal Morgan left for the organization.",
+    "rewrite": "ASB aimed to meet the fundraising goal set by Morgan."
+   }
+  },
+  "final_span": "sponsorships for the event started in September. The sponsoring entities spent a collective $18,000 on Everybody\u2019s Formal.\nSistrunk said she\u2019s attended Everybody\u2019s Formal for the last two years.\nAt the November ASB Executive Council meeting, Miller stated his goal to secure sufficient sponsorship funds for Everybody\u2019s Formal \u201cadministered funds,\u201d which he defines as the cash available for ASB-sponsored events. ASB assigns various budget types to support student organizations in hosting events. If ASB gathers sufficient allocated funds for the upcoming events, Miller said they can afford to fail quickly.\nASB aimed to meet the fundraising goal set by Morgan. Morgan left in August.\nASB President Elam Miller\u2019s objective last year was 30 formal commitments, and he said he\u2019d be OK with",
+  "break_point": {
+   "step": 3,
+   "sentences_rewritten": 4,
+   "queries": 131
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 4,
+   "eligible": 6,
+   "segments": 9,
+   "pct_of_eligible": 66.66666666666667,
+   "pct_of_segments": 44.44444444444444
+  },
+  "tokens": {
+   "original": 201,
+   "final": 194,
+   "length_change": -7,
+   "pct_not_preserved": 21.890547263681594,
+   "pct_new": 19.072164948453608
+  },
+  "words": {
+   "original": 126,
+   "final": 121,
+   "length_change": -5,
+   "pct_not_preserved": 31.746031746031743,
+   "pct_new": 28.925619834710748
+  },
+  "characters": {
+   "original": 809,
+   "final": 790,
+   "length_change": -19,
+   "pct_not_preserved": 18.04697156983931,
+   "pct_new": 16.075949367088604
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 137,
+   "green_after": 108,
+   "pairs_before": 200,
+   "pairs_after": 193,
+   "pairs_changed_before": 62,
+   "pairs_changed_after": 55,
+   "green_fraction_of_new_pairs": 0.3090909090909091,
+   "delta_achieved": 0.19090909090909092
+  }
+ }
+}

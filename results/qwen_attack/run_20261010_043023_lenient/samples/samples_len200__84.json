@@ -1,0 +1,120 @@
+{
+ "sample_id": "samples_len200:84",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.9410994764397905,
+ "needed_share": 0.21432579868161383,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 764,
+  "segments": 9,
+  "eligible": 8,
+  "skipped": 1,
+  "skip_reasons": {
+   "starts mid-sentence": 1
+  },
+  "eligible_chars": 719,
+  "eligible_char_share": 0.9410994764397905
+ },
+ "attack": {
+  "z0": 2.545584412271571,
+  "z_final": 1.7320508075688774,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 53,
+  "seconds": 37.6,
+  "seconds_by_phase": {
+   "generate": 33.8,
+   "gates": 3.8,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 144,
+    "z_before": 2.545584412271571,
+    "z_after": 1.7320508075688774,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 1,
+      "meaning too different": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 53,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.81
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "The weekly chart, below, is a run at a breakout and approaching stronger overhead resistance at the former rising 200-day average line near $58.",
+    "rewrite": "Below, the weekly chart attempts to breach resistance near the previous 200-day moving average around $58."
+   }
+  },
+  "final_span": "200-day moving average line near $58. Shorter-term momentum has turned lower and is below the level of the 50-day average line. Volume has also decreased from the past year.\nBelow, the weekly chart attempts to breach resistance near the previous 200-day moving average around $58. The pace of the pullback has slowed so sellers may now capitulate. Weekly RSI has penetrated trendline support and this was triggered by a bearish doji.\nIn this on-balance volume (OBV), below, we have a caution flag from price and a negative divergence on OBV. Prices have turned lower but the negative divergence to the upside probably means selling is light. Volume last week was below 2017 average levels and the daily OBV is just below zero.",
+  "break_point": {
+   "step": 0,
+   "sentences_rewritten": 1,
+   "queries": 53
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 1,
+   "eligible": 8,
+   "segments": 9,
+   "pct_of_eligible": 12.5,
+   "pct_of_segments": 11.11111111111111
+  },
+  "tokens": {
+   "original": 201,
+   "final": 193,
+   "length_change": -8,
+   "pct_not_preserved": 9.950248756218905,
+   "pct_new": 6.217616580310881
+  },
+  "words": {
+   "original": 130,
+   "final": 122,
+   "length_change": -8,
+   "pct_not_preserved": 13.846153846153841,
+   "pct_new": 8.196721311475407
+  },
+  "characters": {
+   "original": 764,
+   "final": 726,
+   "length_change": -38,
+   "pct_not_preserved": 9.685863874345547,
+   "pct_new": 4.958677685950407
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 118,
+   "green_after": 108,
+   "pairs_before": 200,
+   "pairs_after": 192,
+   "pairs_changed_before": 26,
+   "pairs_changed_after": 18,
+   "green_fraction_of_new_pairs": 0.2777777777777778,
+   "delta_achieved": 0.2222222222222222
+  }
+ }
+}

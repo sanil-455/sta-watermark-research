@@ -1,0 +1,152 @@
+{
+ "sample_id": "samples_len200:74",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.5091863517060368,
+ "needed_share": 0.32656497029852616,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 762,
+  "segments": 7,
+  "eligible": 4,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 388,
+  "eligible_char_share": 0.5091863517060368
+ },
+ "attack": {
+  "z0": 2.9698484809834995,
+  "z_final": 1.638682149721922,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 74,
+  "seconds": 64.4,
+  "seconds_by_phase": {
+   "generate": 58.8,
+   "gates": 5.6,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 126,
+    "z_before": 2.9698484809834995,
+    "z_after": 2.4810842175291756,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 9,
+      "unknown word": 3,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 42,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.55
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 109,
+    "z_before": 2.4810842175291756,
+    "z_after": 1.638682149721922,
+    "accepted": true,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 34,
+     "after_content": 34,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "duplicate": 26,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 74,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.24
+   }
+  ],
+  "rewrites": {
+   "5": {
+    "original": "On the return trip, Armstrong asked Buzz Aldrin, his fellow crew member and pilot, to be sure to have a good look at the moon.",
+    "rewrite": "During the return trip, Armstrong requested that Buzz Aldrin, his fellow crew member and pilot, take a thorough gaze at the moon."
+   },
+   "2": {
+    "original": "It commemorated President Harry S. Truman, who donated the boxed brush to the Museum after he\u2019d lost a tooth.",
+    "rewrite": "The Museum honored President Harry S. Truman, whom Truman later gave the box of brush after he had lost a tooth."
+   }
+  },
+  "final_span": "tucked under his pocket a toothbrush and a Slinky from the National Museum of American History.\nOn the way to the moon, Armstrong detached the toothbrush from its box, and read an inscription. The Museum honored President Harry S. Truman, whom Truman later gave the box of brush after he had lost a tooth. The note read \u201cGive a man a toothbrush and you feed his spirit.\u201d Armstrong then tucked the toothbrush back whence it came.\nDuring the return trip, Armstrong requested that Buzz Aldrin, his fellow crew member and pilot, take a thorough gaze at the moon. Aldrin remembers getting the message\u2014teasingly, as Armstrong was fond of doing\u2014that Armstrong wanted him to have a good view, if for no other reason than to send back a photo showing the signatures of the astr",
+  "break_point": {
+   "step": 1,
+   "sentences_rewritten": 2,
+   "queries": 74
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 4,
+   "segments": 7,
+   "pct_of_eligible": 50.0,
+   "pct_of_segments": 28.571428571428573
+  },
+  "tokens": {
+   "original": 201,
+   "final": 198,
+   "length_change": -3,
+   "pct_not_preserved": 10.945273631840791,
+   "pct_new": 9.595959595959592
+  },
+  "words": {
+   "original": 135,
+   "final": 134,
+   "length_change": -1,
+   "pct_not_preserved": 13.33333333333333,
+   "pct_new": 12.686567164179108
+  },
+  "characters": {
+   "original": 762,
+   "final": 768,
+   "length_change": 6,
+   "pct_not_preserved": 7.0866141732283445,
+   "pct_new": 7.8125
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 121,
+   "green_after": 110,
+   "pairs_before": 200,
+   "pairs_after": 197,
+   "pairs_changed_before": 31,
+   "pairs_changed_after": 28,
+   "green_fraction_of_new_pairs": 0.39285714285714285,
+   "delta_achieved": 0.10714285714285715
+  }
+ }
+}

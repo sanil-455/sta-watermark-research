@@ -1,0 +1,185 @@
+{
+ "sample_id": "samples_len200:44",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.8995633187772926,
+ "needed_share": 0.6071628993408069,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 916,
+  "segments": 8,
+  "eligible": 6,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 824,
+  "eligible_char_share": 0.8995633187772926
+ },
+ "attack": {
+  "z0": 5.091168824543142,
+  "z_final": 1.0853619079386325,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 101,
+  "seconds": 98.9,
+  "seconds_by_phase": {
+   "generate": 91.6,
+   "gates": 7.3,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 177,
+    "z_before": 5.091168824543142,
+    "z_after": 3.857142857142857,
+    "accepted": true,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 59,
+     "after_content": 22,
+     "after_semantic": 19,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "unknown word": 1,
+      "negation count changed": 37,
+      "meaning too different": 3
+     }
+    },
+    "queries_total": 20,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.95
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 166,
+    "z_before": 3.857142857142857,
+    "z_after": 2.3276405323333744,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 5,
+      "unknown word": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 70,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.77
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 158,
+    "z_before": 2.3276405323333744,
+    "z_after": 1.0853619079386325,
+    "accepted": true,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 50,
+     "after_content": 34,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "duplicate": 7,
+      "CJK text": 2,
+      "unknown word": 1,
+      "negation count changed": 16,
+      "meaning too different": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 101,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.87
+   }
+  ],
+  "rewrites": {
+   "6": {
+    "original": "There is some risk, which is why existing multiple-employer plans typically have caps of $50 to $500 on how much employees can invest, but the plan itself has unlimited capital.",
+    "rewrite": "Due to some risk involved, existing multiple-employer plans commonly set investment limits between $50 and $500 per employee, while the plan can handle unlimited capital."
+   },
+   "5": {
+    "original": "These plans typically take over key management duties such as creating and maintaining investment portfolios and making sure the administrative tasks are carried out.",
+    "rewrite": "These plans usually assume responsibility for core management functions, including the creation and upkeep of investment portfolios, as well as ensuring that administrative tasks are performed."
+   },
+   "2": {
+    "original": "Small employers who don\u2019t have much in the way of overlapping offerings such as health insurance and meals could club together to provide additional benefits.",
+    "rewrite": "Smaller employers without many similar offerings like healthcare and meal plans could join forces to offer extra benefits."
+   }
+  },
+  "final_span": ". That way, any employer could partner up with other local businesses who offer similar products or services. Smaller employers without many similar offerings like healthcare and meal plans could join forces to offer extra benefits.\nThere is no reason why these kinds of arrangements cannot do well. Several multi-employer plans already exist, and they offer \u201cadministered funds,\u201d rather than each employer having to sponsor its own separate account. These plans usually assume responsibility for core management functions, including the creation and upkeep of investment portfolios, as well as ensuring that administrative tasks are performed. Due to some risk involved, existing multiple-employer plans commonly set investment limits between $50 and $500 per employee, while the plan can handle unlimited capital.\nThere are some minor issues that would have to be addressed, since 401(k) is not the",
+  "break_point": {
+   "step": 2,
+   "sentences_rewritten": 3,
+   "queries": 101
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 6,
+   "segments": 8,
+   "pct_of_eligible": 50.0,
+   "pct_of_segments": 37.5
+  },
+  "tokens": {
+   "original": 201,
+   "final": 192,
+   "length_change": -9,
+   "pct_not_preserved": 28.855721393034827,
+   "pct_new": 25.520833333333336
+  },
+  "words": {
+   "original": 146,
+   "final": 136,
+   "length_change": -10,
+   "pct_not_preserved": 38.35616438356164,
+   "pct_new": 33.82352941176471
+  },
+  "characters": {
+   "original": 916,
+   "final": 900,
+   "length_change": -16,
+   "pct_not_preserved": 20.960698689956338,
+   "pct_new": 19.55555555555556
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 136,
+   "green_after": 103,
+   "pairs_before": 200,
+   "pairs_after": 191,
+   "pairs_changed_before": 78,
+   "pairs_changed_after": 69,
+   "green_fraction_of_new_pairs": 0.34782608695652173,
+   "delta_achieved": 0.15217391304347827
+  }
+ }
+}

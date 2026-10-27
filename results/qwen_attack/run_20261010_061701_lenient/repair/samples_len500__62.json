@@ -1,0 +1,34 @@
+{
+ "repl": {
+  "6": "Prior to Congress repealing the Patriot Act, they must approve the USA Freedom Act, a bill that could be debated next week once it has cleared both chambers following passage in the Senate and House.",
+  "7": "As MintPress previously reported, the USA Freedom Act would grant bulk surveillance capabilities to the FBI and NSA, the Guardian noted, while also preventing the government from using National Security Letters to authorize secret searches of Americans' personal documents."
+ },
+ "provenance": {
+  "6": "kept from the reading",
+  "7": "approved by the user"
+ },
+ "old_bad": {
+  "7": "MintPress previously reported that the USA Freedom Act, as The Guardian noted, grants bulk surveillance capabilities to the FBI and NSA, and also prevents the government from using National Security Letters to endorse secret searches of Americans' personal documents."
+ },
+ "rejected": {},
+ "skipped": [],
+ "decisions": [
+  {
+   "segment": 7,
+   "answer": "y",
+   "proposal": "As MintPress previously reported, the USA Freedom Act would grant bulk surveillance capabilities to the FBI and NSA, the Guardian noted, while also preventing the government from using National Security Letters to authorize secret searches of Americans' personal documents.",
+   "z_before": 3.0532901344551737,
+   "z_after": 1.8465471313552844,
+   "similarity": 0.9274370074272156
+  }
+ ],
+ "calls": 1,
+ "status": "broken",
+ "sample_id": "samples_len500:62",
+ "z0": 4.203807797699604,
+ "z_start_of_repair": 3.0532901344551737,
+ "z_final": 1.8465471313552844,
+ "final_span": "investigation \u201cupon request by the individual whose information is contained in the FISA surveillance system.\u201d\nCo-sponsor of the bill, Rep. Thomas Massie said:\nIt\u2019s past time to end the overbroad, unnecessary and unconstitutional surveillance that has put Americans\u2019 Fourth Amendment rights at risk. Because of the PATRIOT Act, the government can collect your personal location information, read your emails, listen to your phone calls and obtain your browsing history without a warrant. The government should have to get a court order based on probable cause before infringing on Americans\u2019 rights. I\u2019m proud to join Rep. Pocan and other co-sponsors to right this wrong by repealing the PATRIOT Act and ending the surveillance state.\nPrior to Congress repealing the Patriot Act, they must approve the USA Freedom Act, a bill that could be debated next week once it has cleared both chambers following passage in the Senate and House. As MintPress previously reported, the USA Freedom Act would grant bulk surveillance capabilities to the FBI and NSA, the Guardian noted, while also preventing the government from using National Security Letters to authorize secret searches of Americans' personal documents.\nClapper omitted Snowden revelations, Congress neglecting their responsibility\nThroughout former National Intelligence Director James Clapper's time as a public official, he always refused to answer any questions asked by Congress about surveillance of U.S. persons. The omission in his testimony of the degree to which the NSA spied domestically, as leaked by whistleblower Edward Snowden, is, according to legal strategist Jeffrey Folkerts, \u201cyet another indicator that Congress is failing the American people by not adhering to its Constitutional duties regarding foreign invasions of privacy.\u201d\nFormer NSA analyst and whistleblower, Kurt W. Richardson, brought the full extent of mass surveillance under US planners, to the table nearly a decade ago. His book Boundless Informant, exposed the legal and regulatory surrounding of mass domestic surveillance.\nAccording to Richardson, NSA analysts use RIDEs, or \"",
+ "queries": 38,
+ "seconds": 133.0
+}

@@ -1,0 +1,370 @@
+{
+ "sample_id": "samples_len500:64",
+ "source": "results/raw/samples_len500.json",
+ "layout": "prompt+text",
+ "tokens": 500,
+ "eligible_share": 0.8799407114624506,
+ "needed_share": 0.7018576030000281,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2024,
+  "segments": 20,
+  "eligible": 16,
+  "skipped": 4,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "too short": 1,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1781,
+  "eligible_char_share": 0.8799407114624506
+ },
+ "attack": {
+  "z0": 6.7082039324993685,
+  "z_final": 1.6497484596505263,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 263,
+  "seconds": 356.0,
+  "seconds_by_phase": {
+   "generate": 334.6,
+   "gates": 21.2,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 15,
+    "chars": 199,
+    "z_before": 6.7082039324993685,
+    "z_after": 5.63489130329947,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "CJK text": 10,
+      "several lines": 3,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 46,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 59.29
+   },
+   {
+    "pass": 1,
+    "segment": 14,
+    "chars": 193,
+    "z_before": 5.63489130329947,
+    "z_after": 5.366563145999495,
+    "accepted": true,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 57,
+     "after_content": 1,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "CJK text": 1,
+      "several lines": 1,
+      "unknown word": 1,
+      "quotation changed": 56
+     }
+    },
+    "queries_total": 47,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.58
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 182,
+    "z_before": 5.366563145999495,
+    "z_after": 4.90954026945197,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 60,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "negation count changed": 8,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 98,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.56
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 177,
+    "z_before": 4.90954026945197,
+    "z_after": 4.024922359499621,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "several lines": 1,
+      "duplicate": 1,
+      "unknown word": 2,
+      "meaning too different": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 150,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 44.7
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 176,
+    "z_before": 4.024922359499621,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 60,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "quotation changed": 60
+     }
+    },
+    "queries_total": 150,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.59
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 149,
+    "z_before": 4.024922359499621,
+    "z_after": 2.750805179189953,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 2,
+      "duplicate": 1,
+      "unknown word": 1,
+      "quotation changed": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 201,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.34
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 135,
+    "z_before": 2.750805179189953,
+    "z_after": 2.5364667090929136,
+    "accepted": true,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 48,
+     "after_content": 6,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "duplicate": 12,
+      "negation count changed": 42,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 206,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.58
+   },
+   {
+    "pass": 1,
+    "segment": 18,
+    "chars": 101,
+    "z_before": 2.5364667090929136,
+    "z_after": 2.04900285466192,
+    "accepted": true,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 19,
+     "after_spelling": 19,
+     "after_content": 19,
+     "after_semantic": 19,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "duplicate": 40,
+      "CJK text": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 224,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.66
+   },
+   {
+    "pass": 1,
+    "segment": 13,
+    "chars": 85,
+    "z_before": 2.04900285466192,
+    "z_after": 1.6497484596505263,
+    "accepted": true,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "duplicate": 13,
+      "unknown word": 2,
+      "meaning too different": 2,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 263,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 20.32
+   }
+  ],
+  "rewrites": {
+   "15": {
+    "original": "I\u2019d talk to him about spam incoming from abroad, and he\u2019d dispense advice like that from a former skeet shooting great one night involved taking random hunks of missing wood from a gunsmith\u2019s drawer.",
+    "rewrite": "I would discuss with him the spam coming from abroad, and he would offer guidance akin to that of a former skeet shooting champion, one night consisting of randomly selecting pieces of missing wood from a gunsmith\u2019s drawer."
+   },
+   "14": {
+    "original": "He would often recount nervous meetings when apparently an \u201cofficer caught with hookers\u201d had broken all the security guards\u2019 cellphones, and Nixon and Kissinger had come to a political retreat.",
+    "rewrite": "He would often recall nervous meetings where it appeared an \u201cofficer caught with hookers\u201d had damaged all the security guards\u2019 cellphones, and Nixon and Kissinger had attended a political retreat."
+   },
+   "9": {
+    "original": "I had the privilege to sit across from the legendary leader Jack Welch, who was always ready and willing to laugh \u2014 at us and laughter would ripple right out of the room as a result.",
+    "rewrite": "I had the honor to sit opposite the renowned leader Jack Welch, who was frequently willing and able to laugh, whether at us or for laughs, and chuckles would immediately spread through the room as a consequence."
+   },
+   "12": {
+    "original": "But with grace instead, he agreed to participate and let the joke go so far as to put an assistant manager with a hangover in line for promotion in a conspiracy deal gone wrong.",
+    "rewrite": "Yet with grace, he agreed to participate, choosing to overlook the joke and allow an assistant manager with a hangover to be considered for promotion in a scheme that went awry."
+   },
+   "10": {
+    "original": "I remember a special meeting when the staff came in from sales, dressed up, feeling \u201ctelephone humor\u201d was OK, and told Jack an old chestnut about it.",
+    "rewrite": "I recall a particular meeting where the staff, dressed in their best clothes as representatives of sales, felt comfortable adding \"telephone humor\" to their repertoire, and shared an old favorite joke with Jack."
+   },
+   "5": {
+    "original": "And when I first heard about a key hire that wasn\u2019t a gender diverse one, I asked the person my immediate boss what that was all about.",
+    "rewrite": "When I first learned about a critical hire who was not gender diverse, I inquired of the individual who was my immediate supervisor about it."
+   },
+   "18": {
+    "original": "There was some focus on the differences between men and women in the Film Character Project\u2019s report.",
+    "rewrite": "The Film Character Project\u2019s report highlighted some distinctions between male and female characters."
+   },
+   "13": {
+    "original": "When Britney lost a tussle with a waiter, Jack simply acknowledged the simple causes.",
+    "rewrite": "When Jack witnessed Britney lose a struggle with a waiter, he recognized the straightforward reasons."
+   }
+  },
+  "final_span": "tense if I had instead expressed an offense taken.\nA well-placed zinger is a powerful tool. It can immediately disarm an awkward, overly-signaling situation. Who doesn\u2019t feel relaxed after an office jester makes fun of their mistake? In a meeting with a group that\u2019s approaching my territory, I once used humor to let the group know that I intended to be \u201cadministering policy\u201d rather than in a \u201cselling\u201d role. When I first learned about a critical hire who was not gender diverse, I inquired of the individual who was my immediate supervisor about it. He said, \u201cYou\u2019ll like him.\u201d Without even a moment to breathe I had responded: \u201cYou know me too well,\u201d an awkward moment avoided.\nWorking on Wall Street, I learned about humor from the very top. I had the honor to sit opposite the renowned leader Jack Welch, who was frequently willing and able to laugh, whether at us or for laughs, and chuckles would immediately spread through the room as a consequence. I recall a particular meeting where the staff, dressed in their best clothes as representatives of sales, felt comfortable adding \"telephone humor\" to their repertoire, and shared an old favorite joke with Jack. He refused to be the butt of the joke. Yet with grace, he agreed to participate, choosing to overlook the joke and allow an assistant manager with a hangover to be considered for promotion in a scheme that went awry. When Jack witnessed Britney lose a struggle with a waiter, he recognized the straightforward reasons. He would often recall nervous meetings where it appeared an \u201cofficer caught with hookers\u201d had damaged all the security guards\u2019 cellphones, and Nixon and Kissinger had attended a political retreat. I would discuss with him the spam coming from abroad, and he would offer guidance akin to that of a former skeet shooting champion, one night consisting of randomly selecting pieces of missing wood from a gunsmith\u2019s drawer. Success, in the end, wasn\u2019t about technical mastery of functions. It was about making some folks laugh.\nThe Film Character Project\u2019s report highlighted some distinctions between male and female characters.\nAnthony F. Roberts, professor emeritus, Rutgers",
+  "break_point": {
+   "step": 8,
+   "sentences_rewritten": 8,
+   "queries": 263
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 8,
+   "eligible": 16,
+   "segments": 20,
+   "pct_of_eligible": 50.0,
+   "pct_of_segments": 40.0
+  },
+  "tokens": {
+   "original": 501,
+   "final": 504,
+   "length_change": 3,
+   "pct_not_preserved": 24.75049900199601,
+   "pct_new": 25.198412698412696
+  },
+  "words": {
+   "original": 355,
+   "final": 358,
+   "length_change": 3,
+   "pct_not_preserved": 30.98591549295775,
+   "pct_new": 31.56424581005587
+  },
+  "characters": {
+   "original": 2024,
+   "final": 2164,
+   "length_change": 140,
+   "pct_not_preserved": 18.922924901185766,
+   "pct_new": 24.168207024029577
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 325,
+   "green_after": 270,
+   "pairs_before": 500,
+   "pairs_after": 503,
+   "pairs_changed_before": 176,
+   "pairs_changed_after": 179,
+   "green_fraction_of_new_pairs": 0.41899441340782123,
+   "delta_achieved": 0.08100558659217877
+  }
+ }
+}

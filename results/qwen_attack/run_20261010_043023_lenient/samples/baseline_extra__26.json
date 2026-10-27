@@ -1,0 +1,121 @@
+{
+ "sample_id": "baseline_extra:26",
+ "source": "results/raw/baseline_extra.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.6014760147601476,
+ "needed_share": 0.2928932188134524,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 813,
+  "segments": 8,
+  "eligible": 4,
+  "skipped": 4,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 2,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 489,
+  "eligible_char_share": 0.6014760147601476
+ },
+ "attack": {
+  "z0": 2.82842712474619,
+  "z_final": 1.125756071568467,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 54,
+  "seconds": 31.3,
+  "seconds_by_phase": {
+   "generate": 27.5,
+   "gates": 3.8,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 155,
+    "z_before": 2.82842712474619,
+    "z_after": 1.125756071568467,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 54,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.52
+   }
+  ],
+  "rewrites": {
+   "4": {
+    "original": "In addition to supporting abortion, Planned Parenthood provides general health care services such as cancer screenings and STD testing to low-income women.",
+    "rewrite": "Along with advocacy for abortion rights, Planned Parenthood also offers healthcare services like cancer screenings and STD tests to women with low incomes."
+   }
+  },
+  "final_span": "women's health as a political pawn,\" he said.\nHe added later, \"It also interferes with my right to choose this nation's maternal and women's health policies. Americans decide these things, not the out-of-touch lawmakers in Washington.\"\nHillary Clinton came to the defense of Planned Parenthood, tweeting that \"our bodies, our policy.\"\nAlong with advocacy for abortion rights, Planned Parenthood also offers healthcare services like cancer screenings and STD tests to women with low incomes.\nThe government in fiscal 2014 paid Planned Parenthood $540 million, according to the GAO. In addition, 40% of all patients at clinics operated by Planned Parenthood use Medicaid or another federal insurance program to pay for their care.\nA similar measure to defund Planned Parenthood previously made it through the Senate",
+  "break_point": {
+   "step": 0,
+   "sentences_rewritten": 1,
+   "queries": 54
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 1,
+   "eligible": 4,
+   "segments": 8,
+   "pct_of_eligible": 25.0,
+   "pct_of_segments": 12.5
+  },
+  "tokens": {
+   "original": 201,
+   "final": 203,
+   "length_change": 2,
+   "pct_not_preserved": 6.965174129353235,
+   "pct_new": 7.881773399014779
+  },
+  "words": {
+   "original": 124,
+   "final": 125,
+   "length_change": 1,
+   "pct_not_preserved": 11.290322580645162,
+   "pct_new": 12.0
+  },
+  "characters": {
+   "original": 813,
+   "final": 813,
+   "length_change": 0,
+   "pct_not_preserved": 5.781057810578105,
+   "pct_new": 5.781057810578105
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 120,
+   "green_after": 109,
+   "pairs_before": 200,
+   "pairs_after": 202,
+   "pairs_changed_before": 22,
+   "pairs_changed_after": 24,
+   "green_fraction_of_new_pairs": 0.20833333333333334,
+   "delta_achieved": 0.29166666666666663
+  }
+ }
+}

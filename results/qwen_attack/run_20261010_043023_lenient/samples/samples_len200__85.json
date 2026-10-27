@@ -1,0 +1,209 @@
+{
+ "sample_id": "samples_len200:85",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.8848821081830791,
+ "needed_share": 0.4949237277238946,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 721,
+  "segments": 8,
+  "eligible": 6,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 638,
+  "eligible_char_share": 0.8848821081830791
+ },
+ "attack": {
+  "z0": 3.959797974644666,
+  "z_final": 1.6142835345902717,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 88,
+  "seconds": 134.8,
+  "seconds_by_phase": {
+   "generate": 127.8,
+   "gates": 7.0,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 171,
+    "z_before": 3.959797974644666,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "duplicate": 4,
+      "quotation changed": 31,
+      "numbers changed": 25
+     }
+    },
+    "queries_total": 1,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.96
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 170,
+    "z_before": 3.959797974644666,
+    "z_after": 3.095829196813284,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "duplicate": 1,
+      "several lines": 1,
+      "CJK text": 1,
+      "unknown word": 3,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 52,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.86
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 102,
+    "z_before": 3.095829196813284,
+    "z_after": 2.3276405323333744,
+    "accepted": true,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 43,
+     "after_spelling": 43,
+     "after_content": 5,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "duplicate": 17,
+      "negation count changed": 38
+     }
+    },
+    "queries_total": 57,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 20.78
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 81,
+    "z_before": 2.3276405323333744,
+    "z_after": 1.6142835345902717,
+    "accepted": true,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 32,
+     "after_spelling": 32,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "duplicate": 28,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 88,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.21
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "The ETF is holding up well this year as consumer staples stocks have rallied stronger than the broad market and emerging markets, where the China-US tariff dispute began.",
+    "rewrite": "This year, the ETF is performing well as consumer staples stocks have gained more than the broader market and emerging markets, where the trade disagreement between China and the US started."
+   },
+   "6": {
+    "original": "Staples companies were able to supply consumers with basic necessities without much damage to profits.",
+    "rewrite": "Staples firms managed to provide customers with essentials without significantly affecting their profitability."
+   },
+   "1": {
+    "original": "XLP is home to household-name brands like Procter & Gamble, Clorox and Coca-Cola.",
+    "rewrite": "XLP shelters well-known brands such as Procter & Gamble, Clorox, and Coca-Cola."
+   }
+  },
+  "final_span": "technical standpoint,\" he said on \"Trading Nation.\"\nXLP shelters well-known brands such as Procter & Gamble, Clorox, and Coca-Cola.\nThis year, the ETF is performing well as consumer staples stocks have gained more than the broader market and emerging markets, where the trade disagreement between China and the US started. Since the tariff in September, XLP is up more than 13% according to FactSet. The S&P 500 meanwhile is up around 8%.\nGreg Bassuk, CEO at AXS Investments, claims the \"addiction to the screens\" in the post-pandemic world during the Covid-19 pandemic drove an uptick in consumer consumption. Staples firms managed to provide customers with essentials without significantly affecting their profitability.\n\"This was a new window of",
+  "break_point": {
+   "step": 3,
+   "sentences_rewritten": 3,
+   "queries": 88
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 6,
+   "segments": 8,
+   "pct_of_eligible": 50.0,
+   "pct_of_segments": 37.5
+  },
+  "tokens": {
+   "original": 201,
+   "final": 204,
+   "length_change": 3,
+   "pct_not_preserved": 17.910447761194025,
+   "pct_new": 19.11764705882353
+  },
+  "words": {
+   "original": 117,
+   "final": 117,
+   "length_change": 0,
+   "pct_not_preserved": 24.786324786324787,
+   "pct_new": 24.786324786324787
+  },
+  "characters": {
+   "original": 721,
+   "final": 748,
+   "length_change": 27,
+   "pct_not_preserved": 15.117891816920947,
+   "pct_new": 18.181818181818176
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 128,
+   "green_after": 113,
+   "pairs_before": 200,
+   "pairs_after": 203,
+   "pairs_changed_before": 51,
+   "pairs_changed_after": 54,
+   "green_fraction_of_new_pairs": 0.3888888888888889,
+   "delta_achieved": 0.1111111111111111
+  }
+ }
+}

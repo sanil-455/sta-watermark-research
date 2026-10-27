@@ -1,0 +1,170 @@
+{
+ "sample_id": "samples_len500:71",
+ "source": "results/raw/samples_len500.json",
+ "layout": "prompt+text",
+ "tokens": 500,
+ "eligible_share": 0.0668804397617957,
+ "needed_share": 0.733801431250025,
+ "delta_needed": null,
+ "segmentation": {
+  "chars": 2183,
+  "segments": 12,
+  "eligible": 1,
+  "skipped": 11,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 9,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 146,
+  "eligible_char_share": 0.0668804397617957
+ },
+ "attack": {
+  "z0": 7.513188404399293,
+  "z_final": 7.155417527999327,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 160,
+  "seconds": 95.4,
+  "seconds_by_phase": {
+   "generate": 83.8,
+   "gates": 11.5,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 146,
+    "z_before": 7.513188404399293,
+    "z_after": 7.33430296619931,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 1,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 56,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.03
+   },
+   {
+    "pass": 2,
+    "segment": 7,
+    "chars": 146,
+    "z_before": 7.33430296619931,
+    "z_after": 7.155417527999327,
+    "accepted": true,
+    "survivors": 58,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 58,
+     "rejected": {
+      "duplicate": 2
+     }
+    },
+    "queries_total": 109,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.71
+   },
+   {
+    "pass": 3,
+    "segment": 7,
+    "chars": 146,
+    "z_before": 7.155417527999327,
+    "z_after": 7.178635189290128,
+    "accepted": false,
+    "survivors": 56,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 56,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 1,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 160,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.09
+   }
+  ],
+  "rewrites": {
+   "7": {
+    "original": "Mr Ward also said BT\u2019s move to increase information sharing within its business could provide new opportunities for engaging with the countryside.",
+    "rewrite": "Mr. Ward also noted that BT\u2019s decision to boost internal information sharing might open up new chances for interaction with the countryside."
+   }
+  },
+  "final_span": "after a country park or protecting a wetland habitat, should a conservation charity which specialises in that also have responsibility for monitoring and reviewing the process of the farmer doing that and judging him?\u201d\nMr Duffy said: \u201cAs landowners and farmers, I think there is a lot at stake here and we do want to be kind to the countryside.\n\u201cNinety per cent of the country in agricultural land which is farmed privately so, basically, we are paid for looking after it.\n\u201cWe are small businesses and I think it is fair to say we have a proud record of doing it, but we do need to come up with new ways of working.\u201d\nMr Ward said farmers \u201cdon\u2019t necessarily have the skills\u201d in making environmental improvements on an estate-wide base to match the scientific expertise of environmental groups.\n\u201cThere is a balance, if part of the fund is conditionally attached on delivering public goods and an element of the fund has to be paid to the scientific expert, if we don\u2019t laugh then I think it will mean our country will become a kind of less flourishing, lower quality and less sustainable country.\n\u201cI think there is a need to establish the links much more carefully, and it has to be participatory, both ends have to be involved.\u201d\nMr. Ward also noted that BT\u2019s decision to boost internal information sharing might open up new chances for interaction with the countryside.\nHe added: \u201cI think Brits will like the idea of being more involved with their farms, because I don\u2019t know many of my farmers, I think my dad would struggle to remember their names.\u201d\nHe said he also believed that shooting estates, which have big populations of game birds, would play \u201can increasingly important role, it is the area with the greatest capacity to deliver habitat improvements, to improve agricultural methods and taking farming more into 21st century food production\u201d.\nMr Duffy said: \u201cIn the farming community, we have obviously been hit by flooding and other issues, and this is the opportunity to learn from the schemes in North Yorkshire, Mont, etc, but the environmental schemes that are absolutely vital are getting the increase in funding to match what it needs.\u201d\nMr Punchard said \u201ciconic",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 1,
+   "eligible": 1,
+   "segments": 12,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 8.333333333333334
+  },
+  "tokens": {
+   "original": 501,
+   "final": 501,
+   "length_change": 0,
+   "pct_not_preserved": 2.39520958083832,
+   "pct_new": 2.39520958083832
+  },
+  "words": {
+   "original": 376,
+   "final": 376,
+   "length_change": 0,
+   "pct_not_preserved": 2.92553191489362,
+   "pct_new": 2.92553191489362
+  },
+  "characters": {
+   "original": 2183,
+   "final": 2177,
+   "length_change": -6,
+   "pct_not_preserved": 2.427851580393958,
+   "pct_new": 2.1589343132751515
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 334,
+   "green_after": 330,
+   "pairs_before": 500,
+   "pairs_after": 500,
+   "pairs_changed_before": 19,
+   "pairs_changed_after": 19,
+   "green_fraction_of_new_pairs": 0.42105263157894735,
+   "delta_achieved": 0.07894736842105265
+  }
+ }
+}

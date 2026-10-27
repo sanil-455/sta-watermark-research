@@ -1,0 +1,207 @@
+{
+ "sample_id": "samples_len200:31",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.5,
+ "needed_share": 0.6071628993408069,
+ "delta_needed": 0.03857864376269048,
+ "segmentation": {
+  "chars": 818,
+  "segments": 8,
+  "eligible": 3,
+  "skipped": 5,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 3,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 409,
+  "eligible_char_share": 0.5
+ },
+ "attack": {
+  "z0": 5.091168824543142,
+  "z_final": 1.7056057308448835,
+  "status": "broken",
+  "reason": null,
+  "passes": 2,
+  "queries": 147,
+  "seconds": 129.1,
+  "seconds_by_phase": {
+   "generate": 118.5,
+   "gates": 10.5,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 166,
+    "z_before": 5.091168824543142,
+    "z_after": 3.9185877493350305,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 58,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "unknown word": 2,
+      "negation count changed": 15
+     }
+    },
+    "queries_total": 44,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.57
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 163,
+    "z_before": 3.9185877493350305,
+    "z_after": 2.584649371023857,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 5
+     }
+    },
+    "queries_total": 97,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.79
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 80,
+    "z_before": 2.584649371023857,
+    "z_after": 2.0767331347143556,
+    "accepted": true,
+    "survivors": 14,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 17,
+     "after_spelling": 16,
+     "after_content": 16,
+     "after_semantic": 16,
+     "fluency_skipped": false,
+     "after_fluency": 14,
+     "rejected": {
+      "duplicate": 43,
+      "unknown word": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 111,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.24
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 166,
+    "z_before": 2.0767331347143556,
+    "z_after": 1.7056057308448835,
+    "accepted": true,
+    "survivors": 37,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 37,
+     "after_semantic": 37,
+     "fluency_skipped": false,
+     "after_fluency": 37,
+     "rejected": {
+      "CJK text": 3,
+      "negation count changed": 20
+     }
+    },
+    "queries_total": 147,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.88
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "In the advertisement, Johnson described the image of the unborn baby as it emerges from its mother\u2019s womb, which she according to the film said she will never forget.",
+    "rewrite": "In the ad, Johnson depicted the scene of the unborn baby\u2019s emergence from its mother\u2019s womb, an image she stated in the film that she will never forget."
+   },
+   "1": {
+    "original": "Johnson, who identifies as pro-choice to the audience, made the controversial transformation to pro-life activist after she witnessed the procedure of an abortion.",
+    "rewrite": "Johnson, who portrays herself as pro-choice publicly, shifted to becoming a pro-life activist after witnessing an abortion procedure."
+   },
+   "4": {
+    "original": "Johnson described the scene in her debut memoir according to The New York Times.",
+    "rewrite": "The New York Times reported that Johnson recounted the scene in her debut memoir."
+   }
+  },
+  "final_span": ". Johnson, who portrays herself as pro-choice publicly, shifted to becoming a pro-life activist after witnessing an abortion procedure.\n\u201cOne woman\u2019s story has the power to transform a nation,\u201d read an advertisement for the upcoming film. In the ad, Johnson depicted the scene of the unborn baby\u2019s emergence from its mother\u2019s womb, an image she stated in the film that she will never forget.\nThe New York Times reported that Johnson recounted the scene in her debut memoir.\n\u201cIt\u2019s the tiniest, most precious human being you will ever see. And it felt like God was, like, pulling at my heartstrings, and tapping me on the shoulder and saying, \u2018You belong to the truth now,\u2019\u201d an excerpt from the book cited by the Times reads.\nThe panel, which lasted about one hour, was followed",
+  "break_point": {
+   "step": 3,
+   "sentences_rewritten": 3,
+   "queries": 147
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 3,
+   "segments": 8,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 37.5
+  },
+  "tokens": {
+   "original": 201,
+   "final": 199,
+   "length_change": -2,
+   "pct_not_preserved": 18.40796019900498,
+   "pct_new": 17.587939698492463
+  },
+  "words": {
+   "original": 139,
+   "final": 133,
+   "length_change": -6,
+   "pct_not_preserved": 23.741007194244602,
+   "pct_new": 20.300751879699252
+  },
+  "characters": {
+   "original": 818,
+   "final": 775,
+   "length_change": -43,
+   "pct_not_preserved": 19.43765281173594,
+   "pct_new": 14.967741935483868
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 136,
+   "green_after": 111,
+   "pairs_before": 200,
+   "pairs_after": 198,
+   "pairs_changed_before": 53,
+   "pairs_changed_after": 51,
+   "green_fraction_of_new_pairs": 0.35294117647058826,
+   "delta_achieved": 0.14705882352941174
+  }
+ }
+}

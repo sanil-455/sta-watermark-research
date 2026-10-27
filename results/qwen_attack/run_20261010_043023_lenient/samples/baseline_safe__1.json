@@ -1,0 +1,434 @@
+{
+ "sample_id": "baseline_safe:1",
+ "source": "results/raw/baseline_safe.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.5130533484676504,
+ "needed_share": 0.6925622690493272,
+ "delta_needed": 0.08047321366695831,
+ "segmentation": {
+  "chars": 881,
+  "segments": 8,
+  "eligible": 4,
+  "skipped": 4,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 2,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 452,
+  "eligible_char_share": 0.5130533484676504
+ },
+ "attack": {
+  "z0": 6.505382386916237,
+  "z_final": 3.411211461689767,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 205,
+  "seconds": 346.6,
+  "seconds_by_phase": {
+   "generate": 327.4,
+   "gates": 19.2,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 257,
+    "z_before": 6.505382386916237,
+    "z_after": 3.780756226875626,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 3,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 54,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 62.48
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 89,
+    "z_before": 3.780756226875626,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 3,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 1,
+      "negation count changed": 55,
+      "meaning too different": 3
+     }
+    },
+    "queries_total": 54,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.05
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 67,
+    "z_before": 3.780756226875626,
+    "z_after": 3.658707232597518,
+    "accepted": true,
+    "survivors": 8,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 20,
+     "after_spelling": 13,
+     "after_content": 11,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 8,
+     "rejected": {
+      "duplicate": 39,
+      "CJK text": 1,
+      "glued punctuation": 7,
+      "negation count changed": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 62,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.63
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 39,
+    "z_before": 3.658707232597518,
+    "z_after": 3.4391257910836224,
+    "accepted": true,
+    "survivors": 12,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 29,
+     "after_content": 29,
+     "after_semantic": 14,
+     "fluency_skipped": false,
+     "after_fluency": 12,
+     "rejected": {
+      "duplicate": 30,
+      "unknown word": 1,
+      "meaning too different": 15,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 74,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 11.01
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 257,
+    "z_before": 3.4391257910836224,
+    "z_after": 3.411211461689767,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "CJK text": 3,
+      "glued punctuation": 1,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 129,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 62.23
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 89,
+    "z_before": 3.411211461689767,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 3,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "duplicate": 2,
+      "negation count changed": 55,
+      "meaning too different": 3
+     }
+    },
+    "queries_total": 129,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.79
+   },
+   {
+    "pass": 2,
+    "segment": 6,
+    "chars": 67,
+    "z_before": 3.411211461689767,
+    "z_after": 3.411211461689767,
+    "accepted": false,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 24,
+     "after_spelling": 17,
+     "after_content": 13,
+     "after_semantic": 13,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "duplicate": 35,
+      "CJK text": 1,
+      "glued punctuation": 6,
+      "unknown word": 1,
+      "negation count changed": 4,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 140,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.49
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 39,
+    "z_before": 3.411211461689767,
+    "z_after": 3.411211461689767,
+    "accepted": false,
+    "survivors": 6,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 27,
+     "after_content": 27,
+     "after_semantic": 7,
+     "fluency_skipped": false,
+     "after_fluency": 6,
+     "rejected": {
+      "duplicate": 33,
+      "meaning too different": 20,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 146,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 11.08
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 257,
+    "z_before": 3.411211461689767,
+    "z_after": 3.5179877236514594,
+    "accepted": false,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 5,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 195,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 62.49
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 89,
+    "z_before": 3.411211461689767,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 56,
+     "after_content": 1,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 2,
+      "glued punctuation": 1,
+      "negation count changed": 55,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 195,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.65
+   },
+   {
+    "pass": 3,
+    "segment": 6,
+    "chars": 67,
+    "z_before": 3.411211461689767,
+    "z_after": 3.615294145542513,
+    "accepted": false,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 26,
+     "after_spelling": 14,
+     "after_content": 13,
+     "after_semantic": 13,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "duplicate": 34,
+      "glued punctuation": 9,
+      "unknown word": 3,
+      "negation count changed": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 200,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.76
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 39,
+    "z_before": 3.411211461689767,
+    "z_after": 3.4911054494075726,
+    "accepted": false,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 31,
+     "after_spelling": 29,
+     "after_content": 29,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "duplicate": 29,
+      "unknown word": 2,
+      "meaning too different": 18,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 205,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 10.7
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "In addition to an 8% growth, North America represented 45% of the region&apos;s segment income; more broadly, North America represented 60% of income while Europe, Middle East, and Africa produced 27% -- a significant rebalancing of the income distribution.",
+    "rewrite": "Alongside an 8% increase, North America accounted for 45% of the region's segment earnings; overall, North America contributed 60% of the earnings whereas Europe, Middle East, and Africa added 27% \u2014 a notable shift in the earnings distribution."
+   },
+   "6": {
+    "original": "Johnson Controls is the biggest company you&apos;ve never heard of.",
+    "rewrite": "Johnson Controls is the largest company that you might not be familiar with."
+   },
+   "4": {
+    "original": "News also came from the China business.",
+    "rewrite": "News also arrived from the China business sector."
+   }
+  },
+  "final_span": "that lead to that outcome.\n\"In North America we rebalanced the business to benefit from cooling growth,\" according to management. Though this isn&apos;t rocket science, its manifestation has been particularly important. Alongside an 8% increase, North America accounted for 45% of the region's segment earnings; overall, North America contributed 60% of the earnings whereas Europe, Middle East, and Africa added 27% \u2014 a notable shift in the earnings distribution.\nNews also arrived from the China business sector. \"We have been making some good progress with the regional leadership team to proactively address nonprofitable projects, which we expect to result in lower working capital needs for the business,\" according to McDonald.\nJohnson Controls is the largest company that you might not be familiar with. You&apos;ve probably used its products, without knowing it, if for instance",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 4,
+   "segments": 8,
+   "pct_of_eligible": 75.0,
+   "pct_of_segments": 37.5
+  },
+  "tokens": {
+   "original": 201,
+   "final": 199,
+   "length_change": -2,
+   "pct_not_preserved": 16.91542288557214,
+   "pct_new": 16.080402010050253
+  },
+  "words": {
+   "original": 131,
+   "final": 134,
+   "length_change": 3,
+   "pct_not_preserved": 19.083969465648853,
+   "pct_new": 20.895522388059707
+  },
+  "characters": {
+   "original": 881,
+   "final": 887,
+   "length_change": 6,
+   "pct_not_preserved": 12.145289443813844,
+   "pct_new": 12.739571589627962
+  },
+  "entities": {
+   "before": 4,
+   "after": 2
+  },
+  "pairs": {
+   "green_before": 146,
+   "green_after": 123,
+   "pairs_before": 200,
+   "pairs_after": 198,
+   "pairs_changed_before": 51,
+   "pairs_changed_after": 49,
+   "green_fraction_of_new_pairs": 0.30612244897959184,
+   "delta_achieved": 0.19387755102040816
+  }
+ }
+}

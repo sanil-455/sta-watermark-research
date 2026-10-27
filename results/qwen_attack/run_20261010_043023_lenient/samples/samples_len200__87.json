@@ -1,0 +1,264 @@
+{
+ "sample_id": "samples_len200:87",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.4033232628398791,
+ "needed_share": 0.5840548345961485,
+ "delta_needed": 0.07617801904663128,
+ "segmentation": {
+  "chars": 662,
+  "segments": 9,
+  "eligible": 3,
+  "skipped": 6,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 4,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 267,
+  "eligible_char_share": 0.4033232628398791
+ },
+ "attack": {
+  "z0": 4.808326112068523,
+  "z_final": 4.225077756832654,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 2,
+  "queries": 15,
+  "seconds": 137.2,
+  "seconds_by_phase": {
+   "generate": 136.0,
+   "gates": 1.1,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 152,
+    "z_before": 4.808326112068523,
+    "z_after": 4.69041575982343,
+    "accepted": true,
+    "survivors": 3,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 52,
+     "after_content": 4,
+     "after_semantic": 4,
+     "fluency_skipped": false,
+     "after_fluency": 3,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 3,
+      "unknown word": 3,
+      "negation count changed": 48,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 4,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.94
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 68,
+    "z_before": 4.69041575982343,
+    "z_after": 4.225077756832654,
+    "accepted": true,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 50,
+     "after_content": 45,
+     "after_semantic": 4,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "duplicate": 9,
+      "glued punctuation": 1,
+      "negation count changed": 5,
+      "meaning too different": 41
+     }
+    },
+    "queries_total": 8,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.47
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 47,
+    "z_before": 4.225077756832654,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 28,
+     "after_spelling": 26,
+     "after_content": 26,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "duplicate": 30,
+      "CJK text": 2,
+      "unknown word": 2,
+      "meaning too different": 26
+     }
+    },
+    "queries_total": 8,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.5
+   },
+   {
+    "pass": 2,
+    "segment": 7,
+    "chars": 152,
+    "z_before": 4.225077756832654,
+    "z_after": 4.413805092283772,
+    "accepted": false,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 58,
+     "after_content": 3,
+     "after_semantic": 3,
+     "fluency_skipped": false,
+     "after_fluency": 2,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 1,
+      "negation count changed": 55,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 10,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.11
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 68,
+    "z_before": 4.225077756832654,
+    "z_after": 4.285714285714286,
+    "accepted": false,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 47,
+     "after_content": 42,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "duplicate": 7,
+      "CJK text": 1,
+      "unknown word": 3,
+      "glued punctuation": 2,
+      "negation count changed": 5,
+      "meaning too different": 37
+     }
+    },
+    "queries_total": 15,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.92
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 47,
+    "z_before": 4.225077756832654,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 37,
+     "after_spelling": 33,
+     "after_content": 33,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "duplicate": 23,
+      "unknown word": 4,
+      "meaning too different": 33
+     }
+    },
+    "queries_total": 15,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.07
+   }
+  ],
+  "rewrites": {
+   "7": {
+    "original": "And, as far as being called out for his language by the Internet&apos;s moms during the POPSICLE CHALLENGE, Bretman says he doesn&apos;t mind it at all.",
+    "rewrite": "And regarding the backlash for his language from the Internet&apos;s moms during the POPSICLE CHALLENGE, Bretman says he doesn&apos;t mind it at all."
+   },
+   "3": {
+    "original": "It&apos;s a ride this kid and his family never thought would happen.",
+    "rewrite": "This was never a ride that kid and his family imagined experiencing."
+   }
+  },
+  "final_span": ". That&apos;s what everyone does.\"\nFor now he&apos;s just going to enjoy the ride. This was never a ride that kid and his family imagined experiencing.\n\"It&apos;s pretty silly that everyone thinks I&apos;m okay with all of this,\" said Bretman.\n\"It&apos;s just the whole entire thing right now is just getting used to the fame and location and meet tribes and all that stuff,\" said Bretman.\n\"I don&apos;t mean to say that I was in the poor part of town...I was definitely not,\" said Adam.\nAnd regarding the backlash for his language from the Internet&apos;s moms during the POPSICLE CHALLENGE, Bretman says he doesn&apos;t mind it at all.\n\"It&apos;s really not",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 3,
+   "segments": 9,
+   "pct_of_eligible": 66.66666666666667,
+   "pct_of_segments": 22.22222222222222
+  },
+  "tokens": {
+   "original": 201,
+   "final": 196,
+   "length_change": -5,
+   "pct_not_preserved": 9.452736318407961,
+   "pct_new": 7.14285714285714
+  },
+  "words": {
+   "original": 114,
+   "final": 111,
+   "length_change": -3,
+   "pct_not_preserved": 12.28070175438597,
+   "pct_new": 9.909909909909908
+  },
+  "characters": {
+   "original": 662,
+   "final": 659,
+   "length_change": -3,
+   "pct_not_preserved": 7.552870090634444,
+   "pct_new": 7.132018209408198
+  },
+  "entities": {
+   "before": 10,
+   "after": 9
+  },
+  "pairs": {
+   "green_before": 134,
+   "green_after": 127,
+   "pairs_before": 200,
+   "pairs_after": 195,
+   "pairs_changed_before": 24,
+   "pairs_changed_after": 19,
+   "green_fraction_of_new_pairs": 0.42105263157894735,
+   "delta_achieved": 0.07894736842105265
+  }
+ }
+}

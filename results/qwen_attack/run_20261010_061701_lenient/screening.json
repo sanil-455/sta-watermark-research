@@ -1,0 +1,128 @@
+[
+ {
+  "sample_id": "samples_len500:28",
+  "z0": 7.870959280799259,
+  "flagged": true,
+  "source": "results/raw/samples_len500.json"
+ },
+ {
+  "sample_id": "samples_len500:30",
+  "z0": 7.33430296619931,
+  "flagged": true,
+  "source": "results/raw/samples_len500.json"
+ },
+ {
+  "sample_id": "samples_len500:34",
+  "z0": 6.887089370699352,
+  "flagged": true,
+  "source": "results/raw/samples_len500.json"
+ },
+ {
+  "sample_id": "samples_len500:43",
+  "z0": 7.602631123499284,
+  "flagged": true,
+  "source": "results/raw/samples_len500.json"
+ },
+ {
+  "sample_id": "samples_len500:44",
+  "z0": 6.887089370699352,
+  "flagged": true,
+  "source": "results/raw/samples_len500.json"
+ },
+ {
+  "sample_id": "samples_len500:46",
+  "z0": 6.171547617899419,
+  "flagged": true,
+  "source": "results/raw/samples_len500.json"
+ },
+ {
+  "sample_id": "samples_len500:47",
+  "z0": 8.765386471799175,
+  "flagged": true,
+  "source": "results/raw/samples_len500.json"
+ },
+ {
+  "sample_id": "samples_len500:51",
+  "z0": 6.260990336999411,
+  "flagged": true,
+  "source": "results/raw/samples_len500.json"
+ },
+ {
+  "sample_id": "samples_len500:52",
+  "z0": 7.602631123499284,
+  "flagged": true,
+  "source": "results/raw/samples_len500.json"
+ },
+ {
+  "sample_id": "samples_len500:56",
+  "z0": 7.692073842599276,
+  "flagged": true,
+  "source": "results/raw/samples_len500.json"
+ },
+ {
+  "sample_id": "samples_len500:62",
+  "z0": 4.203807797699604,
+  "flagged": true,
+  "source": "results/raw/samples_len500.json"
+ },
+ {
+  "sample_id": "samples_len500:64",
+  "z0": 6.7082039324993685,
+  "flagged": true,
+  "source": "results/raw/samples_len500.json"
+ },
+ {
+  "sample_id": "samples_len500:65",
+  "z0": 6.439875775199394,
+  "flagged": true,
+  "source": "results/raw/samples_len500.json"
+ },
+ {
+  "sample_id": "samples_len500:66",
+  "z0": 7.513188404399293,
+  "flagged": true,
+  "source": "results/raw/samples_len500.json"
+ },
+ {
+  "sample_id": "samples_len500:69",
+  "z0": 6.529318494299385,
+  "flagged": true,
+  "source": "results/raw/samples_len500.json"
+ },
+ {
+  "sample_id": "samples_len500:71",
+  "z0": 7.513188404399293,
+  "flagged": true,
+  "source": "results/raw/samples_len500.json"
+ },
+ {
+  "sample_id": "samples_len500:72",
+  "z0": 7.92360821433446,
+  "flagged": true,
+  "source": "results/raw/samples_len500.json"
+ },
+ {
+  "sample_id": "samples_len500:74",
+  "z0": 6.082104898799428,
+  "flagged": true,
+  "source": "results/raw/samples_len500.json"
+ },
+ {
+  "sample_id": "samples_len500:78",
+  "z0": 8.675943752699183,
+  "flagged": true,
+  "source": "results/raw/samples_len500.json"
+ },
+ {
+  "sample_id": "samples_len500:81",
+  "z0": 7.781516561699267,
+  "flagged": true,
+  "source": "results/raw/samples_len500.json"
+ },
+ {
+  "sample_id": "samples_len500:86",
+  "z0": 6.7976466515993605,
+  "flagged": true,
+  "source": "results/raw/samples_len500.json"
+ }
+]

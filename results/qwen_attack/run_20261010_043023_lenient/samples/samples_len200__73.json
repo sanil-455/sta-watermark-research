@@ -1,0 +1,178 @@
+{
+ "sample_id": "samples_len200:73",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.6153846153846154,
+ "needed_share": 0.4949237277238946,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 741,
+  "segments": 6,
+  "eligible": 4,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 456,
+  "eligible_char_share": 0.6153846153846154
+ },
+ "attack": {
+  "z0": 3.959797974644666,
+  "z_final": 1.979898987322333,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 108,
+  "seconds": 105.4,
+  "seconds_by_phase": {
+   "generate": 97.5,
+   "gates": 7.9,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 150,
+    "z_before": 3.959797974644666,
+    "z_after": 3.9797467053047284,
+    "accepted": false,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 10,
+     "after_content": 10,
+     "after_semantic": 10,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "duplicate": 2,
+      "CJK text": 6,
+      "unknown word": 42,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 10,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.65
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 121,
+    "z_before": 3.959797974644666,
+    "z_after": 2.955109687867226,
+    "accepted": true,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "duplicate": 3,
+      "CJK text": 1,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 64,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.96
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 104,
+    "z_before": 2.955109687867226,
+    "z_after": 1.979898987322333,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "duplicate": 11,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 108,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.88
+   }
+  ],
+  "rewrites": {
+   "1": {
+    "original": "Amala Paul\u2019s biopic is planned for a release on 7 December, as she mentions in a recent Instagram photo, reports suggest.",
+    "rewrite": "Amala Paul's biopic, which sources report is set for a release on 7 December, was recently mentioned by her in an Instagram photo."
+   },
+   "3": {
+    "original": "And one such superhero movie was revealed by Amala Paul recently, named as Thalaivii, according reports.",
+    "rewrite": "A superheroes film named Thalaivii, released recently by Amala Paul, was reported so."
+   }
+  },
+  "final_span": "the box office with its biggest opening collection, the Thalapathy 60 has now succeeded in achieving the responsibility to reach CGC kids this Children Day. Amala Paul's biopic, which sources report is set for a release on 7 December, was recently mentioned by her in an Instagram photo.\nFrom Rajinikanth-starrer Thalapathy 60 to Rajini-starrer Enthiran, there are so many superheroes\u2019 films that we fans wish to watch in the tinsel town. A superheroes film named Thalaivii, released recently by Amala Paul, was reported so. And luckily the makers had chosen the Children Day to announce the release plans.\nAmala Paul has done a biopic of legendary Tamil actress, Nayanki porusenhan and is expected to release on 7 December, as she",
+  "break_point": {
+   "step": 2,
+   "sentences_rewritten": 2,
+   "queries": 108
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 4,
+   "segments": 6,
+   "pct_of_eligible": 50.0,
+   "pct_of_segments": 33.333333333333336
+  },
+  "tokens": {
+   "original": 201,
+   "final": 201,
+   "length_change": 0,
+   "pct_not_preserved": 12.43781094527363,
+   "pct_new": 12.43781094527363
+  },
+  "words": {
+   "original": 121,
+   "final": 120,
+   "length_change": -1,
+   "pct_not_preserved": 20.661157024793386,
+   "pct_new": 19.999999999999996
+  },
+  "characters": {
+   "original": 741,
+   "final": 731,
+   "length_change": -10,
+   "pct_not_preserved": 11.875843454790825,
+   "pct_new": 10.670314637482903
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 128,
+   "green_after": 114,
+   "pairs_before": 200,
+   "pairs_after": 200,
+   "pairs_changed_before": 35,
+   "pairs_changed_after": 35,
+   "green_fraction_of_new_pairs": 0.37142857142857144,
+   "delta_achieved": 0.12857142857142856
+  }
+ }
+}

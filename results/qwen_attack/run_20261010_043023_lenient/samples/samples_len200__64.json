@@ -1,0 +1,417 @@
+{
+ "sample_id": "samples_len200:64",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.69375,
+ "needed_share": 0.5123401509058293,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 800,
+  "segments": 10,
+  "eligible": 6,
+  "skipped": 4,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "too short": 1,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 555,
+  "eligible_char_share": 0.69375
+ },
+ "attack": {
+  "z0": 4.1012193308819755,
+  "z_final": 1.8027756377319948,
+  "status": "broken",
+  "reason": null,
+  "passes": 2,
+  "queries": 175,
+  "seconds": 279.1,
+  "seconds_by_phase": {
+   "generate": 266.3,
+   "gates": 12.7,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 176,
+    "z_before": 4.1012193308819755,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 60,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "quotation changed": 60
+     }
+    },
+    "queries_total": 1,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.55
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 135,
+    "z_before": 4.1012193308819755,
+    "z_after": 3.776093649359211,
+    "accepted": true,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 48,
+     "after_content": 6,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "duplicate": 12,
+      "negation count changed": 42,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 6,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.55
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 75,
+    "z_before": 3.776093649359211,
+    "z_after": 3.0792939583695613,
+    "accepted": true,
+    "survivors": 15,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 36,
+     "after_spelling": 32,
+     "after_content": 19,
+     "after_semantic": 19,
+     "fluency_skipped": false,
+     "after_fluency": 15,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 21,
+      "hit length limit": 1,
+      "unknown word": 4,
+      "negation count changed": 13,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 21,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 22.55
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 65,
+    "z_before": 3.0792939583695613,
+    "z_after": 2.351152649601018,
+    "accepted": true,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "CJK text": 5,
+      "duplicate": 5,
+      "unknown word": 2,
+      "meaning too different": 17,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 48,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.83
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 64,
+    "z_before": 2.351152649601018,
+    "z_after": 2.363179084330129,
+    "accepted": false,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 43,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 37,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 15,
+      "unknown word": 1,
+      "meaning too different": 5,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 83,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.42
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 40,
+    "z_before": 2.351152649601018,
+    "z_after": 2.636140849552657,
+    "accepted": false,
+    "survivors": 3,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 3,
+     "fluency_skipped": false,
+     "after_fluency": 3,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 12,
+      "unknown word": 1,
+      "meaning too different": 43
+     }
+    },
+    "queries_total": 86,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 13.4
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 176,
+    "z_before": 2.351152649601018,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 60,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "quotation changed": 60
+     }
+    },
+    "queries_total": 86,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.91
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 135,
+    "z_before": 2.351152649601018,
+    "z_after": 2.142857142857143,
+    "accepted": true,
+    "survivors": 8,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 48,
+     "after_content": 10,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 8,
+     "rejected": {
+      "duplicate": 10,
+      "CJK text": 2,
+      "negation count changed": 38,
+      "meaning too different": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 94,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.55
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 75,
+    "z_before": 2.142857142857143,
+    "z_after": 2.0455022859899348,
+    "accepted": true,
+    "survivors": 20,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 43,
+     "after_spelling": 41,
+     "after_content": 23,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 20,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 14,
+      "unknown word": 2,
+      "negation count changed": 18,
+      "meaning too different": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 113,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.98
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 65,
+    "z_before": 2.0455022859899348,
+    "z_after": 2.0354009783964297,
+    "accepted": true,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 33,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "several lines": 1,
+      "duplicate": 11,
+      "CJK text": 1,
+      "unknown word": 2,
+      "meaning too different": 12,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 141,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 19.99
+   },
+   {
+    "pass": 2,
+    "segment": 8,
+    "chars": 64,
+    "z_before": 2.0354009783964297,
+    "z_after": 1.8027756377319948,
+    "accepted": true,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 39,
+     "after_spelling": 39,
+     "after_content": 39,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 20,
+      "meaning too different": 3,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 175,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.59
+   }
+  ],
+  "rewrites": {
+   "5": {
+    "original": "And when I first heard about a key hire that wasn\u2019t a gender diverse one, I asked the person my immediate boss what that was all about.",
+    "rewrite": "When I first learned of a key hire who was not gender diverse, I inquired of the person who was my supervisor about it."
+   },
+   "3": {
+    "original": "Who doesn\u2019t feel relaxed after an office jester makes fun of their mistake?",
+    "rewrite": "Is there anyone who doesn't feel relaxed when an office jester makes light of their mistake?"
+   },
+   "2": {
+    "original": "It can immediately disarm an awkward, overly-signaling situation.",
+    "rewrite": "It can swiftly de-escalate a cumbersome, overly signaling situation."
+   },
+   "8": {
+    "original": "Working on Wall Street, I learned about humor from the very top.",
+    "rewrite": "At Wall Street, I discovered that even the highest levels imbue humor into everyday operations."
+   }
+  },
+  "final_span": "tense if I had instead expressed an offense taken.\nA well-placed zinger is a powerful tool. It can swiftly de-escalate a cumbersome, overly signaling situation. Is there anyone who doesn't feel relaxed when an office jester makes light of their mistake? In a meeting with a group that\u2019s approaching my territory, I once used humor to let the group know that I intended to be \u201cadministering policy\u201d rather than in a \u201cselling\u201d role. When I first learned of a key hire who was not gender diverse, I inquired of the person who was my supervisor about it. He said, \u201cYou\u2019ll like him.\u201d Without even a moment to breathe I had responded: \u201cYou know me too well,\u201d an awkward moment avoided.\nAt Wall Street, I discovered that even the highest levels imbue humor into everyday operations. I had the privilege to sit across from the legendary leader",
+  "break_point": {
+   "step": 10,
+   "sentences_rewritten": 4,
+   "queries": 175
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 4,
+   "eligible": 6,
+   "segments": 10,
+   "pct_of_eligible": 66.66666666666667,
+   "pct_of_segments": 40.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 209,
+   "length_change": 8,
+   "pct_not_preserved": 19.90049751243781,
+   "pct_new": 22.966507177033492
+  },
+  "words": {
+   "original": 142,
+   "final": 146,
+   "length_change": 4,
+   "pct_not_preserved": 23.943661971830988,
+   "pct_new": 26.027397260273975
+  },
+  "characters": {
+   "original": 800,
+   "final": 835,
+   "length_change": 35,
+   "pct_not_preserved": 12.5,
+   "pct_new": 16.167664670658688
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 129,
+   "green_after": 117,
+   "pairs_before": 200,
+   "pairs_after": 208,
+   "pairs_changed_before": 57,
+   "pairs_changed_after": 65,
+   "green_fraction_of_new_pairs": 0.4153846153846154,
+   "delta_achieved": 0.08461538461538459
+  }
+ }
+}

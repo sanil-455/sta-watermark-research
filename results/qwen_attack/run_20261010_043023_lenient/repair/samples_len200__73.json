@@ -1,0 +1,44 @@
+{
+ "repl": {
+  "1": "Amala Paul's biopic, which sources report is set for a release on 7 December, was recently mentioned by her in an Instagram photo.",
+  "3": "One superhero movie, Thalaivii, was disclosed recently by Amala Paul, as per reports.",
+  "2": "From Rajinikanth-starrer Thalapathy 60 to Rajini-starrer Enthiran, fans have so many superhero films they wish to see in the tinsel town."
+ },
+ "provenance": {
+  "1": "kept from the reading",
+  "3": "approved by the user",
+  "2": "approved by the user"
+ },
+ "old_bad": {
+  "3": "A superheroes film named Thalaivii, released recently by Amala Paul, was reported so."
+ },
+ "rejected": {},
+ "skipped": [],
+ "decisions": [
+  {
+   "segment": 3,
+   "answer": "y",
+   "proposal": "One superhero movie, Thalaivii, was disclosed recently by Amala Paul, as per reports.",
+   "z_before": 2.955109687867226,
+   "z_after": 2.0455022859899348,
+   "similarity": 0.9223995208740234
+  },
+  {
+   "segment": 2,
+   "answer": "y",
+   "proposal": "From Rajinikanth-starrer Thalapathy 60 to Rajini-starrer Enthiran, fans have so many superhero films they wish to see in the tinsel town.",
+   "z_before": 2.0455022859899348,
+   "z_after": 1.7811762496977412,
+   "similarity": 0.9828209280967712
+  }
+ ],
+ "calls": 3,
+ "status": "broken",
+ "sample_id": "samples_len200:73",
+ "z0": 3.959797974644666,
+ "z_start_of_repair": 2.955109687867226,
+ "z_final": 1.7811762496977412,
+ "final_span": "the box office with its biggest opening collection, the Thalapathy 60 has now succeeded in achieving the responsibility to reach CGC kids this Children Day. Amala Paul's biopic, which sources report is set for a release on 7 December, was recently mentioned by her in an Instagram photo.\nFrom Rajinikanth-starrer Thalapathy 60 to Rajini-starrer Enthiran, fans have so many superhero films they wish to see in the tinsel town. One superhero movie, Thalaivii, was disclosed recently by Amala Paul, as per reports. And luckily the makers had chosen the Children Day to announce the release plans.\nAmala Paul has done a biopic of legendary Tamil actress, Nayanki porusenhan and is expected to release on 7 December, as she",
+ "queries": 53,
+ "seconds": 240.3
+}

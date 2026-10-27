@@ -1,0 +1,540 @@
+{
+ "sample_id": "samples_len500:52",
+ "source": "results/raw/samples_len500.json",
+ "layout": "prompt+text",
+ "tokens": 500,
+ "eligible_share": 0.6881061766207248,
+ "needed_share": 0.7369331791176718,
+ "delta_needed": 0.012062950030829552,
+ "segmentation": {
+  "chars": 1959,
+  "segments": 24,
+  "eligible": 19,
+  "skipped": 5,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "too short": 2,
+   "no final punctuation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1348,
+  "eligible_char_share": 0.6881061766207248
+ },
+ "attack": {
+  "z0": 7.602631123499284,
+  "z_final": 1.6994116628998401,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 360,
+  "seconds": 300.4,
+  "seconds_by_phase": {
+   "generate": 274.3,
+   "gates": 25.8,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 18,
+    "chars": 160,
+    "z_before": 7.602631123499284,
+    "z_after": 6.9248892999359395,
+    "accepted": true,
+    "survivors": 58,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 58,
+     "rejected": {
+      "CJK text": 1,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 59,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.48
+   },
+   {
+    "pass": 1,
+    "segment": 17,
+    "chars": 123,
+    "z_before": 6.9248892999359395,
+    "z_after": 6.286879265154709,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 8,
+      "unknown word": 1,
+      "glued punctuation": 1,
+      "meaning too different": 4,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 101,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.94
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 119,
+    "z_before": 6.286879265154709,
+    "z_after": 5.523398999523437,
+    "accepted": true,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 24,
+     "after_spelling": 20,
+     "after_content": 20,
+     "after_semantic": 20,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "CJK text": 24,
+      "duplicate": 11,
+      "hit length limit": 1,
+      "unknown word": 4,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 120,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 33.1
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 89,
+    "z_before": 5.523398999523437,
+    "z_after": 5.305947748605747,
+    "accepted": true,
+    "survivors": 14,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 15,
+     "after_spelling": 15,
+     "after_content": 15,
+     "after_semantic": 15,
+     "fluency_skipped": false,
+     "after_fluency": 14,
+     "rejected": {
+      "duplicate": 44,
+      "CJK text": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 134,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.64
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 83,
+    "z_before": 5.305947748605747,
+    "z_after": 4.929217864430429,
+    "accepted": true,
+    "survivors": 24,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 38,
+     "after_spelling": 37,
+     "after_content": 35,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 24,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 21,
+      "unknown word": 1,
+      "negation count changed": 2,
+      "meaning too different": 3,
+      "perplexity too high": 8
+     }
+    },
+    "queries_total": 158,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.77
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 76,
+    "z_before": 4.929217864430429,
+    "z_after": 4.414191824470327,
+    "accepted": true,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 38,
+     "after_spelling": 37,
+     "after_content": 32,
+     "after_semantic": 23,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "duplicate": 21,
+      "CJK text": 1,
+      "unknown word": 1,
+      "negation count changed": 5,
+      "meaning too different": 9,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 176,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.13
+   },
+   {
+    "pass": 1,
+    "segment": 14,
+    "chars": 74,
+    "z_before": 4.414191824470327,
+    "z_after": 4.244286990283317,
+    "accepted": true,
+    "survivors": 37,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 37,
+     "rejected": {
+      "duplicate": 11,
+      "CJK text": 1,
+      "unknown word": 3,
+      "perplexity too high": 8
+     }
+    },
+    "queries_total": 213,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.11
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 66,
+    "z_before": 4.244286990283317,
+    "z_after": 3.7975199386745473,
+    "accepted": true,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 38,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "several lines": 1,
+      "duplicate": 4,
+      "CJK text": 1,
+      "meaning too different": 16,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 248,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.58
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 63,
+    "z_before": 3.7975199386745473,
+    "z_after": 3.3440847155078237,
+    "accepted": true,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 41,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 39,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "duplicate": 19,
+      "meaning too different": 2
+     }
+    },
+    "queries_total": 287,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.02
+   },
+   {
+    "pass": 1,
+    "segment": 21,
+    "chars": 63,
+    "z_before": 3.3440847155078237,
+    "z_after": 3.213517267277653,
+    "accepted": true,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 29,
+     "after_spelling": 28,
+     "after_content": 28,
+     "after_semantic": 2,
+     "fluency_skipped": true,
+     "after_fluency": 2,
+     "rejected": {
+      "duplicate": 31,
+      "unknown word": 1,
+      "meaning too different": 26
+     }
+    },
+    "queries_total": 289,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.91
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 61,
+    "z_before": 3.213517267277653,
+    "z_after": 2.9516097302997224,
+    "accepted": true,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 6,
+     "after_spelling": 6,
+     "after_content": 6,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "duplicate": 54,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 294,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.49
+   },
+   {
+    "pass": 1,
+    "segment": 13,
+    "chars": 60,
+    "z_before": 2.9516097302997224,
+    "z_after": 2.3678653735264823,
+    "accepted": true,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 38,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "hit length limit": 1,
+      "CJK text": 5,
+      "duplicate": 7,
+      "meaning too different": 9,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 330,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 16.86
+   },
+   {
+    "pass": 1,
+    "segment": 19,
+    "chars": 54,
+    "z_before": 2.3678653735264823,
+    "z_after": 2.1040089608684727,
+    "accepted": true,
+    "survivors": 10,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 26,
+     "after_content": 26,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 10,
+     "rejected": {
+      "duplicate": 33,
+      "unknown word": 1,
+      "meaning too different": 15,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 340,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 11.61
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 53,
+    "z_before": 2.1040089608684727,
+    "z_after": 1.6994116628998401,
+    "accepted": true,
+    "survivors": 20,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 27,
+     "after_content": 27,
+     "after_semantic": 23,
+     "fluency_skipped": false,
+     "after_fluency": 20,
+     "rejected": {
+      "duplicate": 32,
+      "CJK text": 1,
+      "meaning too different": 4,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 360,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.69
+   }
+  ],
+  "rewrites": {
+   "18": {
+    "original": "It differs from how other countries govern themselves, but America\u2019s blending of capitalism, democracy, and individual freedoms is an unmatched winning formula.",
+    "rewrite": "While it diverges from other nations' governance models, America\u2019s mix of capitalism, democracy, and individual freedoms represents an unparalleled successful approach."
+   },
+   "17": {
+    "original": "We\u2019re the world\u2019s oldest democracy, largest economy, most stable society, most powerful military, and technological leader.",
+    "rewrite": "We possess the world's longest-standing democracy, biggest economy, most stable society, strongest military, and premier technological leadership."
+   },
+   "12": {
+    "original": "It is getting to a point in its development where it\u2019s losing its agricultural edge, yet it trails us in manufacturing.",
+    "rewrite": "As it evolves, it is reaching a stage where it loses its agricultural advantage, while still lagging behind us in manufacturing."
+   },
+   "8": {
+    "original": "These pacts\u2019 success will especially help manufacturers, farmers, and service industries.",
+    "rewrite": "These agreements' success will particularly benefit manufacturers, farmers, and service sectors."
+   },
+   "7": {
+    "original": "Any American, irrespective of which location or region he or she is from, benefits.",
+    "rewrite": "Anyone in America, regardless of location or region, derives benefit."
+   },
+   "10": {
+    "original": "As key players in Congress fail to agree, the rest of the world moves ahead.",
+    "rewrite": "Due to the lack of agreement among key players in Congress, the rest of the world proceeds ahead."
+   },
+   "14": {
+    "original": "Globalization is here to stay and is evolving right before our three eyes.",
+    "rewrite": "Globalization remains persistent and is transforming right before our very eyes."
+   },
+   "6": {
+    "original": "Here\u2019s what matters most: leadership on trade makes us better off.",
+    "rewrite": "What's crucial is that effective trade leadership benefits us the most."
+   },
+   "11": {
+    "original": "For example, India is the biggest target outside the TPP talks.",
+    "rewrite": "For instance, India serves as the largest target market outside the TPP negotiations."
+   },
+   "21": {
+    "original": "It would be a costly mistake to miss this critical opportunity.",
+    "rewrite": "Missing this critical opportunity would be a costly mistake."
+   },
+   "3": {
+    "original": "Congress now stands at the midway point of the TPA extension.",
+    "rewrite": "The midpoint has been reached for the TPA extension in Congress."
+   },
+   "13": {
+    "original": "Old alignments are crumbling as new trading partners emerge.",
+    "rewrite": "Established alignments are deteriorating as new trade partners arise."
+   },
+   "19": {
+    "original": "Our competitors are trying to figure out how we do it.",
+    "rewrite": "Competitors are striving to understand our methods."
+   },
+   "9": {
+    "original": "But all Americans do well in a two-way, free economy.",
+    "rewrite": "Yet, all Americans thrive in a free, two-way economy."
+   }
+  },
+  "final_span": "firms on a more level playing field.\nThe stakes are high. It\u2019s a make-or-break moment.\nThe midpoint has been reached for the TPA extension in Congress. Let me be clear: If we fail to lead, others will. It is America\u2019s last chance to do so.\nWhat's crucial is that effective trade leadership benefits us the most. Anyone in America, regardless of location or region, derives benefit. These agreements' success will particularly benefit manufacturers, farmers, and service sectors. Yet, all Americans thrive in a free, two-way economy.\nDue to the lack of agreement among key players in Congress, the rest of the world proceeds ahead. For instance, India serves as the largest target market outside the TPP negotiations. As it evolves, it is reaching a stage where it loses its agricultural advantage, while still lagging behind us in manufacturing. Established alignments are deteriorating as new trade partners arise.\nGlobalization remains persistent and is transforming right before our very eyes. American ought to stand at the vanguard. We have the obvious advantages. We possess the world's longest-standing democracy, biggest economy, most stable society, strongest military, and premier technological leadership. While it diverges from other nations' governance models, America\u2019s mix of capitalism, democracy, and individual freedoms represents an unparalleled successful approach. Competitors are striving to understand our methods. It just makes no sense to sit on the sidelines. Missing this critical opportunity would be a costly mistake.\nNew Republic Party of America\nTradePreesidentJay GonzalezLead CongressTrade Promotion AuthorityTPAMassachusetts Member of CongressCheer ObamaTPANorth American ToyzCongressmanDemocratSenateElizabeth WarrenDavid DennienMark McKinnonJeff SessionsJared KushnerAmericaEmploymentDonald TrumpTrade DealsFree TradeUPJackie KucinichRand PaulElection 2016Electoral CollegeBill,Liz,David G. BowermasterFallTrumpOnTVDonald Trump Plays JudgeRobotsTrue Film CharacterKeller WilliamsJazzLegend BandBeyond BandLung Cancer",
+  "break_point": {
+   "step": 13,
+   "sentences_rewritten": 14,
+   "queries": 360
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 14,
+   "eligible": 19,
+   "segments": 24,
+   "pct_of_eligible": 73.6842105263158,
+   "pct_of_segments": 58.333333333333336
+  },
+  "tokens": {
+   "original": 501,
+   "final": 501,
+   "length_change": 0,
+   "pct_not_preserved": 24.75049900199601,
+   "pct_new": 24.75049900199601
+  },
+  "words": {
+   "original": 281,
+   "final": 273,
+   "length_change": -8,
+   "pct_not_preserved": 37.72241992882562,
+   "pct_new": 35.89743589743589
+  },
+  "characters": {
+   "original": 1959,
+   "final": 2052,
+   "length_change": 93,
+   "pct_not_preserved": 17.968351199591627,
+   "pct_new": 21.686159844054576
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 335,
+   "green_after": 269,
+   "pairs_before": 500,
+   "pairs_after": 500,
+   "pairs_changed_before": 183,
+   "pairs_changed_after": 183,
+   "green_fraction_of_new_pairs": 0.3442622950819672,
+   "delta_achieved": 0.1557377049180328
+  }
+ }
+}

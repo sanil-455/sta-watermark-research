@@ -1,0 +1,744 @@
+{
+ "sample_id": "samples_len500:51",
+ "source": "results/raw/samples_len500.json",
+ "layout": "prompt+text",
+ "tokens": 500,
+ "eligible_share": 0.49925852694018785,
+ "needed_share": 0.68056171750003,
+ "delta_needed": 0.05084028676273116,
+ "segmentation": {
+  "chars": 2023,
+  "segments": 12,
+  "eligible": 6,
+  "skipped": 6,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 4,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1010,
+  "eligible_char_share": 0.49925852694018785
+ },
+ "attack": {
+  "z0": 6.260990336999411,
+  "z_final": 1.9716871457721716,
+  "status": "broken",
+  "reason": null,
+  "passes": 4,
+  "queries": 857,
+  "seconds": 1034.2,
+  "seconds_by_phase": {
+   "generate": 962.7,
+   "gates": 71.1,
+   "detector": 0.5
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 248,
+    "z_before": 6.260990336999411,
+    "z_after": 5.4167039205337275,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "CJK text": 5,
+      "several lines": 6,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 49,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 73.67
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 233,
+    "z_before": 5.4167039205337275,
+    "z_after": 4.25278406984053,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 58,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 1,
+      "negation count changed": 6
+     }
+    },
+    "queries_total": 101,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 56.13
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 199,
+    "z_before": 4.25278406984053,
+    "z_after": 3.771711342562273,
+    "accepted": true,
+    "survivors": 30,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 35,
+     "after_spelling": 32,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 30,
+     "rejected": {
+      "CJK text": 22,
+      "several lines": 3,
+      "unknown word": 3,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 131,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.27
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 159,
+    "z_before": 3.771711342562273,
+    "z_after": 3.149448894660933,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 4
+     }
+    },
+    "queries_total": 186,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.45
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 114,
+    "z_before": 3.149448894660933,
+    "z_after": 2.604276879388236,
+    "accepted": true,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 41,
+     "after_content": 39,
+     "after_semantic": 39,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "duplicate": 15,
+      "CJK text": 1,
+      "unknown word": 3,
+      "quotation changed": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 224,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 31.36
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 57,
+    "z_before": 2.604276879388236,
+    "z_after": 2.467087172089411,
+    "accepted": true,
+    "survivors": 3,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 28,
+     "after_spelling": 25,
+     "after_content": 3,
+     "after_semantic": 3,
+     "fluency_skipped": false,
+     "after_fluency": 3,
+     "rejected": {
+      "duplicate": 31,
+      "several lines": 1,
+      "unknown word": 3,
+      "quotation changed": 22
+     }
+    },
+    "queries_total": 227,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.47
+   },
+   {
+    "pass": 2,
+    "segment": 10,
+    "chars": 248,
+    "z_before": 2.467087172089411,
+    "z_after": 2.429574861595577,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 5,
+      "several lines": 4,
+      "hit length limit": 1,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 276,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 69.12
+   },
+   {
+    "pass": 2,
+    "segment": 8,
+    "chars": 233,
+    "z_before": 2.429574861595577,
+    "z_after": 2.593838853899756,
+    "accepted": false,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 53,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "hit length limit": 1,
+      "duplicate": 1,
+      "unknown word": 5,
+      "negation count changed": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 325,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 61.05
+   },
+   {
+    "pass": 2,
+    "segment": 9,
+    "chars": 199,
+    "z_before": 2.429574861595577,
+    "z_after": 2.1167735408219115,
+    "accepted": true,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 39,
+     "after_spelling": 33,
+     "after_content": 33,
+     "after_semantic": 33,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "CJK text": 19,
+      "duplicate": 2,
+      "unknown word": 6,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 357,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.7
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 159,
+    "z_before": 2.1167735408219115,
+    "z_after": 2.2450662753346866,
+    "accepted": false,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "duplicate": 12
+     }
+    },
+    "queries_total": 405,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.13
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 114,
+    "z_before": 2.1167735408219115,
+    "z_after": 2.159622099196068,
+    "accepted": false,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 46,
+     "after_spelling": 41,
+     "after_content": 38,
+     "after_semantic": 38,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "duplicate": 14,
+      "unknown word": 5,
+      "quotation changed": 3
+     }
+    },
+    "queries_total": 443,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.1
+   },
+   {
+    "pass": 2,
+    "segment": 6,
+    "chars": 57,
+    "z_before": 2.1167735408219115,
+    "z_after": 2.1640071232018374,
+    "accepted": false,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 22,
+     "after_spelling": 20,
+     "after_content": 1,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "duplicate": 38,
+      "unknown word": 2,
+      "quotation changed": 19
+     }
+    },
+    "queries_total": 444,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 20.25
+   },
+   {
+    "pass": 3,
+    "segment": 10,
+    "chars": 248,
+    "z_before": 2.1167735408219115,
+    "z_after": 2.0654609733079115,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "CJK text": 2,
+      "several lines": 1,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 499,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 56.57
+   },
+   {
+    "pass": 3,
+    "segment": 8,
+    "chars": 233,
+    "z_before": 2.0654609733079115,
+    "z_after": 2.4246715773614613,
+    "accepted": false,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 55,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 4,
+      "negation count changed": 6,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 545,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 55.4
+   },
+   {
+    "pass": 3,
+    "segment": 9,
+    "chars": 199,
+    "z_before": 2.0654609733079115,
+    "z_after": 2.3395906074624073,
+    "accepted": false,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 43,
+     "after_spelling": 38,
+     "after_content": 38,
+     "after_semantic": 38,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "CJK text": 17,
+      "unknown word": 5,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 581,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.47
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 159,
+    "z_before": 2.0654609733079115,
+    "z_after": 2.108238128876406,
+    "accepted": false,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "duplicate": 8
+     }
+    },
+    "queries_total": 633,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.46
+   },
+   {
+    "pass": 3,
+    "segment": 5,
+    "chars": 114,
+    "z_before": 2.0654609733079115,
+    "z_after": 2.0654609733079115,
+    "accepted": false,
+    "survivors": 37,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 46,
+     "after_spelling": 43,
+     "after_content": 39,
+     "after_semantic": 39,
+     "fluency_skipped": false,
+     "after_fluency": 37,
+     "rejected": {
+      "duplicate": 14,
+      "unknown word": 3,
+      "quotation changed": 4,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 669,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.65
+   },
+   {
+    "pass": 3,
+    "segment": 6,
+    "chars": 57,
+    "z_before": 2.0654609733079115,
+    "z_after": 2.0654609733079115,
+    "accepted": false,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 19,
+     "after_spelling": 15,
+     "after_content": 1,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "duplicate": 41,
+      "unknown word": 4,
+      "quotation changed": 14
+     }
+    },
+    "queries_total": 669,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 20.19
+   },
+   {
+    "pass": 4,
+    "segment": 10,
+    "chars": 248,
+    "z_before": 2.0654609733079115,
+    "z_after": 2.159622099196068,
+    "accepted": false,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 5,
+      "several lines": 2,
+      "unknown word": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 719,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 60.57
+   },
+   {
+    "pass": 4,
+    "segment": 8,
+    "chars": 233,
+    "z_before": 2.0654609733079115,
+    "z_after": 2.249606353329238,
+    "accepted": false,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 48,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 2,
+      "unknown word": 7,
+      "negation count changed": 4,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 760,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.42
+   },
+   {
+    "pass": 4,
+    "segment": 9,
+    "chars": 199,
+    "z_before": 2.0654609733079115,
+    "z_after": 2.159622099196068,
+    "accepted": false,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 35,
+     "after_spelling": 33,
+     "after_content": 33,
+     "after_semantic": 33,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "CJK text": 23,
+      "duplicate": 2,
+      "unknown word": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 790,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.35
+   },
+   {
+    "pass": 4,
+    "segment": 2,
+    "chars": 159,
+    "z_before": 2.0654609733079115,
+    "z_after": 2.112492902384825,
+    "accepted": false,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "duplicate": 6,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 836,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.19
+   },
+   {
+    "pass": 4,
+    "segment": 5,
+    "chars": 114,
+    "z_before": 2.0654609733079115,
+    "z_after": 1.9716871457721716,
+    "accepted": true,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 39,
+     "after_spelling": 37,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "duplicate": 21,
+      "unknown word": 2,
+      "quotation changed": 1
+     }
+    },
+    "queries_total": 857,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.71
+   }
+  ],
+  "rewrites": {
+   "10": {
+    "original": "That person, however, could be sued personally, as well, and McDougal and Daniels, both of whom have spoken publicly about having affairs with Trump, appeared to be concerned that Trump might try to hamstring another accuser with a defamation case.",
+    "rewrite": "That individual, nonetheless, risked personal liability, and McDougal and Daniels, who have both openly discussed their infidelities with Trump, seemed worried that he might attempt to invalidate another complainant through a defamation suit."
+   },
+   "8": {
+    "original": "Barrish is the name Trump lawyer Charles Harder used for himself in a 2015 settlement Daniels signed in which the porn star agreed not to disclose during the 2016 political campaign the affairs she claimed she had with the president.",
+    "rewrite": "In 2015, Charles Harder, who worked for Trump, used the surname Barrish in a settlement agreement that Daniels signed, in which she promised not to reveal her alleged affairs with the president during the 2016 campaign."
+   },
+   "9": {
+    "original": "The settlement accorded Avenatti the right to reopen the agreement if he were to establish his contention that somebody else, Trump or his representatives, had broken its confidentiality requirement.",
+    "rewrite": "Under the settlement, Avenatti was granted the permission to reopening the deal should he prove that either Trump or his representatives had violated the confidentiality clause."
+   },
+   "2": {
+    "original": "Otero said he didn't believe there was anything paidfor by Trump meant to intimidate Daniels, and he scolded both sides for filing the suit in the first place.",
+    "rewrite": "Otero stated that he did not think anything funded by Trump was intended to intimidate Daniels, and he reprimanded both sides for suing in the first place."
+   },
+   "5": {
+    "original": "Daniels' attorney insisted Tuesday what Otero described as \"impertinent rhetoric\" by the president was harassment.",
+    "rewrite": "Daniels' attorney asserted on Tuesday that what Otero termed \"impertinent rhetoric\" from the president amounted to harassment."
+   },
+   "6": {
+    "original": "\"Two words: Karen McDougal,\" Avenatti said Tuesday night.",
+    "rewrite": "\"Two words: Karen McDougal,\" Avenatti stated on Tuesday night."
+   }
+  },
+  "final_span": "work honestly during discovery to determine whether to depose the defendant in SDDS caused discovery to become more costly,\" Otero wrote, referring to Daniels' attorney, Michael Avenatti, and giving a distinctly cold shoulder to Daniels, as well, in his reasoning for awarding the $1,000.\nIn any case, he wrote, because Avenatti has become a public figure since the suit was filed, \"an award of attorneys' fees would not chill the right of other representatives of the public to speak.\"\nOtero stated that he did not think anything funded by Trump was intended to intimidate Daniels, and he reprimanded both sides for suing in the first place.\n\"At the end of the day,\" he wrote, \"No one -individual or entity- seems to have learned a valuable lesson in civility, or the appropriate response to impertinent rhetoric. Further litigation and the fee sparing entreaty only perpetuate the inanity.\"\nDaniels' attorney asserted on Tuesday that what Otero termed \"impertinent rhetoric\" from the president amounted to harassment.\n\"Two words: Karen McDougal,\" Avenatti stated on Tuesday night.\n\"Tomorrow, there will be a default judgment filed in a court of law against Mr. Trump over the Seth Barrish SLAPP suit that he inappropriately brought against Stephanie Clifford & is clearly attempting to silence her once again,\" Avenatti tweeted.\nIn 2015, Charles Harder, who worked for Trump, used the surname Barrish in a settlement agreement that Daniels signed, in which she promised not to reveal her alleged affairs with the president during the 2016 campaign.\nUnder the settlement, Avenatti was granted the permission to reopening the deal should he prove that either Trump or his representatives had violated the confidentiality clause. That individual, nonetheless, risked personal liability, and McDougal and Daniels, who have both openly discussed their infidelities with Trump, seemed worried that he might attempt to invalidate another complainant through a defamation suit.\nDaniels claims she had",
+  "break_point": {
+   "step": 22,
+   "sentences_rewritten": 6,
+   "queries": 857
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 6,
+   "eligible": 6,
+   "segments": 12,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 50.0
+  },
+  "tokens": {
+   "original": 501,
+   "final": 499,
+   "length_change": -2,
+   "pct_not_preserved": 20.958083832335326,
+   "pct_new": 20.641282565130258
+  },
+  "words": {
+   "original": 323,
+   "final": 311,
+   "length_change": -12,
+   "pct_not_preserved": 28.482972136222905,
+   "pct_new": 25.723472668810288
+  },
+  "characters": {
+   "original": 2023,
+   "final": 1994,
+   "length_change": -29,
+   "pct_not_preserved": 17.844784972812654,
+   "pct_new": 16.64994984954865
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 320,
+   "green_after": 271,
+   "pairs_before": 500,
+   "pairs_after": 498,
+   "pairs_changed_before": 148,
+   "pairs_changed_after": 146,
+   "green_fraction_of_new_pairs": 0.3698630136986301,
+   "delta_achieved": 0.13013698630136988
+  }
+ }
+}

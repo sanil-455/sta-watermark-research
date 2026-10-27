@@ -1,0 +1,62 @@
+torch 2.7.1+cu128 | transformers 5.17.0 | bitsandbytes 0.50.2
+GPU in use before the check: 0.01 GiB of 16.00 GiB (should be near 0)
+margin required at the peak: 1.0 GiB
+
+running generate: sample generation (Llama fp16, 1000 prompt + 500 new tokens) ...
+  -> PASS   (log: memcheck_generate.log)
+running token_attack: token-level attack scoring (Llama fp16 + MiniLM, 1500 tokens) ...
+  -> PASS   (log: memcheck_token_attack.log)
+running paraphrase: paraphrase attack (Qwen 4-bit + MiniLM, 60 rewrites) ...
+  -> PASS   (log: memcheck_paraphrase.log)
+
+stage         verdict                        other     peak   needed  headroom host RAM
+generate      PASS                           0.14G   13.79G   13.93G     1.62G    13.4G
+token_attack  PASS                           0.14G   14.26G   14.40G     1.15G    13.4G
+paraphrase    PASS                           0.14G    5.66G    5.81G     9.75G    15.2G
+
+GPU total: 15.55 GiB. 'other' is memory in use before the stage (CUDA context and any other process).
+
+OVERALL: every essential process fits with at least 1.0 GiB to spare.
+
+[
+ {
+  "stage": "generate",
+  "total_gib": 15.55499267578125,
+  "other_used_gib": 0.143310546875,
+  "peak_reserved_gib": 13.787109375,
+  "peak_allocated_gib": 13.434920310974121,
+  "host_peak_gib": 13.434261322021484,
+  "tokens_generated": 500,
+  "peak_reserved_generation_only_gib": 13.6953125,
+  "needed_gib": 13.930419921875,
+  "headroom_gib": 1.62457275390625,
+  "nvidia_smi_peak_gib": 13.9404296875
+ },
+ {
+  "stage": "token_attack",
+  "total_gib": 15.55499267578125,
+  "other_used_gib": 0.143310546875,
+  "peak_reserved_gib": 14.259765625,
+  "peak_allocated_gib": 13.839963436126709,
+  "host_peak_gib": 13.43490219116211,
+  "document_tokens": 1500,
+  "ppl_ratio": 1.0,
+  "fit_score": 0.0,
+  "needed_gib": 14.403076171875,
+  "headroom_gib": 1.15191650390625,
+  "nvidia_smi_peak_gib": 14.4130859375
+ },
+ {
+  "stage": "paraphrase",
+  "total_gib": 15.55499267578125,
+  "other_used_gib": 0.143310546875,
+  "peak_reserved_gib": 5.6640625,
+  "peak_allocated_gib": 5.54081392288208,
+  "host_peak_gib": 15.233665466308594,
+  "sentence_chars": 851,
+  "distinct_rewrites": 60,
+  "needed_gib": 5.807373046875,
+  "headroom_gib": 9.74761962890625,
+  "nvidia_smi_peak_gib": 5.8193359375
+ }
+]

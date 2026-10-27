@@ -1,0 +1,178 @@
+{
+ "sample_id": "samples_len200:34",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.7461263408820024,
+ "needed_share": 0.3851245380986543,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 839,
+  "segments": 6,
+  "eligible": 5,
+  "skipped": 1,
+  "skip_reasons": {
+   "quotation": 1
+  },
+  "eligible_chars": 626,
+  "eligible_char_share": 0.7461263408820024
+ },
+ "attack": {
+  "z0": 3.2526911934581184,
+  "z_final": 1.622294916474776,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 114,
+  "seconds": 110.8,
+  "seconds_by_phase": {
+   "generate": 102.1,
+   "gates": 8.7,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 241,
+    "z_before": 3.2526911934581184,
+    "z_after": 2.596890903471307,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "duplicate": 13
+     }
+    },
+    "queries_total": 48,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 51.81
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 147,
+    "z_before": 2.596890903471307,
+    "z_after": 2.1865714091616546,
+    "accepted": true,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 39,
+     "after_spelling": 38,
+     "after_content": 38,
+     "after_semantic": 38,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "duplicate": 20,
+      "CJK text": 1,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 86,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.53
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 89,
+    "z_before": 2.1865714091616546,
+    "z_after": 1.622294916474776,
+    "accepted": true,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "duplicate": 30,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 114,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.74
+   }
+  ],
+  "rewrites": {
+   "5": {
+    "original": "In the fall of 2017 during the Eagle County Peak Parenting class, Kate Eastwood, executive director of the Vail Health Mental Health Institute, talked about what constitutes a healthy community and the wide net of the Mental Health Alliance.",
+    "rewrite": "During the fall of 2017 at the Eagle County Peak Parenting class, Kate Eastwood, the executive director of the Vail Health Mental Health Institute, discussed what defines a healthy community and the expansive support provided by the Mental Health Alliance."
+   },
+   "3": {
+    "original": "And, Martin added, the regional psychiatric clinic for children \u2014 Child and Family services \u2014 has received its state-license and is up and running.",
+    "rewrite": "Martin noted that the regional psychiatric clinic for children, known as Child and Family services, has obtained its state license and is now operational."
+   },
+   "4": {
+    "original": "The Next Step in Mental Health: Supports, Case Management, Community Services, Treatment.",
+    "rewrite": "Advancing Mental Health Support: Services, Case Management, Community Programs, Treatments."
+   }
+  },
+  "final_span": "Valley and Roaring Fork schools, to rebalance the mental health marijuana tax funds.\nCoincidentally, kids this fall will have more options to get aid.\nIn addition to what Martin described as a \u201cleveled up mental health system\u201d run by Eagle County\u2019s Total Health Alliance, Colorado Crisis Service has announced a brand-new Trevor Project Crisis Line for teens. Martin noted that the regional psychiatric clinic for children, known as Child and Family services, has obtained its state license and is now operational.\nAdvancing Mental Health Support: Services, Case Management, Community Programs, Treatments.\nDuring the fall of 2017 at the Eagle County Peak Parenting class, Kate Eastwood, the executive director of the Vail Health Mental Health Institute, discussed what defines a healthy community and the expansive support provided by the Mental Health Alliance.",
+  "break_point": {
+   "step": 2,
+   "sentences_rewritten": 3,
+   "queries": 114
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 5,
+   "segments": 6,
+   "pct_of_eligible": 60.0,
+   "pct_of_segments": 50.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 202,
+   "length_change": 1,
+   "pct_not_preserved": 14.925373134328357,
+   "pct_new": 15.34653465346535
+  },
+  "words": {
+   "original": 132,
+   "final": 131,
+   "length_change": -1,
+   "pct_not_preserved": 20.45454545454546,
+   "pct_new": 19.84732824427481
+  },
+  "characters": {
+   "original": 839,
+   "final": 863,
+   "length_change": 24,
+   "pct_not_preserved": 9.892729439809301,
+   "pct_new": 12.398609501738122
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 123,
+   "green_after": 112,
+   "pairs_before": 200,
+   "pairs_after": 201,
+   "pairs_changed_before": 48,
+   "pairs_changed_after": 49,
+   "green_fraction_of_new_pairs": 0.3673469387755102,
+   "delta_achieved": 0.13265306122448978
+  }
+ }
+}

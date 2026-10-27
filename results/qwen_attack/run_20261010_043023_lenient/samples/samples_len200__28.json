@@ -1,0 +1,780 @@
+{
+ "sample_id": "samples_len200:28",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.45683930942895085,
+ "needed_share": 0.6278385362176065,
+ "delta_needed": 0.0711187772577121,
+ "segmentation": {
+  "chars": 753,
+  "segments": 7,
+  "eligible": 5,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "does not start like a sentence": 1
+  },
+  "eligible_chars": 344,
+  "eligible_char_share": 0.45683930942895085
+ },
+ "attack": {
+  "z0": 5.374011537017761,
+  "z_final": 2.2314288273209533,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 5,
+  "queries": 457,
+  "seconds": 503.0,
+  "seconds_by_phase": {
+   "generate": 469.8,
+   "gates": 33.1,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 97,
+    "z_before": 5.374011537017761,
+    "z_after": 4.949747468305833,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "duplicate": 11,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 46,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.87
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 76,
+    "z_before": 4.949747468305833,
+    "z_after": 4.264014327112209,
+    "accepted": true,
+    "survivors": 22,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 43,
+     "after_spelling": 43,
+     "after_content": 25,
+     "after_semantic": 25,
+     "fluency_skipped": false,
+     "after_fluency": 22,
+     "rejected": {
+      "duplicate": 17,
+      "negation count changed": 18,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 68,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.51
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 73,
+    "z_before": 4.264014327112209,
+    "z_after": 3.857142857142857,
+    "accepted": true,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 10,
+     "after_spelling": 9,
+     "after_content": 9,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "duplicate": 50,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 77,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.25
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 63,
+    "z_before": 3.857142857142857,
+    "z_after": 3.3486113494317533,
+    "accepted": true,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 54,
+     "after_content": 17,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "duplicate": 5,
+      "CJK text": 1,
+      "negation count changed": 37,
+      "meaning too different": 12
+     }
+    },
+    "queries_total": 82,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.72
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 35,
+    "z_before": 3.3486113494317533,
+    "z_after": 2.906412940534177,
+    "accepted": true,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 25,
+     "after_spelling": 22,
+     "after_content": 6,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "duplicate": 35,
+      "unknown word": 3,
+      "negation count changed": 16,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 86,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 13.96
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 97,
+    "z_before": 2.906412940534177,
+    "z_after": 2.906412940534177,
+    "accepted": false,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "duplicate": 11,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 131,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.25
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 76,
+    "z_before": 2.906412940534177,
+    "z_after": 2.82842712474619,
+    "accepted": true,
+    "survivors": 24,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 42,
+     "after_spelling": 42,
+     "after_content": 24,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 24,
+     "rejected": {
+      "duplicate": 18,
+      "negation count changed": 18
+     }
+    },
+    "queries_total": 155,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.57
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 73,
+    "z_before": 2.82842712474619,
+    "z_after": 2.82842712474619,
+    "accepted": false,
+    "survivors": 13,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 13,
+     "after_spelling": 13,
+     "after_content": 13,
+     "after_semantic": 13,
+     "fluency_skipped": false,
+     "after_fluency": 13,
+     "rejected": {
+      "duplicate": 47
+     }
+    },
+    "queries_total": 167,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.38
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 63,
+    "z_before": 2.82842712474619,
+    "z_after": 2.984810028978546,
+    "accepted": false,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 52,
+     "after_content": 25,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 7,
+      "negation count changed": 27,
+      "meaning too different": 14
+     }
+    },
+    "queries_total": 178,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 20.48
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 35,
+    "z_before": 2.82842712474619,
+    "z_after": 2.778634949528476,
+    "accepted": true,
+    "survivors": 8,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 24,
+     "after_spelling": 23,
+     "after_content": 8,
+     "after_semantic": 8,
+     "fluency_skipped": false,
+     "after_fluency": 8,
+     "rejected": {
+      "duplicate": 34,
+      "CJK text": 2,
+      "unknown word": 1,
+      "negation count changed": 15
+     }
+    },
+    "queries_total": 186,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 13.64
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 97,
+    "z_before": 2.778634949528476,
+    "z_after": 2.636140849552657,
+    "accepted": true,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "duplicate": 8,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 232,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.81
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 76,
+    "z_before": 2.636140849552657,
+    "z_after": 2.7005424071710658,
+    "accepted": false,
+    "survivors": 22,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 46,
+     "after_content": 26,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 22,
+     "rejected": {
+      "duplicate": 12,
+      "several lines": 1,
+      "unknown word": 1,
+      "negation count changed": 20,
+      "meaning too different": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 254,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.02
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 73,
+    "z_before": 2.636140849552657,
+    "z_after": 2.6496250339459015,
+    "accepted": false,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 12,
+     "after_spelling": 9,
+     "after_content": 9,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "duplicate": 48,
+      "unknown word": 3
+     }
+    },
+    "queries_total": 263,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.45
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 63,
+    "z_before": 2.636140849552657,
+    "z_after": 2.5584085962673253,
+    "accepted": true,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 54,
+     "after_content": 23,
+     "after_semantic": 7,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "duplicate": 6,
+      "negation count changed": 31,
+      "meaning too different": 16,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 268,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.59
+   },
+   {
+    "pass": 3,
+    "segment": 5,
+    "chars": 35,
+    "z_before": 2.5584085962673253,
+    "z_after": 2.673670669975109,
+    "accepted": false,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 20,
+     "after_spelling": 19,
+     "after_content": 6,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 39,
+      "unknown word": 1,
+      "negation count changed": 13,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 273,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 13.57
+   },
+   {
+    "pass": 4,
+    "segment": 2,
+    "chars": 97,
+    "z_before": 2.5584085962673253,
+    "z_after": 2.4285714285714284,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "duplicate": 6,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 322,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.06
+   },
+   {
+    "pass": 4,
+    "segment": 1,
+    "chars": 76,
+    "z_before": 2.4285714285714284,
+    "z_after": 2.506402059138015,
+    "accepted": false,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 42,
+     "after_spelling": 42,
+     "after_content": 24,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "duplicate": 17,
+      "CJK text": 1,
+      "negation count changed": 18,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 345,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.47
+   },
+   {
+    "pass": 4,
+    "segment": 3,
+    "chars": 73,
+    "z_before": 2.4285714285714284,
+    "z_after": 2.2857142857142856,
+    "accepted": true,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 11,
+     "after_spelling": 11,
+     "after_content": 11,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "duplicate": 49
+     }
+    },
+    "queries_total": 356,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.19
+   },
+   {
+    "pass": 4,
+    "segment": 4,
+    "chars": 63,
+    "z_before": 2.2857142857142856,
+    "z_after": 2.2314288273209533,
+    "accepted": true,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 46,
+     "after_spelling": 46,
+     "after_content": 20,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "duplicate": 14,
+      "negation count changed": 26,
+      "meaning too different": 11
+     }
+    },
+    "queries_total": 365,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.53
+   },
+   {
+    "pass": 4,
+    "segment": 5,
+    "chars": 35,
+    "z_before": 2.2314288273209533,
+    "z_after": 2.2314288273209533,
+    "accepted": false,
+    "survivors": 8,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 26,
+     "after_content": 10,
+     "after_semantic": 10,
+     "fluency_skipped": false,
+     "after_fluency": 8,
+     "rejected": {
+      "duplicate": 33,
+      "unknown word": 1,
+      "negation count changed": 16,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 372,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 13.57
+   },
+   {
+    "pass": 5,
+    "segment": 2,
+    "chars": 97,
+    "z_before": 2.2314288273209533,
+    "z_after": 2.363179084330129,
+    "accepted": false,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "duplicate": 8,
+      "CJK text": 1,
+      "perplexity too high": 8
+     }
+    },
+    "queries_total": 415,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.1
+   },
+   {
+    "pass": 5,
+    "segment": 1,
+    "chars": 76,
+    "z_before": 2.2314288273209533,
+    "z_after": 2.363179084330129,
+    "accepted": false,
+    "survivors": 22,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 45,
+     "after_content": 22,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 22,
+     "rejected": {
+      "duplicate": 15,
+      "negation count changed": 23
+     }
+    },
+    "queries_total": 437,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.25
+   },
+   {
+    "pass": 5,
+    "segment": 3,
+    "chars": 73,
+    "z_before": 2.2314288273209533,
+    "z_after": 2.3877961974649913,
+    "accepted": false,
+    "survivors": 12,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 14,
+     "after_spelling": 12,
+     "after_content": 12,
+     "after_semantic": 12,
+     "fluency_skipped": false,
+     "after_fluency": 12,
+     "rejected": {
+      "duplicate": 46,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 449,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.19
+   },
+   {
+    "pass": 5,
+    "segment": 4,
+    "chars": 63,
+    "z_before": 2.2314288273209533,
+    "z_after": 2.351152649601018,
+    "accepted": false,
+    "survivors": 7,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 20,
+     "after_semantic": 7,
+     "fluency_skipped": false,
+     "after_fluency": 7,
+     "rejected": {
+      "duplicate": 5,
+      "negation count changed": 35,
+      "meaning too different": 13
+     }
+    },
+    "queries_total": 456,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.72
+   },
+   {
+    "pass": 5,
+    "segment": 5,
+    "chars": 35,
+    "z_before": 2.2314288273209533,
+    "z_after": 2.2857142857142856,
+    "accepted": false,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 19,
+     "after_spelling": 18,
+     "after_content": 6,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "duplicate": 41,
+      "unknown word": 1,
+      "negation count changed": 12,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 457,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 13.7
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "Question: Have you ever had a dish at a restaurant that you said you could make better than them?",
+    "rewrite": "Has there been a dish at a restaurant that you felt you could improve upon and make better?"
+   },
+   "1": {
+    "original": "We don't have too much space, but we just cooked this great dinner for them.",
+    "rewrite": "There isn't excess space, but we've just prepared a wonderful dinner for them."
+   },
+   "3": {
+    "original": "Nguyen: Yeah, in fact, last week I went to another Vietnamese restaurant.",
+    "rewrite": "Nguyen: Sure, actually, I visited another Vietnamese restaurant last week."
+   },
+   "4": {
+    "original": "It's across from here, and I wish I would never go there again.",
+    "rewrite": "It is near here, and I hope I never have to visit there again."
+   },
+   "5": {
+    "original": "Soft shell crab...I don't know how.",
+    "rewrite": "I am not sure how to cook soft shell crab."
+   }
+  },
+  "final_span": "our guest coming in and going to the next table, and the next table asks us if we're cooking their food, and we say 'yes' and we cook this and this and this over and over again. There isn't excess space, but we've just prepared a wonderful dinner for them.\nHas there been a dish at a restaurant that you felt you could improve upon and make better?\nNguyen: Sure, actually, I visited another Vietnamese restaurant last week. It is near here, and I hope I never have to visit there again. I am not sure how to cook soft shell crab.\n\u2022 Quang Nguyen, 42, reports he never got to really enjoy eating food during the nearly three months he was unconscious following a motorcycle accident on St. Charles Road in May, but he's happy to be back at 390 Greg Boulevard",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 5,
+   "eligible": 5,
+   "segments": 7,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 71.42857142857143
+  },
+  "tokens": {
+   "original": 201,
+   "final": 194,
+   "length_change": -7,
+   "pct_not_preserved": 20.398009950248753,
+   "pct_new": 17.525773195876294
+  },
+  "words": {
+   "original": 143,
+   "final": 143,
+   "length_change": 0,
+   "pct_not_preserved": 25.874125874125873,
+   "pct_new": 25.874125874125873
+  },
+  "characters": {
+   "original": 753,
+   "final": 756,
+   "length_change": 3,
+   "pct_not_preserved": 16.467463479415667,
+   "pct_new": 16.7989417989418
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 138,
+   "green_after": 112,
+   "pairs_before": 200,
+   "pairs_after": 193,
+   "pairs_changed_before": 60,
+   "pairs_changed_after": 53,
+   "green_fraction_of_new_pairs": 0.3018867924528302,
+   "delta_achieved": 0.19811320754716982
+  }
+ }
+}

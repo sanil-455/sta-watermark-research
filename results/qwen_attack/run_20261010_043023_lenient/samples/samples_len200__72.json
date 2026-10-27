@@ -1,0 +1,335 @@
+{
+ "sample_id": "samples_len200:72",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.28338762214983715,
+ "needed_share": 0.6177801182775418,
+ "delta_needed": 0.2182968025008389,
+ "segmentation": {
+  "chars": 614,
+  "segments": 7,
+  "eligible": 3,
+  "skipped": 4,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 1,
+   "URL, hashtag or handle": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 174,
+  "eligible_char_share": 0.28338762214983715
+ },
+ "attack": {
+  "z0": 5.232590180780451,
+  "z_final": 3.7623582771747355,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 204,
+  "seconds": 233.2,
+  "seconds_by_phase": {
+   "generate": 217.4,
+   "gates": 15.7,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 73,
+    "z_before": 5.232590180780451,
+    "z_after": 5.0079538725960475,
+    "accepted": true,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 9,
+     "after_spelling": 9,
+     "after_content": 9,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "duplicate": 51
+     }
+    },
+    "queries_total": 10,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.79
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 59,
+    "z_before": 5.0079538725960475,
+    "z_after": 4.480896268889631,
+    "accepted": true,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 37,
+     "after_spelling": 37,
+     "after_content": 37,
+     "after_semantic": 37,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "duplicate": 22,
+      "CJK text": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 43,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.33
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 42,
+    "z_before": 4.480896268889631,
+    "z_after": 3.8829013735766043,
+    "accepted": true,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 32,
+     "after_spelling": 32,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "duplicate": 28,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 74,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.19
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 73,
+    "z_before": 3.8829013735766043,
+    "z_after": 3.8829013735766043,
+    "accepted": false,
+    "survivors": 7,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 7,
+     "after_spelling": 7,
+     "after_content": 7,
+     "after_semantic": 7,
+     "fluency_skipped": false,
+     "after_fluency": 7,
+     "rejected": {
+      "duplicate": 53
+     }
+    },
+    "queries_total": 80,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.79
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 59,
+    "z_before": 3.8829013735766043,
+    "z_after": 3.8413666267326803,
+    "accepted": true,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 38,
+     "after_spelling": 38,
+     "after_content": 38,
+     "after_semantic": 38,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 20,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 111,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.52
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 42,
+    "z_before": 3.8413666267326803,
+    "z_after": 3.7623582771747355,
+    "accepted": true,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 36,
+     "after_spelling": 36,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "duplicate": 24,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 145,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.51
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 73,
+    "z_before": 3.7623582771747355,
+    "z_after": 3.7623582771747355,
+    "accepted": false,
+    "survivors": 7,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 7,
+     "after_spelling": 7,
+     "after_content": 7,
+     "after_semantic": 7,
+     "fluency_skipped": false,
+     "after_fluency": 7,
+     "rejected": {
+      "duplicate": 53
+     }
+    },
+    "queries_total": 151,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.79
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 59,
+    "z_before": 3.7623582771747355,
+    "z_after": 4.041051482891382,
+    "accepted": false,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 42,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "duplicate": 17,
+      "CJK text": 1,
+      "unknown word": 1,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 186,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.46
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 42,
+    "z_before": 3.7623582771747355,
+    "z_after": 3.8413666267326803,
+    "accepted": false,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 33,
+     "after_spelling": 32,
+     "after_content": 31,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "duplicate": 27,
+      "glued punctuation": 1,
+      "numbers changed": 1
+     }
+    },
+    "queries_total": 204,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.06
+   }
+  ],
+  "rewrites": {
+   "4": {
+    "original": "Tito\u2019s Tacos is located at 805 West Manchester Blvd, Inglewood, CA 90301.",
+    "rewrite": "Tito's Tacos has its location at 805 West Manchester Blvd, Inglewood, CA 90301."
+   },
+   "2": {
+    "original": "As with the sit-down location, Taco Tuesdays are huge here.",
+    "rewrite": "Taco Tuesdays are just as popular here with the seated patrons."
+   },
+   "3": {
+    "original": "Weekday Tacos from 4pm-8pm are $1.25 each.",
+    "rewrite": "Weekdays, Tacos costing $1.25 each are available from 4pm to 8pm."
+   }
+  },
+  "final_span": "not changed. The iconic menu, topped with the cheeky sentence \u201cWe don\u2019t guarantee quality as my wife kills rodents and keeps roaches and rats away,\u201d has been updated with some more fresh dishes and flavors: smoked brisket, chicken almendrado, carnitas, lengua and an arepa ($5.49 according to appetite). Taco Tuesdays are just as popular here with the seated patrons. Weekdays, Tacos costing $1.25 each are available from 4pm to 8pm.\nTito's Tacos has its location at 805 West Manchester Blvd, Inglewood, CA 90301. For more information visit https://tittos.com/, or call (310) 675-4219.\nSitting on the east end of the West Los Angeles is food incub",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 3,
+   "segments": 7,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 42.857142857142854
+  },
+  "tokens": {
+   "original": 201,
+   "final": 207,
+   "length_change": 6,
+   "pct_not_preserved": 10.447761194029848,
+   "pct_new": 13.043478260869568
+  },
+  "words": {
+   "original": 99,
+   "final": 105,
+   "length_change": 6,
+   "pct_not_preserved": 15.151515151515149,
+   "pct_new": 19.999999999999996
+  },
+  "characters": {
+   "original": 614,
+   "final": 647,
+   "length_change": 33,
+   "pct_not_preserved": 8.469055374592838,
+   "pct_new": 13.137557959814528
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 137,
+   "green_after": 130,
+   "pairs_before": 200,
+   "pairs_after": 206,
+   "pairs_changed_before": 29,
+   "pairs_changed_after": 35,
+   "green_fraction_of_new_pairs": 0.42857142857142855,
+   "delta_achieved": 0.07142857142857145
+  }
+ }
+}

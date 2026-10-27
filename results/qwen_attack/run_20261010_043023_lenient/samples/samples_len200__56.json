@@ -1,0 +1,154 @@
+{
+ "sample_id": "samples_len200:56",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.7333333333333333,
+ "needed_share": 0.4343145750507619,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 780,
+  "segments": 8,
+  "eligible": 6,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 572,
+  "eligible_char_share": 0.7333333333333333
+ },
+ "attack": {
+  "z0": 3.5355339059327373,
+  "z_final": 1.6045149064768403,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 68,
+  "seconds": 73.7,
+  "seconds_by_phase": {
+   "generate": 68.3,
+   "gates": 5.4,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 171,
+    "z_before": 3.5355339059327373,
+    "z_after": 2.2857142857142856,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 54,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 3,
+      "negation count changed": 11,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 43,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.06
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 169,
+    "z_before": 2.2857142857142856,
+    "z_after": 1.6045149064768403,
+    "accepted": true,
+    "survivors": 25,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 54,
+     "after_content": 26,
+     "after_semantic": 26,
+     "fluency_skipped": false,
+     "after_fluency": 25,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 1,
+      "unknown word": 1,
+      "negation count changed": 28,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 68,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.26
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "Water is not only natural, safe and healthy but drinking a glass of water can curb your appetite because water fills you up sooner than any other food source in your diet.",
+    "rewrite": "Water is not only natural, safe, and healthy, but also helps curb your appetite by filling you up more quickly than most foods in your diet."
+   },
+   "4": {
+    "original": "Moreover, adequate consumption of water can also help you lose weight because liquids do not contain calories and water intake does not add to your daily calorie intake.",
+    "rewrite": "Additionally, drinking enough water can aid in weight loss since it contains no calories and does not contribute to your daily calorie intake."
+   }
+  },
+  "final_span": "carbohydrates (quinoa, brown rice, beans, lentils), combined with a healthy fat.\nDrinking a calorie-laden soda will not stop you from being hungry. Instead, you must drink water. Water is not only natural, safe, and healthy, but also helps curb your appetite by filling you up more quickly than most foods in your diet. Additionally, drinking enough water can aid in weight loss since it contains no calories and does not contribute to your daily calorie intake.\nIf you are craving for carbs, you must fail to rev up your metabolism. What you must focus on during such situations is green vegetables. Instead of eating toaster waffles, swerve for bok choy since nutrient-rich leafy greens are well recognized for their met",
+  "break_point": {
+   "step": 1,
+   "sentences_rewritten": 2,
+   "queries": 68
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 6,
+   "segments": 8,
+   "pct_of_eligible": 33.333333333333336,
+   "pct_of_segments": 25.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 189,
+   "length_change": -12,
+   "pct_not_preserved": 16.91542288557214,
+   "pct_new": 11.64021164021164
+  },
+  "words": {
+   "original": 131,
+   "final": 120,
+   "length_change": -11,
+   "pct_not_preserved": 24.427480916030532,
+   "pct_new": 17.500000000000004
+  },
+  "characters": {
+   "original": 780,
+   "final": 722,
+   "length_change": -58,
+   "pct_not_preserved": 16.794871794871792,
+   "pct_new": 10.110803324099727
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 125,
+   "green_after": 105,
+   "pairs_before": 200,
+   "pairs_after": 188,
+   "pairs_changed_before": 47,
+   "pairs_changed_after": 35,
+   "green_fraction_of_new_pairs": 0.34285714285714286,
+   "delta_achieved": 0.15714285714285714
+  }
+ }
+}

@@ -1,0 +1,419 @@
+{
+ "sample_id": "baseline_safe:1",
+ "source": "results/raw/baseline_safe.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.5130533484676504,
+ "needed_share": 0.6925622690493272,
+ "delta_needed": 0.08047321366695831,
+ "segmentation": {
+  "chars": 881,
+  "segments": 8,
+  "eligible": 4,
+  "skipped": 4,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 2,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 452,
+  "eligible_char_share": 0.5130533484676504
+ },
+ "attack": {
+  "z0": 6.505382386916237,
+  "z_final": 3.5355339059327373,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 74,
+  "seconds": 113.1,
+  "seconds_by_phase": {
+   "generate": 106.3,
+   "gates": 6.8,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 257,
+    "z_before": 6.505382386916237,
+    "z_after": 3.959797974644666,
+    "accepted": true,
+    "survivors": 18,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 19,
+     "after_spelling": 18,
+     "after_content": 18,
+     "after_semantic": 18,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 19,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 20.57
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 89,
+    "z_before": 3.959797974644666,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 19,
+     "after_spelling": 19,
+     "after_content": 1,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 1,
+      "negation count changed": 18,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 19,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 5.9
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 67,
+    "z_before": 3.959797974644666,
+    "z_after": 3.837612894400988,
+    "accepted": true,
+    "survivors": 5,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 12,
+     "after_spelling": 7,
+     "after_content": 6,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "duplicate": 8,
+      "glued punctuation": 5,
+      "negation count changed": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 24,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 5.73
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 39,
+    "z_before": 3.837612894400988,
+    "z_after": 3.6954790834972475,
+    "accepted": true,
+    "survivors": 3,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 13,
+     "after_spelling": 12,
+     "after_content": 12,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 3,
+     "rejected": {
+      "duplicate": 7,
+      "unknown word": 1,
+      "meaning too different": 7,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 27,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 3.66
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 257,
+    "z_before": 3.6954790834972475,
+    "z_after": 3.5355339059327373,
+    "accepted": true,
+    "survivors": 18,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 20,
+     "after_spelling": 18,
+     "after_content": 18,
+     "after_semantic": 18,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "glued punctuation": 1,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 45,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 20.27
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 89,
+    "z_before": 3.5355339059327373,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 20,
+     "after_spelling": 20,
+     "after_content": 3,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "negation count changed": 17,
+      "meaning too different": 3
+     }
+    },
+    "queries_total": 45,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 5.84
+   },
+   {
+    "pass": 2,
+    "segment": 6,
+    "chars": 67,
+    "z_before": 3.5355339059327373,
+    "z_after": 3.7570703865441804,
+    "accepted": false,
+    "survivors": 3,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 10,
+     "after_spelling": 6,
+     "after_content": 4,
+     "after_semantic": 4,
+     "fluency_skipped": false,
+     "after_fluency": 3,
+     "rejected": {
+      "duplicate": 10,
+      "glued punctuation": 4,
+      "negation count changed": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 48,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 5.47
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 39,
+    "z_before": 3.5355339059327373,
+    "z_after": 3.5355339059327373,
+    "accepted": false,
+    "survivors": 2,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 12,
+     "after_spelling": 12,
+     "after_content": 12,
+     "after_semantic": 2,
+     "fluency_skipped": true,
+     "after_fluency": 2,
+     "rejected": {
+      "duplicate": 8,
+      "meaning too different": 10
+     }
+    },
+    "queries_total": 50,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 3.63
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 257,
+    "z_before": 3.5355339059327373,
+    "z_after": 3.633599549383392,
+    "accepted": false,
+    "survivors": 16,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 19,
+     "after_spelling": 17,
+     "after_content": 17,
+     "after_semantic": 17,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 66,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 20.46
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 89,
+    "z_before": 3.5355339059327373,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 20,
+     "after_spelling": 20,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "negation count changed": 20
+     }
+    },
+    "queries_total": 66,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 5.83
+   },
+   {
+    "pass": 3,
+    "segment": 6,
+    "chars": 67,
+    "z_before": 3.5355339059327373,
+    "z_after": 3.738331764050571,
+    "accepted": false,
+    "survivors": 7,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 15,
+     "after_spelling": 9,
+     "after_content": 9,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 7,
+     "rejected": {
+      "duplicate": 5,
+      "glued punctuation": 6,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 71,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 5.44
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 39,
+    "z_before": 3.5355339059327373,
+    "z_after": 3.5355339059327373,
+    "accepted": false,
+    "survivors": 4,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 13,
+     "after_spelling": 13,
+     "after_content": 13,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "duplicate": 7,
+      "meaning too different": 8,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 74,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 3.46
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "In addition to an 8% growth, North America represented 45% of the region&apos;s segment income; more broadly, North America represented 60% of income while Europe, Middle East, and Africa produced 27% -- a significant rebalancing of the income distribution.",
+    "rewrite": "Alongside an 8% increase, North America accounted for 45% of the region's segment earnings; more generally, North America made up 60% of earnings, compared to 27% from Europe, Middle East, and Africa \u2014 a notable shift in the earnings distribution."
+   },
+   "6": {
+    "original": "Johnson Controls is the biggest company you&apos;ve never heard of.",
+    "rewrite": "Johnson Controls is the largest company that you might not be familiar with."
+   },
+   "4": {
+    "original": "News also came from the China business.",
+    "rewrite": "News also arrived from the China sector."
+   }
+  },
+  "final_span": "that lead to that outcome.\n\"In North America we rebalanced the business to benefit from cooling growth,\" according to management. Though this isn&apos;t rocket science, its manifestation has been particularly important. Alongside an 8% increase, North America accounted for 45% of the region's segment earnings; more generally, North America made up 60% of earnings, compared to 27% from Europe, Middle East, and Africa \u2014 a notable shift in the earnings distribution.\nNews also arrived from the China sector. \"We have been making some good progress with the regional leadership team to proactively address nonprofitable projects, which we expect to result in lower working capital needs for the business,\" according to McDonald.\nJohnson Controls is the largest company that you might not be familiar with. You&apos;ve probably used its products, without knowing it, if for instance",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 4,
+   "segments": 8,
+   "pct_of_eligible": 75.0,
+   "pct_of_segments": 37.5
+  },
+  "tokens": {
+   "original": 201,
+   "final": 201,
+   "length_change": 0,
+   "pct_not_preserved": 18.905472636815922,
+   "pct_new": 18.905472636815922
+  },
+  "words": {
+   "original": 131,
+   "final": 135,
+   "length_change": 4,
+   "pct_not_preserved": 19.083969465648853,
+   "pct_new": 21.48148148148148
+  },
+  "characters": {
+   "original": 881,
+   "final": 881,
+   "length_change": 0,
+   "pct_not_preserved": 13.280363223609537,
+   "pct_new": 13.280363223609537
+  },
+  "entities": {
+   "before": 4,
+   "after": 2
+  },
+  "pairs": {
+   "green_before": 146,
+   "green_after": 125,
+   "pairs_before": 200,
+   "pairs_after": 200,
+   "pairs_changed_before": 54,
+   "pairs_changed_after": 54,
+   "green_fraction_of_new_pairs": 0.35185185185185186,
+   "delta_achieved": 0.14814814814814814
+  }
+ }
+}

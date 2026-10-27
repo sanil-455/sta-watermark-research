@@ -1,0 +1,207 @@
+{
+ "sample_id": "baseline_safe:0",
+ "source": "results/raw/baseline_safe.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.2881646655231561,
+ "needed_share": 0.47621719912107596,
+ "delta_needed": 0.0880992539096683,
+ "segmentation": {
+  "chars": 583,
+  "segments": 8,
+  "eligible": 2,
+  "skipped": 6,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "does not start like a sentence": 1,
+   "quotation": 2,
+   "too short": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 168,
+  "eligible_char_share": 0.2881646655231561
+ },
+ "attack": {
+  "z0": 3.8183766184073566,
+  "z_final": 2.5584085962673253,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 2,
+  "queries": 167,
+  "seconds": 96.2,
+  "seconds_by_phase": {
+   "generate": 83.5,
+   "gates": 12.7,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 87,
+    "z_before": 3.8183766184073566,
+    "z_after": 2.9211290495042954,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "duplicate": 3,
+      "CJK text": 1,
+      "meaning too different": 1,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 51,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.41
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 81,
+    "z_before": 2.9211290495042954,
+    "z_after": 2.5584085962673253,
+    "accepted": true,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 43,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 13,
+      "unknown word": 1,
+      "meaning too different": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 90,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 20.69
+   },
+   {
+    "pass": 2,
+    "segment": 6,
+    "chars": 87,
+    "z_before": 2.5584085962673253,
+    "z_after": 2.7005424071710658,
+    "accepted": false,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "duplicate": 5,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 142,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.48
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 81,
+    "z_before": 2.5584085962673253,
+    "z_after": 2.5584085962673253,
+    "accepted": false,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 43,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 12,
+      "unknown word": 2,
+      "perplexity too high": 8
+     }
+    },
+    "queries_total": 167,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.92
+   }
+  ],
+  "rewrites": {
+   "6": {
+    "original": "I'll take you to Cincinnati with me - although it looks like she might be coming to us.",
+    "rewrite": "She seems likely to join us in Cincinnati, even though I planned to take you there."
+   },
+   "2": {
+    "original": "A quick internet search shows that Clinton isn't the only one in love with Fiona.",
+    "rewrite": "A quick web search reveals that Clinton is not the sole person who finds Fiona attractive."
+   }
+  },
+  "final_span": "crush, Fiona the hippo, w fellow @RebuildHealth co-founders Jennifer Fry & Christie Olejniczak! pic.twitter.com/uWoQM0X8bj\n\u2014 Chelsea Clinton (@ChelseaClinton) June 12, 2018\nA quick web search reveals that Clinton is not the sole person who finds Fiona attractive.\nUSA Today reported that her first tweet on April 14, 2017, was, \"Hello Fiona! I am a proud feminist, who loves, admires, and desperately admires you. #TeamFintan #BringFionaHome.\"\nI love Fiona. She seems likely to join us in Cincinnati, even though I planned to take you there. The zoo said the plan now is to bring Fiona to",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 2,
+   "segments": 8,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 25.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 199,
+   "length_change": -2,
+   "pct_not_preserved": 13.432835820895528,
+   "pct_new": 12.562814070351758
+  },
+  "words": {
+   "original": 96,
+   "final": 95,
+   "length_change": -1,
+   "pct_not_preserved": 26.041666666666664,
+   "pct_new": 25.263157894736842
+  },
+  "characters": {
+   "original": 583,
+   "final": 588,
+   "length_change": 5,
+   "pct_not_preserved": 16.46655231560892,
+   "pct_new": 17.176870748299322
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 127,
+   "green_after": 117,
+   "pairs_before": 200,
+   "pairs_after": 198,
+   "pairs_changed_before": 36,
+   "pairs_changed_after": 34,
+   "green_fraction_of_new_pairs": 0.35294117647058826,
+   "delta_achieved": 0.14705882352941174
+  }
+ }
+}

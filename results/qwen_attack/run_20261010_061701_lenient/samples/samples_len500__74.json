@@ -1,0 +1,309 @@
+{
+ "sample_id": "samples_len500:74",
+ "source": "results/raw/samples_len500.json",
+ "layout": "prompt+text",
+ "tokens": 500,
+ "eligible_share": 0.671875,
+ "needed_share": 0.6711664738970897,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 1984,
+  "segments": 16,
+  "eligible": 11,
+  "skipped": 5,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 3,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1333,
+  "eligible_char_share": 0.671875
+ },
+ "attack": {
+  "z0": 6.082104898799428,
+  "z_final": 1.4339542878343068,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 311,
+  "seconds": 259.8,
+  "seconds_by_phase": {
+   "generate": 235.8,
+   "gates": 23.8,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 333,
+    "z_before": 6.082104898799428,
+    "z_after": 4.728962165665972,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 7,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 51,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 60.16
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 130,
+    "z_before": 4.728962165665972,
+    "z_after": 4.310527248642598,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "several lines": 2,
+      "CJK text": 5,
+      "unknown word": 2,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 95,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 45.72
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 126,
+    "z_before": 4.310527248642598,
+    "z_after": 4.000252517281903,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 9,
+      "unknown word": 3,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 136,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.46
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 109,
+    "z_before": 4.000252517281903,
+    "z_after": 3.467905588155046,
+    "accepted": true,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 34,
+     "after_content": 34,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "duplicate": 26,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 168,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.94
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 107,
+    "z_before": 3.467905588155046,
+    "z_after": 2.5671508899329565,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 46,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "duplicate": 14,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 212,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.87
+   },
+   {
+    "pass": 1,
+    "segment": 13,
+    "chars": 105,
+    "z_before": 2.5671508899329565,
+    "z_after": 2.15093143175146,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "duplicate": 5,
+      "CJK text": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 263,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.55
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 96,
+    "z_before": 2.15093143175146,
+    "z_after": 1.4339542878343068,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "duplicate": 7,
+      "CJK text": 1,
+      "unknown word": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 311,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.11
+   }
+  ],
+  "rewrites": {
+   "11": {
+    "original": "But he also had insight into America\u2019s military service members\u2014included in the the toothbrush packaging was a veteran of World War I, who worked to bring oral hygiene to the wartime generation, helping to ensure that service members benefitted from a potent yet simple tooth-cleaning technology available on the American frontlines.",
+    "rewrite": "Yet, he also understood America's servicemen\u2014among those in the toothbrush packaging was a World War I veteran who dedicated himself to promoting oral hygiene among wartime generations, ensuring that service members received effective yet simple tooth-cleaning tools at the American frontlines."
+   },
+   "12": {
+    "original": "Though Truman served in Congress in 1917, marking when his military service began, he established no delusions of missing the fun.",
+    "rewrite": "Although Truman started his military service in 1917 by joining Congress, he did not harbor any illusions about missing out on enjoyably social activities."
+   },
+   "5": {
+    "original": "On the return trip, Armstrong asked Buzz Aldrin, his fellow crew member and pilot, to be sure to have a good look at the moon.",
+    "rewrite": "During the return trip, Armstrong requested that Buzz Aldrin, his fellow crew member and pilot, take a thorough gaze at the moon."
+   },
+   "2": {
+    "original": "It commemorated President Harry S. Truman, who donated the boxed brush to the Museum after he\u2019d lost a tooth.",
+    "rewrite": "The Museum honored President Harry S. Truman, whom Truman later gave the box of brush after he had lost a tooth."
+   },
+   "10": {
+    "original": "He likely chose to donate toothbrushes because dentifrice was conspicuously absent from early flight menus.",
+    "rewrite": "He apparently decided to provide toothbrushes since toothpaste was notably missing from initial airplane meal selections."
+   },
+   "13": {
+    "original": "He was involved in sending America into World War I, and fought the Allies alongside his army colleagues.",
+    "rewrite": "He played a role in leading America into World War I and battled side by side with his army counterparts for the Allies."
+   },
+   "1": {
+    "original": "On the way to the moon, Armstrong detached the toothbrush from its box, and read an inscription.",
+    "rewrite": "During the journey to the moon, Armstrong removed the toothbrush from its box and examined an inscription."
+   }
+  },
+  "final_span": "tucked under his pocket a toothbrush and a Slinky from the National Museum of American History.\nDuring the journey to the moon, Armstrong removed the toothbrush from its box and examined an inscription. The Museum honored President Harry S. Truman, whom Truman later gave the box of brush after he had lost a tooth. The note read \u201cGive a man a toothbrush and you feed his spirit.\u201d Armstrong then tucked the toothbrush back whence it came.\nDuring the return trip, Armstrong requested that Buzz Aldrin, his fellow crew member and pilot, take a thorough gaze at the moon. Aldrin remembers getting the message\u2014teasingly, as Armstrong was fond of doing\u2014that Armstrong wanted him to have a good view, if for no other reason than to send back a photo showing the signatures of the astronaut who beat the Russians to the moon, \u201cand also Mr. Truman, a few things...\u201d\nTruman and Armstrong both hailed from the Midwest (Truman from Missouri, Armstrong from Ohio). Both men shared a love of the Midwest, and both had strong opinions about farming technology. In addition to his job as president, Truman served as a farmer during his lifetime. He apparently decided to provide toothbrushes since toothpaste was notably missing from initial airplane meal selections. Yet, he also understood America's servicemen\u2014among those in the toothbrush packaging was a World War I veteran who dedicated himself to promoting oral hygiene among wartime generations, ensuring that service members received effective yet simple tooth-cleaning tools at the American frontlines. Although Truman started his military service in 1917 by joining Congress, he did not harbor any illusions about missing out on enjoyably social activities. He played a role in leading America into World War I and battled side by side with his army counterparts for the Allies.\nIn 1920, after he'd become president, Truman said, \u201cI'm the only President ever to come from the rank of private in the army.\u201d Harry S. Truman wasn\u2019t a farmer by trade, but he recognized the",
+  "break_point": {
+   "step": 6,
+   "sentences_rewritten": 7,
+   "queries": 311
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 7,
+   "eligible": 11,
+   "segments": 16,
+   "pct_of_eligible": 63.63636363636363,
+   "pct_of_segments": 43.75
+  },
+  "tokens": {
+   "original": 501,
+   "final": 499,
+   "length_change": -2,
+   "pct_not_preserved": 20.958083832335326,
+   "pct_new": 20.641282565130258
+  },
+  "words": {
+   "original": 334,
+   "final": 332,
+   "length_change": -2,
+   "pct_not_preserved": 25.149700598802394,
+   "pct_new": 24.69879518072289
+  },
+  "characters": {
+   "original": 1984,
+   "final": 2015,
+   "length_change": 31,
+   "pct_not_preserved": 15.7258064516129,
+   "pct_new": 17.022332506203476
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 318,
+   "green_after": 265,
+   "pairs_before": 500,
+   "pairs_after": 498,
+   "pairs_changed_before": 150,
+   "pairs_changed_after": 148,
+   "green_fraction_of_new_pairs": 0.3716216216216216,
+   "delta_achieved": 0.1283783783783784
+  }
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "repl": {
+  "2": "Nevertheless, the U.S. repeatedly declined to ratify a protocol intended to penalize parents for sending their children on dangerous trips to the U.S. To halt additional suffering, we must, at the very least, adhere to the initial convention.",
+  "1": "Detention has little effect on deterrence, can harm youth and goes against children\u2019s rights as outlined in the UN Convention on the Rights of the Child, a document that guides the U.S. The United States joined the treaty in 1995, among the first countries to do so.",
+  "8": "Mass incarceration is random, removing from an entire group of young individuals their chance for education and increasing their likelihood of falling into a criminalized life path.",
+  "13": "Conversely, an older prisoner is seen as more deserving of punishment, while a younger child is considered more innocent and not deserving of jail time.",
+  "5": "Mass incarceration has a racial bias, resulting in the largest youth prison population among Black individuals and the highest rate of children being detained against their best interests due to modern three-strikes laws.",
+  "6": "In immigration, young people from El Salvador, Guatemala, and Honduras have experienced kidnaps, rapes, beatings, and tortures by gangs, forcing them to live in fear and bear witness to family members being executed or otherwise harmed."
+ },
+ "provenance": {
+  "2": "kept from the reading",
+  "1": "kept from the reading",
+  "8": "kept from the reading",
+  "13": "kept from the reading",
+  "5": "approved by the user",
+  "6": "approved by the user"
+ },
+ "old_bad": {
+  "5": "Mass incarceration has racial undertones, resulting in the greatest proportion of Black youth in prison and the highest instances of detained children against their benefit due to three-strikes laws.",
+  "6": "In immigration, youth from El Salvador, Guatemala, and Honduras have been abducted, abused, assaulted, and tormented by gangs, forced to dwell in fear and observe family members murdered or otherwise harmed."
+ },
+ "rejected": {
+  "5": [
+   "Mass incarceration has a racial bias, resulting in the highest Black youth prison population and the greatest number of children being incarcerated against their best interests due to strict three strikes laws.",
+   "Racial disparities contribute to mass incarceration, resulting in the highest concentration of Black youth in prisons and the greatest number of children detained against their best interests under tough three-strikes laws."
+  ],
+  "6": [
+   "In immigration, youth from El Salvador, Guatemala, and Honduras have been abducted, assaulted, beaten, and tortured by gangs, forced to live in constant fear and witness the execution or severe harm to family members."
+  ]
+ },
+ "skipped": [],
+ "decisions": [
+  {
+   "segment": 5,
+   "answer": "n",
+   "proposal": "Mass incarceration has a racial bias, resulting in the highest Black youth prison population and the greatest number of children being incarcerated against their best interests due to strict three strikes laws.",
+   "z_before": 3.3507528870657772,
+   "z_after": 2.0696378450628985,
+   "similarity": 0.9010348320007324
+  },
+  {
+   "segment": 5,
+   "answer": "n",
+   "proposal": "Racial disparities contribute to mass incarceration, resulting in the highest concentration of Black youth in prisons and the greatest number of children detained against their best interests under tough three-strikes laws.",
+   "z_before": 3.3507528870657772,
+   "z_after": 2.2876626504829085,
+   "similarity": 0.8862825632095337
+  },
+  {
+   "segment": 5,
+   "answer": "y",
+   "proposal": "Mass incarceration has a racial bias, resulting in the largest youth prison population among Black individuals and the highest rate of children being detained against their best interests due to modern three-strikes laws.",
+   "z_before": 3.3507528870657772,
+   "z_after": 2.334868926348074,
+   "similarity": 0.9139281511306763
+  },
+  {
+   "segment": 6,
+   "answer": "n",
+   "proposal": "In immigration, youth from El Salvador, Guatemala, and Honduras have been abducted, assaulted, beaten, and tortured by gangs, forced to live in constant fear and witness the execution or severe harm to family members.",
+   "z_before": 2.334868926348074,
+   "z_after": 1.7458797760397964,
+   "similarity": 0.9715427756309509
+  },
+  {
+   "segment": 6,
+   "answer": "y",
+   "proposal": "In immigration, young people from El Salvador, Guatemala, and Honduras have experienced kidnaps, rapes, beatings, and tortures by gangs, forcing them to live in fear and bear witness to family members being executed or otherwise harmed.",
+   "z_before": 2.334868926348074,
+   "z_after": 1.8745517392452975,
+   "similarity": 0.9458620548248291
+  }
+ ],
+ "calls": 2,
+ "status": "broken",
+ "sample_id": "samples_len500:69",
+ "z0": 6.529318494299385,
+ "z_start_of_repair": 3.3507528870657772,
+ "z_final": 1.8745517392452975,
+ "final_span": "aren\u2019t coming to court, Detention Watch Network reported that child protection teams in states like California can help children without interfering with their ability to work with sponsors.\nDetention has little effect on deterrence, can harm youth and goes against children\u2019s rights as outlined in the UN Convention on the Rights of the Child, a document that guides the U.S. The United States joined the treaty in 1995, among the first countries to do so. Nevertheless, the U.S. repeatedly declined to ratify a protocol intended to penalize parents for sending their children on dangerous trips to the U.S. To halt additional suffering, we must, at the very least, adhere to the initial convention. And we must make sure we release kids who are eligible for reunification with their families.\nJuvenile justice reform is in many ways a mirror of the immigration tragedy. Mass incarceration has a racial bias, resulting in the largest youth prison population among Black individuals and the highest rate of children being detained against their best interests due to modern three-strikes laws. In immigration, young people from El Salvador, Guatemala, and Honduras have experienced kidnaps, rapes, beatings, and tortures by gangs, forcing them to live in fear and bear witness to family members being executed or otherwise harmed. Children cannot move across borders in harm\u2019s way.\nMass incarceration is random, removing from an entire group of young individuals their chance for education and increasing their likelihood of falling into a criminalized life path. In immigration, the arbitrary use of the term \u201cchild\u201d cannot be justified. Too many children, including babies, are detained. The arbitrary remedy is to make sure that no child who legitimately qualifies as a child is subjected to detention.\nMass incarceration is based in punishment and deterrence, its physical setting reflecting the moral truth of the individual being punished. Conversely, an older prisoner is seen as more deserving of punishment, while a younger child is considered more innocent and not deserving of jail time.\nThere\u2019s a new bill in the Senate called the Dignity for Detained Children Act, which seeks to reform holding conditions for children",
+ "queries": 78,
+ "seconds": 268.7
+}

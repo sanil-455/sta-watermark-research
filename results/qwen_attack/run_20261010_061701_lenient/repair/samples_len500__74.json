@@ -1,0 +1,52 @@
+{
+ "repl": {
+  "11": "Yet, he also understood America's servicemen\u2014among those in the toothbrush packaging was a World War I veteran who dedicated himself to promoting oral hygiene among wartime generations, ensuring that service members received effective yet simple tooth-cleaning tools at the American frontlines.",
+  "5": "During the return trip, Armstrong requested that Buzz Aldrin, his fellow crew member and pilot, take a thorough gaze at the moon.",
+  "10": "He apparently decided to provide toothbrushes since toothpaste was notably missing from initial airplane meal selections.",
+  "1": "During the journey to the moon, Armstrong removed the toothbrush from its box and examined an inscription.",
+  "2": "It honored President Harry S. Truman, who presented the boxed brush to the Museum following the loss of his tooth.",
+  "12": "Although Truman entered Congress in 1917, indicating the start of his military service, he harbored no illusions about missing out on fun activities."
+ },
+ "provenance": {
+  "11": "kept from the reading",
+  "5": "kept from the reading",
+  "10": "kept from the reading",
+  "1": "kept from the reading",
+  "2": "approved by the user",
+  "12": "approved by the user"
+ },
+ "old_bad": {
+  "2": "The Museum honored President Harry S. Truman, whom Truman later gave the box of brush after he had lost a tooth.",
+  "12": "Although Truman started his military service in 1917 by joining Congress, he did not harbor any illusions about missing out on enjoyably social activities.",
+  "13": "He played a role in leading America into World War I and battled side by side with his army counterparts for the Allies."
+ },
+ "rejected": {},
+ "skipped": [],
+ "decisions": [
+  {
+   "segment": 2,
+   "answer": "y",
+   "proposal": "It honored President Harry S. Truman, who presented the boxed brush to the Museum following the loss of his tooth.",
+   "z_before": 2.79517586746904,
+   "z_after": 2.2158565950660596,
+   "similarity": 0.9402363896369934
+  },
+  {
+   "segment": 12,
+   "answer": "y",
+   "proposal": "Although Truman entered Congress in 1917, indicating the start of his military service, he harbored no illusions about missing out on fun activities.",
+   "z_before": 2.2158565950660596,
+   "z_after": 1.8935062328016077,
+   "similarity": 0.9045072793960571
+  }
+ ],
+ "calls": 2,
+ "status": "broken",
+ "sample_id": "samples_len500:74",
+ "z0": 6.082104898799428,
+ "z_start_of_repair": 2.79517586746904,
+ "z_final": 1.8935062328016077,
+ "final_span": "tucked under his pocket a toothbrush and a Slinky from the National Museum of American History.\nDuring the journey to the moon, Armstrong removed the toothbrush from its box and examined an inscription. It honored President Harry S. Truman, who presented the boxed brush to the Museum following the loss of his tooth. The note read \u201cGive a man a toothbrush and you feed his spirit.\u201d Armstrong then tucked the toothbrush back whence it came.\nDuring the return trip, Armstrong requested that Buzz Aldrin, his fellow crew member and pilot, take a thorough gaze at the moon. Aldrin remembers getting the message\u2014teasingly, as Armstrong was fond of doing\u2014that Armstrong wanted him to have a good view, if for no other reason than to send back a photo showing the signatures of the astronaut who beat the Russians to the moon, \u201cand also Mr. Truman, a few things...\u201d\nTruman and Armstrong both hailed from the Midwest (Truman from Missouri, Armstrong from Ohio). Both men shared a love of the Midwest, and both had strong opinions about farming technology. In addition to his job as president, Truman served as a farmer during his lifetime. He apparently decided to provide toothbrushes since toothpaste was notably missing from initial airplane meal selections. Yet, he also understood America's servicemen\u2014among those in the toothbrush packaging was a World War I veteran who dedicated himself to promoting oral hygiene among wartime generations, ensuring that service members received effective yet simple tooth-cleaning tools at the American frontlines. Although Truman entered Congress in 1917, indicating the start of his military service, he harbored no illusions about missing out on fun activities. He was involved in sending America into World War I, and fought the Allies alongside his army colleagues.\nIn 1920, after he'd become president, Truman said, \u201cI'm the only President ever to come from the rank of private in the army.\u201d Harry S. Truman wasn\u2019t a farmer by trade, but he recognized the",
+ "queries": 38,
+ "seconds": 158.6
+}

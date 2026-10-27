@@ -1,0 +1,309 @@
+{
+ "sample_id": "samples_len500:65",
+ "source": "results/raw/samples_len500.json",
+ "layout": "prompt+text",
+ "tokens": 500,
+ "eligible_share": 0.10903426791277258,
+ "needed_share": 0.6894350031250291,
+ "delta_needed": null,
+ "segmentation": {
+  "chars": 1926,
+  "segments": 17,
+  "eligible": 2,
+  "skipped": 15,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 11,
+   "no final punctuation": 2,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 210,
+  "eligible_char_share": 0.10903426791277258
+ },
+ "attack": {
+  "z0": 6.439875775199394,
+  "z_final": 5.355862112129421,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 4,
+  "queries": 36,
+  "seconds": 219.4,
+  "seconds_by_phase": {
+   "generate": 216.1,
+   "gates": 3.2,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 157,
+    "z_before": 6.439875775199394,
+    "z_after": 6.337478707154475,
+    "accepted": true,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 52,
+     "after_content": 1,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "duplicate": 7,
+      "unknown word": 1,
+      "quotation changed": 49,
+      "negation count changed": 2
+     }
+    },
+    "queries_total": 2,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.79
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 53,
+    "z_before": 6.337478707154475,
+    "z_after": 6.13296229019108,
+    "accepted": true,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 9,
+     "after_spelling": 9,
+     "after_content": 9,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "duplicate": 51
+     }
+    },
+    "queries_total": 11,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.18
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 157,
+    "z_before": 6.13296229019108,
+    "z_after": 5.790660241435861,
+    "accepted": true,
+    "survivors": 3,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 50,
+     "after_content": 3,
+     "after_semantic": 3,
+     "fluency_skipped": false,
+     "after_fluency": 3,
+     "rejected": {
+      "duplicate": 10,
+      "quotation changed": 44,
+      "negation count changed": 3
+     }
+    },
+    "queries_total": 13,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.25
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 53,
+    "z_before": 5.790660241435861,
+    "z_after": 5.612486080160912,
+    "accepted": true,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 10,
+     "after_spelling": 10,
+     "after_content": 10,
+     "after_semantic": 10,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "duplicate": 50,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 21,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.18
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 157,
+    "z_before": 5.612486080160912,
+    "z_after": 5.355862112129421,
+    "accepted": true,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 49,
+     "after_content": 1,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "duplicate": 10,
+      "CJK text": 1,
+      "quotation changed": 47,
+      "negation count changed": 1
+     }
+    },
+    "queries_total": 22,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.9
+   },
+   {
+    "pass": 3,
+    "segment": 5,
+    "chars": 53,
+    "z_before": 5.355862112129421,
+    "z_after": 5.495234734787874,
+    "accepted": false,
+    "survivors": 10,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 13,
+     "after_spelling": 13,
+     "after_content": 13,
+     "after_semantic": 13,
+     "fluency_skipped": false,
+     "after_fluency": 10,
+     "rejected": {
+      "duplicate": 47,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 32,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.18
+   },
+   {
+    "pass": 4,
+    "segment": 3,
+    "chars": 157,
+    "z_before": 5.355862112129421,
+    "z_after": 5.953897697776742,
+    "accepted": false,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 44,
+     "after_content": 1,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "duplicate": 14,
+      "CJK text": 2,
+      "quotation changed": 42,
+      "negation count changed": 1
+     }
+    },
+    "queries_total": 33,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 39.41
+   },
+   {
+    "pass": 4,
+    "segment": 5,
+    "chars": 53,
+    "z_before": 5.355862112129421,
+    "z_after": 5.355862112129421,
+    "accepted": false,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 14,
+     "after_spelling": 14,
+     "after_content": 14,
+     "after_semantic": 14,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "duplicate": 46,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 36,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.24
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "Offensive coordinator Pat Shurmur was impressed by the Vikings offensive line, saying they didn't make any \"catastrophes\" and they did \"an overall good job.\"",
+    "rewrite": "Pat Shurmur, the offensive coordinator, praised the Vikings' offensive line, stating they committed no \"catastrophes\" and executed \"an overall good job.\""
+   },
+   "5": {
+    "original": "Vikings coach Mike Zimmer said of the offensive line.",
+    "rewrite": "Mike Zimmer, the Vikings' coach, remarked about the offensive line."
+   }
+  },
+  "final_span": "played tough, physical. Like I said, we got some yards in the running game.\"\nSam Bradford: It's on the O-line and me to make reads, hold the ball\nPat Shurmur, the offensive coordinator, praised the Vikings' offensive line, stating they committed no \"catastrophes\" and executed \"an overall good job.\"\n\"You can\u2019t block for everybody, but I thought our guys did a good job of getting on the same page and working together.\" Mike Zimmer, the Vikings' coach, remarked about the offensive line.\nOpponents Registered Quarterback Pressures vs Percent of Snaps\n\"You can\u2019t block for everybody, but I thought our guys did a good job of getting on the same page and working together,\" Vikings coach Mike Zimmer said. \"I don\u2019t have any hesitation to feel good about the way they blocked. It\u2019s on the guy to make the read, but if you watch it you definitely can\u2019t rightfully criticize the time our linemen do their job. I think they did a good job of working together. I think it was a collective thing - there were no catastrophes, at least none that jumped off the tape, and they did an overall good job.\"\n\"We weren\u2019t there on every single play by any means but I thought they did a pretty good job,\" Vikings offensive lineman Nick Easton said in a postgame interview on the NFL Network. \"They mixed multiple coverages but you\u2019re talking about a Super Bowl contending team that\u2019s a top defense, I think that\u2019s a pretty good start for a group of guys that haven\u2019t played together.\"\nBradford reminded Stefon Diggs and Adam Thielen, who set the NFL record for a rookie duo, to \"keep erupting because we're going to need that firepower when we're playing on the road.\"\n\"My thing I always say - when it comes to the road, those aren't just regular shells,\" Zimmer noted: \"I always say, 'You, I'd like the [bleeping] devil to put your hands down and focus on the ball throwing at you.' Those numbers are especially crazy and big numbers for the road, but",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 2,
+   "segments": 17,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 11.764705882352942
+  },
+  "tokens": {
+   "original": 501,
+   "final": 503,
+   "length_change": 2,
+   "pct_not_preserved": 4.3912175648702645,
+   "pct_new": 4.771371769383704
+  },
+  "words": {
+   "original": 346,
+   "final": 344,
+   "length_change": -2,
+   "pct_not_preserved": 5.202312138728327,
+   "pct_new": 4.651162790697672
+  },
+  "characters": {
+   "original": 1926,
+   "final": 1936,
+   "length_change": 10,
+   "pct_not_preserved": 3.063343717549327,
+   "pct_new": 3.564049586776863
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 322,
+   "green_after": 311,
+   "pairs_before": 500,
+   "pairs_after": 502,
+   "pairs_changed_before": 30,
+   "pairs_changed_after": 32,
+   "green_fraction_of_new_pairs": 0.25,
+   "delta_achieved": 0.25
+  }
+ }
+}

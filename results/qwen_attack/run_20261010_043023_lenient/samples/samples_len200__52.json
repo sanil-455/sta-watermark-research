@@ -1,0 +1,254 @@
+{
+ "sample_id": "samples_len200:52",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.8787878787878788,
+ "needed_share": 0.6177801182775418,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 792,
+  "segments": 13,
+  "eligible": 10,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "too short": 2
+  },
+  "eligible_chars": 696,
+  "eligible_char_share": 0.8787878787878788
+ },
+ "attack": {
+  "z0": 5.232590180780451,
+  "z_final": 1.5556349186104046,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 111,
+  "seconds": 116.5,
+  "seconds_by_phase": {
+   "generate": 108.1,
+   "gates": 8.4,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 119,
+    "z_before": 5.232590180780451,
+    "z_after": 4.02047001039401,
+    "accepted": true,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 24,
+     "after_spelling": 20,
+     "after_content": 20,
+     "after_semantic": 20,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "CJK text": 24,
+      "duplicate": 11,
+      "hit length limit": 1,
+      "unknown word": 4,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 20,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 33.07
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 89,
+    "z_before": 4.02047001039401,
+    "z_after": 3.676955262170047,
+    "accepted": true,
+    "survivors": 14,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 15,
+     "after_spelling": 15,
+     "after_content": 15,
+     "after_semantic": 15,
+     "fluency_skipped": false,
+     "after_fluency": 14,
+     "rejected": {
+      "duplicate": 44,
+      "CJK text": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 34,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.62
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 83,
+    "z_before": 3.676955262170047,
+    "z_after": 3.0792939583695613,
+    "accepted": true,
+    "survivors": 24,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 38,
+     "after_spelling": 37,
+     "after_content": 35,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 24,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 21,
+      "unknown word": 1,
+      "negation count changed": 2,
+      "meaning too different": 3,
+      "perplexity too high": 8
+     }
+    },
+    "queries_total": 58,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.74
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 76,
+    "z_before": 3.0792939583695613,
+    "z_after": 2.262741699796952,
+    "accepted": true,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 38,
+     "after_spelling": 37,
+     "after_content": 32,
+     "after_semantic": 23,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "duplicate": 21,
+      "CJK text": 1,
+      "unknown word": 1,
+      "negation count changed": 5,
+      "meaning too different": 9,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 76,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.09
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 66,
+    "z_before": 2.262741699796952,
+    "z_after": 1.5556349186104046,
+    "accepted": true,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 38,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "several lines": 1,
+      "duplicate": 4,
+      "CJK text": 1,
+      "meaning too different": 16,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 111,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.55
+   }
+  ],
+  "rewrites": {
+   "12": {
+    "original": "It is getting to a point in its development where it\u2019s losing its agricultural edge, yet it trails us in manufacturing.",
+    "rewrite": "As it evolves, it is reaching a stage where it loses its agricultural advantage, while still lagging behind us in manufacturing."
+   },
+   "8": {
+    "original": "These pacts\u2019 success will especially help manufacturers, farmers, and service industries.",
+    "rewrite": "These agreements' success will particularly benefit manufacturers, farmers, and service sectors."
+   },
+   "7": {
+    "original": "Any American, irrespective of which location or region he or she is from, benefits.",
+    "rewrite": "Anyone in America, regardless of location or region, derives benefit."
+   },
+   "10": {
+    "original": "As key players in Congress fail to agree, the rest of the world moves ahead.",
+    "rewrite": "Due to the lack of agreement among key players in Congress, the rest of the world proceeds ahead."
+   },
+   "6": {
+    "original": "Here\u2019s what matters most: leadership on trade makes us better off.",
+    "rewrite": "What's crucial is that effective trade leadership benefits us the most."
+   }
+  },
+  "final_span": "firms on a more level playing field.\nThe stakes are high. It\u2019s a make-or-break moment.\nCongress now stands at the midway point of the TPA extension. Let me be clear: If we fail to lead, others will. It is America\u2019s last chance to do so.\nWhat's crucial is that effective trade leadership benefits us the most. Anyone in America, regardless of location or region, derives benefit. These agreements' success will particularly benefit manufacturers, farmers, and service sectors. But all Americans do well in a two-way, free economy.\nDue to the lack of agreement among key players in Congress, the rest of the world proceeds ahead. For example, India is the biggest target outside the TPP talks. As it evolves, it is reaching a stage where it loses its agricultural advantage, while still lagging behind us in manufacturing.",
+  "break_point": {
+   "step": 4,
+   "sentences_rewritten": 5,
+   "queries": 111
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 5,
+   "eligible": 10,
+   "segments": 13,
+   "pct_of_eligible": 50.0,
+   "pct_of_segments": 38.46153846153846
+  },
+  "tokens": {
+   "original": 201,
+   "final": 201,
+   "length_change": 0,
+   "pct_not_preserved": 25.87064676616916,
+   "pct_new": 25.87064676616916
+  },
+  "words": {
+   "original": 138,
+   "final": 137,
+   "length_change": -1,
+   "pct_not_preserved": 31.159420289855078,
+   "pct_new": 30.65693430656934
+  },
+  "characters": {
+   "original": 792,
+   "final": 820,
+   "length_change": 28,
+   "pct_not_preserved": 18.686868686868685,
+   "pct_new": 21.46341463414634
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 137,
+   "green_after": 111,
+   "pairs_before": 200,
+   "pairs_after": 200,
+   "pairs_changed_before": 72,
+   "pairs_changed_after": 72,
+   "green_fraction_of_new_pairs": 0.3888888888888889,
+   "delta_achieved": 0.1111111111111111
+  }
+ }
+}

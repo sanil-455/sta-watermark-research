@@ -1,0 +1,150 @@
+{
+ "sample_id": "samples_len200:60",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.7303370786516854,
+ "needed_share": 0.6373811378530525,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 801,
+  "segments": 6,
+  "eligible": 3,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "no final punctuation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 585,
+  "eligible_char_share": 0.7303370786516854
+ },
+ "attack": {
+  "z0": 5.5154328932550705,
+  "z_final": 1.5784566588059405,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 97,
+  "seconds": 87.7,
+  "seconds_by_phase": {
+   "generate": 80.1,
+   "gates": 7.6,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 218,
+    "z_before": 5.5154328932550705,
+    "z_after": 3.111370802757413,
+    "accepted": true,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 46,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "CJK text": 14
+     }
+    },
+    "queries_total": 47,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 39.67
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 211,
+    "z_before": 3.111370802757413,
+    "z_after": 1.5784566588059405,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "duplicate": 3,
+      "unknown word": 6,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 97,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.43
+   }
+  ],
+  "rewrites": {
+   "4": {
+    "original": "Photo-sharing app Instagram to go pro with new tool To prevent copyright infringement, Instagram is bolstering its service with a new analytics tool for companies to track their brands on the hot photo-sharing vehicle.",
+    "rewrite": "Instagram is enhancing its platform for businesses to combat copyright infringement by introducing new analytics tools that permit companies to monitor their brands across the popular photo-sharing site."
+   },
+   "3": {
+    "original": "Start-up founders describe tricky tech elements of running a business Chris Murphy, co-founder and CEO at Made, and Ian Hogarth, co-founder and MD of SongKick, discuss tricky tech elements of running a start-up.",
+    "rewrite": "Chris Murphy, co-founder and CEO at Made, and Ian Hogarth, co-founder and MD of SongKick, explore complex technical aspects of operating a start-up."
+   }
+  },
+  "final_span": "to the other 500 members of the team.\nTruphone offers a range of global bundles that give F1 teams more flexibility whilst travelling and racing, over and above its regular global tariff prices.\nRead more on how Caterham F1 is putting runners on IT\nChris Murphy, co-founder and CEO at Made, and Ian Hogarth, co-founder and MD of SongKick, explore complex technical aspects of operating a start-up.\nInstagram is enhancing its platform for businesses to combat copyright infringement by introducing new analytics tools that permit companies to monitor their brands across the popular photo-sharing site.\nVirgin unveils tech partnership offer for start-ups Virgin Media Business has launched a package specifically targeted at",
+  "break_point": {
+   "step": 1,
+   "sentences_rewritten": 2,
+   "queries": 97
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 3,
+   "segments": 6,
+   "pct_of_eligible": 66.66666666666667,
+   "pct_of_segments": 33.333333333333336
+  },
+  "tokens": {
+   "original": 201,
+   "final": 178,
+   "length_change": -23,
+   "pct_not_preserved": 25.373134328358205,
+   "pct_new": 15.73033707865169
+  },
+  "words": {
+   "original": 128,
+   "final": 112,
+   "length_change": -16,
+   "pct_not_preserved": 29.6875,
+   "pct_new": 19.64285714285714
+  },
+  "characters": {
+   "original": 801,
+   "final": 723,
+   "length_change": -78,
+   "pct_not_preserved": 23.470661672908864,
+   "pct_new": 15.21438450899032
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 139,
+   "green_after": 99,
+   "pairs_before": 200,
+   "pairs_after": 177,
+   "pairs_changed_before": 63,
+   "pairs_changed_after": 40,
+   "green_fraction_of_new_pairs": 0.225,
+   "delta_achieved": 0.275
+  }
+ }
+}

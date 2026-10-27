@@ -1,0 +1,32 @@
+{
+ "repl": {
+  "1": "Apart from issues with enhancing homebuyers' roles, many developers also do not support Rera as the top regulator for redressing grievances. They argue that only Rera provides powers to both tribal members and buyers."
+ },
+ "provenance": {
+  "1": "approved by the user"
+ },
+ "old_bad": {
+  "1": "Apart from concerns about elevating home buyers' roles, most developers also do not support Rera as the ultimate regulator for addressing grievances. According to them, only regulators grant powers to tribal members as well as home buyers."
+ },
+ "rejected": {},
+ "skipped": [],
+ "decisions": [
+  {
+   "segment": 1,
+   "answer": "y",
+   "proposal": "Apart from issues with enhancing homebuyers' roles, many developers also do not support Rera as the top regulator for redressing grievances. They argue that only Rera provides powers to both tribal members and buyers.",
+   "z_before": 3.676955262170047,
+   "z_after": 1.4509525002200234,
+   "similarity": 0.8989111185073853
+  }
+ ],
+ "calls": 1,
+ "status": "broken",
+ "sample_id": "samples_len200:42",
+ "z0": 3.676955262170047,
+ "z_start_of_repair": 3.676955262170047,
+ "z_final": 1.4509525002200234,
+ "final_span": "the former then it would have been better to let the NCLT function whereas if it's the latter, then it should be okay with Rera\", Deshpande said.\nApart from issues with enhancing homebuyers' roles, many developers also do not support Rera as the top regulator for redressing grievances. They argue that only Rera provides powers to both tribal members and buyers.\nDevraj Sharan of the project monitoring and consultancy firm Total Consultants and Builders said, \"RERA as such was not well structured and conceptualise to determine builder failures. Some of the orders that the authority has issued is vague and most of our members are not satisfied with them.\"\nthiru May 2, 2019 at 2:23 PM\nFrom the above quote it\u2019s clear the MGP member has very",
+ "queries": 5,
+ "seconds": 341.7
+}

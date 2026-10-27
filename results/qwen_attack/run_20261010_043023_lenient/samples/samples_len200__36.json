@@ -1,0 +1,287 @@
+{
+ "sample_id": "samples_len200:36",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.4609286523216308,
+ "needed_share": 0.6071628993408069,
+ "delta_needed": 0.057106808897365725,
+ "segmentation": {
+  "chars": 883,
+  "segments": 6,
+  "eligible": 3,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 407,
+  "eligible_char_share": 0.4609286523216308
+ },
+ "attack": {
+  "z0": 5.091168824543142,
+  "z_final": 1.7811762496977412,
+  "status": "broken",
+  "reason": null,
+  "passes": 3,
+  "queries": 252,
+  "seconds": 270.8,
+  "seconds_by_phase": {
+   "generate": 249.3,
+   "gates": 21.4,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 208,
+    "z_before": 5.091168824543142,
+    "z_after": 4.1823991095491815,
+    "accepted": true,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 38,
+     "after_content": 38,
+     "after_semantic": 38,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "CJK text": 5,
+      "several lines": 1,
+      "unknown word": 16
+     }
+    },
+    "queries_total": 39,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 50.01
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 108,
+    "z_before": 4.1823991095491815,
+    "z_after": 3.5270971786686034,
+    "accepted": true,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 8,
+      "perplexity too high": 12
+     }
+    },
+    "queries_total": 77,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.06
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 91,
+    "z_before": 3.5270971786686034,
+    "z_after": 2.584649371023857,
+    "accepted": true,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 42,
+     "after_spelling": 19,
+     "after_content": 19,
+     "after_semantic": 19,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "duplicate": 18,
+      "unknown word": 23
+     }
+    },
+    "queries_total": 96,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.52
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 208,
+    "z_before": 2.584649371023857,
+    "z_after": 2.321524000352037,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 14
+     }
+    },
+    "queries_total": 140,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.3
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 108,
+    "z_before": 2.321524000352037,
+    "z_after": 2.208658549625199,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "duplicate": 4,
+      "perplexity too high": 14
+     }
+    },
+    "queries_total": 182,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.58
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 91,
+    "z_before": 2.208658549625199,
+    "z_after": 2.4041630560342613,
+    "accepted": false,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 40,
+     "after_spelling": 29,
+     "after_content": 29,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "duplicate": 20,
+      "unknown word": 11,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 209,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.08
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 208,
+    "z_before": 2.208658549625199,
+    "z_after": 1.7811762496977412,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 43,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 13
+     }
+    },
+    "queries_total": 252,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 45.78
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "It also supports most common operating systems, including Windows, Linux, and Mac OS X. The driver enables a single-user-to-several-user installation according to the needs of the workgroup in large networks.",
+    "rewrite": "It supports a range of operating systems like Windows, Linux, and Mac OS X, and the driver facilitates a single license for multiple user installations based on the group size in extensive network environments."
+   },
+   "1": {
+    "original": "A key to the speed is the new driver that supports Xerox Streamnames for up to three scan engines at a time.",
+    "rewrite": "The cornerstone of the speed lies in the new driver that enables Xerox Streamnames to handle up to three scan engines simultaneously."
+   },
+   "4": {
+    "original": "The Xerox DocuMate 6710 is the next generation vehicle for an increasingly popular scanner.",
+    "rewrite": "The Xerox DocuMate 6710 represents the next generation in an expanding range of scanners."
+   }
+  },
+  "final_span": "tray flexibility make it an effective way to combine the benefits of digitalization with the need to quickly distribute large volumes of documents.\nThe cornerstone of the speed lies in the new driver that enables Xerox Streamnames to handle up to three scan engines simultaneously. It supports a range of operating systems like Windows, Linux, and Mac OS X, and the driver facilitates a single license for multiple user installations based on the group size in extensive network environments.\n\u201cJust one Xerox Streamname allows additional features that enable businesses to work faster and smarter,\u201d said Antoanela Chiorean, senior marketing manager, Xerox Europe, Middle East, and Africa.\nThe Xerox DocuMate 6710 represents the next generation in an expanding range of scanners. It\u2019s also joining a growing portfolio of intelligent devices and intelligent part sizes that capture information, and then enable",
+  "break_point": {
+   "step": 6,
+   "sentences_rewritten": 3,
+   "queries": 252
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 3,
+   "segments": 6,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 50.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 198,
+   "length_change": -3,
+   "pct_not_preserved": 21.890547263681594,
+   "pct_new": 20.707070707070706
+  },
+  "words": {
+   "original": 135,
+   "final": 139,
+   "length_change": 4,
+   "pct_not_preserved": 25.185185185185187,
+   "pct_new": 27.338129496402875
+  },
+  "characters": {
+   "original": 883,
+   "final": 908,
+   "length_change": 25,
+   "pct_not_preserved": 13.023782559456398,
+   "pct_new": 15.41850220264317
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 136,
+   "green_after": 111,
+   "pairs_before": 200,
+   "pairs_after": 197,
+   "pairs_changed_before": 61,
+   "pairs_changed_after": 58,
+   "green_fraction_of_new_pairs": 0.3103448275862069,
+   "delta_achieved": 0.1896551724137931
+  }
+ }
+}

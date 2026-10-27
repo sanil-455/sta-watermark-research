@@ -1,0 +1,276 @@
+{
+ "sample_id": "baseline_extra:27",
+ "source": "results/raw/baseline_extra.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.9363295880149812,
+ "needed_share": 0.6785878267333876,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 801,
+  "segments": 7,
+  "eligible": 6,
+  "skipped": 1,
+  "skip_reasons": {
+   "trailing fragment": 1
+  },
+  "eligible_chars": 750,
+  "eligible_char_share": 0.9363295880149812
+ },
+ "attack": {
+  "z0": 6.222539674441618,
+  "z_final": 1.741143000264028,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 186,
+  "seconds": 184.0,
+  "seconds_by_phase": {
+   "generate": 170.1,
+   "gates": 13.9,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 201,
+    "z_before": 6.222539674441618,
+    "z_after": 5.600161519565853,
+    "accepted": true,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 32,
+     "after_spelling": 32,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "duplicate": 27,
+      "CJK text": 1
+     }
+    },
+    "queries_total": 33,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.67
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 185,
+    "z_before": 5.600161519565853,
+    "z_after": 4.324175350550849,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "CJK text": 8,
+      "duplicate": 1,
+      "unknown word": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 81,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.83
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 153,
+    "z_before": 4.324175350550849,
+    "z_after": 3.0310889132455356,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "duplicate": 6,
+      "CJK text": 1,
+      "unknown word": 2,
+      "glued punctuation": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 130,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.66
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 99,
+    "z_before": 3.0310889132455356,
+    "z_after": 2.375391977470692,
+    "accepted": true,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 42,
+     "after_spelling": 39,
+     "after_content": 25,
+     "after_semantic": 25,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "duplicate": 16,
+      "CJK text": 2,
+      "unknown word": 3,
+      "negation count changed": 14,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 153,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.86
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 70,
+    "z_before": 2.375391977470692,
+    "z_after": 2.0983663553480225,
+    "accepted": true,
+    "survivors": 29,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 29,
+     "after_content": 29,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 29,
+     "rejected": {
+      "duplicate": 30,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 182,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.35
+   },
+   {
+    "pass": 1,
+    "segment": 0,
+    "chars": 42,
+    "z_before": 2.0983663553480225,
+    "z_after": 1.741143000264028,
+    "accepted": true,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 5,
+     "after_spelling": 5,
+     "after_content": 5,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "duplicate": 55,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 186,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 10.73
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "To get started, head over to the Rivercentre Shops, an official Riverwalk shopping area, to peruse stores like Marc's, the Little Store, McKenna's, and the Jimmy Bryan location of Kendra Scott Jewelry.",
+    "rewrite": "To begin, visit the Rivercentre Shops, an official Riverwalk shopping district, to browse through stores including Marc's, the Little Store, McKenna's, and the Jimmy Bryan outlet of Kendra Scott Jewelry."
+   },
+   "4": {
+    "original": "Other notable shopping options include the Yamani Museum Shops, where you can purchase souvenirs, and the many boutiques located in the surrounding King William and Southtown districts.",
+    "rewrite": "Other highlights for shoppers are the souvenirs available at the Yamani Museum Shops, along with numerous boutiques found in the nearby King William and Southtown areas."
+   },
+   "5": {
+    "original": "If you're looking for a lively night out complete with live music, head over to the Twilite Alley Bar for a night of cheap beers and cheap tequila shots.",
+    "rewrite": "If you are seeking a vibrant evening with live entertainment, check out Twilite Alley Bar for affordable beers and tequila shots."
+   },
+   "2": {
+    "original": "Whether you're looking for Texan Tex-Mex or American barbecue, you can find it along the Riverwalk.",
+    "rewrite": "Whatever your preference for Tex-Mex from Texas or barbecue from America, you'll find it along the Riverwalk."
+   },
+   "1": {
+    "original": "One of the key features of the Riverwalk is the shops and restaurants.",
+    "rewrite": "A major feature of the Riverwalk includes its shops and restaurants."
+   },
+   "0": {
+    "original": "Harry Horn that can be seen from the boat.",
+    "rewrite": "Harry Horn can be viewed from the boat."
+   }
+  },
+  "final_span": "Harry Horn can be viewed from the boat.\nA major feature of the Riverwalk includes its shops and restaurants. Whatever your preference for Tex-Mex from Texas or barbecue from America, you'll find it along the Riverwalk. To begin, visit the Rivercentre Shops, an official Riverwalk shopping district, to browse through stores including Marc's, the Little Store, McKenna's, and the Jimmy Bryan outlet of Kendra Scott Jewelry. Other highlights for shoppers are the souvenirs available at the Yamani Museum Shops, along with numerous boutiques found in the nearby King William and Southtown areas.\nIf you are seeking a vibrant evening with live entertainment, check out Twilite Alley Bar for affordable beers and tequila shots. The Casa Rio River Walk Restaurant is part of",
+  "break_point": {
+   "step": 5,
+   "sentences_rewritten": 6,
+   "queries": 186
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 6,
+   "eligible": 6,
+   "segments": 7,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 85.71428571428571
+  },
+  "tokens": {
+   "original": 201,
+   "final": 191,
+   "length_change": -10,
+   "pct_not_preserved": 32.83582089552238,
+   "pct_new": 29.31937172774869
+  },
+  "words": {
+   "original": 135,
+   "final": 122,
+   "length_change": -13,
+   "pct_not_preserved": 42.96296296296296,
+   "pct_new": 36.885245901639344
+  },
+  "characters": {
+   "original": 801,
+   "final": 768,
+   "length_change": -33,
+   "pct_not_preserved": 28.33957553058677,
+   "pct_new": 25.260416666666664
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 144,
+   "green_after": 107,
+   "pairs_before": 200,
+   "pairs_after": 190,
+   "pairs_changed_before": 93,
+   "pairs_changed_after": 83,
+   "green_fraction_of_new_pairs": 0.3614457831325301,
+   "delta_achieved": 0.13855421686746988
+  }
+ }
+}

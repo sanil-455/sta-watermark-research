@@ -1,0 +1,183 @@
+{
+ "sample_id": "baseline_safe:2",
+ "source": "results/raw/baseline_safe.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.7201051248357424,
+ "needed_share": 0.6278385362176065,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 761,
+  "segments": 5,
+  "eligible": 3,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 548,
+  "eligible_char_share": 0.7201051248357424
+ },
+ "attack": {
+  "z0": 5.374011537017761,
+  "z_final": 1.5634719199411433,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 140,
+  "seconds": 140.7,
+  "seconds_by_phase": {
+   "generate": 128.9,
+   "gates": 11.8,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 260,
+    "z_before": 5.374011537017761,
+    "z_after": 3.901704880033059,
+    "accepted": true,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "unknown word": 3
+     }
+    },
+    "queries_total": 58,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 60.29
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 173,
+    "z_before": 3.901704880033059,
+    "z_after": 2.76463669953251,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 1,
+      "meaning too different": 8,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 107,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.88
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 115,
+    "z_before": 2.76463669953251,
+    "z_after": 1.5634719199411433,
+    "accepted": true,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 1,
+      "unknown word": 2,
+      "meaning too different": 21,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 140,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.74
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "In the past, this abuse has served as the headline of Caveney\u2019s stories online and in print, and over time, he\u2019s come to tribes with his pain on debut documentaries for the BBC\u2019s Radio Days project, which are presented on the companion audio-CD to \u201cGibberish.\u201d",
+    "rewrite": "In previous years, such mistreatment featured prominently in Caveney\u2019s articles online and in magazines, eventually leading him to travel to Indigenous communities to share his struggles through inaugural BBC docudramas for the Radio Days initiative, featured on the accompanying audio-CD of \u201cGibberish.\u201d"
+   },
+   "3": {
+    "original": "But as he reaches two critical milestones, entering his 50s and 60s, he\u2019s moved away from the spectacle of the abuse and started to look at the context in which it happened.",
+    "rewrite": "Yet as he approaches two key milestones by turning 50 and 60, he has distanced himself from the public displays of abuse and begun to examine the circumstances surrounding them."
+   },
+   "1": {
+    "original": "However, after the buried soul of his father\u2019s abuse is revealed, these painful anecdotes begin to make more sense.",
+    "rewrite": "Nevertheless, once the hidden essence of his father\u2019s abuse was uncovered, these hurtful stories started to become clearer."
+   }
+  },
+  "final_span": "times when it can feel like a stretch to find Caveney\u2019s purpose in going into such painful detail about his early abuse. Nevertheless, once the hidden essence of his father\u2019s abuse was uncovered, these hurtful stories started to become clearer. In previous years, such mistreatment featured prominently in Caveney\u2019s articles online and in magazines, eventually leading him to travel to Indigenous communities to share his struggles through inaugural BBC docudramas for the Radio Days initiative, featured on the accompanying audio-CD of \u201cGibberish.\u201d Yet as he approaches two key milestones by turning 50 and 60, he has distanced himself from the public displays of abuse and begun to examine the circumstances surrounding them. So, with \u201cGibberish\u201d he\u2019s moved from pornography to an exploration of what incest, trauma",
+  "break_point": {
+   "step": 2,
+   "sentences_rewritten": 3,
+   "queries": 140
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 3,
+   "segments": 5,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 60.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 199,
+   "length_change": -2,
+   "pct_not_preserved": 37.810945273631845,
+   "pct_new": 37.1859296482412
+  },
+  "words": {
+   "original": 132,
+   "final": 126,
+   "length_change": -6,
+   "pct_not_preserved": 47.72727272727273,
+   "pct_new": 45.238095238095234
+  },
+  "characters": {
+   "original": 761,
+   "final": 817,
+   "length_change": 56,
+   "pct_not_preserved": 29.303547963206313,
+   "pct_new": 34.14932680538556
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 138,
+   "green_after": 110,
+   "pairs_before": 200,
+   "pairs_after": 198,
+   "pairs_changed_before": 107,
+   "pairs_changed_after": 105,
+   "green_fraction_of_new_pairs": 0.4380952380952381,
+   "delta_achieved": 0.06190476190476191
+  }
+ }
+}

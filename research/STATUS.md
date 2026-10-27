@@ -343,3 +343,32 @@ not by the watermark's strength. STA-1 is evaded on 6 of 9
 documents, 3 of which survive reading, using 46 to 175 detector
 queries and no watermark key, rewriting 50 to 86 percent of
 sentences in the generated span.
+
+## Module 2 on the real spans
+71 of 71 spans reassemble identically. 739 segments, 453 eligible (61%).
+Skipped: quotation 108, starts mid-sentence 66, trailing fragment 64,
+too short 24, no final punctuation 13, does not start like a sentence 8,
+URL/hashtag/handle 3. 66 of 71 spans (93%) start mid-sentence; 64 of 71
+end in a cut-off fragment. Eligible share of characters, mean (min):
+baseline_safe 57% (29), baseline_extra 61% (32), samples_len200 60% (0),
+samples_len500 70% (7). HTML entities such as &apos; occur in the spans
+(copied from C4); count them per span and per rewrite in the report.
+BOUND: rewriting a fraction f of the text with chance-level text scales
+z by (1 - f), so z = 2 needs f >= 1 - 2/z0; with selection gain delta
+(rewrite green fraction 0.5 - delta) f >= (z0-2)/(z0 + 2*delta*sqrt(T)).
+Using file-mean eligible shares as a stand-in: 19 of 46 flagged 200-token
+spans and 15 of 21 500-token spans need more than the mean eligible share
+at chance level. Per-sample version to follow from the per-span table.
+
+## Qwen paraphrase attack: final results after repair (2026-10-27)
+## 200-token spans (run folder run_20261010_043023_lenient)
+- lenient attack: **35 broken (76% of attacked)**; by the reading, 24 of those had every rewrite acceptable and 11 had at least one rewrite marked meaning changed
+- repair (strict gates, every proposal answered by you): 11 spans needed it, 11 finished (8 broken, 3 not broken), 0 not finished; your answers: yes 10, no 2, new batch 0, skip 2
+- **after repair: 32 of 46 attacked spans are broken and checked clean (70%)**; the other 14 are still detected at the paper's default threshold or have an unrepaired flagged rewrite
+- attacked spans not detected at the paper's other thresholds: z <= 1.9 31, z <= 1.5 8 (of 46)
+## 500-token spans (run folder run_20261010_061701_lenient)
+- lenient attack: **18 broken (86% of attacked)**; by the reading, 8 of those had every rewrite acceptable and 10 had at least one rewrite marked meaning changed
+- repair (strict gates, every proposal answered by you): 10 spans needed it, 10 finished (6 broken, 4 not broken), 0 not finished; your answers: yes 12, no 18, new batch 0, skip 4
+- **after repair: 14 of 21 attacked spans are broken and checked clean (67%)**; the other 7 are still detected at the paper's default threshold or have an unrepaired flagged rewrite
+- attacked spans not detected at the paper's other thresholds: z <= 1.9 12, z <= 1.5 1 (of 21)
+Full tables: results/qwen_attack/FINAL_REPORT.md and, in each run folder, PER_SPAN_FINAL.csv, PER_EDIT_FINAL.csv, DETECTION_TABLE_FINAL.csv. Quality: AI reading of the rewrites plus the author's answers during repair. The automatic NLI audit disagreed with the reading and missed most meaning changes, so it is not used as a measure.

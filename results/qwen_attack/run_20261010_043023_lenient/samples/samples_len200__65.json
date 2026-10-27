@@ -1,0 +1,152 @@
+{
+ "sample_id": "samples_len200:65",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.2734375,
+ "needed_share": 0.11611652351681556,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 768,
+  "segments": 10,
+  "eligible": 2,
+  "skipped": 8,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 4,
+   "no final punctuation": 2,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 210,
+  "eligible_char_share": 0.2734375
+ },
+ "attack": {
+  "z0": 2.262741699796952,
+  "z_final": 1.7722030125208397,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 11,
+  "seconds": 53.5,
+  "seconds_by_phase": {
+   "generate": 52.9,
+   "gates": 0.6,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 157,
+    "z_before": 2.262741699796952,
+    "z_after": 2.0767331347143556,
+    "accepted": true,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 52,
+     "after_content": 1,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "duplicate": 7,
+      "unknown word": 1,
+      "quotation changed": 49,
+      "negation count changed": 2
+     }
+    },
+    "queries_total": 2,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.76
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 53,
+    "z_before": 2.0767331347143556,
+    "z_after": 1.7722030125208397,
+    "accepted": true,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 9,
+     "after_spelling": 9,
+     "after_content": 9,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "duplicate": 51
+     }
+    },
+    "queries_total": 11,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.15
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "Offensive coordinator Pat Shurmur was impressed by the Vikings offensive line, saying they didn't make any \"catastrophes\" and they did \"an overall good job.\"",
+    "rewrite": "Offensive coordinator Pat Shurmur praised the Vikings offensive line, noting they committed no \"catastrophes\" and executed \"an overall good job.\""
+   },
+   "5": {
+    "original": "Vikings coach Mike Zimmer said of the offensive line.",
+    "rewrite": "Mike Zimmer, the Vikings' coach, commented on the offensive line."
+   }
+  },
+  "final_span": "played tough, physical. Like I said, we got some yards in the running game.\"\nSam Bradford: It's on the O-line and me to make reads, hold the ball\nOffensive coordinator Pat Shurmur praised the Vikings offensive line, noting they committed no \"catastrophes\" and executed \"an overall good job.\"\n\"You can\u2019t block for everybody, but I thought our guys did a good job of getting on the same page and working together.\" Mike Zimmer, the Vikings' coach, commented on the offensive line.\nOpponents Registered Quarterback Pressures vs Percent of Snaps\n\"You can\u2019t block for everybody, but I thought our guys did a good job of getting on the same page and working together,\" Vikings coach Mike Zimmer said. \"I don\u2019t have any hesitation to feel good about the way they blocked. It\u2019",
+  "break_point": {
+   "step": 1,
+   "sentences_rewritten": 2,
+   "queries": 11
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 2,
+   "segments": 10,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 20.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 200,
+   "length_change": -1,
+   "pct_not_preserved": 8.457711442786064,
+   "pct_new": 7.9999999999999964
+  },
+  "words": {
+   "original": 134,
+   "final": 131,
+   "length_change": -3,
+   "pct_not_preserved": 10.447761194029848,
+   "pct_new": 8.3969465648855
+  },
+  "characters": {
+   "original": 768,
+   "final": 768,
+   "length_change": 0,
+   "pct_not_preserved": 6.25,
+   "pct_new": 6.25
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 116,
+   "green_after": 112,
+   "pairs_before": 200,
+   "pairs_after": 199,
+   "pairs_changed_before": 23,
+   "pairs_changed_after": 22,
+   "green_fraction_of_new_pairs": 0.45454545454545453,
+   "delta_achieved": 0.04545454545454547
+  }
+ }
+}

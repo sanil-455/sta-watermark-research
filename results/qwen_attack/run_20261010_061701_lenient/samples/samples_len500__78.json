@@ -1,0 +1,318 @@
+{
+ "sample_id": "samples_len500:78",
+ "source": "results/raw/samples_len500.json",
+ "layout": "prompt+text",
+ "tokens": 500,
+ "eligible_share": 0.8583212032993692,
+ "needed_share": 0.7694775280928052,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2061,
+  "segments": 18,
+  "eligible": 15,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1769,
+  "eligible_char_share": 0.8583212032993692
+ },
+ "attack": {
+  "z0": 8.675943752699183,
+  "z_final": 1.6596768248601492,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 218,
+  "seconds": 322.3,
+  "seconds_by_phase": {
+   "generate": 304.7,
+   "gates": 17.5,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 15,
+    "chars": 268,
+    "z_before": 8.675943752699183,
+    "z_after": 7.766000062587661,
+    "accepted": true,
+    "survivors": 6,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 46,
+     "after_content": 8,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 6,
+     "rejected": {
+      "CJK text": 11,
+      "unknown word": 3,
+      "quotation changed": 20,
+      "negation count changed": 18,
+      "meaning too different": 2
+     }
+    },
+    "queries_total": 7,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 64.9
+   },
+   {
+    "pass": 1,
+    "segment": 16,
+    "chars": 207,
+    "z_before": 7.766000062587661,
+    "z_after": 6.516298903090796,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "CJK text": 11,
+      "unknown word": 1,
+      "meaning too different": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 52,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.23
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 189,
+    "z_before": 6.516298903090796,
+    "z_after": 5.384429329828816,
+    "accepted": true,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 5,
+      "meaning too different": 12,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 92,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.15
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 181,
+    "z_before": 5.384429329828816,
+    "z_after": 4.195425321168047,
+    "accepted": true,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 20,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "CJK text": 7,
+      "glued punctuation": 2,
+      "unknown word": 2,
+      "meaning too different": 29,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 111,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.66
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 174,
+    "z_before": 4.195425321168047,
+    "z_after": 3.136775004637546,
+    "accepted": true,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "duplicate": 1,
+      "hit length limit": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 168,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 37.96
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 131,
+    "z_before": 3.136775004637546,
+    "z_after": 2.2450662753346866,
+    "accepted": true,
+    "survivors": 12,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 12,
+     "fluency_skipped": false,
+     "after_fluency": 12,
+     "rejected": {
+      "duplicate": 3,
+      "several lines": 1,
+      "CJK text": 3,
+      "unknown word": 1,
+      "meaning too different": 40
+     }
+    },
+    "queries_total": 180,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 31.27
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 112,
+    "z_before": 2.2450662753346866,
+    "z_after": 1.6596768248601492,
+    "accepted": true,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 43,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 40,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "several lines": 3,
+      "CJK text": 12,
+      "duplicate": 2,
+      "unknown word": 1,
+      "meaning too different": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 218,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.48
+   }
+  ],
+  "rewrites": {
+   "15": {
+    "original": "There\u2019s work to be done and people to be helped as the \u201cI\u201d\u009d switches to the \u201cwe\u201d,\u009d to demonstrate that together we truly trust in God, give witness to that trust when others falter, and never allow ourselves or others to be prisoners of expectation or low self-esteem.",
+    "rewrite": "There is work to do and assistance needed as the focus shifts from \u201cI\u201d to \u201cwe,\u201d showcasing mutual trust in God, bearing witness to this trust even when others stagger, and ensuring that no one, including ourselves or others, gets trapped by expectations or low self-esteem."
+   },
+   "16": {
+    "original": "At Leo, we teach you how to spot the shells on others, so you can shine your light upon them, not to illuminate their jewelry, but to shine out the presence of the Almighty through your brilliant reflection.",
+    "rewrite": "At Leo, we guide you in recognizing the shells within others, enabling you to brighten their presence with your radiant reflection, not to highlight their jewels, but to showcase the Almighty's glow through you."
+   },
+   "9": {
+    "original": "As we survey the world, we often observe that light and love and joy seem to have been extinguished by the humorless, unmerciful, and sometimes violent behavior of our sisters and brothers.",
+    "rewrite": "As we examine the world, we frequently notice that rays of light, love, and joy appear to have been dimmed by the humorless, uncompassionate, and occasionally aggressive actions of our fellow humans."
+   },
+   "8": {
+    "original": "The prisoners, once rescued, are now citizens of judgment, capable of giving testimony to the good of our work and the contrary, should another prisoner wish to three down our path.",
+    "rewrite": "Upon rescue, the prisoners are now judges of our work, able to share insights into its benefits and drawbacks, should another prisoner seek to emulate our journey."
+   },
+   "3": {
+    "original": "We might be able to generate wealth for our clients or our bosses, but according to the prophet Isaiah, we are to be more about contributing to the wealth of our communities.",
+    "rewrite": "We could produce wealth for our clients or bosses; however, as per the prophet Isaiah, our focus should primarily be on enhancing our communities' wealth."
+   },
+   "11": {
+    "original": "They happen to us because our way of doing business, neglecting our light as citizens of creation, has caused the darkest of voids.",
+    "rewrite": "They occur due to our business practices, which overlook our responsibility as stewards of creation, leading to the deepest voids."
+   },
+   "1": {
+    "original": "From the beginning, according to Scripture, humans had a purpose that meant something, and their work had value.",
+    "rewrite": "At the outset, as per Scripture, humans possessed a purpose filled with significance, and their labor held value."
+   }
+  },
+  "final_span": "second chapter we read that God got involved, took the hand of Adam and Eve, and made a co-creator of humankind. At the outset, as per Scripture, humans possessed a purpose filled with significance, and their labor held value.\nToo often, our work has no lasting effect. We could produce wealth for our clients or bosses; however, as per the prophet Isaiah, our focus should primarily be on enhancing our communities' wealth. Isaiah tells us that we are to be people of service, not people of personal ambition. Isaiah 41:17 tells us, \u201cWhen men plot evil, they plot it for themselves\u2026 When I plan an undertaking, I plan it for my people\u201d\u009d . By caring for our brothers and sisters, we care for us. Isaiah speaks of rescuing the prisoners.\u201d Upon rescue, the prisoners are now judges of our work, able to share insights into its benefits and drawbacks, should another prisoner seek to emulate our journey.\nAs we examine the world, we frequently notice that rays of light, love, and joy appear to have been dimmed by the humorless, uncompassionate, and occasionally aggressive actions of our fellow humans. These observations are not accidents or random episodes. They occur due to our business practices, which overlook our responsibility as stewards of creation, leading to the deepest voids. Instead of being a light of love and mercy, we end up just as disconnected and disinterested as our neighbors. That\u2019s not Christian, and it\u2019s not good for business.\nTrain with us, trust your own power, and walk away from the cave! There is work to do and assistance needed as the focus shifts from \u201cI\u201d to \u201cwe,\u201d showcasing mutual trust in God, bearing witness to this trust even when others stagger, and ensuring that no one, including ourselves or others, gets trapped by expectations or low self-esteem. At Leo, we guide you in recognizing the shells within others, enabling you to brighten their presence with your radiant reflection, not to highlight their jewels, but to showcase the Almighty's glow through you. Our goal is to make lives brighter,",
+  "break_point": {
+   "step": 6,
+   "sentences_rewritten": 7,
+   "queries": 218
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 7,
+   "eligible": 15,
+   "segments": 18,
+   "pct_of_eligible": 46.666666666666664,
+   "pct_of_segments": 38.888888888888886
+  },
+  "tokens": {
+   "original": 501,
+   "final": 498,
+   "length_change": -3,
+   "pct_not_preserved": 28.742514970059887,
+   "pct_new": 28.31325301204819
+  },
+  "words": {
+   "original": 366,
+   "final": 346,
+   "length_change": -20,
+   "pct_not_preserved": 35.79234972677595,
+   "pct_new": 32.08092485549133
+  },
+  "characters": {
+   "original": 2061,
+   "final": 2042,
+   "length_change": -19,
+   "pct_not_preserved": 27.07423580786026,
+   "pct_new": 26.395690499510284
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 347,
+   "green_after": 267,
+   "pairs_before": 500,
+   "pairs_after": 497,
+   "pairs_changed_before": 209,
+   "pairs_changed_after": 206,
+   "green_fraction_of_new_pairs": 0.3737864077669903,
+   "delta_achieved": 0.1262135922330097
+  }
+ }
+}

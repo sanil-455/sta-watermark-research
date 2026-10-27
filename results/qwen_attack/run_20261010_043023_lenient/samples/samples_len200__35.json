@@ -1,0 +1,218 @@
+{
+ "sample_id": "samples_len200:35",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.8668442077230359,
+ "needed_share": 0.6632824851492631,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 751,
+  "segments": 10,
+  "eligible": 8,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 651,
+  "eligible_char_share": 0.8668442077230359
+ },
+ "attack": {
+  "z0": 5.939696961966999,
+  "z_final": 1.346874289515838,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 150,
+  "seconds": 122.4,
+  "seconds_by_phase": {
+   "generate": 110.9,
+   "gates": 11.4,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 164,
+    "z_before": 5.939696961966999,
+    "z_after": 4.643743795219926,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 5,
+      "duplicate": 2,
+      "unknown word": 1,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 52,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.55
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 107,
+    "z_before": 4.643743795219926,
+    "z_after": 2.984810028978546,
+    "accepted": true,
+    "survivors": 24,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 29,
+     "after_spelling": 29,
+     "after_content": 29,
+     "after_semantic": 28,
+     "fluency_skipped": false,
+     "after_fluency": 24,
+     "rejected": {
+      "several lines": 2,
+      "duplicate": 26,
+      "CJK text": 3,
+      "meaning too different": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 76,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.09
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 95,
+    "z_before": 2.984810028978546,
+    "z_after": 2.2857142857142856,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "duplicate": 2,
+      "unknown word": 6,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 126,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.44
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 69,
+    "z_before": 2.2857142857142856,
+    "z_after": 1.346874289515838,
+    "accepted": true,
+    "survivors": 24,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 52,
+     "after_content": 50,
+     "after_semantic": 28,
+     "fluency_skipped": false,
+     "after_fluency": 24,
+     "rejected": {
+      "duplicate": 7,
+      "unknown word": 1,
+      "negation count changed": 2,
+      "meaning too different": 22,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 150,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.85
+   }
+  ],
+  "rewrites": {
+   "8": {
+    "original": "And I've been conditioned to only use the lower half of the screen for typing, so to me the higher end type of screens - although extremely useful - don't fit well.",
+    "rewrite": "I have been conditioned to use solely the lower half of the screen for typing, thus for me, even though higher-end types are very useful, they do not quite match my habits."
+   },
+   "7": {
+    "original": "Using a 4 inch screen on the other hand fits comfortably in your hand, and works for long reading sessions.",
+    "rewrite": "A 4-inch screen, by contrast, is comfortable to hold and suitable for extended reading periods."
+   },
+   "1": {
+    "original": "If Samsung/HTC/whoever is going to put my large screen on this phone, I'll happily switch over.",
+    "rewrite": "Should Samsung/HTC/whoever place a large screen on this phone, I'll happily make the switch."
+   },
+   "3": {
+    "original": "You don't mind the tiny ones because you've already owned the iPhone.",
+    "rewrite": "You aren't bothered by the smaller models since you have already invested in an iPhone."
+   }
+  },
+  "final_span": "phone if every phone maxed out at 4.3 inches or something.\nShould Samsung/HTC/whoever place a large screen on this phone, I'll happily make the switch.\nI don't mind the HUGE phones, I mind the tiny ones.\nYou aren't bothered by the smaller models since you have already invested in an iPhone.\nTotally different experience for people who've gone from a 4 to a 4S. Using the same phone size suddenly looks enormous. Like small cars after you get used to a Prius. A 4-inch screen, by contrast, is comfortable to hold and suitable for extended reading periods. I have been conditioned to use solely the lower half of the screen for typing, thus for me, even though higher-end types are very useful, they do not quite match my habits.\nAnd I've been conditioned to only",
+  "break_point": {
+   "step": 3,
+   "sentences_rewritten": 4,
+   "queries": 150
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 4,
+   "eligible": 8,
+   "segments": 10,
+   "pct_of_eligible": 50.0,
+   "pct_of_segments": 40.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 200,
+   "length_change": -1,
+   "pct_not_preserved": 26.368159203980102,
+   "pct_new": 26.0
+  },
+  "words": {
+   "original": 139,
+   "final": 135,
+   "length_change": -4,
+   "pct_not_preserved": 38.12949640287769,
+   "pct_new": 36.29629629629629
+  },
+  "characters": {
+   "original": 751,
+   "final": 762,
+   "length_change": 11,
+   "pct_not_preserved": 18.908122503328894,
+   "pct_new": 20.07874015748031
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 142,
+   "green_after": 109,
+   "pairs_before": 200,
+   "pairs_after": 199,
+   "pairs_changed_before": 77,
+   "pairs_changed_after": 76,
+   "green_fraction_of_new_pairs": 0.32894736842105265,
+   "delta_achieved": 0.17105263157894735
+  }
+ }
+}

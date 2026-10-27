@@ -1,0 +1,121 @@
+{
+ "sample_id": "samples_len200:69",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.7479289940828402,
+ "needed_share": 0.35717565346677504,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 845,
+  "segments": 6,
+  "eligible": 4,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 632,
+  "eligible_char_share": 0.7479289940828402
+ },
+ "attack": {
+  "z0": 3.111269837220809,
+  "z_final": 1.7811762496977412,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 54,
+  "seconds": 59.4,
+  "seconds_by_phase": {
+   "generate": 54.5,
+   "gates": 4.8,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 237,
+    "z_before": 3.111269837220809,
+    "z_after": 1.7811762496977412,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 2,
+      "several lines": 1,
+      "unknown word": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 54,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.55
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "Yet, the U.S. failed repeatedly to ratify a protocol that would penalize parents who send their children on perilous journeys to the U.S. To prevent further suffering, we must, at a minimum, be in compliance with the original convention.",
+    "rewrite": "Nevertheless, the U.S. repeatedly declined to ratify a protocol intended to penalize parents for sending their children on dangerous trips to the U.S. To halt additional suffering, we must, at the very least, adhere to the initial convention."
+   }
+  },
+  "final_span": "aren\u2019t coming to court, Detention Watch Network reported that child protection teams in states like California can help children without interfering with their ability to work with sponsors.\nDetention deters little, harms youth and is inconsistent with children\u2019s rights as described in the UN Convention on the Rights of the Child, which governs the U.S. The United States was an early adopter of the treaty in 1995. Nevertheless, the U.S. repeatedly declined to ratify a protocol intended to penalize parents for sending their children on dangerous trips to the U.S. To halt additional suffering, we must, at the very least, adhere to the initial convention. And we must make sure we release kids who are eligible for reunification with their families.\nJuvenile justice reform is in many ways a mirror of the immigration tragedy. Mass incarceration",
+  "break_point": {
+   "step": 0,
+   "sentences_rewritten": 1,
+   "queries": 54
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 1,
+   "eligible": 4,
+   "segments": 6,
+   "pct_of_eligible": 25.0,
+   "pct_of_segments": 16.666666666666668
+  },
+  "tokens": {
+   "original": 201,
+   "final": 198,
+   "length_change": -3,
+   "pct_not_preserved": 10.945273631840791,
+   "pct_new": 9.595959595959592
+  },
+  "words": {
+   "original": 137,
+   "final": 136,
+   "length_change": -1,
+   "pct_not_preserved": 12.408759124087588,
+   "pct_new": 11.764705882352944
+  },
+  "characters": {
+   "original": 845,
+   "final": 850,
+   "length_change": 5,
+   "pct_not_preserved": 8.047337278106504,
+   "pct_new": 8.588235294117652
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 122,
+   "green_after": 111,
+   "pairs_before": 200,
+   "pairs_after": 197,
+   "pairs_changed_before": 32,
+   "pairs_changed_after": 29,
+   "green_fraction_of_new_pairs": 0.3448275862068966,
+   "delta_achieved": 0.15517241379310343
+  }
+ }
+}

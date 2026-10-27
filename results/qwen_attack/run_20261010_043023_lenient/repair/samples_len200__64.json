@@ -1,0 +1,41 @@
+{
+ "repl": {
+  "5": "When I first learned of a key hire who was not gender diverse, I inquired of the person who was my supervisor about it.",
+  "3": "Is there anyone who doesn't feel relaxed when an office jester makes light of their mistake?",
+  "2": "It can swiftly de-escalate a cumbersome, overly signaling situation.",
+  "1": "A thoughtfully delivered zinger is a potent tool."
+ },
+ "provenance": {
+  "5": "kept from the reading",
+  "3": "kept from the reading",
+  "2": "kept from the reading",
+  "1": "approved by the user"
+ },
+ "old_bad": {
+  "8": "At Wall Street, I discovered that even the highest levels imbue humor into everyday operations."
+ },
+ "rejected": {},
+ "skipped": [
+  8,
+  4
+ ],
+ "decisions": [
+  {
+   "segment": 1,
+   "answer": "y",
+   "proposal": "A thoughtfully delivered zinger is a potent tool.",
+   "z_before": 2.0354009783964297,
+   "z_after": 1.8950284971277105,
+   "similarity": 0.8820350170135498
+  }
+ ],
+ "calls": 9,
+ "status": "broken",
+ "sample_id": "samples_len200:64",
+ "z0": 4.1012193308819755,
+ "z_start_of_repair": 2.0354009783964297,
+ "z_final": 1.8950284971277105,
+ "final_span": "tense if I had instead expressed an offense taken.\nA thoughtfully delivered zinger is a potent tool. It can swiftly de-escalate a cumbersome, overly signaling situation. Is there anyone who doesn't feel relaxed when an office jester makes light of their mistake? In a meeting with a group that\u2019s approaching my territory, I once used humor to let the group know that I intended to be \u201cadministering policy\u201d rather than in a \u201cselling\u201d role. When I first learned of a key hire who was not gender diverse, I inquired of the person who was my supervisor about it. He said, \u201cYou\u2019ll like him.\u201d Without even a moment to breathe I had responded: \u201cYou know me too well,\u201d an awkward moment avoided.\nWorking on Wall Street, I learned about humor from the very top. I had the privilege to sit across from the legendary leader",
+ "queries": 22,
+ "seconds": 221.8
+}

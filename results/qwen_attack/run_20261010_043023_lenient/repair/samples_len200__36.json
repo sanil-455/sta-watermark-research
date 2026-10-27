@@ -1,0 +1,45 @@
+{
+ "repl": {
+  "1": "The cornerstone of the speed lies in the new driver that enables Xerox Streamnames to handle up to three scan engines simultaneously.",
+  "2": "It supports various common operating systems like Windows, Linux, and Mac OS X. The driver facilitates a configuration from a single user to multiple users based on the workgroup needs in large networks.",
+  "4": "The Xerox DocuMate 6710 represents the next step in scanners that are becoming more and more popular."
+ },
+ "provenance": {
+  "1": "kept from the reading",
+  "2": "approved by the user",
+  "4": "approved by the user"
+ },
+ "old_bad": {
+  "2": "It supports a range of operating systems like Windows, Linux, and Mac OS X, and the driver facilitates a single license for multiple user installations based on the group size in extensive network environments.",
+  "4": "The Xerox DocuMate 6710 represents the next generation in an expanding range of scanners."
+ },
+ "rejected": {},
+ "skipped": [],
+ "decisions": [
+  {
+   "segment": 2,
+   "answer": "y",
+   "proposal": "It supports various common operating systems like Windows, Linux, and Mac OS X. The driver facilitates a configuration from a single user to multiple users based on the workgroup needs in large networks.",
+   "z_before": 4.302608256737449,
+   "z_after": 3.222516933177448,
+   "similarity": 0.959162712097168
+  },
+  {
+   "segment": 4,
+   "answer": "y",
+   "proposal": "The Xerox DocuMate 6710 represents the next step in scanners that are becoming more and more popular.",
+   "z_before": 3.222516933177448,
+   "z_after": 2.274140974459845,
+   "similarity": 0.8827789425849915
+  }
+ ],
+ "calls": 2,
+ "status": "not broken: no accepted proposal got z under 2.0",
+ "sample_id": "samples_len200:36",
+ "z0": 5.091168824543142,
+ "z_start_of_repair": 4.302608256737449,
+ "z_final": 2.274140974459845,
+ "final_span": "tray flexibility make it an effective way to combine the benefits of digitalization with the need to quickly distribute large volumes of documents.\nThe cornerstone of the speed lies in the new driver that enables Xerox Streamnames to handle up to three scan engines simultaneously. It supports various common operating systems like Windows, Linux, and Mac OS X. The driver facilitates a configuration from a single user to multiple users based on the workgroup needs in large networks.\n\u201cJust one Xerox Streamname allows additional features that enable businesses to work faster and smarter,\u201d said Antoanela Chiorean, senior marketing manager, Xerox Europe, Middle East, and Africa.\nThe Xerox DocuMate 6710 represents the next step in scanners that are becoming more and more popular. It\u2019s also joining a growing portfolio of intelligent devices and intelligent part sizes that capture information, and then enable",
+ "queries": 47,
+ "seconds": 270.6
+}

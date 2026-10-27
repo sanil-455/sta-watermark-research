@@ -1,0 +1,122 @@
+{
+ "started": "2026-10-10 04:30:32",
+ "ended": "2026-10-10 06:16:56",
+ "args": {
+  "files": [
+   "results/raw/baseline_safe.json",
+   "results/raw/baseline_extra.json",
+   "results/raw/samples_len200.json"
+  ],
+  "preset": "lenient",
+  "semantic": null,
+  "fluency": null,
+  "names": false,
+  "no_spelling": false,
+  "n_cands": 60,
+  "seed": 0,
+  "only": null,
+  "max_minutes": 0,
+  "resume": null,
+  "command": "research/qwen_attack/run_attack.py --files results/raw/baseline_safe.json results/raw/baseline_extra.json results/raw/samples_len200.json"
+ },
+ "gates": {
+  "config": {
+   "semantic": 0.75,
+   "fluency": 1.8,
+   "min_for_fluency": 3,
+   "spelling": true,
+   "max_unknown": 0,
+   "check_numbers": true,
+   "check_quotes": true,
+   "check_negations": true,
+   "check_names": false
+  },
+  "wordnet": true
+ },
+ "attack_config": {
+  "n_cands": 60,
+  "seed": 0,
+  "max_minutes": 0
+ },
+ "segmentation": {
+  "min_chars": 30,
+  "quote_words": 4,
+  "abbreviations": 50
+ },
+ "model": {
+  "repo": "Qwen/Qwen2.5-7B-Instruct",
+  "revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "architectures": [
+   "Qwen2ForCausalLM"
+  ],
+  "parameters_exact": 7615616512,
+  "parameters_reported_by_transformers": 7615616512,
+  "parameters_agree": true,
+  "stored_elements_by_dtype": {
+   "torch.bfloat16": 1090328064,
+   "torch.uint8": 3262644224
+  },
+  "hidden_size": 3584,
+  "layers": 28,
+  "attention_heads": 28,
+  "kv_heads": 4,
+  "intermediate_size": 18944,
+  "vocab_size": 152064,
+  "context_length": 32768,
+  "quantization": {
+   "quant_method": "bitsandbytes",
+   "_load_in_8bit": false,
+   "_load_in_4bit": true,
+   "llm_int8_threshold": 6.0,
+   "llm_int8_skip_modules": null,
+   "llm_int8_enable_fp32_cpu_offload": false,
+   "llm_int8_has_fp16_weight": false,
+   "bnb_4bit_quant_type": "nf4",
+   "bnb_4bit_use_double_quant": true,
+   "bnb_4bit_compute_dtype": "float16",
+   "bnb_4bit_quant_storage": "uint8",
+   "load_in_4bit": true,
+   "load_in_8bit": false
+  },
+  "memory_footprint_gib": 5.07,
+  "gpu_allocated_gib": 5.26,
+  "gpu_reserved_gib": 5.35,
+  "load_seconds": 4.9,
+  "settings": {
+   "temperature": 1.5,
+   "top_p": 0.98,
+   "top_k": 20,
+   "repetition_penalty": 1.05,
+   "batch": 4,
+   "length_factor": 2.0,
+   "extra_tokens": 32
+  },
+  "stop_token_ids": [
+   151643,
+   151645
+  ],
+  "versions": {
+   "torch": "2.7.1+cu128",
+   "transformers": "5.17.0",
+   "bitsandbytes": "0.50.2",
+   "accelerate": "1.15.0"
+  }
+ },
+ "minilm": {
+  "name": "sentence-transformers/all-MiniLM-L6-v2",
+  "parameters": 22713216
+ },
+ "generator_parameters": "6,738,415,616",
+ "generation_run": {
+  "kept": 37,
+  "too_short": 13,
+  "skipped_long": 11,
+  "oom_events": 0
+ },
+ "environment": {
+  "git_commit": "adf6cc65c7fdc046f185d04c94ff87d1ed91573d",
+  "gpu": "Quadro RTX 5000",
+  "python": "3.11.16"
+ },
+ "peak_gpu": "allocated 5.48 GiB, reserved 5.55 GiB"
+}

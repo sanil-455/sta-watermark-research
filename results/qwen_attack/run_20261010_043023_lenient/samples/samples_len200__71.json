@@ -1,0 +1,84 @@
+{
+ "sample_id": "samples_len200:71",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.0,
+ "needed_share": 0.5959389821791157,
+ "delta_needed": null,
+ "segmentation": {
+  "chars": 836,
+  "segments": 6,
+  "eligible": 0,
+  "skipped": 6,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 4,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 0,
+  "eligible_char_share": 0.0
+ },
+ "attack": {
+  "z0": 4.949747468305833,
+  "z_final": 4.949747468305833,
+  "status": "no eligible text",
+  "reason": "no eligible text",
+  "passes": 0,
+  "queries": 1,
+  "seconds": 0.0,
+  "seconds_by_phase": {
+   "generate": 0.0,
+   "gates": 0.0,
+   "detector": 0.0
+  },
+  "steps": [],
+  "rewrites": {},
+  "final_span": "after a country park or protecting a wetland habitat, should a conservation charity which specialises in that also have responsibility for monitoring and reviewing the process of the farmer doing that and judging him?\u201d\nMr Duffy said: \u201cAs landowners and farmers, I think there is a lot at stake here and we do want to be kind to the countryside.\n\u201cNinety per cent of the country in agricultural land which is farmed privately so, basically, we are paid for looking after it.\n\u201cWe are small businesses and I think it is fair to say we have a proud record of doing it, but we do need to come up with new ways of working.\u201d\nMr Ward said farmers \u201cdon\u2019t necessarily have the skills\u201d in making environmental improvements on an estate-wide base to match the scientific expertise of environmental groups.\n\u201cThere is a balance, if part of the fund is",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 0,
+   "eligible": 0,
+   "segments": 6,
+   "pct_of_eligible": 0.0,
+   "pct_of_segments": 0.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 201,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "words": {
+   "original": 149,
+   "final": 149,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "characters": {
+   "original": 836,
+   "final": 836,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 135,
+   "green_after": 135,
+   "pairs_before": 200,
+   "pairs_after": 200,
+   "pairs_changed_before": 0,
+   "pairs_changed_after": 0,
+   "green_fraction_of_new_pairs": null,
+   "delta_achieved": null
+  }
+ }
+}

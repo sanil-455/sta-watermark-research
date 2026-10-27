@@ -1,0 +1,38 @@
+{
+ "repl": {
+  "3": "Five minutes before halftime, TFC's situation deteriorated when Giovinco and Altidore were foiled by the encroaching referee; a goal kick was granted, and Montreal scored again almost instantly.",
+  "4": "TFC midfielder Benoit Cheyrou committed a foul on Piatti, providing an opportunity for Impact's substitute, Romualdo, to unleash a high free kick towards the north end goal.",
+  "6": "In the brief moments left before halftime, Giovinco executed a free kick that bypassed the wall and hit the left post.",
+  "1": "It seemed as ominous as anyone-but-Toronto chanting during the Impact's games by Sigi Schmid."
+ },
+ "provenance": {
+  "3": "kept from the reading",
+  "4": "kept from the reading",
+  "6": "kept from the reading",
+  "1": "approved by the user"
+ },
+ "old_bad": {
+  "1": "It seemed just as ominous as any chants against Sigi Schmid by the Impact fans."
+ },
+ "rejected": {},
+ "skipped": [],
+ "decisions": [
+  {
+   "segment": 1,
+   "answer": "y",
+   "proposal": "It seemed as ominous as anyone-but-Toronto chanting during the Impact's games by Sigi Schmid.",
+   "z_before": 2.0701966780270626,
+   "z_after": 0.8949569080679686,
+   "similarity": 0.9092566967010498
+  }
+ ],
+ "calls": 1,
+ "status": "broken",
+ "sample_id": "samples_len200:61",
+ "z0": 5.091168824543142,
+ "z_start_of_repair": 2.0701966780270626,
+ "z_final": 0.8949569080679686,
+ "final_span": "the ball home. It seemed as ominous as anyone-but-Toronto chanting during the Impact's games by Sigi Schmid.\nWhat did the MLS notebook contain\nFive minutes before halftime, TFC's situation deteriorated when Giovinco and Altidore were foiled by the encroaching referee; a goal kick was granted, and Montreal scored again almost instantly.\nTFC midfielder Benoit Cheyrou committed a foul on Piatti, providing an opportunity for Impact's substitute, Romualdo, to unleash a high free kick towards the north end goal.\nOn the next kick, Piatti sent a game-sealing volley sailing just wide.\nIn the brief moments left before halftime, Giovinco executed a free kick that bypassed the wall and hit the left post. Soon thereafter, he took a hand in the damage he'd helped prevent in the Old",
+ "queries": 22,
+ "seconds": 250.0
+}

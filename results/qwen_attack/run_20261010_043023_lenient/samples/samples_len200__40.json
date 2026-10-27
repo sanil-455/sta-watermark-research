@@ -1,0 +1,111 @@
+{
+ "sample_id": "samples_len200:40",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.21363636363636362,
+ "needed_share": 0.5123401509058293,
+ "delta_needed": 0.20273725135948842,
+ "segmentation": {
+  "chars": 880,
+  "segments": 3,
+  "eligible": 1,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 188,
+  "eligible_char_share": 0.21363636363636362
+ },
+ "attack": {
+  "z0": 4.1012193308819755,
+  "z_final": 4.1012193308819755,
+  "status": "stalled",
+  "reason": "no candidate passed the gates",
+  "passes": 1,
+  "queries": 1,
+  "seconds": 37.4,
+  "seconds_by_phase": {
+   "generate": 37.4,
+   "gates": 0.0,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 188,
+    "z_before": 4.1012193308819755,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 50,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 7,
+      "negation count changed": 50
+     }
+    },
+    "queries_total": 1,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.42
+   }
+  ],
+  "rewrites": {},
+  "final_span": "to endeavour to make as much money as possible from the charges made on local residents and which visitors must pay, anyone who visits my constituency will be well aware that currently there are very few Local Authorities who do not make a charge to park, most of them charge a lot of money for an average family car; streets with alternate side parking are typically liable to a charge, according to Calderdale\u2019s Freedom of Information requirements, over the last few years they have made a total additional income from expiring bus lane tickets, on street and off street penalties of some \u00a36million - it begs the question, how come they need even more?\u201d he said.\nCllr Isobel Aspinall said that the Council must do everything they can to ensure that they don\u2019t end up with a parking charge disorder in Calderdale if the extra money is really not there.\nBradford have been without",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 0,
+   "eligible": 1,
+   "segments": 3,
+   "pct_of_eligible": 0.0,
+   "pct_of_segments": 0.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 201,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "words": {
+   "original": 154,
+   "final": 154,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "characters": {
+   "original": 880,
+   "final": 880,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 129,
+   "green_after": 129,
+   "pairs_before": 200,
+   "pairs_after": 200,
+   "pairs_changed_before": 0,
+   "pairs_changed_after": 0,
+   "green_fraction_of_new_pairs": null,
+   "delta_achieved": null
+  }
+ }
+}

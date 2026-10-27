@@ -1,0 +1,150 @@
+{
+ "sample_id": "samples_len200:86",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.5577342047930284,
+ "needed_share": 0.4107443490112104,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 918,
+  "segments": 11,
+  "eligible": 5,
+  "skipped": 6,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "too short": 3,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 512,
+  "eligible_char_share": 0.5577342047930284
+ },
+ "attack": {
+  "z0": 3.394112549695428,
+  "z_final": 1.7722030125208397,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 81,
+  "seconds": 54.8,
+  "seconds_by_phase": {
+   "generate": 49.3,
+   "gates": 5.5,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 139,
+    "z_before": 3.394112549695428,
+    "z_after": 2.6870057685088806,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "duplicate": 5,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 54,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.07
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 125,
+    "z_before": 2.6870057685088806,
+    "z_after": 1.7722030125208397,
+    "accepted": true,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 27,
+     "after_content": 27,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "duplicate": 33
+     }
+    },
+    "queries_total": 81,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.24
+   }
+  ],
+  "rewrites": {
+   "8": {
+    "original": "Are financial services companies \u2014 such as banks and investment firms \u2014 well on their way to elevating digital in their corporate strategy?",
+    "rewrite": "Do financial services firms, including banks and investment houses, already regard digital enhancement as a key part of their corporate strategy?"
+   },
+   "2": {
+    "original": "In a recent article, we outlined five examples of digital transformation in healthcare: Online screening and self-monitoring.",
+    "rewrite": "Recently, an article highlighted five examples of digital transformation in healthcare: Online screening and self-monitoring."
+   }
+  },
+  "final_span": "\u2019s presence in the corporate C-suite is the appearance of the Chief Digital Officer (CDO) title. The CDO must identify and champion the digital overhaul imperative for the company.\nRecently, an article highlighted five examples of digital transformation in healthcare: Online screening and self-monitoring. Integrated communication and collaboration platforms. Digital data analysis. Embedded devices. And online training.\nIf healthcare is in the throes of digital transformation\u2019s throes, what about its companion, financial services? Do financial services firms, including banks and investment houses, already regard digital enhancement as a key part of their corporate strategy?\nIn a recent Skender podcast, during the episode labeled \u201cGlobal Tech Innovation on the Fringes,\u201d host Marissa Mateo asked Skender Founder and CEO Grant Gregson some pointed questions about digital transformation in financial services.\nGregson",
+  "break_point": {
+   "step": 1,
+   "sentences_rewritten": 2,
+   "queries": 81
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 5,
+   "segments": 11,
+   "pct_of_eligible": 40.0,
+   "pct_of_segments": 18.181818181818183
+  },
+  "tokens": {
+   "original": 201,
+   "final": 200,
+   "length_change": -1,
+   "pct_not_preserved": 11.442786069651746,
+   "pct_new": 10.999999999999998
+  },
+  "words": {
+   "original": 133,
+   "final": 129,
+   "length_change": -4,
+   "pct_not_preserved": 15.037593984962406,
+   "pct_new": 12.4031007751938
+  },
+  "characters": {
+   "original": 918,
+   "final": 924,
+   "length_change": 6,
+   "pct_not_preserved": 7.189542483660127,
+   "pct_new": 7.792207792207795
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 124,
+   "green_after": 112,
+   "pairs_before": 200,
+   "pairs_after": 199,
+   "pairs_changed_before": 29,
+   "pairs_changed_after": 28,
+   "green_fraction_of_new_pairs": 0.2857142857142857,
+   "delta_achieved": 0.2142857142857143
+  }
+ }
+}

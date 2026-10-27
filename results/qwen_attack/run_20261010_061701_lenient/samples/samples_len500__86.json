@@ -1,0 +1,399 @@
+{
+ "sample_id": "samples_len500:86",
+ "source": "results/raw/samples_len500.json",
+ "layout": "prompt+text",
+ "tokens": 500,
+ "eligible_share": 0.6163038839095177,
+ "needed_share": 0.7057805292763435,
+ "delta_needed": 0.022067766325733967,
+ "segmentation": {
+  "chars": 2343,
+  "segments": 22,
+  "eligible": 14,
+  "skipped": 8,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "too short": 4,
+   "quotation": 3
+  },
+  "eligible_chars": 1444,
+  "eligible_char_share": 0.6163038839095177
+ },
+ "attack": {
+  "z0": 6.7976466515993605,
+  "z_final": 1.9677398201998149,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 304,
+  "seconds": 253.2,
+  "seconds_by_phase": {
+   "generate": 231.9,
+   "gates": 21.0,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 14,
+    "chars": 149,
+    "z_before": 6.7976466515993605,
+    "z_after": 6.5544060423953345,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "duplicate": 5,
+      "CJK text": 4,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 48,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.19
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 139,
+    "z_before": 6.5544060423953345,
+    "z_after": 6.108528080327624,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "duplicate": 5,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 101,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.1
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 138,
+    "z_before": 6.108528080327624,
+    "z_after": 5.5454485841994785,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 7,
+      "duplicate": 4
+     }
+    },
+    "queries_total": 150,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.24
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 125,
+    "z_before": 5.5454485841994785,
+    "z_after": 4.9690424394978825,
+    "accepted": true,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 27,
+     "after_content": 27,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "duplicate": 33
+     }
+    },
+    "queries_total": 177,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.27
+   },
+   {
+    "pass": 1,
+    "segment": 16,
+    "chars": 119,
+    "z_before": 4.9690424394978825,
+    "z_after": 4.521380958462037,
+    "accepted": true,
+    "survivors": 15,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 17,
+     "after_spelling": 17,
+     "after_content": 17,
+     "after_semantic": 16,
+     "fluency_skipped": false,
+     "after_fluency": 15,
+     "rejected": {
+      "duplicate": 43,
+      "meaning too different": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 192,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.1
+   },
+   {
+    "pass": 1,
+    "segment": 20,
+    "chars": 113,
+    "z_before": 4.521380958462037,
+    "z_after": 3.9354796403996297,
+    "accepted": true,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 38,
+     "after_spelling": 20,
+     "after_content": 20,
+     "after_semantic": 20,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "CJK text": 6,
+      "duplicate": 15,
+      "several lines": 1,
+      "unknown word": 18,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 210,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.32
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 112,
+    "z_before": 3.9354796403996297,
+    "z_after": 3.4952635765961224,
+    "accepted": true,
+    "survivors": 15,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 16,
+     "after_spelling": 15,
+     "after_content": 15,
+     "after_semantic": 15,
+     "fluency_skipped": false,
+     "after_fluency": 15,
+     "rejected": {
+      "duplicate": 44,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 225,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.63
+   },
+   {
+    "pass": 1,
+    "segment": 21,
+    "chars": 102,
+    "z_before": 3.4952635765961224,
+    "z_after": 3.0471528616479016,
+    "accepted": true,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 33,
+     "after_spelling": 32,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "duplicate": 27,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 256,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.58
+   },
+   {
+    "pass": 1,
+    "segment": 18,
+    "chars": 100,
+    "z_before": 3.0471528616479016,
+    "z_after": 2.3255106965997814,
+    "accepted": true,
+    "survivors": 20,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 34,
+     "after_content": 34,
+     "after_semantic": 21,
+     "fluency_skipped": false,
+     "after_fluency": 20,
+     "rejected": {
+      "duplicate": 26,
+      "meaning too different": 13,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 276,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.53
+   },
+   {
+    "pass": 1,
+    "segment": 19,
+    "chars": 97,
+    "z_before": 2.3255106965997814,
+    "z_after": 1.9677398201998149,
+    "accepted": true,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 32,
+     "after_spelling": 29,
+     "after_content": 29,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "several lines": 1,
+      "duplicate": 25,
+      "CJK text": 2,
+      "unknown word": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 304,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.95
+   }
+  ],
+  "rewrites": {
+   "14": {
+    "original": "All of these examples fall into the digital disruption end of the digital transformation spectrum, maybe even the digital disruption spectrum itself.",
+    "rewrite": "All these examples belong at the digital disruption end of the digital transformation spectrum, perhaps even encompassing the entire digital disruption spectrum."
+   },
+   "8": {
+    "original": "Are financial services companies \u2014 such as banks and investment firms \u2014 well on their way to elevating digital in their corporate strategy?",
+    "rewrite": "Do financial services firms, including banks and investment houses, already regard digital enhancement as a key part of their corporate strategy?"
+   },
+   "12": {
+    "original": "Airbnb and Uber, classic technology companies, have provided much better user experiences than traditional hotel brands and taxi services.",
+    "rewrite": "Tech giants Airbnb and Uber have significantly improved user experiences compared to conventional hotels and taxis."
+   },
+   "2": {
+    "original": "In a recent article, we outlined five examples of digital transformation in healthcare: Online screening and self-monitoring.",
+    "rewrite": "Recently, an article highlighted five examples of digital transformation in healthcare: Online screening and self-monitoring."
+   },
+   "16": {
+    "original": "These disruptors aren\u2019t the only ones taking a more digital-first approach to customer experience or business strategy.",
+    "rewrite": "Such disruptors are not the sole entities adopting a more digital-first approach to customer experience or business strategy."
+   },
+   "20": {
+    "original": "And nearly all non-financial technology companies have the digital focus to be able to compete with the fintechs.",
+    "rewrite": "Almost every non-financial tech firm possesses a digital focus that enables them to compete against fintechs."
+   },
+   "7": {
+    "original": "If healthcare is in the throes of digital transformation\u2019s throes, what about its companion, financial services?",
+    "rewrite": "As healthcare undergoes a digital transformation, how is its counterpart, financial services, faring?"
+   },
+   "21": {
+    "original": "In other words, they are taking digital-first approaches to customer experience and business strategy.",
+    "rewrite": "They are adopting a digital-first perspective for customer experience and business strategy, essentially."
+   },
+   "18": {
+    "original": "More established players in the financial services market are creating their own digital disruptors.",
+    "rewrite": "Long-established participants in the financial services industry are developing their own digital challengers."
+   },
+   "19": {
+    "original": "These include banks and financial institutions that are trying to compete with fintechs, he said.",
+    "rewrite": "He said these include banks and financial institutions that are striving to compete with fintechs."
+   }
+  },
+  "final_span": "\u2019s presence in the corporate C-suite is the appearance of the Chief Digital Officer (CDO) title. The CDO must identify and champion the digital overhaul imperative for the company.\nRecently, an article highlighted five examples of digital transformation in healthcare: Online screening and self-monitoring. Integrated communication and collaboration platforms. Digital data analysis. Embedded devices. And online training.\nAs healthcare undergoes a digital transformation, how is its counterpart, financial services, faring? Do financial services firms, including banks and investment houses, already regard digital enhancement as a key part of their corporate strategy?\nIn a recent Skender podcast, during the episode labeled \u201cGlobal Tech Innovation on the Fringes,\u201d host Marissa Mateo asked Skender Founder and CEO Grant Gregson some pointed questions about digital transformation in financial services.\nGregson began the chat with an explanation of digital disruption \u2014 and contrary to the tech three-letter abbreviations we come to associate with digital \u2014 what digital disruption really means is, and what it has always meant, is disruption versus transformation.\u201d\nTwo examples of digital disruptors? Tech giants Airbnb and Uber have significantly improved user experiences compared to conventional hotels and taxis. And what about the relatively new financial technology firms known as fintechs?\nAll these examples belong at the digital disruption end of the digital transformation spectrum, perhaps even encompassing the entire digital disruption spectrum.\nGregson, referencing the World Economic Forum\u2019s \u201c2017 Global Agenda Council on the Future of Financial and Monetary Systems,\u201d calls them \u201csuper publishers,\u201d which is, yes, yet another abbreviation of digital.\nSuch disruptors are not the sole entities adopting a more digital-first approach to customer experience or business strategy.\nGoogle or Amazon?\nLong-established participants in the financial services industry are developing their own digital challengers.\nHe said these include banks and financial institutions that are striving to compete with fintechs. Almost every non-financial tech firm possesses a digital focus that enables them to compete against fintechs. They are adopting a digital-first perspective for customer experience and business strategy, essentially.\n",
+  "break_point": {
+   "step": 9,
+   "sentences_rewritten": 10,
+   "queries": 304
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 10,
+   "eligible": 14,
+   "segments": 22,
+   "pct_of_eligible": 71.42857142857143,
+   "pct_of_segments": 45.45454545454545
+  },
+  "tokens": {
+   "original": 501,
+   "final": 501,
+   "length_change": 0,
+   "pct_not_preserved": 19.56087824351297,
+   "pct_new": 19.56087824351297
+  },
+  "words": {
+   "original": 342,
+   "final": 329,
+   "length_change": -13,
+   "pct_not_preserved": 25.438596491228072,
+   "pct_new": 22.49240121580547
+  },
+  "characters": {
+   "original": 2343,
+   "final": 2343,
+   "length_change": 0,
+   "pct_not_preserved": 12.93213828425096,
+   "pct_new": 12.93213828425096
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 326,
+   "green_after": 272,
+   "pairs_before": 500,
+   "pairs_after": 500,
+   "pairs_changed_before": 140,
+   "pairs_changed_after": 140,
+   "green_fraction_of_new_pairs": 0.3,
+   "delta_achieved": 0.2
+  }
+ }
+}

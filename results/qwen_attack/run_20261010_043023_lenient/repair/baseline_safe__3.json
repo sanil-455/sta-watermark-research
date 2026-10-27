@@ -1,0 +1,36 @@
+{
+ "repl": {
+  "3": "He also held the position of SVP International and Policy in the executive leadership at the American Solar Energy Society.",
+  "2": "Mario Oriani-Ambrosini serves as Vice President of Nuclear Policy Initiatives at the Nuclear Energy Institute.",
+  "1": "Sustainability policies should also accommodate communities opting for additional energy and climate policies beyond state mandates."
+ },
+ "provenance": {
+  "3": "kept from the reading",
+  "2": "kept from the reading",
+  "1": "approved by the user"
+ },
+ "old_bad": {
+  "1": "Community choices for various energy and climate policies deserve consideration alongside existing sustainability mandates."
+ },
+ "rejected": {},
+ "skipped": [],
+ "decisions": [
+  {
+   "segment": 1,
+   "answer": "y",
+   "proposal": "Sustainability policies should also accommodate communities opting for additional energy and climate policies beyond state mandates.",
+   "z_before": 2.523573072576179,
+   "z_after": 1.8516401995451028,
+   "similarity": 0.9187955856323242
+  }
+ ],
+ "calls": 1,
+ "status": "broken",
+ "sample_id": "baseline_safe:3",
+ "z0": 3.6814319464673777,
+ "z_start_of_repair": 2.523573072576179,
+ "z_final": 1.8516401995451028,
+ "final_span": "make their own decisions as it pertains to their respective energy sectors. Sustainability policies should also accommodate communities opting for additional energy and climate policies beyond state mandates.\nMario Oriani-Ambrosini serves as Vice President of Nuclear Policy Initiatives at the Nuclear Energy Institute. He also held the position of SVP International and Policy in the executive leadership at the American Solar Energy Society.\nCalifornia Green New Deal advocates want a windfall tax on wholesale energy sales, yet it\u2019s already heavily taxed Next stop Hong Kong: Looming fossil fuel imports, reduced solar claims, and tax credits fail renewable assets Previous stop Brownsville, Texas: Local flooding and infrastructure an issue for solar More articles",
+ "queries": 33,
+ "seconds": 87.2
+}

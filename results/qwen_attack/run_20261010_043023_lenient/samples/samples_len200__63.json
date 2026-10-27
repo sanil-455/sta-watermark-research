@@ -1,0 +1,414 @@
+{
+ "sample_id": "samples_len200:63",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.5370611183355006,
+ "needed_share": 0.6991034973674266,
+ "delta_needed": 0.07090433057325543,
+ "segmentation": {
+  "chars": 769,
+  "segments": 11,
+  "eligible": 4,
+  "skipped": 7,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 5,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 413,
+  "eligible_char_share": 0.5370611183355006
+ },
+ "attack": {
+  "z0": 6.646803743153546,
+  "z_final": 3.311113154157481,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 394,
+  "seconds": 408.8,
+  "seconds_by_phase": {
+   "generate": 375.9,
+   "gates": 32.7,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 166,
+    "z_before": 6.646803743153546,
+    "z_after": 5.438584287489962,
+    "accepted": true,
+    "survivors": 60,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 60,
+     "after_content": 60,
+     "after_semantic": 60,
+     "fluency_skipped": false,
+     "after_fluency": 60,
+     "rejected": {}
+    },
+    "queries_total": 61,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 45.43
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 101,
+    "z_before": 5.438584287489962,
+    "z_after": 4.864839839775475,
+    "accepted": true,
+    "survivors": 7,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 7,
+     "after_spelling": 7,
+     "after_content": 7,
+     "after_semantic": 7,
+     "fluency_skipped": false,
+     "after_fluency": 7,
+     "rejected": {
+      "duplicate": 53
+     }
+    },
+    "queries_total": 68,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.15
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 74,
+    "z_before": 4.864839839775475,
+    "z_after": 4.432963206558078,
+    "accepted": true,
+    "survivors": 29,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 31,
+     "after_spelling": 31,
+     "after_content": 31,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 29,
+     "rejected": {
+      "duplicate": 29,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 97,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.28
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 72,
+    "z_before": 4.432963206558078,
+    "z_after": 3.9687694845782433,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "duplicate": 11,
+      "CJK text": 1,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 138,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.09
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 166,
+    "z_before": 3.9687694845782433,
+    "z_after": 3.640679257301507,
+    "accepted": true,
+    "survivors": 59,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 59,
+     "fluency_skipped": false,
+     "after_fluency": 59,
+     "rejected": {
+      "duplicate": 1
+     }
+    },
+    "queries_total": 197,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.97
+   },
+   {
+    "pass": 2,
+    "segment": 7,
+    "chars": 101,
+    "z_before": 3.640679257301507,
+    "z_after": 3.640679257301507,
+    "accepted": false,
+    "survivors": 6,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 6,
+     "after_spelling": 6,
+     "after_content": 6,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 6,
+     "rejected": {
+      "duplicate": 54
+     }
+    },
+    "queries_total": 202,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.02
+   },
+   {
+    "pass": 2,
+    "segment": 9,
+    "chars": 74,
+    "z_before": 3.640679257301507,
+    "z_after": 3.415212603930368,
+    "accepted": true,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 39,
+     "after_spelling": 35,
+     "after_content": 35,
+     "after_semantic": 35,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "duplicate": 21,
+      "unknown word": 4
+     }
+    },
+    "queries_total": 236,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.8
+   },
+   {
+    "pass": 2,
+    "segment": 8,
+    "chars": 72,
+    "z_before": 3.415212603930368,
+    "z_after": 3.311113154157481,
+    "accepted": true,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "duplicate": 10,
+      "several lines": 1,
+      "unknown word": 2,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 276,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.35
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 166,
+    "z_before": 3.311113154157481,
+    "z_after": 3.5058392848088586,
+    "accepted": false,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "several lines": 1,
+      "numbers changed": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 333,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.67
+   },
+   {
+    "pass": 3,
+    "segment": 7,
+    "chars": 101,
+    "z_before": 3.311113154157481,
+    "z_after": 3.311113154157481,
+    "accepted": false,
+    "survivors": 6,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 6,
+     "after_spelling": 6,
+     "after_content": 6,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 6,
+     "rejected": {
+      "duplicate": 54
+     }
+    },
+    "queries_total": 338,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.02
+   },
+   {
+    "pass": 3,
+    "segment": 9,
+    "chars": 74,
+    "z_before": 3.311113154157481,
+    "z_after": 3.5058392848088586,
+    "accepted": false,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 33,
+     "after_content": 33,
+     "after_semantic": 33,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "duplicate": 26,
+      "unknown word": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 369,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.66
+   },
+   {
+    "pass": 3,
+    "segment": 8,
+    "chars": 72,
+    "z_before": 3.311113154157481,
+    "z_after": 3.478171131299415,
+    "accepted": false,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 43,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "duplicate": 15,
+      "several lines": 1,
+      "unknown word": 1,
+      "perplexity too high": 8
+     }
+    },
+    "queries_total": 394,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.51
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "With four games remaining this season, the Boilermakers won their first four Big Ten games giving them an opportunity to reach their first NCAA Tournament since 2015.",
+    "rewrite": "Having four games left this season, the Boilermakers secured victories in their initial four Big Ten games, providing them with a chance to appear in the NCAA Tournament for the first time since 2015."
+   },
+   "7": {
+    "original": "The senior class at Purdue includes Teniya Page, Dominique Oden, Ae'Rianna Harris and Carsen Edwards.",
+    "rewrite": "At Purdue, the senior class features Teniya Page, Dominique Oden, Ae'Rianna Harris, and Carsen Edwards."
+   },
+   "9": {
+    "original": "Center Karissa McLaughlin was lost for the season Nov. 23 with a torn ACL.",
+    "rewrite": "Karissa McLaughlin, the center, suffered a torn ACL and will miss the entire season starting Nov. 23."
+   },
+   "8": {
+    "original": "The Boilers started 8-3, but then had two players go down with injuries.",
+    "rewrite": "The Boilers began with a record of 8-3, but subsequently suffered injuries to two players."
+   }
+  },
+  "final_span": "tough stretch of losses.\"\n\"It wasn't the ending we desired but we have moved forward,\" Versyp said Monday evening.\nHaving four games left this season, the Boilermakers secured victories in their initial four Big Ten games, providing them with a chance to appear in the NCAA Tournament for the first time since 2015.\n\"This year was a process. Unfortunately, it's not an easy business,\" Versyp told PJT according to the press release. \"But I'm proud of how our seniors stepped up and led. These ladies had a lot of character.\"\nAt Purdue, the senior class features Teniya Page, Dominique Oden, Ae'Rianna Harris, and Carsen Edwards.\nThe Boilers began with a record of 8-3, but subsequently suffered injuries to two players. Karissa McLaughlin, the center, suffered a torn ACL and will miss the entire season starting Nov. 23. Then in February, leading sc",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 4,
+   "eligible": 4,
+   "segments": 11,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 36.36363636363637
+  },
+  "tokens": {
+   "original": 201,
+   "final": 220,
+   "length_change": 19,
+   "pct_not_preserved": 15.920398009950254,
+   "pct_new": 23.18181818181818
+  },
+  "words": {
+   "original": 130,
+   "final": 142,
+   "length_change": 12,
+   "pct_not_preserved": 26.15384615384615,
+   "pct_new": 32.3943661971831
+  },
+  "characters": {
+   "original": 769,
+   "final": 850,
+   "length_change": 81,
+   "pct_not_preserved": 15.344603381014299,
+   "pct_new": 23.411764705882355
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 147,
+   "green_after": 134,
+   "pairs_before": 200,
+   "pairs_after": 219,
+   "pairs_changed_before": 51,
+   "pairs_changed_after": 70,
+   "green_fraction_of_new_pairs": 0.32857142857142857,
+   "delta_achieved": 0.17142857142857143
+  }
+ }
+}

@@ -1,0 +1,151 @@
+{
+ "sample_id": "samples_len200:42",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.33584905660377357,
+ "needed_share": 0.45607170677957876,
+ "delta_needed": 0.04653562133209544,
+ "segmentation": {
+  "chars": 795,
+  "segments": 6,
+  "eligible": 1,
+  "skipped": 5,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 2,
+   "does not start like a sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 267,
+  "eligible_char_share": 0.33584905660377357
+ },
+ "attack": {
+  "z0": 3.676955262170047,
+  "z_final": 1.9536514342895384,
+  "status": "broken",
+  "reason": null,
+  "passes": 2,
+  "queries": 32,
+  "seconds": 123.0,
+  "seconds_by_phase": {
+   "generate": 120.2,
+   "gates": 2.8,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 267,
+    "z_before": 3.676955262170047,
+    "z_after": 2.1094396056145928,
+    "accepted": true,
+    "survivors": 16,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 35,
+     "after_content": 16,
+     "after_semantic": 16,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "CJK text": 6,
+      "several lines": 2,
+      "unknown word": 17,
+      "negation count changed": 19
+     }
+    },
+    "queries_total": 17,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 62.43
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 267,
+    "z_before": 2.1094396056145928,
+    "z_after": 1.9536514342895384,
+    "accepted": true,
+    "survivors": 15,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 35,
+     "after_content": 15,
+     "after_semantic": 15,
+     "fluency_skipped": false,
+     "after_fluency": 15,
+     "rejected": {
+      "CJK text": 5,
+      "several lines": 2,
+      "unknown word": 18,
+      "negation count changed": 20
+     }
+    },
+    "queries_total": 32,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 57.8
+   }
+  ],
+  "rewrites": {
+   "1": {
+    "original": "Besides their problem with giving homebuyer an amped up role, most developers are also not in favour of Rera being treated as the apex regulator to redress their grievances according to them, the only regulator which gives powers to tribesmen as well as built buyers.",
+    "rewrite": "Apart from concerns about elevating home buyers' roles, most developers also do not support Rera as the ultimate regulator for addressing grievances. According to them, only regulators grant powers to tribal members as well as home buyers."
+   }
+  },
+  "final_span": "the former then it would have been better to let the NCLT function whereas if it's the latter, then it should be okay with Rera\", Deshpande said.\nApart from concerns about elevating home buyers' roles, most developers also do not support Rera as the ultimate regulator for addressing grievances. According to them, only regulators grant powers to tribal members as well as home buyers.\nDevraj Sharan of the project monitoring and consultancy firm Total Consultants and Builders said, \"RERA as such was not well structured and conceptualise to determine builder failures. Some of the orders that the authority has issued is vague and most of our members are not satisfied with them.\"\nthiru May 2, 2019 at 2:23 PM\nFrom the above quote it\u2019s clear the MGP member has very",
+  "break_point": {
+   "step": 1,
+   "sentences_rewritten": 1,
+   "queries": 32
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 1,
+   "eligible": 1,
+   "segments": 6,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 16.666666666666668
+  },
+  "tokens": {
+   "original": 201,
+   "final": 192,
+   "length_change": -9,
+   "pct_not_preserved": 17.910447761194025,
+   "pct_new": 14.0625
+  },
+  "words": {
+   "original": 138,
+   "final": 130,
+   "length_change": -8,
+   "pct_not_preserved": 20.28985507246377,
+   "pct_new": 15.384615384615385
+  },
+  "characters": {
+   "original": 795,
+   "final": 767,
+   "length_change": -28,
+   "pct_not_preserved": 11.949685534591193,
+   "pct_new": 8.735332464146028
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 126,
+   "green_after": 109,
+   "pairs_before": 200,
+   "pairs_after": 191,
+   "pairs_changed_before": 49,
+   "pairs_changed_after": 40,
+   "green_fraction_of_new_pairs": 0.425,
+   "delta_achieved": 0.07500000000000001
+  }
+ }
+}

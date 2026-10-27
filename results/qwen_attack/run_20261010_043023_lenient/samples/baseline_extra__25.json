@@ -1,0 +1,197 @@
+{
+ "sample_id": "baseline_extra:25",
+ "source": "results/raw/baseline_extra.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.37358490566037733,
+ "needed_share": 0.47621719912107596,
+ "delta_needed": 0.037087578773297915,
+ "segmentation": {
+  "chars": 795,
+  "segments": 4,
+  "eligible": 2,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 297,
+  "eligible_char_share": 0.37358490566037733
+ },
+ "attack": {
+  "z0": 3.8183766184073566,
+  "z_final": 2.596890903471307,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 2,
+  "queries": 95,
+  "seconds": 163.0,
+  "seconds_by_phase": {
+   "generate": 154.3,
+   "gates": 8.7,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 190,
+    "z_before": 3.8183766184073566,
+    "z_after": 2.955109687867226,
+    "accepted": true,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 41,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "duplicate": 16,
+      "CJK text": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 41,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.56
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 107,
+    "z_before": 2.955109687867226,
+    "z_after": 2.596890903471307,
+    "accepted": true,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 9,
+     "after_spelling": 9,
+     "after_content": 9,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "duplicate": 51
+     }
+    },
+    "queries_total": 50,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.75
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 190,
+    "z_before": 2.596890903471307,
+    "z_after": 2.792848008753788,
+    "accepted": false,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "duplicate": 16,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 93,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.23
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 107,
+    "z_before": 2.596890903471307,
+    "z_after": 2.596890903471307,
+    "accepted": false,
+    "survivors": 8,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 9,
+     "after_spelling": 9,
+     "after_content": 9,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 8,
+     "rejected": {
+      "duplicate": 51,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 95,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.75
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "Bright Orange Lights (1970), an avant-garde painting with sharp, bulbous, bright orange and green lights, is the latest addition to the permanent collection at The College of the Holy Cross.",
+    "rewrite": "Bright Orange Lights (1970), characterized by its sharp, bulbous bright orange and green lights in an avant-garde style, has been added to the permanent collection at The College of the Holy Cross."
+   },
+   "1": {
+    "original": "In 1993, they gave Sara Roby Memorial Art Gallery at CGU College of the Arts this Leon Polk Smith painting.",
+    "rewrite": "In 1993, they presented Sara Roby Memorial Art Gallery at CGU College of the Arts with this Leon Polk Smith painting."
+   }
+  },
+  "final_span": "art, have contributed significantly before. In 1993, they presented Sara Roby Memorial Art Gallery at CGU College of the Arts with this Leon Polk Smith painting.\nBright Orange Lights (1970), characterized by its sharp, bulbous bright orange and green lights in an avant-garde style, has been added to the permanent collection at The College of the Holy Cross.\nCOLLEGE OF THE HOLY CROSS in Worcester, Mass., on April 7 acquired Bright Orange Lights (1970), an avant-garde painting with sharp, bulbous, bright orange and green lights, sculpted from polyester, named after Carl Perkins song, by Leon Polk Smith, the late painter, printmaker, and sculptor, whose work was featured in \u201cthirteen,\u201d an exhibition at the Institute of Contemporary Art Boston in February for which he was described as \"a giant of American",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 2,
+   "segments": 4,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 50.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 204,
+   "length_change": 3,
+   "pct_not_preserved": 8.955223880597018,
+   "pct_new": 10.29411764705882
+  },
+  "words": {
+   "original": 127,
+   "final": 130,
+   "length_change": 3,
+   "pct_not_preserved": 8.661417322834641,
+   "pct_new": 10.769230769230765
+  },
+  "characters": {
+   "original": 795,
+   "final": 812,
+   "length_change": 17,
+   "pct_not_preserved": 4.9056603773584895,
+   "pct_new": 6.896551724137934
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 127,
+   "green_after": 120,
+   "pairs_before": 200,
+   "pairs_after": 203,
+   "pairs_changed_before": 23,
+   "pairs_changed_after": 26,
+   "green_fraction_of_new_pairs": 0.38461538461538464,
+   "delta_achieved": 0.11538461538461536
+  }
+ }
+}

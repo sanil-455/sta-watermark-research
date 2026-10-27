@@ -1,0 +1,40 @@
+{
+ "repl": {
+  "2": "Amazingly shocking, a madressah explosion occurred in Lahore, causing injuries to 12 students, and was extensively criticized and covered by the media.",
+  "6": "India faces the greatest number of terrorist attacks, with Pakistan experiencing attacks in third to tenth place.",
+  "7": "Why such lack of interest in the loss of people within your own country?"
+ },
+ "provenance": {
+  "2": "kept from the reading",
+  "6": "kept from the reading",
+  "7": "kept from the reading"
+ },
+ "old_bad": {
+  "3": "And since it involved a madressah in Lahore (location A), tribal tensions are already rising in location B, and as you know, tribal rivalries are intensifying in Yemen.",
+  "4": "Good news is often highlighted, while bad news remains unnoticed, no matter how significant, not worth focusing on the latter."
+ },
+ "rejected": {},
+ "skipped": [
+  3,
+  4
+ ],
+ "decisions": [
+  {
+   "segment": 3,
+   "answer": "s",
+   "proposal": "Due to its involvement with a madrasah in Lahore, located at A, tribes are currently coalescing around location B, and according to your understanding, this may heighten tribal tensions in Yemen.",
+   "z_before": 4.061727505846934,
+   "z_after": 3.0833491942238926,
+   "similarity": 0.8912549018859863
+  }
+ ],
+ "calls": 4,
+ "status": "not broken: no accepted proposal got z under 2.0",
+ "sample_id": "samples_len200:43",
+ "z0": 6.788225099390856,
+ "z_start_of_repair": 4.061727505846934,
+ "z_final": 4.061727505846934,
+ "final_span": "pray that we can tackle this darkness and hate to let the world become a better place which we can live in peace and harmony.\n@Ali: Oh this is so buried, barely not even a passing mention.\nAmazingly shocking, a madressah explosion occurred in Lahore, causing injuries to 12 students, and was extensively criticized and covered by the media. And because it involved a madressah in Lahore which is location A, tribes are already forming on location B and according to you\u2019re the mind whfleingly, tribal tensions in Yemen.\nBad news always gets buried, good news is spoken about by all, no matter how trivial, no point picking on it. Did I write the facts wrong? India faces the greatest number of terrorist attacks, with Pakistan experiencing attacks in third to tenth place. Why such lack of interest in the loss of people within your own country? Yeah I know, your country and the",
+ "queries": 32,
+ "seconds": 281.7
+}

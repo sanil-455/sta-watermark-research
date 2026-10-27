@@ -1,0 +1,76 @@
+{
+ "repl": {
+  "3": "It followed an offseason where the head coach and offensive coordinator reportedly made comments perceived as \u201cbelittling,\u201d according to publicly posted remarks by Jimmyond Mathews, a former Browns second-round draft pick.",
+  "7": "Last week, Terrell Owens, the Hall of Famer, agreed to become a guest coach for the Browns; however, the team has not disclosed if he will be included in the typical 46-man roster.",
+  "8": "Coleman\u2019s availability Sunday might enable a tandem setup with Gordon, similar to a 3-receiver formation.",
+  "1": "The heat increased during the off-season concerning Browns' receivers.",
+  "23": "Talent hasn't been the issue for Coleman; it's injuries that have hindered him.",
+  "2": "That was largely due to the coaches.",
+  "6": "Josh Gordon, the Browns' three-time Pro Bowl wide receiver, has not played in almost two years and will be reinstated into what is now a relatively weak receiving group on Monday."
+ },
+ "provenance": {
+  "3": "kept from the reading",
+  "7": "kept from the reading",
+  "8": "kept from the reading",
+  "1": "kept from the reading",
+  "23": "kept from the reading",
+  "2": "kept from the reading",
+  "6": "approved by the user"
+ },
+ "old_bad": {
+  "5": "The heat returned on Thursday when Hall of Famer Michael Irvin mentioned that Cleveland's receivers showed him some criticisms, including ones from Greg Popovich, the San Antonio Spurs\u2019 head coach, by unlocking their phones during a recent film session.",
+  "6": "Josh Gordon, a three-time Pro Bowl wide receiver, won't play after a hiatus of nearly two years and will return to the Browns on Monday, joining a currently sparse receiving corps."
+ },
+ "rejected": {
+  "5": [
+   "Again earlier this week, the heat escalated when Hall of Famer Michael Irvin alleged that Cleveland's receivers showed him criticism they allegedly received, including some from NBA San Antonio Spurs' head coach Greg Popovich, by unlocking their phone during a recent film session.",
+   "Earlier this week, the heat intensified anew after Hall of Famer Michael Irvin claimed that Cleveland's receivers had shown him footage from a recent film session, including criticism from Greg Popovich, the head coach of the NBA\u2019s San Antonio Spurs, on his locked phone."
+  ]
+ },
+ "skipped": [
+  5
+ ],
+ "decisions": [
+  {
+   "segment": 5,
+   "answer": "n",
+   "proposal": "Again earlier this week, the heat escalated when Hall of Famer Michael Irvin alleged that Cleveland's receivers showed him criticism they allegedly received, including some from NBA San Antonio Spurs' head coach Greg Popovich, by unlocking their phone during a recent film session.",
+   "z_before": 3.460690386722844,
+   "z_after": 3.1118795713207095,
+   "similarity": 0.8903002738952637
+  },
+  {
+   "segment": 5,
+   "answer": "n",
+   "proposal": "Earlier this week, the heat intensified anew after Hall of Famer Michael Irvin claimed that Cleveland's receivers had shown him footage from a recent film session, including criticism from Greg Popovich, the head coach of the NBA\u2019s San Antonio Spurs, on his locked phone.",
+   "z_before": 3.460690386722844,
+   "z_after": 3.1532207009587254,
+   "similarity": 0.9006664752960205
+  },
+  {
+   "segment": 5,
+   "answer": "s",
+   "proposal": "Earlier this week, the heat intensified again when Hall of Famer Michael Irvin revealed that Cleveland\u2019s receivers showed him critiques from their recent film session, including some from Greg Popovich, the head coach of the NBA\u2019s San Antonio Spurs, by unlocking his phone.",
+   "z_before": 3.460690386722844,
+   "z_after": 3.06439758262186,
+   "similarity": 0.9255974888801575
+  },
+  {
+   "segment": 6,
+   "answer": "y",
+   "proposal": "Josh Gordon, the Browns' three-time Pro Bowl wide receiver, has not played in almost two years and will be reinstated into what is now a relatively weak receiving group on Monday.",
+   "z_before": 3.460690386722844,
+   "z_after": 2.9225291222823144,
+   "similarity": 0.9720569849014282
+  }
+ ],
+ "calls": 4,
+ "status": "not broken: no accepted proposal got z under 2.0",
+ "sample_id": "samples_len500:46",
+ "z0": 6.171547617899419,
+ "z_start_of_repair": 3.460690386722844,
+ "z_final": 2.9225291222823144,
+ "final_span": "He\u2019s got to get an opportunity to show his worth and give our offense another weapon, which he brings.\u201d\nThe heat increased during the off-season concerning Browns' receivers.\nThat was largely due to the coaches. It followed an offseason where the head coach and offensive coordinator reportedly made comments perceived as \u201cbelittling,\u201d according to publicly posted remarks by Jimmyond Mathews, a former Browns second-round draft pick.\n\u201cThere\u2019s a difference between getting pushed and someone being demeaning or degrading about your performance or game,\u201d Bitonio said.\nThe heat intensified again earlier this week when Hall of Famer Michael Irvin said Cleveland\u2019s receivers had unlocked his phone during a recent film session to show him some of the criticism they\u2019ve received, including some from Greg Popovich, the head coach of the NBA\u2019s San Antonio Spurs.\nJosh Gordon, the Browns' three-time Pro Bowl wide receiver, has not played in almost two years and will be reinstated into what is now a relatively weak receiving group on Monday. Last week, Terrell Owens, the Hall of Famer, agreed to become a guest coach for the Browns; however, the team has not disclosed if he will be included in the typical 46-man roster.\nColeman\u2019s availability Sunday might enable a tandem setup with Gordon, similar to a 3-receiver formation.\n\u201cIt is tough. He is a great competitor and he has a lot of the things that you want in a receiver,\u201d Gordon said of Coleman. \u201cYou want guys to play fast and all the different things like that.\u201d\nColeman has done that.\n\u201cIt\u2019s really hard to just focus on watching him or reading about him,\u201d Jacksonville cornerback Jalen Ramsey said. \u201cHe is a burner. He is a physical guy. He is big. He is tall. He is shifty. He is real slippery. He can catch any ball in the air. He can run every route. He just does it all.\u201d\nTalent hasn't been the issue for Coleman; it's injuries that have hindered him.\nFallout from him and Curtis Samuel throwing haymakers at the Film School Fall football game \u2014 a gimic during the",
+ "queries": 25,
+ "seconds": 1005.2
+}

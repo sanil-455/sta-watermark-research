@@ -1,0 +1,38 @@
+{
+ "repl": {
+  "6": "Ministers deemed the accusations unfounded, stating that Vadra had previously been under inquiry, yet the electorate had still chosen him for office, and he was now being probed by several agencies.",
+  "5": "The continuous noise regarding the land deal involving Vadra's suspected irregular transactions kept the Centre occupied as government departments probed.",
+  "4": "Last year, when Prasad called Rahul Gandhi 'Pappu', it led to brainstorming becoming a standard practice.",
+  "3": "The party organized an all-night brainstorming session on Saturday following a family meeting in the morning."
+ },
+ "provenance": {
+  "6": "kept from the reading",
+  "5": "kept from the reading",
+  "4": "kept from the reading",
+  "3": "approved by the user"
+ },
+ "old_bad": {
+  "3": "The party held an all-night brainstorming on Saturday regarding the subject following a meeting with the family in the morning."
+ },
+ "rejected": {},
+ "skipped": [],
+ "decisions": [
+  {
+   "segment": 3,
+   "answer": "y",
+   "proposal": "The party organized an all-night brainstorming session on Saturday following a family meeting in the morning.",
+   "z_before": 2.055755494524174,
+   "z_after": 1.148733053788381,
+   "similarity": 0.9051579833030701
+  }
+ ],
+ "calls": 1,
+ "status": "broken",
+ "sample_id": "samples_len200:66",
+ "z0": 5.79827560572969,
+ "z_start_of_repair": 2.055755494524174,
+ "z_final": 1.148733053788381,
+ "final_span": ". \u201cThese are not ad hominem attacks. We made them because Sardar Patel has also become a brand as Nepotism Buster of the parties,\u201d spokesperson Sambit Patra said. The party organized an all-night brainstorming session on Saturday following a family meeting in the morning. Last year, when Prasad called Rahul Gandhi 'Pappu', it led to brainstorming becoming a standard practice.\nThe continuous noise regarding the land deal involving Vadra's suspected irregular transactions kept the Centre occupied as government departments probed.\nMinisters deemed the accusations unfounded, stating that Vadra had previously been under inquiry, yet the electorate had still chosen him for office, and he was now being probed by several agencies.\nA commerce ministry official said, \u201cThe objective seems to be to spread confusion by trying",
+ "queries": 19,
+ "seconds": 62.2
+}

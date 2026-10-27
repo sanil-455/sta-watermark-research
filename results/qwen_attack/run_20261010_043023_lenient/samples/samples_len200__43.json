@@ -1,0 +1,248 @@
+{
+ "sample_id": "samples_len200:43",
+ "source": "results/raw/samples_len200.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.681592039800995,
+ "needed_share": 0.7053721745056052,
+ "delta_needed": 0.008373384658032067,
+ "segmentation": {
+  "chars": 804,
+  "segments": 9,
+  "eligible": 5,
+  "skipped": 4,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "does not start like a sentence": 1,
+   "too short": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 548,
+  "eligible_char_share": 0.681592039800995
+ },
+ "attack": {
+  "z0": 6.788225099390856,
+  "z_final": 1.9964423333823913,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 154,
+  "seconds": 158.7,
+  "seconds_by_phase": {
+   "generate": 146.0,
+   "gates": 12.7,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 178,
+    "z_before": 6.788225099390856,
+    "z_after": 5.6853524361496115,
+    "accepted": true,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 11,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 40,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.95
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 118,
+    "z_before": 5.6853524361496115,
+    "z_after": 4.679482981656174,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 1,
+      "unknown word": 6,
+      "meaning too different": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 85,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.48
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 109,
+    "z_before": 4.679482981656174,
+    "z_after": 3.683754648341654,
+    "accepted": true,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 57,
+     "after_content": 2,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 2,
+      "negation count changed": 55,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 86,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.34
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 87,
+    "z_before": 3.683754648341654,
+    "z_after": 2.622249125500946,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "duplicate": 7,
+      "perplexity too high": 8
+     }
+    },
+    "queries_total": 131,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.39
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 56,
+    "z_before": 2.622249125500946,
+    "z_after": 1.9964423333823913,
+    "accepted": true,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "duplicate": 30,
+      "meaning too different": 1,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 154,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.85
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "And because it involved a madressah in Lahore which is location A, tribes are already forming on location B and according to you\u2019re the mind whfleingly, tribal tensions in Yemen.",
+    "rewrite": "And since it involved a madressah in Lahore (location A), tribal tensions are already rising in location B, and as you know, tribal rivalries are intensifying in Yemen."
+   },
+   "2": {
+    "original": "Mind blowing, there was a madressah blast in Lahore that injured 12 students and it was widely condemned and reported.",
+    "rewrite": "Amazingly shocking, a madressah explosion occurred in Lahore, causing injuries to 12 students, and was extensively criticized and covered by the media."
+   },
+   "4": {
+    "original": "Bad news always gets buried, good news is spoken about by all, no matter how trivial, no point picking on it.",
+    "rewrite": "Good news is often highlighted, while bad news remains unnoticed, no matter how significant, not worth focusing on the latter."
+   },
+   "6": {
+    "original": "India is the biggest target of terrorist attacks, Pakistan is left with third to tenth.",
+    "rewrite": "India faces the greatest number of terrorist attacks, with Pakistan experiencing attacks in third to tenth place."
+   },
+   "7": {
+    "original": "So why such apathy in losing people in your own country?",
+    "rewrite": "Why such lack of interest in the loss of people within your own country?"
+   }
+  },
+  "final_span": "pray that we can tackle this darkness and hate to let the world become a better place which we can live in peace and harmony.\n@Ali: Oh this is so buried, barely not even a passing mention.\nAmazingly shocking, a madressah explosion occurred in Lahore, causing injuries to 12 students, and was extensively criticized and covered by the media. And since it involved a madressah in Lahore (location A), tribal tensions are already rising in location B, and as you know, tribal rivalries are intensifying in Yemen.\nGood news is often highlighted, while bad news remains unnoticed, no matter how significant, not worth focusing on the latter. Did I write the facts wrong? India faces the greatest number of terrorist attacks, with Pakistan experiencing attacks in third to tenth place. Why such lack of interest in the loss of people within your own country? Yeah I know, your country and the",
+  "break_point": {
+   "step": 4,
+   "sentences_rewritten": 5,
+   "queries": 154
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 5,
+   "eligible": 5,
+   "segments": 9,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 55.55555555555556
+  },
+  "tokens": {
+   "original": 201,
+   "final": 212,
+   "length_change": 11,
+   "pct_not_preserved": 34.32835820895522,
+   "pct_new": 37.735849056603776
+  },
+  "words": {
+   "original": 147,
+   "final": 151,
+   "length_change": 4,
+   "pct_not_preserved": 38.095238095238095,
+   "pct_new": 39.735099337748345
+  },
+  "characters": {
+   "original": 804,
+   "final": 886,
+   "length_change": 82,
+   "pct_not_preserved": 27.23880597014925,
+   "pct_new": 33.97291196388262
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 148,
+   "green_after": 120,
+   "pairs_before": 200,
+   "pairs_after": 211,
+   "pairs_changed_before": 95,
+   "pairs_changed_after": 106,
+   "green_fraction_of_new_pairs": 0.37735849056603776,
+   "delta_achieved": 0.12264150943396224
+  }
+ }
+}
