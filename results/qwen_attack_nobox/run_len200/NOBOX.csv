@@ -1,0 +1,47 @@
+sample,z0,z_final,status,sentences_rewritten,eligible
+baseline_safe:0,3.8184,3.9186,not broken,2,2
+baseline_safe:1,6.5054,5.6288,not broken,3,4
+baseline_safe:2,5.3740,4.6319,not broken,3,3
+baseline_safe:3,3.6814,2.8462,not broken,3,3
+baseline_safe:4,3.5355,1.8571,broken,5,6
+baseline_extra:20,3.3941,2.4936,not broken,2,2
+baseline_extra:22,4.6669,3.8971,not broken,6,6
+baseline_extra:23,5.2326,4.4591,not broken,4,4
+baseline_extra:24,5.0912,3.9179,not broken,4,4
+baseline_extra:25,3.8184,3.5180,not broken,2,2
+baseline_extra:26,2.8284,2.4411,not broken,4,4
+baseline_extra:27,6.2225,4.7181,not broken,6,6
+samples_len200:28,5.3740,3.6336,not broken,5,5
+samples_len200:29,4.8083,3.6860,not broken,4,5
+samples_len200:30,4.1012,2.4687,not broken,3,3
+samples_len200:31,5.0912,4.1012,not broken,3,3
+samples_len200:34,3.2527,3.4911,not broken,5,5
+samples_len200:35,5.9397,3.3198,not broken,8,8
+samples_len200:36,5.0912,5.0844,not broken,3,3
+samples_len200:40,4.1012,4.1012,not broken,0,1
+samples_len200:42,3.6770,2.0313,not broken,1,1
+samples_len200:43,6.7882,5.1693,not broken,4,5
+samples_len200:44,5.0912,1.8962,broken,6,6
+samples_len200:46,2.1213,2.0103,not broken,3,3
+samples_len200:47,5.5154,2.6737,not broken,4,4
+samples_len200:51,3.3941,3.4286,not broken,1,1
+samples_len200:52,5.2326,3.2225,not broken,10,10
+samples_len200:56,3.5355,2.1651,not broken,6,6
+samples_len200:60,5.5154,4.2368,not broken,3,3
+samples_len200:61,5.0912,3.8988,not broken,5,5
+samples_len200:63,6.6468,5.6857,not broken,4,4
+samples_len200:64,4.1012,3.9590,not broken,5,6
+samples_len200:65,2.2627,2.4042,not broken,1,2
+samples_len200:66,5.7983,3.8376,not broken,4,4
+samples_len200:69,3.1113,2.2741,not broken,4,4
+samples_len200:70,4.6669,4.0819,not broken,2,2
+samples_len200:71,4.9497,4.9497,not broken,0,0
+samples_len200:72,5.2326,4.7845,not broken,3,3
+samples_len200:73,3.9598,2.7646,not broken,4,4
+samples_len200:74,2.9698,1.9537,broken,4,4
+samples_len200:78,4.9497,2.9848,not broken,6,6
+samples_len200:81,5.2326,3.5898,not broken,6,6
+samples_len200:84,2.5456,1.2923,broken,8,8
+samples_len200:85,3.9598,2.8636,not broken,5,6
+samples_len200:86,3.3941,2.9667,not broken,5,5
+samples_len200:87,4.8083,4.0000,not broken,3,3
