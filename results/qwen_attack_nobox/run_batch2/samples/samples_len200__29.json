@@ -1,0 +1,58 @@
+{
+ "sample_id": "samples_len200:29",
+ "nobox": {
+  "z_final": 3.6860489038724285,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "In an interview, Followay paid tribute to the hard work being done in helping youth fail fast and learn how to be successful after their disabilities, during their journey through both school and career.",
+    "rewrite": "In an interview, Followay honored the significant efforts dedicated to helping youth learn rapid failure and achieve success after their disabilities throughout their school and career journey."
+   },
+   "1": {
+    "original": "Giving more examples of the organization's achievements, Tomassetti recalled an earlier event in which kids who attended a volleyball club, sponsored by ASPO, played against able-bodied kids.",
+    "rewrite": "Tomassetti provided additional examples of the organization's achievements by recalling an earlier event where children from the volleyball club, sponsored by ASPO, competed against non-handicapped children."
+   },
+   "3": {
+    "original": "Two months later, after receiving various forms of coaching and personal support, the kids who had lost won the return match against the able-bodied players.",
+    "rewrite": "Two months later, the kids who had previously lost received coaching and personal support and then won the return match against the able-bodied players."
+   },
+   "2": {
+    "original": "The kids with disabilities were defeated.",
+    "rewrite": "The children with disabilities were defeated."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 38,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 2,
+    "survivors": 8,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "athletes) have gotten to the point where they are competitive and do very well.\"\nTomassetti provided additional examples of the organization's achievements by recalling an earlier event where children from the volleyball club, sponsored by ASPO, competed against non-handicapped children. The children with disabilities were defeated.\nTwo months later, the kids who had previously lost received coaching and personal support and then won the return match against the able-bodied players.\n\"We are changing lives,\" Tomassetti emphasized, \"over and over again.\"\nIn an interview, Followay honored the significant efforts dedicated to helping youth learn rapid failure and achieve success after their disabilities throughout their school and career journey.\nFor her part, she has been offering support to all such kids since her son, now 23, was in 5",
+  "z0": 4.808326112068523,
+  "seconds": 154.0
+ }
+}

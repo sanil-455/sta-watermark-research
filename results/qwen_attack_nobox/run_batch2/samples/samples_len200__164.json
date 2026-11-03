@@ -1,0 +1,71 @@
+{
+ "sample_id": "samples_len200:164",
+ "nobox": {
+  "z_final": 2.208658549625199,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "Defensive coordinator Todd Grantham said this Alabama team might be the most talented offense he has faced in his time at MSU, which fits comfortably under Thomas\u2019 statement about everyone being on the same page.",
+    "rewrite": "Defensive coordinator Todd Grantham noted that this Alabama team could be the most talented offense he has encountered since his tenure at MSU, aligning with Thomas\u2019 remark about everyone being on the same page."
+   },
+   "2": {
+    "original": "He\u2019s a fan of that feeling \u2013 confidence, most importantly \u2013 that he\u2019s seen develop among receivers and his teammates this past week.",
+    "rewrite": "He\u2019s a fan of the feeling \u2013 most notably confidence \u2013 that receivers and his teammates have developed in the past week."
+   },
+   "6": {
+    "original": "Getsy agreed the Tide defense brings the biggest challenge the team has faced this season.",
+    "rewrite": "Getsy agreed that the Tide defense poses the greatest challenge for the team this season."
+   },
+   "1": {
+    "original": "Fitzgerald threw for 279 yards and four touchdowns during that blowout over the Aggies.",
+    "rewrite": "During that blowout win against the Aggies, Fitzgerald threw for 279 yards and four touchdowns."
+   },
+   "3": {
+    "original": "The leadership he\u2019s witnessed, he said, is another story worth mentioning.",
+    "rewrite": "The leadership he has witnessed, he said, is a story worth mentioning."
+   },
+   "4": {
+    "original": "Getsy said he\u2019s seen that on defense as well.",
+    "rewrite": "Getsy said he had seen it on defense as well."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 36,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 18,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "weekend with a 55-3 win over New Mexico State. During that blowout win against the Aggies, Fitzgerald threw for 279 yards and four touchdowns.\nHe\u2019s a fan of the feeling \u2013 most notably confidence \u2013 that receivers and his teammates have developed in the past week. The leadership he has witnessed, he said, is a story worth mentioning.\nGetsy said he had seen it on defense as well.\nDefensive coordinator Todd Grantham noted that this Alabama team could be the most talented offense he has encountered since his tenure at MSU, aligning with Thomas\u2019 remark about everyone being on the same page. Getsy agreed that the Tide defense poses the greatest challenge for the team this season.\nCoach Joe Moorhead said with a bowl game on the horizon, seeing what these younger athletes are capable of",
+  "z0": 4.666904755831213,
+  "seconds": 192.5
+ }
+}

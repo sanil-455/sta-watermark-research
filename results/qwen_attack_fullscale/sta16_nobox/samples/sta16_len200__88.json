@@ -1,0 +1,53 @@
+{
+ "sample_id": "sta16_len200:88",
+ "nobox": {
+  "z_final": 2.8807725655998326,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Besides the kidnapping victims who are eventually deployed as suicide bombers, most of the available reports don\u2019t differentiate between female suicide-bomber use between those pressured into it and those that join under free will.",
+    "rewrite": "In addition to kidnapping victims who become suicide bombers, most reports don't distinguish between women coerced into suicide bombing and those who choose to participate freely."
+   },
+   "1": {
+    "original": "The kidnappers have their hands full, tied up in trying to simultaneously entice Jonathan to release over $500 million (the ransom for the students), and maintain at least a public image of victory after a recent military victory.",
+    "rewrite": "The kidnappers are occupied with enticing Jonathan to release over $500 million (the ransom for the students) while also preserving a public image of victory following a recent military success."
+   },
+   "4": {
+    "original": "With armed teen boys also joining up, part of the Islamist message is likely the raft of attractive women to be potentially won as rewards, if they get right with God before a time-out with the homemaker.",
+    "rewrite": "With armed teenage boys also joining, a significant part of the Islamist message appears to offer the allure of many women as potential rewards, if they prove themselves to God before living with a homemaker."
+   },
+   "3": {
+    "original": "It\u2019s possible that Boko Haram has learned how to attract Western-style \u201cbrides-to-be.\u201d",
+    "rewrite": "It is possible that Boko Haram has learned to attract Western-style \"brides-to-be.\""
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 21,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 18,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the movement\u2019s administration. The kidnappers are occupied with enticing Jonathan to release over $500 million (the ransom for the students) while also preserving a public image of victory following a recent military success.\nIn addition to kidnapping victims who become suicide bombers, most reports don't distinguish between women coerced into suicide bombing and those who choose to participate freely. It is possible that Boko Haram has learned to attract Western-style \"brides-to-be.\" With armed teenage boys also joining, a significant part of the Islamist message appears to offer the allure of many women as potential rewards, if they prove themselves to God before living with a homemaker.\nAnd that\u2019s where the \u201ctelemedical clinics\u201d it transformed",
+  "z0": 9.899494936611665,
+  "seconds": 185.3
+ }
+}

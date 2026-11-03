@@ -1,0 +1,53 @@
+{
+ "sample_id": "sta16_len200:104",
+ "nobox": {
+  "z_final": 5.743665268941905,
+  "status": "not broken",
+  "rewrites": {
+   "0": {
+    "original": "Kohli, a coordinator for UTSA's Center for Experiential Learning, is buried in over a dozen e-mails from The Washington Post and others, all inquiring about a slapdash official notice UTSA students posted last weekend.",
+    "rewrite": "Kohli, who coordinates UTSA's Center for Experiential Learning, is buried in over a dozen e-mails from The Washington Post and others, all inquiring about a poorly crafted official notice UTSA students posted last weekend."
+   },
+   "3": {
+    "original": "He unintentionally - or so he says - committed what would now be a sign of academic fraud, if only he should have rightfully placed an attribution to the California code on the what-could-have-been code.",
+    "rewrite": "He unintentionally, as he claims, perpetrated what is now considered academic fraud if he had failed to attribute the California code to the what-could-have-been code."
+   },
+   "4": {
+    "original": "He is still mystified by the missing credit line it should have received for authorship even of an honor code.",
+    "rewrite": "He remains perplexed by the omission of the credit line it should have gotten for authorship on the honor code."
+   },
+   "2": {
+    "original": "Kohli, 23, is the student coordinator for the office that promotes academic integrity.",
+    "rewrite": "Kohli, at 23, serves as the student coordinator for the office promoting academic integrity."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 0,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 28,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Kohli, who coordinates UTSA's Center for Experiential Learning, is buried in over a dozen e-mails from The Washington Post and others, all inquiring about a poorly crafted official notice UTSA students posted last weekend.\nadministration approved last weekend, is reproduced almost word for word from a code at the California Polytechnic State University.\nKohli, at 23, serves as the student coordinator for the office promoting academic integrity. He unintentionally, as he claims, perpetrated what is now considered academic fraud if he had failed to attribute the California code to the what-could-have-been code.\nHe remains perplexed by the omission of the credit line it should have gotten for authorship on the honor code.\n\"It's a student initiative,\" Kohli said, \"We were trying to show a",
+  "z0": 9.475230867899736,
+  "seconds": 175.5
+ }
+}

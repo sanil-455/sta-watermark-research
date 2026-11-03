@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:244",
+ "nobox": {
+  "z_final": 5.065902322058101,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "Kimberly Scott is grateful to have her daughter's pup back, but it doesn't take away the pain her family is feeling knowing Carly's still missing.",
+    "rewrite": "Kimberly Scott feels grateful to have her daughter's pup back, yet it doesn't alleviate the pain her family is experiencing knowing that Carly is still missing."
+   },
+   "2": {
+    "original": "Martin Scott, Carly Scott's estranged husband, is reportedly not cooperating with an official search.",
+    "rewrite": "Carly Scott's estranged husband, Martin Scott, reportedly is not cooperating with an official search."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 6,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "suspects Carly's ex-boyfriend let the dog go to the market which is less than a mile from his house.\n\"He must of let Nala go over and said, `Good luck.'\" Carly Scott's estranged husband, Martin Scott, reportedly is not cooperating with an official search.\n\"At first, I thought maybe she was in a car accident, I didn't know, but then after finding that location, I don't, I don't know,\" says Kimberly Scott.\nKimberly Scott feels grateful to have her daughter's pup back, yet it doesn't alleviate the pain her family is experiencing knowing that Carly is still missing.\n\"Seeing her car is still the biggest pain, we still don't know where our daughter is,\" says Kimberly Scott.\nOn a personal note, Kimberly Scott says her daughter is very well-lik",
+  "z0": 5.374011537017761,
+  "seconds": 64.4
+ }
+}

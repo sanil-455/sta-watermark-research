@@ -1,0 +1,53 @@
+{
+ "sample_id": "baseline_extra:26",
+ "nobox": {
+  "z_final": 2.4410577393003097,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "In addition to supporting abortion, Planned Parenthood provides general health care services such as cancer screenings and STD testing to low-income women.",
+    "rewrite": "Along with supporting abortion, Planned Parenthood offers general health care services including cancer screenings and STD testing to women of lower income."
+   },
+   "6": {
+    "original": "In addition, 40% of all patients at clinics operated by Planned Parenthood use Medicaid or another federal insurance program to pay for their care.",
+    "rewrite": "Additionally, 40% of all patients at clinics run by Planned Parenthood use Medicaid or another federal insurance program to pay for their care."
+   },
+   "3": {
+    "original": "Hillary Clinton came to the defense of Planned Parenthood, tweeting that \"our bodies, our policy.\"",
+    "rewrite": "Hillary Clinton defended Planned Parenthood, tweeting \"our bodies, our policy.\""
+   },
+   "5": {
+    "original": "The government in fiscal 2014 paid Planned Parenthood $540 million, according to the GAO.",
+    "rewrite": "In fiscal 2014, the government paid Planned Parenthood $540 million, according to the GAO."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 56,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 20,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 14,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "women's health as a political pawn,\" he said.\nHe added later, \"It also interferes with my right to choose this nation's maternal and women's health policies. Americans decide these things, not the out-of-touch lawmakers in Washington.\"\nHillary Clinton defended Planned Parenthood, tweeting \"our bodies, our policy.\"\nAlong with supporting abortion, Planned Parenthood offers general health care services including cancer screenings and STD testing to women of lower income.\nIn fiscal 2014, the government paid Planned Parenthood $540 million, according to the GAO. Additionally, 40% of all patients at clinics run by Planned Parenthood use Medicaid or another federal insurance program to pay for their care.\nA similar measure to defund Planned Parenthood previously made it through the Senate",
+  "z0": 2.82842712474619,
+  "seconds": 125.6
+ }
+}

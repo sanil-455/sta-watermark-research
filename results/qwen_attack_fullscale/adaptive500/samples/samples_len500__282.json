@@ -1,0 +1,361 @@
+{
+ "sample_id": "samples_len500:282",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8884723523898782,
+ "needed_share": 0.6718247999349795,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2134,
+  "segments": 17,
+  "eligible": 12,
+  "skipped": 5,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "no final punctuation": 3,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1896,
+  "eligible_char_share": 0.8884723523898782
+ },
+ "attack": {
+  "z0": 6.094305723295803,
+  "z_final": 1.721892064184557,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 338,
+  "seconds": 411.3,
+  "seconds_by_phase": {
+   "generate": 382.4,
+   "gates": 28.7,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 301,
+    "z_before": 6.094305723295803,
+    "z_after": 5.685300809155234,
+    "accepted": true,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 58,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 59.36
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 270,
+    "z_before": 5.685300809155234,
+    "z_after": 4.959443359024534,
+    "accepted": true,
+    "survivors": 58,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 58,
+     "rejected": {
+      "CJK text": 2
+     }
+    },
+    "queries_total": 116,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 57.1
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 214,
+    "z_before": 4.959443359024534,
+    "z_after": 4.388097851061569,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 43,
+     "after_spelling": 43,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "several lines": 1,
+      "duplicate": 16
+     }
+    },
+    "queries_total": 159,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.2
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 190,
+    "z_before": 4.388097851061569,
+    "z_after": 3.937128201313899,
+    "accepted": true,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 39,
+     "after_spelling": 36,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "duplicate": 21,
+      "unknown word": 3
+     }
+    },
+    "queries_total": 195,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.55
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 171,
+    "z_before": 3.937128201313899,
+    "z_after": 3.0996520993903336,
+    "accepted": true,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 38,
+     "after_spelling": 36,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "duplicate": 22,
+      "unknown word": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 229,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.06
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 163,
+    "z_before": 3.0996520993903336,
+    "z_after": 2.615129022349824,
+    "accepted": true,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 10,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 275,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.89
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 160,
+    "z_before": 2.615129022349824,
+    "z_after": 2.479721679512267,
+    "accepted": true,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 24,
+     "after_spelling": 23,
+     "after_content": 23,
+     "after_semantic": 23,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "duplicate": 36,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 298,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.6
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 130,
+    "z_before": 2.479721679512267,
+    "z_after": 2.2011272658140597,
+    "accepted": true,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 18,
+     "after_spelling": 18,
+     "after_content": 18,
+     "after_semantic": 18,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "duplicate": 42
+     }
+    },
+    "queries_total": 316,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.03
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 107,
+    "z_before": 2.2011272658140597,
+    "z_after": 1.721892064184557,
+    "accepted": true,
+    "survivors": 22,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 25,
+     "after_spelling": 25,
+     "after_content": 25,
+     "after_semantic": 25,
+     "fluency_skipped": false,
+     "after_fluency": 22,
+     "rejected": {
+      "duplicate": 34,
+      "CJK text": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 338,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.65
+   }
+  ],
+  "rewrites": {
+   "10": {
+    "original": "He is a serial entrepreneur, having engaged with three startup businesses: Song Swops, Economics, and Boosterfisher Inc. He is on the editorial board of the Strategic Management Journal, Journal of Management, Journal of Economic Behavior and Organization, and the Journal of Organizational Economics.",
+    "rewrite": "He has been an active entrepreneur, involved with three startup companies: Song Swops, Economics, and Boosterfisher Inc. He serves on the editorial board of the Strategic Management Journal, the Journal of Management, the Journal of Economic Behavior and Organization, and the Journal of Organizational Economics."
+   },
+   "3": {
+    "original": "He is a frequently-cited expert, an official Fellow of the Strategic Management Society (SMS), and an invited member of the editorial boards of Strategic Management Journal, Journal of Management, Organization Science, and several other key strategy management journals.",
+    "rewrite": "He is often-quoted by various sources, holds the status of a Fellow of the Strategic Management Society (SMS), and is an invited member of the editorial boards of strategic management journals including the Strategic Management Journal, Journal of Management, Organization Science, and multiple other significant strategy journals."
+   },
+   "6": {
+    "original": "Lamar is the research faculty incumbent of the Loan Office and Retirement Planning Fellowship Program and is the academic director for The Brookings Business Executive Education program in mergers and acquisitions.",
+    "rewrite": "Lamar holds the position of research faculty for the Loan Office and Retirement Planning Fellowship Program and leads The Brookings Business Executive Education program in mergers and acquisitions as the academic director."
+   },
+   "8": {
+    "original": "He was a lead author on articles published in the Harvard Business Review, Business Week, and the Financial Times, and was acclaimed for his contribution Bain & Company\u2019s 1999 annual report.",
+    "rewrite": "He served as a lead author for articles published in the Harvard Business Review, Business Week, and the Financial Times, and received praise for his contribution to Bain & Company\u2019s 1999 annual report."
+   },
+   "4": {
+    "original": "He has appeared on the Bloomberg Business Network several times to discuss proactive corporate governance and how strategic issues can come up in any type of organization.",
+    "rewrite": "He has shown up multiple times on the Bloomberg Business Network to talk about proactive corporate governance and how strategic issues can affect any organization type."
+   },
+   "5": {
+    "original": "Lamar is also a sought-after public speaker, having given the keynote address at the 50thth anniversary of the ICIS conference, hosted by the University of Sydney.",
+    "rewrite": "Lamar is also widely demanded as a public speaker, delivering the keynote address at the 50th anniversary of the ICIS conference, organized by the University of Sydney."
+   },
+   "9": {
+    "original": "In addition to his activities at Washington University, Lamar has taught at the Macquarie Graduate School of Management, INSEAD, and the University of Kentucky.",
+    "rewrite": "Apart from his work at Washington University, Lamar has also taught at the Macquarie Graduate School of Management, INSEAD, and the University of Kentucky."
+   },
+   "11": {
+    "original": "Lamar received his Ph.D. in Business Administration from U.C. Berkeley\u2019s Haas School of Business in 2003; M.A. 2001 and B.A, 1997.",
+    "rewrite": "Lamar earned his Ph.D. in Business Administration from U.C. Berkeley\u2019s Haas School of Business in 2003, along with an M.A. in 2001 and a B.A. in 1997."
+   },
+   "1": {
+    "original": "His research is widely conducted with large datasets from the worlds of business, politics, and governance.",
+    "rewrite": "His research extensively uses large datasets from business, political, and governance sectors."
+   }
+  },
+  "final_span": "teaches strategy at the undergraduate and graduate level at Washington University in St. Louis. His research extensively uses large datasets from business, political, and governance sectors. He has released six books, edited two, and published 70+ papers. He is often-quoted by various sources, holds the status of a Fellow of the Strategic Management Society (SMS), and is an invited member of the editorial boards of strategic management journals including the Strategic Management Journal, Journal of Management, Organization Science, and multiple other significant strategy journals. He has shown up multiple times on the Bloomberg Business Network to talk about proactive corporate governance and how strategic issues can affect any organization type. Lamar is also widely demanded as a public speaker, delivering the keynote address at the 50th anniversary of the ICIS conference, organized by the University of Sydney.\nLamar holds the position of research faculty for the Loan Office and Retirement Planning Fellowship Program and leads The Brookings Business Executive Education program in mergers and acquisitions as the academic director.\nEarlier in his career, Lamar worked as a consultant at Bain & Company\u2019s Boston office. He served as a lead author for articles published in the Harvard Business Review, Business Week, and the Financial Times, and received praise for his contribution to Bain & Company\u2019s 1999 annual report. Apart from his work at Washington University, Lamar has also taught at the Macquarie Graduate School of Management, INSEAD, and the University of Kentucky. He has been an active entrepreneur, involved with three startup companies: Song Swops, Economics, and Boosterfisher Inc. He serves on the editorial board of the Strategic Management Journal, the Journal of Management, the Journal of Economic Behavior and Organization, and the Journal of Organizational Economics.\nLamar earned his Ph.D. in Business Administration from U.C. Berkeley\u2019s Haas School of Business in 2003, along with an M.A. in 2001 and a B.A. in 1997.\nUnion problems at Microsoft\nTrump and Nationalism\nMicrosoft to release Universal Windows Platform\nCan Sony catch up with Microsoft gaming?\nAre Self-Regulating Markets Good",
+  "break_point": {
+   "step": 8,
+   "sentences_rewritten": 9,
+   "queries": 338
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 9,
+   "eligible": 12,
+   "segments": 17,
+   "pct_of_eligible": 75.0,
+   "pct_of_segments": 52.94117647058823
+  },
+  "tokens": {
+   "original": 499,
+   "final": 514,
+   "length_change": 15,
+   "pct_not_preserved": 13.226452905811625,
+   "pct_new": 15.758754863813229
+  },
+  "words": {
+   "original": 321,
+   "final": 337,
+   "length_change": 16,
+   "pct_not_preserved": 18.068535825545172,
+   "pct_new": 21.95845697329377
+  },
+  "characters": {
+   "original": 2134,
+   "final": 2231,
+   "length_change": 97,
+   "pct_not_preserved": 11.199625117150891,
+   "pct_new": 15.060510981622588
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 317,
+   "green_after": 276,
+   "pairs_before": 498,
+   "pairs_after": 513,
+   "pairs_changed_before": 111,
+   "pairs_changed_after": 126,
+   "green_fraction_of_new_pairs": 0.30158730158730157,
+   "delta_achieved": 0.19841269841269843
+  }
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "sample_id": "samples_len200:113",
+ "nobox": {
+  "z_final": 0.7877263614433762,
+  "status": "broken",
+  "rewrites": {
+   "5": {
+    "original": "Here is one of the biggest warning signs that a company could run into big trouble: its employees are not aware and kept from reviewing key documents and contracts.",
+    "rewrite": "One of the most telling indicators a company might face significant issues is when its employees aren't permitted to review important documents and contracts."
+   },
+   "0": {
+    "original": "Typically this is for as long as either the agreement is made or there is a unique release date \u2013 anyone else will be protected even after the contract is buried.",
+    "rewrite": "Generally, this applies from the time the agreement is made until a specific release date is set\u2014any additional parties remain protected beyond the burial of the contract."
+   },
+   "7": {
+    "original": "In the case of these people getting paid to play, they are an important component of getting your company to succeed.",
+    "rewrite": "For these individuals who get paid to play, they become crucial to your company's success."
+   },
+   "3": {
+    "original": "Some other common details include the purpose of the document, the parties and geographical restrictions.",
+    "rewrite": "Common details often include the purpose of the document, the parties involved, and any geographical restrictions."
+   },
+   "6": {
+    "original": "There is a common problem called, named after Carl Perkins, Pay-to-Play.",
+    "rewrite": "There is a common problem known as Pay-to-Play, named after Carl Perkins."
+   },
+   "4": {
+    "original": "Any of these could be topic for which a court will enforce a contract.",
+    "rewrite": "Any of these could be a topic for which a court will enforce a contract."
+   },
+   "1": {
+    "original": "However, there are courts that consider this to be unreasonable.",
+    "rewrite": "However, some courts find this to be unreasonable."
+   },
+   "2": {
+    "original": "Yet the terms of an NDA are not limited to these.",
+    "rewrite": "Yet, an NDA does not restrict itself to these terms alone."
+   }
+  },
+  "sentences_rewritten": 8,
+  "eligible": 8,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 1,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 21,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 21,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 20,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 15,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 10,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 3,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Generally, this applies from the time the agreement is made until a specific release date is set\u2014any additional parties remain protected beyond the burial of the contract. However, some courts find this to be unreasonable.\nYet, an NDA does not restrict itself to these terms alone. Common details often include the purpose of the document, the parties involved, and any geographical restrictions. Any of these could be a topic for which a court will enforce a contract.\nOne of the most telling indicators a company might face significant issues is when its employees aren't permitted to review important documents and contracts. There is a common problem known as Pay-to-Play, named after Carl Perkins. For these individuals who get paid to play, they become crucial to your company's success. So why not pay a contract attorney to make sure that your employees get the training they need to prevent the company\u2019s biggest asset \u2013",
+  "z0": 5.232590180780451,
+  "seconds": 199.8
+ }
+}

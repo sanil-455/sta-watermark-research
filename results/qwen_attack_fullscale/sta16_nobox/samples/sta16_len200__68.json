@@ -1,0 +1,26 @@
+{
+ "sample_id": "sta16_len200:68",
+ "nobox": {
+  "z_final": 10.272524153062262,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "The paper was beaten only by CGU College of the Arts this year.",
+    "rewrite": "This year, the paper was beaten solely by CGU College of the Arts."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 28,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the Society: Feature Documentary. This year, the paper was beaten solely by CGU College of the Arts.\nBreaking News Story: Todd Martin (first), Jonathan Bechtol (second)\n\"UCF Students Brace for COVID-19\" by Jonathan Bechtol and Chelsea tribes (first)\n\"Knightlies Raises Record Amount of Funds\" by Jonathan Bechtol (first)\nFeature Story: non-profile: Bryce Thomas (first), Jonathan Bechtol (second)\n\"Scott Browne Survives Twists in Election Nights\" by Jonathan Bechtol (first)\nSocial Documentary: \"Hidden Perspective\" by Bryce Thomas (second)\n\"Whom to send to the GPHC (and why)?\" by Cristofer Gentry (first)\n\"Two men missing, car's wrecked\" by Jonathan Bechtol,",
+  "z0": 10.606601717798213,
+  "seconds": 22.7
+ }
+}

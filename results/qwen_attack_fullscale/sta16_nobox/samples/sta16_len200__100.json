@@ -1,0 +1,35 @@
+{
+ "sample_id": "sta16_len200:100",
+ "nobox": {
+  "z_final": 6.605215059283191,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "There are small concerns, particularly in attack where prolific centre-forward Robin van Persie is coming off the back of an awkward challenge that led to a thigh muscle injury.There is still the question of how manager David Moyes lines up ahead of the game and if Rooney's injury provides an opportunity for the Dutchman to make a right-footed cameo instead of bringing him on after an hour, which is the plan he may adopt on Sunday.",
+    "rewrite": "There are minor concerns, especially in attack, where the prolific centre-forward Robin van Persie recovered from an awkward challenge that resulted in a thigh muscle injury. There is yet the uncertainty of how manager David Moyes will arrange his team before the match and whether Rooney's absence opens a chance for van Persie to make a right-footed appearance early, potentially altering the original plan to substitute him after an hour on Sunday."
+   },
+   "5": {
+    "original": "Certain it has to be much better, there are few doubting it this time though.",
+    "rewrite": "Certain it has to be much better, few now doubt it this time."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 17,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "some hard results this season and are out of the Champions League so their home form is under more scrutiny.\n\"We are focused on progressing. I think the boys have been frustrated at our level because results are good but there are things we can be doing better. We are trying to put things together.\"\nThere are minor concerns, especially in attack, where the prolific centre-forward Robin van Persie recovered from an awkward challenge that resulted in a thigh muscle injury. There is yet the uncertainty of how manager David Moyes will arrange his team before the match and whether Rooney's absence opens a chance for van Persie to make a right-footed appearance early, potentially altering the original plan to substitute him after an hour on Sunday.\nCertain it has to be much better, few now doubt it this time.\n\"Some good things are in there, but there is still a lot",
+  "z0": 10.182337649086284,
+  "seconds": 141.3
+ }
+}

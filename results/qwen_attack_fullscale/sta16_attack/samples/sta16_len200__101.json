@@ -1,0 +1,421 @@
+{
+ "sample_id": "sta16_len200:101",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.9249592169657422,
+ "needed_share": 0.74287026138671,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 613,
+  "segments": 6,
+  "eligible": 4,
+  "skipped": 2,
+  "skip_reasons": {
+   "no final punctuation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 567,
+  "eligible_char_share": 0.9249592169657422
+ },
+ "attack": {
+  "z0": 7.7781745930520225,
+  "z_final": 2.8794929797844278,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 229,
+  "seconds": 618.3,
+  "seconds_by_phase": {
+   "generate": 595.3,
+   "gates": 22.9,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 240,
+    "z_before": 7.7781745930520225,
+    "z_after": 6.210590034081188,
+    "accepted": true,
+    "survivors": 10,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 60,
+     "after_content": 10,
+     "after_semantic": 10,
+     "fluency_skipped": false,
+     "after_fluency": 10,
+     "rejected": {
+      "numbers changed": 49,
+      "negation count changed": 1
+     }
+    },
+    "queries_total": 11,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 80.42
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 180,
+    "z_before": 6.210590034081188,
+    "z_after": 5.106485139133421,
+    "accepted": true,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 43,
+     "after_content": 35,
+     "after_semantic": 35,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "several lines": 1,
+      "duplicate": 15,
+      "unknown word": 1,
+      "negation count changed": 8,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 45,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 47.92
+   },
+   {
+    "pass": 1,
+    "segment": 0,
+    "chars": 78,
+    "z_before": 5.106485139133421,
+    "z_after": 4.750155896668448,
+    "accepted": true,
+    "survivors": 13,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 15,
+     "after_spelling": 15,
+     "after_content": 15,
+     "after_semantic": 15,
+     "fluency_skipped": false,
+     "after_fluency": 13,
+     "rejected": {
+      "duplicate": 45,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 58,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.18
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 69,
+    "z_before": 4.750155896668448,
+    "z_after": 3.592026568283792,
+    "accepted": true,
+    "survivors": 29,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 29,
+     "after_spelling": 29,
+     "after_content": 29,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 29,
+     "rejected": {
+      "duplicate": 31
+     }
+    },
+    "queries_total": 87,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.77
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 240,
+    "z_before": 3.592026568283792,
+    "z_after": 2.8794929797844278,
+    "accepted": true,
+    "survivors": 3,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 58,
+     "after_content": 3,
+     "after_semantic": 3,
+     "fluency_skipped": false,
+     "after_fluency": 3,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 1,
+      "numbers changed": 55
+     }
+    },
+    "queries_total": 90,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 84.38
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 180,
+    "z_before": 2.8794929797844278,
+    "z_after": 3.020047955773619,
+    "accepted": false,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 46,
+     "after_content": 28,
+     "after_semantic": 28,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "duplicate": 12,
+      "CJK text": 1,
+      "unknown word": 1,
+      "negation count changed": 18,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 117,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.34
+   },
+   {
+    "pass": 2,
+    "segment": 0,
+    "chars": 78,
+    "z_before": 2.8794929797844278,
+    "z_after": 2.8794929797844278,
+    "accepted": false,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 13,
+     "after_spelling": 13,
+     "after_content": 13,
+     "after_semantic": 13,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "duplicate": 47,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 128,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.18
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 69,
+    "z_before": 2.8794929797844278,
+    "z_after": 2.8794929797844278,
+    "accepted": false,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 41,
+     "after_spelling": 41,
+     "after_content": 40,
+     "after_semantic": 40,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "duplicate": 19,
+      "numbers changed": 1
+     }
+    },
+    "queries_total": 167,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.65
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 240,
+    "z_before": 2.8794929797844278,
+    "z_after": 3.178877656956105,
+    "accepted": false,
+    "survivors": 6,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 6,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 6,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 1,
+      "numbers changed": 52
+     }
+    },
+    "queries_total": 173,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 85.58
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 180,
+    "z_before": 2.8794929797844278,
+    "z_after": 2.973683702047904,
+    "accepted": false,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 46,
+     "after_spelling": 46,
+     "after_content": 34,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "duplicate": 12,
+      "CJK text": 2,
+      "negation count changed": 12
+     }
+    },
+    "queries_total": 206,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.35
+   },
+   {
+    "pass": 3,
+    "segment": 0,
+    "chars": 78,
+    "z_before": 2.8794929797844278,
+    "z_after": 3.027027572983406,
+    "accepted": false,
+    "survivors": 10,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 12,
+     "after_spelling": 12,
+     "after_content": 12,
+     "after_semantic": 12,
+     "fluency_skipped": false,
+     "after_fluency": 10,
+     "rejected": {
+      "duplicate": 48,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 208,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.37
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 69,
+    "z_before": 2.8794929797844278,
+    "z_after": 2.9664793948382653,
+    "accepted": false,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 34,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "duplicate": 26,
+      "numbers changed": 2
+     }
+    },
+    "queries_total": 229,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.21
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "Bri Thomas scored at 49:49 to put the Cardinals on top for good, and the Wildcats scored again in the 82nd minute, giving them 21 shots to just eight for the Matadors, who went down to their first defeat (9-1) after starting the season 7-0.",
+    "rewrite": "At 49:49, Bri Thomas scored to ensure the Cardinals led from then on, and the Wildcats added another goal in the 82nd minute, resulting in the Cardinals having 21 shots compared to just eight for the Matadors. The Matadors, starting the season 7-0, suffered their first loss (9-1)."
+   },
+   "1": {
+    "original": "EL PASO \u2014 Belinda Lordo and Lino Arciniega scored goals, but the Lamar South Plains College defeated Western Texas College 3-2 in Western Junior College Athletic Conference action.",
+    "rewrite": "EL PASO \u2014 Despite goals from Belinda Lordo and Lino Arciniega, Western Texas College lost to Lamar South Plains College 3-2 in Western Junior College Athletic Conference action."
+   },
+   "0": {
+    "original": "Oklahoma Christian at 6 p.m. Monday at the Hegi Family Arena in Oklahama City.",
+    "rewrite": "Oklahoma Christian versus another team at 6 p.m. Monday at the Hegi Family Arena in Oklahoma City."
+   },
+   "2": {
+    "original": "Lordo scored at 66:40, and Arciniega at 82:49 to tie the game at 2-2.",
+    "rewrite": "Lordo scored at the 66th minute and 40 seconds, while Arciniega did so at the 82nd minute and 49 seconds, resulting in the game being tied at 2-2."
+   }
+  },
+  "final_span": "Oklahoma Christian versus another team at 6 p.m. Monday at the Hegi Family Arena in Oklahoma City.\nEL PASO \u2014 Despite goals from Belinda Lordo and Lino Arciniega, Western Texas College lost to Lamar South Plains College 3-2 in Western Junior College Athletic Conference action.\nLordo scored at the 66th minute and 40 seconds, while Arciniega did so at the 82nd minute and 49 seconds, resulting in the game being tied at 2-2.\nAt 49:49, Bri Thomas scored to ensure the Cardinals led from then on, and the Wildcats added another goal in the 82nd minute, resulting in the Cardinals having 21 shots compared to just eight for the Matadors. The Matadors, starting the season 7-0, suffered their first loss (9-1).\nNo. 7 WEATHERFORD COLLEGE 58,\nUBS INDIAN B",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 4,
+   "eligible": 4,
+   "segments": 6,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 66.66666666666667
+  },
+  "tokens": {
+   "original": 201,
+   "final": 224,
+   "length_change": 23,
+   "pct_not_preserved": 21.39303482587065,
+   "pct_new": 29.464285714285708
+  },
+  "words": {
+   "original": 109,
+   "final": 129,
+   "length_change": 20,
+   "pct_not_preserved": 32.11009174311926,
+   "pct_new": 42.63565891472868
+  },
+  "characters": {
+   "original": 613,
+   "final": 748,
+   "length_change": 135,
+   "pct_not_preserved": 21.53344208809136,
+   "pct_new": 35.6951871657754
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 155,
+   "green_after": 133,
+   "pairs_before": 200,
+   "pairs_after": 223,
+   "pairs_changed_before": 69,
+   "pairs_changed_after": 92,
+   "green_fraction_of_new_pairs": 0.391304347826087,
+   "delta_achieved": 0.10869565217391303
+  }
+ }
+}

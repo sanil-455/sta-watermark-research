@@ -1,0 +1,31 @@
+{
+ "sample_id": "samples_len200:280",
+ "nobox": {
+  "z_final": 2.622860458530843,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Scotland Office Minister Des McNulty said the UK government has also permitted more organisations to be registered to campaign than in the 1979 devolution referendum.",
+    "rewrite": "Scotland Office Minister Des McNulty stated that the UK government has also allowed more organizations to register to campaign than in the 1979 devolution referendum."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 1,
+    "survivors": 33,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "on grassroots activities.\nScotland Office Minister Des McNulty stated that the UK government has also allowed more organizations to register to campaign than in the 1979 devolution referendum.\nHe said 77 organisations had registered in total at the last count - 21 more than allowed during the 1979 devolution campaign, and the number could increase after the deadline expires at 23.59 on Sunday.\nMr McNulty said: \"It means there are plenty of organisations and individuals campaigning on all sides... representing as diverse a range of views as there ever was.\n\"There are individuals campaigning, there are business groups, there are churches, youth groups, guilds, political parties, charities, trade unions - you name it. So it's a varied range.\"\nSalmond ahead in TV debate\nChurch leaders' Brexit plea\nWork",
+  "z0": 2.82842712474619,
+  "seconds": 98.6
+ }
+}

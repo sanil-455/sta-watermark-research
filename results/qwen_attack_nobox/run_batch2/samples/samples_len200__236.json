@@ -1,0 +1,71 @@
+{
+ "sample_id": "samples_len200:236",
+ "nobox": {
+  "z_final": 3.959797974644666,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "Others are tackling issues with help from Penn State\u2019s Institute for Entrepreneurship and Innovation, most recently the \u201cCollision\u201d event held in February that united government agencies, venture capitalists, artists and local businesses.",
+    "rewrite": "Others are addressing challenges with assistance from Penn State\u2019s Institute for Entrepreneurship and Innovation, most recently through the \u201cCollision\u201d event in February, which brought together government agencies, venture capitalists, artists, and local businesses."
+   },
+   "1": {
+    "original": "The network is made up of high school students, budding entrepreneurs, CGI Lions, serial entrepreneurs, established business owners and investors.",
+    "rewrite": "The network consists of high school students, budding entrepreneurs, CGI Lions, serial entrepreneurs, established business owners, and investors."
+   },
+   "3": {
+    "original": "Penn State has also partnered with PrideStaff International, which is recruiting local students for part-time jobs as Penn State ambassadors.",
+    "rewrite": "Penn State has also partnered with PrideStaff International, which is recruiting local students for part-time roles as Penn State ambassadors."
+   },
+   "2": {
+    "original": "Much of that is happening in partnership with Penn State, which in the past year started an official campus entrepreneurship program.",
+    "rewrite": "A large part of this is happening in collaboration with Penn State, which launched an official campus entrepreneurship program last year."
+   },
+   "4": {
+    "original": "The ambassadors are paid to identify trends in the local community and help solve its problems proactively.",
+    "rewrite": "Ambassadors are paid to recognize trends in the local community and assist in solving its problems proactively."
+   },
+   "6": {
+    "original": "The big part of the puzzle is infrastructure.",
+    "rewrite": "A major piece of the puzzle is infrastructure."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 38,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 23,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 14,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the past year, and membership is still growing. The network consists of high school students, budding entrepreneurs, CGI Lions, serial entrepreneurs, established business owners, and investors.\nA large part of this is happening in collaboration with Penn State, which launched an official campus entrepreneurship program last year. Penn State has also partnered with PrideStaff International, which is recruiting local students for part-time roles as Penn State ambassadors. Ambassadors are paid to recognize trends in the local community and assist in solving its problems proactively.\nOthers are addressing challenges with assistance from Penn State\u2019s Institute for Entrepreneurship and Innovation, most recently through the \u201cCollision\u201d event in February, which brought together government agencies, venture capitalists, artists, and local businesses.\nA major piece of the puzzle is infrastructure. City",
+  "z0": 5.374011537017761,
+  "seconds": 193.8
+ }
+}

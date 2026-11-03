@@ -1,0 +1,264 @@
+{
+ "sample_id": "sta16_len200:100",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.5878300803673938,
+ "needed_share": 0.8035814496704035,
+ "delta_needed": 0.13213085812236658,
+ "segmentation": {
+  "chars": 871,
+  "segments": 7,
+  "eligible": 2,
+  "skipped": 5,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 3,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 512,
+  "eligible_char_share": 0.5878300803673938
+ },
+ "attack": {
+  "z0": 10.182337649086284,
+  "z_final": 3.9797467053047284,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 178,
+  "seconds": 405.5,
+  "seconds_by_phase": {
+   "generate": 384.3,
+   "gates": 21.2,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 435,
+    "z_before": 10.182337649086284,
+    "z_after": 5.572230365282926,
+    "accepted": true,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 36,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "CJK text": 10,
+      "several lines": 6,
+      "unknown word": 8,
+      "numbers changed": 4
+     }
+    },
+    "queries_total": 33,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 110.84
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 77,
+    "z_before": 5.572230365282926,
+    "z_after": 4.264014327112209,
+    "accepted": true,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 44,
+     "after_content": 43,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "preamble": 8,
+      "duplicate": 8,
+      "negation count changed": 1,
+      "meaning too different": 12,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 60,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.08
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 435,
+    "z_before": 4.264014327112209,
+    "z_after": 3.9797467053047284,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 45,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "several lines": 3,
+      "CJK text": 8,
+      "unknown word": 4,
+      "numbers changed": 2
+     }
+    },
+    "queries_total": 103,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 101.32
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 77,
+    "z_before": 3.9797467053047284,
+    "z_after": 4.0205656882593335,
+    "accepted": false,
+    "survivors": 25,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 42,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 25,
+     "rejected": {
+      "preamble": 5,
+      "duplicate": 13,
+      "meaning too different": 13,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 128,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.7
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 435,
+    "z_before": 3.9797467053047284,
+    "z_after": 4.0,
+    "accepted": false,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 38,
+     "after_content": 34,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "CJK text": 8,
+      "several lines": 5,
+      "unknown word": 9,
+      "numbers changed": 3,
+      "negation count changed": 1
+     }
+    },
+    "queries_total": 162,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 115.88
+   },
+   {
+    "pass": 3,
+    "segment": 5,
+    "chars": 77,
+    "z_before": 3.9797467053047284,
+    "z_after": 3.9797467053047284,
+    "accepted": false,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 39,
+     "after_spelling": 39,
+     "after_content": 39,
+     "after_semantic": 23,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "preamble": 9,
+      "duplicate": 12,
+      "meaning too different": 16,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 178,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.45
+   }
+  ],
+  "rewrites": {
+   "4": {
+    "original": "There are small concerns, particularly in attack where prolific centre-forward Robin van Persie is coming off the back of an awkward challenge that led to a thigh muscle injury.There is still the question of how manager David Moyes lines up ahead of the game and if Rooney's injury provides an opportunity for the Dutchman to make a right-footed cameo instead of bringing him on after an hour, which is the plan he may adopt on Sunday.",
+    "rewrite": "There are some minor worries, especially in attack, as prolific center-forward Robin van Persie recovers from a muscle injury resulting from a challenging tackle. There remains uncertainty about how manager David Moyes will set his lineup before the match, and whether Rooney's absence offers van Persie a chance to appear for a few minutes with his right foot, rather than substituting him after an hour, which is currently the planned strategy for Sunday."
+   },
+   "5": {
+    "original": "Certain it has to be much better, there are few doubting it this time though.",
+    "rewrite": "There is little doubt this time, as it is certain to be much better."
+   }
+  },
+  "final_span": "some hard results this season and are out of the Champions League so their home form is under more scrutiny.\n\"We are focused on progressing. I think the boys have been frustrated at our level because results are good but there are things we can be doing better. We are trying to put things together.\"\nThere are some minor worries, especially in attack, as prolific center-forward Robin van Persie recovers from a muscle injury resulting from a challenging tackle. There remains uncertainty about how manager David Moyes will set his lineup before the match, and whether Rooney's absence offers van Persie a chance to appear for a few minutes with his right foot, rather than substituting him after an hour, which is currently the planned strategy for Sunday.\nThere is little doubt this time, as it is certain to be much better.\n\"Some good things are in there, but there is still a lot",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 2,
+   "segments": 7,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 28.571428571428573
+  },
+  "tokens": {
+   "original": 201,
+   "final": 199,
+   "length_change": -2,
+   "pct_not_preserved": 33.83084577114428,
+   "pct_new": 33.165829145728644
+  },
+  "words": {
+   "original": 158,
+   "final": 154,
+   "length_change": -4,
+   "pct_not_preserved": 38.60759493670886,
+   "pct_new": 37.01298701298701
+  },
+  "characters": {
+   "original": 871,
+   "final": 884,
+   "length_change": 13,
+   "pct_not_preserved": 26.75086107921929,
+   "pct_new": 27.828054298642535
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 172,
+   "green_after": 127,
+   "pairs_before": 200,
+   "pairs_after": 198,
+   "pairs_changed_before": 89,
+   "pairs_changed_after": 87,
+   "green_fraction_of_new_pairs": 0.39080459770114945,
+   "delta_achieved": 0.10919540229885055
+  }
+ }
+}

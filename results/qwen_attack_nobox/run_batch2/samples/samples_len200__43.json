@@ -1,0 +1,58 @@
+{
+ "sample_id": "samples_len200:43",
+ "nobox": {
+  "z_final": 5.169298742047714,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "And because it involved a madressah in Lahore which is location A, tribes are already forming on location B and according to you\u2019re the mind whfleingly, tribal tensions in Yemen.",
+    "rewrite": "And because it involved a madressah in Lahore at location A, tribes are already forming at location B and according to your understanding, tribal tensions in Yemen."
+   },
+   "2": {
+    "original": "Mind blowing, there was a madressah blast in Lahore that injured 12 students and it was widely condemned and reported.",
+    "rewrite": "Mind-boggling, a madressah explosion occurred in Lahore, injuring 12 students, and it was extensively condemned and reported."
+   },
+   "6": {
+    "original": "India is the biggest target of terrorist attacks, Pakistan is left with third to tenth.",
+    "rewrite": "Terrorist attacks primarily target India, with Pakistan ranking from third to tenth."
+   },
+   "7": {
+    "original": "So why such apathy in losing people in your own country?",
+    "rewrite": "Why such apathy about losing people in your own country?"
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 6,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 24,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "pray that we can tackle this darkness and hate to let the world become a better place which we can live in peace and harmony.\n@Ali: Oh this is so buried, barely not even a passing mention.\nMind-boggling, a madressah explosion occurred in Lahore, injuring 12 students, and it was extensively condemned and reported. And because it involved a madressah in Lahore at location A, tribes are already forming at location B and according to your understanding, tribal tensions in Yemen.\nBad news always gets buried, good news is spoken about by all, no matter how trivial, no point picking on it. Did I write the facts wrong? Terrorist attacks primarily target India, with Pakistan ranking from third to tenth. Why such apathy about losing people in your own country? Yeah I know, your country and the",
+  "z0": 6.788225099390856,
+  "seconds": 169.4
+ }
+}

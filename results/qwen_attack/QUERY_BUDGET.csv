@@ -1,0 +1,17 @@
+length,budget,broken,n,rate_pct,ci_low,ci_high
+200-token spans,5,1,46,2.2,0.4,11.3
+200-token spans,10,1,46,2.2,0.4,11.3
+200-token spans,20,2,46,4.3,1.2,14.5
+200-token spans,50,4,46,8.7,3.4,20.3
+200-token spans,100,17,46,37.0,24.5,51.4
+200-token spans,200,34,46,73.9,59.7,84.4
+200-token spans,500,35,46,76.1,62.1,86.1
+200-token spans,unlimited (actual),35,46,76.1,62.1,86.1
+500-token spans,5,0,21,0.0,0.0,15.5
+500-token spans,10,0,21,0.0,0.0,15.5
+500-token spans,20,0,21,0.0,0.0,15.5
+500-token spans,50,0,21,0.0,0.0,15.5
+500-token spans,100,0,21,0.0,0.0,15.5
+500-token spans,200,1,21,4.8,0.8,22.7
+500-token spans,500,15,21,71.4,50.0,86.2
+500-token spans,unlimited (actual),18,21,85.7,65.4,95.0

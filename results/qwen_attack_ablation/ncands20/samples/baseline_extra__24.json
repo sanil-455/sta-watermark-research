@@ -1,0 +1,214 @@
+{
+ "sample_id": "baseline_extra:24",
+ "source": "results/raw/baseline_extra.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.7542972699696663,
+ "needed_share": 0.6071628993408069,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 989,
+  "segments": 7,
+  "eligible": 4,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "no final punctuation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 746,
+  "eligible_char_share": 0.7542972699696663
+ },
+ "attack": {
+  "z0": 5.091168824543142,
+  "z_final": 1.2850792082313727,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 66,
+  "seconds": 49.3,
+  "seconds_by_phase": {
+   "generate": 44.3,
+   "gates": 5.0,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 244,
+    "z_before": 5.091168824543142,
+    "z_after": 4.428571428571429,
+    "accepted": true,
+    "survivors": 16,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 18,
+     "after_spelling": 17,
+     "after_content": 17,
+     "after_semantic": 17,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "duplicate": 2,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 17,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 12.97
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 180,
+    "z_before": 4.428571428571429,
+    "z_after": 3.772476500572061,
+    "accepted": true,
+    "survivors": 16,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 19,
+     "after_spelling": 17,
+     "after_content": 17,
+     "after_semantic": 17,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 33,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 10.3
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 176,
+    "z_before": 3.772476500572061,
+    "z_after": 2.452870682615649,
+    "accepted": true,
+    "survivors": 18,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 19,
+     "after_spelling": 19,
+     "after_content": 19,
+     "after_semantic": 19,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "CJK text": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 51,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 8.91
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 146,
+    "z_before": 2.452870682615649,
+    "z_after": 1.2850792082313727,
+    "accepted": true,
+    "survivors": 15,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 19,
+     "after_spelling": 18,
+     "after_content": 18,
+     "after_semantic": 16,
+     "fluency_skipped": false,
+     "after_fluency": 15,
+     "rejected": {
+      "hit length limit": 1,
+      "unknown word": 1,
+      "meaning too different": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 66,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 12.12
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "In California, there has been an official guidance document put forth by the Secretary of the California Business, Transportation and Housing Agency,describing the potential elements an autonomous vehicle self-identification form might include.",
+    "rewrite": "In California, an official guidance document outlining potential elements for an autonomous vehicle self-identification form has been authored by the Secretary of the California Business, Transportation and Housing Agency."
+   },
+   "3": {
+    "original": "It is a rather lengthy 52 pages, but the document basically outlines the first steps manufacturers need to take in order to have their autonomous vehicles considered for licensing.",
+    "rewrite": "The document, stretching to 52 pages, mainly sets out the initial actions manufacturers must undertake to ensure their autonomous vehicles can be licensed."
+   },
+   "4": {
+    "original": "Manufacturers have an opportunity to provide information such as who is responsible for claims, any intellectual property rights that might be involved and system descriptions.",
+    "rewrite": "Companies can offer details including liability for claims, potential intellectual property rights, and system explanations."
+   },
+   "5": {
+    "original": "A spokesperson for the Department of Motor Vehicles responded to inquiries about the Arizona incident by emailing a previously-released statement.",
+    "rewrite": "A representative from the Department of Motor Vehicles addressed questions regarding the Arizona incident via an emailed statement they had issued before."
+   }
+  },
+  "final_span": "technology, noted in a statement, \u201cPublic safety and privacy should be our higher priorities when it comes to autonomous vehicles.\u201d\nAn autonomous vehicle currently on the road in California\nIn California, an official guidance document outlining potential elements for an autonomous vehicle self-identification form has been authored by the Secretary of the California Business, Transportation and Housing Agency. The document, stretching to 52 pages, mainly sets out the initial actions manufacturers must undertake to ensure their autonomous vehicles can be licensed. Companies can offer details including liability for claims, potential intellectual property rights, and system explanations.\nA representative from the Department of Motor Vehicles addressed questions regarding the Arizona incident via an emailed statement they had issued before.\n\u201cWhen autonomous vehicle technology is developed,",
+  "break_point": {
+   "step": 3,
+   "sentences_rewritten": 4,
+   "queries": 66
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 4,
+   "eligible": 4,
+   "segments": 7,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 57.142857142857146
+  },
+  "tokens": {
+   "original": 201,
+   "final": 176,
+   "length_change": -25,
+   "pct_not_preserved": 44.27860696517413,
+   "pct_new": 36.36363636363637
+  },
+  "words": {
+   "original": 141,
+   "final": 124,
+   "length_change": -17,
+   "pct_not_preserved": 47.5177304964539,
+   "pct_new": 40.32258064516129
+  },
+  "characters": {
+   "original": 989,
+   "final": 898,
+   "length_change": -91,
+   "pct_not_preserved": 34.37815975733064,
+   "pct_new": 27.728285077951
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 136,
+   "green_after": 96,
+   "pairs_before": 200,
+   "pairs_after": 175,
+   "pairs_changed_before": 107,
+   "pairs_changed_after": 82,
+   "green_fraction_of_new_pairs": 0.4268292682926829,
+   "delta_achieved": 0.07317073170731708
+  }
+ }
+}

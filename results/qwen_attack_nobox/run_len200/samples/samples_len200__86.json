@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:86",
+ "nobox": {
+  "z_final": 2.966655881698929,
+  "status": "not broken",
+  "rewrites": {
+   "8": {
+    "original": "Are financial services companies \u2014 such as banks and investment firms \u2014 well on their way to elevating digital in their corporate strategy?",
+    "rewrite": "Are financial services companies, including banks and investment firms, advancing digital efforts in their corporate strategy?"
+   },
+   "2": {
+    "original": "In a recent article, we outlined five examples of digital transformation in healthcare: Online screening and self-monitoring.",
+    "rewrite": "In a recent article, we provided five examples of digital transformation in healthcare: Online screening and self-monitoring."
+   },
+   "7": {
+    "original": "If healthcare is in the throes of digital transformation\u2019s throes, what about its companion, financial services?",
+    "rewrite": "If healthcare is undergoing digital transformation, what about its counterpart, financial services?"
+   },
+   "1": {
+    "original": "The CDO must identify and champion the digital overhaul imperative for the company.",
+    "rewrite": "The CDO needs to identify and advocate for the digital overhaul imperative for the company."
+   },
+   "3": {
+    "original": "Integrated communication and collaboration platforms.",
+    "rewrite": "Unified communication and collaboration platforms."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 8,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 12,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 1,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "\u2019s presence in the corporate C-suite is the appearance of the Chief Digital Officer (CDO) title. The CDO needs to identify and advocate for the digital overhaul imperative for the company.\nIn a recent article, we provided five examples of digital transformation in healthcare: Online screening and self-monitoring. Unified communication and collaboration platforms. Digital data analysis. Embedded devices. And online training.\nIf healthcare is undergoing digital transformation, what about its counterpart, financial services? Are financial services companies, including banks and investment firms, advancing digital efforts in their corporate strategy?\nIn a recent Skender podcast, during the episode labeled \u201cGlobal Tech Innovation on the Fringes,\u201d host Marissa Mateo asked Skender Founder and CEO Grant Gregson some pointed questions about digital transformation in financial services.\nGregson",
+  "z0": 3.394112549695428,
+  "seconds": 115.0
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "sample_id": "sta16_len200:138",
+ "nobox": {
+  "z_final": 8.041131376518667,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Michelle Robinson: Alter writes that Obama had considered nominating Jarrett to be his ambassador to the United Nations and she was definitely on \u201cshort list,\u201d though in the end she was passed over, having supported Hillary Clinton in 2008.",
+    "rewrite": "Michelle Robinson: Alter writes that Obama had considered nominating Jarrett to be his UN ambassador and she was on \u201cshort list,\u201d albeit ultimately passed over because she had supported Hillary Clinton in 2008."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 6,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "been allies in Democratic politics, most famously, Nancy Pelosi, after she overturned Obama\u2019s planned HCR compromise: \u201cI\u2019m at a real tricky place.\u201d The \u201ccrappy deals in meetings\u201d he frequently offered up for compromiser\u2019s consumption \u201creminded some people of the tasteless pickled eggs\u201d that first-grader Axelrod dispensed, claims Alter, to have scintillated his classmates during recess.\nMichelle Robinson: Alter writes that Obama had considered nominating Jarrett to be his UN ambassador and she was on \u201cshort list,\u201d albeit ultimately passed over because she had supported Hillary Clinton in 2008.\nEmanuel, during his tenure in D.C., changed his own sartorial accoutrements from a blowsy red to an all-black in a morph from \u201cformer opposition",
+  "z0": 8.48528137423857,
+  "seconds": 55.2
+ }
+}

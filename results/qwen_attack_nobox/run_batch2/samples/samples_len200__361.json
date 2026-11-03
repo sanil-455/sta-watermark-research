@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:361",
+ "nobox": {
+  "z_final": 3.473517904540846,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "Brown recruited Butler when they were at Indiana, and Butler was a shootaround attendant in his time at Bradley.",
+    "rewrite": "Butler was a shootaround attendant during his time at Bradley, and Brown recruited him when they were at Indiana."
+   },
+   "1": {
+    "original": "All-Star Break mark: The Cavs will have five victories by the time they play in New Orleans at 7 p.m. Monday.",
+    "rewrite": "All-Star Break mark: By the time the Cavs play in New Orleans at 7 p.m. on Monday, they will have five victories."
+   },
+   "3": {
+    "original": "Tristate tandem: Cavs coach Mike Brown enlisted Butler\ufffds help when they were in Indiana together.",
+    "rewrite": "Tristate tandem: When the Cavaliers' coach Mike Brown was in Indiana, he sought Butler's assistance."
+   },
+   "6": {
+    "original": "He will help me with a lot of things on the court,\ufffd Brown said.",
+    "rewrite": "Brown said he will help me with many things on the court."
+   },
+   "2": {
+    "original": "They have five games remaining before the All-Star break.",
+    "rewrite": "They have five remaining games before the All-Star break."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 23,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 6,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "s Nerlens Noel (66th overall) and Alex Poythress (49th overall) and Miles Plumlee (34th overall), who was acquired in a trade.\nAll-Star Break mark: By the time the Cavs play in New Orleans at 7 p.m. on Monday, they will have five victories. They have five remaining games before the All-Star break.\nTristate tandem: When the Cavaliers' coach Mike Brown was in Indiana, he sought Butler's assistance.\nButler was a shootaround attendant during his time at Bradley, and Brown recruited him when they were at Indiana.\n\ufffd(Butler) is somebody I have a lot of respect for as a person and as a guy who understands both sides of an NBA-Coach relationship. Brown said he will help me with many things on the court.\nAnd Brown said team condition",
+  "z0": 4.808326112068523,
+  "seconds": 137.0
+ }
+}

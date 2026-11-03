@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:319",
+ "nobox": {
+  "z_final": 2.8005601680560193,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "But instead of coming up with a new AUMF, Tillerson and Mattis have been asked to make good on an order by Trump to draft new rules of engagement to battle terrorists that, they hope, will be more permissive than the current regulations.",
+    "rewrite": "But rather than drafting a new AUMF, Tillerson and Mattis have been requested to develop new rules of engagement to combat terrorists, which they aspire to be more permissive than the existing guidelines, based on an order from Trump."
+   },
+   "1": {
+    "original": "A subsequent resolution focused solely on Iraq and Syria after President Obama took military action against ISIS \u2013 based on Congress\u2019s 2001 AUMF \u2013 has not been used to go after any other \u201cgroup affiliated\u201d with ISIS.",
+    "rewrite": "A following resolution targeted exclusively Iraq and Syria after President Obama initiated military action against ISIS \u2013 pursuant to Congress\u2019s 2001 AUMF \u2013 has not been employed to chase down any other \"group affiliated\" with ISIS."
+   },
+   "4": {
+    "original": "Flake had differing views about what would work for ISIS.",
+    "rewrite": "Flake held differing opinions about what would work for ISIS."
+   },
+   "2": {
+    "original": "The Iraq law also ends in 2023.",
+    "rewrite": "The Iraq law will also terminate in 2023."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 5,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 4,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "\u201cup to and including the power to ground missiles, aircraft, and warships which have been moved by those affiliates toward the United States.\nA following resolution targeted exclusively Iraq and Syria after President Obama initiated military action against ISIS \u2013 pursuant to Congress\u2019s 2001 AUMF \u2013 has not been employed to chase down any other \"group affiliated\" with ISIS. The Iraq law will also terminate in 2023.\nBut rather than drafting a new AUMF, Tillerson and Mattis have been requested to develop new rules of engagement to combat terrorists, which they aspire to be more permissive than the existing guidelines, based on an order from Trump.\nFlake held differing opinions about what would work for ISIS.\nKaine has also introduced an annual war powers resolution requiring presidents to seek congressional authorization if engaging in military action lasting",
+  "z0": 4.808326112068523,
+  "seconds": 144.2
+ }
+}

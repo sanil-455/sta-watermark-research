@@ -1,0 +1,15 @@
+{
+ "sample_id": "sta16_len200:109",
+ "nobox": {
+  "z_final": 10.465180361560902,
+  "status": "not broken",
+  "rewrites": {},
+  "sentences_rewritten": 0,
+  "eligible": 0,
+  "per_sentence": [],
+  "queries": 1,
+  "final_span": "Kohler, who coordinated defense system development for America's European allies during the Obama administration, described the current setup as \"frozen in time because our overall military budget was so constrained.\"\n\"You can fix the sensors but there is no longer the capability, basically due to the missile penetration radar, to pick up missiles coming in... unless you expose large quantities of interceptors that might not be needed to begin with,\" Kohler said during a recent panel discussion on nuclear defense policy at the Kennedy School of Government at Harvard University.\n\"You don't know if part of the incoming ballistic missile attack was made of cruise missiles, guided by North Korean missile technology right in your face. So your interceptor would not have any way of detecting the incoming threat and responding to it,\" he added.\nOne particularly concerning advanced Russian cruise missile's range far exceeds anything the Pent",
+  "z0": 10.465180361560902,
+  "seconds": 0.0
+ }
+}

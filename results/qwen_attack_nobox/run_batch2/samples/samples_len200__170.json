@@ -1,0 +1,49 @@
+{
+ "sample_id": "samples_len200:170",
+ "nobox": {
+  "z_final": 1.3606182606749224,
+  "status": "broken",
+  "rewrites": {
+   "3": {
+    "original": "So, the Mets and Yankees can trade pro draft-pick talent back and forth, based on how hard they\u2019re working draft picks from affiliates in Binghamton, Scranton/Wilkes-Barre and Trenton.",
+    "rewrite": "So, the Mets and Yankees can trade draft-pick talent back and forth, depending on the effort put into developing draft picks from affiliates in Binghamton, Scranton/Wilkes-Barre, and Trenton."
+   },
+   "4": {
+    "original": "The Mets will have to decide what to do with Didi Gregorius since July for the Gregorius conditioning assignment.",
+    "rewrite": "The Mets need to decide what to do about Didi Gregorius after July due to his conditioning assignment."
+   },
+   "2": {
+    "original": "The Mets had priority over the Syracuse Chiefs because they\u2019re a Nationals affiliate.",
+    "rewrite": "The Mets had priority over the Syracuse Chiefs since they are a Nationals affiliate."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 4,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 26,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "10-man draft class to date Tuesday is made up of high school players from New York: two from Long Island, two from the Bronx and two from Brooklyn.\nAll told, five of the 10 are lefthanded-throwing, an interesting development after the Mets used their only overall pick on Jackson Wolf, a righthanded pitcher from Oregon State.\nThe Mets had priority over the Syracuse Chiefs since they are a Nationals affiliate. So, the Mets and Yankees can trade draft-pick talent back and forth, depending on the effort put into developing draft picks from affiliates in Binghamton, Scranton/Wilkes-Barre, and Trenton.\nThe Mets need to decide what to do about Didi Gregorius after July due to his conditioning assignment. He will be eligible to return from the",
+  "z0": 2.545584412271571,
+  "seconds": 152.0
+ }
+}

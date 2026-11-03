@@ -1,0 +1,417 @@
+{
+ "sample_id": "sta16_len200:74",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.6304909560723514,
+ "needed_share": 0.7331672523824349,
+ "delta_needed": 0.043155604787215626,
+ "segmentation": {
+  "chars": 774,
+  "segments": 6,
+  "eligible": 4,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 1
+  },
+  "eligible_chars": 488,
+  "eligible_char_share": 0.6304909560723514
+ },
+ "attack": {
+  "z0": 7.495331880577403,
+  "z_final": 3.204971865741441,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 394,
+  "seconds": 413.0,
+  "seconds_by_phase": {
+   "generate": 381.0,
+   "gates": 31.9,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 137,
+    "z_before": 7.495331880577403,
+    "z_after": 6.332377902572627,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 1,
+      "unknown word": 3,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 53,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.22
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 129,
+    "z_before": 6.332377902572627,
+    "z_after": 5.181036310903636,
+    "accepted": true,
+    "survivors": 25,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 26,
+     "after_spelling": 25,
+     "after_content": 25,
+     "after_semantic": 25,
+     "fluency_skipped": false,
+     "after_fluency": 25,
+     "rejected": {
+      "duplicate": 34,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 78,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.82
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 116,
+    "z_before": 5.181036310903636,
+    "z_after": 4.421733159964657,
+    "accepted": true,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 33,
+     "after_spelling": 33,
+     "after_content": 33,
+     "after_semantic": 33,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "duplicate": 27
+     }
+    },
+    "queries_total": 111,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.81
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 106,
+    "z_before": 4.421733159964657,
+    "z_after": 3.473517904540846,
+    "accepted": true,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 37,
+     "after_spelling": 37,
+     "after_content": 37,
+     "after_semantic": 37,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "duplicate": 23,
+      "perplexity too high": 10
+     }
+    },
+    "queries_total": 138,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.78
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 137,
+    "z_before": 3.473517904540846,
+    "z_after": 3.4391257910836224,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "duplicate": 3,
+      "CJK text": 1,
+      "unknown word": 5,
+      "glued punctuation": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 186,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.48
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 129,
+    "z_before": 3.4391257910836224,
+    "z_after": 3.4561935177071317,
+    "accepted": false,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 28,
+     "after_spelling": 27,
+     "after_content": 27,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "duplicate": 32,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 213,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.55
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 116,
+    "z_before": 3.4391257910836224,
+    "z_after": 3.204971865741441,
+    "accepted": true,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 27,
+     "after_content": 27,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "duplicate": 33
+     }
+    },
+    "queries_total": 240,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.44
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 106,
+    "z_before": 3.204971865741441,
+    "z_after": 3.235613436861117,
+    "accepted": false,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 42,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "duplicate": 18,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 276,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.04
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 137,
+    "z_before": 3.204971865741441,
+    "z_after": 3.298753309814903,
+    "accepted": false,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "duplicate": 2,
+      "glued punctuation": 2,
+      "unknown word": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 328,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.44
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 129,
+    "z_before": 3.204971865741441,
+    "z_after": 3.3606722016672235,
+    "accepted": false,
+    "survivors": 26,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 26,
+     "after_spelling": 26,
+     "after_content": 26,
+     "after_semantic": 26,
+     "fluency_skipped": false,
+     "after_fluency": 26,
+     "rejected": {
+      "duplicate": 34
+     }
+    },
+    "queries_total": 354,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.86
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 116,
+    "z_before": 3.204971865741441,
+    "z_after": 3.4391257910836224,
+    "accepted": false,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 34,
+     "after_content": 34,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "duplicate": 26
+     }
+    },
+    "queries_total": 377,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.08
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 106,
+    "z_before": 3.204971865741441,
+    "z_after": 3.2667258202275047,
+    "accepted": false,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 36,
+     "after_spelling": 35,
+     "after_content": 35,
+     "after_semantic": 35,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "duplicate": 24,
+      "unknown word": 1,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 394,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.43
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "Armstrong, like Martin Luther King Jr. a Kentuckian and a United Methodist, would come to love an ancestral Southern Christian tradition.",
+    "rewrite": "Armstrong, similar to Martin Luther King Jr., both being from Kentucky and affiliated with the United Methodist Church, would come to embrace an ancestral Southern Christian tradition."
+   },
+   "1": {
+    "original": "Michael Cottman, news director for Rev. Al Sharpton's radio network, has found a photo online of Armstrong inside the spacecraft.",
+    "rewrite": "Michael Cottman, who serves as news director for Rev. Al Sharpton\u2019s radio network, discovered an online photo showing Armstrong inside the spacecraft."
+   },
+   "4": {
+    "original": "He and Mrs. Armstrong, too, would mourn Dr. King's assassination on April 4, 1968, at the Lorraine Hotel in Memphis.",
+    "rewrite": "Both Mr. Armstrong and Mrs. Armstrong would grieve over Dr. King's assassination on April 4, 1968, at the Lorraine Hotel in Memphis."
+   },
+   "2": {
+    "original": "And Cottman is holding an interview on Sunday evening with the astronaut's daughter, Karen, to discuss it.",
+    "rewrite": "On Sunday evening, Cottman will interview the astronaut's daughter, Karen, about it."
+   }
+  },
+  "final_span": "'s Apollo 11 mission commander wore with pride the red silk scarf tied around his neck of the Mother Jonathan, which not long earlier saved Martin Luther King Jr.'s life.\nMichael Cottman, who serves as news director for Rev. Al Sharpton\u2019s radio network, discovered an online photo showing Armstrong inside the spacecraft. On Sunday evening, Cottman will interview the astronaut's daughter, Karen, about it.\nArmstrong, similar to Martin Luther King Jr., both being from Kentucky and affiliated with the United Methodist Church, would come to embrace an ancestral Southern Christian tradition. Both Mr. Armstrong and Mrs. Armstrong would grieve over Dr. King's assassination on April 4, 1968, at the Lorraine Hotel in Memphis.\n\"We - both of us - felt a part of the tragedy in that moment,\" said Neil Armstrong, according to news accounts.",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 4,
+   "eligible": 4,
+   "segments": 6,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 66.66666666666667
+  },
+  "tokens": {
+   "original": 201,
+   "final": 207,
+   "length_change": 6,
+   "pct_not_preserved": 14.925373134328357,
+   "pct_new": 17.391304347826086
+  },
+  "words": {
+   "original": 130,
+   "final": 135,
+   "length_change": 5,
+   "pct_not_preserved": 20.769230769230774,
+   "pct_new": 23.703703703703706
+  },
+  "characters": {
+   "original": 774,
+   "final": 836,
+   "length_change": 62,
+   "pct_not_preserved": 10.594315245478036,
+   "pct_new": 17.22488038277512
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 153,
+   "green_after": 126,
+   "pairs_before": 200,
+   "pairs_after": 206,
+   "pairs_changed_before": 46,
+   "pairs_changed_after": 52,
+   "green_fraction_of_new_pairs": 0.23076923076923078,
+   "delta_achieved": 0.2692307692307692
+  }
+ }
+}

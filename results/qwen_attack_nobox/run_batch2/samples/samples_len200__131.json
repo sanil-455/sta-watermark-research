@@ -1,0 +1,49 @@
+{
+ "sample_id": "samples_len200:131",
+ "nobox": {
+  "z_final": 3.8988466275458475,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "County Health Department Director Jeffrey Gunzenhauser sought to allay claims that the reduction of failures by county officials to investigate complaints was a result of political pressure from the county Board of Supervisors.",
+    "rewrite": "County Health Department Director Jeffrey Gunzenhauser aimed to address allegations that the decrease in official investigations of complaints was due to political pressure from the county Board of Supervisors."
+   },
+   "5": {
+    "original": "Los Angeles County expects to debut the new program with 65 inspectors and 32 complaint investigators.",
+    "rewrite": "Los Angeles County plans to launch the new program with 65 inspectors and 32 complaint investigators."
+   },
+   "3": {
+    "original": "County health officials said the new county contract will begin Jan. 1.",
+    "rewrite": "County health officials stated that the new county contract will start on Jan. 1."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 5,
+    "survivors": 8,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 7,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the new contract will not be known for years.\n\"It's a good first step,\" he said, \"but there is a process. It's going to be three years before we really see the full effects of this.\"\nCounty health officials stated that the new county contract will start on Jan. 1.\nThe state budget for the new program has not been finalized, but the county has applied for $5.3 million to cover the cost of additional staff in the first year. Los Angeles County plans to launch the new program with 65 inspectors and 32 complaint investigators.\nCounty Health Department Director Jeffrey Gunzenhauser aimed to address allegations that the decrease in official investigations of complaints was due to political pressure from the county Board of Supervisors. More than a dozen politicians complained to the county Department of Public Health about its lackluster job of investigating complaints after the Sept",
+  "z0": 3.959797974644666,
+  "seconds": 126.0
+ }
+}

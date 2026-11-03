@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:72",
+ "nobox": {
+  "z_final": 4.7844633041659845,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "Tito\u2019s Tacos is located at 805 West Manchester Blvd, Inglewood, CA 90301.",
+    "rewrite": "Tito's Tacos is situated at 805 West Manchester Blvd, Inglewood, CA 90301."
+   },
+   "2": {
+    "original": "As with the sit-down location, Taco Tuesdays are huge here.",
+    "rewrite": "Similar to the sit-down location, Taco Tuesdays are massive here."
+   },
+   "3": {
+    "original": "Weekday Tacos from 4pm-8pm are $1.25 each.",
+    "rewrite": "Weekdays from 4pm to 8pm, tacos are $1.25 each."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 26,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "not changed. The iconic menu, topped with the cheeky sentence \u201cWe don\u2019t guarantee quality as my wife kills rodents and keeps roaches and rats away,\u201d has been updated with some more fresh dishes and flavors: smoked brisket, chicken almendrado, carnitas, lengua and an arepa ($5.49 according to appetite). Similar to the sit-down location, Taco Tuesdays are massive here. Weekdays from 4pm to 8pm, tacos are $1.25 each.\nTito's Tacos is situated at 805 West Manchester Blvd, Inglewood, CA 90301. For more information visit https://tittos.com/, or call (310) 675-4219.\nSitting on the east end of the West Los Angeles is food incub",
+  "z0": 5.232590180780451,
+  "seconds": 81.4
+ }
+}

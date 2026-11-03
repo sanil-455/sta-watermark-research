@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:63",
+ "nobox": {
+  "z_final": 5.685677011308599,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "With four games remaining this season, the Boilermakers won their first four Big Ten games giving them an opportunity to reach their first NCAA Tournament since 2015.",
+    "rewrite": "With four games left in the season, the Boilermakers won their initial four Big Ten games, providing them with an opportunity to reach the NCAA Tournament for the first time since 2015."
+   },
+   "7": {
+    "original": "The senior class at Purdue includes Teniya Page, Dominique Oden, Ae'Rianna Harris and Carsen Edwards.",
+    "rewrite": "The senior class at Purdue consists of Teniya Page, Dominique Oden, Ae'Rianna Harris, and Carsen Edwards."
+   },
+   "9": {
+    "original": "Center Karissa McLaughlin was lost for the season Nov. 23 with a torn ACL.",
+    "rewrite": "Center Karissa McLaughlin suffered a torn ACL on Nov. 23 and will miss the season."
+   },
+   "8": {
+    "original": "The Boilers started 8-3, but then had two players go down with injuries.",
+    "rewrite": "The Boilers began at 8-3, but then suffered injuries to two players."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 57,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 5,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 36,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "tough stretch of losses.\"\n\"It wasn't the ending we desired but we have moved forward,\" Versyp said Monday evening.\nWith four games left in the season, the Boilermakers won their initial four Big Ten games, providing them with an opportunity to reach the NCAA Tournament for the first time since 2015.\n\"This year was a process. Unfortunately, it's not an easy business,\" Versyp told PJT according to the press release. \"But I'm proud of how our seniors stepped up and led. These ladies had a lot of character.\"\nThe senior class at Purdue consists of Teniya Page, Dominique Oden, Ae'Rianna Harris, and Carsen Edwards.\nThe Boilers began at 8-3, but then suffered injuries to two players. Center Karissa McLaughlin suffered a torn ACL on Nov. 23 and will miss the season. Then in February, leading sc",
+  "z0": 6.646803743153546,
+  "seconds": 146.0
+ }
+}

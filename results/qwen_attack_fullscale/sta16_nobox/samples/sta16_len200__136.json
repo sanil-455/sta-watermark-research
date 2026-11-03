@@ -1,0 +1,80 @@
+{
+ "sample_id": "sta16_len200:136",
+ "nobox": {
+  "z_final": 6.295099066044068,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "As the head of my company, State of Grace, I believe that together in a community in one space, we can facilitate transformation together by teaching and utilizing wellness and personal discovery.",
+    "rewrite": "As the head of State of Grace, I believe we can facilitate transformation through teaching and utilizing wellness and personal discovery when we come together in a community space."
+   },
+   "7": {
+    "original": "I believe in teamwork, I believe in loving others, I believe in myself, and I believe in merging together to find our truths as Manitowoc County.",
+    "rewrite": "I Believe in teamwork, I Believe in loving others, I Believe in myself, and I Believe in combining together to discover our truths as Manitowoc County."
+   },
+   "5": {
+    "original": "Using the practice of yoga to bring people together, I believe meditation can be a powerful tool in helping find our happiness.",
+    "rewrite": "I believe that through yoga, meditation can serve as a powerful tool for finding happiness and bringing people together."
+   },
+   "6": {
+    "original": "It allows the mind to find our truth, and I believe that to find our truth, we have to be resourceful and resilient.",
+    "rewrite": "It enables the mind to discover our truth, and I believe we must be resourceful and resilient to find it."
+   },
+   "1": {
+    "original": "I truly feel we are in a unique situation here on the CGC Campus and we have over a hundred members and counting.",
+    "rewrite": "We are truly in a unique situation here on the CGC Campus, with over one hundred members and counting."
+   },
+   "8": {
+    "original": "What do you love most about this county?",
+    "rewrite": "What aspects of this county do you love the most?"
+   },
+   "2": {
+    "original": "What is the main goal of your company?",
+    "rewrite": "What are the primary objectives of your company?"
+   }
+  },
+  "sentences_rewritten": 7,
+  "eligible": 7,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 27,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 8,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 2,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "empowerment. We are truly in a unique situation here on the CGC Campus, with over one hundred members and counting.\nWhat are the primary objectives of your company? In a word: transformation. As the head of State of Grace, I believe we can facilitate transformation through teaching and utilizing wellness and personal discovery when we come together in a community space. I believe that through yoga, meditation can serve as a powerful tool for finding happiness and bringing people together. It enables the mind to discover our truth, and I believe we must be resourceful and resilient to find it. I Believe in teamwork, I Believe in loving others, I Believe in myself, and I Believe in combining together to discover our truths as Manitowoc County.\nWhat aspects of this county do you love the most? I absolutely love humor. To me, Manitowoc has",
+  "z0": 10.889444430272832,
+  "seconds": 212.5
+ }
+}

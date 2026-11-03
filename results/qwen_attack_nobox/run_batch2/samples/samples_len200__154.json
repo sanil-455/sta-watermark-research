@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:154",
+ "nobox": {
+  "z_final": 3.111269837220809,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "He said he repeatedly told his teammates how much he believed in them, and never had more proof of that faith.",
+    "rewrite": "He said he repeatedly told his teammates how much he believed in them, and never had more evidence of that faith."
+   },
+   "1": {
+    "original": "He stressed repeatedly their penchant for making big plays and forcing turnovers.",
+    "rewrite": "He emphasized repeatedly their tendency to make big plays and force turnovers."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 2,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "in hours of the championship game ending, Sherman said he made teams pay who did not respect their secondary, as the Packers learned this season and the Patriots over and over. He emphasized repeatedly their tendency to make big plays and force turnovers.\n\"I'm telling you: this defense has made play after play after play. I've never been more proud to play with these guys,\" Sherman said after the game in the Seattle locker room.\nHe said he repeatedly told his teammates how much he believed in them, and never had more evidence of that faith.\n\"We always talk about turning it up. We talk game in and game out about how you fail to perform up to your own standards, particularly on defense, during the regular season,\" Sherman said. \"I think we did a fantastic job of playing to our standard.\"\nSherman, 25, and his teammates are well traveled and have",
+  "z0": 2.9698484809834995,
+  "seconds": 55.6
+ }
+}

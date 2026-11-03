@@ -1,0 +1,62 @@
+{
+ "sample_id": "sta16_len200:152",
+ "nobox": {
+  "z_final": 6.803091303374613,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "It seems like Time Warner now likes what Comcast is doing and is asking the FCC for permission to put their planned caps into practice.",
+    "rewrite": "It appears that Time Warner now approves of what Comcast is doing and is requesting the FCC's permission to implement their planned caps."
+   },
+   "2": {
+    "original": "If all is cleared up, Time Warner will be able to head out with broadband caps just the same as Comcast customers do, at 300 GB limits.",
+    "rewrite": "If everything is cleared up, Time Warner will be able to operate with broadband caps at 300 GB limits, just like Comcast customers."
+   },
+   "3": {
+    "original": "Just another way to screw over the consumer by raking in more revenue.",
+    "rewrite": "Just another way to exploit the consumer for higher profits."
+   },
+   "7": {
+    "original": "Older people will recall the day an ancestor bought their first modem.",
+    "rewrite": "Older individuals will remember the day an ancestor purchased their first modem."
+   },
+   "6": {
+    "original": "Old Payphones Go Online - What Does the Future Hold?",
+    "rewrite": "What Will the Future Entail for Old Payphones That Go Online?"
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 19,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "everyday user and as it seems, most are satisfied with the test plans. It appears that Time Warner now approves of what Comcast is doing and is requesting the FCC's permission to implement their planned caps.\nIf everything is cleared up, Time Warner will be able to operate with broadband caps at 300 GB limits, just like Comcast customers.\nJust another way to exploit the consumer for higher profits.\n...I am angry.\nfor people named jimmmy....\nWhat Will the Future Entail for Old Payphones That Go Online?\nOlder individuals will remember the day an ancestor purchased their first modem. It was a bulky and expensive device, plastic, and it sat somewhere on the kitchen counter until laughter would sound as three or four of them - after gathering on the nearby couch - would hook up a dial-up line from the it, and start",
+  "z0": 10.323759005323593,
+  "seconds": 136.3
+ }
+}

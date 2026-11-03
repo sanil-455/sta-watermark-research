@@ -1,0 +1,89 @@
+{
+ "sample_id": "samples_len200:291",
+ "nobox": {
+  "z_final": 2.886751345948129,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "Lesser interest rates, say 12 percent are available because loan companies are paying for lenders who go for longer-term loans at higher interest rates.",
+    "rewrite": "Lower interest rates, such as 12 percent, are available because loan companies compensate lenders for opting for longer-term loans with higher interest rates."
+   },
+   "3": {
+    "original": "Buyers are paying 18 to 20 percent prices for 18 percent loans, which in California are at 15 percent anyway.",
+    "rewrite": "Buyers are paying between 18 and 20 percent prices for 18 percent loans, which are already at 15 percent in California."
+   },
+   "5": {
+    "original": "I'm not seeing foreclosures as much as I saw during the 1974 crash here...I've never seen it.",
+    "rewrite": "I don't see foreclosures now as frequently as during the 1974 crash; in fact, I've never seen it before."
+   },
+   "2": {
+    "original": "The usual 18 percent loan is available as far as subprime lenders are concerned.",
+    "rewrite": "Subprime lenders offer the typical 18 percent loan."
+   },
+   "8": {
+    "original": "Gene Miller, owner of Elite Mortgage Corp. of Illinois, Stuart, Fla.",
+    "rewrite": "Gene Miller, owner of Elite Mortgage Corp. in Stuart, Fla."
+   },
+   "6": {
+    "original": "I don't think that California has any mortgage problems.",
+    "rewrite": "I think California does not have any mortgage problems."
+   },
+   "1": {
+    "original": "In the Sacramento area, rates are high.",
+    "rewrite": "In the Sacramento area, the rates are high."
+   },
+   "7": {
+    "original": "We have a lot of real estate problems.",
+    "rewrite": "We face numerous real estate issues."
+   }
+  },
+  "sentences_rewritten": 8,
+  "eligible": 8,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 14,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 13,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 6,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 6,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 15,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 24,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Sacramento, Calif.\nIn the Sacramento area, the rates are high. Subprime lenders offer the typical 18 percent loan. Buyers are paying between 18 and 20 percent prices for 18 percent loans, which are already at 15 percent in California.\nLower interest rates, such as 12 percent, are available because loan companies compensate lenders for opting for longer-term loans with higher interest rates.\nI don't see foreclosures now as frequently as during the 1974 crash; in fact, I've never seen it before.\nI think California does not have any mortgage problems. We face numerous real estate issues.\nGene Miller, owner of Elite Mortgage Corp. in Stuart, Fla.\nNo, rates have not really gone up. 19 percent lo",
+  "z0": 4.949747468305833,
+  "seconds": 193.9
+ }
+}

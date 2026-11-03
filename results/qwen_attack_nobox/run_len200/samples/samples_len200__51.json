@@ -1,0 +1,26 @@
+{
+ "sample_id": "samples_len200:51",
+ "nobox": {
+  "z_final": 3.4285714285714284,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Otero said he didn't believe there was anything paidfor by Trump meant to intimidate Daniels, and he scolded both sides for filing the suit in the first place.",
+    "rewrite": "Otero stated that he did not believe anything was paid for by Trump intended to intimidate Daniels, and he rebuked both sides for filing the suit initially."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 49,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "work honestly during discovery to determine whether to depose the defendant in SDDS caused discovery to become more costly,\" Otero wrote, referring to Daniels' attorney, Michael Avenatti, and giving a distinctly cold shoulder to Daniels, as well, in his reasoning for awarding the $1,000.\nIn any case, he wrote, because Avenatti has become a public figure since the suit was filed, \"an award of attorneys' fees would not chill the right of other representatives of the public to speak.\"\nOtero stated that he did not believe anything was paid for by Trump intended to intimidate Daniels, and he rebuked both sides for filing the suit initially.\n\"At the end of the day,\" he wrote, \"No one -individual or entity- seems to have learned a valuable lesson in civility, or the appropriate response to",
+  "z0": 3.394112549695428,
+  "seconds": 42.4
+ }
+}

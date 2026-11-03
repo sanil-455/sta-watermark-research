@@ -1,0 +1,31 @@
+{
+ "sample_id": "samples_len500:65",
+ "nobox": {
+  "z_final": 6.529318494299385,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "Vikings coach Mike Zimmer said of the offensive line.",
+    "rewrite": "Vikings coach Mike Zimmer commented on the offensive line."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 5,
+    "survivors": 9,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "played tough, physical. Like I said, we got some yards in the running game.\"\nSam Bradford: It's on the O-line and me to make reads, hold the ball\nOffensive coordinator Pat Shurmur was impressed by the Vikings offensive line, saying they didn't make any \"catastrophes\" and they did \"an overall good job.\"\n\"You can\u2019t block for everybody, but I thought our guys did a good job of getting on the same page and working together.\" Vikings coach Mike Zimmer commented on the offensive line.\nOpponents Registered Quarterback Pressures vs Percent of Snaps\n\"You can\u2019t block for everybody, but I thought our guys did a good job of getting on the same page and working together,\" Vikings coach Mike Zimmer said. \"I don\u2019t have any hesitation to feel good about the way they blocked. It\u2019s on the guy to make the read, but if you watch it you definitely can\u2019t rightfully criticize the time our linemen do their job. I think they did a good job of working together. I think it was a collective thing - there were no catastrophes, at least none that jumped off the tape, and they did an overall good job.\"\n\"We weren\u2019t there on every single play by any means but I thought they did a pretty good job,\" Vikings offensive lineman Nick Easton said in a postgame interview on the NFL Network. \"They mixed multiple coverages but you\u2019re talking about a Super Bowl contending team that\u2019s a top defense, I think that\u2019s a pretty good start for a group of guys that haven\u2019t played together.\"\nBradford reminded Stefon Diggs and Adam Thielen, who set the NFL record for a rookie duo, to \"keep erupting because we're going to need that firepower when we're playing on the road.\"\n\"My thing I always say - when it comes to the road, those aren't just regular shells,\" Zimmer noted: \"I always say, 'You, I'd like the [bleeping] devil to put your hands down and focus on the ball throwing at you.' Those numbers are especially crazy and big numbers for the road, but",
+  "z0": 6.439875775199394,
+  "seconds": 55.0
+ }
+}

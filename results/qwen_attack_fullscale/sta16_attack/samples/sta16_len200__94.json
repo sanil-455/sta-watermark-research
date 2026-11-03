@@ -1,0 +1,930 @@
+{
+ "sample_id": "sta16_len200:94",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.4496021220159151,
+ "needed_share": 0.8155982224880276,
+ "delta_needed": 0.312153353511891,
+ "segmentation": {
+  "chars": 754,
+  "segments": 9,
+  "eligible": 5,
+  "skipped": 4,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "URL, hashtag or handle": 2,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 339,
+  "eligible_char_share": 0.4496021220159151
+ },
+ "attack": {
+  "z0": 10.845882436627539,
+  "z_final": 4.808326112068523,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 6,
+  "queries": 682,
+  "seconds": 591.6,
+  "seconds_by_phase": {
+   "generate": 535.5,
+   "gates": 55.9,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 138,
+    "z_before": 10.845882436627539,
+    "z_after": 9.002791303605866,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 4,
+      "meaning too different": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 53,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.92
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 56,
+    "z_before": 9.002791303605866,
+    "z_after": 8.2525437055456,
+    "accepted": true,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 14,
+     "after_spelling": 14,
+     "after_content": 14,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "duplicate": 44,
+      "CJK text": 2,
+      "meaning too different": 9,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 57,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 13.39
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 55,
+    "z_before": 8.2525437055456,
+    "z_after": 7.333518105580571,
+    "accepted": true,
+    "survivors": 37,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 37,
+     "rejected": {
+      "duplicate": 15,
+      "CJK text": 1,
+      "unknown word": 3,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 94,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.26
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 49,
+    "z_before": 7.333518105580571,
+    "z_after": 6.549290334341206,
+    "accepted": true,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 21,
+     "after_spelling": 21,
+     "after_content": 21,
+     "after_semantic": 20,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "duplicate": 39,
+      "meaning too different": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 112,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.62
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 41,
+    "z_before": 6.549290334341206,
+    "z_after": 5.881176352917641,
+    "accepted": true,
+    "survivors": 20,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 25,
+     "after_spelling": 25,
+     "after_content": 25,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 20,
+     "rejected": {
+      "duplicate": 34,
+      "identical to original": 1,
+      "meaning too different": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 132,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.1
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 138,
+    "z_before": 5.881176352917641,
+    "z_after": 6.021204361320442,
+    "accepted": false,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 1,
+      "unknown word": 2,
+      "meaning too different": 3,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 180,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.53
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 56,
+    "z_before": 5.881176352917641,
+    "z_after": 6.161232369723243,
+    "accepted": false,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 16,
+     "after_spelling": 15,
+     "after_content": 15,
+     "after_semantic": 2,
+     "fluency_skipped": true,
+     "after_fluency": 2,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 40,
+      "unknown word": 1,
+      "meaning too different": 13
+     }
+    },
+    "queries_total": 182,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 13.4
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 55,
+    "z_before": 5.881176352917641,
+    "z_after": 5.769499866788394,
+    "accepted": true,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 43,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "duplicate": 15,
+      "several lines": 1,
+      "CJK text": 1,
+      "unknown word": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 220,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.95
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 49,
+    "z_before": 5.769499866788394,
+    "z_after": 5.825457972651851,
+    "accepted": false,
+    "survivors": 16,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 18,
+     "after_spelling": 18,
+     "after_content": 18,
+     "after_semantic": 17,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "duplicate": 42,
+      "meaning too different": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 236,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.56
+   },
+   {
+    "pass": 2,
+    "segment": 6,
+    "chars": 41,
+    "z_before": 5.769499866788394,
+    "z_after": 5.769499866788394,
+    "accepted": false,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 25,
+     "after_spelling": 25,
+     "after_content": 25,
+     "after_semantic": 25,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "duplicate": 34,
+      "identical to original": 1,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 253,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.33
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 138,
+    "z_before": 5.769499866788394,
+    "z_after": 5.939696961966999,
+    "accepted": false,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 3,
+      "meaning too different": 5
+     }
+    },
+    "queries_total": 305,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.72
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 56,
+    "z_before": 5.769499866788394,
+    "z_after": 5.769499866788394,
+    "accepted": false,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 11,
+     "after_spelling": 11,
+     "after_content": 11,
+     "after_semantic": 4,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "duplicate": 48,
+      "CJK text": 1,
+      "meaning too different": 7
+     }
+    },
+    "queries_total": 308,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 13.39
+   },
+   {
+    "pass": 3,
+    "segment": 5,
+    "chars": 55,
+    "z_before": 5.769499866788394,
+    "z_after": 5.769499866788394,
+    "accepted": false,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 40,
+     "after_spelling": 37,
+     "after_content": 37,
+     "after_semantic": 37,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "CJK text": 5,
+      "several lines": 2,
+      "duplicate": 13,
+      "unknown word": 3,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 326,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.1
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 49,
+    "z_before": 5.769499866788394,
+    "z_after": 5.825457972651851,
+    "accepted": false,
+    "survivors": 17,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 20,
+     "after_spelling": 20,
+     "after_content": 20,
+     "after_semantic": 20,
+     "fluency_skipped": false,
+     "after_fluency": 17,
+     "rejected": {
+      "duplicate": 40,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 333,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.81
+   },
+   {
+    "pass": 3,
+    "segment": 6,
+    "chars": 41,
+    "z_before": 5.769499866788394,
+    "z_after": 5.488060848896277,
+    "accepted": true,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 32,
+     "after_spelling": 32,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "duplicate": 28,
+      "perplexity too high": 9
+     }
+    },
+    "queries_total": 344,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.91
+   },
+   {
+    "pass": 4,
+    "segment": 4,
+    "chars": 138,
+    "z_before": 5.488060848896277,
+    "z_after": 5.20662183100416,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 2,
+      "meaning too different": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 395,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.15
+   },
+   {
+    "pass": 4,
+    "segment": 2,
+    "chars": 56,
+    "z_before": 5.20662183100416,
+    "z_after": 4.900980294098034,
+    "accepted": true,
+    "survivors": 7,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 18,
+     "after_spelling": 17,
+     "after_content": 17,
+     "after_semantic": 8,
+     "fluency_skipped": false,
+     "after_fluency": 7,
+     "rejected": {
+      "duplicate": 41,
+      "CJK text": 1,
+      "unknown word": 1,
+      "meaning too different": 9,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 401,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 13.33
+   },
+   {
+    "pass": 4,
+    "segment": 5,
+    "chars": 55,
+    "z_before": 4.900980294098034,
+    "z_after": 4.866884749424328,
+    "accepted": true,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 46,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "duplicate": 13,
+      "several lines": 1,
+      "unknown word": 5,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 435,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.47
+   },
+   {
+    "pass": 4,
+    "segment": 3,
+    "chars": 49,
+    "z_before": 4.866884749424328,
+    "z_after": 4.925182813112043,
+    "accepted": false,
+    "survivors": 20,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 22,
+     "after_spelling": 22,
+     "after_content": 22,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 20,
+     "rejected": {
+      "duplicate": 38,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 455,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.75
+   },
+   {
+    "pass": 4,
+    "segment": 6,
+    "chars": 41,
+    "z_before": 4.866884749424328,
+    "z_after": 5.20662183100416,
+    "accepted": false,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 25,
+     "after_spelling": 25,
+     "after_content": 25,
+     "after_semantic": 25,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "duplicate": 34,
+      "identical to original": 1,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 474,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.65
+   },
+   {
+    "pass": 5,
+    "segment": 4,
+    "chars": 138,
+    "z_before": 4.866884749424328,
+    "z_after": 5.290092118939487,
+    "accepted": false,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 7,
+      "unknown word": 1,
+      "meaning too different": 2
+     }
+    },
+    "queries_total": 524,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.49
+   },
+   {
+    "pass": 5,
+    "segment": 2,
+    "chars": 56,
+    "z_before": 4.866884749424328,
+    "z_after": 5.174832796560852,
+    "accepted": false,
+    "survivors": 3,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 17,
+     "after_spelling": 15,
+     "after_content": 15,
+     "after_semantic": 4,
+     "fluency_skipped": false,
+     "after_fluency": 3,
+     "rejected": {
+      "duplicate": 42,
+      "CJK text": 1,
+      "unknown word": 2,
+      "meaning too different": 11,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 527,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 13.58
+   },
+   {
+    "pass": 5,
+    "segment": 5,
+    "chars": 55,
+    "z_before": 4.866884749424328,
+    "z_after": 4.866884749424328,
+    "accepted": false,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 38,
+     "after_spelling": 36,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "duplicate": 20,
+      "several lines": 1,
+      "CJK text": 1,
+      "unknown word": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 550,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.77
+   },
+   {
+    "pass": 5,
+    "segment": 3,
+    "chars": 49,
+    "z_before": 4.866884749424328,
+    "z_after": 4.808326112068523,
+    "accepted": true,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 23,
+     "after_spelling": 23,
+     "after_content": 23,
+     "after_semantic": 23,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "duplicate": 37
+     }
+    },
+    "queries_total": 559,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.44
+   },
+   {
+    "pass": 5,
+    "segment": 6,
+    "chars": 41,
+    "z_before": 4.808326112068523,
+    "z_after": 4.808326112068523,
+    "accepted": false,
+    "survivors": 20,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 25,
+     "after_spelling": 25,
+     "after_content": 25,
+     "after_semantic": 25,
+     "fluency_skipped": false,
+     "after_fluency": 20,
+     "rejected": {
+      "duplicate": 34,
+      "identical to original": 1,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 578,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.78
+   },
+   {
+    "pass": 6,
+    "segment": 4,
+    "chars": 138,
+    "z_before": 4.808326112068523,
+    "z_after": 5.065902322058101,
+    "accepted": false,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 4,
+      "meaning too different": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 630,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.41
+   },
+   {
+    "pass": 6,
+    "segment": 2,
+    "chars": 56,
+    "z_before": 4.808326112068523,
+    "z_after": 5.116817192534651,
+    "accepted": false,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 18,
+     "after_spelling": 18,
+     "after_content": 18,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "duplicate": 40,
+      "CJK text": 2,
+      "meaning too different": 13,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 634,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.34
+   },
+   {
+    "pass": 6,
+    "segment": 5,
+    "chars": 55,
+    "z_before": 4.808326112068523,
+    "z_after": 4.934841132684102,
+    "accepted": false,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 39,
+     "after_content": 39,
+     "after_semantic": 39,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "CJK text": 5,
+      "duplicate": 11,
+      "unknown word": 5,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 669,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.17
+   },
+   {
+    "pass": 6,
+    "segment": 3,
+    "chars": 49,
+    "z_before": 4.808326112068523,
+    "z_after": 4.925182813112043,
+    "accepted": false,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 20,
+     "after_spelling": 20,
+     "after_content": 20,
+     "after_semantic": 20,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "duplicate": 40,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 673,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.75
+   },
+   {
+    "pass": 6,
+    "segment": 6,
+    "chars": 41,
+    "z_before": 4.808326112068523,
+    "z_after": 4.866884749424328,
+    "accepted": false,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 25,
+     "after_spelling": 25,
+     "after_content": 25,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "identical to original": 1,
+      "duplicate": 34,
+      "meaning too different": 1,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 682,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.4
+   }
+  ],
+  "rewrites": {
+   "4": {
+    "original": "The actor posted this Instagram picture with the caption, 'Ready to present some more tricky mathematical problems to whine small brains.'",
+    "rewrite": "The actor shared this Instagram photo with the caption, 'Able to address some additional challenging math problems for little minds again.'"
+   },
+   "2": {
+    "original": "Ready to present some more tricky mathematical problems?",
+    "rewrite": "Prepared to tackle some additional challenging math problems?"
+   },
+   "5": {
+    "original": "Akshay Kumar wishes to go pro with his football skills.",
+    "rewrite": "Akshay Kumar aims to turn professional in football."
+   },
+   "3": {
+    "original": "Because that's what Shah Rukh Khan decided to do.",
+    "rewrite": "That was the decision Shah Rukh Khan made to do so."
+   },
+   "6": {
+    "original": "All it takes is for him to be on Ice Pay.",
+    "rewrite": "All he needs to do is join Ice Pay."
+   }
+  },
+  "final_span": "workout isn't too much of a hard task. The actor tweeted: 'Everyday someone challenges @Varun_dvn this is after aiding spine and hip surgery #namesoeveryoneridicuseveryworkout.'\nPrepared to tackle some additional challenging math problems? That was the decision Shah Rukh Khan made to do so. The actor shared this Instagram photo with the caption, 'Able to address some additional challenging math problems for little minds again.'\nAkshay Kumar aims to turn professional in football. All he needs to do is join Ice Pay. The actor tweets: 'Coriolis Effect is the scientific name for the idea that when you or I fall on Ice we Skate...if for a professional Ice hockey player, he Flies....get it on Ice Pay #IcePay #Iceland three weeks away'...\nBohemian R",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 5,
+   "eligible": 5,
+   "segments": 9,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 55.55555555555556
+  },
+  "tokens": {
+   "original": 200,
+   "final": 201,
+   "length_change": 1,
+   "pct_not_preserved": 18.500000000000007,
+   "pct_new": 18.905472636815922
+  },
+  "words": {
+   "original": 124,
+   "final": 122,
+   "length_change": -2,
+   "pct_not_preserved": 28.2258064516129,
+   "pct_new": 27.04918032786885
+  },
+  "characters": {
+   "original": 754,
+   "final": 752,
+   "length_change": -2,
+   "pct_not_preserved": 16.578249336870023,
+   "pct_new": 16.356382978723406
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 176,
+   "green_after": 134,
+   "pairs_before": 199,
+   "pairs_after": 200,
+   "pairs_changed_before": 54,
+   "pairs_changed_after": 55,
+   "green_fraction_of_new_pairs": 0.2,
+   "delta_achieved": 0.3
+  }
+ }
+}

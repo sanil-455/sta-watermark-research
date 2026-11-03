@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:225",
+ "nobox": {
+  "z_final": 3.7142857142857144,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "He (Forbes) was sitting with a number of other patients and my administration of which we do a roster, put me on duty Tuesday/Wednesday night overnight so I was there and I did my part of that triage.",
+    "rewrite": "He (Forbes) was sitting with several other patients, and as part of my administration's roster system, I was on duty Tuesday/Wednesday night for overnight triage, so I was there and carried out my responsibilities."
+   },
+   "2": {
+    "original": "It took most of the night to go through 30 patients and we came to the conclusion that only three of them are actually emergency patients according to triage policy.",
+    "rewrite": "Throughout the night, we reviewed 30 patients and found that, according to triage policy, only three were actual emergencies."
+   },
+   "5": {
+    "original": "According to the general surgeon, even on an average day, emergency treatment takes up to six hours, since 30 to 40 patients are seen on shift.",
+    "rewrite": "On an average day, according to the general surgeon, emergency treatment can take up to six hours due to seeing 30 to 40 patients during their shift."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 54,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": ". He (Forbes) was sitting with several other patients, and as part of my administration's roster system, I was on duty Tuesday/Wednesday night for overnight triage, so I was there and carried out my responsibilities. Throughout the night, we reviewed 30 patients and found that, according to triage policy, only three were actual emergencies.\n\"So we call about one bundle of emergency patients first according to triage and the rest are second bucket, which is the urgent bucket, and then you have... the less urgent bucket. So with that large number of patients, we had to triage the system very diligently,\" Dr Dawes said.\nOn an average day, according to the general surgeon, emergency treatment can take up to six hours due to seeing 30 to 40 patients during their shift. Patients who are classified",
+  "z0": 4.808326112068523,
+  "seconds": 146.3
+ }
+}

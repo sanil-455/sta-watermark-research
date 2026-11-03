@@ -1,0 +1,242 @@
+{
+ "sample_id": "samples_len500:234",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8820043103448276,
+ "needed_share": 0.6894350031250291,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 1856,
+  "segments": 17,
+  "eligible": 14,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "too short": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1637,
+  "eligible_char_share": 0.8820043103448276
+ },
+ "attack": {
+  "z0": 6.439875775199394,
+  "z_final": 1.994589932300713,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 240,
+  "seconds": 242.4,
+  "seconds_by_phase": {
+   "generate": 222.0,
+   "gates": 20.2,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 257,
+    "z_before": 6.439875775199394,
+    "z_after": 5.14810703191222,
+    "accepted": true,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 48,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "CJK text": 6,
+      "unknown word": 6,
+      "negation count changed": 2
+     }
+    },
+    "queries_total": 47,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 58.89
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 185,
+    "z_before": 5.14810703191222,
+    "z_after": 4.170575594255735,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 47,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 11,
+      "negation count changed": 4
+     }
+    },
+    "queries_total": 90,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.84
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 164,
+    "z_before": 4.170575594255735,
+    "z_after": 3.3574611077688394,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 8
+     }
+    },
+    "queries_total": 139,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.38
+   },
+   {
+    "pass": 1,
+    "segment": 13,
+    "chars": 151,
+    "z_before": 3.3574611077688394,
+    "z_after": 2.578414501951445,
+    "accepted": true,
+    "survivors": 58,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 58,
+     "rejected": {
+      "duplicate": 2
+     }
+    },
+    "queries_total": 197,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.41
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 122,
+    "z_before": 2.578414501951445,
+    "z_after": 1.994589932300713,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 43,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "duplicate": 14,
+      "CJK text": 2,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 240,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 31.5
+   }
+  ],
+  "rewrites": {
+   "1": {
+    "original": "On the open road, the Stelvio is such a beautiful thing to behold, with that silly, overinflated, rabbit-ears rear windscreen giving it a cute appearance; press the key fob button and the screen self-levelises itself, like a mischievous little Cheshire cat.",
+    "rewrite": "On the open road, the Stelvio presents as a magnificent sight, marked by its oddly puffed-up rear windscreen resembling a quirky rabbit-ears design; press the key fob, and the screen magically adjusts, much like a playful Cheshire cat."
+   },
+   "2": {
+    "original": "Just remember not to press the button too suddenly \u2014 the pennyfed, flick-screen tailgate smashes down crashingly onto the bumper, almost toppling your full shopping, child or two bears.",
+    "rewrite": "Remember not to press the button too quickly \u2014 the penny-fed, flip-screen tailgate descends harshly onto the bumper, almost tipping over your full grocery haul, child, or even two small bear-sized objects."
+   },
+   "9": {
+    "original": "Real standout value in the range, particularly with the $1500 GQ edition, which swaps over the fake piano black lacquer \u2014 it\u2019s matte in a conspicuous shade of grey.",
+    "rewrite": "The $1500 GQ edition stands out for its distinct value, featuring a matte finish in a prominent gray shade, rather than the fake piano black lacquer."
+   },
+   "13": {
+    "original": "Wi-fi, aircon, heated seats and smartphone mirroring all standard, with luxuries coming in Requirement, 85 Pack and Traveller or is it Assist Speciale?",
+    "rewrite": "Wi-Fi, air conditioning, heated seats, and smartphone mirroring are standard features, with luxury enhancements available in the Requirement, 85 Pack, Traveller, or Assist Speciale configurations."
+   },
+   "10": {
+    "original": "Sharp, sporty ride and competent handling courtesy of its double wishbone MacPherson strut front and multilink rear loads.",
+    "rewrite": "A sharp and sporty ride, along with capable handling, courtesy of its double wishbone MacPherson strut front and multilink rear suspensions."
+   }
+  },
+  "final_span": "\u2014 feels sluggish through quick transitions, to the point you\u2019ll want to SLS it if you\u2019re a keen driver.\nOn the open road, the Stelvio presents as a magnificent sight, marked by its oddly puffed-up rear windscreen resembling a quirky rabbit-ears design; press the key fob, and the screen magically adjusts, much like a playful Cheshire cat.\nRemember not to press the button too quickly \u2014 the penny-fed, flip-screen tailgate descends harshly onto the bumper, almost tipping over your full grocery haul, child, or even two small bear-sized objects.\nOld Italian hands recall the Stelvio had differing guises over the years, both for road and track. This one wears Stelvio on the bonnet, which suggests the car is porpoising off the road, not on it. The legend is the name refers to the guy who corresponds and is the point of contact at Alfa headquarters. I wouldn\u2019t know.\nLooking really good in both Aurum (more yellow than orange) and Sprint (more orange than yellow). Armoured spec offers minimal bling but effective styling upgrades.\nThe $1500 GQ edition stands out for its distinct value, featuring a matte finish in a prominent gray shade, rather than the fake piano black lacquer.\nA sharp and sporty ride, along with capable handling, courtesy of its double wishbone MacPherson strut front and multilink rear suspensions. More suitable than Dinamica to hold its all-important damping.\nProper Italian leather seats and lovely carpet. Wi-Fi, air conditioning, heated seats, and smartphone mirroring are standard features, with luxury enhancements available in the Requirement, 85 Pack, Traveller, or Assist Speciale configurations.\nMore Stuttgart than Milano on the specsheet; reasonably refined noise and vibration; appetite for premium fuel. Quadrifoglio bit, properly made of course, sounds like a devilish thing.\nIf the Range Rover SVAutobiography is a 9/10 and the big V8 Ferrari is an 8/10, then",
+  "break_point": {
+   "step": 4,
+   "sentences_rewritten": 5,
+   "queries": 240
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 5,
+   "eligible": 14,
+   "segments": 17,
+   "pct_of_eligible": 35.714285714285715,
+   "pct_of_segments": 29.41176470588235
+  },
+  "tokens": {
+   "original": 501,
+   "final": 510,
+   "length_change": 9,
+   "pct_not_preserved": 19.56087824351297,
+   "pct_new": 20.98039215686275
+  },
+  "words": {
+   "original": 303,
+   "final": 305,
+   "length_change": 2,
+   "pct_not_preserved": 24.752475247524753,
+   "pct_new": 25.24590163934426
+  },
+  "characters": {
+   "original": 1856,
+   "final": 1902,
+   "length_change": 46,
+   "pct_not_preserved": 15.732758620689658,
+   "pct_new": 17.770767613038906
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 322,
+   "green_after": 277,
+   "pairs_before": 500,
+   "pairs_after": 509,
+   "pairs_changed_before": 135,
+   "pairs_changed_after": 144,
+   "green_fraction_of_new_pairs": 0.3472222222222222,
+   "delta_achieved": 0.1527777777777778
+  }
+ }
+}

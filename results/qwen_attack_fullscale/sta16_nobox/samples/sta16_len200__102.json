@@ -1,0 +1,89 @@
+{
+ "sample_id": "sta16_len200:102",
+ "nobox": {
+  "z_final": 7.981596478959656,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Productivity tools like email, messaging and web-based documents have most of the usage share on consumer laptops and smartphones, because they are considered crucial in everyone\u2019s daily workflow.",
+    "rewrite": "Productivity tools such as email, messaging, and web-based documents hold the predominant usage share on consumer laptops and smartphones, as they are viewed as essential for daily workflows."
+   },
+   "2": {
+    "original": "The new online location is more around entertainment and communication with those people you wish to be around.",
+    "rewrite": "The new online location focuses more on entertainment and communication with people you wish to be around."
+   },
+   "6": {
+    "original": "There are times when I wish I had time to hang out and play games and chat via social networks on the web.",
+    "rewrite": "There are occasions when I wish I had time to hang out, play games, and chat via social networks on the web."
+   },
+   "3": {
+    "original": "Hence why email has to be done on your smartphone and mainly, done on your lunch break.",
+    "rewrite": "Hence, email must be done on your smartphone, primarily on your lunch break."
+   },
+   "7": {
+    "original": "But unfortunately, I spit only married sooo I don\u2019t time do those type of things.",
+    "rewrite": "But unfortunately, I only spit married people, so I don't do those types of things."
+   },
+   "8": {
+    "original": "I guess I learn to pick humor kidnap much or I podchunk too many people.",
+    "rewrite": "It appears that I learn to select humor from kidnappers rather than pods chucking people."
+   },
+   "4": {
+    "original": "Internet kills TV, and the Internet kills internet.",
+    "rewrite": "Internet kills TV, and the Internet eradicates itself."
+   },
+   "9": {
+    "original": "Everyday is the Internet\u2019s holiday.",
+    "rewrite": "Every day is the Internet's holiday."
+   }
+  },
+  "sentences_rewritten": 8,
+  "eligible": 8,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 4,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 17,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "consumer survey showed an interesting development for what anyone would consider a mainstream Internet killer tool. Productivity tools such as email, messaging, and web-based documents hold the predominant usage share on consumer laptops and smartphones, as they are viewed as essential for daily workflows. The new online location focuses more on entertainment and communication with people you wish to be around. Hence, email must be done on your smartphone, primarily on your lunch break. Internet kills TV, and the Internet eradicates itself.\nteugelman\nThere are occasions when I wish I had time to hang out, play games, and chat via social networks on the web. But unfortunately, I only spit married people, so I don't do those types of things. It appears that I learn to select humor from kidnappers rather than pods chucking people.\nEvery day is the Internet's holiday.\nNever forget that in a",
+  "z0": 11.737972567696689,
+  "seconds": 214.4
+ }
+}

@@ -1,0 +1,143 @@
+{
+ "sample_id": "samples_len500:86",
+ "nobox": {
+  "z_final": 5.359490454421435,
+  "status": "not broken",
+  "rewrites": {
+   "14": {
+    "original": "All of these examples fall into the digital disruption end of the digital transformation spectrum, maybe even the digital disruption spectrum itself.",
+    "rewrite": "All these examples reside at the digital disruption end of the digital transformation spectrum, possibly even on the digital disruption spectrum itself."
+   },
+   "8": {
+    "original": "Are financial services companies \u2014 such as banks and investment firms \u2014 well on their way to elevating digital in their corporate strategy?",
+    "rewrite": "Are financial services companies, including banks and investment firms, advancing digital efforts in their corporate strategy?"
+   },
+   "12": {
+    "original": "Airbnb and Uber, classic technology companies, have provided much better user experiences than traditional hotel brands and taxi services.",
+    "rewrite": "Classic technology companies Airbnb and Uber have offered significantly superior user experiences compared to traditional hotel brands and taxi services."
+   },
+   "2": {
+    "original": "In a recent article, we outlined five examples of digital transformation in healthcare: Online screening and self-monitoring.",
+    "rewrite": "In a recent article, we provided five examples of digital transformation in healthcare: Online screening and self-monitoring."
+   },
+   "16": {
+    "original": "These disruptors aren\u2019t the only ones taking a more digital-first approach to customer experience or business strategy.",
+    "rewrite": "These disruptors are not the only ones adopting a more digital-first approach to customer experience or business strategy."
+   },
+   "20": {
+    "original": "And nearly all non-financial technology companies have the digital focus to be able to compete with the fintechs.",
+    "rewrite": "Almost all non-financial tech companies have a digital focus that allows them to compete with fintechs."
+   },
+   "7": {
+    "original": "If healthcare is in the throes of digital transformation\u2019s throes, what about its companion, financial services?",
+    "rewrite": "If healthcare is undergoing digital transformation, what about its counterpart, financial services?"
+   },
+   "21": {
+    "original": "In other words, they are taking digital-first approaches to customer experience and business strategy.",
+    "rewrite": "In other words, they are adopting digital-first methods for customer experience and business strategy."
+   },
+   "18": {
+    "original": "More established players in the financial services market are creating their own digital disruptors.",
+    "rewrite": "More established players in the financial services market are developing their own digital disruptors."
+   },
+   "19": {
+    "original": "These include banks and financial institutions that are trying to compete with fintechs, he said.",
+    "rewrite": "These include banks and financial institutions that are attempting to compete with fintechs, he said."
+   },
+   "1": {
+    "original": "The CDO must identify and champion the digital overhaul imperative for the company.",
+    "rewrite": "The CDO needs to identify and advocate for the digital overhaul imperative for the company."
+   },
+   "13": {
+    "original": "And what about the relatively new financial technology firms known as fintechs?",
+    "rewrite": "What about the relatively new financial technology firms, known as fintechs?"
+   },
+   "3": {
+    "original": "Integrated communication and collaboration platforms.",
+    "rewrite": "Unified communication and collaboration platforms."
+   },
+   "11": {
+    "original": "Two examples of digital disruptors?",
+    "rewrite": "Two examples of digital disruptors are?"
+   }
+  },
+  "sentences_rewritten": 14,
+  "eligible": 14,
+  "per_sentence": [
+   {
+    "index": 14,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 16,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 20,
+    "survivors": 25,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 12,
+    "rewritten": true
+   },
+   {
+    "index": 21,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 18,
+    "survivors": 21,
+    "rewritten": true
+   },
+   {
+    "index": 19,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 1,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 10,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "\u2019s presence in the corporate C-suite is the appearance of the Chief Digital Officer (CDO) title. The CDO needs to identify and advocate for the digital overhaul imperative for the company.\nIn a recent article, we provided five examples of digital transformation in healthcare: Online screening and self-monitoring. Unified communication and collaboration platforms. Digital data analysis. Embedded devices. And online training.\nIf healthcare is undergoing digital transformation, what about its counterpart, financial services? Are financial services companies, including banks and investment firms, advancing digital efforts in their corporate strategy?\nIn a recent Skender podcast, during the episode labeled \u201cGlobal Tech Innovation on the Fringes,\u201d host Marissa Mateo asked Skender Founder and CEO Grant Gregson some pointed questions about digital transformation in financial services.\nGregson began the chat with an explanation of digital disruption \u2014 and contrary to the tech three-letter abbreviations we come to associate with digital \u2014 what digital disruption really means is, and what it has always meant, is disruption versus transformation.\u201d\nTwo examples of digital disruptors are? Classic technology companies Airbnb and Uber have offered significantly superior user experiences compared to traditional hotel brands and taxi services. What about the relatively new financial technology firms, known as fintechs?\nAll these examples reside at the digital disruption end of the digital transformation spectrum, possibly even on the digital disruption spectrum itself.\nGregson, referencing the World Economic Forum\u2019s \u201c2017 Global Agenda Council on the Future of Financial and Monetary Systems,\u201d calls them \u201csuper publishers,\u201d which is, yes, yet another abbreviation of digital.\nThese disruptors are not the only ones adopting a more digital-first approach to customer experience or business strategy.\nGoogle or Amazon?\nMore established players in the financial services market are developing their own digital disruptors.\nThese include banks and financial institutions that are attempting to compete with fintechs, he said. Almost all non-financial tech companies have a digital focus that allows them to compete with fintechs. In other words, they are adopting digital-first methods for customer experience and business strategy.\n",
+  "z0": 6.7976466515993605,
+  "seconds": 336.7
+ }
+}

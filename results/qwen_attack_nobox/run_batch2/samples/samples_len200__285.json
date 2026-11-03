@@ -1,0 +1,71 @@
+{
+ "sample_id": "samples_len200:285",
+ "nobox": {
+  "z_final": 1.8413847165702786,
+  "status": "broken",
+  "rewrites": {
+   "5": {
+    "original": "Claire Webb is to play Dr Hallion, during the first series Morgan left fans ankilling off his on-screen wife Dr Zoe Hanna in order to explore other career opportunities.",
+    "rewrite": "During the first series, Claire Webb will play Dr Hallion, while Morgan left fans wondering about the fate of his on-screen wife, Dr Zoe Hanna, as he sought other career opportunities."
+   },
+   "4": {
+    "original": "Other newcomers include Kim Logan as Sonya Grayson, Adele Oni as Dr Oludara Olaosebikan and Hong Kong-born Lois Delfor who plays game show character Nina Arden.",
+    "rewrite": "Newcomers to the cast include Kim Logan as Sonya Grayson, Adele Oni as Dr Oludara Olaosebikan, and Hong Kong-born Lois Delfor playing game show character Nina Arden."
+   },
+   "3": {
+    "original": "Breaking Bad\u2019s Dean Norris will be playing doc\u2019s brother Chris, and pretty Swedish actress Frida Farrell plays Jimmy Firo\u2019s niece.",
+    "rewrite": "Dean Norris, from Breaking Bad, will portray the doc's brother Chris, while the role of Jimmy Firo\u2019s niece is taken on by Swedish actress Frida Farrell."
+   },
+   "2": {
+    "original": "Breakaway sister show Holby : City is being restructured too and will have female leads as well as males.",
+    "rewrite": "Holby: City, which has a breakaway sister show, is also being restructured and will feature female leads alongside males."
+   },
+   "1": {
+    "original": "And luckily there\u2019s going to be more female doctors coming onto the drama series this autumn.",
+    "rewrite": "Fortunately, there will be more female doctors appearing in the drama series this autumn."
+   },
+   "0": {
+    "original": "City isn\u2019t too sad to let her go.",
+    "rewrite": "City is not too sad to let her go."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 25,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 13,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 31,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "City is not too sad to let her go.\nFortunately, there will be more female doctors appearing in the drama series this autumn.\nHolby: City, which has a breakaway sister show, is also being restructured and will feature female leads alongside males.\nDean Norris, from Breaking Bad, will portray the doc's brother Chris, while the role of Jimmy Firo\u2019s niece is taken on by Swedish actress Frida Farrell.\nNewcomers to the cast include Kim Logan as Sonya Grayson, Adele Oni as Dr Oludara Olaosebikan, and Hong Kong-born Lois Delfor playing game show character Nina Arden.\nDuring the first series, Claire Webb will play Dr Hallion, while Morgan left fans wondering about the fate of his on-screen wife, Dr Zoe Hanna, as he sought other career opportunities.\nNow mum and wife-of-four Lois is set",
+  "z0": 5.149022995767767,
+  "seconds": 231.0
+ }
+}

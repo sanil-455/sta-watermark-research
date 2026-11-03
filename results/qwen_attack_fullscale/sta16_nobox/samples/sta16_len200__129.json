@@ -1,0 +1,26 @@
+{
+ "sample_id": "sta16_len200:129",
+ "nobox": {
+  "z_final": 9.522165814091077,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Bomba's sentiment were also echoed by Congress of Trade Union chief sales assistant at MAS Mutamba whatsapp group Masawi Ongwenje who said deep-seated violence versus each other is the core of our Zimbabwe's problems.",
+    "rewrite": "Bomba's viewpoint was also reflected by Masawi Ongwenje, the chief sales assistant at MAS and head of the Trade Union Congress, who stated that deep-seated violence directed at each other is the core of Zimbabwe's problems."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 1,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "mechanisms of coming to an understanding how anyone who has suffered this pain, perpetrator, victim, observer, has an opportunity to reflect on the hurt they feel has contributed to that hurt and think about where they can go from this.\"\n\"And so our thinking is first - there has to be some wholesale changes in society that make us less susceptible to proclivities of violence, which we collectively as citizens, we have really lived with since 2005 and really got an opportunity to express in August - us being responsible, individually, if part of us is violent or aligns with the violent tendency in society,\" he added.\nBomba's viewpoint was also reflected by Masawi Ongwenje, the chief sales assistant at MAS and head of the Trade Union Congress, who stated that deep-seated violence directed at each other is the core of Zimbabwe's problems.\n\"This is Z",
+  "z0": 11.17228714274745,
+  "seconds": 53.5
+ }
+}

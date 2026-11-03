@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:238",
+ "nobox": {
+  "z_final": 1.6045149064768403,
+  "status": "broken",
+  "rewrites": {
+   "2": {
+    "original": "One school of thought objects to the rainy-day fund on grounds that holding cash is safe but a waste of money at a time when California\u2019s infrastructure badly needs investment.",
+    "rewrite": "Another perspective argues against the rainy-day fund because keeping cash is seen as safe but wasteful when California's infrastructure desperately needs investments."
+   },
+   "5": {
+    "original": "Or think about the recent \u201cStuxnet\u201d computer virus, which took down Iran\u2019s oil exports and scintillated Wall Street.",
+    "rewrite": "Consider the recent \"Stuxnet\" computer virus, which knocked out Iran\u2019s oil exports and excited Wall Street."
+   },
+   "4": {
+    "original": "Just ask the folks in Los Angeles who suffered a shocking foreclosure racket when the financial crisis hit in 2008.",
+    "rewrite": "Just ask the people in Los Angeles who endured a surprising foreclosure scheme when the financial crisis struck in 2008."
+   },
+   "3": {
+    "original": "Another school worries about the likelihood that California may be overdue for an economic catastrophe.",
+    "rewrite": "Another school is concerned about the possibility of California facing an economic catastrophe overdue."
+   },
+   "1": {
+    "original": "How to replenish the rainy-day fund \u2013 without raising more taxes \u2013 is likely to be a key early battle.",
+    "rewrite": "Without raising more taxes, how to replenish the rainy-day fund is likely to be a key early battle."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 19,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "long-term debts.\nWithout raising more taxes, how to replenish the rainy-day fund is likely to be a key early battle.\nAnother perspective argues against the rainy-day fund because keeping cash is seen as safe but wasteful when California's infrastructure desperately needs investments.\nAnother school is concerned about the possibility of California facing an economic catastrophe overdue.\nJust ask the people in Los Angeles who endured a surprising foreclosure scheme when the financial crisis struck in 2008. Consider the recent \"Stuxnet\" computer virus, which knocked out Iran\u2019s oil exports and excited Wall Street.\nAnticipating the potential for disaster, lawmakers voted to allow a type of rainy-day savings account, but since 2011, state officials have been depositing",
+  "z0": 3.2526911934581184,
+  "seconds": 157.3
+ }
+}

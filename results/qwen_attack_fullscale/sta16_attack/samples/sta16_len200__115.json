@@ -1,0 +1,142 @@
+{
+ "sample_id": "sta16_len200:115",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.14754098360655737,
+ "needed_share": 0.7603027860384585,
+ "delta_needed": null,
+ "segmentation": {
+  "chars": 915,
+  "segments": 7,
+  "eligible": 1,
+  "skipped": 6,
+  "skip_reasons": {
+   "too short": 1,
+   "quotation": 4,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 135,
+  "eligible_char_share": 0.14754098360655737
+ },
+ "attack": {
+  "z0": 8.34386001800126,
+  "z_final": 7.30147641158586,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 2,
+  "queries": 80,
+  "seconds": 95.2,
+  "seconds_by_phase": {
+   "generate": 87.5,
+   "gates": 7.7,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 135,
+    "z_before": 8.34386001800126,
+    "z_after": 7.30147641158586,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 43,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "duplicate": 17,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 42,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.57
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 135,
+    "z_before": 7.30147641158586,
+    "z_after": 7.443252652587526,
+    "accepted": false,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "duplicate": 9,
+      "unknown word": 5
+     }
+    },
+    "queries_total": 80,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.89
+   }
+  ],
+  "rewrites": {
+   "5": {
+    "original": "Singapore sought additional training areas when it bought the F-15s from the United States in 2014 for SG$7.6 billion (US$5.7 billion).",
+    "rewrite": "In 2014, Singapore purchased F-15s from the United States for SG$7.6 billion (US$5.7 billion) and looked for additional training sites."
+   }
+  },
+  "final_span": "Nanaia Mahuta.\n\"Defence cooperation between Singapore and New Zealand continued to be healthy,\" said MINDEF.\n\"Underlining this cooperation was the commitment to deepen and expand defence collaborations, and advance defence capacity building. This has seen increased defence exercises, training opportunities in different terrain and environments, and defence engagement on key defence interests such as disruptive technologies and evolving threats to the two countries.\n\"In the course of the discussions, both ministers agreed that New Zealand would continue to consider offering Singapore the opportunity to undertake basic pilot conversion training in Ohakea, should appropriate parameters on the training package were finalised and agreed to by both parties.\"\nIn 2014, Singapore purchased F-15s from the United States for SG$7.6 billion (US$5.7 billion) and looked for additional training sites. In a blow to the",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 1,
+   "eligible": 1,
+   "segments": 7,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 14.285714285714286
+  },
+  "tokens": {
+   "original": 201,
+   "final": 200,
+   "length_change": -1,
+   "pct_not_preserved": 8.955223880597018,
+   "pct_new": 8.499999999999996
+  },
+  "words": {
+   "original": 132,
+   "final": 131,
+   "length_change": -1,
+   "pct_not_preserved": 8.333333333333337,
+   "pct_new": 7.633587786259543
+  },
+  "characters": {
+   "original": 915,
+   "final": 915,
+   "length_change": 0,
+   "pct_not_preserved": 5.9016393442623,
+   "pct_new": 5.9016393442623
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 159,
+   "green_after": 151,
+   "pairs_before": 200,
+   "pairs_after": 199,
+   "pairs_changed_before": 21,
+   "pairs_changed_after": 20,
+   "green_fraction_of_new_pairs": 0.45,
+   "delta_achieved": 0.04999999999999999
+  }
+ }
+}

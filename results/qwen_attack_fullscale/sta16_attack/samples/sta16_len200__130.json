@@ -1,0 +1,114 @@
+{
+ "sample_id": "sta16_len200:130",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.2612197928653625,
+ "needed_share": 0.8062721147434116,
+ "delta_needed": null,
+ "segmentation": {
+  "chars": 869,
+  "segments": 4,
+  "eligible": 1,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 227,
+  "eligible_char_share": 0.2612197928653625
+ },
+ "attack": {
+  "z0": 10.323759005323593,
+  "z_final": 10.323759005323593,
+  "status": "stalled",
+  "reason": "no candidate passed the gates",
+  "passes": 1,
+  "queries": 1,
+  "seconds": 59.5,
+  "seconds_by_phase": {
+   "generate": 59.5,
+   "gates": 0.0,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 227,
+    "z_before": 10.323759005323593,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 53,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 4,
+      "several lines": 1,
+      "unknown word": 2,
+      "quotation changed": 51,
+      "negation count changed": 2
+     }
+    },
+    "queries_total": 1,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 59.53
+   }
+  ],
+  "rewrites": {},
+  "final_span": "attack,\" it said.\n\"Watch our videos anyone who wants to see the objects this terrorist organization is looking for at our military bases that were intended for the Free Syrian Army and the location tribesmen resist the return on the identity cards and especially our brother Fares Khajyeesh,\" it said.\nIn an online message on the jihadists' failures to capture Division 13 weapons stock, Division 13 said Nusra Front - previously linked to Al-Qaeda - had failed to yield \"distinct gains\" in recent weeks before Saturday's action.\n\"We are not above criticism and reserve the right to question al-Nusra Front's qualification as it transformed in recent weeks from a terrorist organization accredited by the world and a party of harming Sunnis in ink conspiracy dealings to a political movement which seeks military service by its blind people with the aim of manipulating",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 0,
+   "eligible": 1,
+   "segments": 4,
+   "pct_of_eligible": 0.0,
+   "pct_of_segments": 0.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 201,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "words": {
+   "original": 142,
+   "final": 142,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "characters": {
+   "original": 869,
+   "final": 869,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 173,
+   "green_after": 173,
+   "pairs_before": 200,
+   "pairs_after": 200,
+   "pairs_changed_before": 0,
+   "pairs_changed_after": 0,
+   "green_fraction_of_new_pairs": null,
+   "delta_achieved": null
+  }
+ }
+}

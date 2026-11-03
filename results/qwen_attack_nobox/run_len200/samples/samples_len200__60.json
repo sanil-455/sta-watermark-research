@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:60",
+ "nobox": {
+  "z_final": 4.236776633608848,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "Photo-sharing app Instagram to go pro with new tool To prevent copyright infringement, Instagram is bolstering its service with a new analytics tool for companies to track their brands on the hot photo-sharing vehicle.",
+    "rewrite": "Photo-sharing platform Instagram enhancing its service with a new analytics tool to prevent copyright infringement, enabling companies to track their brands on the popular app."
+   },
+   "3": {
+    "original": "Start-up founders describe tricky tech elements of running a business Chris Murphy, co-founder and CEO at Made, and Ian Hogarth, co-founder and MD of SongKick, discuss tricky tech elements of running a start-up.",
+    "rewrite": "Start-up founders Chris Murphy, co-founder and CEO at Made, and Ian Hogarth, co-founder and MD of Songkick, explain challenging tech aspects of managing a start-up."
+   },
+   "1": {
+    "original": "Truphone offers a range of global bundles that give F1 teams more flexibility whilst travelling and racing, over and above its regular global tariff prices.",
+    "rewrite": "Truphone provides a range of global bundles that offer F1 teams additional flexibility while traveling and racing, surpassing its standard global tariff rates."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 57,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 54,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "to the other 500 members of the team.\nTruphone provides a range of global bundles that offer F1 teams additional flexibility while traveling and racing, surpassing its standard global tariff rates.\nRead more on how Caterham F1 is putting runners on IT\nStart-up founders Chris Murphy, co-founder and CEO at Made, and Ian Hogarth, co-founder and MD of Songkick, explain challenging tech aspects of managing a start-up.\nPhoto-sharing platform Instagram enhancing its service with a new analytics tool to prevent copyright infringement, enabling companies to track their brands on the popular app.\nVirgin unveils tech partnership offer for start-ups Virgin Media Business has launched a package specifically targeted at",
+  "z0": 5.5154328932550705,
+  "seconds": 131.8
+ }
+}

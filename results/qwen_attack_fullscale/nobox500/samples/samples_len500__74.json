@@ -1,0 +1,116 @@
+{
+ "sample_id": "samples_len500:74",
+ "nobox": {
+  "z_final": 4.636363636363637,
+  "status": "not broken",
+  "rewrites": {
+   "11": {
+    "original": "But he also had insight into America\u2019s military service members\u2014included in the the toothbrush packaging was a veteran of World War I, who worked to bring oral hygiene to the wartime generation, helping to ensure that service members benefitted from a potent yet simple tooth-cleaning technology available on the American frontlines.",
+    "rewrite": "But he also understood America's military service members\u2014included in the toothbrush packaging was a veteran of World War I who worked to introduce oral hygiene practices to the wartime generation, ensuring that service members reaped benefits from accessible and effective tooth-cleaning tools on the American frontlines."
+   },
+   "12": {
+    "original": "Though Truman served in Congress in 1917, marking when his military service began, he established no delusions of missing the fun.",
+    "rewrite": "Although Truman started his military service in 1917 by serving in Congress, he did not illusion himself about missing out on the fun."
+   },
+   "5": {
+    "original": "On the return trip, Armstrong asked Buzz Aldrin, his fellow crew member and pilot, to be sure to have a good look at the moon.",
+    "rewrite": "On the return trip, Armstrong requested that Buzz Aldrin, his fellow crew member and pilot, take a good look at the moon."
+   },
+   "2": {
+    "original": "It commemorated President Harry S. Truman, who donated the boxed brush to the Museum after he\u2019d lost a tooth.",
+    "rewrite": "It honored President Harry S. Truman, who later donated the boxed brush to the Museum when he lost a tooth."
+   },
+   "10": {
+    "original": "He likely chose to donate toothbrushes because dentifrice was conspicuously absent from early flight menus.",
+    "rewrite": "He likely chose to donate toothbrushes as dentifrice was markedly missing from early flight menus."
+   },
+   "13": {
+    "original": "He was involved in sending America into World War I, and fought the Allies alongside his army colleagues.",
+    "rewrite": "He participated in leading America into World War I, and fought alongside his military colleagues for the Allies."
+   },
+   "1": {
+    "original": "On the way to the moon, Armstrong detached the toothbrush from its box, and read an inscription.",
+    "rewrite": "Armstrong detached the toothbrush from its box and noticed an inscription on the way to the moon."
+   },
+   "7": {
+    "original": "Truman and Armstrong both hailed from the Midwest (Truman from Missouri, Armstrong from Ohio).",
+    "rewrite": "Both Truman and Armstrong hailed from the Midwest, with Truman being from Missouri and Armstrong from Ohio."
+   },
+   "8": {
+    "original": "Both men shared a love of the Midwest, and both had strong opinions about farming technology.",
+    "rewrite": "Both men had a fondness for the Midwest and expressed firm views on farming technology."
+   },
+   "9": {
+    "original": "In addition to his job as president, Truman served as a farmer during his lifetime.",
+    "rewrite": "In addition to serving as president, Truman also worked as a farmer during his lifetime."
+   },
+   "4": {
+    "original": "Armstrong then tucked the toothbrush back whence it came.",
+    "rewrite": "Armstrong then placed the toothbrush back where it had been."
+   }
+  },
+  "sentences_rewritten": 11,
+  "eligible": 11,
+  "per_sentence": [
+   {
+    "index": 11,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 36,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 27,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 21,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "tucked under his pocket a toothbrush and a Slinky from the National Museum of American History.\nArmstrong detached the toothbrush from its box and noticed an inscription on the way to the moon. It honored President Harry S. Truman, who later donated the boxed brush to the Museum when he lost a tooth. The note read \u201cGive a man a toothbrush and you feed his spirit.\u201d Armstrong then placed the toothbrush back where it had been.\nOn the return trip, Armstrong requested that Buzz Aldrin, his fellow crew member and pilot, take a good look at the moon. Aldrin remembers getting the message\u2014teasingly, as Armstrong was fond of doing\u2014that Armstrong wanted him to have a good view, if for no other reason than to send back a photo showing the signatures of the astronaut who beat the Russians to the moon, \u201cand also Mr. Truman, a few things...\u201d\nBoth Truman and Armstrong hailed from the Midwest, with Truman being from Missouri and Armstrong from Ohio. Both men had a fondness for the Midwest and expressed firm views on farming technology. In addition to serving as president, Truman also worked as a farmer during his lifetime. He likely chose to donate toothbrushes as dentifrice was markedly missing from early flight menus. But he also understood America's military service members\u2014included in the toothbrush packaging was a veteran of World War I who worked to introduce oral hygiene practices to the wartime generation, ensuring that service members reaped benefits from accessible and effective tooth-cleaning tools on the American frontlines. Although Truman started his military service in 1917 by serving in Congress, he did not illusion himself about missing out on the fun. He participated in leading America into World War I, and fought alongside his military colleagues for the Allies.\nIn 1920, after he'd become president, Truman said, \u201cI'm the only President ever to come from the rank of private in the army.\u201d Harry S. Truman wasn\u2019t a farmer by trade, but he recognized the",
+  "z0": 6.082104898799428,
+  "seconds": 373.6
+ }
+}

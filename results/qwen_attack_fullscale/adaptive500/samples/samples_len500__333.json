@@ -1,0 +1,218 @@
+{
+ "sample_id": "samples_len500:333",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8621139625924314,
+ "needed_share": 0.7096015613636637,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2299,
+  "segments": 12,
+  "eligible": 9,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "too short": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1982,
+  "eligible_char_share": 0.8621139625924314
+ },
+ "attack": {
+  "z0": 6.887089370699352,
+  "z_final": 1.2675004445952593,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 116,
+  "seconds": 275.4,
+  "seconds_by_phase": {
+   "generate": 262.8,
+   "gates": 12.5,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 401,
+    "z_before": 6.887089370699352,
+    "z_after": 5.421047417431508,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 49,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 8,
+      "unknown word": 2,
+      "negation count changed": 4,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 44,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 77.88
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 396,
+    "z_before": 5.421047417431508,
+    "z_after": 3.719595535337419,
+    "accepted": true,
+    "survivors": 22,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 35,
+     "after_content": 22,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 22,
+     "rejected": {
+      "preamble": 6,
+      "CJK text": 10,
+      "unknown word": 9,
+      "negation count changed": 13
+     }
+    },
+    "queries_total": 66,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 81.48
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 304,
+    "z_before": 3.719595535337419,
+    "z_after": 2.577629100382967,
+    "accepted": true,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 51,
+     "after_content": 5,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 6,
+      "negation count changed": 46
+     }
+    },
+    "queries_total": 71,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 48.99
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 277,
+    "z_before": 2.577629100382967,
+    "z_after": 1.2675004445952593,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "CJK text": 4,
+      "several lines": 3,
+      "unknown word": 6,
+      "meaning too different": 2
+     }
+    },
+    "queries_total": 116,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.5
+   }
+  ],
+  "rewrites": {
+   "6": {
+    "original": "This increase in political consciousness is bringing a corresponding increase in class awareness, which is the only thing that could conceivably deepen the success of the current movement -- if, say, the thousands of schoolkids who skipped school today to join the Millbank protests were to realise the even better rapport that they stand to have with the unions if they refuse to lay down their arms.",
+    "rewrite": "This rise in political awareness correlates with an equivalent rise in class consciousness, a factor uniquely positioned to enhance the movement's success \u2014 notably, if those thousands of schoolchildren who missed school yesterday to participate in the Millbank protests came to understand the superior connection they could establish with unions by holding onto their activism."
+   },
+   "9": {
+    "original": "No doubt the millions of future wealth creators and private-property protectors that Mrs Pankhurst longed to find in all the drably decorated homes of the British working class during the interwar years will soon stand up to the ridiculous, defrosting, blanket-hide property-rights rhetoric by which politicians on both sides continue to dismiss any attempt to achieve a more egalitarian society.",
+    "rewrite": "There is no doubt that Mrs. Pankhurst dreamed of finding millions of future wealth creators and private-property protectors in the subdued interior settings of British working-class homes during the interwar period, and these individuals will quickly rise to challenge the politicians' absurd and ineffective blanket defense of property rights rhetoric that seeks to thwart efforts for a more equitable society."
+   },
+   "5": {
+    "original": "Student politics is an increasingly popular game in which the politicians themselves offer up a variety of socialist-sounding platforms, if for no better reason than because incumbent power is so reluctant to hand it to students and is therefore at risk of being swept away by contrary electoral opinion.",
+    "rewrite": "Student politics is becoming more popular, with politicians presenting various socialist-inspired platforms. This trend occurs not necessarily because of the merits of these ideas, but rather due to incumbents' reluctance to cede power to students, putting them at risk of losing office to opposing views."
+   },
+   "2": {
+    "original": "Mass protests of the kind we've recently seen in London and Newcastle have at least one critical element approaching commonality; a sense of collective outrage at a government perceived to be acting in the interests of a greedy and venal upper class over those of the majority.",
+    "rewrite": "Mass demonstrations of the sort we've witnessed lately in London and Newcastle share at least one crucial trait in common: a sense of collective outrage directed at a government viewed as serving the interests of a greedy and corrupt elite rather than the majority."
+   }
+  },
+  "final_span": "blinks when it happens to an entire economy. The punishment does not fit the crime -- if it does, then the punishment of the financial world is currently perpetual and cost-free.\nMass demonstrations of the sort we've witnessed lately in London and Newcastle share at least one crucial trait in common: a sense of collective outrage directed at a government viewed as serving the interests of a greedy and corrupt elite rather than the majority. Other than that, there is a shocking expanse of political and economic disconnect, which in historical terms points to another protest movement in an entirely different tax bracket.\nAnd, forgive me, but I fail to share the Tory pessimism about these people getting their own back. Student politics is becoming more popular, with politicians presenting various socialist-inspired platforms. This trend occurs not necessarily because of the merits of these ideas, but rather due to incumbents' reluctance to cede power to students, putting them at risk of losing office to opposing views. This rise in political awareness correlates with an equivalent rise in class consciousness, a factor uniquely positioned to enhance the movement's success \u2014 notably, if those thousands of schoolchildren who missed school yesterday to participate in the Millbank protests came to understand the superior connection they could establish with unions by holding onto their activism. Our immediate conspicuous success has not yet even given our endless long-term success the opportunity to be born. It is simple.\nThere is no doubt that Mrs. Pankhurst dreamed of finding millions of future wealth creators and private-property protectors in the subdued interior settings of British working-class homes during the interwar period, and these individuals will quickly rise to challenge the politicians' absurd and ineffective blanket defense of property rights rhetoric that seeks to thwart efforts for a more equitable society. And, obviously, Mrs Pankhurst was deeply and authentically socially motivated. She was primarily interested in goodness, justice, equality and nearly everything else associated with the left wing of social thought, and so it seems quite certain that if she'd lived in our era she would quite certainly have been a woman called T",
+  "break_point": {
+   "step": 3,
+   "sentences_rewritten": 4,
+   "queries": 116
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 4,
+   "eligible": 9,
+   "segments": 12,
+   "pct_of_eligible": 44.44444444444444,
+   "pct_of_segments": 33.333333333333336
+  },
+  "tokens": {
+   "original": 501,
+   "final": 489,
+   "length_change": -12,
+   "pct_not_preserved": 35.12974051896207,
+   "pct_new": 33.537832310838446
+  },
+  "words": {
+   "original": 374,
+   "final": 355,
+   "length_change": -19,
+   "pct_not_preserved": 37.96791443850267,
+   "pct_new": 34.647887323943664
+  },
+  "characters": {
+   "original": 2299,
+   "final": 2280,
+   "length_change": -19,
+   "pct_not_preserved": 25.054371465854718,
+   "pct_new": 24.429824561403514
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 327,
+   "green_after": 258,
+   "pairs_before": 500,
+   "pairs_after": 488,
+   "pairs_changed_before": 229,
+   "pairs_changed_after": 217,
+   "green_fraction_of_new_pairs": 0.42857142857142855,
+   "delta_achieved": 0.07142857142857145
+  }
+ }
+}

@@ -1,0 +1,429 @@
+{
+ "sample_id": "sta16_len200:66",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.8582677165354331,
+ "needed_share": 0.7681617110863779,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 635,
+  "segments": 6,
+  "eligible": 4,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 545,
+  "eligible_char_share": 0.8582677165354331
+ },
+ "attack": {
+  "z0": 8.626702730475879,
+  "z_final": 3.097927758696814,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 472,
+  "seconds": 561.7,
+  "seconds_by_phase": {
+   "generate": 514.4,
+   "gates": 47.2,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 260,
+    "z_before": 8.626702730475879,
+    "z_after": 6.571287406727709,
+    "accepted": true,
+    "survivors": 59,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 59,
+     "fluency_skipped": false,
+     "after_fluency": 59,
+     "rejected": {
+      "CJK text": 1
+     }
+    },
+    "queries_total": 60,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 77.45
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 113,
+    "z_before": 6.571287406727709,
+    "z_after": 5.033056555559185,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "duplicate": 6,
+      "CJK text": 3,
+      "unknown word": 1,
+      "meaning too different": 2
+     }
+    },
+    "queries_total": 108,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.48
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 108,
+    "z_before": 5.033056555559185,
+    "z_after": 4.120738745040511,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 53,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 3,
+      "unknown word": 3,
+      "negation count changed": 1
+     }
+    },
+    "queries_total": 160,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.55
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 64,
+    "z_before": 4.120738745040511,
+    "z_after": 3.4057354295988875,
+    "accepted": true,
+    "survivors": 13,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 16,
+     "after_spelling": 13,
+     "after_content": 13,
+     "after_semantic": 13,
+     "fluency_skipped": false,
+     "after_fluency": 13,
+     "rejected": {
+      "duplicate": 44,
+      "unknown word": 3
+     }
+    },
+    "queries_total": 173,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.32
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 260,
+    "z_before": 3.4057354295988875,
+    "z_after": 3.3123146848433005,
+    "accepted": true,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 56,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 1,
+      "glued punctuation": 2,
+      "numbers changed": 2
+     }
+    },
+    "queries_total": 227,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 78.19
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 113,
+    "z_before": 3.3123146848433005,
+    "z_after": 3.097927758696814,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "duplicate": 7,
+      "several lines": 2,
+      "CJK text": 1,
+      "unknown word": 4,
+      "meaning too different": 3
+     }
+    },
+    "queries_total": 270,
+    "hit_limit": 2,
+    "oom_events": [],
+    "seconds_generate": 40.48
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 108,
+    "z_before": 3.097927758696814,
+    "z_after": 3.159292970819848,
+    "accepted": false,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "duplicate": 3,
+      "CJK text": 1,
+      "unknown word": 3
+     }
+    },
+    "queries_total": 323,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.65
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 64,
+    "z_before": 3.097927758696814,
+    "z_after": 3.235613436861117,
+    "accepted": false,
+    "survivors": 13,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 16,
+     "after_spelling": 14,
+     "after_content": 14,
+     "after_semantic": 14,
+     "fluency_skipped": false,
+     "after_fluency": 13,
+     "rejected": {
+      "duplicate": 44,
+      "unknown word": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 336,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.7
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 260,
+    "z_before": 3.097927758696814,
+    "z_after": 3.206117249455934,
+    "accepted": false,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 54,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 4,
+      "glued punctuation": 1,
+      "numbers changed": 1
+     }
+    },
+    "queries_total": 389,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 77.45
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 113,
+    "z_before": 3.097927758696814,
+    "z_after": 3.1905678965200144,
+    "accepted": false,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 41,
+     "after_spelling": 40,
+     "after_content": 40,
+     "after_semantic": 38,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "duplicate": 13,
+      "CJK text": 6,
+      "unknown word": 1,
+      "meaning too different": 2
+     }
+    },
+    "queries_total": 423,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.05
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 108,
+    "z_before": 3.097927758696814,
+    "z_after": 3.144495264313451,
+    "accepted": false,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 53,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 3,
+      "unknown word": 3,
+      "negation count changed": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 468,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.81
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 64,
+    "z_before": 3.097927758696814,
+    "z_after": 3.097927758696814,
+    "accepted": false,
+    "survivors": 13,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 13,
+     "after_spelling": 13,
+     "after_content": 13,
+     "after_semantic": 13,
+     "fluency_skipped": false,
+     "after_fluency": 13,
+     "rejected": {
+      "duplicate": 47
+     }
+    },
+    "queries_total": 472,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.26
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "To prove the BJP\u2019s statement in Kisan Mitra Park in Rae Bareli, its leader Prem Saran Yadav claimed the Sangam Express was paid Rs 50,000, Prime Minister Narendra Modi is paid Rs 5 lakh, during India-Australia Test series in Pune Rs 6 crore were paid, he said.",
+    "rewrite": "To verify the BJP's claim at Kisan Mitra Park in Rae Bareli, leader Prem Saran Yadav stated that the Sangam Express was given Rs 50,000, Prime Minister Narendra Modi was remunerated Rs 5 lakh for the India-Australia Test series in Pune, and Rs 6 crore were disbursed during the event, he asserted."
+   },
+   "2": {
+    "original": "Instead, it seeks to assail Rahul and Sonia Gandhi, and their \u2018sahukari kehte he hain (co-operative) principles.\u2019",
+    "rewrite": "Rather, it aims to attack Rahul and Sonia Gandhi, and their alleged \u2018co-operative\u2019 principles."
+   },
+   "4": {
+    "original": "From 2009 to 2013, after becoming leader of Opposition, Priyanka Gandhi rightfully claimed no annual salary.",
+    "rewrite": "From 2009 to 2013, upon becoming the leader of the Opposition, Priyanka Gandhi rightfully asserted that she took no annual salary."
+   },
+   "1": {
+    "original": "It also claimed the video does not attack Priyanka Gandhi Vadra.",
+    "rewrite": "It also stated that the video does not criticizing Priyanka Gandhi Vadra."
+   }
+  },
+  "final_span": ". It also stated that the video does not criticizing Priyanka Gandhi Vadra. Rather, it aims to attack Rahul and Sonia Gandhi, and their alleged \u2018co-operative\u2019 principles. To verify the BJP's claim at Kisan Mitra Park in Rae Bareli, leader Prem Saran Yadav stated that the Sangam Express was given Rs 50,000, Prime Minister Narendra Modi was remunerated Rs 5 lakh for the India-Australia Test series in Pune, and Rs 6 crore were disbursed during the event, he asserted.\nFrom 2009 to 2013, upon becoming the leader of the Opposition, Priyanka Gandhi rightfully asserted that she took no annual salary. In the video, Priyanka Gandhi Vadra\u2019s son is seen pulling down kidnap king-pin Karim",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 4,
+   "eligible": 4,
+   "segments": 6,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 66.66666666666667
+  },
+  "tokens": {
+   "original": 201,
+   "final": 212,
+   "length_change": 11,
+   "pct_not_preserved": 17.41293532338308,
+   "pct_new": 21.698113207547166
+  },
+  "words": {
+   "original": 106,
+   "final": 114,
+   "length_change": 8,
+   "pct_not_preserved": 25.47169811320755,
+   "pct_new": 30.701754385964907
+  },
+  "characters": {
+   "original": 635,
+   "final": 684,
+   "length_change": 49,
+   "pct_not_preserved": 14.803149606299215,
+   "pct_new": 20.906432748538005
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 161,
+   "green_after": 128,
+   "pairs_before": 200,
+   "pairs_after": 211,
+   "pairs_changed_before": 59,
+   "pairs_changed_after": 70,
+   "green_fraction_of_new_pairs": 0.2857142857142857,
+   "delta_achieved": 0.2142857142857143
+  }
+ }
+}

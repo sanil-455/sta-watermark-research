@@ -1,0 +1,35 @@
+{
+ "sample_id": "sta16_len200:41",
+ "nobox": {
+  "z_final": 7.857142857142857,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Tensions in Jisr al-Zarqa have been high, both on account of the upcoming election and the public visit by Ben-Gvir and members of his Otzma Yehudit (Jewish Identity) political party to the town, during which Ben-Gvir shouted the slogan \"Death to the Arabs\", according to local residents.",
+    "rewrite": "Tensions in Jisr al-Zarqa have remained high due to the upcoming election and the public visit by Ben-Gvir and members of his Otzma Yehudit (Jewish Identity) political party, during which Ben-Gvir shouted the slogan \"Death to the Arabs\", as reported by local residents."
+   },
+   "1": {
+    "original": "Palestinians fear their indigenous culture could be overwritten by Jewish texts, beliefs and values, leading to further discrimination against Arabs, particularly in matters of education and the judiciary.",
+    "rewrite": "Palestinians fear their indigenous culture might be supplanted by Jewish texts, beliefs, and values, potentially resulting in increased discrimination against Arabs, especially in education and the judiciary."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 50,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "declaring Israel a Jewish state. Palestinians fear their indigenous culture might be supplanted by Jewish texts, beliefs, and values, potentially resulting in increased discrimination against Arabs, especially in education and the judiciary.\nTensions in Jisr al-Zarqa have remained high due to the upcoming election and the public visit by Ben-Gvir and members of his Otzma Yehudit (Jewish Identity) political party, during which Ben-Gvir shouted the slogan \"Death to the Arabs\", as reported by local residents.\n\"They are not losing any votes. The right is gaining votes. It would behoove them not to spit hatred right in everybody three days before the elections,\" Farah said.\n\"They don't care about what people may say, but there is something which is more troubling than just the election and the election results",
+  "z0": 9.616652224137045,
+  "seconds": 132.0
+ }
+}

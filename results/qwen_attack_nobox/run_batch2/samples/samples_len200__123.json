@@ -1,0 +1,71 @@
+{
+ "sample_id": "samples_len200:123",
+ "nobox": {
+  "z_final": 4.1615391335657295,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "In addition to Partners, tribes of large hospital systems that include Partners - Massachusetts General Hospital, Brigham and Women's Hospital and Children's Hospital - are known in industry parlance as \"super-affiliated\" organizations.",
+    "rewrite": "Apart from Partners, large hospital system tribes encompassing Partners, such as Massachusetts General Hospital, Brigham and Women's Hospital, and Children's Hospital, are recognized in the industry as \"super-affiliated\" organizations."
+   },
+   "2": {
+    "original": "Colleen Hennessy, a lawyer representing Partners, said she was concerned that Partners' claims for its higher revenues were being publicly questioned.",
+    "rewrite": "Colleen Hennessy, a lawyer for Partners, expressed concern that the company's higher revenue claims were publicly Being questioned."
+   },
+   "1": {
+    "original": "Partners' revenues and payments could be used as a benchmark to calculate rates for community hospitals, she said.",
+    "rewrite": "Partners' revenues and payments might serve as a benchmark to calculate rates for community hospitals, she said."
+   },
+   "5": {
+    "original": "All three are part of Partners, the system that is connected to Harvard Medical School.",
+    "rewrite": "All three are part of the Partners system, which connects to Harvard Medical School."
+   },
+   "7": {
+    "original": "So are all but five of the 63 teaching hospitals in the state.",
+    "rewrite": "So, all but five of the 63 teaching hospitals in the state are."
+   },
+   "6": {
+    "original": "Brigham and Women's and Children's are charities.",
+    "rewrite": "Brigham and Women's and Children's are charitable organizations."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 19,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the Health Care Quality and Cost Council. Partners' revenues and payments might serve as a benchmark to calculate rates for community hospitals, she said.\nColleen Hennessy, a lawyer for Partners, expressed concern that the company's higher revenue claims were publicly Being questioned. \"That's not an easy thing to overcome because it's a belief,\" she said.\nApart from Partners, large hospital system tribes encompassing Partners, such as Massachusetts General Hospital, Brigham and Women's Hospital, and Children's Hospital, are recognized in the industry as \"super-affiliated\" organizations. All three are part of the Partners system, which connects to Harvard Medical School. Brigham and Women's and Children's are charitable organizations. So, all but five of the 63 teaching hospitals in the state are. The Globe's analysis of",
+  "z0": 4.1012193308819755,
+  "seconds": 179.7
+ }
+}

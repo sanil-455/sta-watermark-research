@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:36",
+ "nobox": {
+  "z_final": 5.084415605679974,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "It also supports most common operating systems, including Windows, Linux, and Mac OS X. The driver enables a single-user-to-several-user installation according to the needs of the workgroup in large networks.",
+    "rewrite": "It also supports popular operating systems such as Windows, Linux, and Mac OS X. The driver allows for a single-user-to-several-user installation based on the workgroup requirements in large networks."
+   },
+   "1": {
+    "original": "A key to the speed is the new driver that supports Xerox Streamnames for up to three scan engines at a time.",
+    "rewrite": "The key to the speed is the new driver supporting Xerox Streamnames for up to three scan engines simultaneously."
+   },
+   "4": {
+    "original": "The Xerox DocuMate 6710 is the next generation vehicle for an increasingly popular scanner.",
+    "rewrite": "The Xerox DocuMate 6710 is the next generation device for an increasingly popular scanner."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 19,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "tray flexibility make it an effective way to combine the benefits of digitalization with the need to quickly distribute large volumes of documents.\nThe key to the speed is the new driver supporting Xerox Streamnames for up to three scan engines simultaneously. It also supports popular operating systems such as Windows, Linux, and Mac OS X. The driver allows for a single-user-to-several-user installation based on the workgroup requirements in large networks.\n\u201cJust one Xerox Streamname allows additional features that enable businesses to work faster and smarter,\u201d said Antoanela Chiorean, senior marketing manager, Xerox Europe, Middle East, and Africa.\nThe Xerox DocuMate 6710 is the next generation device for an increasingly popular scanner. It\u2019s also joining a growing portfolio of intelligent devices and intelligent part sizes that capture information, and then enable",
+  "z0": 5.091168824543142,
+  "seconds": 116.3
+ }
+}

@@ -1,0 +1,215 @@
+{
+ "sample_id": "baseline_extra:22",
+ "source": "results/raw/baseline_extra.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.7740046838407494,
+ "needed_share": 0.5714504356445167,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 854,
+  "segments": 10,
+  "eligible": 6,
+  "skipped": 4,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 2,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 661,
+  "eligible_char_share": 0.7740046838407494
+ },
+ "attack": {
+  "z0": 4.666904755831213,
+  "z_final": 1.9236703496735605,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 33,
+  "seconds": 42.1,
+  "seconds_by_phase": {
+   "generate": 39.7,
+   "gates": 2.3,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 175,
+    "z_before": 4.666904755831213,
+    "z_after": 3.7142857142857144,
+    "accepted": true,
+    "survivors": 3,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 19,
+     "after_spelling": 16,
+     "after_content": 3,
+     "after_semantic": 3,
+     "fluency_skipped": false,
+     "after_fluency": 3,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 3,
+      "negation count changed": 13
+     }
+    },
+    "queries_total": 4,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 11.05
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 127,
+    "z_before": 3.7142857142857144,
+    "z_after": 3.111269837220809,
+    "accepted": true,
+    "survivors": 8,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 18,
+     "after_spelling": 16,
+     "after_content": 16,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 8,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 2,
+      "meaning too different": 7,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 12,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 10.82
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 121,
+    "z_before": 3.111269837220809,
+    "z_after": 2.636140849552657,
+    "accepted": true,
+    "survivors": 10,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 18,
+     "after_spelling": 17,
+     "after_content": 11,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 10,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 1,
+      "negation count changed": 6,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 22,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 9.86
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 107,
+    "z_before": 2.636140849552657,
+    "z_after": 1.9236703496735605,
+    "accepted": true,
+    "survivors": 11,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 12,
+     "after_spelling": 12,
+     "after_content": 12,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "duplicate": 8,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 33,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 8.01
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "Ultimately, her number overestimated how long she could go without a change in her antibiotics, leading to a severe infection in her lungs that nearly put her in the hospital.",
+    "rewrite": "In the end, her figure overestimated the duration she could endure without altering her antibiotics, resulting in a serious lung infection that almost hospitalized her."
+   },
+   "4": {
+    "original": "Treat the person, not the problem\u0097watch closely for the changes in the patient's life that might suggest a change in treatment.",
+    "rewrite": "Focus on the individual, not just the issue; closely observe any alterations in the patient\u2019s life that could indicate a need for changes in treatment."
+   },
+   "1": {
+    "original": "It had to do with the way she felt about the new boyfriend and the sense of freedom her responsibility-free job gave her.",
+    "rewrite": "It concerned how she felt regarding her new boyfriend and the sense of freedom from responsibilities her job lacked."
+   },
+   "7": {
+    "original": "What's so compelling is the systematic, predictable, and methodical way the doctor worked with the student.",
+    "rewrite": "The doctor's systematic, predictable, and methodical approach with the student is what makes it captivating."
+   }
+  },
+  "final_span": "her medicine. It concerned how she felt regarding her new boyfriend and the sense of freedom from responsibilities her job lacked. In the end, her figure overestimated the duration she could endure without altering her antibiotics, resulting in a serious lung infection that almost hospitalized her.\nSo what can you do with that information? Focus on the individual, not just the issue; closely observe any alterations in the patient\u2019s life that could indicate a need for changes in treatment. \"To my mind, that's an education. Using proactive treatment as education\u0097that is the great game revolution.\"\nThe doctor's systematic, predictable, and methodical approach with the student is what makes it captivating. It reminded me of a film I watched with a group of teachers the other night\u0097Ranking Films. The instructors Greg Whitwell and Brett Kilbourn are both social",
+  "break_point": {
+   "step": 3,
+   "sentences_rewritten": 4,
+   "queries": 33
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 4,
+   "eligible": 6,
+   "segments": 10,
+   "pct_of_eligible": 66.66666666666667,
+   "pct_of_segments": 40.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 198,
+   "length_change": -3,
+   "pct_not_preserved": 28.855721393034827,
+   "pct_new": 27.77777777777778
+  },
+  "words": {
+   "original": 143,
+   "final": 137,
+   "length_change": -6,
+   "pct_not_preserved": 35.66433566433567,
+   "pct_new": 32.846715328467155
+  },
+  "characters": {
+   "original": 854,
+   "final": 867,
+   "length_change": 13,
+   "pct_not_preserved": 22.599531615925063,
+   "pct_new": 23.760092272203003
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 133,
+   "green_after": 112,
+   "pairs_before": 200,
+   "pairs_after": 197,
+   "pairs_changed_before": 84,
+   "pairs_changed_after": 81,
+   "green_fraction_of_new_pairs": 0.3950617283950617,
+   "delta_achieved": 0.1049382716049383
+  }
+ }
+}

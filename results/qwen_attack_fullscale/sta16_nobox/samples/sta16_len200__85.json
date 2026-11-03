@@ -1,0 +1,53 @@
+{
+ "sample_id": "sta16_len200:85",
+ "nobox": {
+  "z_final": 4.480896268889631,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "It also has an approximate 4% exposure to in food tribes which according to Evercore ISI, could boost the returns of consumer products and packaged food companies in earnings season.",
+    "rewrite": "It also features an approximate 4% exposure to food tribes, as noted by Evercore ISI, which could enhance the earnings season returns for consumer products and packaged food companies."
+   },
+   "4": {
+    "original": "Markets expect nearly a 40% jump in earnings for the S&P 500 for the September quarter versus the same period in 2019.",
+    "rewrite": "Markets anticipate a nearly 40% rise in earnings for the S&P 500 in the September quarter compared to the same period in 2019."
+   },
+   "1": {
+    "original": "XLP is the largest consumer staples ETF in the markets and is holding over 70 consumer staples stocks by market cap.",
+    "rewrite": "XLP is the biggest consumer staples ETF in the markets, holding over 70 consumer staples stocks by market cap."
+   },
+   "3": {
+    "original": "Ross, like many investors, is looking for companies to benefit from higher consumer demand in earnings season.",
+    "rewrite": "Ross, similar to many investors, is seeking companies that will see benefits from increased consumer demand during earnings season."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 51,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "5-year base to the upside,\" Ross said Tuesday on CNBC's \"Trading Nation.\"\nXLP is the biggest consumer staples ETF in the markets, holding over 70 consumer staples stocks by market cap. It also features an approximate 4% exposure to food tribes, as noted by Evercore ISI, which could enhance the earnings season returns for consumer products and packaged food companies.\nRoss, similar to many investors, is seeking companies that will see benefits from increased consumer demand during earnings season. Markets anticipate a nearly 40% rise in earnings for the S&P 500 in the September quarter compared to the same period in 2019.\n\"We're now rolling into earnings season; this is sort of the humor test earnings season over the next couple of weeks,\" said Ross. \"Doing a blowout on the beat",
+  "z0": 7.7781745930520225,
+  "seconds": 155.4
+ }
+}

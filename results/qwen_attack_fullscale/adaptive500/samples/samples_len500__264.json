@@ -1,0 +1,212 @@
+{
+ "sample_id": "samples_len500:264",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.9439102564102564,
+ "needed_share": 0.6450685750000333,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 1872,
+  "segments": 13,
+  "eligible": 11,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1767,
+  "eligible_char_share": 0.9439102564102564
+ },
+ "attack": {
+  "z0": 5.63489130329947,
+  "z_final": 1.9540168418367887,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 178,
+  "seconds": 197.2,
+  "seconds_by_phase": {
+   "generate": 182.0,
+   "gates": 15.1,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 289,
+    "z_before": 5.63489130329947,
+    "z_after": 4.558066192305894,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 55,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 2,
+      "negation count changed": 5,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 49,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 62.1
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 201,
+    "z_before": 4.558066192305894,
+    "z_after": 3.9010392199880246,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "duplicate": 7,
+      "unknown word": 5
+     }
+    },
+    "queries_total": 97,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 48.57
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 196,
+    "z_before": 3.9010392199880246,
+    "z_after": 3.136606107298209,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 10,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 144,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.86
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 177,
+    "z_before": 3.136606107298209,
+    "z_after": 1.9540168418367887,
+    "accepted": true,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 34,
+     "after_content": 34,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "CJK text": 15,
+      "duplicate": 11
+     }
+    },
+    "queries_total": 178,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.51
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "Earlier this year, Ian Begley of ESPN reported that San Antonio offered first-round picks along with a veteran player as an offer for the Memphis guard, but the Grizzlies allegedly wanted to wait for the draft, as they may be able to find Conley\u2019s successor than to part ways with the guy.",
+    "rewrite": "This year, ESPN's Ian Begley reported that San Antonio proposed a first-round pick alongside a seasoned player to acquire the Memphis guard, yet the Grizzlies reportedly preferred to await the draft, believing they could secure Conley\u2019s replacement rather than trading him."
+   },
+   "4": {
+    "original": "According to an earlier report from Christian Clougher of News42, Mike Conley admitted last year that he\u2019s part of the Memphis Grizzlies\u2019 core and is one of the guys who guards the paint in Marc Gasol.",
+    "rewrite": "Christian Clougher of News42's previous report indicated that Mike Conley acknowledged last year his role as a key member of the Memphis Grizzlies, involved in defending the paint with Marc Gasol."
+   },
+   "6": {
+    "original": "He believes that Conley should have gotten a maximum contract offer by the Sacramento Kings, considering it\u2019s his eighth season in the league and he has fully acclimated to the Western Conference.",
+    "rewrite": "He thinks Conley deserves a max contract from the Sacramento Kings given his eight years of experience and integration into the Western Conference."
+   },
+   "2": {
+    "original": "Mike Conley will be a free agent after this season and it remains to be seen if the Spurs will be able to convince the Memphis Grizzlies to trade away their veteran point guard.",
+    "rewrite": "If Mike Conley becomes a free agent at the end of this season, it is uncertain whether the Spurs can persuade the Memphis Grizzlies to trade him."
+   }
+  },
+  "final_span": "already \u201cset themselves up for a major rebuild.\u201d He reported that the team is listening to offers for Marc Gasol, Mike Conley, and their kids this season and could even deal off veteran Jaren Jackson Jr.\nIf Mike Conley becomes a free agent at the end of this season, it is uncertain whether the Spurs can persuade the Memphis Grizzlies to trade him. This year, ESPN's Ian Begley reported that San Antonio proposed a first-round pick alongside a seasoned player to acquire the Memphis guard, yet the Grizzlies reportedly preferred to await the draft, believing they could secure Conley\u2019s replacement rather than trading him.\nChristian Clougher of News42's previous report indicated that Mike Conley acknowledged last year his role as a key member of the Memphis Grizzlies, involved in defending the paint with Marc Gasol.\nIn his recent story for The Ringer three weeks ago, Marcus Thompson II observed that Mike Conley deserves more respect. He thinks Conley deserves a max contract from the Sacramento Kings given his eight years of experience and integration into the Western Conference.\nIn his first 7 seasons with the Memphis Grizzlies, Mike Conley averaged 15.6 points, 5.3 rebounds, and 6.6 assists per game. In his recent season with the team, he\u2019s averaging 21.1 points, 4.3 rebounds, and 6.4 assists per game.\nIn the Eastern Conference alone, there are notable point guards who are having impressive campaigns. With Kyrie Irving traded away to the Boston Celtics, the Cleveland Cavaliers landed Jamal Murray or is now giving the starting duties to Fred VanVleet and Kyle Lowry. In the Milwaukee Bucks, Malcolm Brogdon is the full-time starter, while, in the Toronto Raptors, Kyle Lowry was replaced by Fred VanVleet. In the Filmona 76ers, Ben Simmons is the team",
+  "break_point": {
+   "step": 3,
+   "sentences_rewritten": 4,
+   "queries": 178
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 4,
+   "eligible": 11,
+   "segments": 13,
+   "pct_of_eligible": 36.36363636363637,
+   "pct_of_segments": 30.76923076923077
+  },
+  "tokens": {
+   "original": 501,
+   "final": 463,
+   "length_change": -38,
+   "pct_not_preserved": 22.754491017964074,
+   "pct_new": 16.41468682505399
+  },
+  "words": {
+   "original": 323,
+   "final": 291,
+   "length_change": -32,
+   "pct_not_preserved": 29.10216718266254,
+   "pct_new": 21.305841924398628
+  },
+  "characters": {
+   "original": 1872,
+   "final": 1770,
+   "length_change": -102,
+   "pct_not_preserved": 18.322649572649574,
+   "pct_new": 13.615819209039548
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 313,
+   "green_after": 252,
+   "pairs_before": 500,
+   "pairs_after": 462,
+   "pairs_changed_before": 148,
+   "pairs_changed_after": 110,
+   "green_fraction_of_new_pairs": 0.41818181818181815,
+   "delta_achieved": 0.08181818181818185
+  }
+ }
+}

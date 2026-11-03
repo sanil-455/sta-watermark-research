@@ -1,0 +1,258 @@
+{
+ "sample_id": "sta16_len200:150",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.6130718954248366,
+ "needed_share": 0.7474618638619472,
+ "delta_needed": 0.0613781049876953,
+ "segmentation": {
+  "chars": 765,
+  "segments": 4,
+  "eligible": 2,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 469,
+  "eligible_char_share": 0.6130718954248366
+ },
+ "attack": {
+  "z0": 7.919595949289332,
+  "z_final": 3.0329861481919727,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 289,
+  "seconds": 395.7,
+  "seconds_by_phase": {
+   "generate": 364.7,
+   "gates": 30.9,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 283,
+    "z_before": 7.919595949289332,
+    "z_after": 5.969620057957092,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 43,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "CJK text": 2,
+      "glued punctuation": 3,
+      "unknown word": 12
+     }
+    },
+    "queries_total": 44,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 75.07
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 186,
+    "z_before": 5.969620057957092,
+    "z_after": 3.3084657994221347,
+    "accepted": true,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "CJK text": 3,
+      "negation count changed": 2,
+      "numbers changed": 1
+     }
+    },
+    "queries_total": 98,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.06
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 283,
+    "z_before": 3.3084657994221347,
+    "z_after": 3.095207728219387,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 43,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 11,
+      "glued punctuation": 4,
+      "negation count changed": 1
+     }
+    },
+    "queries_total": 140,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 74.68
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 186,
+    "z_before": 3.095207728219387,
+    "z_after": 3.0329861481919727,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 54,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 2,
+      "several lines": 1,
+      "numbers changed": 3,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 193,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 47.96
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 283,
+    "z_before": 3.0329861481919727,
+    "z_after": 3.1444714237466616,
+    "accepted": false,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 14,
+      "glued punctuation": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 234,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 74.6
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 186,
+    "z_before": 3.0329861481919727,
+    "z_after": 3.05085107923876,
+    "accepted": false,
+    "survivors": 56,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 56,
+     "rejected": {
+      "CJK text": 1,
+      "negation count changed": 2,
+      "numbers changed": 1
+     }
+    },
+    "queries_total": 289,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.32
+   }
+  ],
+  "rewrites": {
+   "1": {
+    "original": "Valverde, whose squad have racked up 67 goals in their first 22 games, insists that Messi is first and foremost a club player, yet faces a bindover exactly how he wants his side to play against Leganes with Thomas Lemar, Philippe Coutinho, Arturo Vidal and Luis Suarez all ruled out.",
+    "rewrite": "Valverde, who boasts a team that has scored 67 goals in the first 22 games, maintains that Messi prioritizes the club above all else, but is equally faced with a challenge deciding the optimal strategy for the match against Leganes, given that Thomas Lemar, Philippe Coutinho, Arturo Vidal, and Luis Suarez are all unavailable."
+   },
+   "2": {
+    "original": "There is still the hope that Messi will be fit in time to play in last-16 champions Old Trafford Liverpool, but he has told his team-mates it would be right if he did not play at United.",
+    "rewrite": "Messi hopes to be fit for the last-16 match at Old Trafford against Liverpool, but he has mentioned to his teammates that it might be better if he doesn't play there."
+   }
+  },
+  "final_span": "the coat-tails of bitter arch-rivals Real Madrid, but now sit two points behind the league leaders having suffered three consecutive draws, although they will be buoyed by a 8-2 thrashing of Sevilla on Wednesday night.\nValverde, who boasts a team that has scored 67 goals in the first 22 games, maintains that Messi prioritizes the club above all else, but is equally faced with a challenge deciding the optimal strategy for the match against Leganes, given that Thomas Lemar, Philippe Coutinho, Arturo Vidal, and Luis Suarez are all unavailable.\nMessi hopes to be fit for the last-16 match at Old Trafford against Liverpool, but he has mentioned to his teammates that it might be better if he doesn't play there.\nSergio Busquets is the only doubt for Barcelona with a back complaint which",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 2,
+   "segments": 4,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 50.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 202,
+   "length_change": 1,
+   "pct_not_preserved": 27.86069651741293,
+   "pct_new": 28.21782178217822
+  },
+  "words": {
+   "original": 135,
+   "final": 133,
+   "length_change": -2,
+   "pct_not_preserved": 37.03703703703704,
+   "pct_new": 36.09022556390977
+  },
+  "characters": {
+   "original": 765,
+   "final": 789,
+   "length_change": 24,
+   "pct_not_preserved": 20.7843137254902,
+   "pct_new": 23.193916349809886
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 156,
+   "green_after": 122,
+   "pairs_before": 200,
+   "pairs_after": 201,
+   "pairs_changed_before": 78,
+   "pairs_changed_after": 79,
+   "green_fraction_of_new_pairs": 0.3924050632911392,
+   "delta_achieved": 0.10759493670886078
+  }
+ }
+}

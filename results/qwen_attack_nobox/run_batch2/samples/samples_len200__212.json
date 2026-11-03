@@ -1,0 +1,26 @@
+{
+ "sample_id": "samples_len200:212",
+ "nobox": {
+  "z_final": 2.82842712474619,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Other new regulations requiring electronic data exchange were created by the International Convention for the Safe Container Containers 2002 (CSC 2002), and are driven by the International Safe Trans-port of Hazardous Materials (IMO) Convention.",
+    "rewrite": "New regulations necessitating electronic data exchange were established by the International Convention for the Safe Container Containers 2002 (CSC 2002), and are guided by the International Safe Transport of Hazardous Materials (IMO) Convention."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 40,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "communications, said Tom Schwenne, senior vice president of development for OSS Online Corp., a Los Angeles-based company that provides customs brokerage and compliance services.\n\u201cThat manifest regulation is what has pushed change in the past couple of years, because before that it was at least a bit more tolerable,\u201d Schwenne said.\nNew regulations necessitating electronic data exchange were established by the International Convention for the Safe Container Containers 2002 (CSC 2002), and are guided by the International Safe Transport of Hazardous Materials (IMO) Convention.\nThese have been driven by events that have raised global concerns about failures in communications and systemintolerance, including 2005 terrorist attacks in Spain, where containers loaded with explosives were destroyed, and a 2003 chemical spill tragedy in North Carolina, where river poll",
+  "z0": 3.676955262170047,
+  "seconds": 64.5
+ }
+}

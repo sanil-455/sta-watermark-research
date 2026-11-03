@@ -1,0 +1,305 @@
+{
+ "sample_id": "samples_len500:286",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.9153329891584925,
+ "needed_share": 0.6662585108209269,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 1937,
+  "segments": 13,
+  "eligible": 11,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1773,
+  "eligible_char_share": 0.9153329891584925
+ },
+ "attack": {
+  "z0": 5.992662179699436,
+  "z_final": 1.8973665961010278,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 234,
+  "seconds": 343.8,
+  "seconds_by_phase": {
+   "generate": 323.6,
+   "gates": 20.0,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 259,
+    "z_before": 5.992662179699436,
+    "z_after": 5.31985084453785,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 52,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 5,
+      "negation count changed": 10,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 42,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 48.51
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 240,
+    "z_before": 5.31985084453785,
+    "z_after": 4.368660286377136,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 2,
+      "unknown word": 6
+     }
+    },
+    "queries_total": 92,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 62.29
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 193,
+    "z_before": 4.368660286377136,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 0,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 59
+     }
+    },
+    "queries_total": 92,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 50.77
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 175,
+    "z_before": 4.368660286377136,
+    "z_after": 3.329417402927272,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 55,
+     "after_content": 54,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 2,
+      "several lines": 1,
+      "unknown word": 2,
+      "negation count changed": 1,
+      "meaning too different": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 143,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 45.91
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 170,
+    "z_before": 3.329417402927272,
+    "z_after": 2.8912252892968042,
+    "accepted": true,
+    "survivors": 13,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 13,
+     "after_semantic": 13,
+     "fluency_skipped": false,
+     "after_fluency": 13,
+     "rejected": {
+      "duplicate": 3,
+      "negation count changed": 44
+     }
+    },
+    "queries_total": 156,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.42
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 166,
+    "z_before": 2.8912252892968042,
+    "z_after": 2.429574861595577,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 54,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "duplicate": 4,
+      "CJK text": 2,
+      "negation count changed": 3,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 205,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.9
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 155,
+    "z_before": 2.429574861595577,
+    "z_after": 1.8973665961010278,
+    "accepted": true,
+    "survivors": 29,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 29,
+     "after_content": 29,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 29,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 28,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 234,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 48.85
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "Note that it's not just an official WannaCrypt headache that customers face when moving to more secure kit, but getting used to having to compile their own sendmail / sendmail daemons rather than simply flipping a switch and pointing something at the service.",
+    "rewrite": "Customers face not only official WannaCrypt headaches during the transition to more secure systems, but also the challenge of compiling their own sendmail/sendmail daemons instead of simply enabling a service and directing traffic towards it."
+   },
+   "3": {
+    "original": "Other hosts quickly pointed to US-CERT's bulletin on the Registered Exploit (RE) in remote memory corruption (CVE-2017-0143) that Microsoft patched on March 14 to protect against the type of attack affecting thousands of machines last week.",
+    "rewrite": "Other hosts swiftly directed attention to US-CERT's bulletin about the Registered Exploit (RE) in remote memory corruption (CVE-2017-0143), which Microsoft addressed on March 14 to guard against the sort of attack that impacted many machines last week."
+   },
+   "8": {
+    "original": "The shift to Windows Server 2016, Server 2012 and so on has reminded many that there is more to running wriggly, interconnected software than a simple official support policy.",
+    "rewrite": "The move to Windows Server 2016, Server 2012 and other versions has reignited awareness of the complexities involved in maintaining tangled, interconnected software beyond just official support terms."
+   },
+   "4": {
+    "original": "Fasthosts is not alone in its window of vulnerability \u2013 Microsoft has highlighted more than 6,000 servers worldwide as being exposed before the patch was issued in March.",
+    "rewrite": "Fasthosts is not the sole target of this vulnerability \u2013 Microsoft has identified over 6,000 servers globally as exposed prior to the March patch release."
+   },
+   "1": {
+    "original": "You should review the links/instructions below and monitor your backup service output to ensure your backups are working correctly and no additional action is needed.",
+    "rewrite": "You ought to examine the links/instructions provided and oversee your backup service output to confirm your backups are functioning correctly and that no further action is required."
+   },
+   "10": {
+    "original": "Demand is now said by the registering body of Straits Law to have dropped from a peak of $3,000 (\u00a32,200) down to $600 (\u00a3420) following the global outbreak.",
+    "rewrite": "The registration body of Straits Law now reports that demand has dropped from a peak of $3,000 (\u00a32,200) to $600 (\u00a3420) due to the global outbreak."
+   }
+  },
+  "final_span": "your backup service has now been restored, to its pre-Friday state, and is now operational. You ought to examine the links/instructions provided and oversee your backup service output to confirm your backups are functioning correctly and that no further action is required.\nCustomers face not only official WannaCrypt headaches during the transition to more secure systems, but also the challenge of compiling their own sendmail/sendmail daemons instead of simply enabling a service and directing traffic towards it.\nOther hosts swiftly directed attention to US-CERT's bulletin about the Registered Exploit (RE) in remote memory corruption (CVE-2017-0143), which Microsoft addressed on March 14 to guard against the sort of attack that impacted many machines last week.\nFasthosts is not the sole target of this vulnerability \u2013 Microsoft has identified over 6,000 servers globally as exposed prior to the March patch release.\nA few firms with legacy Server 2003 kit may also find that there is no easy switch \u2013 this may be an area for more PowerShell'ing as Windows Server 2008 is pitched in with the remaining systems. BT blames it on Microsoft's planned end-of-life cycle for Server 2003, which Microsoft in 2014 quietly started shortening.\nNext time you hear someone calling you a Luddite, ensure you extract the full four syllables from that one. The move to Windows Server 2016, Server 2012 and other versions has reignited awareness of the complexities involved in maintaining tangled, interconnected software beyond just official support terms.\nOf course, even experienced IT bods had their heads turned by the ransomware attack on Friday. The registration body of Straits Law now reports that demand has dropped from a peak of $3,000 (\u00a32,200) to $600 (\u00a3420) due to the global outbreak. And the price has dropped again, to $300 (\u00a3213), as we gingerly walk into another work week.\nMicrosoft does not intend to issue patches for newer machines",
+  "break_point": {
+   "step": 6,
+   "sentences_rewritten": 6,
+   "queries": 234
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 6,
+   "eligible": 11,
+   "segments": 13,
+   "pct_of_eligible": 54.54545454545455,
+   "pct_of_segments": 46.15384615384615
+  },
+  "tokens": {
+   "original": 501,
+   "final": 491,
+   "length_change": -10,
+   "pct_not_preserved": 20.75848303393214,
+   "pct_new": 19.14460285132383
+  },
+  "words": {
+   "original": 321,
+   "final": 310,
+   "length_change": -11,
+   "pct_not_preserved": 28.037383177570096,
+   "pct_new": 25.48387096774194
+  },
+  "characters": {
+   "original": 1937,
+   "final": 1947,
+   "length_change": 10,
+   "pct_not_preserved": 17.707795560144557,
+   "pct_new": 18.13045711350796
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 317,
+   "green_after": 266,
+   "pairs_before": 500,
+   "pairs_after": 490,
+   "pairs_changed_before": 146,
+   "pairs_changed_after": 136,
+   "green_fraction_of_new_pairs": 0.40441176470588236,
+   "delta_achieved": 0.09558823529411764
+  }
+ }
+}

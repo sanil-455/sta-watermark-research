@@ -1,0 +1,757 @@
+{
+ "sample_id": "sta16_len200:103",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.7615606936416185,
+ "needed_share": 0.8106478391991156,
+ "delta_needed": 0.024070105529902554,
+ "segmentation": {
+  "chars": 692,
+  "segments": 9,
+  "eligible": 6,
+  "skipped": 3,
+  "skip_reasons": {
+   "quotation": 1,
+   "too short": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 527,
+  "eligible_char_share": 0.7615606936416185
+ },
+ "attack": {
+  "z0": 10.562329954624204,
+  "z_final": 4.772829800675915,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 4,
+  "queries": 406,
+  "seconds": 613.8,
+  "seconds_by_phase": {
+   "generate": 578.1,
+   "gates": 35.6,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 215,
+    "z_before": 10.562329954624204,
+    "z_after": 8.541708512570859,
+    "accepted": true,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 41,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 18,
+      "negation count changed": 5
+     }
+    },
+    "queries_total": 37,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.3
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 85,
+    "z_before": 8.541708512570859,
+    "z_after": 7.509927747876482,
+    "accepted": true,
+    "survivors": 30,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 30,
+     "rejected": {
+      "duplicate": 30
+     }
+    },
+    "queries_total": 67,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.04
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 76,
+    "z_before": 7.509927747876482,
+    "z_after": 6.6138169204647435,
+    "accepted": true,
+    "survivors": 10,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 12,
+     "after_spelling": 12,
+     "after_content": 12,
+     "after_semantic": 12,
+     "fluency_skipped": false,
+     "after_fluency": 10,
+     "rejected": {
+      "duplicate": 48,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 77,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.69
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 56,
+    "z_before": 6.6138169204647435,
+    "z_after": 6.136506857969805,
+    "accepted": true,
+    "survivors": 16,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 19,
+     "after_spelling": 19,
+     "after_content": 19,
+     "after_semantic": 19,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "duplicate": 41,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 93,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.87
+   },
+   {
+    "pass": 1,
+    "segment": 0,
+    "chars": 53,
+    "z_before": 6.136506857969805,
+    "z_after": 5.544713010114412,
+    "accepted": true,
+    "survivors": 12,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 18,
+     "after_spelling": 18,
+     "after_content": 12,
+     "after_semantic": 12,
+     "fluency_skipped": false,
+     "after_fluency": 12,
+     "rejected": {
+      "duplicate": 40,
+      "CJK text": 2,
+      "numbers changed": 6
+     }
+    },
+    "queries_total": 105,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.24
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 42,
+    "z_before": 5.544713010114412,
+    "z_after": 4.819169040810089,
+    "accepted": true,
+    "survivors": 13,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 19,
+     "fluency_skipped": false,
+     "after_fluency": 13,
+     "rejected": {
+      "duplicate": 16,
+      "unknown word": 2,
+      "meaning too different": 23,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 118,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.37
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 215,
+    "z_before": 4.819169040810089,
+    "z_after": 5.321064319306437,
+    "accepted": false,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 30,
+     "after_content": 27,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 1,
+      "unknown word": 28,
+      "negation count changed": 3
+     }
+    },
+    "queries_total": 145,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.18
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 85,
+    "z_before": 4.819169040810089,
+    "z_after": 4.795831523312719,
+    "accepted": true,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 35,
+     "after_spelling": 35,
+     "after_content": 35,
+     "after_semantic": 35,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "duplicate": 25,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 178,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.98
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 76,
+    "z_before": 4.795831523312719,
+    "z_after": 4.795831523312719,
+    "accepted": false,
+    "survivors": 12,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 15,
+     "after_spelling": 15,
+     "after_content": 14,
+     "after_semantic": 14,
+     "fluency_skipped": false,
+     "after_fluency": 12,
+     "rejected": {
+      "duplicate": 45,
+      "numbers changed": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 190,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.95
+   },
+   {
+    "pass": 2,
+    "segment": 7,
+    "chars": 56,
+    "z_before": 4.795831523312719,
+    "z_after": 4.877131100041324,
+    "accepted": false,
+    "survivors": 13,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 14,
+     "after_spelling": 14,
+     "after_content": 14,
+     "after_semantic": 14,
+     "fluency_skipped": false,
+     "after_fluency": 13,
+     "rejected": {
+      "duplicate": 46,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 203,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.87
+   },
+   {
+    "pass": 2,
+    "segment": 0,
+    "chars": 53,
+    "z_before": 4.795831523312719,
+    "z_after": 4.934841132684102,
+    "accepted": false,
+    "survivors": 15,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 21,
+     "after_spelling": 20,
+     "after_content": 15,
+     "after_semantic": 15,
+     "fluency_skipped": false,
+     "after_fluency": 15,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 38,
+      "unknown word": 1,
+      "numbers changed": 5
+     }
+    },
+    "queries_total": 218,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.43
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 42,
+    "z_before": 4.795831523312719,
+    "z_after": 4.795831523312719,
+    "accepted": false,
+    "survivors": 12,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 43,
+     "after_content": 42,
+     "after_semantic": 18,
+     "fluency_skipped": false,
+     "after_fluency": 12,
+     "rejected": {
+      "duplicate": 14,
+      "CJK text": 1,
+      "unknown word": 2,
+      "numbers changed": 1,
+      "meaning too different": 24,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 230,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.5
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 215,
+    "z_before": 4.795831523312719,
+    "z_after": 4.958855099964005,
+    "accepted": false,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 36,
+     "after_content": 34,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "unknown word": 24,
+      "negation count changed": 2
+     }
+    },
+    "queries_total": 264,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.3
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 85,
+    "z_before": 4.795831523312719,
+    "z_after": 4.819169040810089,
+    "accepted": false,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 27,
+     "after_content": 27,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "duplicate": 33
+     }
+    },
+    "queries_total": 277,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.85
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 76,
+    "z_before": 4.795831523312719,
+    "z_after": 4.795831523312719,
+    "accepted": false,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 11,
+     "after_spelling": 11,
+     "after_content": 11,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "duplicate": 49
+     }
+    },
+    "queries_total": 283,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.69
+   },
+   {
+    "pass": 3,
+    "segment": 7,
+    "chars": 56,
+    "z_before": 4.795831523312719,
+    "z_after": 4.795831523312719,
+    "accepted": false,
+    "survivors": 16,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 18,
+     "after_spelling": 18,
+     "after_content": 18,
+     "after_semantic": 18,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "duplicate": 40,
+      "identical to original": 1,
+      "CJK text": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 291,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.88
+   },
+   {
+    "pass": 3,
+    "segment": 0,
+    "chars": 53,
+    "z_before": 4.795831523312719,
+    "z_after": 4.934841132684102,
+    "accepted": false,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 15,
+     "after_spelling": 14,
+     "after_content": 11,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "duplicate": 43,
+      "CJK text": 2,
+      "unknown word": 1,
+      "numbers changed": 3
+     }
+    },
+    "queries_total": 292,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.0
+   },
+   {
+    "pass": 3,
+    "segment": 5,
+    "chars": 42,
+    "z_before": 4.795831523312719,
+    "z_after": 4.772829800675915,
+    "accepted": true,
+    "survivors": 14,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 46,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 14,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 12,
+      "meaning too different": 24,
+      "perplexity too high": 8
+     }
+    },
+    "queries_total": 300,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.75
+   },
+   {
+    "pass": 4,
+    "segment": 3,
+    "chars": 215,
+    "z_before": 4.772829800675915,
+    "z_after": 5.073850742055486,
+    "accepted": false,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 37,
+     "after_content": 28,
+     "after_semantic": 28,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 21,
+      "negation count changed": 9
+     }
+    },
+    "queries_total": 328,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.02
+   },
+   {
+    "pass": 4,
+    "segment": 2,
+    "chars": 85,
+    "z_before": 4.772829800675915,
+    "z_after": 4.795831523312719,
+    "accepted": false,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 29,
+     "after_spelling": 29,
+     "after_content": 29,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "duplicate": 31,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 356,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.85
+   },
+   {
+    "pass": 4,
+    "segment": 1,
+    "chars": 76,
+    "z_before": 4.772829800675915,
+    "z_after": 4.9684720272649505,
+    "accepted": false,
+    "survivors": 16,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 17,
+     "after_spelling": 17,
+     "after_content": 17,
+     "after_semantic": 17,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "duplicate": 43,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 372,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.07
+   },
+   {
+    "pass": 4,
+    "segment": 7,
+    "chars": 56,
+    "z_before": 4.772829800675915,
+    "z_after": 4.772829800675915,
+    "accepted": false,
+    "survivors": 16,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 17,
+     "after_spelling": 17,
+     "after_content": 17,
+     "after_semantic": 17,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "duplicate": 40,
+      "identical to original": 1,
+      "CJK text": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 387,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.13
+   },
+   {
+    "pass": 4,
+    "segment": 0,
+    "chars": 53,
+    "z_before": 4.772829800675915,
+    "z_after": 4.91117269344913,
+    "accepted": false,
+    "survivors": 12,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 18,
+     "after_spelling": 17,
+     "after_content": 13,
+     "after_semantic": 13,
+     "fluency_skipped": false,
+     "after_fluency": 12,
+     "rejected": {
+      "duplicate": 38,
+      "CJK text": 4,
+      "unknown word": 1,
+      "numbers changed": 4,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 399,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.76
+   },
+   {
+    "pass": 4,
+    "segment": 5,
+    "chars": 42,
+    "z_before": 4.772829800675915,
+    "z_after": 4.83045891539648,
+    "accepted": false,
+    "survivors": 15,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 21,
+     "fluency_skipped": false,
+     "after_fluency": 15,
+     "rejected": {
+      "duplicate": 13,
+      "meaning too different": 26,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 406,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.37
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "Both were reportedly on the verge on completing moves - along with Dalian Yifang's Portuguese pair Ricardo Goulart and Rafael Marciano - after Thomas Lemar's late fail to join Atleti - after Monaco had agreed a fee.",
+    "rewrite": "Reports indicated that both were close to finalizing deals, alongside Dalian Yifang's Portuguese duo Ricardo Goulart and Rafael Marciano, following Thomas Lemar's last-minute failure to transfer to Atleti, after Monaco had already agreed on a price."
+   },
+   "2": {
+    "original": "Both Arsenal and United had made bids for him according to reports earlier this week.",
+    "rewrite": "Reports from earlier this week showed that both Arsenal and United had submitted bids for him."
+   },
+   "1": {
+    "original": "Gaitan, meanwhile, has signed a 5-year contract at China's Tianjin Quanjian.",
+    "rewrite": "Gaitan, in contrast, has signed a 5-year contract with Tianjin Quanjian in China."
+   },
+   "7": {
+    "original": "First, you need to go and fully learn the grammar rules.",
+    "rewrite": "Firstly, you need to thoroughly learn the grammar rules."
+   },
+   "0": {
+    "original": "Chinese League confirmed he has signed a 4-year deal.",
+    "rewrite": "The Chinese League has confirmed he will sign a 4-year deal."
+   },
+   "5": {
+    "original": "What should have three mean to you and is?",
+    "rewrite": "What does three signify to you and what is it for you?"
+   }
+  },
+  "final_span": "The Chinese League has confirmed he will sign a 4-year deal.\nGaitan, in contrast, has signed a 5-year contract with Tianjin Quanjian in China.\nReports from earlier this week showed that both Arsenal and United had submitted bids for him.\nReports indicated that both were close to finalizing deals, alongside Dalian Yifang's Portuguese duo Ricardo Goulart and Rafael Marciano, following Thomas Lemar's last-minute failure to transfer to Atleti, after Monaco had already agreed on a price.\nIte \u0432\u0456\u0434\u0431\u0443\u043b\u043e\u0441\u044f!\u201d \u0431\u043e\u0431\u0440\u0443\u043a - \u0447\u0442\u043e \u044d\u0442\u043e? \u0423\u043f\u0440\u0430\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043e\u043d \u043d\u0435\u0441\u0430\u043c\u043e\u0433\u043e \u0435\u0433\u043e \u0443\u0441\u0438\u043b\u0438\u0439 \u043e\u0431\u043b\u0435\u0433\u0447\u0438\u0442\u044c \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0441\u0438\u043d\u0434\u0440\u043e\u043c \u0432\u043d\u0443\u0442\u0440\u0438\u0441\u0442\u0430 corresponds and is translated.\nWhat does three signify to you and what is it for you? CREATIVITY! Firstly, you need to thoroughly learn the grammar rules.\nCopyright \u00a9",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 6,
+   "eligible": 6,
+   "segments": 9,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 66.66666666666667
+  },
+  "tokens": {
+   "original": 200,
+   "final": 210,
+   "length_change": 10,
+   "pct_not_preserved": 23.0,
+   "pct_new": 26.66666666666667
+  },
+  "words": {
+   "original": 114,
+   "final": 119,
+   "length_change": 5,
+   "pct_not_preserved": 38.59649122807017,
+   "pct_new": 41.17647058823529
+  },
+  "characters": {
+   "original": 692,
+   "final": 759,
+   "length_change": 67,
+   "pct_not_preserved": 18.786127167630063,
+   "pct_new": 25.95520421607378
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 174,
+   "green_after": 139,
+   "pairs_before": 199,
+   "pairs_after": 209,
+   "pairs_changed_before": 71,
+   "pairs_changed_after": 81,
+   "green_fraction_of_new_pairs": 0.345679012345679,
+   "delta_achieved": 0.154320987654321
+  }
+ }
+}

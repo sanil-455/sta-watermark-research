@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:110",
+ "nobox": {
+  "z_final": 2.3877961974649913,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "They raised more than $1,000 for the Northwest Immigrant Rights Project, which supports immigrants, documented and undocumented, and nonprofits that partner with immigrants.",
+    "rewrite": "More than $1,000 was raised for the Northwest Immigrant Rights Project, which aids both documented and undocumented immigrants and their partner nonprofits."
+   },
+   "2": {
+    "original": "More than 500 students turned out at the Student Center Pavilion at Olympic College last week to protest President-elect Donald Trump.",
+    "rewrite": "Last week, more than 500 students gathered at the Student Center Pavilion at Olympic College to protest President-elect Donald Trump."
+   },
+   "5": {
+    "original": "The fire that virtually destroyed a home in unincorporated Thurston County on Friday is part of an alarming statewide trend.",
+    "rewrite": "The fire that nearly destroyed a home in unincorporated Thurston County on Friday contributes to an alarming statewide trend."
+   },
+   "1": {
+    "original": "Before long, we may be looking at a Martin Luther King Jr. weekend with a scarcity of on-the-snow diversions.",
+    "rewrite": "Before long, a scarcity of on-the-snow diversions may define the Martin Luther King Jr. weekend."
+   },
+   "4": {
+    "original": "Students also have collected more than $1,000 for victims of the recent flooding in Louisiana.",
+    "rewrite": "Students have also collected over $1,000 for the victims of the recent flooding in Louisiana."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 23,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the area has no snow; it\u2019s got upwards of 5 feet in some places, but that snow is coming down on older surfaces, not the buried base. Before long, a scarcity of on-the-snow diversions may define the Martin Luther King Jr. weekend.\nLast week, more than 500 students gathered at the Student Center Pavilion at Olympic College to protest President-elect Donald Trump. More than $1,000 was raised for the Northwest Immigrant Rights Project, which aids both documented and undocumented immigrants and their partner nonprofits. Students have also collected over $1,000 for the victims of the recent flooding in Louisiana.\nThe fire that nearly destroyed a home in unincorporated Thurston County on Friday contributes to an alarming statewide trend. In the first half of ",
+  "z0": 4.384062043356595,
+  "seconds": 183.3
+ }
+}

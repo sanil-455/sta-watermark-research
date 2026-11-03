@@ -1,0 +1,277 @@
+{
+ "sample_id": "samples_len500:185",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8858506944444444,
+ "needed_share": 0.6711664738970897,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2304,
+  "segments": 15,
+  "eligible": 12,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "no final punctuation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 2041,
+  "eligible_char_share": 0.8858506944444444
+ },
+ "attack": {
+  "z0": 6.082104898799428,
+  "z_final": 1.9521843207154503,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 235,
+  "seconds": 300.3,
+  "seconds_by_phase": {
+   "generate": 279.5,
+   "gates": 20.6,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 331,
+    "z_before": 6.082104898799428,
+    "z_after": 4.979030474580448,
+    "accepted": true,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "CJK text": 2,
+      "glued punctuation": 1
+     }
+    },
+    "queries_total": 58,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 48.36
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 228,
+    "z_before": 4.979030474580448,
+    "z_after": 4.869760862535596,
+    "accepted": true,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 39,
+     "after_spelling": 35,
+     "after_content": 1,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "CJK text": 21,
+      "unknown word": 4,
+      "negation count changed": 34
+     }
+    },
+    "queries_total": 59,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.83
+   },
+   {
+    "pass": 1,
+    "segment": 13,
+    "chars": 228,
+    "z_before": 4.869760862535596,
+    "z_after": 4.4054421789508496,
+    "accepted": true,
+    "survivors": 12,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 52,
+     "after_content": 12,
+     "after_semantic": 12,
+     "fluency_skipped": false,
+     "after_fluency": 12,
+     "rejected": {
+      "CJK text": 5,
+      "unknown word": 3,
+      "quotation changed": 40
+     }
+    },
+    "queries_total": 71,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 68.01
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 210,
+    "z_before": 4.4054421789508496,
+    "z_after": 3.6717038281916135,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 1,
+      "unknown word": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 124,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.83
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 206,
+    "z_before": 3.6717038281916135,
+    "z_after": 2.687981160359314,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 3,
+      "unknown word": 1,
+      "negation count changed": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 177,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.34
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 198,
+    "z_before": 2.687981160359314,
+    "z_after": 1.9521843207154503,
+    "accepted": true,
+    "survivors": 58,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 59,
+     "fluency_skipped": false,
+     "after_fluency": 58,
+     "rejected": {
+      "CJK text": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 235,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 39.15
+   }
+  ],
+  "rewrites": {
+   "8": {
+    "original": "Multiple medical journal and conference publications have shown research on the use of products derived from this amniotic tissue, including published human clinical trial results of the Company's products, which have shown promising human safety and efficacy results of products being derived within the Company's therapy targets.",
+    "rewrite": "Several medical journals and conference publications have documented research on products derived from this amniotic tissue, including human clinical trial outcomes of the Company's products, demonstrating promising safety and efficacy results related to the Company's therapeutic aims."
+   },
+   "10": {
+    "original": "These forward-looking statements are not guarantees of future performance and involve risks, assumptions and uncertainties that affect occurrences and results including, but not limited, to those discussed in this press release.",
+    "rewrite": "These statements looking ahead are not assurances of future performance and carry risks, assumptions, and uncertainties impacting outcomes and results as mentioned in this press release, including but not limited to those detailed herein."
+   },
+   "13": {
+    "original": "Forward-looking statements can be identified by words such as \"anticipates,\" \"intends,\" \"plans,\" \"may,\" \"could,\" \"would,\" \"should,\" \"believes,\" \"expects,\" \"frustrated,\" \"estimates,\" \"projects\" or \"countenances\" or similar terms.",
+    "rewrite": "Forward-looking statements are recognizable by words like \"expects,\" \"intends,\" \"plans,\" \"may,\" \"could,\" \"would,\" \"should,\" \"believes,\" \"anticipates,\" \"believes,\" \"estimates,\" \"projects,\" \"frustrated,\" or \"countenances,\" along with similar terms."
+   },
+   "1": {
+    "original": "Creative Medical Technology Holdings, Inc. is an early-stage clinical development company focused on using stem cell and gene therapy technology to develop a pipeline of life saving and life enhancing products.",
+    "rewrite": "Creative Medical Technology Holdings, Inc. is an early-stage company dedicated to clinical development, concentrating on stem cell and gene therapy to create a pipeline of potentially life-saving and life-enhancing products."
+   },
+   "6": {
+    "original": "AmnioStem products are autologous and are manufactured from small quantities of amniotic fluid, the fluid that surrounds the baby during pregnancy and is normally safely and routinely discarded after birth.",
+    "rewrite": "AmnioStem products are autologous and are derived from minimal amounts of amniotic fluid, the bodily substance surrounding the baby during pregnancy which is typically safely disposed of along with the umbilical cord after birth."
+   },
+   "3": {
+    "original": "The company has filed patent protection on this technology, and is seeking to identify and in-license gene therapy strategies that, if approved, may be in-licensed for use as regenerative therapies.",
+    "rewrite": "The firm has secured patent protection for this technology and is now exploring and acquiring exclusive rights to gene therapy approaches that, upon approval, could be integrated for regenerative treatments."
+   }
+  },
+  "final_span": "auspices of this agreement to determine the mechanism of action of the cells and their exosomes toward glioma brain cancer.\"\nCreative Medical Technology Holdings, Inc. is an early-stage company dedicated to clinical development, concentrating on stem cell and gene therapy to create a pipeline of potentially life-saving and life-enhancing products. The Company has applied the use of these gene delivery technologies to degenerative diseases which are not responsive to small molecule or biologic drug therapies. The firm has secured patent protection for this technology and is now exploring and acquiring exclusive rights to gene therapy approaches that, upon approval, could be integrated for regenerative treatments. Creative Medical is headquartered in San Diego, Ca.\nAbout AmnioStem\nAmnioStem products are autologous and are derived from minimal amounts of amniotic fluid, the bodily substance surrounding the baby during pregnancy which is typically safely disposed of along with the umbilical cord after birth. The products are processed using a proprietary method of dehydration and freeze drying. Several medical journals and conference publications have documented research on products derived from this amniotic tissue, including human clinical trial outcomes of the Company's products, demonstrating promising safety and efficacy results related to the Company's therapeutic aims.\nSome statements made in this press release, are forward-looking statements. These statements looking ahead are not assurances of future performance and carry risks, assumptions, and uncertainties impacting outcomes and results as mentioned in this press release, including but not limited to those detailed herein. Actual results may differ materially from those in the forward-looking statements and publish bearings may differ materially from those currently anticipated or anticipated.\nCertain information contained in this press release constitutes forward-looking statements. Forward-looking statements are recognizable by words like \"expects,\" \"intends,\" \"plans,\" \"may,\" \"could,\" \"would,\" \"should,\" \"believes,\" \"anticipates,\" \"believes,\" \"estimates,\" \"projects,\" \"frustrated,\" or \"countenances,\" along with similar terms. Forward-looking statements are subject to significant known and unknown risks, uncertainties and other factors",
+  "break_point": {
+   "step": 5,
+   "sentences_rewritten": 6,
+   "queries": 235
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 6,
+   "eligible": 12,
+   "segments": 15,
+   "pct_of_eligible": 50.0,
+   "pct_of_segments": 40.0
+  },
+  "tokens": {
+   "original": 501,
+   "final": 509,
+   "length_change": 8,
+   "pct_not_preserved": 20.75848303393214,
+   "pct_new": 22.003929273084477
+  },
+  "words": {
+   "original": 320,
+   "final": 316,
+   "length_change": -4,
+   "pct_not_preserved": 25.624999999999996,
+   "pct_new": 24.68354430379747
+  },
+  "characters": {
+   "original": 2304,
+   "final": 2333,
+   "length_change": 29,
+   "pct_not_preserved": 15.494791666666663,
+   "pct_new": 16.54522074582083
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 318,
+   "green_after": 276,
+   "pairs_before": 500,
+   "pairs_after": 508,
+   "pairs_changed_before": 155,
+   "pairs_changed_after": 163,
+   "green_fraction_of_new_pairs": 0.37423312883435583,
+   "delta_achieved": 0.12576687116564417
+  }
+ }
+}

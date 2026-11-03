@@ -1,0 +1,249 @@
+{
+ "sample_id": "sta16_len200:106",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.9282608695652174,
+ "needed_share": 0.8071095662754038,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 920,
+  "segments": 6,
+  "eligible": 5,
+  "skipped": 1,
+  "skip_reasons": {
+   "trailing fragment": 1
+  },
+  "eligible_chars": 854,
+  "eligible_char_share": 0.9282608695652174
+ },
+ "attack": {
+  "z0": 10.368580553121394,
+  "z_final": 1.9236703496735605,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 198,
+  "seconds": 210.2,
+  "seconds_by_phase": {
+   "generate": 194.1,
+   "gates": 16.0,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 301,
+    "z_before": 10.368580553121394,
+    "z_after": 7.753948113071572,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 55,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 3,
+      "negation count changed": 12,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 43,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 52.03
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 222,
+    "z_before": 7.753948113071572,
+    "z_after": 5.25465498046547,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "CJK text": 1,
+      "several lines": 2,
+      "negation count changed": 10
+     }
+    },
+    "queries_total": 90,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.94
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 173,
+    "z_before": 5.25465498046547,
+    "z_after": 3.7527767497325675,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 3,
+      "unknown word": 3,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 137,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.6
+   },
+   {
+    "pass": 1,
+    "segment": 0,
+    "chars": 96,
+    "z_before": 3.7527767497325675,
+    "z_after": 2.636140849552657,
+    "accepted": true,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 41,
+     "after_spelling": 40,
+     "after_content": 39,
+     "after_semantic": 39,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "CJK text": 13,
+      "hit length limit": 2,
+      "duplicate": 4,
+      "unknown word": 1,
+      "negation count changed": 1,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 169,
+    "hit_limit": 2,
+    "oom_events": [],
+    "seconds_generate": 36.03
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 62,
+    "z_before": 2.636140849552657,
+    "z_after": 1.9236703496735605,
+    "accepted": true,
+    "survivors": 29,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 32,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 29,
+     "rejected": {
+      "duplicate": 26,
+      "CJK text": 2,
+      "unknown word": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 198,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.55
+   }
+  ],
+  "rewrites": {
+   "1": {
+    "original": "The fact that BMW, Mercedes, and Volkswagen did no official driving at all is notable, particularly in Mercedes\u2019 case, because they are probably the farthest along of the car companies in developing human-machine collaboration software, which is something of a precursor to a fully autonomous vehicle.",
+    "rewrite": "It's noteworthy that BMW, Mercedes, and Volkswagen engaged in no official testing, especially considering Mercedes, who might be the most advanced among the automakers in human-machine collaboration software, a technology that foreshadows fully autonomous vehicles."
+   },
+   "4": {
+    "original": "The same went for Honda, which made no entries for California driving but a total of 750 miles in other states and about 750 more research miles in California versus passenger miles it drove with passengers paying to ride.",
+    "rewrite": "The same applied to Honda, which recorded no driving hours in California but accumulated 750 miles in other states and approximately an additional 750 miles for research in California compared to passenger miles driven with paying passengers."
+   },
+   "3": {
+    "original": "BMW only reported the distance their researchers walked on city sidewalks and some parking lots in California for testing of the car\u2019s new software versions and the sensors.",
+    "rewrite": "BMW provided data on the walking distances covered by their researchers on California city sidewalks and some parking lots for testing the car\u2019s new software and sensors."
+   },
+   "0": {
+    "original": "These cars can be tested and demonstrated on roads closed to other traffic, approved by the DMV.",
+    "rewrite": "These vehicles can be tested and shown on designated roadways that are closed to other traffic, as approved by the DMV."
+   },
+   "2": {
+    "original": "Ditto for Ford, which named an entire division to work on HMC.",
+    "rewrite": "The same applies to Ford, which established an entire division dedicated to HMC."
+   }
+  },
+  "final_span": "\nThese vehicles can be tested and shown on designated roadways that are closed to other traffic, as approved by the DMV. It's noteworthy that BMW, Mercedes, and Volkswagen engaged in no official testing, especially considering Mercedes, who might be the most advanced among the automakers in human-machine collaboration software, a technology that foreshadows fully autonomous vehicles. The same applies to Ford, which established an entire division dedicated to HMC.\nBMW provided data on the walking distances covered by their researchers on California city sidewalks and some parking lots for testing the car\u2019s new software and sensors. The same applied to Honda, which recorded no driving hours in California but accumulated 750 miles in other states and approximately an additional 750 miles for research in California compared to passenger miles driven with paying passengers. BMW and Ford even reported only information about pedestrian",
+  "break_point": {
+   "step": 4,
+   "sentences_rewritten": 5,
+   "queries": 198
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 5,
+   "eligible": 5,
+   "segments": 6,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 83.33333333333333
+  },
+  "tokens": {
+   "original": 202,
+   "final": 198,
+   "length_change": -4,
+   "pct_not_preserved": 34.15841584158416,
+   "pct_new": 32.82828282828283
+  },
+  "words": {
+   "original": 151,
+   "final": 142,
+   "length_change": -9,
+   "pct_not_preserved": 44.37086092715232,
+   "pct_new": 40.845070422535215
+  },
+  "characters": {
+   "original": 920,
+   "final": 942,
+   "length_change": 22,
+   "pct_not_preserved": 28.260869565217394,
+   "pct_new": 29.93630573248408
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 174,
+   "green_after": 112,
+   "pairs_before": 201,
+   "pairs_after": 197,
+   "pairs_changed_before": 109,
+   "pairs_changed_after": 105,
+   "green_fraction_of_new_pairs": 0.3619047619047619,
+   "delta_achieved": 0.1380952380952381
+  }
+ }
+}

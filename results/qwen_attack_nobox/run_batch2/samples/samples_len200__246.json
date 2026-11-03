@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:246",
+ "nobox": {
+  "z_final": 4.384062043356595,
+  "status": "not broken",
+  "rewrites": {
+   "8": {
+    "original": "NIU had opportunities to put Toledo away with a score in the final seven minutes of the firsthalf, but failed to convert.",
+    "rewrite": "NIU had chances to put Toledo away with a score in the last seven minutes of the first half, but failed to convert."
+   },
+   "7": {
+    "original": "Toledo paid Childers back, as Lance Carlson intercepted a tipped passint to the right flat on NIU\u2019s first series.",
+    "rewrite": "Toledo paid Childers back as Lance Carlson intercepted a tipped pass to the right flat during NIU\u2019s initial series."
+   },
+   "6": {
+    "original": "Childers replaced starter Daniel Santacaterina after a defensive holding penalty pushed the Huskies back.",
+    "rewrite": "Childers replaced starter Daniel Santacaterina following a defensive holding penalty that moved the Huskies backward."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 8,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 22,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "on a fourth-and-2 from the Rockets\u2019 5.\n\"We ran it twice up the middle and got no movement so I knew there was a little spice and a little something-something in there,\" Harbison said. \"We just played with each other.\n\"I didn\u2019t want anything; I wanted us to be successful overall. And the play was pretty much Tre\u2019s, honestly.\n\"It made up for a lot of the mistakes I\u2019ve made on the season.\"\nChilders replaced starter Daniel Santacaterina following a defensive holding penalty that moved the Huskies backward. Toledo paid Childers back as Lance Carlson intercepted a tipped pass to the right flat during NIU\u2019s initial series.\nNIU had chances to put Toledo away with a score in the last seven minutes of the first half, but failed to convert.\nWith the Husk",
+  "z0": 5.374011537017761,
+  "seconds": 100.4
+ }
+}

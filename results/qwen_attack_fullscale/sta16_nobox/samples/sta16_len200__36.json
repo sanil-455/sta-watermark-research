@@ -1,0 +1,53 @@
+{
+ "sample_id": "sta16_len200:36",
+ "nobox": {
+  "z_final": 5.0079538725960475,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Xerox documate 6710 according to xerox's new statement is part of the ConnectKey debut for the Xerox Production Portfolio, which makes small-to-medium-sized business solutions easy to manage by letting customers access them remotely -intuitively via their desktop, laptop, or smart device.",
+    "rewrite": "The Xerox Documate 6710, as per Xerox's latest announcement, is now included in the ConnectKey launch for the Xerox Production Portfolio, enabling small-to-medium-sized business solutions to be easily managed and accessed remotely through a desktop, laptop, or smart device -intuitively."
+   },
+   "4": {
+    "original": "This common, consistent web-based interface allows access through a unique, familiar interface; saving learn-the-interface versus each individual device \u2013 time that can be more effectively applied to the business side of the operation.",
+    "rewrite": "This common, consistent web-based interface offers access via a unique, familiar design, eliminating the need to learn a new interface for each device; this saved time can instead be used for the business side of operations."
+   },
+   "1": {
+    "original": "It can integrate easily with busy production-level environments such as print-centers and central reprography systems run by print service providers.",
+    "rewrite": "It can easily integrate with busy production-level environments like print-centers and central reprography systems managed by print service providers."
+   },
+   "3": {
+    "original": "According to xerox documate 6710 may be accessed from anywhere at any time using Xerox Web Services.",
+    "rewrite": "The Xerox Documate 6710 can be accessed at any time from anywhere using Xerox Web Services."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 2,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 11,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "tray flexibility make it a versatile option for a wide variety of high-volume scanning challenges. It can easily integrate with busy production-level environments like print-centers and central reprography systems managed by print service providers.\nThe Xerox Documate 6710, as per Xerox's latest announcement, is now included in the ConnectKey launch for the Xerox Production Portfolio, enabling small-to-medium-sized business solutions to be easily managed and accessed remotely through a desktop, laptop, or smart device -intuitively.\nThe Xerox Documate 6710 can be accessed at any time from anywhere using Xerox Web Services. This common, consistent web-based interface offers access via a unique, familiar design, eliminating the need to learn a new interface for each device; this saved time can instead be used for the business side of operations. B",
+  "z0": 8.909545442950499,
+  "seconds": 174.9
+ }
+}

@@ -1,0 +1,175 @@
+{
+ "sample_id": "sta16_len200:63",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 195,
+ "eligible_share": 0.18601895734597157,
+ "needed_share": 0.8073897924997387,
+ "delta_needed": null,
+ "segmentation": {
+  "chars": 844,
+  "segments": 7,
+  "eligible": 1,
+  "skipped": 6,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 3,
+   "URL, hashtag or handle": 1,
+   "too short": 1
+  },
+  "eligible_chars": 157,
+  "eligible_char_share": 0.18601895734597157
+ },
+ "attack": {
+  "z0": 10.383665673571777,
+  "z_final": 8.285714285714286,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 122,
+  "seconds": 143.9,
+  "seconds_by_phase": {
+   "generate": 131.7,
+   "gates": 12.2,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 157,
+    "z_before": 10.383665673571777,
+    "z_after": 8.957889321404197,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "duplicate": 3,
+      "CJK text": 1,
+      "unknown word": 1,
+      "numbers changed": 8,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 46,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.13
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 157,
+    "z_before": 8.957889321404197,
+    "z_after": 8.285714285714286,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 56,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "duplicate": 3,
+      "unknown word": 1,
+      "numbers changed": 13
+     }
+    },
+    "queries_total": 83,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.25
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 157,
+    "z_before": 8.285714285714286,
+    "z_after": 8.763387148512887,
+    "accepted": false,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 57,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 1,
+      "unknown word": 1,
+      "numbers changed": 9
+     }
+    },
+    "queries_total": 122,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.29
+   }
+  ],
+  "rewrites": {
+   "4": {
+    "original": "Looking toward next season, Purdue signed four recruits for the 2019-20 season and it should add three more players this week, signing with the Boilermakers.",
+    "rewrite": "Purdue is set to sign three additional players for the upcoming season, joining four recruits already signed for the 2019-20 period, to strengthen their team roster."
+   }
+  },
+  "final_span": "trying nonconference schedule,\" and the team made great strides to close out the season in Big Ten play and came one win over Indiana away from making it to the semifinals of the Big Ten tournament.\n\"Making the WNIT decision was never an easy one for the team or the administration. However, we also feel that taking all of the physical and emotional points in to consideration, we collectively felt the most empathy and sensitivity toward the physical wellbeing of our team. We remain committed and excited for our future.\u201d said Kevin McDonald, senior associate athletics director, Purdue's senior associate athletics director for football.\nPurdue is set to sign three additional players for the upcoming season, joining four recruits already signed for the 2019-20 period, to strengthen their team roster.\nCopyright 2019 KSL.com. All rights reserved.",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 1,
+   "eligible": 1,
+   "segments": 7,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 14.285714285714286
+  },
+  "tokens": {
+   "original": 196,
+   "final": 197,
+   "length_change": 1,
+   "pct_not_preserved": 12.244897959183676,
+   "pct_new": 12.690355329949243
+  },
+  "words": {
+   "original": 135,
+   "final": 136,
+   "length_change": 1,
+   "pct_not_preserved": 14.074074074074073,
+   "pct_new": 14.70588235294118
+  },
+  "characters": {
+   "original": 844,
+   "final": 852,
+   "length_change": 8,
+   "pct_not_preserved": 10.781990521327012,
+   "pct_new": 11.61971830985915
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 170,
+   "green_after": 156,
+   "pairs_before": 195,
+   "pairs_after": 196,
+   "pairs_changed_before": 29,
+   "pairs_changed_after": 30,
+   "green_fraction_of_new_pairs": 0.4,
+   "delta_achieved": 0.09999999999999998
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:150",
+ "nobox": {
+  "z_final": 4.503024286273868,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Barca were knocked out of the Copa del Rey fail to the hands of Atletico Madrid after Jan Oblak had saved a first-half penalty from Messi and an added-time effort to secure a 2-1 aggregate victory.",
+    "rewrite": "Barca were knocked out of the Copa del Rey by Atletico Madrid after Jan Oblak saved a first-half penalty from Messi and another attempt in injury time to give Atletico a 2-1 aggregate win."
+   },
+   "2": {
+    "original": "Luis Suarez and Ousmane Dembele sit in second and third in LaLiga\u2019s highest debut scorers\u2019 table since the start of 2013-14 and both players are in good form to pick up an important victory.",
+    "rewrite": "Luis Suarez and Ousmane Dembele occupy second and third positions in LaLiga's top debut scorers' chart from the beginning of the 2013-14 season, and both players are in good form to earn an important win."
+   },
+   "1": {
+    "original": "Valverde confirmed that captain Messi will be out again, having lasted the full duration of the midweek loss before being substituted because of his injury.",
+    "rewrite": "Valverde confirmed that captain Messi will be out again, as he completed the full duration of the midweek loss before being substituted due to his injury."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 49,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the coat-tails of leaders Atletico Madrid after Thursday\u2019s 2-1 defeat to Los Rojiblancos in the second leg of the Copa del Rey quarterfinal tie.\nValverde confirmed that captain Messi will be out again, as he completed the full duration of the midweek loss before being substituted due to his injury.\nLuis Suarez and Ousmane Dembele occupy second and third positions in LaLiga's top debut scorers' chart from the beginning of the 2013-14 season, and both players are in good form to earn an important win.\nBarca were knocked out of the Copa del Rey by Atletico Madrid after Jan Oblak saved a first-half penalty from Messi and another attempt in injury time to give Atletico a 2-1 aggregate win.\nValverde will look upon the result for the opportunity to rest",
+  "z0": 5.091168824543142,
+  "seconds": 165.8
+ }
+}

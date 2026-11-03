@@ -1,0 +1,26 @@
+{
+ "sample_id": "sta16_len200:32",
+ "nobox": {
+  "z_final": 9.192388155425117,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Cattermole may be overjoyed by what has unfolded but he has insists that points on the board can not be squandered in similar fashion again.",
+    "rewrite": "Cattermole might be extremely pleased with how things have progressed, yet he insists that points on the board must not be wasted again in a similar manner."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 46,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the country already. He's a quality finisher, keeps going forward and giving a 100 per cent run-a-thon, he's just brilliant.\"\nCattermole might be extremely pleased with how things have progressed, yet he insists that points on the board must not be wasted again in a similar manner.\n\"We're going to have ups and downs but the aim is to be getting to the top end of the table and not away,\" said Cattermole.\n\"We have got to play at games and not just turn up, have three or four players out of position but come away with results.\n\"We have got to be more consistent but there have been signs of improvement. I think the manager has adapted well, he's not just some guy who said he was here.\n\"He's a rapport with the rest of the team. We know what to do but when it comes",
+  "z0": 10.040916292848975,
+  "seconds": 40.1
+ }
+}

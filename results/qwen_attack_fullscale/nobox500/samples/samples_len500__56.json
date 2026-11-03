@@ -1,0 +1,161 @@
+{
+ "sample_id": "samples_len500:56",
+ "nobox": {
+  "z_final": 4.083600062895999,
+  "status": "not broken",
+  "rewrites": {
+   "16": {
+    "original": "Citrus fruits are rich in vitamin C, which helps you curb your appetite effectively by increasing your metabolism and helps in promoting healthy fat loss, not to mention it can help the boost the body's natural response to fat burning.",
+    "rewrite": "Citrus fruits contain a high amount of vitamin C, which not only enhances your metabolic rate to effectively reduce appetite but also aids in encouraging healthy fat loss, among other benefits that support natural fat burning processes."
+   },
+   "3": {
+    "original": "Water is not only natural, safe and healthy but drinking a glass of water can curb your appetite because water fills you up sooner than any other food source in your diet.",
+    "rewrite": "Water is not just natural, safe, and healthy; drinking a glass of water can also reduce your appetite by filling you up faster than most food sources in your diet."
+   },
+   "4": {
+    "original": "Moreover, adequate consumption of water can also help you lose weight because liquids do not contain calories and water intake does not add to your daily calorie intake.",
+    "rewrite": "Furthermore, drinking enough water can aid in weight loss as it contains no calories and does not increase your daily caloric intake."
+   },
+   "8": {
+    "original": "Green vegetables such as kale, Swiss chard, spinach, and collards can keep you fuller for longer because they deliver high fiber, which adds bulk to your meal.",
+    "rewrite": "Green vegetables like kale, Swiss chard, spinach, and collards can keep you fuller for longer since they provide high fiber, which increases the volume of your meal."
+   },
+   "7": {
+    "original": "Instead of eating toaster waffles, swerve for bok choy since nutrient-rich leafy greens are well recognized for their metabolism-boosting properties.",
+    "rewrite": "Instead of eating toaster waffles, opt for bok choy as nutrient-rich leafy greens are well known for their metabolism-boosting properties."
+   },
+   "12": {
+    "original": "Whole grains boost the fullness factor by delivering B vitamins to your body, which keeps your digestive systems loads in a loaded, satisfied state.",
+    "rewrite": "Whole grains increase fullness by providing B vitamins to your body, maintaining a loaded, satisfied state of your digestive system."
+   },
+   "15": {
+    "original": "To fight food cravings and to keep your body feeling satisfied all day, try grabbing a healthy snack with some oranges, tangerine or grapefruit.",
+    "rewrite": "To fight food cravings and ensure your body feels satisfied throughout the day, consider a healthy snack with oranges, tangerines, or grapefruit."
+   },
+   "11": {
+    "original": "So don't avoid carbs entirely, just substitute your processed grains and pastas with whole grains in a whole-food, plant-based diet.",
+    "rewrite": "So don't completely avoid carbs, just replace your processed grains and pastas with whole grains in a whole-food, plant-based diet."
+   },
+   "9": {
+    "original": "You need to be careful about cutting carbs to lose weight because carbohydrates are your body's first source of energy.",
+    "rewrite": "You should be cautious when cutting carbs to lose weight since they are your body's primary source of energy."
+   },
+   "5": {
+    "original": "If you are craving for carbs, you must fail to rev up your metabolism.",
+    "rewrite": "If you crave carbs, you are likely to struggle with revving up your metabolism."
+   },
+   "1": {
+    "original": "Drinking a calorie-laden soda will not stop you from being hungry.",
+    "rewrite": "Consuming a calorie-rich soda will not satisfy your hunger."
+   },
+   "6": {
+    "original": "What you must focus on during such situations is green vegetables.",
+    "rewrite": "During such situations, what you should focus on are green vegetables."
+   },
+   "13": {
+    "original": "Green veggies are not the only thing to beat your hunger.",
+    "rewrite": "Green veggies aren't the sole option to satisfy your hunger."
+   },
+   "14": {
+    "original": "Also, add foods from the citrus family to your diet.",
+    "rewrite": "Furthermore, include foods from the citrus family in your diet."
+   },
+   "10": {
+    "original": "Instead, you can make sure you intake enough fibre.",
+    "rewrite": "Instead, you can ensure you intake sufficient fibre."
+   },
+   "2": {
+    "original": "Instead, you must drink water.",
+    "rewrite": "Instead, you must have water to drink."
+   }
+  },
+  "sentences_rewritten": 16,
+  "eligible": 16,
+  "per_sentence": [
+   {
+    "index": 16,
+    "survivors": 1,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 15,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 13,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 8,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 14,
+    "survivors": 10,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 17,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 10,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "carbohydrates (quinoa, brown rice, beans, lentils), combined with a healthy fat.\nConsuming a calorie-rich soda will not satisfy your hunger. Instead, you must have water to drink. Water is not just natural, safe, and healthy; drinking a glass of water can also reduce your appetite by filling you up faster than most food sources in your diet. Furthermore, drinking enough water can aid in weight loss as it contains no calories and does not increase your daily caloric intake.\nIf you crave carbs, you are likely to struggle with revving up your metabolism. During such situations, what you should focus on are green vegetables. Instead of eating toaster waffles, opt for bok choy as nutrient-rich leafy greens are well known for their metabolism-boosting properties. Green vegetables like kale, Swiss chard, spinach, and collards can keep you fuller for longer since they provide high fiber, which increases the volume of your meal.\nYou should be cautious when cutting carbs to lose weight since they are your body's primary source of energy. Instead, you can ensure you intake sufficient fibre. So don't completely avoid carbs, just replace your processed grains and pastas with whole grains in a whole-food, plant-based diet. Whole grains increase fullness by providing B vitamins to your body, maintaining a loaded, satisfied state of your digestive system.\nGreen veggies aren't the sole option to satisfy your hunger. Furthermore, include foods from the citrus family in your diet. To fight food cravings and ensure your body feels satisfied throughout the day, consider a healthy snack with oranges, tangerines, or grapefruit. Citrus fruits contain a high amount of vitamin C, which not only enhances your metabolic rate to effectively reduce appetite but also aids in encouraging healthy fat loss, among other benefits that support natural fat burning processes.\nYou might be throwing all you eat towards your weight-loss journey;",
+  "z0": 7.692073842599276,
+  "seconds": 480.6
+ }
+}

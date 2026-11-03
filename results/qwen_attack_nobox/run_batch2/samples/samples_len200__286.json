@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:286",
+ "nobox": {
+  "z_final": 1.6470642102906956,
+  "status": "broken",
+  "rewrites": {
+   "2": {
+    "original": "Note that it's not just an official WannaCrypt headache that customers face when moving to more secure kit, but getting used to having to compile their own sendmail / sendmail daemons rather than simply flipping a switch and pointing something at the service.",
+    "rewrite": "Note that customers face not only official WannaCrypt headaches during the transition to more secure systems, but also the challenge of compiling their own sendmail or sendmail daemons instead of just configuring a switch to point at the service."
+   },
+   "3": {
+    "original": "Other hosts quickly pointed to US-CERT's bulletin on the Registered Exploit (RE) in remote memory corruption (CVE-2017-0143) that Microsoft patched on March 14 to protect against the type of attack affecting thousands of machines last week.",
+    "rewrite": "Other hosts swiftly directed attention to US-CERT's bulletin regarding the Registered Exploit (RE) in remote memory corruption (CVE-2017-0143), which Microsoft patched on March 14 to guard against the kind of attack that affected numerous machines last week."
+   },
+   "1": {
+    "original": "You should review the links/instructions below and monitor your backup service output to ensure your backups are working correctly and no additional action is needed.",
+    "rewrite": "You should review the links/instructions provided and monitor your backup service output to confirm that your backups are functioning properly and no further action is required."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 56,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 51,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "your backup service has now been restored, to its pre-Friday state, and is now operational. You should review the links/instructions provided and monitor your backup service output to confirm that your backups are functioning properly and no further action is required.\nNote that customers face not only official WannaCrypt headaches during the transition to more secure systems, but also the challenge of compiling their own sendmail or sendmail daemons instead of just configuring a switch to point at the service.\nOther hosts swiftly directed attention to US-CERT's bulletin regarding the Registered Exploit (RE) in remote memory corruption (CVE-2017-0143), which Microsoft patched on March 14 to guard against the kind of attack that affected numerous machines last week.\nFasthosts is not alone in its window of vulnerability \u2013 Microsoft has highlighted",
+  "z0": 3.394112549695428,
+  "seconds": 174.7
+ }
+}

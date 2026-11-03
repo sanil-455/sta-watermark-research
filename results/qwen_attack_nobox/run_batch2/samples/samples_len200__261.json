@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:261",
+ "nobox": {
+  "z_final": 5.343528749093223,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Whether it's this kid and this kid and this one, we grow to care about these kids and their hang-ups, their grievances, their insecurities.",
+    "rewrite": "Whether it's these particular kids, we grow to care about them and their hang-ups, their grievances, their insecurities."
+   },
+   "4": {
+    "original": "But according to this film, there's lot of good to be done when you care about, when you listen to, another human being.",
+    "rewrite": "But according to this film, there's a lot of good to be done when you care about and listen to another human being."
+   },
+   "1": {
+    "original": "But Cretton's heart is clearly with his subjects, their stories.",
+    "rewrite": "But Cretton's heart is undoubtedly with his subjects and their stories."
+   },
+   "3": {
+    "original": "You don't have to adopt; you don't have to be a foster parent.",
+    "rewrite": "You don't need to adopt; you don't need to be a foster parent."
+   },
+   "7": {
+    "original": "Scary stuff: None, except emotionally.",
+    "rewrite": "Scary stuff: None, except on an emotional level."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 7,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 23,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "been a cautionary tale or an exploitation reel. But Cretton's heart is undoubtedly with his subjects and their stories. Whether it's these particular kids, we grow to care about them and their hang-ups, their grievances, their insecurities.\nYou don't need to adopt; you don't need to be a foster parent. But according to this film, there's a lot of good to be done when you care about and listen to another human being.\nRated: R (strong language, sexual content and brief nudity)\nCast: Brie Larson, John Gallagher, Thomas Guard, Kaitlyn Dever, Keith Stanfield\nScary stuff: None, except on an emotional level.\nIn theaters: Now (in NYC).\nTags: Blu-Ray Revision, Short Term 12 Movie, Short",
+  "z0": 5.79827560572969,
+  "seconds": 134.1
+ }
+}

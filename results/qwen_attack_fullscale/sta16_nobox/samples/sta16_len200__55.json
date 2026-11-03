@@ -1,0 +1,80 @@
+{
+ "sample_id": "sta16_len200:55",
+ "nobox": {
+  "z_final": 6.409943731482882,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Officers reported at 6:23 p.m. a woman became ill after receiving overdose medication offered by a male subject on Ohio Street.",
+    "rewrite": "Officers reported at 6:23 p.m. that a woman became ill after taking overdose medication offered by a male subject on Ohio Street."
+   },
+   "7": {
+    "original": "Officers searched the area for the suspect without success, receiving no information about where he could be hiding.",
+    "rewrite": "Officers combed the area for the suspect but had no success, obtaining no clues regarding his hiding spot."
+   },
+   "1": {
+    "original": "The owner relocated the vehicle to higher ground and moved it from the area.",
+    "rewrite": "The owner moved the vehicle to higher ground and relocated it from the area."
+   },
+   "2": {
+    "original": "It was CGFD/CGPD/CGFD who reported the vehicle in this area. 2:03 p.m.",
+    "rewrite": "It was CGFD/CGPD/CGFD who reported the vehicle in this area at 2:03 p.m."
+   },
+   "8": {
+    "original": "A domestic violence report was made on Sandusky Avenue.",
+    "rewrite": "An incident of domestic violence was reported on Sandusky Avenue."
+   },
+   "5": {
+    "original": "The woman became ill and the police were informed.",
+    "rewrite": "When the woman fell sick, she informed the police."
+   },
+   "6": {
+    "original": "The male subject later ran from the area.",
+    "rewrite": "The male subject then fled from the area."
+   }
+  },
+  "sentences_rewritten": 7,
+  "eligible": 7,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 6,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 12,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 8,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the Broadway extension. The owner moved the vehicle to higher ground and relocated it from the area. It was CGFD/CGPD/CGFD who reported the vehicle in this area at 2:03 p.m.\nOfficers reported at 6:23 p.m. that a woman became ill after taking overdose medication offered by a male subject on Ohio Street. Police spoke with a man on Ohio Street who reportedly offered a woman medication and told her to \u201cshoot it in your hand, I know it\u2019s clean.\u201d When the woman fell sick, she informed the police. The male subject then fled from the area. Officers combed the area for the suspect but had no success, obtaining no clues regarding his hiding spot.\nAn incident of domestic violence was reported on Sandusky Avenue. The male called three hours later to \u201clet us know he\u2019s okay,\u201d and advised he has no plans on returning to the woman who reported",
+  "z0": 9.475230867899736,
+  "seconds": 172.2
+ }
+}

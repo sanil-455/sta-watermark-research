@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:269",
+ "nobox": {
+  "z_final": 4.1615391335657295,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "On Saturday BP chief Bob Dudley said tribesmen had helped engineers identify flowing fluids on the sea floor, which are probably from natural wells tapped by the Deepwater Horizon crash probe.",
+    "rewrite": "On Saturday, BP chief Bob Dudley stated that tribesmen assisted engineers in identifying fluids flowing on the sea floor, which may come from natural wells connected to the Deepwater Horizon investigation."
+   },
+   "2": {
+    "original": "As BP's effort got under way, President Obama warned the approaching tropical storm was a threat and also said the operation was no sure-fire solution.",
+    "rewrite": "As BP's effort began, President Obama warned about the approaching tropical storm as a threat and also noted that the operation was not a guaranteed solution."
+   },
+   "0": {
+    "original": "Democratic Senator Mary Landrieu was asked whether she still believed the oil giant should be running the operation itself.",
+    "rewrite": "Democratic Senator Mary Landrieu was questioned about whether she still believed the oil giant should run the operation itself."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 37,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Democratic Senator Mary Landrieu was questioned about whether she still believed the oil giant should run the operation itself.\n\"We're in the second winds and this is the first time they've been successful,\" she said.\nAs BP's effort began, President Obama warned about the approaching tropical storm as a threat and also noted that the operation was not a guaranteed solution.\nOn Saturday, BP chief Bob Dudley stated that tribesmen assisted engineers in identifying fluids flowing on the sea floor, which may come from natural wells connected to the Deepwater Horizon investigation.\n\"We think two of the wells were found, named them Mack and Mama, and we have very good targeted mud applications right now,\" Dudley told a conference call.\n\"Our objective is to keep a gentle flow of oil up - it's losing pressure as it spreads on the surface - and is not causing new",
+  "z0": 5.65685424949238,
+  "seconds": 122.1
+ }
+}

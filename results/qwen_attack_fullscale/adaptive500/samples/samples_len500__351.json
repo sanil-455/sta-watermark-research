@@ -1,0 +1,24 @@
+{
+ "sample_id": "samples_len500:351",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8073394495412844,
+ "needed_share": 0.733801431250025,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 1962,
+  "segments": 14,
+  "eligible": 10,
+  "skipped": 4,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "no final punctuation": 1,
+   "does not start like a sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1584,
+  "eligible_char_share": 0.8073394495412844
+ },
+ "error": "Traceback (most recent call last):\n  File \"/home/btech/btech_project/STA/research/qwen_attack/run_attack.py\", line 144, in main\n    result = attack.attack_span(seg, para, gate, attack.SpanOracle(DetectorOracle(tok, \"score\"), snippets.get(s.sample_id, \"\")), cfg)\n             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/btech/btech_project/STA/research/qwen_attack/attack.py\", line 57, in attack_span\n    z0 = oracle.query(seg.span)\n         ^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/btech/btech_project/STA/research/qwen_attack/attack.py\", line 33, in query\n    raise AssertionError(\"the source prompt reached the detector\")\nAssertionError: the source prompt reached the detector\n"
+}

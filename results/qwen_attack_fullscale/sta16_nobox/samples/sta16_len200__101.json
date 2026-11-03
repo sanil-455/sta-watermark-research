@@ -1,0 +1,53 @@
+{
+ "sample_id": "sta16_len200:101",
+ "nobox": {
+  "z_final": 6.0509388846805106,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Bri Thomas scored at 49:49 to put the Cardinals on top for good, and the Wildcats scored again in the 82nd minute, giving them 21 shots to just eight for the Matadors, who went down to their first defeat (9-1) after starting the season 7-0.",
+    "rewrite": "Bri Thomas scored at 49:49 to secure the Cardinals' lead, and the Wildcats added another goal in the 82nd minute, resulting in the Cardinals having 21 shots compared to just eight for the Matadors, who suffered their first loss (9-1) after beginning the season 7-0."
+   },
+   "1": {
+    "original": "EL PASO \u2014 Belinda Lordo and Lino Arciniega scored goals, but the Lamar South Plains College defeated Western Texas College 3-2 in Western Junior College Athletic Conference action.",
+    "rewrite": "EL PASO \u2014 Western Texas College was defeated by Lamar South Plains College 3-2, as Belinda Lordo and Lino Arciniega scored goals during Western Junior College Athletic Conference play."
+   },
+   "0": {
+    "original": "Oklahoma Christian at 6 p.m. Monday at the Hegi Family Arena in Oklahama City.",
+    "rewrite": "Oklahoma Christian at 6 p.m. Monday at the Hegi Family Arena in Oklahoma City."
+   },
+   "2": {
+    "original": "Lordo scored at 66:40, and Arciniega at 82:49 to tie the game at 2-2.",
+    "rewrite": "Lordo scored at 66:40, and Arciniega at 82:49, tying the game at 2-2."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 5,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 40,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Oklahoma Christian at 6 p.m. Monday at the Hegi Family Arena in Oklahoma City.\nEL PASO \u2014 Western Texas College was defeated by Lamar South Plains College 3-2, as Belinda Lordo and Lino Arciniega scored goals during Western Junior College Athletic Conference play.\nLordo scored at 66:40, and Arciniega at 82:49, tying the game at 2-2.\nBri Thomas scored at 49:49 to secure the Cardinals' lead, and the Wildcats added another goal in the 82nd minute, resulting in the Cardinals having 21 shots compared to just eight for the Matadors, who suffered their first loss (9-1) after beginning the season 7-0.\nNo. 7 WEATHERFORD COLLEGE 58,\nUBS INDIAN B",
+  "z0": 7.7781745930520225,
+  "seconds": 215.0
+ }
+}

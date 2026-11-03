@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:316",
+ "nobox": {
+  "z_final": 3.554646820528249,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "They started as miniature versions, named after Lord Mansfield, Paymaster-General and Chancellor of the Duchy of Lancaster under Prince Albert who grew flowers and vegetables in the royal gardens to supply the royal table.",
+    "rewrite": "They initiated with miniature versions, naming them after Lord Mansfield, the Paymaster-General and Chancellor of the Duchy of Lancaster during Prince Albert's time, when he cultivated flowers and vegetables in the royal gardens to provide for the royal table."
+   },
+   "3": {
+    "original": "Norman Hartnell, the Queen's favourite designer who died in 1979, is credited with the original idea for the flower pots, which were placed outside the palace in 1949 in his honour.",
+    "rewrite": "Norman Hartnell, the Queen's preferred designer at the time of his death in 1979, is recognized for conceiving the idea for the flower pots, situated outside the palace in 1949 to honour him."
+   },
+   "2": {
+    "original": "Under orders from her creative director, Sir Angus Ogilvy, HRH's face was scanned to make a mock-up of what the image would look like on the immense terra-cotta giantic.",
+    "rewrite": "Following instructions from her creative director, Sir Angus Ogilvy, HRH's face was scanned to create a mock-up of how the image would appear on the enormous terra-cotta giantic."
+   },
+   "1": {
+    "original": "Watched over by a portrait of the Sovereign, it has also become a monument to the CGI power of the internet.",
+    "rewrite": "Surrounded by a portrait of the Sovereign, it has also turned into a monument to the internet's CGI power."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 56,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 49,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "place outside Buckingham Palace.\nSurrounded by a portrait of the Sovereign, it has also turned into a monument to the internet's CGI power.\nFollowing instructions from her creative director, Sir Angus Ogilvy, HRH's face was scanned to create a mock-up of how the image would appear on the enormous terra-cotta giantic.\nNorman Hartnell, the Queen's preferred designer at the time of his death in 1979, is recognized for conceiving the idea for the flower pots, situated outside the palace in 1949 to honour him.\nThey initiated with miniature versions, naming them after Lord Mansfield, the Paymaster-General and Chancellor of the Duchy of Lancaster during Prince Albert's time, when he cultivated flowers and vegetables in the royal gardens to provide for the royal table.\nNo one - or plant - has lasted as long as part of the royal",
+  "z0": 5.65685424949238,
+  "seconds": 207.3
+ }
+}

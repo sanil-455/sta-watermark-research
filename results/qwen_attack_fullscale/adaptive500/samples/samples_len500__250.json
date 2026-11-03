@@ -1,0 +1,521 @@
+{
+ "sample_id": "samples_len500:250",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.40765649249870667,
+ "needed_share": 0.6759321771739435,
+ "delta_needed": 0.0908167664845915,
+ "segmentation": {
+  "chars": 1933,
+  "segments": 12,
+  "eligible": 5,
+  "skipped": 7,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 4,
+   "URL, hashtag or handle": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 788,
+  "eligible_char_share": 0.40765649249870667
+ },
+ "attack": {
+  "z0": 6.171547617899419,
+  "z_final": 3.113926408605017,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 500,
+  "seconds": 574.3,
+  "seconds_by_phase": {
+   "generate": 534.3,
+   "gates": 39.7,
+   "detector": 0.3
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 243,
+    "z_before": 6.171547617899419,
+    "z_after": 4.869016027204134,
+    "accepted": true,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 44,
+     "after_content": 34,
+     "after_semantic": 4,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "CJK text": 16,
+      "numbers changed": 10,
+      "meaning too different": 30
+     }
+    },
+    "queries_total": 5,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.07
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 177,
+    "z_before": 4.869016027204134,
+    "z_after": 4.278584816554927,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 54,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "duplicate": 5,
+      "CJK text": 1,
+      "negation count changed": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 54,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.06
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 148,
+    "z_before": 4.278584816554927,
+    "z_after": 3.918282937266091,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "duplicate": 9,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 104,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.0
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 117,
+    "z_before": 3.918282937266091,
+    "z_after": 3.606678538669729,
+    "accepted": true,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 28,
+     "after_content": 28,
+     "after_semantic": 28,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "duplicate": 30,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 132,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.82
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 103,
+    "z_before": 3.606678538669729,
+    "z_after": 3.1558437213360127,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 5,
+      "several lines": 1,
+      "duplicate": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 183,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.83
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 243,
+    "z_before": 3.1558437213360127,
+    "z_after": 3.565220091011541,
+    "accepted": false,
+    "survivors": 3,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 43,
+     "after_spelling": 42,
+     "after_content": 37,
+     "after_semantic": 3,
+     "fluency_skipped": false,
+     "after_fluency": 3,
+     "rejected": {
+      "CJK text": 17,
+      "unknown word": 1,
+      "numbers changed": 5,
+      "meaning too different": 34
+     }
+    },
+    "queries_total": 186,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 48.45
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 177,
+    "z_before": 3.1558437213360127,
+    "z_after": 3.113926408605017,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 1,
+      "unknown word": 1,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 236,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.87
+   },
+   {
+    "pass": 2,
+    "segment": 10,
+    "chars": 148,
+    "z_before": 3.113926408605017,
+    "z_after": 3.1558437213360127,
+    "accepted": false,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 6,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 286,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.86
+   },
+   {
+    "pass": 2,
+    "segment": 7,
+    "chars": 117,
+    "z_before": 3.113926408605017,
+    "z_after": 3.1558437213360127,
+    "accepted": false,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 27,
+     "after_content": 27,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "duplicate": 33
+     }
+    },
+    "queries_total": 313,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.35
+   },
+   {
+    "pass": 2,
+    "segment": 6,
+    "chars": 103,
+    "z_before": 3.113926408605017,
+    "z_after": 3.336177648269499,
+    "accepted": false,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 2,
+      "unknown word": 1,
+      "meaning too different": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 364,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.84
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 243,
+    "z_before": 3.113926408605017,
+    "z_after": 3.8930370798282965,
+    "accepted": false,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 40,
+     "after_spelling": 39,
+     "after_content": 37,
+     "after_semantic": 3,
+     "fluency_skipped": false,
+     "after_fluency": 2,
+     "rejected": {
+      "CJK text": 20,
+      "unknown word": 1,
+      "numbers changed": 2,
+      "meaning too different": 34,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 366,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.13
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 177,
+    "z_before": 3.113926408605017,
+    "z_after": 3.2811059973211116,
+    "accepted": false,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 54,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 2,
+      "duplicate": 1,
+      "unknown word": 2,
+      "negation count changed": 5,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 402,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.58
+   },
+   {
+    "pass": 3,
+    "segment": 10,
+    "chars": 148,
+    "z_before": 3.113926408605017,
+    "z_after": 3.113926408605017,
+    "accepted": false,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "duplicate": 5,
+      "CJK text": 2,
+      "unknown word": 4,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 446,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.32
+   },
+   {
+    "pass": 3,
+    "segment": 7,
+    "chars": 117,
+    "z_before": 3.113926408605017,
+    "z_after": 3.217317106449051,
+    "accepted": false,
+    "survivors": 24,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 24,
+     "after_spelling": 24,
+     "after_content": 24,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 24,
+     "rejected": {
+      "duplicate": 36
+     }
+    },
+    "queries_total": 458,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.21
+   },
+   {
+    "pass": 3,
+    "segment": 6,
+    "chars": 103,
+    "z_before": 3.113926408605017,
+    "z_after": 3.34297924074943,
+    "accepted": false,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 4,
+      "several lines": 1,
+      "meaning too different": 3,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 500,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 31.85
+   }
+  ],
+  "rewrites": {
+   "4": {
+    "original": "Customer\u2019s tendency to click on classy links and to buy products such as gourmet meals at lifestyle sites right before three o\u2019clock in the morning raised the question whether consumers are ready to buy bulkier items from salespeople\u2019s tables.",
+    "rewrite": "Customers' inclination to engage with elegant links and purchase goods like gourmet meals from lifestyle websites late at night sparked doubts about their readiness to browse through bulkier items presented by salespeople."
+   },
+   "2": {
+    "original": "The ad network expects that in the longer run, as more publishers populate the platform, merchants can use its wholesale model to market their products even on Yahoo and Google.",
+    "rewrite": "Over time, as the ad network attracts more publishers, merchants anticipate being able to use its wholesale model for product marketing across Yahoo and Google as well."
+   },
+   "10": {
+    "original": "To that end, 72Lux has 20 internal resources to support the product knowledge and the technical know-how required of a properly made marketing site.",
+    "rewrite": "For this purpose, 72Lux has 20 internal resources dedicated to supporting the necessary product knowledge and technical expertise for a well-made marketing site."
+   },
+   "7": {
+    "original": "On the content-publisher side, IVillage, The Huffington Post, Aol, Popsugar, and Yahoo have signed up to participate.",
+    "rewrite": "On the side of content publishers, IVillage, The Huffington Post, Aol, Popsugar, and Yahoo have joined to participate."
+   },
+   "6": {
+    "original": "Over the last two years, in a conspicuous deal with IAC, 72Lux struck deals with 24 content publishers.",
+    "rewrite": "During the past two years, 72Lux, particularly through a notable deal with IAC, agreed terms with 24 content publishers."
+   }
+  },
+  "final_span": "the platform to other merchants, 72Lux aims to benefit from a sense of urgency: It wants CGMs to find a home there and help boost the network\u2019s traffic.\n\u201cWe want to be the HQ of commerce growth, where merchants and publishers can get their commerce off the ground,\u201d said Holger Stern, co-founder and COO of 72Lux.\nOver time, as the ad network attracts more publishers, merchants anticipate being able to use its wholesale model for product marketing across Yahoo and Google as well.\nLaunched in 2014 by Columbia University graduates Thomas Lisek and Arne Lisek, the platform got its start by attracting premium merchants, including Ralph Lauren, Christian Louboutin, or Betsey Johnson, to sell on Bergdorf\u2019s Goodman and Vogue.com. Customers' inclination to engage with elegant links and purchase goods like gourmet meals from lifestyle websites late at night sparked doubts about their readiness to browse through bulkier items presented by salespeople.\n\u201cThere are millions of articles online reviewing Harvard Business School graduates\u2019 newest diffuser or the weather outside, but how many users is BuzzFeed ready to sell Coach purses?\u201d said Arne Lisek.\nDuring the past two years, 72Lux, particularly through a notable deal with IAC, agreed terms with 24 content publishers. On the side of content publishers, IVillage, The Huffington Post, Aol, Popsugar, and Yahoo have joined to participate.\n\u201cIt publishes really relevant content, so users go to the sites and the sites go to the content publishers. But the content publishers don\u2019t always have the right type of commerce components or the expertise in e-commerce,\u201d Lisek said. For this purpose, 72Lux has 20 internal resources dedicated to supporting the necessary product knowledge and technical expertise for a well-made marketing site.\nUnion Square Partners, Boston\u2019s Flybridge Capital Partners, and New Film Work Ventures invested $1.8 million in seed follow-on investment in ",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 5,
+   "eligible": 5,
+   "segments": 12,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 41.666666666666664
+  },
+  "tokens": {
+   "original": 501,
+   "final": 492,
+   "length_change": -9,
+   "pct_not_preserved": 17.764471057884236,
+   "pct_new": 16.260162601626014
+  },
+  "words": {
+   "original": 310,
+   "final": 301,
+   "length_change": -9,
+   "pct_not_preserved": 22.90322580645161,
+   "pct_new": 20.598006644518275
+  },
+  "characters": {
+   "original": 1933,
+   "final": 1934,
+   "length_change": 1,
+   "pct_not_preserved": 14.536989136057944,
+   "pct_new": 14.581178903826263
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 319,
+   "green_after": 280,
+   "pairs_before": 500,
+   "pairs_after": 491,
+   "pairs_changed_before": 118,
+   "pairs_changed_after": 109,
+   "green_fraction_of_new_pairs": 0.3119266055045872,
+   "delta_achieved": 0.18807339449541283
+  }
+ }
+}

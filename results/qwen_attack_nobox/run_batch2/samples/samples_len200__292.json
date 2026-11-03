@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:292",
+ "nobox": {
+  "z_final": 3.0636231494801147,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "The penultimate DWTS 23 episode, \"Most Memorable Year,\" will air Monday, October, 3, at 8 p.m. ET on ABC.",
+    "rewrite": "The second to last DWTS 23 episode, \"Most Memorable Year,\" will air on Monday, October 3, at 8 p.m. ET on ABC."
+   },
+   "1": {
+    "original": "Ballas also opened up about his return to the ABC competition -- how he likes his partners to be.",
+    "rewrite": "Ballas also spoke about his return to the ABC competition -- how he likes his partners."
+   },
+   "7": {
+    "original": "See more from the cast of DWTS in the video below.",
+    "rewrite": "See more of the DWTS cast in the video below."
+   },
+   "9": {
+    "original": "And the 'Dancing' Winners Are...",
+    "rewrite": "And the winners of 'Dancing' are..."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 32,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 12,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 13,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "could definitely happen.\"\nBallas also spoke about his return to the ABC competition -- how he likes his partners.\n\"I've been asking for her over and over and over and over again, and I finally got her,\" he said. \"But, I'm a sports fan at heart, and I like watching the NFL and I like watching my baseball team play and all that. I love the competition element, but at the same time I don't want to sit out. I want to go.\"\nThe second to last DWTS 23 episode, \"Most Memorable Year,\" will air on Monday, October 3, at 8 p.m. ET on ABC.\nSee more of the DWTS cast in the video below.\nMark Ballas Teases Marketing Strategy - 'DWTS' 23\nAnd the winners of 'Dancing' are...\nNo one'",
+  "z0": 2.82842712474619,
+  "seconds": 105.3
+ }
+}

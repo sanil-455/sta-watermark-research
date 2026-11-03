@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:194",
+ "nobox": {
+  "z_final": 4.421733159964657,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "On the second windswept chunk of Cape, n\u00e4wahnit Martin (pronounced \"nawnahin\") ran on a runaway immigration program that had no chance of getting passed and also promised an attack on the Massachusetts Health Care Reform Law according to the editorial policy of the Salem News, which endorsed her on account of her identity according to the comments of the editorial column.",
+    "rewrite": "On the second windswept portion of Cape, N\u00e4wahnit Martin (pronounced \"nawnahin\") ran for a runaway immigration program that had no chance of passing and also promised an assault on the Massachusetts Health Care Reform Law, according to the editorial policy of the Salem News, which endorsed her on grounds of her identity, as per the editorial comments."
+   },
+   "5": {
+    "original": "There's no point picking on Norfolk County District Attorney William Keating for failing to understand the key vehicle for economic reform.",
+    "rewrite": "It serves no purpose to criticized Norfolk County District Attorney William Keating for his lack of understanding of the key vehicle for economic reform."
+   },
+   "6": {
+    "original": "It is virtually a scientific fact that adding airline service to a city does not mean thousands of extra jobs.",
+    "rewrite": "It is virtually a scientific fact that adding airline service to a city does not lead to thousands of extra jobs."
+   },
+   "3": {
+    "original": "The small-town newspapers that make up the district are to pro government solutions as anti tax.",
+    "rewrite": "The small-town newspapers in the district are pro-government solutions and anti-tax."
+   },
+   "1": {
+    "original": "He holds high degrees of likability and distrust from both.",
+    "rewrite": "He is regarded with high levels of likability and distrust by both."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 15,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 12,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 33,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "on the other side of the Cape, to the south. He is regarded with high levels of likability and distrust by both.\nOn the second windswept portion of Cape, N\u00e4wahnit Martin (pronounced \"nawnahin\") ran for a runaway immigration program that had no chance of passing and also promised an assault on the Massachusetts Health Care Reform Law, according to the editorial policy of the Salem News, which endorsed her on grounds of her identity, as per the editorial comments. The small-town newspapers in the district are pro-government solutions and anti-tax.\nfor Norfolk County District Attorney.\nIt serves no purpose to criticized Norfolk County District Attorney William Keating for his lack of understanding of the key vehicle for economic reform. It is virtually a scientific fact that adding airline service to a city does not lead to thousands of extra jobs.\nFor incumbent Republican David D",
+  "z0": 5.374011537017761,
+  "seconds": 201.9
+ }
+}

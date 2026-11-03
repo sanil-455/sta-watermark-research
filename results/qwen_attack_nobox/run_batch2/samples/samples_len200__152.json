@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:152",
+ "nobox": {
+  "z_final": 3.111269837220809,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "But Comcast may no longer have exclusive rights on the data cap issue: this week, Time Warner Cable seems to have caught up with their largest competitor in the broadband online space according to The Information.",
+    "rewrite": "But Comcast might no longer hold the exclusive rights on the data cap issue: this week, Time Warner Cable appears to be matching their largest competitor in the broadband online space, according to The Information."
+   },
+   "1": {
+    "original": "However, in Q1, Comcast announced their intention to test high-capped plans higher than 300GB in select markets nationwide, which will be monitored as to their success rate.",
+    "rewrite": "However, in Q1, Comcast announced their intention to test high-capped plans above 300GB in select markets nationwide, which will be monitored for their success rate."
+   },
+   "4": {
+    "original": "To prevent angry messages from customers about usage, named as being in Nevada, according reports TWC employed a third partynamed 483ToDo for monitoring.",
+    "rewrite": "To avoid customer complaints about usage with Nevada's name reported by TWC, they employed a third party named 483ToDo for monitoring."
+   },
+   "3": {
+    "original": "Back in November 2012, reports came out that TWC had also been trialing throttled and capped service similar to Comcast\u2019s, but with its own test users.",
+    "rewrite": "In November 2012, reports surfaced indicating that TWC had also been experimenting with throttled and capped service akin to Comcast\u2019s, but using its own test users."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 59,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 47,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "average user. However, in Q1, Comcast announced their intention to test high-capped plans above 300GB in select markets nationwide, which will be monitored for their success rate.\nBut Comcast might no longer hold the exclusive rights on the data cap issue: this week, Time Warner Cable appears to be matching their largest competitor in the broadband online space, according to The Information.\nIn November 2012, reports surfaced indicating that TWC had also been experimenting with throttled and capped service akin to Comcast\u2019s, but using its own test users. To avoid customer complaints about usage with Nevada's name reported by TWC, they employed a third party named 483ToDo for monitoring.\nNow, we know that prior to the Comcast data cap disclosure, Time Warner Cable had indeed been trialing such a project, but now it",
+  "z0": 4.443677379909169,
+  "seconds": 189.9
+ }
+}

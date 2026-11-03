@@ -1,0 +1,434 @@
+{
+ "sample_id": "samples_len500:209",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8320401643085349,
+ "needed_share": 0.7786071309406148,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2191,
+  "segments": 12,
+  "eligible": 11,
+  "skipped": 1,
+  "skip_reasons": {
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1823,
+  "eligible_char_share": 0.8320401643085349
+ },
+ "attack": {
+  "z0": 9.03371462909915,
+  "z_final": 1.90132947261669,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 453,
+  "seconds": 431.5,
+  "seconds_by_phase": {
+   "generate": 394.8,
+   "gates": 36.4,
+   "detector": 0.3
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 285,
+    "z_before": 9.03371462909915,
+    "z_after": 8.36598918545349,
+    "accepted": true,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 40,
+     "after_content": 31,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "unknown word": 20,
+      "negation count changed": 9
+     }
+    },
+    "queries_total": 32,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.68
+   },
+   {
+    "pass": 1,
+    "segment": 0,
+    "chars": 224,
+    "z_before": 8.36598918545349,
+    "z_after": 7.844525821606661,
+    "accepted": true,
+    "survivors": 59,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 60,
+     "after_content": 60,
+     "after_semantic": 60,
+     "fluency_skipped": false,
+     "after_fluency": 59,
+     "rejected": {
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 91,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 45.58
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 219,
+    "z_before": 7.844525821606661,
+    "z_after": 7.280671669502767,
+    "accepted": true,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 39,
+     "after_content": 39,
+     "after_semantic": 39,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "unknown word": 21
+     }
+    },
+    "queries_total": 130,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.69
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 218,
+    "z_before": 7.280671669502767,
+    "z_after": 6.311664867692348,
+    "accepted": true,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 1,
+      "unknown word": 1,
+      "meaning too different": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 184,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.71
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 192,
+    "z_before": 6.311664867692348,
+    "z_after": 5.225181433060805,
+    "accepted": true,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "duplicate": 4,
+      "unknown word": 3,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 230,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 31.38
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 178,
+    "z_before": 5.225181433060805,
+    "z_after": 4.3681046537811765,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "duplicate": 5,
+      "several lines": 3,
+      "unknown word": 8,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 271,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.93
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 158,
+    "z_before": 4.3681046537811765,
+    "z_after": 3.69012483211554,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "duplicate": 3,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 326,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.26
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 138,
+    "z_before": 3.69012483211554,
+    "z_after": 2.86595101383035,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 46,
+     "after_spelling": 43,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "several lines": 2,
+      "duplicate": 12,
+      "unknown word": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 368,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 31.71
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 88,
+    "z_before": 2.86595101383035,
+    "z_after": 2.2723205892248246,
+    "accepted": true,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 46,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "hit length limit": 1,
+      "CJK text": 5,
+      "several lines": 1,
+      "duplicate": 7,
+      "unknown word": 5,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 407,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 25.61
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 72,
+    "z_before": 2.2723205892248246,
+    "z_after": 2.179572810072791,
+    "accepted": true,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 23,
+     "after_spelling": 22,
+     "after_content": 22,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "duplicate": 33,
+      "CJK text": 3,
+      "hit length limit": 1,
+      "unknown word": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 426,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 23.88
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 51,
+    "z_before": 2.179572810072791,
+    "z_after": 1.90132947261669,
+    "accepted": true,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "duplicate": 29,
+      "CJK text": 1,
+      "meaning too different": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 453,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.39
+   }
+  ],
+  "rewrites": {
+   "5": {
+    "original": "By closely associating their agenda with the director of \u201cTears of Gaza,\u201d a film that is emotionally provocative but less than what it should have been, is SOOP and SJP\u2019s vision of success to have fellow students walk out of their lecture hall transformed in their opinion and beliefs?",
+    "rewrite": "By tightly linking their objectives to the film \"Tears of Gaza,\" which is emotionally compelling yet perhaps fell short of expectations, does SOOP and SJP hope that fellow students will leave their lecture hall with changed opinions and beliefs?"
+   },
+   "0": {
+    "original": "\u201cTears of Gaza\u201d screening indicate that a sizeable portion SJP supporters use hate speech to dehumanize Jews in their own community and silence students who raise important issues regarding Israeli human rights and security.",
+    "rewrite": "\"Tears of Gaza\" screening reveals that a significant number of SJP supporters engage in hate speech to dehumanize Jews within their own community and silence students who address important concerns about Israeli human rights and security."
+   },
+   "9": {
+    "original": "If SOOP and SJP want to further their agenda for causes that the Israelis are doing the work for, they must extend their outreach, inclusion, diversity and promotion of dialogue to the widespread audience that needs it.",
+    "rewrite": "If SOOP and SJP hope to advance their causes by leveraging Israeli efforts, they need to broaden their inclusive outreach, diversity in representation, and encouragement of dialogue to the larger audience that requires it."
+   },
+   "2": {
+    "original": "However, after attending this screening and the Q&A that followed, which included many hateful references, I now feel silenced by a group that publicly advocates for a cause, but yet disregards human and civil conduct.",
+    "rewrite": "Nevertheless, after attending this screening and the subsequent Q&A that featured numerous hateful references, I now feel intimidated by a group that publicly supports a cause while ignoring proper human and civil behavior."
+   },
+   "10": {
+    "original": "By publish writing from legitimate sources, consider watching documentaries with a multitude of available perspectives, and/or visit ISGAP websites to dispel common sources for misinformation.",
+    "rewrite": "Review writings from credible sources, watch documentaries featuring diverse viewpoints, and/or explore ISGAP websites to correct common misinformation."
+   },
+   "4": {
+    "original": "I am left with a question that has been unanswered since my visit to the \u201cTears of Gaza\u201d conference and lecture in Northridge several weeks before my visit to the Stanford event.",
+    "rewrite": "A question remains unaddressed from my attendance at the \"Tears of Gaza\" conference and lecture in Northridge a few weeks prior to my visit to the Stanford event."
+   },
+   "3": {
+    "original": "As a pro-Israel student at Stanford who loves, admires and desires to have a lively debate with Palestinians and their allies, I feel emotionally disembodied.",
+    "rewrite": "As a pro-Israel student at Stanford who appreciates and wishes to engage in productive discussions with Palestinians and their supporters, I feel emotionally detached."
+   },
+   "1": {
+    "original": "I appreciate the beauty of Stanford\u2019s free speech culture, an environment that has opened my mind to alternate and foreign points of view.",
+    "rewrite": "I cherish Stanford\u2019s free speech atmosphere, which has broadened my perspective to include diverse and foreign viewpoints."
+   },
+   "7": {
+    "original": "Do they believe Americans\u2019 views towards Israel need to be so polarized to the negative?",
+    "rewrite": "Do they think Americans' opinions about Israel should be this intensely negative?"
+   },
+   "6": {
+    "original": "Do they hope to make their audience feel intolerable about the Israelis?",
+    "rewrite": "Do they wish to make their audience feel intolerable towards the Israelis?"
+   },
+   "8": {
+    "original": "If so, where do they hope to lead us in the future?",
+    "rewrite": "If so, to what future do they hope to steer us?"
+   }
+  },
+  "final_span": "\"Tears of Gaza\" screening reveals that a significant number of SJP supporters engage in hate speech to dehumanize Jews within their own community and silence students who address important concerns about Israeli human rights and security.\nI cherish Stanford\u2019s free speech atmosphere, which has broadened my perspective to include diverse and foreign viewpoints. Nevertheless, after attending this screening and the subsequent Q&A that featured numerous hateful references, I now feel intimidated by a group that publicly supports a cause while ignoring proper human and civil behavior. As a pro-Israel student at Stanford who appreciates and wishes to engage in productive discussions with Palestinians and their supporters, I feel emotionally detached.\nA question remains unaddressed from my attendance at the \"Tears of Gaza\" conference and lecture in Northridge a few weeks prior to my visit to the Stanford event. By tightly linking their objectives to the film \"Tears of Gaza,\" which is emotionally compelling yet perhaps fell short of expectations, does SOOP and SJP hope that fellow students will leave their lecture hall with changed opinions and beliefs? Do they wish to make their audience feel intolerable towards the Israelis? Do they think Americans' opinions about Israel should be this intensely negative? If so, to what future do they hope to steer us?\nIf SOOP and SJP hope to advance their causes by leveraging Israeli efforts, they need to broaden their inclusive outreach, diversity in representation, and encouragement of dialogue to the larger audience that requires it. Review writings from credible sources, watch documentaries featuring diverse viewpoints, and/or explore ISGAP websites to correct common misinformation.\nIf they continue their divisive message, one that perpetuates ignorance and prejudice about the Israeli people and the Jewish people as a whole\u2026the fallout: Israelis and Jews will experience even wider, more widespread discrimination in the form of verbal and physical assaults, throwing of pork ham surrounding Jewish sites especially synagogues around the",
+  "break_point": {
+   "step": 10,
+   "sentences_rewritten": 11,
+   "queries": 453
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 11,
+   "eligible": 11,
+   "segments": 12,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 91.66666666666667
+  },
+  "tokens": {
+   "original": 501,
+   "final": 466,
+   "length_change": -35,
+   "pct_not_preserved": 35.32934131736527,
+   "pct_new": 30.47210300429185
+  },
+  "words": {
+   "original": 352,
+   "final": 317,
+   "length_change": -35,
+   "pct_not_preserved": 42.04545454545454,
+   "pct_new": 35.646687697160885
+  },
+  "characters": {
+   "original": 2191,
+   "final": 2101,
+   "length_change": -90,
+   "pct_not_preserved": 27.384755819260608,
+   "pct_new": 24.27415516420752
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 351,
+   "green_after": 253,
+   "pairs_before": 500,
+   "pairs_after": 465,
+   "pairs_changed_before": 250,
+   "pairs_changed_after": 215,
+   "green_fraction_of_new_pairs": 0.4046511627906977,
+   "delta_achieved": 0.09534883720930232
+  }
+ }
+}

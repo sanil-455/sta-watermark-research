@@ -1,0 +1,26 @@
+{
+ "sample_id": "samples_len200:356",
+ "nobox": {
+  "z_final": 3.2526911934581184,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "He predicted McSally would be exaggerating herself as a \u201cfighting tribune\u201d and was particularly concerned about her commitment to the Senate Trump tax reform bill.",
+    "rewrite": "He predicted that McSally would exaggerate herself as a \u201cfighting tribune\u201d and was especially concerned about her commitment to the Senate Trump tax reform bill."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 40,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "of the country\u2019s biggest political recruiters and thinkers, Dick Saslaw, predicted before the primary that Sinema would attract Republican women and independents.\n\u201cIt\u2019s what independents want and that\u2019s why Sinema will win. It is not run at this time by our doctrinaire principles, because it's not an election about principles, it\u2019s about getting policy results,\u201d Saslaw said.\nHe predicted that McSally would exaggerate herself as a \u201cfighting tribune\u201d and was especially concerned about her commitment to the Senate Trump tax reform bill.\nAnd, voila, it came to pass.\n\"In the very first week after I had received 48% of my statewide vote, Sen. Sinema voted against the Arizona Taxpayers - us!\" wrote commentator Mark Bergreen, a partisan Republican who is incensed with liberals and tea party forces alike.\nFor",
+  "z0": 3.111269837220809,
+  "seconds": 48.4
+ }
+}

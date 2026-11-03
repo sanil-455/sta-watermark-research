@@ -1,0 +1,71 @@
+{
+ "sample_id": "samples_len200:213",
+ "nobox": {
+  "z_final": 4.384062043356595,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Part of the app battle is about getting policymakers to change the rules, but another is about making the experience enticing enough for consumers so that they\u2019ll take the trouble to comply\u2014and stick around, as Uber did in New York, for an official approval.",
+    "rewrite": "A part of the app struggle involves persuading policymakers to alter the regulations, but another hinges on crafting an enticing experience for consumers so that they will bother to comply\u2014and stay, like Uber did in New York, until gaining official approval."
+   },
+   "3": {
+    "original": "And right now, because of customers\u2019 ravenous overseer companies who provide location-based transportation on demand, cabs are debuting apps and getting more competitive.",
+    "rewrite": "Currently, due to customers' voracious demand from overseer companies offering location-based transportation on demand, cabs are launching apps and becoming more competitive."
+   },
+   "5": {
+    "original": "As Uber drivers modify their expectations, taxi drivers fail to rev up the system to its once supreme position.",
+    "rewrite": "As Uber drivers adjust their expectations, taxi drivers fail to restore the system to its former supreme status."
+   },
+   "4": {
+    "original": "One could even argue that these apps might prove a healthy and rewarding use of Uber\u2019s resources.",
+    "rewrite": "One could even argue that these apps might show a healthy and rewarding use of Uber\u2019s resources."
+   },
+   "6": {
+    "original": "And in most cities, they\u2019re not seeing much financial incentive to.",
+    "rewrite": "In most cities, there isn't much financial incentive for them."
+   },
+   "2": {
+    "original": "Here, convenience and service matters.",
+    "rewrite": "Here, what matters is convenience and service."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 12,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 25,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "get the edge in terms of convenience. A part of the app struggle involves persuading policymakers to alter the regulations, but another hinges on crafting an enticing experience for consumers so that they will bother to comply\u2014and stay, like Uber did in New York, until gaining official approval.\nHere, what matters is convenience and service. Currently, due to customers' voracious demand from overseer companies offering location-based transportation on demand, cabs are launching apps and becoming more competitive.\nOne could even argue that these apps might show a healthy and rewarding use of Uber\u2019s resources. As Uber drivers adjust their expectations, taxi drivers fail to restore the system to its former supreme status. In most cities, there isn't much financial incentive for them. So why not temper airport traffic by creating a sleek, ubiquitous backend that cities and air",
+  "z0": 4.949747468305833,
+  "seconds": 199.1
+ }
+}

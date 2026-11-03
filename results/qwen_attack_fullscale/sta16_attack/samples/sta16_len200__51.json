@@ -1,0 +1,144 @@
+{
+ "sample_id": "sta16_len200:51",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.21271393643031786,
+ "needed_share": 0.7920274172980742,
+ "delta_needed": null,
+ "segmentation": {
+  "chars": 818,
+  "segments": 4,
+  "eligible": 1,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 174,
+  "eligible_char_share": 0.21271393643031786
+ },
+ "attack": {
+  "z0": 9.616652224137045,
+  "z_final": 8.40168050416806,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 2,
+  "queries": 41,
+  "seconds": 98.5,
+  "seconds_by_phase": {
+   "generate": 94.0,
+   "gates": 4.5,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 174,
+    "z_before": 9.616652224137045,
+    "z_after": 8.40168050416806,
+    "accepted": true,
+    "survivors": 25,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 26,
+     "after_content": 26,
+     "after_semantic": 26,
+     "fluency_skipped": false,
+     "after_fluency": 25,
+     "rejected": {
+      "duplicate": 33,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 26,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.7
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 174,
+    "z_before": 8.40168050416806,
+    "z_after": 8.435686339599197,
+    "accepted": false,
+    "survivors": 24,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 28,
+     "after_spelling": 25,
+     "after_content": 25,
+     "after_semantic": 25,
+     "fluency_skipped": false,
+     "after_fluency": 24,
+     "rejected": {
+      "duplicate": 32,
+      "unknown word": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 41,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 47.29
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "Cohen Reynolds is part of the Los Angeles law firm Cohen Milstein Sellers & Toll PLLC, which represented Daniels with the other law firm, Glendon J. Mangione PC of Inglewood.",
+    "rewrite": "Cohen Reynolds is a member of the Los Angeles law firm Cohen Milstein Sellers & Toll PLLC, which worked alongside the Inglewood-based law firm, Glendon J. Mangione PC, in representing Daniels."
+   }
+  },
+  "final_span": "work honestly and diligently with Defendant has also interfered with CGC's reputation as a credible litigation organization, which in turn could impact the image of Cohen Reynolds. The Court also notes that because CGC has no overseer location, any negative impact on CGC would inherently have harmful tendencies and bind the conduct of other similarly situated attorneys,\" he wrote.\nCohen Reynolds is a member of the Los Angeles law firm Cohen Milstein Sellers & Toll PLLC, which worked alongside the Inglewood-based law firm, Glendon J. Mangione PC, in representing Daniels.\nCohen Reynolds has said Daniels filed a defamation suit because Texas law permits recovery of legal fees only for litigation with \"frivolous\" claims or complaints that aren't filed in good faith \u2014 requirements that generally don't exist in California and most",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 1,
+   "eligible": 1,
+   "segments": 4,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 25.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 205,
+   "length_change": 4,
+   "pct_not_preserved": 4.975124378109452,
+   "pct_new": 6.829268292682922
+  },
+  "words": {
+   "original": 130,
+   "final": 131,
+   "length_change": 1,
+   "pct_not_preserved": 6.153846153846154,
+   "pct_new": 6.870229007633588
+  },
+  "characters": {
+   "original": 818,
+   "final": 836,
+   "length_change": 18,
+   "pct_not_preserved": 3.5452322738386277,
+   "pct_new": 5.622009569377995
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 168,
+   "green_after": 162,
+   "pairs_before": 200,
+   "pairs_after": 204,
+   "pairs_changed_before": 14,
+   "pairs_changed_after": 18,
+   "green_fraction_of_new_pairs": 0.3333333333333333,
+   "delta_achieved": 0.16666666666666669
+  }
+ }
+}

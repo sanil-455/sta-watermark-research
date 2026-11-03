@@ -1,0 +1,444 @@
+{
+ "sample_id": "sta16_len200:47",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.6617142857142857,
+ "needed_share": 0.8163359009905071,
+ "delta_needed": 0.08996227400030585,
+ "segmentation": {
+  "chars": 875,
+  "segments": 7,
+  "eligible": 4,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "no final punctuation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 579,
+  "eligible_char_share": 0.6617142857142857
+ },
+ "attack": {
+  "z0": 10.889444430272832,
+  "z_final": 3.2826223901170173,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 348,
+  "seconds": 412.3,
+  "seconds_by_phase": {
+   "generate": 382.9,
+   "gates": 29.3,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 200,
+    "z_before": 10.889444430272832,
+    "z_after": 8.11147458237388,
+    "accepted": true,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "CJK text": 4,
+      "glued punctuation": 2,
+      "unknown word": 1,
+      "meaning too different": 4,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 47,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.86
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 174,
+    "z_before": 8.11147458237388,
+    "z_after": 6.161232369723243,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 54,
+     "after_content": 53,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "CJK text": 2,
+      "glued punctuation": 2,
+      "unknown word": 2,
+      "negation count changed": 1,
+      "meaning too different": 3,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 95,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.74
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 120,
+    "z_before": 6.161232369723243,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 39,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 2,
+      "several lines": 1,
+      "unknown word": 16,
+      "negation count changed": 39
+     }
+    },
+    "queries_total": 95,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.15
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 85,
+    "z_before": 6.161232369723243,
+    "z_after": 5.377913277425752,
+    "accepted": true,
+    "survivors": 26,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 29,
+     "after_content": 29,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 26,
+     "rejected": {
+      "duplicate": 30,
+      "unknown word": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 121,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.06
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 200,
+    "z_before": 5.377913277425752,
+    "z_after": 4.842850603770816,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 1,
+      "glued punctuation": 1,
+      "meaning too different": 3,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 171,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.51
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 174,
+    "z_before": 4.842850603770816,
+    "z_after": 4.74950407355585,
+    "accepted": true,
+    "survivors": 37,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 44,
+     "after_content": 39,
+     "after_semantic": 38,
+     "fluency_skipped": false,
+     "after_fluency": 37,
+     "rejected": {
+      "CJK text": 5,
+      "duplicate": 2,
+      "glued punctuation": 6,
+      "unknown word": 3,
+      "negation count changed": 5,
+      "meaning too different": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 208,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.03
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 120,
+    "z_before": 4.74950407355585,
+    "z_after": 3.377268214705401,
+    "accepted": true,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 44,
+     "after_content": 1,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 13,
+      "negation count changed": 43
+     }
+    },
+    "queries_total": 209,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.79
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 85,
+    "z_before": 3.377268214705401,
+    "z_after": 3.2826223901170173,
+    "accepted": true,
+    "survivors": 26,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 29,
+     "after_spelling": 29,
+     "after_content": 29,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 26,
+     "rejected": {
+      "duplicate": 31,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 235,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.99
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 200,
+    "z_before": 3.2826223901170173,
+    "z_after": 3.623011674316412,
+    "accepted": false,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "CJK text": 1,
+      "glued punctuation": 1,
+      "meaning too different": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 289,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.45
+   },
+   {
+    "pass": 3,
+    "segment": 5,
+    "chars": 174,
+    "z_before": 3.2826223901170173,
+    "z_after": 3.4836650714580886,
+    "accepted": false,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 49,
+     "after_content": 47,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 1,
+      "glued punctuation": 5,
+      "unknown word": 2,
+      "negation count changed": 2,
+      "meaning too different": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 331,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.61
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 120,
+    "z_before": 3.2826223901170173,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 40,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 4,
+      "preamble": 2,
+      "duplicate": 3,
+      "unknown word": 11,
+      "negation count changed": 40
+     }
+    },
+    "queries_total": 331,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.18
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 85,
+    "z_before": 3.2826223901170173,
+    "z_after": 3.3443184685997647,
+    "accepted": false,
+    "survivors": 25,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 25,
+     "rejected": {
+      "duplicate": 30,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 348,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.55
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "In the boot the cube shape is highlighted by the prominent tribes on the carpet and there\u2019s a wide range of small storage options, and space to house a wheelchair in two of the full size, split seats.",
+    "rewrite": "The boot stands out for its cube design, marked by noticeable patterns on the carpet, with a variety of small storage choices, and enough space in two full-size, divided seats to accommodate a wheelchair."
+   },
+   "5": {
+    "original": "This will probably suit many buyers although personal music players and Blackberrys will probably not be able to be used simply throughuetooth three or through a plug socket.",
+    "rewrite": "This is likely to suit many buyers, though personal music players and Blackberrys may not be usable through Bluetooth or by plugging them in."
+   },
+   "4": {
+    "original": "Skoda seems to have chosen buttons and dials over the latest technology for the Yeti.",
+    "rewrite": "Instead of incorporating the latest technology, Skoda opted for buttons and dials in the Yeti."
+   },
+   "1": {
+    "original": "There\u2019s certainly no lack of leg room for the driver and their passenger but space is very tight behind the front seats.",
+    "rewrite": "There isn't any shortage of space for the driver and their passenger, but the rear seating area is quite cramped."
+   }
+  },
+  "final_span": "tilted or rotated or folded out of the way to provide more cargo carrying space.\nThere isn't any shortage of space for the driver and their passenger, but the rear seating area is quite cramped.\nSkoda Yeti goes for an off-roading feel\nThe boot stands out for its cube design, marked by noticeable patterns on the carpet, with a variety of small storage choices, and enough space in two full-size, divided seats to accommodate a wheelchair.\nInstead of incorporating the latest technology, Skoda opted for buttons and dials in the Yeti. This is likely to suit many buyers, though personal music players and Blackberrys may not be usable through Bluetooth or by plugging them in.\nThere is plenty of passenger ergonomics - you\u2019ll struggle to find much fault as to the Yeti\u2019s interior, particularly with the B&O sound system displaying good quality bass",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 4,
+   "eligible": 4,
+   "segments": 7,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 57.142857142857146
+  },
+  "tokens": {
+   "original": 201,
+   "final": 206,
+   "length_change": 5,
+   "pct_not_preserved": 32.33830845771144,
+   "pct_new": 33.98058252427184
+  },
+  "words": {
+   "original": 153,
+   "final": 143,
+   "length_change": -10,
+   "pct_not_preserved": 41.17647058823529,
+   "pct_new": 37.06293706293706
+  },
+  "characters": {
+   "original": 875,
+   "final": 848,
+   "length_change": -27,
+   "pct_not_preserved": 29.48571428571428,
+   "pct_new": 27.240566037735846
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 177,
+   "green_after": 126,
+   "pairs_before": 200,
+   "pairs_after": 205,
+   "pairs_changed_before": 92,
+   "pairs_changed_after": 97,
+   "green_fraction_of_new_pairs": 0.35051546391752575,
+   "delta_achieved": 0.14948453608247425
+  }
+ }
+}

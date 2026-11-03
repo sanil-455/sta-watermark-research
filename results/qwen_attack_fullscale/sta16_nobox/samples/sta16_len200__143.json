@@ -1,0 +1,44 @@
+{
+ "sample_id": "sta16_len200:143",
+ "nobox": {
+  "z_final": 5.688734668417887,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Romania's failure to protect this area, which notably includes Ro\u0219ia Montan\u0103 and the surrounding mountains, is already evident in its application for an official protection status, because Ro\u0219ia Montan\u0103 has never been classified as part of the protected built cultural heritage.",
+    "rewrite": "Romania\u2019s failure to protect these areas, notably Ro\u0219ia Montan\u0103 and the surrounding mountains, is apparent in its application for official protection status, as Ro\u0219ia Montan\u0103 has never been designated part of the protected cultural heritage."
+   },
+   "3": {
+    "original": "ICSID expects that in both cases, Gabriel Resources will be able to base its demands on complaints that Romania violated articles 2 and 3 of the BIT UK and the BIT Cananda.",
+    "rewrite": "ICSID anticipates that in both scenarios, Gabriel Resources can rely on complaints alleging that Romania violated articles 2 and 3 of the BIT UK and the BIT Canada."
+   },
+   "2": {
+    "original": "In addition, its status as an important non-natural site has never been established either.",
+    "rewrite": "Moreover, its status as an important non-natural site has also never been established."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 57,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 27,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the Ro\u0219ia Montan\u0103 project, to the extent of intensifying the disputes caused by the project. Romania\u2019s failure to protect these areas, notably Ro\u0219ia Montan\u0103 and the surrounding mountains, is apparent in its application for official protection status, as Ro\u0219ia Montan\u0103 has never been designated part of the protected cultural heritage. Moreover, its status as an important non-natural site has also never been established. ICSID anticipates that in both scenarios, Gabriel Resources can rely on complaints alleging that Romania violated articles 2 and 3 of the BIT UK and the BIT Canada.\nCEO also noted that Romania is sensitive to these options in merit three time more annual public spending what has been the Romanian public expenditure with ICSID versus the public expenditure on hospitalizations or the cost of incarcerations,",
+  "z0": 9.192388155425117,
+  "seconds": 137.0
+ }
+}

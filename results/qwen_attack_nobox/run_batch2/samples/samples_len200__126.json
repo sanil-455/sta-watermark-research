@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:126",
+ "nobox": {
+  "z_final": 2.025447857731777,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Hopes of a possible agreement between Washington and Beijing had also boosted the market last week.",
+    "rewrite": "Last week, there were hopes of a potential agreement between Washington and Beijing, which also lifted the market."
+   },
+   "2": {
+    "original": "The S&P 500 shot up 2.6 percent on Friday alone in its biggest one-day gain since March 23.",
+    "rewrite": "The S&P 500 gained 2.6 percent on Friday alone, marking its largest one-day advance since March 23."
+   },
+   "3": {
+    "original": "On Monday, all three major U.S. indexes erased initial losses to close little changed.",
+    "rewrite": "On Monday, all three major U.S. indexes regained their initial losses and ended up with minimal change."
+   },
+   "4": {
+    "original": "At 8:23 a.m. ET, Dow e-minis were up 46 points, or 0.18 percent.",
+    "rewrite": "At 8:23 a.m. ET, Dow e-minis gained 46 points, which is 0.18 percent."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 15,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the banking sector had also eased concerns over the impact of the intensifying Sino-U.S. trade war as President Donald Trump announced this week that he would raise tariffs on $200 billion of Chinese imports starting next week.\nLast week, there were hopes of a potential agreement between Washington and Beijing, which also lifted the market. The S&P 500 gained 2.6 percent on Friday alone, marking its largest one-day advance since March 23.\nOn Monday, all three major U.S. indexes regained their initial losses and ended up with minimal change.\nAt 8:23 a.m. ET, Dow e-minis gained 46 points, which is 0.18 percent. S&P 500 e-minis were up 6.75 points, or 0.23 percent, and Nasdaq 100 e-minis",
+  "z0": 3.394112549695428,
+  "seconds": 139.3
+ }
+}

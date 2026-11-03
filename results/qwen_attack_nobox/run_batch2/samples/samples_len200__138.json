@@ -1,0 +1,26 @@
+{
+ "sample_id": "samples_len200:138",
+ "nobox": {
+  "z_final": 2.1865714091616546,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Rahm Emanuel: The tribes of the Obama administration were repeatedly at odds, particularly over the politics of whipping up tribal fear and anger, an area where Emanuel was known as King Divid.",
+    "rewrite": "Rahm Emanuel: Repeated conflicts emerged among the tribes of the Obama administration, especially regarding the manipulation of tribal fears and anger, an area where Emanuel was recognized as King Divid."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 48,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "been a symbolic presence in the West Wing, Robert Gibbs, a graduate of Georgetown Day School and the University of North Carolina, whose \u201cparents were not Harvard-educated professionals,\u201d and whose family had lived modestly on Arlington Forest Road, an offshoot of Route 50 just south of the Arlington-Fairfax County border.\nRahm Emanuel: Repeated conflicts emerged among the tribes of the Obama administration, especially regarding the manipulation of tribal fears and anger, an area where Emanuel was recognized as King Divid.\nfor \u201canger\u2026, grievances, and dissatisfied frustration\u2026.\u201d I believe that when he spoke of such emotion, he was thinking of the anguish over\u2026things he and Obama believed were not happening in America, which he saw as a part of the country\u2019s condition, deep-driving",
+  "z0": 3.2526911934581184,
+  "seconds": 51.9
+ }
+}

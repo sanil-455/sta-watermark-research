@@ -1,0 +1,15 @@
+{
+ "sample_id": "sta16_len200:139",
+ "nobox": {
+  "z_final": 11.030865786510141,
+  "status": "not broken",
+  "rewrites": {},
+  "sentences_rewritten": 0,
+  "eligible": 0,
+  "per_sentence": [],
+  "queries": 1,
+  "final_span": "where we've really got some hardcore guys and women going for it.\"\nBen continued: \"There are things on that course that take me back, I'm at 40 now. But because ITV let us do those walls, everyone's pretty much fine now. We had a call last week saying, 'You can't whack people in the t-bone, you can't whack people in the knee. People who are doing this in real life have scars all over their back, we don't want to be accused of that.\n\"It's just done in a different type of way - it's losing people in stages, if they're really not capable of doing it, they're not capable of doing it. We don't take any prisoners, but what it does is - we both agree with this - it gives people this platform.\"\nBen humorously agreed: \"It's not dangerous",
+  "z0": 11.030865786510141,
+  "seconds": 0.0
+ }
+}

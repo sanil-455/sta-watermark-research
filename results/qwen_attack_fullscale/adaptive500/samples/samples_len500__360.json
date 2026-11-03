@@ -1,0 +1,494 @@
+{
+ "sample_id": "samples_len500:360",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8107843137254902,
+ "needed_share": 0.7487564070224955,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2040,
+  "segments": 20,
+  "eligible": 17,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1654,
+  "eligible_char_share": 0.8107843137254902
+ },
+ "attack": {
+  "z0": 7.960401999899251,
+  "z_final": 1.7747130188322278,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 397,
+  "seconds": 392.5,
+  "seconds_by_phase": {
+   "generate": 363.8,
+   "gates": 28.5,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 184,
+    "z_before": 7.960401999899251,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 55,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "duplicate": 2,
+      "CJK text": 1,
+      "unknown word": 2,
+      "negation count changed": 55
+     }
+    },
+    "queries_total": 1,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.56
+   },
+   {
+    "pass": 1,
+    "segment": 17,
+    "chars": 165,
+    "z_before": 7.960401999899251,
+    "z_after": 7.2218369946617305,
+    "accepted": true,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 58,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 1,
+      "negation count changed": 22
+     }
+    },
+    "queries_total": 37,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.74
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 147,
+    "z_before": 7.2218369946617305,
+    "z_after": 6.542416438244024,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 1,
+      "unknown word": 7,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 87,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.26
+   },
+   {
+    "pass": 1,
+    "segment": 13,
+    "chars": 147,
+    "z_before": 6.542416438244024,
+    "z_after": 6.120708607040153,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 54,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 3,
+      "unknown word": 1,
+      "negation count changed": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 136,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.26
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 137,
+    "z_before": 6.120708607040153,
+    "z_after": 5.646195008347583,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 43,
+     "after_spelling": 43,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "duplicate": 15,
+      "CJK text": 2
+     }
+    },
+    "queries_total": 179,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.17
+   },
+   {
+    "pass": 1,
+    "segment": 15,
+    "chars": 118,
+    "z_before": 5.646195008347583,
+    "z_after": 5.048467683179104,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "duplicate": 7,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 227,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.29
+   },
+   {
+    "pass": 1,
+    "segment": 18,
+    "chars": 117,
+    "z_before": 5.048467683179104,
+    "z_after": 4.414191824470327,
+    "accepted": true,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 37,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "duplicate": 9,
+      "meaning too different": 14,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 261,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.72
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 81,
+    "z_before": 4.414191824470327,
+    "z_after": 4.000988020269483,
+    "accepted": true,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 32,
+     "after_spelling": 32,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "duplicate": 27,
+      "CJK text": 1
+     }
+    },
+    "queries_total": 293,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.76
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 79,
+    "z_before": 4.000988020269483,
+    "z_after": 3.5494260376644555,
+    "accepted": true,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "CJK text": 6,
+      "several lines": 1,
+      "unknown word": 3,
+      "meaning too different": 6,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 332,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.25
+   },
+   {
+    "pass": 1,
+    "segment": 14,
+    "chars": 74,
+    "z_before": 3.5494260376644555,
+    "z_after": 3.283219084839621,
+    "accepted": true,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 34,
+     "after_content": 9,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "duplicate": 26,
+      "negation count changed": 25
+     }
+    },
+    "queries_total": 341,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.47
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 71,
+    "z_before": 3.283219084839621,
+    "z_after": 2.8810743466565856,
+    "accepted": true,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 36,
+     "after_spelling": 34,
+     "after_content": 16,
+     "after_semantic": 12,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "duplicate": 22,
+      "CJK text": 2,
+      "unknown word": 2,
+      "quotation changed": 18,
+      "meaning too different": 4,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 352,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.75
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 67,
+    "z_before": 2.8810743466565856,
+    "z_after": 2.307126924481896,
+    "accepted": true,
+    "survivors": 21,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 23,
+     "after_spelling": 21,
+     "after_content": 21,
+     "after_semantic": 21,
+     "fluency_skipped": false,
+     "after_fluency": 21,
+     "rejected": {
+      "CJK text": 10,
+      "duplicate": 26,
+      "several lines": 1,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 373,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 30.14
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 67,
+    "z_before": 2.307126924481896,
+    "z_after": 1.7747130188322278,
+    "accepted": true,
+    "survivors": 24,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 28,
+     "after_spelling": 24,
+     "after_content": 24,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 24,
+     "rejected": {
+      "duplicate": 32,
+      "unknown word": 4
+     }
+    },
+    "queries_total": 397,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.41
+   }
+  ],
+  "rewrites": {
+   "17": {
+    "original": "We could walk across the room to our own Wi-Fi router, and all was fine there, but we got no squat when trying to connect wirelessly to the XPS 13 Developer Edition.",
+    "rewrite": "We were able to connect wirelessly to the Wi-Fi router by walking into the room, but we received no signal when attempting to access the XPS 13 Developer Edition wirelessly."
+   },
+   "10": {
+    "original": "Customer feedback has led to this \u201ctelemedicine\u201d movement, which involves having doctors diagnose patients by mouse and keyboard over the Internet.",
+    "rewrite": "Feedback from customers has driven the \"telemedicine\" movement, enabling doctors to diagnose patients through computer screens and typing online."
+   },
+   "13": {
+    "original": "Interestingly, while Ubuntu's Control Center lacks some of the features found in other systems, Linux support for hardware continues to get better.",
+    "rewrite": "Surprisingly, even though Ubuntu's Control Center misses some features present in other systems, the support for hardware in Linux is continuously improving."
+   },
+   "2": {
+    "original": "Brightness is also increased a bit via Dell's Dynamically Adjustable Backlight control, which uses sensors to determine ambient lighting.",
+    "rewrite": "Dell's Dynamically Adjustable Backlight control boosts brightness slightly by employing sensors to gauge ambient lighting conditions."
+   },
+   "15": {
+    "original": "We ran the system diagnostic tool, which found the wired connection was fine, and the wireless adaptor was recognized.",
+    "rewrite": "We ran the system diagnostic tool, which confirmed that the wired connection was operational and that the wireless adaptor had been identified."
+   },
+   "18": {
+    "original": "We captured that in the testing video, below, and it's included in the product photo gallery at the top of this page.",
+    "rewrite": "The testing video, shown below, captures that moment, while it is also featured in the product photo gallery at the top of this page."
+   },
+   "8": {
+    "original": "The display is nice, but would have been better with full 1920 x 1080 resolution.",
+    "rewrite": "The display is good, but it could have been enhanced with a full 1920 x 1080 resolution."
+   },
+   "4": {
+    "original": "Out of the box, we found the brightness at a nice middle level for indoor work.",
+    "rewrite": "Upon unpacking, we discovered the brightness set to a comfortable midpoint suitable for indoor tasks."
+   },
+   "14": {
+    "original": "Of the main hardware items we tested, only one didn't work properly: WiFi.",
+    "rewrite": "Among the primary hardware items we tested, only one didn't function correctly: WiFi."
+   },
+   "9": {
+    "original": "Nor is there an \u201ceasy\u201d mechanism for what has become a common practice.",
+    "rewrite": "Neither does an \"easy\" mechanism exist for a practice that has become commonplace."
+   },
+   "5": {
+    "original": "There are a few rough edges with the Dell XPS 13 Developer Edition.",
+    "rewrite": "The Dell XPS 13 Developer Edition has some unfinished aspects."
+   },
+   "7": {
+    "original": "We'd have preferred to see the latest 2.0 USB ports instead of 1.1.",
+    "rewrite": "We'd preferred to see the 2.0 USB ports rather than the 1.1 ones."
+   }
+  },
+  "final_span": "which Dell says gives developers the ability to dedicate the machine to an external hypervisor-based virtual machine without slowing the machine's host applications. We of course did not test that feature.\nDell's Dynamically Adjustable Backlight control boosts brightness slightly by employing sensors to gauge ambient lighting conditions. The result is an \u201cadaptive tone according to the surrounding brightness.\u201d Upon unpacking, we discovered the brightness set to a comfortable midpoint suitable for indoor tasks.\nThe Dell XPS 13 Developer Edition has some unfinished aspects. It's important to note it's been available, as a pilot project, for a while now, and as a result doesn't include such niceties as Bluetooth, a docking-compatible port, or an HDMI port. We'd preferred to see the 2.0 USB ports rather than the 1.1 ones. The display is good, but it could have been enhanced with a full 1920 x 1080 resolution.\nNeither does an \"easy\" mechanism exist for a practice that has become commonplace. Feedback from customers has driven the \"telemedicine\" movement, enabling doctors to diagnose patients through computer screens and typing online. The same goes for the \u201ctelecommuting\u201d movement that's evolved. To that end, we'd likely need an extra USB mouse and/or keyboard.\nSurprisingly, even though Ubuntu's Control Center misses some features present in other systems, the support for hardware in Linux is continuously improving. Among the primary hardware items we tested, only one didn't function correctly: WiFi. We ran the system diagnostic tool, which confirmed that the wired connection was operational and that the wireless adaptor had been identified. It simply couldn't connect at all. We were able to connect wirelessly to the Wi-Fi router by walking into the room, but we received no signal when attempting to access the XPS 13 Developer Edition wirelessly. The testing video, shown below, captures that moment, while it is also featured in the product photo gallery at the top of this page.\nBetter yet, it was really easy to send the BIOS, WiFi, and the other boot-related numbers out to Dell and let it debug the system",
+  "break_point": {
+   "step": 12,
+   "sentences_rewritten": 12,
+   "queries": 397
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 12,
+   "eligible": 17,
+   "segments": 20,
+   "pct_of_eligible": 70.58823529411765,
+   "pct_of_segments": 60.0
+  },
+  "tokens": {
+   "original": 501,
+   "final": 509,
+   "length_change": 8,
+   "pct_not_preserved": 24.55089820359282,
+   "pct_new": 25.736738703339878
+  },
+  "words": {
+   "original": 344,
+   "final": 340,
+   "length_change": -4,
+   "pct_not_preserved": 32.84883720930233,
+   "pct_new": 32.05882352941176
+  },
+  "characters": {
+   "original": 2040,
+   "final": 2137,
+   "length_change": 97,
+   "pct_not_preserved": 20.196078431372545,
+   "pct_new": 23.81843706130089
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 339,
+   "green_after": 274,
+   "pairs_before": 500,
+   "pairs_after": 508,
+   "pairs_changed_before": 177,
+   "pairs_changed_after": 185,
+   "green_fraction_of_new_pairs": 0.3675675675675676,
+   "delta_achieved": 0.1324324324324324
+  }
+ }
+}

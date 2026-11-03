@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:219",
+ "nobox": {
+  "z_final": 3.3486113494317533,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "German interior minister Thomas de Maizi\u00e8re saidover the weekend that Kobane, known locally as Ayn al-Arab, desperately needed medical supplies and the medical workers to help deal with the most recent round of fighting between the Isis militants and Kurdish armed groups.",
+    "rewrite": "German interior minister Thomas de Maizi\u00e8re stated over the weekend that Kobane, locally known as Ayn al-Arab, urgently required medical supplies and medical workers to assist with the most recent fighting between Isis militants and Kurdish armed groups."
+   },
+   "1": {
+    "original": "On Sunday Martin Schaefer, the German consul general to Turkey, tweeted at 3am (2am GMT) to ask Turkish authorities for permission to fly a helicopter carrying over a dozen German doctors, nurses and paramedics to the town of Kobane in northern Syria.",
+    "rewrite": "On Sunday, Martin Schaefer, the German consul general to Turkey, posted on Twitter at 3am (2am GMT) asking the Turkish authorities for permission to fly a helicopter carrying more than a dozen German doctors, nurses, and paramedics to the town of Kobane in northern Syria."
+   },
+   "3": {
+    "original": "Turkey has barred all humanitarian relief from entering Syria.",
+    "rewrite": "Turkey has blocked all humanitarian relief from entering Syria."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 10,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "of the country\u2019s mainly Kurdish provinces, to the outcry of Kurdish politicians who have accused the government of stoking up tensions with the YPG fighters and PKK militants.\nOn Sunday, Martin Schaefer, the German consul general to Turkey, posted on Twitter at 3am (2am GMT) asking the Turkish authorities for permission to fly a helicopter carrying more than a dozen German doctors, nurses, and paramedics to the town of Kobane in northern Syria.\nGerman interior minister Thomas de Maizi\u00e8re stated over the weekend that Kobane, locally known as Ayn al-Arab, urgently required medical supplies and medical workers to assist with the most recent fighting between Isis militants and Kurdish armed groups.\nTurkey has blocked all humanitarian relief from entering Syria. The town is besieged by Is",
+  "z0": 4.1012193308819755,
+  "seconds": 149.2
+ }
+}

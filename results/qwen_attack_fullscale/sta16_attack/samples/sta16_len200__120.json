@@ -1,0 +1,618 @@
+{
+ "sample_id": "sta16_len200:120",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.7053571428571429,
+ "needed_share": 0.7719010383269201,
+ "delta_needed": 0.029245620895071732,
+ "segmentation": {
+  "chars": 784,
+  "segments": 9,
+  "eligible": 7,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 553,
+  "eligible_char_share": 0.7053571428571429
+ },
+ "attack": {
+  "z0": 8.76812408671319,
+  "z_final": 1.6853296812356275,
+  "status": "broken",
+  "reason": null,
+  "passes": 3,
+  "queries": 466,
+  "seconds": 453.9,
+  "seconds_by_phase": {
+   "generate": 416.4,
+   "gates": 37.3,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 109,
+    "z_before": 8.76812408671319,
+    "z_after": 7.314682983968841,
+    "accepted": true,
+    "survivors": 25,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 31,
+     "after_spelling": 31,
+     "after_content": 31,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 25,
+     "rejected": {
+      "duplicate": 29,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 26,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.21
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 101,
+    "z_before": 7.314682983968841,
+    "z_after": 6.1213224253664436,
+    "accepted": true,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 36,
+     "after_spelling": 36,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "duplicate": 24,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 59,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 20.62
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 97,
+    "z_before": 6.1213224253664436,
+    "z_after": 5.393598899705936,
+    "accepted": true,
+    "survivors": 25,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 27,
+     "after_content": 27,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 25,
+     "rejected": {
+      "duplicate": 33,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 84,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.18
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 83,
+    "z_before": 5.393598899705936,
+    "z_after": 4.466666666666667,
+    "accepted": true,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 40,
+     "after_spelling": 40,
+     "after_content": 40,
+     "after_semantic": 40,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "duplicate": 20,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 117,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 20.95
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 57,
+    "z_before": 4.466666666666667,
+    "z_after": 3.624242698155731,
+    "accepted": true,
+    "survivors": 20,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 24,
+     "after_spelling": 24,
+     "after_content": 24,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 20,
+     "rejected": {
+      "CJK text": 5,
+      "duplicate": 31,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 137,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.53
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 55,
+    "z_before": 3.624242698155731,
+    "z_after": 2.8794929797844278,
+    "accepted": true,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 31,
+     "after_spelling": 31,
+     "after_content": 31,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "duplicate": 29,
+      "perplexity too high": 8
+     }
+    },
+    "queries_total": 160,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.01
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 51,
+    "z_before": 2.8794929797844278,
+    "z_after": 2.271720556255607,
+    "accepted": true,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 21,
+     "after_spelling": 21,
+     "after_content": 21,
+     "after_semantic": 21,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "duplicate": 39,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 178,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.18
+   },
+   {
+    "pass": 2,
+    "segment": 6,
+    "chars": 109,
+    "z_before": 2.271720556255607,
+    "z_after": 2.292279532375023,
+    "accepted": false,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 31,
+     "after_spelling": 31,
+     "after_content": 31,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "duplicate": 29,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 206,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 31.96
+   },
+   {
+    "pass": 2,
+    "segment": 7,
+    "chars": 101,
+    "z_before": 2.271720556255607,
+    "z_after": 2.3650808243982007,
+    "accepted": false,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 34,
+     "after_content": 34,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "duplicate": 26,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 239,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 20.8
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 97,
+    "z_before": 2.271720556255607,
+    "z_after": 2.1902869282799076,
+    "accepted": true,
+    "survivors": 26,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 29,
+     "after_spelling": 29,
+     "after_content": 29,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 26,
+     "rejected": {
+      "duplicate": 31,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 265,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.92
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 83,
+    "z_before": 2.1902869282799076,
+    "z_after": 2.5503930098132925,
+    "accepted": false,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 39,
+     "after_spelling": 39,
+     "after_content": 39,
+     "after_semantic": 38,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "duplicate": 21,
+      "meaning too different": 1,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 297,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 20.82
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 57,
+    "z_before": 2.1902869282799076,
+    "z_after": 2.1902869282799076,
+    "accepted": false,
+    "survivors": 14,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 16,
+     "after_spelling": 16,
+     "after_content": 16,
+     "after_semantic": 16,
+     "fluency_skipped": false,
+     "after_fluency": 14,
+     "rejected": {
+      "duplicate": 36,
+      "CJK text": 8,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 310,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.62
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 55,
+    "z_before": 2.1902869282799076,
+    "z_after": 2.3841582427170787,
+    "accepted": false,
+    "survivors": 21,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 21,
+     "rejected": {
+      "duplicate": 30,
+      "perplexity too high": 9
+     }
+    },
+    "queries_total": 331,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.94
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 51,
+    "z_before": 2.1902869282799076,
+    "z_after": 2.4450288216838323,
+    "accepted": false,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 15,
+     "after_spelling": 15,
+     "after_content": 15,
+     "after_semantic": 15,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "duplicate": 45,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 342,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.29
+   },
+   {
+    "pass": 3,
+    "segment": 6,
+    "chars": 109,
+    "z_before": 2.1902869282799076,
+    "z_after": 2.3543547789870933,
+    "accepted": false,
+    "survivors": 24,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 24,
+     "rejected": {
+      "duplicate": 30,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 366,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 31.06
+   },
+   {
+    "pass": 3,
+    "segment": 7,
+    "chars": 101,
+    "z_before": 2.1902869282799076,
+    "z_after": 2.2819305877276825,
+    "accepted": false,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 35,
+     "after_spelling": 35,
+     "after_content": 35,
+     "after_semantic": 35,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "duplicate": 25,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 399,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.38
+   },
+   {
+    "pass": 3,
+    "segment": 5,
+    "chars": 97,
+    "z_before": 2.1902869282799076,
+    "z_after": 2.030877524449297,
+    "accepted": true,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 27,
+     "after_content": 27,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "duplicate": 31,
+      "CJK text": 2,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 416,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.05
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 83,
+    "z_before": 2.030877524449297,
+    "z_after": 2.3230315905999017,
+    "accepted": false,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 43,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 15,
+      "unknown word": 1,
+      "perplexity too high": 11
+     }
+    },
+    "queries_total": 448,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.07
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 57,
+    "z_before": 2.030877524449297,
+    "z_after": 1.6853296812356275,
+    "accepted": true,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 25,
+     "after_spelling": 25,
+     "after_content": 25,
+     "after_semantic": 25,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "duplicate": 30,
+      "CJK text": 5,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 466,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.83
+   }
+  ],
+  "rewrites": {
+   "6": {
+    "original": "Northeastern punt returner Mack Chimani and defensive back Josh Monila were integral to NHS football program.",
+    "rewrite": "Both Mack Chimani, the Northeastern punt returner, and Josh Monila, a defensive back, were crucial to the Northeastern High School (NHS) football program."
+   },
+   "7": {
+    "original": "Earlier this week, both players committed to play college football for Louisburg College this season.",
+    "rewrite": "Recently, both athletes declared their intention to play college football at Louisburg College for the upcoming season."
+   },
+   "5": {
+    "original": "With 57 or so fans in attendance, Hodge and his teammates had some team support on the sidelines.",
+    "rewrite": "Approximately 57 fans were in attendance, and Hodge and his teammates received some cheering from their supporters on the sidelines."
+   },
+   "3": {
+    "original": "His interception at North Topsail was key defensive play in that victory two years.",
+    "rewrite": "At North Topsail, his interception was crucial for their defensive success in that victory two years ago."
+   },
+   "1": {
+    "original": "On defense, Hodge was a major bright spot for the Eagles.",
+    "rewrite": "Hodge stood out defensively as a notable bright spot for the Eagles."
+   },
+   "4": {
+    "original": "And then of course Hodge\u2019s play at the end of the game.",
+    "rewrite": "Then, of course, Hodge\u2019s performance at the game\u2019s conclusion."
+   },
+   "2": {
+    "original": "The defensive back recorded 13 tackles (five solo).",
+    "rewrite": "The defensive back made 13 tackles, including five solo."
+   }
+  },
+  "final_span": "observed that to have success defensively his team had to force their opponent to be patient and throw the ball.\nHodge stood out defensively as a notable bright spot for the Eagles. The defensive back made 13 tackles, including five solo. At North Topsail, his interception was crucial for their defensive success in that victory two years ago.\nThen, of course, Hodge\u2019s performance at the game\u2019s conclusion.\nApproximately 57 fans were in attendance, and Hodge and his teammates received some cheering from their supporters on the sidelines.\nBoth Mack Chimani, the Northeastern punt returner, and Josh Monila, a defensive back, were crucial to the Northeastern High School (NHS) football program.\nRecently, both athletes declared their intention to play college football at Louisburg College for the upcoming season.\nOn Thursday night during a podcast on the local classic rock radio station B105.3, Monila and Chimani said that",
+  "break_point": {
+   "step": 18,
+   "sentences_rewritten": 7,
+   "queries": 466
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 7,
+   "eligible": 7,
+   "segments": 9,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 77.77777777777777
+  },
+  "tokens": {
+   "original": 201,
+   "final": 239,
+   "length_change": 38,
+   "pct_not_preserved": 22.885572139303477,
+   "pct_new": 35.14644351464435
+  },
+  "words": {
+   "original": 133,
+   "final": 146,
+   "length_change": 13,
+   "pct_not_preserved": 33.08270676691729,
+   "pct_new": 39.04109589041096
+  },
+  "characters": {
+   "original": 784,
+   "final": 927,
+   "length_change": 143,
+   "pct_not_preserved": 17.219387755102044,
+   "pct_new": 29.989212513484354
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 162,
+   "green_after": 132,
+   "pairs_before": 200,
+   "pairs_after": 238,
+   "pairs_changed_before": 79,
+   "pairs_changed_after": 117,
+   "green_fraction_of_new_pairs": 0.36752136752136755,
+   "delta_achieved": 0.13247863247863245
+  }
+ }
+}

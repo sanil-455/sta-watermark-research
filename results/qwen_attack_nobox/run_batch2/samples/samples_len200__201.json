@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:201",
+ "nobox": {
+  "z_final": 3.938631807216881,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Kentucky trailed 40-32 with just under 17 minutes left, but ran off 13 points in a row, then had a chance to close the game's largest gap at 15 points after Pinkett's 3-pointer with 8 minutes left.",
+    "rewrite": "Kentucky trailed 40-32 with just under 17 minutes remaining, but went on an 13-point run subsequently, then narrowed the gap to 15 points after Pinkett's 3-pointer with 8 minutes left."
+   },
+   "4": {
+    "original": "But, Missouri answered on its next possession with a 3-pointer of its own and the Tigers would not make another miss until Jessica Washington hit a 15-footer to make it 64-58 with 3:42 left.",
+    "rewrite": "But Missouri responded on its next possession with a 3-pointer of its own, and the Tigers wouldn't miss again until Jessica Washington hit a 15-footer to make it 64-58 with 3:42 left."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 40,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "on the floor contributed,\" Walker said. \"It felt like a relief. It was a sense of accomplishment, finally coming together as a team this whole game.\"\nKentucky trailed 40-32 with just under 17 minutes remaining, but went on an 13-point run subsequently, then narrowed the gap to 15 points after Pinkett's 3-pointer with 8 minutes left.\nBut Missouri responded on its next possession with a 3-pointer of its own, and the Tigers wouldn't miss again until Jessica Washington hit a 15-footer to make it 64-58 with 3:42 left.\n\"We got back after them,\" Mitchell said. \"We made some adjustments at the half. We made some stops. We finally got some stops. Our defense took us over the top.\"\nAnd the Wildcats'",
+  "z0": 5.091168824543142,
+  "seconds": 129.3
+ }
+}

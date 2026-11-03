@@ -1,0 +1,253 @@
+{
+ "sample_id": "samples_len500:301",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8632521133764296,
+ "needed_share": 0.700156940890085,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2011,
+  "segments": 22,
+  "eligible": 18,
+  "skipped": 4,
+  "skip_reasons": {
+   "no final punctuation": 1,
+   "too short": 1,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1736,
+  "eligible_char_share": 0.8632521133764296
+ },
+ "attack": {
+  "z0": 6.670156067434094,
+  "z_final": 1.7960530202677492,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 210,
+  "seconds": 246.7,
+  "seconds_by_phase": {
+   "generate": 227.5,
+   "gates": 19.1,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 13,
+    "chars": 435,
+    "z_before": 6.670156067434094,
+    "z_after": 4.44075690976094,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 50,
+     "after_content": 48,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 9,
+      "negation count changed": 2,
+      "meaning too different": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 45,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 92.79
+   },
+   {
+    "pass": 1,
+    "segment": 18,
+    "chars": 164,
+    "z_before": 4.44075690976094,
+    "z_after": 4.114365078599612,
+    "accepted": true,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 46,
+     "after_semantic": 35,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 2,
+      "negation count changed": 10,
+      "meaning too different": 11
+     }
+    },
+    "queries_total": 80,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.04
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 148,
+    "z_before": 4.114365078599612,
+    "z_after": 3.412500738508723,
+    "accepted": true,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 54,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "duplicate": 2,
+      "CJK text": 1,
+      "unknown word": 3,
+      "negation count changed": 8,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 120,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.38
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 146,
+    "z_before": 3.412500738508723,
+    "z_after": 2.6572263597551653,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "duplicate": 2,
+      "unknown word": 1,
+      "meaning too different": 2
+     }
+    },
+    "queries_total": 175,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.03
+   },
+   {
+    "pass": 1,
+    "segment": 17,
+    "chars": 135,
+    "z_before": 2.6572263597551653,
+    "z_after": 1.7960530202677492,
+    "accepted": true,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 3,
+      "glued punctuation": 1,
+      "meaning too different": 17,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 210,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 31.23
+   }
+  ],
+  "rewrites": {
+   "13": {
+    "original": "Jason Trenn what wrote a good article and obvious misunderstood how this entire thing works is versus maker who bids supply-side comes up it gives Knight quotes as to the buy side and Knight always has to pay the buy side is the BBO is the consolidated feeds that we trade on that is essentially an agreement so when you're trading on that in a sense you're trading or even trading multiple markets which are competing with each other.",
+    "rewrite": "Jason Trenn wrote a good article but clearly misunderstood how this entire system functions, distinguishing between the bid-side and the offer-side where Knight acts as the maker by supplying bids. The buy side then sets the quoted prices, meaning Knight always pays based on these quotes. Essentially, the best bid-or-offer (BBO) from consolidated feeds becomes our trade reference\u2014essentially trading across multiple competing markets."
+   },
+   "18": {
+    "original": "But the avatar of Knight Industries, Kabiller likes his computers and he likes talking about them -- and how other people talk about them doesn't interest him much.",
+    "rewrite": "Yet, Kabiller, the avatar of Knight Industries, enjoys his computers and relishes discussing them \u2014 and he does not find other people's opinions on them particularly compelling."
+   },
+   "10": {
+    "original": "They place orders with Knight and Knight places it on the public platforms, if for some reason the price is too high or too low, then it's rejected.",
+    "rewrite": "Knight takes their orders and lists them on public platforms; however, if the prices are either excessively high or low, the orders are rejected."
+   },
+   "6": {
+    "original": "If the maker comes in with a bid of $5.14 and the taker is willing to sell at that price, Knight pro rates the two transactions to bring in $5.15.",
+    "rewrite": "When the maker offers at $5.14 and the taker is ready to sell at that price, Knight averages the two deals to result in $5.15."
+   },
+   "17": {
+    "original": "His mouth is milliseconds away from forming more words as he wrings his hands, emphasizing each point with a jolt of vigor and honesty.",
+    "rewrite": "As he wrings his hands, his mouth nearly springs open to utter more words, infused with each point by an influx of vigor and sincerity."
+   }
+  },
+  "final_span": "They didn't make it through, but let's put it in perspective. This isn't a case of CGI kids this is real life.\nBreaking down the Knight Capita\nWhat Knight markets prices down to. It is most important to understand that Knight sells \"makers\" and \"takers.\" Here's how it works: The maker is the institution that places a bid and the taker is the institution that takes the bid. When the maker offers at $5.14 and the taker is ready to sell at that price, Knight averages the two deals to result in $5.15. It comes out of Knight's assets. And that is the difference between a maker and a taker. Makes are the supply-side of the market. Knight takes their orders and lists them on public platforms; however, if the prices are either excessively high or low, the orders are rejected. So it is just rejected is what it is. And contrary to what I have read three or four... one really good... Jason Trenn wrote a good article but clearly misunderstood how this entire system functions, distinguishing between the bid-side and the offer-side where Knight acts as the maker by supplying bids. The buy side then sets the quoted prices, meaning Knight always pays based on these quotes. Essentially, the best bid-or-offer (BBO) from consolidated feeds becomes our trade reference\u2014essentially trading across multiple competing markets. It is simple.\nDavid Kabiller doesn't care if you believe it. He won't use a word to describe what Knight bought and sold. As he wrings his hands, his mouth nearly springs open to utter more words, infused with each point by an influx of vigor and sincerity. Yet, Kabiller, the avatar of Knight Industries, enjoys his computers and relishes discussing them \u2014 and he does not find other people's opinions on them particularly compelling.\n\"That 'non-toxic' word was the biggest suggestion,\" he says, referring, as he often does, to the idea that Knight's debacle was akin to a non-toxic financial event. In other words, not a big deal. An uncontrolled trading system, by definition,",
+  "break_point": {
+   "step": 4,
+   "sentences_rewritten": 5,
+   "queries": 210
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 5,
+   "eligible": 18,
+   "segments": 22,
+   "pct_of_eligible": 27.77777777777778,
+   "pct_of_segments": 22.727272727272727
+  },
+  "tokens": {
+   "original": 500,
+   "final": 497,
+   "length_change": -3,
+   "pct_not_preserved": 27.200000000000003,
+   "pct_new": 26.76056338028169
+  },
+  "words": {
+   "original": 366,
+   "final": 341,
+   "length_change": -25,
+   "pct_not_preserved": 33.333333333333336,
+   "pct_new": 28.445747800586506
+  },
+  "characters": {
+   "original": 2011,
+   "final": 2003,
+   "length_change": -8,
+   "pct_not_preserved": 22.32720039781203,
+   "pct_new": 22.016974538192713
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 324,
+   "green_after": 268,
+   "pairs_before": 499,
+   "pairs_after": 496,
+   "pairs_changed_before": 175,
+   "pairs_changed_after": 172,
+   "green_fraction_of_new_pairs": 0.3488372093023256,
+   "delta_achieved": 0.1511627906976744
+  }
+ }
+}

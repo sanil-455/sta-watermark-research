@@ -1,0 +1,49 @@
+{
+ "sample_id": "samples_len200:336",
+ "nobox": {
+  "z_final": 3.0792939583695613,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "He expects guidelines for both small businesses and big corporations to be published later in May by the State Bank of Vietnam (SBV), after receiving input from the country\u2019s industry associations.",
+    "rewrite": "Guidelines intended for both small businesses and big corporations are expected to be published later in May by the State Bank of Vietnam (SBV), following input from the country\u2019s industry associations."
+   },
+   "1": {
+    "original": "Under Vietnam\u2019s data security laws, approved last year, enterprises that fall victim to a cyber-attack must report the breach by the latest 24 hours after detecting the incident.",
+    "rewrite": "Under Vietnam\u2019s data security laws, approved last year, enterprises required to report breaches within the latest 24 hours of detecting a cyber-attack."
+   },
+   "3": {
+    "original": "Vietnam\u2019s cyber-security framework is still relatively new and evolving, but it gives some guidance, said Nguyen Minh Duc, VP Payment System Security Solution at FPT Bank.",
+    "rewrite": "Vietnam\u2019s cyber-security framework remains relatively new and is still developing, but it provides some guidance, said Nguyen Minh Duc, VP of Payment System Security Solution at FPT Bank."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 0,
+    "rewritten": false
+   }
+  ],
+  "queries": 1,
+  "final_span": "than 50 percent of the data breaches are caused by internal personnel, there should be a sense of urgency to improve online security,\u201d he said.\nUnder Vietnam\u2019s data security laws, approved last year, enterprises required to report breaches within the latest 24 hours of detecting a cyber-attack. Those who do not suffer punishments that range from fines of 30 million dong ($1,280) to three years in prison.\nVietnam\u2019s cyber-security framework remains relatively new and is still developing, but it provides some guidance, said Nguyen Minh Duc, VP of Payment System Security Solution at FPT Bank. Guidelines intended for both small businesses and big corporations are expected to be published later in May by the State Bank of Vietnam (SBV), following input from the country\u2019s industry associations.\nOne sector of the Vietnam",
+  "z0": 3.8183766184073566,
+  "seconds": 175.6
+ }
+}

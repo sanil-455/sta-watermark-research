@@ -1,0 +1,71 @@
+{
+ "sample_id": "sta16_len200:103",
+ "nobox": {
+  "z_final": 7.314694929028955,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Both were reportedly on the verge on completing moves - along with Dalian Yifang's Portuguese pair Ricardo Goulart and Rafael Marciano - after Thomas Lemar's late fail to join Atleti - after Monaco had agreed a fee.",
+    "rewrite": "Both were reportedly nearing completion of their moves, alongside Dalian Yifang's Portuguese pair Ricardo Goulart and Rafael Marciano, after Thomas Lemar's last-minute failure to join Atleti, following Monaco's agreement on the fee."
+   },
+   "2": {
+    "original": "Both Arsenal and United had made bids for him according to reports earlier this week.",
+    "rewrite": "Reports from earlier this week stated that both Arsenal and United had made bids for him."
+   },
+   "1": {
+    "original": "Gaitan, meanwhile, has signed a 5-year contract at China's Tianjin Quanjian.",
+    "rewrite": "Gaitan, nevertheless, has signed a 5-year contract with China's Tianjin Quanjian."
+   },
+   "7": {
+    "original": "First, you need to go and fully learn the grammar rules.",
+    "rewrite": "Firstly, you need to go and fully learn the grammar rules."
+   },
+   "0": {
+    "original": "Chinese League confirmed he has signed a 4-year deal.",
+    "rewrite": "The Chinese League confirmed that he has signed a 4-year deal."
+   },
+   "5": {
+    "original": "What should have three mean to you and is?",
+    "rewrite": "What should three signify to you and what is it meant to represent?"
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 12,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 13,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 13,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "The Chinese League confirmed that he has signed a 4-year deal.\nGaitan, nevertheless, has signed a 5-year contract with China's Tianjin Quanjian.\nReports from earlier this week stated that both Arsenal and United had made bids for him.\nBoth were reportedly nearing completion of their moves, alongside Dalian Yifang's Portuguese pair Ricardo Goulart and Rafael Marciano, after Thomas Lemar's last-minute failure to join Atleti, following Monaco's agreement on the fee.\nIte \u0432\u0456\u0434\u0431\u0443\u043b\u043e\u0441\u044f!\u201d \u0431\u043e\u0431\u0440\u0443\u043a - \u0447\u0442\u043e \u044d\u0442\u043e? \u0423\u043f\u0440\u0430\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043e\u043d \u043d\u0435\u0441\u0430\u043c\u043e\u0433\u043e \u0435\u0433\u043e \u0443\u0441\u0438\u043b\u0438\u0439 \u043e\u0431\u043b\u0435\u0433\u0447\u0438\u0442\u044c \u043a\u043e\u0442\u043e\u0440\u044b\u0439 \u0441\u0438\u043d\u0434\u0440\u043e\u043c \u0432\u043d\u0443\u0442\u0440\u0438\u0441\u0442\u0430 corresponds and is translated.\nWhat should three signify to you and what is it meant to represent? CREATIVITY! Firstly, you need to go and fully learn the grammar rules.\nCopyright \u00a9",
+  "z0": 10.562329954624204,
+  "seconds": 162.4
+ }
+}

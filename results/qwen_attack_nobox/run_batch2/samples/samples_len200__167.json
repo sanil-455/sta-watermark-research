@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:167",
+ "nobox": {
+  "z_final": 3.8988466275458475,
+  "status": "not broken",
+  "rewrites": {
+   "11": {
+    "original": "For minor illnesses or injuries during regular business hours, most area doctors\u2019 offices also can be a good option.",
+    "rewrite": "During regular business hours, most area doctors' offices are also a good option for minor illnesses or injuries."
+   },
+   "8": {
+    "original": "For moderate illnesses, severe injuries or chest pain, always go to a hospital\u2019s emergency department.",
+    "rewrite": "For moderate illnesses, serious injuries or chest pain, always visit a hospital\u2019s emergency department."
+   },
+   "6": {
+    "original": "You don\u2019t have to be a patient to go to an emergency department.",
+    "rewrite": "You don't need to be a patient to visit an emergency department."
+   },
+   "9": {
+    "original": "Otherwise, you can go first to an Urgent Care.",
+    "rewrite": "Otherwise, you can start by going to an Urgent Care."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 11,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 11,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 13,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "care, the news release noted. Children have signs of a serious illness or injury if they are:\nBreathing difficulty, not breathing or turns blue\nCannot move an entire arm or leg\nUnconscious and cannot be awakened\nLost, injured or burned in a fire\nYou don't need to be a patient to visit an emergency department. Use these guidelines to decide where to go:\nFor moderate illnesses, serious injuries or chest pain, always visit a hospital\u2019s emergency department.\nOtherwise, you can start by going to an Urgent Care.\nfor minor illnesses or injuries, call an urgent care center.\nDuring regular business hours, most area doctors' offices are also a good option for minor illnesses or injuries.\nFor complaints, other than illnesses, urgent care centers or doctors\u2019 offices can be a",
+  "z0": 4.242640687119285,
+  "seconds": 95.4
+ }
+}

@@ -1,0 +1,280 @@
+{
+ "sample_id": "samples_len500:307",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.9429756350440642,
+ "needed_share": 0.7399920956395594,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 1929,
+  "segments": 15,
+  "eligible": 12,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "no final punctuation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1819,
+  "eligible_char_share": 0.9429756350440642
+ },
+ "attack": {
+  "z0": 7.692073842599276,
+  "z_final": 1.78195548330132,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 266,
+  "seconds": 333.9,
+  "seconds_by_phase": {
+   "generate": 309.6,
+   "gates": 24.1,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 324,
+    "z_before": 7.692073842599276,
+    "z_after": 6.234204530046234,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 55,
+     "after_content": 48,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "unknown word": 5,
+      "negation count changed": 7,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 48,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 56.42
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 232,
+    "z_before": 6.234204530046234,
+    "z_after": 5.323684335761493,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 51,
+     "after_content": 49,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "CJK text": 5,
+      "unknown word": 4,
+      "quotation changed": 2,
+      "meaning too different": 4,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 90,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.69
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 230,
+    "z_before": 5.323684335761493,
+    "z_after": 3.8083011822513253,
+    "accepted": true,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 38,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "CJK text": 7,
+      "several lines": 4,
+      "unknown word": 1,
+      "meaning too different": 10
+     }
+    },
+    "queries_total": 128,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 55.2
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 218,
+    "z_before": 3.8083011822513253,
+    "z_after": 3.090909090909091,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "several lines": 3,
+      "CJK text": 2,
+      "negation count changed": 8,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 173,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 65.75
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 195,
+    "z_before": 3.090909090909091,
+    "z_after": 2.2869467687317413,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 1,
+      "unknown word": 3,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 224,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.26
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 162,
+    "z_before": 2.2869467687317413,
+    "z_after": 1.78195548330132,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 45,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "duplicate": 15,
+      "negation count changed": 3
+     }
+    },
+    "queries_total": 266,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.28
+   }
+  ],
+  "rewrites": {
+   "9": {
+    "original": "This means that something less damaging than Theresa May\u2019s deal is likely to get carried over the line\u2013but the chances of it remaining acceptable to BOTH supporters of this option AND the other participants in tomorrow\u2019s proceedings (including, apparently in a conspicuous absence so far, Jeremy Corbyn) is highly uncertain.",
+    "rewrite": "This implies that an agreement less damaging than Theresa May\u2019s deal could likely be agreed upon\u2014but the likelihood of it being accepted by BOTH advocates of this option and the other participants in tomorrow\u2019s discussions (with Jeremy Corbyn noticeably absent so far) remains unclear."
+   },
+   "2": {
+    "original": "It looks like Mrs May\u2019s reputation is currently on the line and, given their penchant for foot-shooting over the past 2\u00bd years, it could all depend on whether they\u2019ve got sufficient sense to kick-out before the \u201ccliff-edge\u201d arrives!",
+    "rewrite": "It appears Mrs May\u2019s reputation is at stake, and considering their history of blunders over the past 2\u00bd years, it might hinge on whether they have enough discernment to remove her before the \"cliff-edge\" occurs!"
+   },
+   "12": {
+    "original": "Combine that with a realisation that any further extension, or revocation, would likely lead to an election which the Tories would lose, and you are left with a group of parliamentarians trying to choose a bad but less bad option.",
+    "rewrite": "Adding to this, the realization that any additional extension or cancellation would probably result in an electoral defeat for the Tories left the parliamentary members with the task of selecting a lesser evil."
+   },
+   "8": {
+    "original": "No one knows how MPs will vote on the indicative votes, but I doubt she\u2019ll get what she wants. three of the options\u2013EU membership without a deal, no deal Brexit and Norway Style/Swiss Model are ruled out by Parliament.",
+    "rewrite": "No one anticipates how MPs will vote on the indicative motions, but I\u2019m skeptical she will achieve her desired outcome. Three of the options\u2014EU membership without a deal, no-deal Brexit, and Norway Style/Swiss Model\u2014are excluded by Parliament."
+   },
+   "11": {
+    "original": "European leaders are getting pretty fed up with Mrs. May\u2019s dithering and the indications coming out of Merkel\u2019s spokes-people is that the only compromise likely to work is 85% of the terms or so.",
+    "rewrite": "European leaders are becoming increasingly frustrated with Mrs. May\u2019s indecisiveness, and Merkel\u2019s officials suggest that any viable compromise would need to cover about 85% of the terms."
+   },
+   "10": {
+    "original": "Given the Parliamentary arithmetic and the the UK Government is, I think there is pretty much no chance of the EU27 agreeing to a renegotiated deal at this point.",
+    "rewrite": "Given the parliamentary arithmetic and the position of the UK Government, I think there is practically no chance of the EU27 agreeing to a renegotiated deal at this point."
+   }
+  },
+  "final_span": "\u201ccrash-out\u201d Brexit. Keep everything crossed and let\u2019s hope cool sense prevails. It appears Mrs May\u2019s reputation is at stake, and considering their history of blunders over the past 2\u00bd years, it might hinge on whether they have enough discernment to remove her before the \"cliff-edge\" occurs!\nNick Baird 21st Mar '19 - 12:13pm\nI\u2019m not sure if you\u2019re responding to me or YulB.\nIf it\u2019s me, you\u2019re correct, I don\u2019t like the Prime Minister personally, but agree with her strategy to date. She\u2019s responding to the wishes of MPs, both left and right. I simply hope she sees the wisdom of ending with a People\u2019s Vote, as she\u2019s part of the problem in not providing the option on votes previously.\nNo one anticipates how MPs will vote on the indicative motions, but I\u2019m skeptical she will achieve her desired outcome. Three of the options\u2014EU membership without a deal, no-deal Brexit, and Norway Style/Swiss Model\u2014are excluded by Parliament. This implies that an agreement less damaging than Theresa May\u2019s deal could likely be agreed upon\u2014but the likelihood of it being accepted by BOTH advocates of this option and the other participants in tomorrow\u2019s discussions (with Jeremy Corbyn noticeably absent so far) remains unclear.\nGiven the parliamentary arithmetic and the position of the UK Government, I think there is practically no chance of the EU27 agreeing to a renegotiated deal at this point. European leaders are becoming increasingly frustrated with Mrs. May\u2019s indecisiveness, and Merkel\u2019s officials suggest that any viable compromise would need to cover about 85% of the terms.\nAdding to this, the realization that any additional extension or cancellation would probably result in an electoral defeat for the Tories left the parliamentary members with the task of selecting a lesser evil. And the worst possible choice is no deal.\nNick I hope your Film Character isn\u2019t Trevor",
+  "break_point": {
+   "step": 5,
+   "sentences_rewritten": 6,
+   "queries": 266
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 6,
+   "eligible": 12,
+   "segments": 15,
+   "pct_of_eligible": 50.0,
+   "pct_of_segments": 40.0
+  },
+  "tokens": {
+   "original": 501,
+   "final": 480,
+   "length_change": -21,
+   "pct_not_preserved": 29.141716566866272,
+   "pct_new": 26.041666666666664
+  },
+  "words": {
+   "original": 331,
+   "final": 306,
+   "length_change": -25,
+   "pct_not_preserved": 36.55589123867069,
+   "pct_new": 31.372549019607842
+  },
+  "characters": {
+   "original": 1929,
+   "final": 1875,
+   "length_change": -54,
+   "pct_not_preserved": 23.691031622602388,
+   "pct_new": 21.493333333333332
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 336,
+   "green_after": 259,
+   "pairs_before": 500,
+   "pairs_after": 479,
+   "pairs_changed_before": 200,
+   "pairs_changed_after": 179,
+   "green_fraction_of_new_pairs": 0.329608938547486,
+   "delta_achieved": 0.17039106145251398
+  }
+ }
+}

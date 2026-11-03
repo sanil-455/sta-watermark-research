@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:298",
+ "nobox": {
+  "z_final": 3.0310889132455356,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Ms. Lang called her avant-rock, alt-country singer a runaway teenager, then turned up months later with a new stage persona, the aspiring country queen \u201cTammy Jondahl.\u201d",
+    "rewrite": "Ms. Lang referred to her avant-rock, alt-country singer as a runaway teenager and later emerged months later with a new stage persona, the aspiring country queen \u201cTammy Jondahl.\u201d"
+   },
+   "4": {
+    "original": "In an unlikely collaboration with the rock group Built to Spill, she toured Nevada, visiting the brothels to research songs for her show, \u201cDirty Blonde Blues.\u201d",
+    "rewrite": "She toured Nevada with the rock group Built to Spill, visiting brothels to research songs for her show, \u201cDirty Blonde Blues.\u201d"
+   },
+   "1": {
+    "original": "Against her parents\u2019 wishes, she kibitzed and created her own over-the-top character.",
+    "rewrite": "Despite her parents' wishes, she kibitzed and crafted her own elaborate character."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 36,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 10,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "get a country singer she was dating, named Toby, an appearance on \u201cStar Search.\u201d Despite her parents' wishes, she kibitzed and crafted her own elaborate character.\nMs. Lang referred to her avant-rock, alt-country singer as a runaway teenager and later emerged months later with a new stage persona, the aspiring country queen \u201cTammy Jondahl.\u201d \u201cThe whole time I was on debutante circuit and all I\u2019d ever think about was what I would never wear,\u201d Ms. Lang said.\nShe toured Nevada with the rock group Built to Spill, visiting brothels to research songs for her show, \u201cDirty Blonde Blues.\u201d \u201cI didn\u2019t have to stay, but I figured it\u2019s one of these things for the bucket list,\u201d she said.\nTough reviews followed, and she vowed never to",
+  "z0": 4.666904755831213,
+  "seconds": 119.6
+ }
+}

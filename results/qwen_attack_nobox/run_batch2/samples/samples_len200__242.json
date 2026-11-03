@@ -1,0 +1,67 @@
+{
+ "sample_id": "samples_len200:242",
+ "nobox": {
+  "z_final": 3.411211461689767,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "In the US, you make sure you hold on to the biggest fish and the biggest fish regard the biggest fish getting to the table and talking first.",
+    "rewrite": "In the US, you ensure you retain the largest fish, and the biggest fish tend to regard the largest ones as getting to sit at the table and speak first."
+   },
+   "2": {
+    "original": "Bright minds are already working on that problem, and maybe it will work out, but there is no denying at the moment that it is a problem.",
+    "rewrite": "Currently, bright minds are tackling that issue, and while there may be a solution eventually, it cannot be denied that it is indeed a problem now."
+   },
+   "3": {
+    "original": "To paraphrase The Count of Monte Cristo, problem according to whom, monsieur?",
+    "rewrite": "To paraphrase The Count of Monte Cristo, whose problem is this, monsieur?"
+   },
+   "1": {
+    "original": "They'd be able to pick and choose which bits they wanted to ship.",
+    "rewrite": "They could select and send whatever parts they chose."
+   },
+   "4": {
+    "original": "Android is no longer a tribespeople, but now an empire.",
+    "rewrite": "Android is no longer a tribespeople; it is now an empire."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 6,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 2,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 4,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 23,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the OEMs and carriers to opt back into AOSP if they did release proprietary versions. They could select and send whatever parts they chose.\nCurrently, bright minds are tackling that issue, and while there may be a solution eventually, it cannot be denied that it is indeed a problem now. To paraphrase The Count of Monte Cristo, whose problem is this, monsieur?\nAndroid is no longer a tribespeople; it is now an empire. It is built around the interests of whomever controls its apparatus, and this in turn is built around US-market dynamics, and not European pressures for open, named standards, nor Asian fail fast.\nIn the US, you ensure you retain the largest fish, and the biggest fish tend to regard the largest ones as getting to sit at the table and speak first.\nGoogle is no longer the guardian of the platforms, if for no other reasons than because inc",
+  "z0": 5.232590180780451,
+  "seconds": 179.6
+ }
+}

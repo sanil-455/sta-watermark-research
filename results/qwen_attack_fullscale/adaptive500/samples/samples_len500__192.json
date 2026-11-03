@@ -1,0 +1,783 @@
+{
+ "sample_id": "samples_len500:192",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.44799176107106076,
+ "needed_share": 0.7694775280928052,
+ "delta_needed": 0.13921737902748063,
+ "segmentation": {
+  "chars": 1942,
+  "segments": 17,
+  "eligible": 5,
+  "skipped": 12,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 10,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 870,
+  "eligible_char_share": 0.44799176107106076
+ },
+ "attack": {
+  "z0": 8.675943752699183,
+  "z_final": 4.636363636363637,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 5,
+  "queries": 803,
+  "seconds": 1142.6,
+  "seconds_by_phase": {
+   "generate": 1077.1,
+   "gates": 65.1,
+   "detector": 0.4
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 360,
+    "z_before": 8.675943752699183,
+    "z_after": 7.670398298677988,
+    "accepted": true,
+    "survivors": 6,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 47,
+     "after_content": 6,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 6,
+     "rejected": {
+      "CJK text": 7,
+      "unknown word": 6,
+      "quotation changed": 11,
+      "numbers changed": 30
+     }
+    },
+    "queries_total": 7,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 93.22
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 173,
+    "z_before": 7.670398298677988,
+    "z_after": 6.86666006207991,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "duplicate": 4,
+      "meaning too different": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 59,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 39.76
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 153,
+    "z_before": 6.86666006207991,
+    "z_after": 5.987641593469991,
+    "accepted": true,
+    "survivors": 58,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 58,
+     "rejected": {
+      "unknown word": 2
+     }
+    },
+    "queries_total": 117,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.31
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 128,
+    "z_before": 5.987641593469991,
+    "z_after": 5.608317256826904,
+    "accepted": true,
+    "survivors": 37,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 38,
+     "after_spelling": 37,
+     "after_content": 37,
+     "after_semantic": 37,
+     "fluency_skipped": false,
+     "after_fluency": 37,
+     "rejected": {
+      "duplicate": 20,
+      "CJK text": 2,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 154,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.82
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 56,
+    "z_before": 5.608317256826904,
+    "z_after": 5.374752720356468,
+    "accepted": true,
+    "survivors": 17,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 22,
+     "after_spelling": 20,
+     "after_content": 20,
+     "after_semantic": 20,
+     "fluency_skipped": false,
+     "after_fluency": 17,
+     "rejected": {
+      "duplicate": 38,
+      "unknown word": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 171,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.23
+   },
+   {
+    "pass": 2,
+    "segment": 8,
+    "chars": 360,
+    "z_before": 5.374752720356468,
+    "z_after": 5.9336610396393,
+    "accepted": false,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 56,
+     "after_content": 2,
+     "after_semantic": 2,
+     "fluency_skipped": true,
+     "after_fluency": 2,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 1,
+      "numbers changed": 37,
+      "quotation changed": 17
+     }
+    },
+    "queries_total": 173,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 96.78
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 173,
+    "z_before": 5.374752720356468,
+    "z_after": 5.50569063783881,
+    "accepted": false,
+    "survivors": 56,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 56,
+     "rejected": {
+      "duplicate": 4
+     }
+    },
+    "queries_total": 229,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 39.64
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 153,
+    "z_before": 5.374752720356468,
+    "z_after": 5.283655216621613,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "duplicate": 2,
+      "unknown word": 4,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 282,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.18
+   },
+   {
+    "pass": 2,
+    "segment": 9,
+    "chars": 128,
+    "z_before": 5.283655216621613,
+    "z_after": 5.080423170216962,
+    "accepted": true,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 39,
+     "after_spelling": 38,
+     "after_content": 38,
+     "after_semantic": 38,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 18,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 319,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.31
+   },
+   {
+    "pass": 2,
+    "segment": 11,
+    "chars": 56,
+    "z_before": 5.080423170216962,
+    "z_after": 5.080423170216962,
+    "accepted": false,
+    "survivors": 22,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 29,
+     "after_spelling": 26,
+     "after_content": 26,
+     "after_semantic": 26,
+     "fluency_skipped": false,
+     "after_fluency": 22,
+     "rejected": {
+      "duplicate": 31,
+      "unknown word": 3,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 340,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.86
+   },
+   {
+    "pass": 3,
+    "segment": 8,
+    "chars": 360,
+    "z_before": 5.080423170216962,
+    "z_after": 5.049349954137621,
+    "accepted": true,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 50,
+     "after_content": 5,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 6,
+      "numbers changed": 40,
+      "quotation changed": 5
+     }
+    },
+    "queries_total": 345,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 91.02
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 173,
+    "z_before": 5.049349954137621,
+    "z_after": 4.969293465978882,
+    "accepted": true,
+    "survivors": 58,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 58,
+     "rejected": {
+      "duplicate": 1,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 403,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.67
+   },
+   {
+    "pass": 3,
+    "segment": 5,
+    "chars": 153,
+    "z_before": 4.969293465978882,
+    "z_after": 5.009359874712419,
+    "accepted": false,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 4,
+      "unknown word": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 455,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.63
+   },
+   {
+    "pass": 3,
+    "segment": 9,
+    "chars": 128,
+    "z_before": 4.969293465978882,
+    "z_after": 5.040250361970148,
+    "accepted": false,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 33,
+     "after_spelling": 33,
+     "after_content": 33,
+     "after_semantic": 33,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "duplicate": 26,
+      "CJK text": 1
+     }
+    },
+    "queries_total": 488,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.98
+   },
+   {
+    "pass": 3,
+    "segment": 11,
+    "chars": 56,
+    "z_before": 4.969293465978882,
+    "z_after": 4.969293465978882,
+    "accepted": false,
+    "survivors": 14,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 16,
+     "after_spelling": 15,
+     "after_content": 15,
+     "after_semantic": 15,
+     "fluency_skipped": false,
+     "after_fluency": 14,
+     "rejected": {
+      "duplicate": 43,
+      "CJK text": 1,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 501,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.23
+   },
+   {
+    "pass": 4,
+    "segment": 8,
+    "chars": 360,
+    "z_before": 4.969293465978882,
+    "z_after": 4.636363636363637,
+    "accepted": true,
+    "survivors": 7,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 57,
+     "after_content": 7,
+     "after_semantic": 7,
+     "fluency_skipped": false,
+     "after_fluency": 7,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 1,
+      "numbers changed": 36,
+      "quotation changed": 14
+     }
+    },
+    "queries_total": 508,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 88.51
+   },
+   {
+    "pass": 4,
+    "segment": 4,
+    "chars": 173,
+    "z_before": 4.636363636363637,
+    "z_after": 4.848632822395048,
+    "accepted": false,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "duplicate": 11,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 556,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 39.38
+   },
+   {
+    "pass": 4,
+    "segment": 5,
+    "chars": 153,
+    "z_before": 4.636363636363637,
+    "z_after": 4.7272727272727275,
+    "accepted": false,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 1,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 608,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.86
+   },
+   {
+    "pass": 4,
+    "segment": 9,
+    "chars": 128,
+    "z_before": 4.636363636363637,
+    "z_after": 4.665371408212752,
+    "accepted": false,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "duplicate": 14,
+      "CJK text": 1,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 652,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 31.14
+   },
+   {
+    "pass": 4,
+    "segment": 11,
+    "chars": 56,
+    "z_before": 4.636363636363637,
+    "z_after": 4.636363636363637,
+    "accepted": false,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 25,
+     "after_spelling": 22,
+     "after_content": 22,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "duplicate": 34,
+      "CJK text": 1,
+      "unknown word": 3,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 669,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.1
+   },
+   {
+    "pass": 5,
+    "segment": 8,
+    "chars": 360,
+    "z_before": 4.636363636363637,
+    "z_after": 5.020790110464023,
+    "accepted": false,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 49,
+     "after_content": 5,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 4,
+      "unknown word": 6,
+      "numbers changed": 34,
+      "quotation changed": 10
+     }
+    },
+    "queries_total": 674,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 95.17
+   },
+   {
+    "pass": 5,
+    "segment": 4,
+    "chars": 173,
+    "z_before": 4.636363636363637,
+    "z_after": 4.90911310531039,
+    "accepted": false,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "duplicate": 12
+     }
+    },
+    "queries_total": 716,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.61
+   },
+   {
+    "pass": 5,
+    "segment": 5,
+    "chars": 153,
+    "z_before": 4.636363636363637,
+    "z_after": 4.686662278490887,
+    "accepted": false,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 3,
+      "duplicate": 1,
+      "unknown word": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 764,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.56
+   },
+   {
+    "pass": 5,
+    "segment": 9,
+    "chars": 128,
+    "z_before": 4.636363636363637,
+    "z_after": 4.728962165665972,
+    "accepted": false,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 40,
+     "after_spelling": 39,
+     "after_content": 39,
+     "after_semantic": 39,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "duplicate": 20,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 794,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 31.33
+   },
+   {
+    "pass": 5,
+    "segment": 11,
+    "chars": 56,
+    "z_before": 4.636363636363637,
+    "z_after": 4.636363636363637,
+    "accepted": false,
+    "survivors": 20,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 24,
+     "after_spelling": 23,
+     "after_content": 23,
+     "after_semantic": 23,
+     "fluency_skipped": false,
+     "after_fluency": 20,
+     "rejected": {
+      "duplicate": 35,
+      "CJK text": 1,
+      "unknown word": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 803,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.8
+   }
+  ],
+  "rewrites": {
+   "8": {
+    "original": "The North Indian tradition known as gayaki is the art of singing, and the gayaki style that\u2019s central to Yaman, which rightfully gets three of its 12 tracks as a bonus feature, is called whatar, or light, love and joy; it\u2019s deep but \u201cmore easy to digest\u201d, says Khan, much more so than it\u2019s sister style, known as khayal, which is more intimate and sentimental.",
+    "rewrite": "The North Indian gayaki tradition, known for vocal singing, prominently features the Yaman style, which has three songs dedicated to it among its 12 tracks as a special highlight, described by Khan as whatar, signifying light, love, and joy. This form is perceived as deeper but also \u201cmore easy to digest,\u201d in contrast to its sister style, khayal, characterized as more intimate and sentimental."
+   },
+   "4": {
+    "original": "Assani was born in Mauritius, and over the last few years, Khan has enlisted his services as both musical director and sitar virtuoso on a number of small-ensemble projects.",
+    "rewrite": "Assani was born in Mauritius, and in recent years, Khan has engaged Assani for his musical direction and sitar skills in various small group projects."
+   },
+   "5": {
+    "original": "The tunes on Yaman come from a repertoire first assembled as Love Songs of the North, an album that Khan released with another vocalist, Karuna Tuserint.",
+    "rewrite": "The songs on Yaman originate from a repertoire called Love Songs of the North, an album Khan released featuring another vocal artist, Karuna Tuserint."
+   },
+   "9": {
+    "original": "To put it in visual terms, he notes that In a way it\u2019s similar to playing ping pong, while khayal is more like a ballroom dance.",
+    "rewrite": "In visual terms, he observes that it is akin to playing ping pong in a certain sense, whereas khayal resembles a ballroom dance."
+   },
+   "11": {
+    "original": "Like Assani, Khan thinks of music as a living tradition.",
+    "rewrite": "Similar to Assani, Khan views music as a living tradition."
+   }
+  },
+  "final_span": "on that day, and he was asked if he wanted some accompaniment. He said, \u2018Of course!\u2019 And then we\u2019re playing for someone else at the festival\u2014I think Amika\u2019s relatives, and maybe a sitar player as well. So it\u2019s going to be a fun day, a day full of sitar, tabla and singing; a day dedicated to music.\u201d\nAssani was born in Mauritius, and in recent years, Khan has engaged Assani for his musical direction and sitar skills in various small group projects. The songs on Yaman originate from a repertoire called Love Songs of the North, an album Khan released featuring another vocal artist, Karuna Tuserint.\n\u201cThis music we had recorded the previous summer, and we had got an offer from someone to put it out,\u201d says Khan. \u201cAnd it\u2019s a very good part of the music.\u201d The North Indian gayaki tradition, known for vocal singing, prominently features the Yaman style, which has three songs dedicated to it among its 12 tracks as a special highlight, described by Khan as whatar, signifying light, love, and joy. This form is perceived as deeper but also \u201cmore easy to digest,\u201d in contrast to its sister style, khayal, characterized as more intimate and sentimental. In visual terms, he observes that it is akin to playing ping pong in a certain sense, whereas khayal resembles a ballroom dance. He adds, \u201cGayaki\u2014meaning singing\u2014is the part of me I have engaged for a long time, and there are three of us, me and two of my female relatives.\u201d\nSimilar to Assani, Khan views music as a living tradition. \u201cWhen you look at the way young people are living now, there are no boundaries, there are no rules,\u201d he says. \u201cAnd I think the way that music is adapting or is being integrated by the young is quite beautiful. And the older generation doesn\u2019t know what to make of it. But, you know, if you want to live in paradise, you have to let go of the rules. So we are here as servants of music, and whatever the boundaries of society are today, if that is the way things are,",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 5,
+   "eligible": 5,
+   "segments": 17,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 29.41176470588235
+  },
+  "tokens": {
+   "original": 501,
+   "final": 485,
+   "length_change": -16,
+   "pct_not_preserved": 18.562874251497007,
+   "pct_new": 15.876288659793813
+  },
+  "words": {
+   "original": 364,
+   "final": 354,
+   "length_change": -10,
+   "pct_not_preserved": 22.8021978021978,
+   "pct_new": 20.621468926553675
+  },
+  "characters": {
+   "original": 1942,
+   "final": 1953,
+   "length_change": 11,
+   "pct_not_preserved": 13.748712667353246,
+   "pct_new": 14.234511008704553
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 347,
+   "green_after": 293,
+   "pairs_before": 500,
+   "pairs_after": 484,
+   "pairs_changed_before": 130,
+   "pairs_changed_after": 114,
+   "green_fraction_of_new_pairs": 0.3157894736842105,
+   "delta_achieved": 0.1842105263157895
+  }
+ }
+}

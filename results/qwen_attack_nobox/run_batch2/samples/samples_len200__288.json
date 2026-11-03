@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:288",
+ "nobox": {
+  "z_final": 3.256085723815897,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "It had attempted to do so twice before, but CG tests revealed cracks in the rocket's first stage, and both efforts ended in failures that called an end to the company's ambitious plans to salvage rocket boosters and fly them again.",
+    "rewrite": "It tried to achieve this twice previously, however, CG tests indicated cracks in the first stage of the rocket, resulting in failures that halted the company's ambitious goals to retrieve and reuse rocket boosters."
+   },
+   "3": {
+    "original": "The company built its next Falcon 9 booster from a rocket segment that flew twice before and kept it on schedule for a possible launch next month.",
+    "rewrite": "The company constructed its next Falcon 9 booster using a rocket segment that had flown previously twice, and maintained a schedule for a potential launch in the upcoming month."
+   },
+   "2": {
+    "original": "So, after the SES-10 mission, SpaceX is getting another shot at demonstrating that perfect reusability is possible.",
+    "rewrite": "After the SES-10 mission, SpaceX is once again showing the possibility of perfect reusability."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 43,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the company managed only one successful orbital rocket booster reflight. It tried to achieve this twice previously, however, CG tests indicated cracks in the first stage of the rocket, resulting in failures that halted the company's ambitious goals to retrieve and reuse rocket boosters.\nAfter the SES-10 mission, SpaceX is once again showing the possibility of perfect reusability. The company constructed its next Falcon 9 booster using a rocket segment that had flown previously twice, and maintained a schedule for a potential launch in the upcoming month.\nThe full-up Falcon 9 booster that launched SES-10 is seen after landing on the drone ship \"Of Course I Still Love You\" in the Atlantic Ocean. The booster will be reflown in late May, SpaceX announced on April 8, 2017",
+  "z0": 4.525483399593904,
+  "seconds": 137.8
+ }
+}

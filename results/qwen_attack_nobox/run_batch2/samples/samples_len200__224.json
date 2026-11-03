@@ -1,0 +1,15 @@
+{
+ "sample_id": "samples_len200:224",
+ "nobox": {
+  "z_final": 3.615294145542513,
+  "status": "not broken",
+  "rewrites": {},
+  "sentences_rewritten": 0,
+  "eligible": 0,
+  "per_sentence": [],
+  "queries": 1,
+  "final_span": "the Human Capital Framework - programs that help managers to understand the critical aspects of their Sustainment, Transformation, and Modernization workforce - will also be overhauled to assure their intent focuses on an ambitious yet practical approach to meeting future Armed Forces requirements.\n\"While I don't have a specific timeline to announce, I do believe Ready Army Civilian aligns to the overall reform efforts identified throughout the tribes (AMC's human resource functional experts) and across the AMC enterprise. The readiness health and well-being of our civilians matters in the same way Soldier readiness and the health and well being of Soldier readiness matters,\" Wyche said.\nThe 2018 Holte vehicle-mounted fire control sensor was integrated on an NLOS-C air-mobile launcher at White Sands Missile Range, New Mexico, before the",
+  "z0": 3.615294145542513,
+  "seconds": 0.0
+ }
+}

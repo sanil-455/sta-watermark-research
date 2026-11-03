@@ -1,0 +1,125 @@
+{
+ "sample_id": "samples_len500:30",
+ "nobox": {
+  "z_final": 5.324139056496683,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "According to court documents, investigators looked for data from the phones of 4-year- vehicle-crime detective Matthew Harrity and a neighboring officer, nearly a week after the July 15 shooting.",
+    "rewrite": "According to court documents, investigators sought data from the phones of 4-year-vehicle-crime detective Matthew Harrity and a nearby officer, about a week after the July 15 shooting."
+   },
+   "5": {
+    "original": "Andy Stoute, executive director of the Minnesota Chiefs of Police Association, would not comment on the officer requesting the search of the computers in his married father's home.",
+    "rewrite": "Andy Stoute, executive director of the Minnesota Chiefs of Police Association, did not comment on the officer who requested the search of his married father's computers."
+   },
+   "12": {
+    "original": "The department has said the officers were responding to a woman asking for help, but has not publicly confirmed details of the incident that led to the shooting.",
+    "rewrite": "The department indicated that the officers were responding to a woman seeking help, though it has not publicly disclosed specifics of the incident resulting in the shooting."
+   },
+   "2": {
+    "original": "While Frey has said he didn't want anything to \"prematurely undermine\" the investigation by Chief Medaria Arradondo, Frey visited with the family again Friday.",
+    "rewrite": "Although Frey stated he didn't want anything to \"prematurely undermine\" the investigation led by Chief Medaria Arradondo, Frey met with the family again on Friday."
+   },
+   "7": {
+    "original": "Chynna Demian, a cousin of Harrity and the sister of his wife, was outside the woman's home Friday when BCA agent Brandon Long knocked on the door.",
+    "rewrite": "Chynna Demian, who is a cousin to Harrity and the sister of his wife, was outside the woman's home on Friday when BCA agent Brandon Long knocked on the door."
+   },
+   "1": {
+    "original": "He said after meeting with the family over the past two days that he initially planned to divulge everything he knew to their grieving family.",
+    "rewrite": "After meeting with the family for two days, he said that he initially planned to reveal all the information he had to their grieving family."
+   },
+   "13": {
+    "original": "Minnesota is a police state is why officers are always being indicted by these courts and prosecutors.",
+    "rewrite": "Minnesota acts like a police state, which is why officers are frequently indicted by these courts and prosecutors."
+   },
+   "9": {
+    "original": "Authorities have not released the names of the officers, citing the investigation into their actions.",
+    "rewrite": "The authorities haven't disclosed the names of the officers, citing the ongoing investigation into their actions."
+   },
+   "10": {
+    "original": "Harrity has filed a pre-emptive lawsuit to protect him against potential claims of wrongdoing.",
+    "rewrite": "Harrity has filed a preemptive lawsuit to guard against possible allegations of misconduct."
+   },
+   "11": {
+    "original": "Damond was shot in her pajamas after calling 911 to report a possible assault behind her home.",
+    "rewrite": "Damond was shot in her pajamas after she called 911 to report a potential assault behind her home."
+   },
+   "14": {
+    "original": "These liberal scum were acting without the consent of the victim, Justine.",
+    "rewrite": "These liberal individuals were acting without the consent of the victim, Justine."
+   },
+   "8": {
+    "original": "Relatives declined comment after meeting with the police investigator.",
+    "rewrite": "After meeting with the police investigator, relatives declined to comment."
+   }
+  },
+  "sentences_rewritten": 12,
+  "eligible": 12,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 2,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 3,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 15,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 36,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 14,
+    "survivors": 7,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 15,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "approved hours after Mayor Jacob Frey apologized to Damond's family for not being transparent enough about what has become a deeply controversial case. After meeting with the family for two days, he said that he initially planned to reveal all the information he had to their grieving family.\nAlthough Frey stated he didn't want anything to \"prematurely undermine\" the investigation led by Chief Medaria Arradondo, Frey met with the family again on Friday.\n\"I offered our apology on behalf of the city to whomever they would choose to accept it from,\" Frey said outside City Hall in his two-hour meeting with the family.\nAccording to court documents, investigators sought data from the phones of 4-year-vehicle-crime detective Matthew Harrity and a nearby officer, about a week after the July 15 shooting.\nAndy Stoute, executive director of the Minnesota Chiefs of Police Association, did not comment on the officer who requested the search of his married father's computers. The application said the officers did not suspect a crime was committed but that a search was needed so \"hypothetical answers may be tested.\"\nChynna Demian, who is a cousin to Harrity and the sister of his wife, was outside the woman's home on Friday when BCA agent Brandon Long knocked on the door.\nAfter meeting with the police investigator, relatives declined to comment.\nThe authorities haven't disclosed the names of the officers, citing the ongoing investigation into their actions. Harrity has filed a preemptive lawsuit to guard against possible allegations of misconduct.\nDamond was shot in her pajamas after she called 911 to report a potential assault behind her home. The department indicated that the officers were responding to a woman seeking help, though it has not publicly disclosed specifics of the incident resulting in the shooting.\nMinnesota acts like a police state, which is why officers are frequently indicted by these courts and prosecutors. These liberal individuals were acting without the consent of the victim, Justine. She called 911 to assist, not to be made a target of the police\nUnion backing judge in cop's civil suit; recall campaign underway\nBy: Teri Cadeau | Forum News Service |",
+  "z0": 7.33430296619931,
+  "seconds": 405.6
+ }
+}

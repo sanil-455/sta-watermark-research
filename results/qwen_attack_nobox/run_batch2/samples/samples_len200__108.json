@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:108",
+ "nobox": {
+  "z_final": 2.120690029968679,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "On the other hand, at least for an official government policy, Donald Trump defeated Hillary Clinton in a hard-fought campaign, and the sooner Trump's enemies in the United States and around the world admit that and accept the result of the election rather than trying to whittle it down, the better it will be for everyone -- especially Americans displaced by Trump's policies.",
+    "rewrite": "Meanwhile, regarding official government policy, Donald Trump defeated Hillary Clinton in a challenging campaign. It would be better for everyone\u2014especially Americans affected by Trump\u2019s policies\u2014if his opponents in the U.S. and abroad acknowledged this and accepted the election outcome instead of contesting it."
+   },
+   "2": {
+    "original": "And, no, claims that Donald Trump is compromised by ties with the Russians make about as much sense as the allegations that the Sandinista regime in Nicaragua was compromised by Castro or that the Cuban government is compromised by its relations with Venezuela.",
+    "rewrite": "And, no, claims that Donald Trump is compromised by ties with the Russians are just as devoid of sense as the allegations that the Sandinista regime in Nicaragua was compromised by Castro or that the Cuban government is compromised by its relations with Venezuela."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 18,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 22,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "one hand, it would be ironic -- let's just call it that -- if a country that has pillaged the earth on behalf of its corporate-financier elites were to be pillaged by a change in leadership in much the same way.\nMeanwhile, regarding official government policy, Donald Trump defeated Hillary Clinton in a challenging campaign. It would be better for everyone\u2014especially Americans affected by Trump\u2019s policies\u2014if his opponents in the U.S. and abroad acknowledged this and accepted the election outcome instead of contesting it.\nAnd, no, claims that Donald Trump is compromised by ties with the Russians are just as devoid of sense as the allegations that the Sandinista regime in Nicaragua was compromised by Castro or that the Cuban government is compromised by its relations with Venezuela.\nFor one thing,",
+  "z0": 5.374011537017761,
+  "seconds": 140.1
+ }
+}

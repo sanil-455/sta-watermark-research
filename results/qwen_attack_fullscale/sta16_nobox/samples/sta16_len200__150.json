@@ -1,0 +1,35 @@
+{
+ "sample_id": "sta16_len200:150",
+ "nobox": {
+  "z_final": 5.290092118939487,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Valverde, whose squad have racked up 67 goals in their first 22 games, insists that Messi is first and foremost a club player, yet faces a bindover exactly how he wants his side to play against Leganes with Thomas Lemar, Philippe Coutinho, Arturo Vidal and Luis Suarez all ruled out.",
+    "rewrite": "Valverde, whose team has scored 67 goals in their first 22 games, maintains that Messi is primarily a club player, but is confronted with a dilemma regarding how he wants his side to play against Leganes, given that Thomas Lemar, Philippe Coutinho, Arturo Vidal, and Luis Suarez are all out."
+   },
+   "2": {
+    "original": "There is still the hope that Messi will be fit in time to play in last-16 champions Old Trafford Liverpool, but he has told his team-mates it would be right if he did not play at United.",
+    "rewrite": "There is still hope that Messi will be fit enough to play in the last-16 match at Old Trafford against Liverpool, but he has told his teammates that it would be right if he did not play there."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 52,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the coat-tails of bitter arch-rivals Real Madrid, but now sit two points behind the league leaders having suffered three consecutive draws, although they will be buoyed by a 8-2 thrashing of Sevilla on Wednesday night.\nValverde, whose team has scored 67 goals in their first 22 games, maintains that Messi is primarily a club player, but is confronted with a dilemma regarding how he wants his side to play against Leganes, given that Thomas Lemar, Philippe Coutinho, Arturo Vidal, and Luis Suarez are all out.\nThere is still hope that Messi will be fit enough to play in the last-16 match at Old Trafford against Liverpool, but he has told his teammates that it would be right if he did not play there.\nSergio Busquets is the only doubt for Barcelona with a back complaint which",
+  "z0": 7.919595949289332,
+  "seconds": 144.2
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:230",
+ "nobox": {
+  "z_final": 2.6097787786768136,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "He is holding out hopes, as did Kim Dae Jung, South Korea's leading opposition figure; the elections were held before the North Korean decision to stop all nuclear testing and abandon the remaining reactors at Taechon.",
+    "rewrite": "He is holding out hopes, as did South Korea's leading opposition figure Kim Dae Jung; the elections took place before North Korea decided to stop all nuclear testing and abandon the remaining reactors at Taechon."
+   },
+   "1": {
+    "original": "Kim Tae Jik, secretary general of the North Korean People's Revolutionary Party, told the Assembly this week that North Korea wants political and security talks with South Korea.",
+    "rewrite": "Kim Tae Jik, secretary general of the North Korean People's Revolutionary Party, told the Assembly this week that North Korea desires political and security talks with South Korea."
+   },
+   "3": {
+    "original": "Kim Dae Jung, who holds a public visit to Mount Geumgang, is well familiarized with the Yonbun inspection probe in Gangwon Province.",
+    "rewrite": "Kim Dae Jung, who conducts a public visit to Mount Geumgang, is thoroughly familiar with the Yonbun inspection probe in Gangwon Province."
+   },
+   "0": {
+    "original": "Korea's leading opposition figure.",
+    "rewrite": "The lead figure of Korea's opposition."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 27,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 30,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "The lead figure of Korea's opposition.\nKim Tae Jik, secretary general of the North Korean People's Revolutionary Party, told the Assembly this week that North Korea desires political and security talks with South Korea.\nHe is holding out hopes, as did South Korea's leading opposition figure Kim Dae Jung; the elections took place before North Korea decided to stop all nuclear testing and abandon the remaining reactors at Taechon.\nKim Dae Jung, who conducts a public visit to Mount Geumgang, is thoroughly familiar with the Yonbun inspection probe in Gangwon Province.\nfor people displaced by North Korean bombshelts, but he is also a fierce nemesis of the North Korean regime; Kim Dae Jung, the opposition leader who participated in negotiations in May, also has a personal history of losing a number of family members to partisan purges and political repression in North",
+  "z0": 4.384062043356595,
+  "seconds": 156.1
+ }
+}

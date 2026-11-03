@@ -1,0 +1,407 @@
+{
+ "sample_id": "samples_len500:97",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.9536643026004729,
+ "needed_share": 0.774134547727294,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2115,
+  "segments": 15,
+  "eligible": 12,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "too short": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 2017,
+  "eligible_char_share": 0.9536643026004729
+ },
+ "attack": {
+  "z0": 8.854829190899167,
+  "z_final": 1.5892681321527493,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 277,
+  "seconds": 450.4,
+  "seconds_by_phase": {
+   "generate": 426.9,
+   "gates": 23.2,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 349,
+    "z_before": 8.854829190899167,
+    "z_after": 7.521301730154451,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "CJK text": 5,
+      "several lines": 1,
+      "unknown word": 1,
+      "meaning too different": 1,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 48,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 57.26
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 298,
+    "z_before": 7.521301730154451,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 50,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "duplicate": 6,
+      "several lines": 1,
+      "CJK text": 1,
+      "unknown word": 2,
+      "negation count changed": 50
+     }
+    },
+    "queries_total": 48,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 60.89
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 296,
+    "z_before": 7.521301730154451,
+    "z_after": 6.324555320336759,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 6
+     }
+    },
+    "queries_total": 98,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 64.12
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 198,
+    "z_before": 6.324555320336759,
+    "z_after": 5.330696627140982,
+    "accepted": true,
+    "survivors": 25,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 50,
+     "after_content": 40,
+     "after_semantic": 26,
+     "fluency_skipped": false,
+     "after_fluency": 25,
+     "rejected": {
+      "CJK text": 5,
+      "unknown word": 5,
+      "negation count changed": 10,
+      "meaning too different": 14,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 123,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.48
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 195,
+    "z_before": 5.330696627140982,
+    "z_after": 4.3775487193432845,
+    "accepted": true,
+    "survivors": 22,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 44,
+     "after_semantic": 23,
+     "fluency_skipped": false,
+     "after_fluency": 22,
+     "rejected": {
+      "CJK text": 1,
+      "several lines": 1,
+      "negation count changed": 14,
+      "meaning too different": 21,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 145,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.14
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 136,
+    "z_before": 4.3775487193432845,
+    "z_after": 3.489203059106717,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 3,
+      "several lines": 1,
+      "duplicate": 2,
+      "meaning too different": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 194,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.87
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 129,
+    "z_before": 3.489203059106717,
+    "z_after": 2.81237711208439,
+    "accepted": true,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 37,
+     "after_spelling": 37,
+     "after_content": 37,
+     "after_semantic": 37,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 22,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 229,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.42
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 106,
+    "z_before": 2.81237711208439,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 12,
+      "several lines": 1,
+      "unknown word": 1,
+      "meaning too different": 46
+     }
+    },
+    "queries_total": 229,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 33.12
+   },
+   {
+    "pass": 1,
+    "segment": 13,
+    "chars": 104,
+    "z_before": 2.81237711208439,
+    "z_after": 2.078068176682078,
+    "accepted": true,
+    "survivors": 16,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 25,
+     "after_spelling": 23,
+     "after_content": 23,
+     "after_semantic": 20,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "duplicate": 4,
+      "CJK text": 24,
+      "several lines": 7,
+      "glued punctuation": 1,
+      "unknown word": 1,
+      "meaning too different": 3,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 245,
+    "hit_limit": 2,
+    "oom_events": [],
+    "seconds_generate": 45.44
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 87,
+    "z_before": 2.078068176682078,
+    "z_after": 1.5892681321527493,
+    "accepted": true,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 41,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 39,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "duplicate": 16,
+      "CJK text": 3,
+      "meaning too different": 2,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 277,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 20.21
+   }
+  ],
+  "rewrites": {
+   "8": {
+    "original": "If national security encompasses the prevention of threats to the livelihoods of the American people - military service penalties, causes of emotional stress to millions of Americans, and economic uncertainty because of tariffs - then a precedent has effectively been set for greater engagement of the American government at the level of the courts.",
+    "rewrite": "If national security includes preventing threats to American livelihoods, such as military service penalties, sources of widespread emotional stress, and economic uncertainties due to tariffs, then setting a precedent for greater American governmental involvement in court matters has been effectively established."
+   },
+   "3": {
+    "original": "Chairman of the Singapore Press Holdings\u2019 Chinese Media Group Yeo Ban Leong, pointed out that fake news, which is a global phenomenon, needs two fundamental pressures - political institutions, and an informed, reflective, critical and analytical public to make sure differing views are respected.",
+    "rewrite": "The chairman of Singapore Press Holdings\u2019 Chinese Media Group, Yeo Ban Leong, noted that fake news, a worldwide issue, requires two key forces \u2013 robust political institutions and an informed, thoughtful, critical, and analytical populace to ensure that diverse viewpoints are valued."
+   },
+   "6": {
+    "original": "The US rightly took a strong stance in support of Taiwan - after all, what has the Chinese Government ever done to resolve the Taiwan question other than adding to the strains in US-China relations?",
+    "rewrite": "The US rightfully asserted a firm position in backing Taiwan - after all, has the Chinese Government ever acted to resolve the Taiwan issue, aside from exacerbating tensions in US-China relations?"
+   },
+   "7": {
+    "original": "If Trump refused to be obstructed in pursuit of his avowed aim to protect America's \"national security\", then this is entirely consistent with his prerogative as sovereign head of the government.",
+    "rewrite": "If Trump refused to let himself be hindered in pursuit of his declared goal to safeguard America's \"national security\", this would be fully consistent with his authority as the sovereign head of the government."
+   },
+   "4": {
+    "original": "In the United States, the unilateral decision to impose tariffs on China and other countries has caused economic uncertainty since 2017.",
+    "rewrite": "Since 2017, the US's solo move to apply tariffs on China and other nations has led to economic uncertainty."
+   },
+   "5": {
+    "original": "The North American Free Trade Agreement has also come under pressure, and the European Union and the UK are preparing for Brexit.",
+    "rewrite": "The North American Free Trade Agreement is also facing pressure, while the European Union and the UK are advancing toward Brexit."
+   },
+   "13": {
+    "original": "THE strains of the songs: Moon River and Blue Hawaii, played, punctuating my jerky gait and shaky focus.",
+    "rewrite": "THE melodies of the songs: Moon River and Blue Hawaii, echoed, interspersing my unsteady stride and wobbly concentration."
+   },
+   "1": {
+    "original": "Singaporeans are receptive to fake news because S'pore is a country where trust exists.",
+    "rewrite": "Singaporeans accept fake news due to the existing trust in S'pore."
+   }
+  },
+  "final_span": "develop their thinking skills.\nSingaporeans accept fake news due to the existing trust in S'pore.\nDr Jessica Chen Weixuan, lecturer at the Nanyang Technological University Wee Kim Wee School of Communication and Art, stressed at the forum that Singaporeans do not have a critical-thinking training in methods to overcome self-inflicting beliefs, and think about opposing views in a different way.\nThe chairman of Singapore Press Holdings\u2019 Chinese Media Group, Yeo Ban Leong, noted that fake news, a worldwide issue, requires two key forces \u2013 robust political institutions and an informed, thoughtful, critical, and analytical populace to ensure that diverse viewpoints are valued.\nSince 2017, the US's solo move to apply tariffs on China and other nations has led to economic uncertainty. The North American Free Trade Agreement is also facing pressure, while the European Union and the UK are advancing toward Brexit. The US rightfully asserted a firm position in backing Taiwan - after all, has the Chinese Government ever acted to resolve the Taiwan issue, aside from exacerbating tensions in US-China relations?\nIf Trump refused to let himself be hindered in pursuit of his declared goal to safeguard America's \"national security\", this would be fully consistent with his authority as the sovereign head of the government. If national security includes preventing threats to American livelihoods, such as military service penalties, sources of widespread emotional stress, and economic uncertainties due to tariffs, then setting a precedent for greater American governmental involvement in court matters has been effectively established.\nIs publish-and-be-damned the way to go?\nI suppose the lesson is, take incoming with a pinch of salt, and dispense outgoing with a squirt of truth.\nWonderful news - one step nearer to realizing my long-forgotten dream of acting! Success at last!\nTHE melodies of the songs: Moon River and Blue Hawaii, echoed, interspersing my unsteady stride and wobbly concentration.\nThey must have been playing the Film's",
+  "break_point": {
+   "step": 9,
+   "sentences_rewritten": 8,
+   "queries": 277
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 8,
+   "eligible": 12,
+   "segments": 15,
+   "pct_of_eligible": 66.66666666666667,
+   "pct_of_segments": 53.333333333333336
+  },
+  "tokens": {
+   "original": 501,
+   "final": 486,
+   "length_change": -15,
+   "pct_not_preserved": 29.141716566866272,
+   "pct_new": 26.95473251028807
+  },
+  "words": {
+   "original": 337,
+   "final": 315,
+   "length_change": -22,
+   "pct_not_preserved": 34.124629080118694,
+   "pct_new": 29.52380952380952
+  },
+  "characters": {
+   "original": 2115,
+   "final": 2047,
+   "length_change": -68,
+   "pct_not_preserved": 22.127659574468083,
+   "pct_new": 19.54079140205178
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 349,
+   "green_after": 260,
+   "pairs_before": 500,
+   "pairs_after": 485,
+   "pairs_changed_before": 205,
+   "pairs_changed_after": 190,
+   "green_fraction_of_new_pairs": 0.34210526315789475,
+   "delta_achieved": 0.15789473684210525
+  }
+ }
+}

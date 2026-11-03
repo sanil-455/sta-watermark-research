@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:351",
+ "nobox": {
+  "z_final": 4.1823991095491815,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Because they are deemed \"administrative\" by the Supreme Court, they must meet a 60 percent threshold to appear on the ballot rather than a 60 percent-plus-one margin to pass.",
+    "rewrite": "As the Supreme Court considers them \"administrative,\" they need to achieve a 60 percent threshold to appear on the ballot, as opposed to a 60 percent-plus-one margin to pass."
+   },
+   "1": {
+    "original": "All told, 38 amendments proposed by the Constitution Revision Commission have been passed, by the Legislature; defeated; or withdrawn.",
+    "rewrite": "Overall, 38 amendments proposed by the Constitution Revision Commission have been passed, defeated, or withdrawn by the Legislature."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 30,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the Legislature's budget panel have already approved spending $1.5 million to gather signatures for a measure that would give Florida's attorney general the power to remove a judge who overturns a death sentence.\nOverall, 38 amendments proposed by the Constitution Revision Commission have been passed, defeated, or withdrawn by the Legislature. As the Supreme Court considers them \"administrative,\" they need to achieve a 60 percent threshold to appear on the ballot, as opposed to a 60 percent-plus-one margin to pass.\nWithover 60 amendments, tax paidfor by Florida, proposing amendments to the constitution, the systemintended to make surethose most affected would havetheyre chance to weighin hasbecome tozonesencouraging or even contractindividuals, groups,and perhaps pornographylanguages touses inc",
+  "z0": 3.959797974644666,
+  "seconds": 90.5
+ }
+}

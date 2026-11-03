@@ -1,0 +1,71 @@
+{
+ "sample_id": "samples_len200:44",
+ "nobox": {
+  "z_final": 1.8962448894726294,
+  "status": "broken",
+  "rewrites": {
+   "6": {
+    "original": "There is some risk, which is why existing multiple-employer plans typically have caps of $50 to $500 on how much employees can invest, but the plan itself has unlimited capital.",
+    "rewrite": "There exists a degree of risk, hence existing multiple-employer plans generally impose limits of $50 to $500 on employee investments, yet the plan can handle unlimited capital."
+   },
+   "5": {
+    "original": "These plans typically take over key management duties such as creating and maintaining investment portfolios and making sure the administrative tasks are carried out.",
+    "rewrite": "These plans usually assume control of key management duties including the creation and maintenance of investment portfolios and ensuring that administrative tasks are fulfilled."
+   },
+   "2": {
+    "original": "Small employers who don\u2019t have much in the way of overlapping offerings such as health insurance and meals could club together to provide additional benefits.",
+    "rewrite": "Small employers without much overlap in offerings like health insurance and meals could join forces to offer extra benefits."
+   },
+   "4": {
+    "original": "Several multi-employer plans already exist, and they offer \u201cadministered funds,\u201d rather than each employer having to sponsor its own separate account.",
+    "rewrite": "Multiple multi-employer plans already exist, and these provide \"administered funds,\" instead of each employer sponsoring its own separate account."
+   },
+   "1": {
+    "original": "That way, any employer could partner up with other local businesses who offer similar products or services.",
+    "rewrite": "That way, any employer could team up with other local businesses that provide similar products or services."
+   },
+   "3": {
+    "original": "There is no reason why these kinds of arrangements cannot do well.",
+    "rewrite": "These kinds of arrangements have no reason to not do well."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 21,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 25,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 5,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": ". That way, any employer could team up with other local businesses that provide similar products or services. Small employers without much overlap in offerings like health insurance and meals could join forces to offer extra benefits.\nThese kinds of arrangements have no reason to not do well. Multiple multi-employer plans already exist, and these provide \"administered funds,\" instead of each employer sponsoring its own separate account. These plans usually assume control of key management duties including the creation and maintenance of investment portfolios and ensuring that administrative tasks are fulfilled. There exists a degree of risk, hence existing multiple-employer plans generally impose limits of $50 to $500 on employee investments, yet the plan can handle unlimited capital.\nThere are some minor issues that would have to be addressed, since 401(k) is not the",
+  "z0": 5.091168824543142,
+  "seconds": 181.4
+ }
+}

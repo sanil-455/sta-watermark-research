@@ -1,0 +1,157 @@
+{
+ "sample_id": "baseline_extra:20",
+ "source": "results/raw/baseline_extra.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.3194444444444444,
+ "needed_share": 0.4107443490112104,
+ "delta_needed": 0.034297007628559036,
+ "segmentation": {
+  "chars": 720,
+  "segments": 6,
+  "eligible": 2,
+  "skipped": 4,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 3
+  },
+  "eligible_chars": 230,
+  "eligible_char_share": 0.3194444444444444
+ },
+ "attack": {
+  "z0": 3.394112549695428,
+  "z_final": 1.622294916474776,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 60,
+  "seconds": 97.5,
+  "seconds_by_phase": {
+   "generate": 93.4,
+   "gates": 4.1,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 155,
+    "z_before": 3.394112549695428,
+    "z_after": 2.1975317355258412,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 90,
+     "after_clean": 83,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 4,
+      "hit length limit": 1,
+      "duplicate": 1,
+      "unknown word": 36,
+      "meaning too different": 5,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 42,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 56.53
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 75,
+    "z_before": 2.1975317355258412,
+    "z_after": 1.622294916474776,
+    "accepted": true,
+    "survivors": 18,
+    "funnel": {
+     "generated": 90,
+     "after_clean": 53,
+     "after_spelling": 51,
+     "after_content": 19,
+     "after_semantic": 19,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "duplicate": 37,
+      "unknown word": 2,
+      "numbers changed": 29,
+      "negation count changed": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 60,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.86
+   }
+  ],
+  "rewrites": {
+   "5": {
+    "original": "Health care's disastrous performance since March, fueled by criticism from the president and lackluster earnings reports, could ruin the market's momentum.",
+    "rewrite": "Since March, health care's poor performance, spurred by presidential criticism and weak earnings reports, risks dismantling the market's momentum."
+   },
+   "3": {
+    "original": "But reason No. 5 is the one that keeps the host of \"Mad Money\" up at night.",
+    "rewrite": "Yet, reason No. 5 is the one that keeps the \"Mad Money\" host awake at night."
+   }
+  },
+  "final_span": "is that technology stocks have gone bananas, and a correction is inevitable, if not overdue, Cramer contended.\n\"But let me tell you this. In every correction I've ever had in my 47 years as an investor, technology stocks are the worst offenders, because they're the ones you've got to buy,\" according to Cramer.\nYet, reason No. 5 is the one that keeps the \"Mad Money\" host awake at night.\n\"It's all my fault,\" Cramer said, \"because I've been so bearish on health care, and so I'm not sure what to make of the fact that pharmaceutical stocks appear to be bottoming.\"\nSince March, health care's poor performance, spurred by presidential criticism and weak earnings reports, risks dismantling the market's momentum.",
+  "break_point": {
+   "step": 1,
+   "sentences_rewritten": 2,
+   "queries": 60
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 2,
+   "segments": 6,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 33.333333333333336
+  },
+  "tokens": {
+   "original": 201,
+   "final": 202,
+   "length_change": 1,
+   "pct_not_preserved": 10.945273631840791,
+   "pct_new": 11.386138613861386
+  },
+  "words": {
+   "original": 123,
+   "final": 120,
+   "length_change": -3,
+   "pct_not_preserved": 13.008130081300816,
+   "pct_new": 10.833333333333329
+  },
+  "characters": {
+   "original": 720,
+   "final": 712,
+   "length_change": -8,
+   "pct_not_preserved": 9.861111111111109,
+   "pct_new": 8.84831460674157
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 124,
+   "green_after": 112,
+   "pairs_before": 200,
+   "pairs_after": 201,
+   "pairs_changed_before": 33,
+   "pairs_changed_after": 34,
+   "green_fraction_of_new_pairs": 0.2647058823529412,
+   "delta_achieved": 0.23529411764705882
+  }
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "sample_id": "baseline_extra:24",
+ "nobox": {
+  "z_final": 3.917872736059236,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "In California, there has been an official guidance document put forth by the Secretary of the California Business, Transportation and Housing Agency,describing the potential elements an autonomous vehicle self-identification form might include.",
+    "rewrite": "In California, an official guidance document outlining potential elements for an autonomous vehicle self-identification form has been presented by the Secretary of the California Business, Transportation and Housing Agency."
+   },
+   "3": {
+    "original": "It is a rather lengthy 52 pages, but the document basically outlines the first steps manufacturers need to take in order to have their autonomous vehicles considered for licensing.",
+    "rewrite": "The document, which spans 52 pages, primarily outlines the initial steps that manufacturers must follow to qualify their autonomous vehicles for licensing."
+   },
+   "4": {
+    "original": "Manufacturers have an opportunity to provide information such as who is responsible for claims, any intellectual property rights that might be involved and system descriptions.",
+    "rewrite": "Manufacturers have an opportunity to offer details including who handles claims, any intellectual property rights that apply, and system descriptions."
+   },
+   "5": {
+    "original": "A spokesperson for the Department of Motor Vehicles responded to inquiries about the Arizona incident by emailing a previously-released statement.",
+    "rewrite": "A spokesperson from the Department of Motor Vehicles responded to questions regarding the Arizona incident via email, sending a previously issued statement."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 48,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "technology, noted in a statement, \u201cPublic safety and privacy should be our higher priorities when it comes to autonomous vehicles.\u201d\nAn autonomous vehicle currently on the road in California\nIn California, an official guidance document outlining potential elements for an autonomous vehicle self-identification form has been presented by the Secretary of the California Business, Transportation and Housing Agency. The document, which spans 52 pages, primarily outlines the initial steps that manufacturers must follow to qualify their autonomous vehicles for licensing. Manufacturers have an opportunity to offer details including who handles claims, any intellectual property rights that apply, and system descriptions.\nA spokesperson from the Department of Motor Vehicles responded to questions regarding the Arizona incident via email, sending a previously issued statement.\n\u201cWhen autonomous vehicle technology is developed,",
+  "z0": 5.091168824543142,
+  "seconds": 148.4
+ }
+}

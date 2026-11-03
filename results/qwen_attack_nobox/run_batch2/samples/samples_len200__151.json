@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:151",
+ "nobox": {
+  "z_final": 3.508962882793221,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Customizing Word The Ribbon toolbars in Word and Excel 2013 support customizable Quick Access Toolbars\u2014but Word's Quick Access Toolbar supports run at startup, an option I missed terribly when I first tested the new Word.",
+    "rewrite": "Customizing Word Ribbon toolbars in Word and Excel 2013 supports customizable Quick Access Toolbars\u2014but Word's Quick Access Toolbar supports running at startup, an option I missed greatly when I first tested the new Word."
+   },
+   "3": {
+    "original": "In addition to location on the screen (below or on top of the ribbon), you can group together and hide other small icons at the top-right and bottom-right of the toolbars.",
+    "rewrite": "Apart from location on the screen (below or above the ribbon), you can also group and hide other small icons at the top-right and bottom-right of the toolbars."
+   },
+   "4": {
+    "original": "To add icons to the Quick Access Toolbar, click the Customize Quick Access Toolbar button, then click the buttons to add them or drag them to where you want them.",
+    "rewrite": "To include icons in the Quick Access Toolbar, press the Customize Quick Access Toolbar button, followed by selecting the buttons to add or dragging them to your preferred location."
+   },
+   "5": {
+    "original": "Present an Explanation Click More to show a pop-up type of window that gives details about a number, spreadsheet part, or other element.",
+    "rewrite": "Click More to present an Explanation of a pop-up type of window providing details about a number, spreadsheet part, or other element."
+   },
+   "2": {
+    "original": "Editing toolbar customization is another story.",
+    "rewrite": "Customization of the editing toolbar is a different matter."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 13,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "you work, or as you change the way things look, you can close the pane and save what you've done.\nCustomizing Word Ribbon toolbars in Word and Excel 2013 supports customizable Quick Access Toolbars\u2014but Word's Quick Access Toolbar supports running at startup, an option I missed greatly when I first tested the new Word. Customization of the editing toolbar is a different matter. Apart from location on the screen (below or above the ribbon), you can also group and hide other small icons at the top-right and bottom-right of the toolbars. To include icons in the Quick Access Toolbar, press the Customize Quick Access Toolbar button, followed by selecting the buttons to add or dragging them to your preferred location.\nClick More to present an Explanation of a pop-up type of window providing details about a number, spreadsheet part, or other element. In the",
+  "z0": 5.79827560572969,
+  "seconds": 200.6
+ }
+}

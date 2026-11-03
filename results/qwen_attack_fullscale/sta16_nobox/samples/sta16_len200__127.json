@@ -1,0 +1,26 @@
+{
+ "sample_id": "sta16_len200:127",
+ "nobox": {
+  "z_final": 10.323759005323593,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "I think they need someone at the back end like that.",
+    "rewrite": "I believe they require someone at the back end for that."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 1,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "innings-eating arm at the back end of the bullpen? I believe they require someone at the back end for that.\n\"Dominguez could still fill in in a multitude of spots, I think; I also think you could see them continue to look around, and sooner or later Bryce Harper, basically the highest debut of the public services at all kinds of positions in my eyes...I think that\u2019s something to be kept an eye, mainly because, again, Payroll is the biggest vehicle in getting to Bud Norris. I think they need to bolster the starting part of the team.\n\"But sign Bryce Harper, you free up potentially Dominguez, if I were them three or four pitchers at a time. It makes a whole lot of humor much shorter it gives them a podium of greatest achievements and there are several candidates.\"\nBritton visited with the Phillies Wednesday night after in",
+  "z0": 10.323759005323593,
+  "seconds": 15.0
+ }
+}

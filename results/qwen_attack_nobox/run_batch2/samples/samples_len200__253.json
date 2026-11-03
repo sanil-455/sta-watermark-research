@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:253",
+ "nobox": {
+  "z_final": 2.468709655505094,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "Averaging 5.33 yards a play over the last 11 games, Denver has more running back talent than first-round picks \u2014 especially if Jamaal Charles is finally cleared to play this weekend after missing all season with a torn left knee ligament.",
+    "rewrite": "Over the past 11 games, averaging 5.33 yards per play, Denver demonstrates greater running back talent compared to first-round picks \u2014 particularly if Jamaal Charles returns to action this weekend following his entire season absence due to a torn left knee ligament."
+   },
+   "5": {
+    "original": "And, Thomas is coming back to life just in time for the stretch run after catching seven passes for 150 yards Sunday.",
+    "rewrite": "And, Thomas is returning to life for the stretch run after grabbing seven passes for 150 yards on Sunday."
+   },
+   "1": {
+    "original": "Beyond Lynch, backup Brock Osweiler showed improvement with 180 yards passing.",
+    "rewrite": "Beyond Lynch, backup Brock Osweiler demonstrated better performance with 180 yards passing."
+   },
+   "2": {
+    "original": "But his pick six at the Jags\u2019 18-yard line trimmed Denver\u2019s lead to 7-3.",
+    "rewrite": "But his pick six from the Jags\u2019 18-yard line cut Denver\u2019s lead to 7-3."
+   },
+   "3": {
+    "original": "Whether run or pass, that\u2019s approaching 20 points per game.",
+    "rewrite": "Whether to run or pass, that results in roughly 20 points per game."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 59,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 26,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "on Saturday night.\nBeyond Lynch, backup Brock Osweiler demonstrated better performance with 180 yards passing. But his pick six from the Jags\u2019 18-yard line cut Denver\u2019s lead to 7-3.\nWhether to run or pass, that results in roughly 20 points per game.\nOver the past 11 games, averaging 5.33 yards per play, Denver demonstrates greater running back talent compared to first-round picks \u2014 particularly if Jamaal Charles returns to action this weekend following his entire season absence due to a torn left knee ligament.\nAnd, Thomas is returning to life for the stretch run after grabbing seven passes for 150 yards on Sunday.\nNow if Lynch can just find a rhythm, Denver\u2019s losing streak since 2013 and early 2015 finishes may be over",
+  "z0": 3.2526911934581184,
+  "seconds": 191.5
+ }
+}

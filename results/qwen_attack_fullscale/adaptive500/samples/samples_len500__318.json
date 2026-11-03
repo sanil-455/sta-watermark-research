@@ -1,0 +1,437 @@
+{
+ "sample_id": "samples_len500:318",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8890633176347462,
+ "needed_share": 0.727308783231733,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 1911,
+  "segments": 30,
+  "eligible": 25,
+  "skipped": 5,
+  "skip_reasons": {
+   "too short": 3,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1699,
+  "eligible_char_share": 0.8890633176347462
+ },
+ "attack": {
+  "z0": 7.33430296619931,
+  "z_final": 1.7627276796086258,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 391,
+  "seconds": 305.6,
+  "seconds_by_phase": {
+   "generate": 276.9,
+   "gates": 28.4,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 23,
+    "chars": 118,
+    "z_before": 7.33430296619931,
+    "z_after": 6.681531047810609,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "duplicate": 2,
+      "CJK text": 1,
+      "unknown word": 4,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 53,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.13
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 117,
+    "z_before": 6.681531047810609,
+    "z_after": 6.211495565912797,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "several lines": 1,
+      "duplicate": 6,
+      "CJK text": 1,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 104,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.31
+   },
+   {
+    "pass": 1,
+    "segment": 16,
+    "chars": 110,
+    "z_before": 6.211495565912797,
+    "z_after": 5.6291760311597905,
+    "accepted": true,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "several lines": 1,
+      "meaning too different": 14,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 144,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.9
+   },
+   {
+    "pass": 1,
+    "segment": 22,
+    "chars": 93,
+    "z_before": 5.6291760311597905,
+    "z_after": 4.8613591206575135,
+    "accepted": true,
+    "survivors": 56,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 56,
+     "rejected": {
+      "duplicate": 3,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 200,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.86
+   },
+   {
+    "pass": 1,
+    "segment": 24,
+    "chars": 86,
+    "z_before": 4.8613591206575135,
+    "z_after": 4.499027132190555,
+    "accepted": true,
+    "survivors": 3,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 36,
+     "after_semantic": 4,
+     "fluency_skipped": false,
+     "after_fluency": 3,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 1,
+      "negation count changed": 21,
+      "meaning too different": 32,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 203,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.01
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 78,
+    "z_before": 4.499027132190555,
+    "z_after": 3.906666403624709,
+    "accepted": true,
+    "survivors": 17,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 34,
+     "after_content": 22,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 17,
+     "rejected": {
+      "duplicate": 24,
+      "CJK text": 2,
+      "negation count changed": 12,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 220,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.86
+   },
+   {
+    "pass": 1,
+    "segment": 18,
+    "chars": 76,
+    "z_before": 3.906666403624709,
+    "z_after": 3.3264296324463047,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 4,
+      "negation count changed": 6,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 264,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.78
+   },
+   {
+    "pass": 1,
+    "segment": 0,
+    "chars": 75,
+    "z_before": 3.3264296324463047,
+    "z_after": 3.1453346039797365,
+    "accepted": true,
+    "survivors": 30,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 43,
+     "after_content": 31,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 30,
+     "rejected": {
+      "CJK text": 1,
+      "several lines": 1,
+      "duplicate": 5,
+      "unknown word": 10,
+      "negation count changed": 12,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 294,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.3
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 75,
+    "z_before": 3.1453346039797365,
+    "z_after": 2.4143314359316705,
+    "accepted": true,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 34,
+     "after_content": 34,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "duplicate": 24,
+      "CJK text": 2
+     }
+    },
+    "queries_total": 328,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.29
+   },
+   {
+    "pass": 1,
+    "segment": 20,
+    "chars": 70,
+    "z_before": 2.4143314359316705,
+    "z_after": 2.114506074810305,
+    "accepted": true,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 38,
+     "after_spelling": 38,
+     "after_content": 38,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "duplicate": 22,
+      "meaning too different": 9,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 356,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.02
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 68,
+    "z_before": 2.114506074810305,
+    "z_after": 1.7627276796086258,
+    "accepted": true,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 39,
+     "after_spelling": 39,
+     "after_content": 39,
+     "after_semantic": 39,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "duplicate": 21,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 391,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.45
+   }
+  ],
+  "rewrites": {
+   "23": {
+    "original": "The Romanian cop is also coming to Ireland to work out how 75 cent is spent on books or is lost to fraud or shortages.",
+    "rewrite": "The Romanian officer is also heading to Ireland to determine how 75 cents is spent on books, lost to fraud, or accounted for as shortages."
+   },
+   "12": {
+    "original": "The government has to find an annual \u20ac60,000 to keep the 39 libraries and \u20ac12,000 every month just to keep them open.",
+    "rewrite": "The government needs to allocate an annual \u20ac60,000 to maintain the 39 libraries, along with an additional \u20ac12,000 monthly to keep them operational."
+   },
+   "16": {
+    "original": "But Dublin Central\u2019s regeneration needs to be much more than just building new estates of high-density blocks.",
+    "rewrite": "Yet, Dublin Central\u2019s revival must encompass more than the construction of high-density apartment complexes."
+   },
+   "22": {
+    "original": "A new law on counterfeited books will stop you buying a book and then getting caught with it.",
+    "rewrite": "A new law targeting counterfeit books aims to prevent you from purchasing one and later being apprehended."
+   },
+   "24": {
+    "original": "I doubt the police here will be able to pull it off, and he\u2019s entitled to his opinion.",
+    "rewrite": "I have my doubts about the police here being able to pull it off, and he is entitled to his opinion."
+   },
+   "11": {
+    "original": "A third of primary schools had only one or no books left for students to read.",
+    "rewrite": "Approximately one-third of primary schools were left with just one book or none for student reading."
+   },
+   "18": {
+    "original": "So, you want in a conspiracy theory but your problem is time is against you.",
+    "rewrite": "So, you're interested in a conspiracy theory, but the issue is your lack of time."
+   },
+   "0": {
+    "original": "Dungarvan, but funding to rebuild the historic building has not been found.",
+    "rewrite": "Dungarvan, however, funding to rebuild the historic structure hasn't been located."
+   },
+   "1": {
+    "original": "Only Fools And Nephews at the chip shop is the Lord of the Rings of humour.",
+    "rewrite": "F ONLY FOOLS AND NEPHEWS AT THE CHIP SHOP IS THE LORD OF THE RINGS WHEN IT COMES TO HUMOUR."
+   },
+   "20": {
+    "original": "Time to remember those words your parents made you type out at school?",
+    "rewrite": "Time to recall those sentences your parents made you write in school?"
+   },
+   "4": {
+    "original": "The former President has said he wants the books to stay in Ireland.",
+    "rewrite": "The ex-President stated that he desires for the books to remain in Ireland."
+   }
+  },
+  "final_span": "Dungarvan, however, funding to rebuild the historic structure hasn't been located.\nF ONLY FOOLS AND NEPHEWS AT THE CHIP SHOP IS THE LORD OF THE RINGS WHEN IT COMES TO HUMOUR.\nPeople just don\u2019t read anymore.\nLet\u2019s get ready to welcome those 2m visitors we had last year.\nThe ex-President stated that he desires for the books to remain in Ireland.\nNo time to read? No problem.\nIf tribes are so thick, how come we can\u2019t all read at once?\nThere are small, tribal tensions in every library.\nLibrary and Archives of Ireland: Love?\nIt\u2019s game over for your local library\u2019s Pay-per-view buttons.\nApproximately one-third of primary schools were left with just one book or none for student reading.\nThe government needs to allocate an annual \u20ac60,000 to maintain the 39 libraries, along with an additional \u20ac12,000 monthly to keep them operational.\nTime to make a date with your local library \u2013 again.\nTime to make a date with... your local library.\nThe council has refused an FoI request and says that their research shows \u201cthere\u2019s not actually a need\u201d for more librarians in Ireland.\nYet, Dublin Central\u2019s revival must encompass more than the construction of high-density apartment complexes. We\u2019ve lost a sense of community identity already.\nSo, you're interested in a conspiracy theory, but the issue is your lack of time.\nLibrarian Shane Cronin prefers the term \u2018listener\u2019 to \u2018assistant\u2019.\nTime to recall those sentences your parents made you write in school? No, us neither.\nA new law targeting counterfeit books aims to prevent you from purchasing one and later being apprehended.\nThe Romanian officer is also heading to Ireland to determine how 75 cents is spent on books, lost to fraud, or accounted for as shortages. I have my doubts about the police here being able to pull it off, and he is entitled to his opinion. However, I do think things are good across Ireland.\nYou, like me, should not be reading something at all.\nOn finding a book that changed your whole perspective.\nBut Filmtrend\u2019s big library will still manage to save money.\nFilmtr",
+  "break_point": {
+   "step": 10,
+   "sentences_rewritten": 11,
+   "queries": 391
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 11,
+   "eligible": 25,
+   "segments": 30,
+   "pct_of_eligible": 44.0,
+   "pct_of_segments": 36.666666666666664
+  },
+  "tokens": {
+   "original": 501,
+   "final": 542,
+   "length_change": 41,
+   "pct_not_preserved": 19.56087824351297,
+   "pct_new": 25.645756457564573
+  },
+  "words": {
+   "original": 346,
+   "final": 348,
+   "length_change": 2,
+   "pct_not_preserved": 27.74566473988439,
+   "pct_new": 28.16091954022989
+  },
+  "characters": {
+   "original": 1911,
+   "final": 2042,
+   "length_change": 131,
+   "pct_not_preserved": 14.965986394557829,
+   "pct_new": 20.421155729676787
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 332,
+   "green_after": 291,
+   "pairs_before": 500,
+   "pairs_after": 541,
+   "pairs_changed_before": 145,
+   "pairs_changed_after": 186,
+   "green_fraction_of_new_pairs": 0.3225806451612903,
+   "delta_achieved": 0.1774193548387097
+  }
+ }
+}

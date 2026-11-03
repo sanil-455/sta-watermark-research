@@ -1,0 +1,525 @@
+{
+ "sample_id": "baseline_safe:2",
+ "source": "results/raw/baseline_safe.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.7201051248357424,
+ "needed_share": 0.6278385362176065,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 761,
+  "segments": 5,
+  "eligible": 3,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 548,
+  "eligible_char_share": 0.7201051248357424
+ },
+ "attack": {
+  "z0": 5.374011537017761,
+  "z_final": 2.4936467495768375,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 5,
+  "queries": 129,
+  "seconds": 675.8,
+  "seconds_by_phase": {
+   "generate": 663.0,
+   "gates": 12.8,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 260,
+    "z_before": 5.374011537017761,
+    "z_after": 4.421733159964657,
+    "accepted": true,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "unknown word": 3,
+      "meaning too different": 33,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 20,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 60.23
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 173,
+    "z_before": 4.421733159964657,
+    "z_after": 3.959797974644666,
+    "accepted": true,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 7,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 1,
+      "meaning too different": 51,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 24,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.83
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 115,
+    "z_before": 3.959797974644666,
+    "z_after": 3.2690776507860266,
+    "accepted": true,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 1,
+      "unknown word": 2,
+      "meaning too different": 49,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 28,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.73
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 260,
+    "z_before": 3.2690776507860266,
+    "z_after": 3.0154242661945,
+    "accepted": true,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 57,
+     "after_content": 54,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "unknown word": 3,
+      "name changed": 2,
+      "quotation changed": 1,
+      "meaning too different": 30,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 47,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 60.51
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 173,
+    "z_before": 3.0154242661945,
+    "z_after": 3.111370802757413,
+    "accepted": false,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 2,
+     "fluency_skipped": true,
+     "after_fluency": 2,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 2,
+      "meaning too different": 55
+     }
+    },
+    "queries_total": 49,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.52
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 115,
+    "z_before": 3.0154242661945,
+    "z_after": 3.0792939583695613,
+    "accepted": false,
+    "survivors": 8,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 53,
+     "after_content": 52,
+     "after_semantic": 10,
+     "fluency_skipped": false,
+     "after_fluency": 8,
+     "rejected": {
+      "several lines": 1,
+      "duplicate": 1,
+      "CJK text": 3,
+      "unknown word": 2,
+      "numbers changed": 1,
+      "meaning too different": 42,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 57,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.58
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 260,
+    "z_before": 3.0154242661945,
+    "z_after": 2.9512445780696477,
+    "accepted": true,
+    "survivors": 16,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 54,
+     "after_content": 52,
+     "after_semantic": 17,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 5,
+      "name changed": 2,
+      "meaning too different": 35,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 73,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 60.1
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 173,
+    "z_before": 2.9512445780696477,
+    "z_after": 3.0631648214557856,
+    "accepted": false,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 57,
+     "after_content": 56,
+     "after_semantic": 7,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 1,
+      "unknown word": 1,
+      "numbers changed": 1,
+      "meaning too different": 49,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 78,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.93
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 115,
+    "z_before": 2.9512445780696477,
+    "z_after": 3.1590158979180476,
+    "accepted": false,
+    "survivors": 3,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 4,
+     "fluency_skipped": false,
+     "after_fluency": 3,
+     "rejected": {
+      "CJK text": 5,
+      "duplicate": 2,
+      "unknown word": 1,
+      "meaning too different": 48,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 81,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.46
+   },
+   {
+    "pass": 4,
+    "segment": 2,
+    "chars": 260,
+    "z_before": 2.9512445780696477,
+    "z_after": 2.506402059138015,
+    "accepted": true,
+    "survivors": 14,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 52,
+     "after_semantic": 18,
+     "fluency_skipped": false,
+     "after_fluency": 14,
+     "rejected": {
+      "CJK text": 1,
+      "several lines": 1,
+      "unknown word": 2,
+      "quotation changed": 3,
+      "name changed": 1,
+      "meaning too different": 34,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 95,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 67.22
+   },
+   {
+    "pass": 4,
+    "segment": 3,
+    "chars": 173,
+    "z_before": 2.506402059138015,
+    "z_after": 2.857142857142857,
+    "accepted": false,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 2,
+     "fluency_skipped": true,
+     "after_fluency": 2,
+     "rejected": {
+      "several lines": 1,
+      "duplicate": 2,
+      "unknown word": 1,
+      "meaning too different": 54
+     }
+    },
+    "queries_total": 97,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.76
+   },
+   {
+    "pass": 4,
+    "segment": 1,
+    "chars": 115,
+    "z_before": 2.506402059138015,
+    "z_after": 2.4936467495768375,
+    "accepted": true,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 60,
+     "after_content": 60,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "meaning too different": 51
+     }
+    },
+    "queries_total": 106,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.72
+   },
+   {
+    "pass": 5,
+    "segment": 2,
+    "chars": 260,
+    "z_before": 2.4936467495768375,
+    "z_after": 2.756809750418044,
+    "accepted": false,
+    "survivors": 17,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 55,
+     "after_content": 50,
+     "after_semantic": 18,
+     "fluency_skipped": false,
+     "after_fluency": 17,
+     "rejected": {
+      "unknown word": 5,
+      "name changed": 2,
+      "quotation changed": 3,
+      "meaning too different": 32,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 123,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 60.7
+   },
+   {
+    "pass": 5,
+    "segment": 3,
+    "chars": 173,
+    "z_before": 2.4936467495768375,
+    "z_after": 2.506402059138015,
+    "accepted": false,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 2,
+     "fluency_skipped": true,
+     "after_fluency": 2,
+     "rejected": {
+      "duplicate": 1,
+      "CJK text": 2,
+      "several lines": 1,
+      "unknown word": 3,
+      "meaning too different": 51
+     }
+    },
+    "queries_total": 125,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 48.44
+   },
+   {
+    "pass": 5,
+    "segment": 1,
+    "chars": 115,
+    "z_before": 2.4936467495768375,
+    "z_after": 2.7142857142857144,
+    "accepted": false,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 4,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 1,
+      "meaning too different": 52
+     }
+    },
+    "queries_total": 129,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.24
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "In the past, this abuse has served as the headline of Caveney\u2019s stories online and in print, and over time, he\u2019s come to tribes with his pain on debut documentaries for the BBC\u2019s Radio Days project, which are presented on the companion audio-CD to \u201cGibberish.\u201d",
+    "rewrite": "Historically, this mistreatment has been the centerpiece of Caveney\u2019s articles online and in print. Additionally, over time, he has appeared before tribes to share his pain through debut documentaries for the BBC\u2019s Radio Days project, featured alongside an audio-CD companion to \u201cGibberish.\u201d"
+   },
+   "3": {
+    "original": "But as he reaches two critical milestones, entering his 50s and 60s, he\u2019s moved away from the spectacle of the abuse and started to look at the context in which it happened.",
+    "rewrite": "However, as he approaches his 50s and 60s, he has shifted away from focusing on the spectacle of the abuse and is now examining the context in which it occurred."
+   },
+   "1": {
+    "original": "However, after the buried soul of his father\u2019s abuse is revealed, these painful anecdotes begin to make more sense.",
+    "rewrite": "However, once the buried essence of his father\u2019s abuse is uncovered, these painful stories start to make more sense."
+   }
+  },
+  "final_span": "times when it can feel like a stretch to find Caveney\u2019s purpose in going into such painful detail about his early abuse. However, once the buried essence of his father\u2019s abuse is uncovered, these painful stories start to make more sense. Historically, this mistreatment has been the centerpiece of Caveney\u2019s articles online and in print. Additionally, over time, he has appeared before tribes to share his pain through debut documentaries for the BBC\u2019s Radio Days project, featured alongside an audio-CD companion to \u201cGibberish.\u201d However, as he approaches his 50s and 60s, he has shifted away from focusing on the spectacle of the abuse and is now examining the context in which it occurred. So, with \u201cGibberish\u201d he\u2019s moved from pornography to an exploration of what incest, trauma",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 3,
+   "segments": 5,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 60.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 198,
+   "length_change": -3,
+   "pct_not_preserved": 23.880597014925375,
+   "pct_new": 22.72727272727273
+  },
+  "words": {
+   "original": 132,
+   "final": 127,
+   "length_change": -5,
+   "pct_not_preserved": 31.060606060606055,
+   "pct_new": 28.346456692913392
+  },
+  "characters": {
+   "original": 761,
+   "final": 781,
+   "length_change": 20,
+   "pct_not_preserved": 20.10512483574245,
+   "pct_new": 22.151088348271443
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 138,
+   "green_after": 116,
+   "pairs_before": 200,
+   "pairs_after": 197,
+   "pairs_changed_before": 70,
+   "pairs_changed_after": 67,
+   "green_fraction_of_new_pairs": 0.3880597014925373,
+   "delta_achieved": 0.11194029850746268
+  }
+ }
+}

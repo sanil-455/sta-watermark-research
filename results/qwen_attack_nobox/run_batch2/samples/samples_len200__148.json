@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:148",
+ "nobox": {
+  "z_final": 4.966728680165993,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "You can play each night in any forum, by logging in from your iPhone.Your Mafia also has an avatar with which to play.",
+    "rewrite": "You can play every night in any forum by logging in from your iPhone. Your Mafia also has an avatar for playing."
+   },
+   "2": {
+    "original": "The program allows you to customize the image of your Mafia with a simple built-in editor for your avatar.",
+    "rewrite": "The program lets you tailor the image of your Mafia using a simple built-in editor for your avatar."
+   },
+   "3": {
+    "original": "To play the game at a forum, you need to join the Mafia group to identify yourself in the game.",
+    "rewrite": "To play the game at the forum, you must join the Mafia group to register yourself in the game."
+   },
+   "4": {
+    "original": "There is a group forum, named \"PlayMafia\", where you can discuss anything to do with the game.",
+    "rewrite": "There is a group forum called \"PlayMafia\" where you can discuss anything related to the game."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 29,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "time, the Mafia secretly tries to eliminate the Townspeople who wont be able to identify the Mafia as themselves in the voting.As the Mafia, you take this name for your group name, and create an account with a password. You can play every night in any forum by logging in from your iPhone. Your Mafia also has an avatar for playing. The program lets you tailor the image of your Mafia using a simple built-in editor for your avatar. To play the game at the forum, you must join the Mafia group to register yourself in the game. There is a group forum called \"PlayMafia\" where you can discuss anything related to the game. As the game is played, both the Townspeople and the Mafia will send messages to each other in order to carry out their individual goals, be it trapping and voting off suspected Maf",
+  "z0": 4.949747468305833,
+  "seconds": 119.5
+ }
+}

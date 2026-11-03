@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:197",
+ "nobox": {
+  "z_final": 2.110792634190876,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "He said he was thrilled to be working on the film as he is a fan of Jackson's work.",
+    "rewrite": "He said he was thrilled to be working on the film since he is a fan of Jackson's work."
+   },
+   "1": {
+    "original": "Picture date: Wednesday December 5, 2018.",
+    "rewrite": "Date of picture: Wednesday December 5, 2018."
+   },
+   "0": {
+    "original": "RDS in Dublin PRESS ASSOCIATION Photo.",
+    "rewrite": "RDS in Dublin Photo by PRESS ASSOCIATION."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 11,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 13,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "RDS in Dublin Photo by PRESS ASSOCIATION. Date of picture: Wednesday December 5, 2018. Jeweller Pierce Healy was chosen by Jackson to design the rings for his new film Mortal Engines which opens in cinemas this week (Brian Lawless/PA)\nPierce Healy has created 10 rings for Lord Of The Rings director Peter Jackson\u2019s new movie Mortal Engines which opens in cinemas on Wednesday (PA Graphics)\nHe said creating the rings was an opportunity to \u201cexercise my imagination and my skills...I had total freedom to design things...it was hard not to be influenced by Tolkein of course\u201d.\nHe said he was thrilled to be working on the film since he is a fan of Jackson's work.\n\u201cI was a huge fan of the director, since 1997.\u201d\nMortal Engines is",
+  "z0": 2.545584412271571,
+  "seconds": 60.2
+ }
+}

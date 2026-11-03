@@ -1,0 +1,256 @@
+{
+ "sample_id": "sta16_len200:154",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.3812664907651715,
+ "needed_share": 0.7824286827118315,
+ "delta_needed": 0.34195953628394354,
+ "segmentation": {
+  "chars": 758,
+  "segments": 6,
+  "eligible": 2,
+  "skipped": 4,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "does not start like a sentence": 3
+  },
+  "eligible_chars": 289,
+  "eligible_char_share": 0.3812664907651715
+ },
+ "attack": {
+  "z0": 9.192388155425117,
+  "z_final": 6.646803743153546,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 67,
+  "seconds": 223.2,
+  "seconds_by_phase": {
+   "generate": 217.0,
+   "gates": 6.1,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 227,
+    "z_before": 9.192388155425117,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 9,
+     "after_content": 1,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "several lines": 5,
+      "CJK text": 3,
+      "unknown word": 43,
+      "negation count changed": 8,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 1,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 59.69
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 62,
+    "z_before": 9.192388155425117,
+    "z_after": 8.061017305526642,
+    "accepted": true,
+    "survivors": 26,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 33,
+     "after_spelling": 32,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 26,
+     "rejected": {
+      "duplicate": 27,
+      "unknown word": 1,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 27,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.67
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 227,
+    "z_before": 8.061017305526642,
+    "z_after": 6.788225099390856,
+    "accepted": true,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 16,
+     "after_content": 2,
+     "after_semantic": 2,
+     "fluency_skipped": true,
+     "after_fluency": 2,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 41,
+      "negation count changed": 14
+     }
+    },
+    "queries_total": 29,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 48.1
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 62,
+    "z_before": 6.788225099390856,
+    "z_after": 6.646803743153546,
+    "accepted": true,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "duplicate": 30,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 52,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.29
+   },
+   {
+    "pass": 3,
+    "segment": 5,
+    "chars": 227,
+    "z_before": 6.646803743153546,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 8,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 3,
+      "several lines": 3,
+      "unknown word": 46,
+      "negation count changed": 8
+     }
+    },
+    "queries_total": 52,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 50.86
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 62,
+    "z_before": 6.646803743153546,
+    "z_after": 6.667692860264166,
+    "accepted": false,
+    "survivors": 26,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 31,
+     "after_spelling": 31,
+     "after_content": 31,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 26,
+     "rejected": {
+      "duplicate": 29,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 67,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.42
+   }
+  ],
+  "rewrites": {
+   "4": {
+    "original": "It had to be one of the Seahawks linemen - Frank Okam perhaps?",
+    "rewrite": "One of the Seahawks' linemen had to be Frank Okam, potentially."
+   },
+   "5": {
+    "original": "There are few things more frustrating for an NFL running back than having no room to run and the Seahawks simply annihilated Knowshon Morency and Marcus Thomas with six - TWO, SIX! - straight snaps going for minimal or no gain.",
+    "rewrite": "For an NFL running back, few situations are more frustrating than not having space to run, and the Seahawks completely stifled Knowshon Morency and Marcus Thomas with six - TWO, SIX! - consecutive snaps yielding minimal or no gain."
+   }
+  },
+  "final_span": "that in mind, here are three things we learned from Denver coach John Fox, Seattle head coach Pete Carroll and players like Sherman, Darrell Hasesbeck and Russell Okung.\n\u2022 For a quarter and a half, Broncos coach John Fox appeared as clueless as his predecessor Josh McDaniels on defense.\n\u2022 For a man who has spent eight years raving about Seattle, defensive coordinator Gus Bradley was in a pressurized, no-man's land during Super Bowl Week.\n\u2022 Somebody got to Lynch. One of the Seahawks' linemen had to be Frank Okam, potentially. For an NFL running back, few situations are more frustrating than not having space to run, and the Seahawks completely stifled Knowshon Morency and Marcus Thomas with six - TWO, SIX! - consecutive snaps yielding minimal or no gain.\n",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 2,
+   "segments": 6,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 33.333333333333336
+  },
+  "tokens": {
+   "original": 201,
+   "final": 201,
+   "length_change": 0,
+   "pct_not_preserved": 12.935323383084574,
+   "pct_new": 12.935323383084574
+  },
+  "words": {
+   "original": 134,
+   "final": 130,
+   "length_change": -4,
+   "pct_not_preserved": 18.656716417910445,
+   "pct_new": 16.153846153846153
+  },
+  "characters": {
+   "original": 758,
+   "final": 763,
+   "length_change": 5,
+   "pct_not_preserved": 11.08179419525066,
+   "pct_new": 11.664482306684143
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 165,
+   "green_after": 147,
+   "pairs_before": 200,
+   "pairs_after": 200,
+   "pairs_changed_before": 38,
+   "pairs_changed_after": 38,
+   "green_fraction_of_new_pairs": 0.42105263157894735,
+   "delta_achieved": 0.07894736842105265
+  }
+ }
+}

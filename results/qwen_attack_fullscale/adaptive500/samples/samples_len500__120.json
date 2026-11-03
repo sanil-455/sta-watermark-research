@@ -1,0 +1,154 @@
+{
+ "sample_id": "samples_len500:120",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8203737191078964,
+ "needed_share": 0.3788700062500584,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 1659,
+  "segments": 20,
+  "eligible": 15,
+  "skipped": 5,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 3,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1361,
+  "eligible_char_share": 0.8203737191078964
+ },
+ "attack": {
+  "z0": 3.219937887599697,
+  "z_final": 1.6399961665583642,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 96,
+  "seconds": 86.7,
+  "seconds_by_phase": {
+   "generate": 78.6,
+   "gates": 8.1,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 165,
+    "z_before": 3.219937887599697,
+    "z_after": 2.0449494325821806,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "duplicate": 1,
+      "numbers changed": 7,
+      "negation count changed": 1
+     }
+    },
+    "queries_total": 52,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.67
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 116,
+    "z_before": 2.0449494325821806,
+    "z_after": 1.6399961665583642,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 48,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "duplicate": 10,
+      "CJK text": 1,
+      "unknown word": 1,
+      "numbers changed": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 96,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.95
+   }
+  ],
+  "rewrites": {
+   "8": {
+    "original": "Northeastern was slow to start at times on offense and should have rightfully been able three or four points in the opening quarter after starting at the Vikings 40.",
+    "rewrite": "At times, Northeastern started slowly offensively and could have been up by three or four points early if they had played better from the beginning after taking the ball at the Vikings' 40."
+   },
+   "11": {
+    "original": "Senior defensive back Elijah Stone\u2019s 45-yard punt to the Conley 8-yard line set up a three-and-out for the visitors.",
+    "rewrite": "Ezekiel Stone, the senior defensive back, returned a punt 45 yards to the Conley 8-yard line, resulting in a three-and-out for the opposing team."
+   }
+  },
+  "final_span": "said that tackling was a big part of the Eagles effort.\n\u201cWe tackled anyone that we had our arms on,\u201d the second-year Eagles coach said.\nThe problem that the Eagles had was that Conley ran all over the NHS defense for an average of 7.5 yards per play.\n\u201cWe just ran pretty much according to the plan [Friday],\u201d Moore said.\nHe added that running back Traveon Freshwater gave the Eagles something they never had in previous years.\nThe 5-foot-11, 195-pound junior finished with 144 yards rushing and three touchdowns on 13 carries. He also added 13 carries for 67 yards.\nOn the season, the Northeastern junior already has 216 yards rushing and three touchdowns in one game.\nAt times, Northeastern started slowly offensively and could have been up by three or four points early if they had played better from the beginning after taking the ball at the Vikings' 40.\nOn first down from the 40, Harris\u2019 pass to Trae Demery ended up in the hands of a Conley defensive back.\nFollowing an Eagles sack, the Eagles were forced to punt.\nEzekiel Stone, the senior defensive back, returned a punt 45 yards to the Conley 8-yard line, resulting in a three-and-out for the opposing team.\nHarris threw for 153 yards and rushed for a team-high 22. He passed for a touchdown and rushed for another.\nNortheastern\u2019s Nate Mock scored on a 34-yard run in the second quarter to cut the lead to 13-7 at the intermission.\nOverall, Moore likes his team\u2019s chances.\n\u201cIt\u2019s going to be a fun deal [Friday],\u201d he said.\nWhen asked what his thoughts were when he woke up before the game, Moore, not one to waste time joking, was serious.\nAlong with Harris, Mock finished with 68 yards rushing on 11 carries for the Eagles.\nFreshwater finished with 261",
+  "break_point": {
+   "step": 1,
+   "sentences_rewritten": 2,
+   "queries": 96
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 15,
+   "segments": 20,
+   "pct_of_eligible": 13.333333333333334,
+   "pct_of_segments": 10.0
+  },
+  "tokens": {
+   "original": 501,
+   "final": 510,
+   "length_change": 9,
+   "pct_not_preserved": 6.387225548902197,
+   "pct_new": 8.039215686274515
+  },
+  "words": {
+   "original": 294,
+   "final": 303,
+   "length_change": 9,
+   "pct_not_preserved": 8.503401360544217,
+   "pct_new": 11.221122112211223
+  },
+  "characters": {
+   "original": 1659,
+   "final": 1712,
+   "length_change": 53,
+   "pct_not_preserved": 4.7016274864376095,
+   "pct_new": 7.651869158878499
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 286,
+   "green_after": 273,
+   "pairs_before": 500,
+   "pairs_after": 509,
+   "pairs_changed_before": 47,
+   "pairs_changed_after": 56,
+   "green_fraction_of_new_pairs": 0.35714285714285715,
+   "delta_achieved": 0.14285714285714285
+  }
+ }
+}

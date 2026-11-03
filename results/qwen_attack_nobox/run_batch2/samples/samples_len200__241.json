@@ -1,0 +1,112 @@
+{
+ "sample_id": "samples_len200:241",
+ "nobox": {
+  "z_final": 3.3317416635391788,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "How does it feel knowing that Hoggard is your only conference opponent that you haven\u2019t beaten in over a year?",
+    "rewrite": "How does it feel to realize that Hoggard is the sole conference opponent you haven't beaten in over a year?"
+   },
+   "1": {
+    "original": "No, but I\u2019ve been playing for a group up in Greensboro at James Madison.",
+    "rewrite": "No, but I've been playing with a group in Greensboro at James Madison."
+   },
+   "7": {
+    "original": "I think we can pull it off and I\u2019m looking forward to play our rival.",
+    "rewrite": "I believe we can pull it off and I'm looking forward to playing our rival."
+   },
+   "12": {
+    "original": "I usually chill with my teammates before the game or by myself.",
+    "rewrite": "I generally relax with my teammates before the game or on my own."
+   },
+   "13": {
+    "original": "It doesn\u2019t really matter since I don\u2019t shoot before the game.",
+    "rewrite": "It doesn\u2019t really matter as I don\u2019t shoot before the game."
+   },
+   "8": {
+    "original": "What was your pregame shoot around routine before the game?",
+    "rewrite": "What was your pregame shooting routine before the game?"
+   },
+   "2": {
+    "original": "I went and worked out and got to know their coaches.",
+    "rewrite": "I worked out and got to know their coaches."
+   },
+   "11": {
+    "original": "What about before games during the regular season?",
+    "rewrite": "During the regular season, what about before the games?"
+   },
+   "4": {
+    "original": "The team has started off with a 3-0 record.",
+    "rewrite": "The team has begun with a 3-0 record."
+   },
+   "9": {
+    "original": "I usually go with whoever is game named.",
+    "rewrite": "I typically go with whoever has a game name."
+   }
+  },
+  "sentences_rewritten": 10,
+  "eligible": 11,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 10,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 6,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 12,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 25,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 10,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 12,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 4,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 12,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 0,
+    "rewritten": false
+   }
+  ],
+  "queries": 1,
+  "final_span": "you been playing with the women\u2019s college team?\nNo, but I've been playing with a group in Greensboro at James Madison. I worked out and got to know their coaches. It was fun.\nThe team has begun with a 3-0 record. How does it feel to realize that Hoggard is the sole conference opponent you haven't beaten in over a year?\nIt feels nice. I believe we can pull it off and I'm looking forward to playing our rival.\nWhat was your pregame shooting routine before the game?\nI typically go with whoever has a game name. Other than that I just go by what I see.\nDuring the regular season, what about before the games?\nI generally relax with my teammates before the game or on my own. It doesn\u2019t really matter as I don\u2019t shoot before the game.\nWhat do you do during the",
+  "z0": 3.959797974644666,
+  "seconds": 209.4
+ }
+}

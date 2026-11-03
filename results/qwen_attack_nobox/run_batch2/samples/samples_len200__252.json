@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:252",
+ "nobox": {
+  "z_final": 3.142857142857143,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "SMRT said on its Facebook page that its bus network is operating normally, while Tower said it is taking steps to make sure its Express Services are operating smoothly.",
+    "rewrite": "SMRT stated on its Facebook page that its bus network is operating normally, and Tower said it is taking measures to ensure its Express Services operate smoothly."
+   },
+   "2": {
+    "original": "While the power supply goes up for an average family, there are a number of items which remain stationary because they depends on electricity to operate.",
+    "rewrite": "As the power supply increases for an average family, many items that rely on electricity to function continue to remain stationary in price."
+   },
+   "6": {
+    "original": "SBS Transit added on Facebook that peak times may be affected by some traffic light issues in some affected areas, urging residents to be patient.",
+    "rewrite": "SBS Transit posted on Facebook that peak times might be impacted by traffic light issues in certain areas, asking residents to stay patient."
+   },
+   "4": {
+    "original": "There are three bus operators operating on the island \u2013 SMRT, Tower and SBS Transit.",
+    "rewrite": "There are three bus operators on the island - SMRT, Tower, and SBS Transit operating."
+   },
+   "3": {
+    "original": "Here\u2019s what you need to know about running out of essential items for your home.",
+    "rewrite": "Here\u2019s what you need to understand about the possibility of running out of essential items for your home."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 13,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Facebook post that it was \"taking immediate action to restore the power supply\" and apologised for the inconvenience caused to residents.\n\"Our investigation of the power disruption is still ongoing and we will update the public as soon as we have more information,\" it added.\nAs the power supply increases for an average family, many items that rely on electricity to function continue to remain stationary in price.\nHere\u2019s what you need to understand about the possibility of running out of essential items for your home.\nThere are three bus operators on the island - SMRT, Tower, and SBS Transit operating.\nSMRT stated on its Facebook page that its bus network is operating normally, and Tower said it is taking measures to ensure its Express Services operate smoothly.\nSBS Transit posted on Facebook that peak times might be impacted by traffic light issues in certain areas, asking residents to stay patient.\nChangi",
+  "z0": 4.666904755831213,
+  "seconds": 167.0
+ }
+}

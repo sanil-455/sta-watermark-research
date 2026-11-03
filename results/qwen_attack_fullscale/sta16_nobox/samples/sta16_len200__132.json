@@ -1,0 +1,62 @@
+{
+ "sample_id": "sta16_len200:132",
+ "nobox": {
+  "z_final": 5.377913277425752,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "There are at 6 p.m. Monday at the Village Green in Historic Dublin; and the Concert on the Green at 7 p.m. at the Sycamore Park Amphitheater, at North High Street and River Road.",
+    "rewrite": "There is at 6 p.m. on Monday at the Village Green in Historic Dublin, and a Concert on the Green at 7 p.m. at the Sycamore Park Amphitheater, located at the intersection of North High Street and River Road."
+   },
+   "3": {
+    "original": "Free and open to the public, there will be local, regional, and nationally performing artists and the cities of Dublin and Worthington.",
+    "rewrite": "Open to the public for free, it will feature local, regional, and national performing artists along with the cities of Dublin and Worthington."
+   },
+   "1": {
+    "original": "The fun/frolic is open to kids who enter through Hilderbrand Park.",
+    "rewrite": "The fun/frolic is available for children entering through Hilderbrand Park."
+   },
+   "4": {
+    "original": "Fireworks begin at 10 p.m. at the Sycamore Park Amphitheater.",
+    "rewrite": "Fireworks start at 10 p.m. at the Sycamore Park Amphitheater."
+   },
+   "0": {
+    "original": "Center to the Dublin Veterans Memorial Auditorium.",
+    "rewrite": "At the center of the Dublin Veterans Memorial Auditorium."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 10,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 4,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "At the center of the Dublin Veterans Memorial Auditorium. The fun/frolic is available for children entering through Hilderbrand Park.\nThere is at 6 p.m. on Monday at the Village Green in Historic Dublin, and a Concert on the Green at 7 p.m. at the Sycamore Park Amphitheater, located at the intersection of North High Street and River Road. Open to the public for free, it will feature local, regional, and national performing artists along with the cities of Dublin and Worthington.\nFireworks start at 10 p.m. at the Sycamore Park Amphitheater. The fireworks align with sound from the country and big-band radio station Q106 (and can be heard at 105.7 FM, Q105.7 FM and Q106.com online) from the west side podium.\nThere\u2019s no better place",
+  "z0": 7.071067811865475,
+  "seconds": 167.5
+ }
+}

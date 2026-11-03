@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:124",
+ "nobox": {
+  "z_final": 4.643743795219926,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "Here's our rundown of the Top 45 online trends and videos over the last week: Online Trends Instant Replay Highlights on Instagram: NFL Week 6 Recap GameDay at North Cary: Wake Forest vs ECU Start Studiooverview: Live...",
+    "rewrite": "Here\u2019s an overview of the Top 45 online trends and videos from the past week: Online Trends Instant Replay Highlights on Instagram: NFL Week 6 Recap GameDay at North Cary: Wake Forest vs ECU Starting Studio Overview: Live..."
+   },
+   "1": {
+    "original": "See the broadcast teams live which will include Sports Plus, High School Football America, Inside/Out and the Packer Pregame.",
+    "rewrite": "View the broadcast teams live, featuring Sports Plus, High School Football America, Inside/Out, and the Packer Pregame."
+   },
+   "5": {
+    "original": "Read More about News to Know: Week of October 9th, 2017.",
+    "rewrite": "Read more about the News to Know for the week of October 9, 2017."
+   },
+   "2": {
+    "original": "Fans can mark their calendars for the Magic of March.",
+    "rewrite": "Fans can set their calendars for the Magic of March."
+   },
+   "3": {
+    "original": "Note: In-app purchase goes through Maga Zone.",
+    "rewrite": "Note: The in-app purchase uses Maga Zone."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 12,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 23,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 20,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 20,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "your one-stop shop for high school basketball & hockey coverage. View the broadcast teams live, featuring Sports Plus, High School Football America, Inside/Out, and the Packer Pregame.\nFans can set their calendars for the Magic of March.\nNote: The in-app purchase uses Maga Zone.\nHere\u2019s an overview of the Top 45 online trends and videos from the past week: Online Trends Instant Replay Highlights on Instagram: NFL Week 6 Recap GameDay at North Cary: Wake Forest vs ECU Starting Studio Overview: Live... Read more about the News to Know for the week of October 9, 2017.\nHere's our rundown of the top 40 online trends and most watched videos for the last week: Top online trend for the week was football. -#1 Instant Replay HIlights -#3 Sport",
+  "z0": 5.854368611626366,
+  "seconds": 146.3
+ }
+}

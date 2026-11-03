@@ -1,0 +1,71 @@
+{
+ "sample_id": "samples_len200:360",
+ "nobox": {
+  "z_final": 3.8349454080498346,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "It's important to note it's been available, as a pilot project, for a while now, and as a result doesn't include such niceties as Bluetooth, a docking-compatible port, or an HDMI port.",
+    "rewrite": "It's worth noting that it has been available as a pilot project for some time, which means it does not currently include features like Bluetooth, a docking-compatible port, or an HDMI port."
+   },
+   "2": {
+    "original": "Brightness is also increased a bit via Dell's Dynamically Adjustable Backlight control, which uses sensors to determine ambient lighting.",
+    "rewrite": "Brightness is slightly increased through Dell's Dynamically Adjustable Backlight control, which employs sensors to assess ambient lighting."
+   },
+   "4": {
+    "original": "Out of the box, we found the brightness at a nice middle level for indoor work.",
+    "rewrite": "Right out of the box, we discovered the brightness to be at a pleasant middle setting for indoor work."
+   },
+   "5": {
+    "original": "There are a few rough edges with the Dell XPS 13 Developer Edition.",
+    "rewrite": "The Dell XPS 13 Developer Edition has a few rough edges."
+   },
+   "7": {
+    "original": "We'd have preferred to see the latest 2.0 USB ports instead of 1.",
+    "rewrite": "We preferred to see the latest 2.0 USB ports rather than 1."
+   },
+   "1": {
+    "original": "We of course did not test that feature.",
+    "rewrite": "We certainly did not test that feature."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 6,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 38,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 20,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 9,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "which Dell says gives developers the ability to dedicate the machine to an external hypervisor-based virtual machine without slowing the machine's host applications. We certainly did not test that feature.\nBrightness is slightly increased through Dell's Dynamically Adjustable Backlight control, which employs sensors to assess ambient lighting. The result is an \u201cadaptive tone according to the surrounding brightness.\u201d Right out of the box, we discovered the brightness to be at a pleasant middle setting for indoor work.\nThe Dell XPS 13 Developer Edition has a few rough edges. It's worth noting that it has been available as a pilot project for some time, which means it does not currently include features like Bluetooth, a docking-compatible port, or an HDMI port. We preferred to see the latest 2.0 USB ports rather than 1.",
+  "z0": 4.666904755831213,
+  "seconds": 188.6
+ }
+}

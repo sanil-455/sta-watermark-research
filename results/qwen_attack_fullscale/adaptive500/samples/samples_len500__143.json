@@ -1,0 +1,367 @@
+{
+ "sample_id": "samples_len500:143",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.6974506974506974,
+ "needed_share": 0.6506143785156578,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2079,
+  "segments": 13,
+  "eligible": 9,
+  "skipped": 4,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 2,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1450,
+  "eligible_char_share": 0.6974506974506974
+ },
+ "attack": {
+  "z0": 5.724334022399462,
+  "z_final": 1.7529196424044293,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 292,
+  "seconds": 361.1,
+  "seconds_by_phase": {
+   "generate": 334.6,
+   "gates": 26.3,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 378,
+    "z_before": 5.724334022399462,
+    "z_after": 4.400329899655985,
+    "accepted": true,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 4,
+      "negation count changed": 23
+     }
+    },
+    "queries_total": 33,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 81.24
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 283,
+    "z_before": 4.400329899655985,
+    "z_after": 4.0083584070883,
+    "accepted": true,
+    "survivors": 58,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 59,
+     "fluency_skipped": false,
+     "after_fluency": 58,
+     "rejected": {
+      "duplicate": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 91,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.45
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 193,
+    "z_before": 4.0083584070883,
+    "z_after": 3.5093859111936108,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 53,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 5,
+      "unknown word": 2,
+      "numbers changed": 2
+     }
+    },
+    "queries_total": 142,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 51.3
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 160,
+    "z_before": 3.5093859111936108,
+    "z_after": 3.2394331487941024,
+    "accepted": true,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 41,
+     "after_spelling": 40,
+     "after_content": 40,
+     "after_semantic": 40,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 18,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 182,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 45.26
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 133,
+    "z_before": 3.2394331487941024,
+    "z_after": 3.149448894660933,
+    "accepted": true,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 34,
+     "after_content": 34,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "duplicate": 26
+     }
+    },
+    "queries_total": 216,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.94
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 105,
+    "z_before": 3.149448894660933,
+    "z_after": 2.48718597405374,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "duplicate": 5,
+      "unknown word": 1,
+      "perplexity too high": 12
+     }
+    },
+    "queries_total": 258,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.27
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 79,
+    "z_before": 2.48718597405374,
+    "z_after": 2.3967428477245134,
+    "accepted": true,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 5,
+     "after_spelling": 5,
+     "after_content": 5,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "duplicate": 53,
+      "identical to original": 2
+     }
+    },
+    "queries_total": 263,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.5
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 66,
+    "z_before": 2.3967428477245134,
+    "z_after": 2.249606353329238,
+    "accepted": true,
+    "survivors": 7,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 29,
+     "after_spelling": 28,
+     "after_content": 25,
+     "after_semantic": 7,
+     "fluency_skipped": false,
+     "after_fluency": 7,
+     "rejected": {
+      "duplicate": 30,
+      "hit length limit": 1,
+      "unknown word": 1,
+      "negation count changed": 3,
+      "meaning too different": 18
+     }
+    },
+    "queries_total": 270,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 19.47
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 53,
+    "z_before": 2.249606353329238,
+    "z_after": 1.7529196424044293,
+    "accepted": true,
+    "survivors": 22,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 31,
+     "after_spelling": 31,
+     "after_content": 31,
+     "after_semantic": 28,
+     "fluency_skipped": false,
+     "after_fluency": 22,
+     "rejected": {
+      "duplicate": 29,
+      "meaning too different": 3,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 292,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 13.18
+   }
+  ],
+  "rewrites": {
+   "4": {
+    "original": "Gabriel Resources claims that Romania has not responded to part of the requests made in 2015 concerning the breaching of the BIT signed in London and the BIT signed in Reno, which claims that \u00ab three of the responding...requests for an annual six - figure sum in recognition of Gabriel's continuing legal actions and/or costs incurred in complying with the responding requests\u00bb.",
+    "rewrite": "Gabriel Resources asserts that Romania has not addressed some of the requests from 2015 regarding the breaches of the BIT signed in London and the BIT signed in Reno, which states that \"three of the responding...requests for an annual six-figure sum for recognizing Gabriel\u2019s ongoing legal actions and/or expenses related to complying with these requests\"."
+   },
+   "7": {
+    "original": "Our sources of evidence were information derived from Wikipedia and EU Investor (the European Commission's database with in-depth information on the free movement of capital issued by EU member states), Investment Shock Index for Romania and the possible future impact of ICSID/CETA.",
+    "rewrite": "Our sources of evidence included information from Wikipedia, the EU Investor database provided by the European Commission with comprehensive data on capital mobility among EU member states, the Investment Shock Index for Romania, and the potential future effects of ICSID/CETA."
+   },
+   "8": {
+    "original": "The Gazette, July 30, 2015, Gabriel Resources Nears 10th Anniversary as it Joins with International Centre for Settlement of Investment Disputes in taking Reprisals Against Romanian Government.",
+    "rewrite": "The Gazette on July 30, 2015, reported that Gabriel Resources is marking its 10th anniversary by partnering with the International Centre for Settlement of Investment Disputes to pursue actions against the Romanian government."
+   },
+   "3": {
+    "original": "On September 3, 2018, Gabriel Resources released a press statement following the sixth hearing in London during the arbitration case initiated on July 21, 2015.",
+    "rewrite": "On September 3, 2018, Gabriel Resources issued a press release after the sixth hearing held in London during the arbitration case launched on July 21, 2015."
+   },
+   "10": {
+    "original": "Presentation to the International Institute for Sustainable Development Conference Towards Social Investing, Vienna, Oct. 7-10, 2014.",
+    "rewrite": "Presentation at the Conference on Social Investing, International Institute for Sustainable Development, Vienna, Oct. 7-10, 2014."
+   },
+   "9": {
+    "original": "Michael Collins, The Narrowing Base of Global Investments for the Purpose of Promoting Social Investment.",
+    "rewrite": "Michael Collins, Shifting Investors' Scope to Enhance Social Investments."
+   },
+   "6": {
+    "original": "It differs from the statements signed by Gabriel Resources' CEO Jonathan Henry.",
+    "rewrite": "It varies from the declarations signed by Gabriel Resources' CEO Jonathan Henry."
+   },
+   "5": {
+    "original": "The statement is unsigned but written in Gabriel Resources' style.",
+    "rewrite": "The statement lacks an unsigned signature but is written in the style of Gabriel Resources."
+   },
+   "11": {
+    "original": "Official reports from the Film's Official Press Tour.",
+    "rewrite": "Reports from the Film's Official Promotional Tour."
+   }
+  },
+  "final_span": "the Ro\u0219ia Montan\u0103 project, to the extent of intensifying the disputes caused by the project. Romania's failure to protect the Ro\u0219ia Montan\u0103 project is a high-profile example that CEO perceives as reflecting the imbalance in the agreement: \"This does not however present any problem to corporations. The methods they use to protect their economic interests do not only include lobbying for friendlier environmental policy, but also enforcement of legal loopholes, creating private-public partnerships ('PPPs'), and use of US-EU trade agreements such as CETA.\"\nOn September 3, 2018, Gabriel Resources issued a press release after the sixth hearing held in London during the arbitration case launched on July 21, 2015. Gabriel Resources asserts that Romania has not addressed some of the requests from 2015 regarding the breaches of the BIT signed in London and the BIT signed in Reno, which states that \"three of the responding...requests for an annual six-figure sum for recognizing Gabriel\u2019s ongoing legal actions and/or expenses related to complying with these requests\". The statement lacks an unsigned signature but is written in the style of Gabriel Resources. It varies from the declarations signed by Gabriel Resources' CEO Jonathan Henry.\nOur sources of evidence included information from Wikipedia, the EU Investor database provided by the European Commission with comprehensive data on capital mobility among EU member states, the Investment Shock Index for Romania, and the potential future effects of ICSID/CETA.\nThe Gazette on July 30, 2015, reported that Gabriel Resources is marking its 10th anniversary by partnering with the International Centre for Settlement of Investment Disputes to pursue actions against the Romanian government.\nMichael Collins, Shifting Investors' Scope to Enhance Social Investments. Presentation at the Conference on Social Investing, International Institute for Sustainable Development, Vienna, Oct. 7-10, 2014.\nReports from the Film's Official Promotional Tour.\nGuy Standing, The Corruption of Capitalism: How rogue Markets",
+  "break_point": {
+   "step": 8,
+   "sentences_rewritten": 9,
+   "queries": 292
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 9,
+   "eligible": 9,
+   "segments": 13,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 69.23076923076923
+  },
+  "tokens": {
+   "original": 501,
+   "final": 496,
+   "length_change": -5,
+   "pct_not_preserved": 21.9560878243513,
+   "pct_new": 21.169354838709676
+  },
+  "words": {
+   "original": 309,
+   "final": 305,
+   "length_change": -4,
+   "pct_not_preserved": 28.155339805825243,
+   "pct_new": 27.213114754098356
+  },
+  "characters": {
+   "original": 2079,
+   "final": 2067,
+   "length_change": -12,
+   "pct_not_preserved": 15.58441558441559,
+   "pct_new": 15.094339622641506
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 314,
+   "green_after": 267,
+   "pairs_before": 500,
+   "pairs_after": 495,
+   "pairs_changed_before": 161,
+   "pairs_changed_after": 156,
+   "green_fraction_of_new_pairs": 0.391025641025641,
+   "delta_achieved": 0.10897435897435898
+  }
+ }
+}

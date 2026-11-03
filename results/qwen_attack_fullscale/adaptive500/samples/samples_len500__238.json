@@ -1,0 +1,217 @@
+{
+ "sample_id": "samples_len500:238",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8275193798449613,
+ "needed_share": 0.6450685750000333,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2064,
+  "segments": 18,
+  "eligible": 12,
+  "skipped": 6,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "no final punctuation": 4,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1708,
+  "eligible_char_share": 0.8275193798449613
+ },
+ "attack": {
+  "z0": 5.63489130329947,
+  "z_final": 1.902208007376378,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 116,
+  "seconds": 209.1,
+  "seconds_by_phase": {
+   "generate": 199.4,
+   "gates": 9.7,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 348,
+    "z_before": 5.63489130329947,
+    "z_after": 4.552482795310008,
+    "accepted": true,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 54,
+     "after_content": 40,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "CJK text": 4,
+      "several lines": 1,
+      "unknown word": 1,
+      "negation count changed": 14,
+      "meaning too different": 6,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 33,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 73.83
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 284,
+    "z_before": 4.552482795310008,
+    "z_after": 3.5634832254989917,
+    "accepted": true,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 4,
+     "after_semantic": 4,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "CJK text": 4,
+      "several lines": 1,
+      "quotation changed": 43,
+      "negation count changed": 8
+     }
+    },
+    "queries_total": 37,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 60.15
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 176,
+    "z_before": 3.5634832254989917,
+    "z_after": 3.022968726425832,
+    "accepted": true,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 43,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "CJK text": 12,
+      "unknown word": 5,
+      "negation count changed": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 76,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.61
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 150,
+    "z_before": 3.022968726425832,
+    "z_after": 1.902208007376378,
+    "accepted": true,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 40,
+     "after_spelling": 40,
+     "after_content": 40,
+     "after_semantic": 40,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "duplicate": 20
+     }
+    },
+    "queries_total": 116,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 31.8
+   }
+  ],
+  "rewrites": {
+   "6": {
+    "original": "Anticipating the potential for disaster, lawmakers voted to allow a type of rainy-day savings account, but since 2011, state officials have been depositing money into a new type of rainy-day fund \u2013 which is designed to protect us from disasters such as three consecutive years of drought \u2013 without offering a viable safety net for a revenue crisis.",
+    "rewrite": "Due to concerns about future disasters, lawmakers permitted the creation of a rainy-day savings account. However, from 2011 onward, state officials began depositing funds into a new kind of rainy-day fund aimed at safeguarding against disasters like three straight years of drought, yet they did not provide a robust financial buffer for revenue crises."
+   },
+   "11": {
+    "original": "If you do the numbers, you find that many times education cannot be increased as a percentage of spending as the other two areas of the budget increase or remain stable, because revenues simply do not publish high enough to balance budgets without \u201cskimming\u201d from the two other areas.",
+    "rewrite": "When calculating the figures, it becomes clear that often education's share of spending cannot rise as a percentage if the other two budget areas are increasing or staying the same, since revenues may not grow sufficiently to balance the budget without \"skimming\" funds from the other two sectors."
+   },
+   "2": {
+    "original": "One school of thought objects to the rainy-day fund on grounds that holding cash is safe but a waste of money at a time when California\u2019s infrastructure badly needs investment.",
+    "rewrite": "One theory contends that a rainy-day fund should be avoided because maintaining a cash reserve is considered safe yet imprudent at a moment when California\u2019s infrastructure requires significant investment."
+   },
+   "8": {
+    "original": "On the surface it seems simple: The state budget has three principal areas of spending: Education, health and social services, and general government.",
+    "rewrite": "At first glance, it appears straightforward: The state budget comprises three main spending categories: education, healthcare and social services, along with general government expenses."
+   }
+  },
+  "final_span": "long-term debts.\nHow to replenish the rainy-day fund \u2013 without raising more taxes \u2013 is likely to be a key early battle.\nOne theory contends that a rainy-day fund should be avoided because maintaining a cash reserve is considered safe yet imprudent at a moment when California\u2019s infrastructure requires significant investment.\nAnother school worries about the likelihood that California may be overdue for an economic catastrophe.\nJust ask the folks in Los Angeles who suffered a shocking foreclosure racket when the financial crisis hit in 2008. Or think about the recent \u201cStuxnet\u201d computer virus, which took down Iran\u2019s oil exports and scintillated Wall Street.\nDue to concerns about future disasters, lawmakers permitted the creation of a rainy-day savings account. However, from 2011 onward, state officials began depositing funds into a new kind of rainy-day fund aimed at safeguarding against disasters like three straight years of drought, yet they did not provide a robust financial buffer for revenue crises.\nAnd that is one deep hole for the Brown administration to climb out of.\nAt first glance, it appears straightforward: The state budget comprises three main spending categories: education, healthcare and social services, along with general government expenses. These categories always grow during good economic times as tax receipts grow to match the growth in incomes.\nBut the truth is that is easy when times are good but more challenging when times are tough. When calculating the figures, it becomes clear that often education's share of spending cannot rise as a percentage if the other two budget areas are increasing or staying the same, since revenues may not grow sufficiently to balance the budget without \"skimming\" funds from the other two sectors.\nIn fiscal 2013-14, the three sources of spending are:\nEducation \u2013 40 percent\nHealth and services for the poor \u2013 31 percent\nGeneral government (including the justice system, the economy cabinet and everything else: 22 percent\nThat, however, is the result of good times.\nDuring their most recent budget meltdown, in 2008 and 2009, lawmakers provided no increase in spending",
+  "break_point": {
+   "step": 3,
+   "sentences_rewritten": 4,
+   "queries": 116
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 4,
+   "eligible": 12,
+   "segments": 18,
+   "pct_of_eligible": 33.333333333333336,
+   "pct_of_segments": 22.22222222222222
+  },
+  "tokens": {
+   "original": 501,
+   "final": 512,
+   "length_change": 11,
+   "pct_not_preserved": 20.55888223552894,
+   "pct_new": 22.265625
+  },
+  "words": {
+   "original": 345,
+   "final": 340,
+   "length_change": -5,
+   "pct_not_preserved": 29.855072463768117,
+   "pct_new": 28.823529411764703
+  },
+  "characters": {
+   "original": 2064,
+   "final": 2147,
+   "length_change": 83,
+   "pct_not_preserved": 19.186046511627907,
+   "pct_new": 22.310200279459714
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 313,
+   "green_after": 277,
+   "pairs_before": 500,
+   "pairs_after": 511,
+   "pairs_changed_before": 150,
+   "pairs_changed_after": 161,
+   "green_fraction_of_new_pairs": 0.4161490683229814,
+   "delta_achieved": 0.08385093167701863
+  }
+ }
+}

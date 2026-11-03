@@ -1,0 +1,53 @@
+{
+ "sample_id": "sta16_len200:137",
+ "nobox": {
+  "z_final": 4.4744645862196,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "However, there is no clear-cut way of identifying a cyberterrorist - what anyone describes as \"identity theft\" may be judged a cybercrime, and a minority may be out to cause \"significant public disorder\".",
+    "rewrite": "Nonetheless, there is no straightforward method for identifying a cyberterrorist\u2014what one person considers \"identity theft\" might be classified as a cybercrime, and a small percentage could aim to create \"significant public disorder.\""
+   },
+   "3": {
+    "original": "Other penalties for cybercrime have been tightened by the Terrorism Act, which fail to make distinctions between targeted or systemic hacking.",
+    "rewrite": "The Terrorism Act has tightened other penalties for cybercrime, failing to distinguish between targeted or systemic hacking."
+   },
+   "2": {
+    "original": "Unlike terrorists, there is no requirement for cyberterrorists to incite violence or disorder for identity theft to be judged a cybercrime.",
+    "rewrite": "There is no need for cyberterrorists to incite violence or disorder for identity theft to be classified as a cybercrime, unlike terrorists."
+   },
+   "4": {
+    "original": "The aim is to crack down on teenage hackers or \"mischief-makers\" for trawling personal data from government websites.",
+    "rewrite": "The goal is to combat teenage hackers or \"mischief-makers\" who scrape personal data from government websites."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 20,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 3,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 38,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": ". Nonetheless, there is no straightforward method for identifying a cyberterrorist\u2014what one person considers \"identity theft\" might be classified as a cybercrime, and a small percentage could aim to create \"significant public disorder.\" There is no need for cyberterrorists to incite violence or disorder for identity theft to be classified as a cybercrime, unlike terrorists.\nThe Terrorism Act has tightened other penalties for cybercrime, failing to distinguish between targeted or systemic hacking. The goal is to combat teenage hackers or \"mischief-makers\" who scrape personal data from government websites. But the Act allows potentially severe penalties for more well-intentioned - albeit illegal - actions, such as downloading data from research bodies by those wishing to analyse the data for",
+  "z0": 9.050966799187808,
+  "seconds": 157.2
+ }
+}

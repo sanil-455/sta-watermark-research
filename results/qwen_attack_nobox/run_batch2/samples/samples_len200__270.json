@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:270",
+ "nobox": {
+  "z_final": 1.9236703496735605,
+  "status": "broken",
+  "rewrites": {
+   "6": {
+    "original": "The paper's long author list of researchers from Belgium, Bulgaria, India, Japan, and the UK signals the increasing interest from scientists in studying the genetic underpinnings of the yeasts used industrially, say the authors.",
+    "rewrite": "The extensive author list on the paper, indicating participation from scientists in Belgium, Bulgaria, India, Japan, and the UK, suggests growing interest in studying the genetic basis of industrial yeasts, according to the authors."
+   },
+   "2": {
+    "original": "The researchers speculate that early beer brewers could have increased their success by approaching stronger alcoholic beverages by crossing different yeast strains.",
+    "rewrite": "The researchers suggest that early beer brewers might have boosted their success by creating stronger alcoholic beverages through crossing various yeast strains."
+   },
+   "1": {
+    "original": "Keeping a separate female strain to be sexed with also promotes CGT, which increases fermentation efficiency, but not all beer strains carry this gene.",
+    "rewrite": "Maintaining a separate female strain for mating purposes also boosts CGT, enhancing fermentation efficiency; however, not all beer strains possess this gene."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 44,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "ability, which gives them increased stress tolerance. Maintaining a separate female strain for mating purposes also boosts CGT, enhancing fermentation efficiency; however, not all beer strains possess this gene. The researchers suggest that early beer brewers might have boosted their success by creating stronger alcoholic beverages through crossing various yeast strains.\n\"This research shows that agriculture may go far back,\" says Verstrepen. \"We don't know exactly how many years ago people started to manipulate strains, but this research shows that it goes far back. It can be categorized as pre-writing revolution.\"\nThe extensive author list on the paper, indicating participation from scientists in Belgium, Bulgaria, India, Japan, and the UK, suggests growing interest in studying the genetic basis of industrial yeasts, according to the authors.\nAnd although Gregor Mendel's pe",
+  "z0": 3.676955262170047,
+  "seconds": 134.1
+ }
+}

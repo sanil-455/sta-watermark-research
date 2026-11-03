@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:153",
+ "nobox": {
+  "z_final": 2.4961508830135313,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Massachusetts-based flight director Jonathan Beasley said the turbine works at 280 miles per hour, generating about 200 kilo newtons, and the overhang itself creates turbulence, which tribesmen resist.",
+    "rewrite": "Massachusetts-based flight director Jonathan Beasley stated that the turbine operates at 280 miles per hour, producing around 200 kilo newtons, and the overhang itself induces turbulence, a factor resistance among the tribesmen."
+   },
+   "1": {
+    "original": "He had scratches from the drag on the bottom of the CG60 aviation wind machine buried in overhang bay near Maui.",
+    "rewrite": "He had scratches on the bottom of the CG60 aviation wind machine from the drag, embedded in the overhang bay near Maui."
+   },
+   "6": {
+    "original": "Old Payne of the Central Alabama Skunk River Managerion reads during the Maryland flood in 1975.",
+    "rewrite": "Old Payne of the Central Alabama Skunk River Managerion reads during the 1975 Maryland flood."
+   },
+   "7": {
+    "original": "More than a quarter million people were destroyed, nearly 2,000 people killed.",
+    "rewrite": "Over a quarter million people suffered destruction, and almost 2,000 people were killed."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 28,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "of the state child welfare department, Rosenfeld said Tuesday.\nHe had scratches on the bottom of the CG60 aviation wind machine from the drag, embedded in the overhang bay near Maui.\nMassachusetts-based flight director Jonathan Beasley stated that the turbine operates at 280 miles per hour, producing around 200 kilo newtons, and the overhang itself induces turbulence, a factor resistance among the tribesmen.\n\u201cI am flowing from a wind chute fixed in overhang. The small wind tributary that formed the penny crash brought it out. There was a press release about \u201cthe game,\u201d claims Mackay.\nOld Payne of the Central Alabama Skunk River Managerion reads during the 1975 Maryland flood. Over a quarter million people suffered destruction, and almost 2,000 people were killed. He said most of them were due to window seal lo",
+  "z0": 3.676955262170047,
+  "seconds": 163.2
+ }
+}

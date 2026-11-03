@@ -1,0 +1,89 @@
+{
+ "sample_id": "samples_len200:84",
+ "nobox": {
+  "z_final": 1.2923246855119286,
+  "status": "broken",
+  "rewrites": {
+   "3": {
+    "original": "The weekly chart, below, is a run at a breakout and approaching stronger overhead resistance at the former rising 200-day average line near $58.",
+    "rewrite": "Below is the weekly chart showing an attempt at a breakout and nearing stronger overhead resistance at the former rising 200-day average line near $58."
+   },
+   "6": {
+    "original": "In this on-balance volume (OBV), below, we have a caution flag from price and a negative divergence on OBV.",
+    "rewrite": "In this on-balance volume (OBV), below, we see a caution flag from price and negative divergence."
+   },
+   "7": {
+    "original": "Prices have turned lower but the negative divergence to the upside probably means selling is light.",
+    "rewrite": "Prices have moved lower, yet the negative divergence on the upside likely indicates light selling."
+   },
+   "1": {
+    "original": "Shorter-term momentum has turned lower and is below the level of the 50-day average line.",
+    "rewrite": "Short-term momentum has shifted lower and is below the 50-day average line."
+   },
+   "5": {
+    "original": "Weekly RSI has penetrated trendline support and this was triggered by a bearish doji.",
+    "rewrite": "Weekly RSI has breached trendline support, triggered by a bearish doji."
+   },
+   "8": {
+    "original": "Volume last week was below 2017 average levels and the daily OBV is just below zero.",
+    "rewrite": "Last week's volume was below the 2017 average levels, and the daily OBV is just below zero."
+   },
+   "4": {
+    "original": "The pace of the pullback has slowed so sellers may now capitulate.",
+    "rewrite": "The slowdown in the pullback means that sellers might now give up."
+   },
+   "2": {
+    "original": "Volume has also decreased from the past year.",
+    "rewrite": "The volume has also decreased compared to last year."
+   }
+  },
+  "sentences_rewritten": 8,
+  "eligible": 8,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 25,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 2,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 16,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "200-day moving average line near $58. Short-term momentum has shifted lower and is below the 50-day average line. The volume has also decreased compared to last year.\nBelow is the weekly chart showing an attempt at a breakout and nearing stronger overhead resistance at the former rising 200-day average line near $58. The slowdown in the pullback means that sellers might now give up. Weekly RSI has breached trendline support, triggered by a bearish doji.\nIn this on-balance volume (OBV), below, we see a caution flag from price and negative divergence. Prices have moved lower, yet the negative divergence on the upside likely indicates light selling. Last week's volume was below the 2017 average levels, and the daily OBV is just below zero.",
+  "z0": 2.545584412271571,
+  "seconds": 223.6
+ }
+}

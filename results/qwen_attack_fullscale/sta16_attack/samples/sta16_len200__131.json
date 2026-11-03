@@ -1,0 +1,414 @@
+{
+ "sample_id": "sta16_len200:131",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.8539445628997868,
+ "needed_share": 0.7681617110863779,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 938,
+  "segments": 6,
+  "eligible": 3,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 801,
+  "eligible_char_share": 0.8539445628997868
+ },
+ "attack": {
+  "z0": 8.626702730475879,
+  "z_final": 3.0329861481919727,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 4,
+  "queries": 429,
+  "seconds": 649.0,
+  "seconds_by_phase": {
+   "generate": 612.7,
+   "gates": 36.1,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 296,
+    "z_before": 8.626702730475879,
+    "z_after": 5.851641321982871,
+    "accepted": true,
+    "survivors": 59,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 59,
+     "fluency_skipped": false,
+     "after_fluency": 59,
+     "rejected": {
+      "CJK text": 1
+     }
+    },
+    "queries_total": 60,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 55.28
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 291,
+    "z_before": 5.851641321982871,
+    "z_after": 4.876455322645894,
+    "accepted": true,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 58,
+     "after_content": 11,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "CJK text": 1,
+      "glued punctuation": 1,
+      "quotation changed": 47
+     }
+    },
+    "queries_total": 71,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 59.6
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 214,
+    "z_before": 4.876455322645894,
+    "z_after": 3.5713746626659146,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "duplicate": 14,
+      "CJK text": 1
+     }
+    },
+    "queries_total": 116,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.25
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 296,
+    "z_before": 3.5713746626659146,
+    "z_after": 3.4391257910836224,
+    "accepted": true,
+    "survivors": 58,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 58,
+     "rejected": {
+      "CJK text": 2
+     }
+    },
+    "queries_total": 174,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.56
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 291,
+    "z_before": 3.4391257910836224,
+    "z_after": 3.394112549695428,
+    "accepted": true,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 11,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 2,
+      "quotation changed": 46
+     }
+    },
+    "queries_total": 185,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 61.85
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 214,
+    "z_before": 3.394112549695428,
+    "z_after": 3.4561935177071317,
+    "accepted": false,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "hit length limit": 1,
+      "duplicate": 8,
+      "CJK text": 4,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 231,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 40.18
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 296,
+    "z_before": 3.394112549695428,
+    "z_after": 3.738331764050571,
+    "accepted": false,
+    "survivors": 59,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 59,
+     "fluency_skipped": false,
+     "after_fluency": 59,
+     "rejected": {
+      "CJK text": 1
+     }
+    },
+    "queries_total": 290,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.7
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 291,
+    "z_before": 3.394112549695428,
+    "z_after": 3.0329861481919727,
+    "accepted": true,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 58,
+     "after_content": 9,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 1,
+      "quotation changed": 49
+     }
+    },
+    "queries_total": 298,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 59.53
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 214,
+    "z_before": 3.0329861481919727,
+    "z_after": 3.1127150873973357,
+    "accepted": false,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "duplicate": 12,
+      "several lines": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 343,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.4
+   },
+   {
+    "pass": 4,
+    "segment": 4,
+    "chars": 296,
+    "z_before": 3.0329861481919727,
+    "z_after": 3.0329861481919727,
+    "accepted": false,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 6,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 395,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 55.08
+   },
+   {
+    "pass": 4,
+    "segment": 2,
+    "chars": 291,
+    "z_before": 3.0329861481919727,
+    "z_after": 3.1899654225375116,
+    "accepted": false,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 6,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "several lines": 1,
+      "quotation changed": 53,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 400,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 64.51
+   },
+   {
+    "pass": 4,
+    "segment": 3,
+    "chars": 214,
+    "z_before": 3.0329861481919727,
+    "z_after": 3.159292970819848,
+    "accepted": false,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 39,
+     "after_spelling": 39,
+     "after_content": 39,
+     "after_semantic": 39,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "duplicate": 19,
+      "CJK text": 2
+     }
+    },
+    "queries_total": 429,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.8
+   }
+  ],
+  "rewrites": {
+   "4": {
+    "original": "In an interview, Los Angeles County Fire Department Chief David Kim said the new system - which establishes state goals for staffing nursing homes based on the population served - may be more rigorous, but the greatest achievement was having California created an inspector certification process.",
+    "rewrite": "During an interview, Los Angeles County Fire Department Chief David Kim noted that the new system, which sets state goals for nursing home staffing based on the population served, might be more demanding, yet the most significant accomplishment was that California established an inspector certification process."
+   },
+   "2": {
+    "original": "Heather Lauer, senior director for program operations at the Incentive Sponsorship Fund, which helps self-funded state workers, called the new requirements \"an opportunity for improvement\" but said more should have been required of nursing homes and assisted-living facilities in California.",
+    "rewrite": "Heather Lauer, the senior director for program operations at the Incentive Sponsorship Fund assisting self-funded state workers, stated that the new requirements present \"an opportunity for improvement\" but emphasized that more should have been mandated for nursing homes and assisted-living facilities in California."
+   },
+   "3": {
+    "original": "Other state agencies have been required by the federal Centers for Medicare and Medicaid Services to submit a new nursing home evaluation system to determine whether they are meeting stringent federal requirements.",
+    "rewrite": "Federal requirements underpin a mandate from the Centers for Medicare and Medicaid Services for other state agencies to submit a new nursing home evaluation system."
+   }
+  },
+  "final_span": "the new staff won't be felt for another year.\n\"It's a step in the right direction,\" Connors said.\nHeather Lauer, the senior director for program operations at the Incentive Sponsorship Fund assisting self-funded state workers, stated that the new requirements present \"an opportunity for improvement\" but emphasized that more should have been mandated for nursing homes and assisted-living facilities in California. Federal requirements underpin a mandate from the Centers for Medicare and Medicaid Services for other state agencies to submit a new nursing home evaluation system.\nDuring an interview, Los Angeles County Fire Department Chief David Kim noted that the new system, which sets state goals for nursing home staffing based on the population served, might be more demanding, yet the most significant accomplishment was that California established an inspector certification process. In a blow to the county, state regul",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 3,
+   "segments": 6,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 50.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 202,
+   "length_change": 1,
+   "pct_not_preserved": 21.890547263681594,
+   "pct_new": 22.277227722772274
+  },
+  "words": {
+   "original": 144,
+   "final": 140,
+   "length_change": -4,
+   "pct_not_preserved": 28.47222222222222,
+   "pct_new": 26.428571428571423
+  },
+  "characters": {
+   "original": 938,
+   "final": 930,
+   "length_change": -8,
+   "pct_not_preserved": 18.976545842217483,
+   "pct_new": 18.279569892473113
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 161,
+   "green_after": 122,
+   "pairs_before": 200,
+   "pairs_after": 201,
+   "pairs_changed_before": 66,
+   "pairs_changed_after": 67,
+   "green_fraction_of_new_pairs": 0.31343283582089554,
+   "delta_achieved": 0.18656716417910446
+  }
+ }
+}

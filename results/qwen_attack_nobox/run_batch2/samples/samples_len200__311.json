@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:311",
+ "nobox": {
+  "z_final": 2.274140974459845,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Lawmakers have criticized credit card companies, noting that companies sit on large cash reserves as they built huge profits from charging fixed interests to whittle down small dollar amounts owed on credit and reward card penalties.",
+    "rewrite": "lawmakers have criticized credit card companies for maintaining substantial cash reserves while accumulating significant profits from fixed interest charges on small balances, thereby imposing penalties on card users."
+   },
+   "1": {
+    "original": "There are now about 400 million outstanding credit cards totalling $1 trillion in outstanding debt, according to the American Bankers Association.",
+    "rewrite": "As of now, there are approximately 400 million credit cards with around $1 trillion in outstanding debt, as reported by the American Bankers Association."
+   },
+   "4": {
+    "original": "The new rule requires two months paid interest payments, reduced to one month for borrowers who Pay the full balance in two months.",
+    "rewrite": "The new rule mandates two months of paid interest payments, albeit reduced to one month for borrowers paying the full balance within two months."
+   },
+   "2": {
+    "original": "Much of the credit card debate has focused on raising interest rates and fees after a borrower exceeds the credit limit.",
+    "rewrite": "A significant portion of the credit card debate has centered on increasing interest rates and fees when a borrower goes over the credit limit."
+   },
+   "5": {
+    "original": "Borrowers during the first six months would not be allowed to exceed their credit line.",
+    "rewrite": "During the first six months, borrowers would not be permitted to exceed their credit line."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 20,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the latest estimate available from the Bureau of Labor Statistics.\nAs of now, there are approximately 400 million credit cards with around $1 trillion in outstanding debt, as reported by the American Bankers Association.\nA significant portion of the credit card debate has centered on increasing interest rates and fees when a borrower goes over the credit limit.\nlawmakers have criticized credit card companies for maintaining substantial cash reserves while accumulating significant profits from fixed interest charges on small balances, thereby imposing penalties on card users.\nThe new rule mandates two months of paid interest payments, albeit reduced to one month for borrowers paying the full balance within two months.\nDuring the first six months, borrowers would not be permitted to exceed their credit line.\nThere probably also will be a cooling-off period for borrowers who try to get out of existing agreements after ",
+  "z0": 4.808326112068523,
+  "seconds": 199.0
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:185",
+ "nobox": {
+  "z_final": 2.1320071635561044,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Creative Medical Technology Holdings, Inc. is an early-stage clinical development company focused on using stem cell and gene therapy technology to develop a pipeline of life saving and life enhancing products.",
+    "rewrite": "Creative Medical Technology Holdings, Inc. is an early-stage clinical development company concentrating on stem cell and gene therapy technology to create a pipeline of life-saving and life-enhancing products."
+   },
+   "3": {
+    "original": "The company has filed patent protection on this technology, and is seeking to identify and in-license gene therapy strategies that, if approved, may be in-licensed for use as regenerative therapies.",
+    "rewrite": "The company has filed patent protection for this technology and is looking to identify and in-license gene therapy strategies that, upon approval, could be in-licensed for use as regenerative therapies."
+   },
+   "2": {
+    "original": "The Company has applied the use of these gene delivery technologies to degenerative diseases which are not responsive to small molecule or biologic drug therapies.",
+    "rewrite": "The Company has applied these gene delivery technologies to treat degenerative diseases that do not respond to small molecule or biologic drug therapies."
+   },
+   "4": {
+    "original": "Creative Medical is headquartered in San Diego, Ca.",
+    "rewrite": "Creative Medical has its headquarters in San Diego, CA."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 5,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "auspices of this agreement to determine the mechanism of action of the cells and their exosomes toward glioma brain cancer.\"\nCreative Medical Technology Holdings, Inc. is an early-stage clinical development company concentrating on stem cell and gene therapy technology to create a pipeline of life-saving and life-enhancing products. The Company has applied these gene delivery technologies to treat degenerative diseases that do not respond to small molecule or biologic drug therapies. The company has filed patent protection for this technology and is looking to identify and in-license gene therapy strategies that, upon approval, could be in-licensed for use as regenerative therapies. Creative Medical has its headquarters in San Diego, CA.\nAbout AmnioStem\nAmnioStem products are autologous and are manufactured from small quantities of amniotic fluid, the fluid that",
+  "z0": 3.5355339059327373,
+  "seconds": 144.3
+ }
+}

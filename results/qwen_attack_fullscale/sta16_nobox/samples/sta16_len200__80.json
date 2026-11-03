@@ -1,0 +1,80 @@
+{
+ "sample_id": "sta16_len200:80",
+ "nobox": {
+  "z_final": 6.788225099390856,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "We want to let the communities do the responsibility for generating the data in their countries and the regions over and above any governments that want to provide their own public health data.",
+    "rewrite": "We aim to let communities take on the responsibility of generating data in their countries and regions, allowing governments that wish to provide their own public health data to do so as well."
+   },
+   "2": {
+    "original": "In the short-run, I think there are very different challenges according to the stage each country faces in their response to air pollution.",
+    "rewrite": "In the short run, I believe there are very distinct challenges depending on the stage each country is at in addressing air pollution."
+   },
+   "4": {
+    "original": "In the Philippines, we had only just the flood, and an enormous blow - infant mortality, which is asthma porlated to small babies.",
+    "rewrite": "In the Philippines, we faced a flood and an immense storm, leading to high infant mortality often associated with asthma in small babies."
+   },
+   "6": {
+    "original": "It wasn\u2019t even on the map and obvious it\u2019s going to have air pollution issues.",
+    "rewrite": "It wasn't even marked on the map and it's clearly going to face air pollution issues."
+   },
+   "3": {
+    "original": "Hong Kong is in full, advanced stage, like NGOs helping them clean up.",
+    "rewrite": "Hong Kong is in an advanced, full stage, much like NGOs assisting in the cleanup."
+   },
+   "5": {
+    "original": "But it\u2019s still a new country and is just starting learning about it.",
+    "rewrite": "But it's still a new country and is just beginning to learn about it."
+   },
+   "7": {
+    "original": "I think it\u2019s a different stage for every country.",
+    "rewrite": "Every country seems to be at a different stage."
+   }
+  },
+  "sentences_rewritten": 7,
+  "eligible": 7,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 4,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "data that isn\u2019t available in other ways. We aim to let communities take on the responsibility of generating data in their countries and regions, allowing governments that wish to provide their own public health data to do so as well.\nIn the short run, I believe there are very distinct challenges depending on the stage each country is at in addressing air pollution. Hong Kong is in an advanced, full stage, much like NGOs assisting in the cleanup. In the Philippines, we faced a flood and an immense storm, leading to high infant mortality often associated with asthma in small babies. But it's still a new country and is just beginning to learn about it. It wasn't even marked on the map and it's clearly going to face air pollution issues. Every country seems to be at a different stage.\nFor countries that aren\u2019t yet in a stage, we expect the government to make a data portal so",
+  "z0": 12.303657992645926,
+  "seconds": 197.8
+ }
+}

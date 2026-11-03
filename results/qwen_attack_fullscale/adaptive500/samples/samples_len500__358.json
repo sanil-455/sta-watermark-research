@@ -1,0 +1,399 @@
+{
+ "sample_id": "samples_len500:358",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.851975249881009,
+ "needed_share": 0.7569491328804576,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2101,
+  "segments": 13,
+  "eligible": 10,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1790,
+  "eligible_char_share": 0.851975249881009
+ },
+ "attack": {
+  "z0": 8.228730157199225,
+  "z_final": 1.7564716615330753,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 262,
+  "seconds": 408.7,
+  "seconds_by_phase": {
+   "generate": 387.3,
+   "gates": 21.2,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 284,
+    "z_before": 8.228730157199225,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 42,
+     "after_spelling": 38,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 18,
+      "unknown word": 4,
+      "quotation changed": 36,
+      "negation count changed": 2
+     }
+    },
+    "queries_total": 1,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 50.45
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 256,
+    "z_before": 8.228730157199225,
+    "z_after": 6.273550009275092,
+    "accepted": true,
+    "survivors": 16,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 21,
+     "after_spelling": 20,
+     "after_content": 16,
+     "after_semantic": 16,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "preamble": 30,
+      "CJK text": 9,
+      "unknown word": 1,
+      "negation count changed": 4
+     }
+    },
+    "queries_total": 17,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 50.81
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 218,
+    "z_before": 6.273550009275092,
+    "z_after": 5.48903950212334,
+    "accepted": true,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 59,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "CJK text": 1,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 71,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.46
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 211,
+    "z_before": 5.48903950212334,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 57,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "unknown word": 3,
+      "quotation changed": 57
+     }
+    },
+    "queries_total": 71,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 47.48
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 193,
+    "z_before": 5.48903950212334,
+    "z_after": 4.929150384942867,
+    "accepted": true,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "CJK text": 2,
+      "glued punctuation": 1,
+      "unknown word": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 125,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.96
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 167,
+    "z_before": 4.929150384942867,
+    "z_after": 4.427188724235731,
+    "accepted": true,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 54,
+     "after_content": 4,
+     "after_semantic": 4,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 2,
+      "quotation changed": 50
+     }
+    },
+    "queries_total": 129,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.66
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 126,
+    "z_before": 4.427188724235731,
+    "z_after": 4.115162247979825,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 49,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 4,
+      "negation count changed": 6,
+      "meaning too different": 7,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 170,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.52
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 116,
+    "z_before": 4.115162247979825,
+    "z_after": 3.4194016570604413,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "CJK text": 12,
+      "unknown word": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 213,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.88
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 115,
+    "z_before": 3.4194016570604413,
+    "z_after": 2.694079530401624,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 49,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "CJK text": 2,
+      "several lines": 4,
+      "duplicate": 5,
+      "negation count changed": 3,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 254,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.63
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 104,
+    "z_before": 2.694079530401624,
+    "z_after": 1.7564716615330753,
+    "accepted": true,
+    "survivors": 8,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 8,
+     "fluency_skipped": false,
+     "after_fluency": 8,
+     "rejected": {
+      "CJK text": 11,
+      "several lines": 1,
+      "duplicate": 3,
+      "unknown word": 1,
+      "meaning too different": 36
+     }
+    },
+    "queries_total": 262,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 28.49
+   }
+  ],
+  "rewrites": {
+   "11": {
+    "original": "Of course, this is the type of spending that President Trump would find absolutely abhorrent, but, unfortunately, this episode happened long before he entered the White House, and so we doubt the Clinton-linked Blackwater outfit has much fear of reprimand.",
+    "rewrite": "Undoubtedly, this kind of expenditure would be utterly repugnant to President Trump, yet this incident transpired well before he took office, thus it is unlikely that the Clinton-associated Blackwater entity anticipates any severe censure."
+   },
+   "1": {
+    "original": "Blackstone International was hired by the Pentagon to aid in this \u201creconstruction\u201d effort, but their work took most of the money and run with it, even ending up approaching the cost of the NFL\u2019s Super Bowl commercials.",
+    "rewrite": "Blackstone International was contracted by the Pentagon to support the \u201creconstruction\u201d effort, yet much of the funds went to them, ultimately reaching a cost close to those of the NFL\u2019s Super Bowl commercials."
+   },
+   "6": {
+    "original": "The outfit, which now goes by Constellis, has their headquarters deep in the heart of the Washington, DC, beltway, and it\u2019s fully owned by the Middle Eastern governments of Dubai and Abu Dhabi.",
+    "rewrite": "The entity, now known as Constellis, maintains its headquarters within the Washington, DC, beltway, and it is wholly owned by the Middle Eastern governments of Dubai and Abu Dhabi."
+   },
+   "7": {
+    "original": "Our tax dollars were being spent on luxury that most Americans could only dream about, and all done to \u201chelp in a war\u201d to make Afghanistan a safer place is astounding.",
+    "rewrite": "Tax dollars were being spent on luxury beyond the wildest dreams of most Americans, all to purportedly \"help in a war\" and make Afghanistan safe, which is astounding."
+   },
+   "5": {
+    "original": "It\u2019s no surprise to us that another government contractor spits in the face of the US taxpayer while lining their own pockets.",
+    "rewrite": "We weren't surprised that another government contractor failed to consider the US taxpayer's interests, instead padding their own profits."
+   },
+   "8": {
+    "original": "The sad part is that most diehard taxpayers would give their right arm to have a private villa to enjoy for a night.",
+    "rewrite": "The regrettable fact is that many dedicated taxpayers would willingly sacrifice a great deal to afford a private villa for a single night of enjoyment."
+   },
+   "4": {
+    "original": "No one was able to determine just how much of the money for the conference and weddings went to personal enjoyment.",
+    "rewrite": "It was not possible to ascertain how much of the money allocated for the conference and weddings was spent on personal enjoyment."
+   },
+   "9": {
+    "original": "Instead, no one gets this luxury at all, and the welfare-state leeches continue to milk away the system.",
+    "rewrite": "Consequently, nobody receives this benefit, and the welfare-state leeches continue to exploit the system."
+   }
+  },
+  "final_span": ", which then subcontracted the task out to a separate outfit owned by former Blackwater CEO Erik Prince.\nBlackstone International was contracted by the Pentagon to support the \u201creconstruction\u201d effort, yet much of the funds went to them, ultimately reaching a cost close to those of the NFL\u2019s Super Bowl commercials.\nAccording to The Bureau of Investigative Journalism in the UK, tribesmen who were basically forced to work for Prince according to the report say that Prince \u201cfleeced\u201d the government and \u201ctore off\u201d US taxpayers.\nTriple Canopy was found to be spending tens of millions of dollars \u201cat villas in Kabul and remote cities, during lavish weddings and on an elaborate conference in Dubai,\u201d the report continues.\nIt was not possible to ascertain how much of the money allocated for the conference and weddings was spent on personal enjoyment. We weren't surprised that another government contractor failed to consider the US taxpayer's interests, instead padding their own profits.\nThe entity, now known as Constellis, maintains its headquarters within the Washington, DC, beltway, and it is wholly owned by the Middle Eastern governments of Dubai and Abu Dhabi.\nTax dollars were being spent on luxury beyond the wildest dreams of most Americans, all to purportedly \"help in a war\" and make Afghanistan safe, which is astounding.\nThe regrettable fact is that many dedicated taxpayers would willingly sacrifice a great deal to afford a private villa for a single night of enjoyment. Consequently, nobody receives this benefit, and the welfare-state leeches continue to exploit the system.\nWith so much money draining away from successful US programs to \u201creconstruct\u201d Afghanistan with terrorism everywhere in sight, the government has done its job of staying with the skeletal staff while making no real progress other than having no one on the ground to do any actual work.\nUndoubtedly, this kind of expenditure would be utterly repugnant to President Trump, yet this incident transpired well before he took office, thus it is unlikely that the Clinton-associated Blackwater entity anticipates any severe censure.\nAny",
+  "break_point": {
+   "step": 9,
+   "sentences_rewritten": 8,
+   "queries": 262
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 8,
+   "eligible": 10,
+   "segments": 13,
+   "pct_of_eligible": 80.0,
+   "pct_of_segments": 61.53846153846154
+  },
+  "tokens": {
+   "original": 501,
+   "final": 494,
+   "length_change": -7,
+   "pct_not_preserved": 27.744510978043913,
+   "pct_new": 26.72064777327935
+  },
+  "words": {
+   "original": 358,
+   "final": 337,
+   "length_change": -21,
+   "pct_not_preserved": 34.0782122905028,
+   "pct_new": 29.970326409495552
+  },
+  "characters": {
+   "original": 2101,
+   "final": 2124,
+   "length_change": 23,
+   "pct_not_preserved": 19.895287958115183,
+   "pct_new": 20.76271186440678
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 342,
+   "green_after": 266,
+   "pairs_before": 500,
+   "pairs_after": 493,
+   "pairs_changed_before": 189,
+   "pairs_changed_after": 182,
+   "green_fraction_of_new_pairs": 0.35714285714285715,
+   "delta_achieved": 0.14285714285714285
+  }
+ }
+}

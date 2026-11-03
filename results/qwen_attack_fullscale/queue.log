@@ -1,0 +1,17 @@
+[17:08:28] ========== full_scale_queue started ==========
+[17:08:28] STAGE nobox500: pilot on samples_len500:28
+[17:13:28] STAGE nobox500: pilot passed -- full run
+[19:24:28] STAGE nobox500: done
+[19:24:28] STAGE sta16-gen: target 100
+[19:52:28] STAGE sta16-attack: screening (no attack) to list flagged ids
+[19:53:28] STAGE sta16-attack: pilot on sta16_len200:29
+[19:55:28] STAGE sta16-attack: pilot passed -- full run
+[04:59:29] STAGE sta16-attack: done
+[04:59:29] STAGE sta16-nobox: pilot on sta16_len200:29
+[05:00:29] STAGE sta16-nobox: pilot passed -- full run
+[08:43:29] STAGE sta16-nobox: done
+[08:43:29] STAGE adaptive500: screening (no attack) to list flagged ids
+[08:44:29] STAGE adaptive500: pilot on samples_len500:28
+[09:05:30] STAGE adaptive500: pilot passed -- full run
+[08:15:32] STAGE adaptive500: done
+[08:15:32] ========== full_scale_queue finished ==========

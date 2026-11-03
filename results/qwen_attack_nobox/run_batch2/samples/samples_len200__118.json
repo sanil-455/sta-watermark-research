@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:118",
+ "nobox": {
+  "z_final": 3.5777087639996634,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "The U.S. held the ball, and the U.S. had possession in the attacking half of the pitch, but on more than one occasion the ball was suddenly passed aimlessly out of whack when its opportunity to tilt was in sight.",
+    "rewrite": "The U.S. possessed the ball and controlled it in the attacking half of the pitch, yet on multiple occasions, the ball was unexpectedly passed aimlessly when they had a clear opportunity to advance."
+   },
+   "1": {
+    "original": "Heck, most of the chances Colombia was able to muster came without approaching anything that could be called precision.",
+    "rewrite": "Most of Colombia's chances came without any sign of precision."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 25,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 8,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the tying goal, Klinsmann\u2019s Colombian counterpart made it evident that he did not sense a gap between the two teams as his team kicked and tackled and created scoring chances in a way that the U.S. did not.\nMost of Colombia's chances came without any sign of precision. The U.S. possessed the ball and controlled it in the attacking half of the pitch, yet on multiple occasions, the ball was unexpectedly passed aimlessly when they had a clear opportunity to advance.\nGibbs defied the perception that Klinsmann doesn\u2019t expect much from players who start for Payne of the English Premier League to make sure we knew during the halftime break he was comfortable with the unbeaten run and a victory that would send the team into the final stages of the Gold Cup undefeated",
+  "z0": 5.65685424949238,
+  "seconds": 68.7
+ }
+}

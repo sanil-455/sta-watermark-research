@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:200",
+ "nobox": {
+  "z_final": 3.0180083472774646,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Starting in November, Netanyahu has featured \u201cTrump Weekly\u201d on Facebook and YouTube, a weekly sit-down with Likud politicians, media personalities and experts he says offer a blueprint for America.",
+    "rewrite": "Starting from November, Netanyahu has conducted \"Trump Weekly\" on Facebook and YouTube, a weekly discussion with Likud politicians, media personalities, and experts who provide what he calls a blueprint for America."
+   },
+   "1": {
+    "original": "In late 2015, after Trump buried his interest in running for president, he assailed what he described as a \u201cdangerous\u201d nuclear deal involving Iran and six world powers.",
+    "rewrite": "In late 2015, after Trump had withdrawn his interest in running for president, he denounced what he termed a \"dangerous\" nuclear deal between Iran and six world powers."
+   },
+   "3": {
+    "original": "His attacks have been swift and unforgiving, similar to US prosecutors alleging tax evasion and bribery claims against Netanyahu.",
+    "rewrite": "His assaults have been rapid and unforgiving, much like US prosecutors accusing Netanyahu of tax evasion and bribery."
+   },
+   "4": {
+    "original": "He also mocked the \u201celite\u201d media during India\u2019s visit by US President Donald Trump.",
+    "rewrite": "He also mocked the \"elite\" media during US President Donald Trump's visit to India."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 13,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": ", isn\u2019t the only foreign leader to have inspired a particular reaction from the Israeli prime minister.\nIn late 2015, after Trump had withdrawn his interest in running for president, he denounced what he termed a \"dangerous\" nuclear deal between Iran and six world powers.\nStarting from November, Netanyahu has conducted \"Trump Weekly\" on Facebook and YouTube, a weekly discussion with Likud politicians, media personalities, and experts who provide what he calls a blueprint for America. His assaults have been rapid and unforgiving, much like US prosecutors accusing Netanyahu of tax evasion and bribery.\nHe also mocked the \"elite\" media during US President Donald Trump's visit to India.\nTrump has done his part to offer up Netanyahu\u2019s criticism as a silver lining for his job approval in Israel, which aligns with",
+  "z0": 4.808326112068523,
+  "seconds": 150.1
+ }
+}

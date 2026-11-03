@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:70",
+ "nobox": {
+  "z_final": 4.0818547820247675,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "There were also chances for Dnipro to seize the lead through Olexander Khacheridi as he burst through on goal, but an offside penalty appeals was waved away by the linesman, and Gael Clichy blocked the Ukraine's chance to take the lead in the 59th minute.",
+    "rewrite": "Olexander Khacheridi had opportunities to give Dnipro the lead by bursting through on goal, but the linesman waved away an offside penalty appeal, and Gael Clichy blocked Ukraine\u2019s attempt to take the lead in the 59th minute."
+   },
+   "2": {
+    "original": "Clichy was in the wars again in the 76th minute as his challenge left the visiting keeper looking at the sky and Yevhen Konoplyanka was sent clean through on goal.",
+    "rewrite": "In the 76th minute, Clichy caused more troubles with his challenge, leaving the visiting keeper staring at the sky, and freeing Yevhen Konoplyanka for a clear shot on goal."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 34,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the Dnipro keeper by surprise and he let the chance slip through his hands.\nOlexander Khacheridi had opportunities to give Dnipro the lead by bursting through on goal, but the linesman waved away an offside penalty appeal, and Gael Clichy blocked Ukraine\u2019s attempt to take the lead in the 59th minute.\nIn the 76th minute, Clichy caused more troubles with his challenge, leaving the visiting keeper staring at the sky, and freeing Yevhen Konoplyanka for a clear shot on goal.\nThe Ukrainian squared the ball to Maksim Mahatachyan who dragged a shot wide from 12 yards but Konoplyanka ran onto the rebound and tapped the ball in before unleashing a celebratory song and dance from the porch for the small Ukrainian contingent among",
+  "z0": 4.666904755831213,
+  "seconds": 129.4
+ }
+}

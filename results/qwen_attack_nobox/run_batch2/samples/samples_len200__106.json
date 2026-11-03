@@ -1,0 +1,58 @@
+{
+ "sample_id": "samples_len200:106",
+ "nobox": {
+  "z_final": 2.9211290495042954,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Including Cruise, Waymo, Zoox, and ride-hail companies like Lyft, Waymo has driven 56 percent of the miles required by California\u2019s regulators since the new rules went into effect two years ago.",
+    "rewrite": "Since the new rules took effect two years ago, Waymo, including Cruise, Zoox, and ride-hail companies like Lyft, has driven 56 percent of the miles required by California\u2019s regulators."
+   },
+   "0": {
+    "original": "Nissan reported 32,033 miles of self-driving which sounds impressive, until you realize that totals 58 disengagements and a disengagement rate of 659 miles per disengagement.",
+    "rewrite": "Nissan reported 32,033 miles of self-driving, which may seem impressive until you consider the total of 58 disengagements and a disengagement rate of 659 miles per disengagement."
+   },
+   "1": {
+    "original": "Licenses issued to technology companies in California have been dominated by the Silicon Valley powerhouses and former Google subsidiaries.",
+    "rewrite": "Licenses granted to tech companies in California have been dominated by Silicon Valley powerhouses and former Google subsidiaries."
+   },
+   "3": {
+    "original": "Lyft has driven 12 percent, Zoox 8 percent, and Cruise 7 percent.",
+    "rewrite": "Lyft drove 12 percent, Zoox 8 percent, and Cruise 7 percent."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 56,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 58,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 3,
+    "survivors": 15,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Nissan reported 32,033 miles of self-driving, which may seem impressive until you consider the total of 58 disengagements and a disengagement rate of 659 miles per disengagement.\nLicenses granted to tech companies in California have been dominated by Silicon Valley powerhouses and former Google subsidiaries. Since the new rules took effect two years ago, Waymo, including Cruise, Zoox, and ride-hail companies like Lyft, has driven 56 percent of the miles required by California\u2019s regulators. Lyft drove 12 percent, Zoox 8 percent, and Cruise 7 percent.\nThe numbers offer differing views into how these companies are doing things. For example, Waymo has been offering some rides to contractors (important note: not thousands of people) and Zoox and Cruise\u2019s",
+  "z0": 3.8183766184073566,
+  "seconds": 196.8
+ }
+}

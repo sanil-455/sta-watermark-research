@@ -1,0 +1,71 @@
+{
+ "sample_id": "samples_len200:205",
+ "nobox": {
+  "z_final": 2.636140849552657,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "A large element of our job with Quality Built Michigan is working with building material suppliers and contractors to identify opportunities to be constructive in their green efforts.",
+    "rewrite": "A significant part of Quality Built Michigan's job involves collaborating with building material suppliers and contractors to find ways to be constructive in their green initiatives."
+   },
+   "4": {
+    "original": "Being able to work on environmental projects expands our thinking about how we can help society make good economic and environmental decisions.",
+    "rewrite": "Working on environmental projects expands our thinking about how we can assist society in making good economic and environmental decisions."
+   },
+   "2": {
+    "original": "Weaver: USA Gypsum is committed to creating sound environmental and economic principles in a way that benefits all of our stakeholders.",
+    "rewrite": "Weaver: USA Gypsum is dedicated to establishing sound environmental and economic principles that advantage all our stakeholders."
+   },
+   "3": {
+    "original": "We also are committed to the Three Pillars, the triple bottom line of social prosperity, environmental friendliness and profitability.",
+    "rewrite": "We are also committed to the Three Pillars, the social prosperity, environmental friendliness, and profitability triple bottom line."
+   },
+   "6": {
+    "original": "What is the biggest misconception you think your business partners have about or related to us being \"green\"?",
+    "rewrite": "What do you believe is the most prevalent misunderstanding your business partners have regarding us being \"green\"?"
+   },
+   "1": {
+    "original": "What overarching principles aid your firm in its growth?",
+    "rewrite": "Which overarching principles support your firm's growth?"
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 27,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "are now experiencing through QED, Celtic Bank and Horizon Lending is what anyone would want: It is readily available and it is simple to administer.\nWhich overarching principles support your firm's growth?\nWeaver: USA Gypsum is dedicated to establishing sound environmental and economic principles that advantage all our stakeholders. We are also committed to the Three Pillars, the social prosperity, environmental friendliness, and profitability triple bottom line.\nWorking on environmental projects expands our thinking about how we can assist society in making good economic and environmental decisions. A significant part of Quality Built Michigan's job involves collaborating with building material suppliers and contractors to find ways to be constructive in their green initiatives.\nWhat do you believe is the most prevalent misunderstanding your business partners have regarding us being \"green\"?\nWeaver: Some organizations believe that sustain",
+  "z0": 5.374011537017761,
+  "seconds": 185.0
+ }
+}

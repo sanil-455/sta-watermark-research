@@ -1,0 +1,71 @@
+{
+ "sample_id": "sta16_len200:61",
+ "nobox": {
+  "z_final": 7.739572992033211,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "The big 6-7 Drogba worked his way at the front of the pack to head the ball down hard and clear.",
+    "rewrite": "The 6-7 tall Drogba made his way to the front of the pack to heading the ball down firmly and clearly."
+   },
+   "5": {
+    "original": "Bernier crashed in two more hard, booming headers as Montreal pressed the case.",
+    "rewrite": "Bernier added two more hard, booming headers as Montreal continued to press the case."
+   },
+   "3": {
+    "original": "The diminutive Bernier was on the floor, but he got up on one leg.",
+    "rewrite": "Bernier, though small in stature, was on the floor and managed to get up on one leg."
+   },
+   "6": {
+    "original": "He got to a second right before the halftime break.",
+    "rewrite": "He reached the second right before the halftime break."
+   },
+   "1": {
+    "original": "With 33 minutes gone Montreal won a corner.",
+    "rewrite": "After 33 minutes, Montreal won a corner."
+   },
+   "4": {
+    "original": "The small crowd erupted in delight.",
+    "rewrite": "The tiny crowd burst into delight."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 14,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 6,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the table with a toffee hammer.\nAfter 33 minutes, Montreal won a corner. The 6-7 tall Drogba made his way to the front of the pack to heading the ball down firmly and clearly. Bernier, though small in stature, was on the floor and managed to get up on one leg. The tiny crowd burst into delight.\nBernier added two more hard, booming headers as Montreal continued to press the case. He reached the second right before the halftime break.\n\"Our pattern of play changed a little bit,\" Biello conceded. \"I don't know if I instructed guys to go away from the centre, but guys on the bench went away from the centre so right before the whistle Bernier was kind of isolated out front\u2026 We made a change right before the whistle hoping somebody would slide away from the centre.\"\nCheering diffused the goal, but",
+  "z0": 11.17228714274745,
+  "seconds": 139.1
+ }
+}

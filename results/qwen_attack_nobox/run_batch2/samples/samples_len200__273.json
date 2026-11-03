@@ -1,0 +1,98 @@
+{
+ "sample_id": "samples_len200:273",
+ "nobox": {
+  "z_final": 4.02047001039401,
+  "status": "not broken",
+  "rewrites": {
+   "7": {
+    "original": "More than double that of our nearest competitor (Japan, but total spend is very close to that of the United States).",
+    "rewrite": "More than twice as much as our nearest competitor (Japan), although the total spend is nearly equivalent to the United States'."
+   },
+   "9": {
+    "original": "What we don't do is ration it or pay for it in a way that gets us good value.",
+    "rewrite": "We do not ration it or pay for it in a manner that ensures good value."
+   },
+   "4": {
+    "original": "We spend more on health than any other country - per capita expenditures.",
+    "rewrite": "Per capita expenditures show that we spend more on health than any other country."
+   },
+   "1": {
+    "original": "In other words, this sounds like another copout from the Republicans.",
+    "rewrite": "In other words, this seems like another copout by the Republicans."
+   },
+   "3": {
+    "original": "The US already pays for health care in this country.",
+    "rewrite": "Health care in this country is already paid for by the US."
+   },
+   "8": {
+    "original": "As such, we already pay for health care.",
+    "rewrite": "Thus, we already pay for healthcare."
+   },
+   "5": {
+    "original": "Total dollars spent on health per YEAR?",
+    "rewrite": "Total dollars spent on health each YEAR?"
+   },
+   "2": {
+    "original": "You are just the dumbest person ever.",
+    "rewrite": "You are literally one of the dumbest people I have encountered."
+   },
+   "6": {
+    "original": "We spend well north of $1.1 Trillion.",
+    "rewrite": "We spend more than $1.1 Trillion."
+   }
+  },
+  "sentences_rewritten": 9,
+  "eligible": 9,
+  "per_sentence": [
+   {
+    "index": 7,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 15,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 18,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 14,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 6,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 1,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 9,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "with to put pressure on the members of the House, because you know that we do not have anyone over there, as my Republican colleague from this body pointed out, that\u2019s willing to put forward their views on an issue that everyone over here has voted on before.\" In other words, this seems like another copout by the Republicans.\nYou are literally one of the dumbest people I have encountered. Health care in this country is already paid for by the US. Per capita expenditures show that we spend more on health than any other country. Total dollars spent on health each YEAR? We spend more than $1.1 Trillion. More than twice as much as our nearest competitor (Japan), although the total spend is nearly equivalent to the United States'. Thus, we already pay for healthcare. We do not ration it or pay for it in a manner that ensures good value.\nSo is \"crowd-res",
+  "z0": 5.65685424949238,
+  "seconds": 179.6
+ }
+}

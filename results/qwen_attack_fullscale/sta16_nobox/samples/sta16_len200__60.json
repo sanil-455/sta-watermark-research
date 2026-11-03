@@ -1,0 +1,35 @@
+{
+ "sample_id": "sta16_len200:60",
+ "nobox": {
+  "z_final": 8.435686339599197,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "As well as providing communications support, Truphone gives paid access to its products and services to Caterham\u2019s employees, according to David Powers, global director of partnerships for Truphone.",
+    "rewrite": "In addition to offering communications support, Truphone provides paid access to its products and services to Caterham\u2019s employees, says David Powers, global director of partnerships for Truphone."
+   },
+   "3": {
+    "original": "Truphone\u2019s sponsorship agreement with Caterham is different from that of other sponsors.",
+    "rewrite": "Truphone\u2019s sponsorship agreement with Caterham differs from those of other sponsors."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 17,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "to the other 500 global Caterham teams who are competing with Caterham karts in races around the world.\n\"It\u2019s not about prices; it\u2019s not even about anything tangible. It\u2019s just about everyone being connected online, and enabling location independence,\" says Peters.\nTruphone\u2019s sponsorship agreement with Caterham differs from those of other sponsors. In addition to offering communications support, Truphone provides paid access to its products and services to Caterham\u2019s employees, says David Powers, global director of partnerships for Truphone.\n\"It\u2019s to enable staff anywhere in the world to have complete cost-effective access to their personal communications and data services solutions, and if they get charged right in a country... they\u2019re still going to pay less,\" says Powers.\n\"Caterham is the only hospitality organisation that is fully global and it",
+  "z0": 9.475230867899736,
+  "seconds": 72.1
+ }
+}

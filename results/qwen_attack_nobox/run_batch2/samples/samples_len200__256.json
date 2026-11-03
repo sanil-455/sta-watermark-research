@@ -1,0 +1,71 @@
+{
+ "sample_id": "samples_len200:256",
+ "nobox": {
+  "z_final": 3.4285714285714284,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "The cost of the HEATKILLER IV PRO is well above $20, and it comes loaded with fail safes and performance enhancing features.",
+    "rewrite": "The cost for the HEATKILLER IV PRO exceeds $20, and it includes fail safes and performance-enhancing features."
+   },
+   "4": {
+    "original": "For our comparisons, we will not pull any punches on how we compare and contrast our component quality and performance.",
+    "rewrite": "For our comparisons, we will not hold back in evaluating and contrasting our component quality and performance."
+   },
+   "1": {
+    "original": "Watercool HEATKILLER S/G for Threadripper: It is CG6 heat pipe kit/water block sold by overclockers UK.",
+    "rewrite": "Watercool HEATKILLER S/G for Threadripper: This is a CG6 heat pipe kit/water block sold by Overclockers UK."
+   },
+   "2": {
+    "original": "Watercool Heatkiller IV Pro Full Nickel Threadripper CPU Watercooling Block: Full Nickel water block.",
+    "rewrite": "Watercool Heatkiller IV Pro Full Nickel Threadripper CPU Watercooling Block: Fully nickel water block."
+   },
+   "3": {
+    "original": "In our testing, we are going to do both according to the standards we established for our benchmarks.",
+    "rewrite": "According to the standards we established for our benchmarks, we will do both in our testing."
+   },
+   "6": {
+    "original": "The price we saw is the MSRP for the version that is sold without the base to secure the block.",
+    "rewrite": "The price we saw is the MSRP for the version sold without the base for securing the block."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 7,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 38,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "you get with it.\nWatercool HEATKILLER S/G for Threadripper: This is a CG6 heat pipe kit/water block sold by Overclockers UK.\nWatercool Heatkiller IV Pro Full Nickel Threadripper CPU Watercooling Block: Fully nickel water block.\nAccording to the standards we established for our benchmarks, we will do both in our testing. For our comparisons, we will not hold back in evaluating and contrasting our component quality and performance.\nThe cost for the HEATKILLER IV PRO exceeds $20, and it includes fail safes and performance-enhancing features. The price we saw is the MSRP for the version sold without the base for securing the block. The base with the safety feature bolts to the socket, and it adds a part number to the HEATKILLER",
+  "z0": 4.949747468305833,
+  "seconds": 182.4
+ }
+}

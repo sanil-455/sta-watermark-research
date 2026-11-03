@@ -1,0 +1,216 @@
+{
+ "sample_id": "samples_len500:219",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.7506172839506173,
+ "needed_share": 0.5699869274038867,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2025,
+  "segments": 12,
+  "eligible": 8,
+  "skipped": 4,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "no final punctuation": 1,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1520,
+  "eligible_char_share": 0.7506172839506173
+ },
+ "attack": {
+  "z0": 4.651021393199563,
+  "z_final": 1.8896693367965596,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 208,
+  "seconds": 234.1,
+  "seconds_by_phase": {
+   "generate": 215.2,
+   "gates": 18.8,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 272,
+    "z_before": 4.651021393199563,
+    "z_after": 3.8693229277262886,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 7,
+      "unknown word": 1,
+      "meaning too different": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 51,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.24
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 267,
+    "z_before": 3.8693229277262886,
+    "z_after": 2.9637448918190956,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 6,
+      "meaning too different": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 100,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 52.89
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 251,
+    "z_before": 2.9637448918190956,
+    "z_after": 2.5298221281347035,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 54,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 5,
+      "numbers changed": 3
+     }
+    },
+    "queries_total": 151,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 58.54
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 213,
+    "z_before": 2.5298221281347035,
+    "z_after": 1.8896693367965596,
+    "accepted": true,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 208,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 49.51
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "German interior minister Thomas de Maizi\u00e8re saidover the weekend that Kobane, known locally as Ayn al-Arab, desperately needed medical supplies and the medical workers to help deal with the most recent round of fighting between the Isis militants and Kurdish armed groups.",
+    "rewrite": "German interior minister Thomas de Maizi\u00e8re stated over the weekend that Ayn al-Arab, locally known as Kobane, urgently required medical supplies and healthcare workers to address the latest conflict between Isis militants and Kurdish military groups."
+   },
+   "6": {
+    "original": "Meanwhile, a move by the Coalition commander overseeing the fight against Isis to lay out a plan to invade Isis\u2019s self-declared capital of Raqqa has pushed the Coalition closer to getting a military plan approved to take on the next part of the campaign against Isis.",
+    "rewrite": "At the same time, a coalition commander\u2019s effort to outline a plan for invading ISIS\u2019s self-proclaimed capital of Raqqa has drawn the coalition nearer to finalizing a military strategy for the next stage of the campaign against ISIS."
+   },
+   "1": {
+    "original": "On Sunday Martin Schaefer, the German consul general to Turkey, tweeted at 3am (2am GMT) to ask Turkish authorities for permission to fly a helicopter carrying over a dozen German doctors, nurses and paramedics to the town of Kobane in northern Syria.",
+    "rewrite": "On Sunday, at 3am (2am GMT), Martin Schaefer, the German consul general to Turkey, tweeted to request permission from Turkish authorities to fly a helicopter loaded with more than a dozen German medical professionals\u2014doctors, nurses, and paramedics\u2014to the town of Kobane in northern Syria."
+   },
+   "7": {
+    "original": "As many as 50 countries would assist in the planned operation to reclaim the Islamic State stronghold of Raqqa from Isis, General Martin E Dempsey, chairman of the Joint Chiefs of Staff said in Congress on Monday.",
+    "rewrite": "Up to 50 countries were said to be poised to support the planned operation to regain the ISIS-held city of Raqqa, General Martin E Dempsey, chairman of the Joint Chiefs of Staff, disclosed to Congress on Monday."
+   }
+  },
+  "final_span": "of the country\u2019s mainly Kurdish provinces, to the outcry of Kurdish politicians who have accused the government of stoking up tensions with the YPG fighters and PKK militants.\nOn Sunday, at 3am (2am GMT), Martin Schaefer, the German consul general to Turkey, tweeted to request permission from Turkish authorities to fly a helicopter loaded with more than a dozen German medical professionals\u2014doctors, nurses, and paramedics\u2014to the town of Kobane in northern Syria.\nGerman interior minister Thomas de Maizi\u00e8re stated over the weekend that Ayn al-Arab, locally known as Kobane, urgently required medical supplies and healthcare workers to address the latest conflict between Isis militants and Kurdish military groups.\nTurkey has barred all humanitarian relief from entering Syria. The town is besieged by Isis, which have forced tens of thousands of civilians to flee their homes and are preventing any relief from entering the town by mercenaries and fighters under their control.\nSpeaking on Monday, a foreign affairs spokesman for Merkel\u2019s Christian Democrats said the German interior minister would again ask the Turkish government to authorise the helicopter\u2019s flight to Ayn al-Arab.\nAt the same time, a coalition commander\u2019s effort to outline a plan for invading ISIS\u2019s self-proclaimed capital of Raqqa has drawn the coalition nearer to finalizing a military strategy for the next stage of the campaign against ISIS.\nUp to 50 countries were said to be poised to support the planned operation to regain the ISIS-held city of Raqqa, General Martin E Dempsey, chairman of the Joint Chiefs of Staff, disclosed to Congress on Monday. Dempsey said the idea has come from the Pentagon. Speaking before the Senate armed services committee he told senators that:\n\u201cWe\u2019re about to have the opportunity to get the next phase of our campaign plan into the, what I would call, warrior\u2019s hands - coalition partners who are fully ready to undertake that mission, and they will assault Raqqa.\u201d\nAssad\u2019s use of chemical",
+  "break_point": {
+   "step": 3,
+   "sentences_rewritten": 4,
+   "queries": 208
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 4,
+   "eligible": 8,
+   "segments": 12,
+   "pct_of_eligible": 50.0,
+   "pct_of_segments": 33.333333333333336
+  },
+  "tokens": {
+   "original": 501,
+   "final": 495,
+   "length_change": -6,
+   "pct_not_preserved": 19.760479041916167,
+   "pct_new": 18.787878787878785
+  },
+  "words": {
+   "original": 331,
+   "final": 319,
+   "length_change": -12,
+   "pct_not_preserved": 23.262839879154072,
+   "pct_new": 20.376175548589337
+  },
+  "characters": {
+   "original": 2025,
+   "final": 2006,
+   "length_change": -19,
+   "pct_not_preserved": 14.024691358024688,
+   "pct_new": 13.210368893320034
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 302,
+   "green_after": 268,
+   "pairs_before": 500,
+   "pairs_after": 494,
+   "pairs_changed_before": 134,
+   "pairs_changed_after": 128,
+   "green_fraction_of_new_pairs": 0.375,
+   "delta_achieved": 0.125
+  }
+ }
+}

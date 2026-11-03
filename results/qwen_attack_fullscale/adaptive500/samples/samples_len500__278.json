@@ -1,0 +1,362 @@
+{
+ "sample_id": "samples_len500:278",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.7922964407606046,
+ "needed_share": 0.7829060216019621,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2051,
+  "segments": 12,
+  "eligible": 7,
+  "skipped": 5,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 1,
+   "no final punctuation": 2,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1625,
+  "eligible_char_share": 0.7922964407606046
+ },
+ "attack": {
+  "z0": 9.212600067299133,
+  "z_final": 1.993231791080248,
+  "status": "broken",
+  "reason": null,
+  "passes": 2,
+  "queries": 392,
+  "seconds": 536.0,
+  "seconds_by_phase": {
+   "generate": 496.6,
+   "gates": 39.2,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 425,
+    "z_before": 9.212600067299133,
+    "z_after": 7.181818181818182,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 7
+     }
+    },
+    "queries_total": 54,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 90.32
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 304,
+    "z_before": 7.181818181818182,
+    "z_after": 5.987641593469991,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 52,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 6,
+      "unknown word": 2,
+      "negation count changed": 1
+     }
+    },
+    "queries_total": 105,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 61.79
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 273,
+    "z_before": 5.987641593469991,
+    "z_after": 4.776878206616104,
+    "accepted": true,
+    "survivors": 3,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 56,
+     "after_content": 3,
+     "after_semantic": 3,
+     "fluency_skipped": false,
+     "after_fluency": 3,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 1,
+      "negation count changed": 53
+     }
+    },
+    "queries_total": 108,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 50.11
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 247,
+    "z_before": 4.776878206616104,
+    "z_after": 3.831608370831182,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 3,
+      "glued punctuation": 2,
+      "unknown word": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 160,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 48.52
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 150,
+    "z_before": 3.831608370831182,
+    "z_after": 3.198450952504231,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "duplicate": 2,
+      "several lines": 1,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 210,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.57
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 117,
+    "z_before": 3.198450952504231,
+    "z_after": 2.302220830101204,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "duplicate": 3,
+      "numbers changed": 3,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 262,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.34
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 109,
+    "z_before": 2.302220830101204,
+    "z_after": 2.105011213762446,
+    "accepted": true,
+    "survivors": 26,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 39,
+     "after_spelling": 39,
+     "after_content": 39,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 26,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 19,
+      "meaning too different": 9,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 288,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.0
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 425,
+    "z_before": 2.105011213762446,
+    "z_after": 2.0958589477468004,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 7
+     }
+    },
+    "queries_total": 341,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 92.35
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 304,
+    "z_before": 2.0958589477468004,
+    "z_after": 1.993231791080248,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 53,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 5,
+      "glued punctuation": 1,
+      "unknown word": 1,
+      "negation count changed": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 392,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 65.57
+   }
+  ],
+  "rewrites": {
+   "1": {
+    "original": "However, unlike Facebook's Messenger platform, which does $1.6 billion in messaging-based revenue through Instant Games, online shopping, and physical goods, and is currently spending $3 billion-plus to acquire Martin Weisberg's 280, Inc., to expand the types of marketing services that it can do for third-party businesses, Apple is just getting started with online ads, and may initially struggle to monetize Business Chat.",
+    "rewrite": "Yet, while Facebook's Messenger platform generates $1.6 billion in revenue from Instant Games, online shopping, and physical goods, and spends over $3 billion to buy Martin Weisberg's 280, Inc., for broadening its marketing capabilities to third-party businesses, Apple is only beginning to enter the online advertising space, potentially facing challenges in making income from Business Chat."
+   },
+   "5": {
+    "original": "And in August three months ago, Amazon reported that its digital advertising business jumped 75% year over year, largely thanks to adding music streaming versus humorously autocorrected grocery list it's adding to the Alexa Skills feature on the Amazon Echo, which is the world's most sold smart speaker.",
+    "rewrite": "In August last year, Amazon announced that its digital advertising division grew by 75% year over year, primarily due to the inclusion of music streaming in the Alexa Skills library for the Amazon Echo, the globe's best-selling smart speaker."
+   },
+   "8": {
+    "original": "For one thing, Amazon is working on an AI personal shoppers service for Alexa, so no doubt it also wants Alexa users to be able to ask Alexa to chat with a business publisher about buying a product or placing an order for a service instead of going to the website to do it.",
+    "rewrite": "Firstly, Amazon is developing an AI shopping assistant feature for Alexa. Consequently, it aims to allow Alexa users to interact with business publishers through Alexa to discuss purchases or orders for services without needing to visit the website."
+   },
+   "2": {
+    "original": "Amazon, which built its entire first-party e-commerce empire on selling small sellers' products, faces a particularly similar situation to Facebook here: It needs an anti-Apple strategy for dealing with its growing direct access to Prime shoppers.",
+    "rewrite": "Amazon, built on sales by third-party sellers, faces a similar challenge to Facebook: it needs an anti-Apple plan to handle its increasing direct connection to Prime customers."
+   },
+   "6": {
+    "original": "Of the potentially lucrative features that a new messaging service could offer, connecting consumers with businesses has to be at the top of the list.",
+    "rewrite": "Connecting consumers with businesses tops the list among the lucrative features that a new messaging service might introduce."
+   },
+   "10": {
+    "original": "Chatbots, combined with Alexa's 2:1 advantage versus Google Home, should exceed what, say, Apple's Siri can pull off.",
+    "rewrite": "Chatbots, paired with Alexa's 2:1 edge over Google Home, ought to surpass even Apple's Siri in terms of capabilities."
+   },
+   "3": {
+    "original": "Fortunately for Amazon, particularly from a monetization perspective, it does not need to start from scratch.",
+    "rewrite": "Luckily for Amazon, especially in terms of monetization, it doesn't have to rebuild everything from the beginning."
+   }
+  },
+  "final_span": ". Yet, while Facebook's Messenger platform generates $1.6 billion in revenue from Instant Games, online shopping, and physical goods, and spends over $3 billion to buy Martin Weisberg's 280, Inc., for broadening its marketing capabilities to third-party businesses, Apple is only beginning to enter the online advertising space, potentially facing challenges in making income from Business Chat.\nAmazon, built on sales by third-party sellers, faces a similar challenge to Facebook: it needs an anti-Apple plan to handle its increasing direct connection to Prime customers. Luckily for Amazon, especially in terms of monetization, it doesn't have to rebuild everything from the beginning.\nOn a recent earnings call, Amazon Web Services (AWS) Chief Operating Officer Andy Jassy said, \"we\u2019re seeing rapid growth in the adoption of the various chat services [which include] Fire, Alexa, and messaging.\" In August last year, Amazon announced that its digital advertising division grew by 75% year over year, primarily due to the inclusion of music streaming in the Alexa Skills library for the Amazon Echo, the globe's best-selling smart speaker.\nConnecting consumers with businesses tops the list among the lucrative features that a new messaging service might introduce.\nOne Entirely Likely Path Moving Forward\nFirstly, Amazon is developing an AI shopping assistant feature for Alexa. Consequently, it aims to allow Alexa users to interact with business publishers through Alexa to discuss purchases or orders for services without needing to visit the website. FB messenger already integrates Pay with Facebook for payments when buying is happening via chat or purchasing is part of \"smart replies\" for FAQs:\nChatbots, paired with Alexa's 2:1 edge over Google Home, ought to surpass even Apple's Siri in terms of capabilities.\nOn Amazon's invest",
+  "break_point": {
+   "step": 8,
+   "sentences_rewritten": 7,
+   "queries": 392
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 7,
+   "eligible": 7,
+   "segments": 12,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 58.333333333333336
+  },
+  "tokens": {
+   "original": 501,
+   "final": 445,
+   "length_change": -56,
+   "pct_not_preserved": 38.123752495009974,
+   "pct_new": 30.33707865168539
+  },
+  "words": {
+   "original": 326,
+   "final": 281,
+   "length_change": -45,
+   "pct_not_preserved": 49.38650306748467,
+   "pct_new": 41.281138790035584
+  },
+  "characters": {
+   "original": 2051,
+   "final": 1842,
+   "length_change": -209,
+   "pct_not_preserved": 33.49585568015602,
+   "pct_new": 25.950054288816503
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 353,
+   "green_after": 243,
+   "pairs_before": 500,
+   "pairs_after": 444,
+   "pairs_changed_before": 253,
+   "pairs_changed_after": 197,
+   "green_fraction_of_new_pairs": 0.41624365482233505,
+   "delta_achieved": 0.08375634517766495
+  }
+ }
+}

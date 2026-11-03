@@ -1,0 +1,94 @@
+{
+ "sample_id": "samples_len500:66",
+ "nobox": {
+  "z_final": 5.534390849200402,
+  "status": "not broken",
+  "rewrites": {
+   "13": {
+    "original": "Congress general secretary Randeep Surjewala said a three-member committee of the joint parliamentary committee or JPC of parliament was presenting its report with \u201cfacts\u201d about Robert Vadra\u2019s financial dealings, alleged land grab, misuse of luxury government choppers and the Union minister Smriti Irani\u2019s fake certificates.",
+    "rewrite": "Congress general secretary Randeep Surjewala said a three-member committee of the joint parliamentary committee or JPC of parliament was presenting its report with \u201cfacts\u201d regarding Robert Vadra\u2019s financial dealings, alleged land grabbing, misuse of luxury government choppers, and the Union minister Smriti Irani\u2019s fake certificates."
+   },
+   "6": {
+    "original": "Ministers dismissed the allegations as baseless, saying Vadra had faced inquiries in the past, but people had voted him to office and he was presently facing enquiries in multiple agencies.",
+    "rewrite": "Ministers dismissed the allegations as unfounded, stating that Vadra had been subject to past inquiries, but voters had elected him to office, and he was currently under investigation by several agencies."
+   },
+   "5": {
+    "original": "The ongoing din over the question of land deal involving Vadra\u2019s alleged dubious transactions kept the Centre busy with government departments probing.",
+    "rewrite": "The constant noise around the land deal question involving Vadra\u2019s alleged dubious transactions kept the Centre busy as government departments probed."
+   },
+   "12": {
+    "original": "Congress has claimed that the matter was even investigated earlier when Vadra was a director involved with another man in a limited company.",
+    "rewrite": "Congress stated that the matter had been investigated previously when Vadra was a director involved with another man in a limited company."
+   },
+   "15": {
+    "original": "However, a minister said the government and the Modi government, were not nearly as non-performing on the matter as has been alleged.",
+    "rewrite": "However, a minister said that the government and the Modi government were not nearly as non-performing on the matter as had been alleged."
+   },
+   "11": {
+    "original": "Ministers said the matter was of real property acquisition within the provisions of law so should be addressed in line with that.",
+    "rewrite": "Ministers stated that the matter pertained to real property acquisition under the law's provisions and thus should be handled accordingly."
+   },
+   "3": {
+    "original": "The party called an all-night brainstorming on the subject on Saturday after a meeting by the family earlier in the day.",
+    "rewrite": "The party held an all-night brainstorming on Saturday following a meeting with the family earlier that day."
+   },
+   "4": {
+    "original": "Brainstorming meeting became a standard after Prasad attacked Rahul Gandhi by calling him \u2018Pappu\u2019 last year.",
+    "rewrite": "After Prasad attacked Rahul Gandhi by calling him 'Pappu' last year, brainstorming meetings became a standard practice."
+   }
+  },
+  "sentences_rewritten": 8,
+  "eligible": 9,
+  "per_sentence": [
+   {
+    "index": 13,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 15,
+    "survivors": 27,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 25,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 20,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 0,
+    "rewritten": false
+   }
+  ],
+  "queries": 1,
+  "final_span": ". \u201cThese are not ad hominem attacks. We made them because Sardar Patel has also become a brand as Nepotism Buster of the parties,\u201d spokesperson Sambit Patra said. The party held an all-night brainstorming on Saturday following a meeting with the family earlier that day. After Prasad attacked Rahul Gandhi by calling him 'Pappu' last year, brainstorming meetings became a standard practice.\nThe constant noise around the land deal question involving Vadra\u2019s alleged dubious transactions kept the Centre busy as government departments probed.\nMinisters dismissed the allegations as unfounded, stating that Vadra had been subject to past inquiries, but voters had elected him to office, and he was currently under investigation by several agencies.\nA commerce ministry official said, \u201cThe objective seems to be to spread confusion by trying to suggest that some questionable incidents are related to Vadra as owner of real property and not just to another person who holds directorship and is merely providing right assistance as three others claim...\u201d The official insisted that the whatsapp message is circulating in a questionable form. \u201cIt\u2019s not even establishing an online or serial connection it seems.\u201d The official said, \u201cThere is no actual basis even to address it.\u201d Ministers stated that the matter pertained to real property acquisition under the law's provisions and thus should be handled accordingly.\nCongress stated that the matter had been investigated previously when Vadra was a director involved with another man in a limited company.\nCongress general secretary Randeep Surjewala said a three-member committee of the joint parliamentary committee or JPC of parliament was presenting its report with \u201cfacts\u201d regarding Robert Vadra\u2019s financial dealings, alleged land grabbing, misuse of luxury government choppers, and the Union minister Smriti Irani\u2019s fake certificates.\n\u201cIt\u2019s a matter of the police followed it and it\u2019s currently in front of the departmental internal audit committee.\u201d However, a minister said that the government and the Modi government were not nearly as non-performing on the matter as had been alleged.\nThe minister said, \u201cRobert Vadra as a holding company had",
+  "z0": 7.513188404399293,
+  "seconds": 358.1
+ }
+}

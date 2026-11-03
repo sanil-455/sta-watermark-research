@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:129",
+ "nobox": {
+  "z_final": 2.792848008753788,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "Citizens Manifesto is a grouping of concerned civil society organisations which formed in February 2018 to challenge the alleged human rights violations taking place at the time under the auspices of the Mnangagwa led government.",
+    "rewrite": "Citizens Manifesto is a coalition of concerned civil society organizations that came together in February 2018 to challenge what they perceived as human rights violations during the Mnangagwa-led government's tenure."
+   },
+   "5": {
+    "original": "Bomba dismissed proposals to have another Commission of Inquiry to look into the Beitbridge incident characterised by people getting into chaos due to limited space for shopping and to transact business.",
+    "rewrite": "Bomba dismissed proposals for another Commission of Inquiry to investigate the Beitbridge incident, which was marked by chaos caused by insufficient space for shopping and business transactions."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 53,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "channels that keep it going and let the healing continue.\"\nHe added: \"It can't just be a process then it becomes of little use. We are not saying we don't want to hear that the commission has done its work. It is just that let there be a process at this time that does justice to the tragedy and also let the healing continue.\"\nCitizens Manifesto is a coalition of concerned civil society organizations that came together in February 2018 to challenge what they perceived as human rights violations during the Mnangagwa-led government's tenure.\nBomba dismissed proposals for another Commission of Inquiry to investigate the Beitbridge incident, which was marked by chaos caused by insufficient space for shopping and business transactions.\nNo fewer than 25 people were reportedly killed by a partisan faction of the Police Service",
+  "z0": 4.242640687119285,
+  "seconds": 99.4
+ }
+}

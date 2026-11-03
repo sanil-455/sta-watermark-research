@@ -1,0 +1,62 @@
+{
+ "sample_id": "sta16_len200:94",
+ "nobox": {
+  "z_final": 8.021012009925327,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "The actor posted this Instagram picture with the caption, 'Ready to present some more tricky mathematical problems to whine small brains.'",
+    "rewrite": "The actor shared this Instagram photo with the caption, \"Prepared to tackle more complex math problems for those tiny brains.\""
+   },
+   "2": {
+    "original": "Ready to present some more tricky mathematical problems?",
+    "rewrite": "Ready to tackle some additional challenging mathematical problems?"
+   },
+   "5": {
+    "original": "Akshay Kumar wishes to go pro with his football skills.",
+    "rewrite": "Akshay Kumar desires to professionalize his football skills."
+   },
+   "3": {
+    "original": "Because that's what Shah Rukh Khan decided to do.",
+    "rewrite": "Because that's what Shah Rukh Khan chose to do."
+   },
+   "6": {
+    "original": "All it takes is for him to be on Ice Pay.",
+    "rewrite": "All it takes is for him to be in Ice Pay."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 4,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 27,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 17,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "workout isn't too much of a hard task. The actor tweeted: 'Everyday someone challenges @Varun_dvn this is after aiding spine and hip surgery #namesoeveryoneridicuseveryworkout.'\nReady to tackle some additional challenging mathematical problems? Because that's what Shah Rukh Khan chose to do. The actor shared this Instagram photo with the caption, \"Prepared to tackle more complex math problems for those tiny brains.\"\nAkshay Kumar desires to professionalize his football skills. All it takes is for him to be in Ice Pay. The actor tweets: 'Coriolis Effect is the scientific name for the idea that when you or I fall on Ice we Skate...if for a professional Ice hockey player, he Flies....get it on Ice Pay #IcePay #Iceland three weeks away'...\nBohemian R",
+  "z0": 10.845882436627539,
+  "seconds": 111.0
+ }
+}

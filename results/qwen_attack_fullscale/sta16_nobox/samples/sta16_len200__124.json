@@ -1,0 +1,62 @@
+{
+ "sample_id": "sta16_len200:124",
+ "nobox": {
+  "z_final": 7.163388592394974,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "Phone 4-day Access $19.95 Phone Full-Tournament Access $19.95 Phone Select Access $6.95 Phone Conference Championships Access $5.95 Computer Full-Tournament Access $6.95 Computer Select Access $6.95 Computer Conference Championships Access $5.95 Computer $19.95.",
+    "rewrite": "Phone 4-Day Access $19.95 Phone Full Tournament Access $19.95 Phone Select Access $6.95 Phone Conference Championships Access $5.95 Computer Full Tournament Access $6.95 Computer Select Access $6.95 Computer Conference Championships Access $5.95 Computer $19.95."
+   },
+   "6": {
+    "original": "For just $19.95 you\u2019ll get Automatic refunds - after each high school basketball finals and/or after each boys state hockey game each day - you\u2019ll get refunded on your payments remaining.",
+    "rewrite": "For only $19.95, you\u2019ll receive automatic refunds - after each high school basketball finals and/or after each boys state hockey game daily - and get refunded on the remaining payments."
+   },
+   "1": {
+    "original": "Stay connected with the Magic of March!",
+    "rewrite": "Keep connected with the magic of March!"
+   },
+   "2": {
+    "original": "Be part of the Tournament action today!",
+    "rewrite": "Join in the Tournament action today!"
+   },
+   "3": {
+    "original": "Get Your App/Get Your Pass Now!",
+    "rewrite": "Obtain Your App/Get Your Pass Now!"
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 57,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 4,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 11,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "a slam-dunk! Keep connected with the magic of March! Join in the Tournament action today!\nObtain Your App/Get Your Pass Now!\nPhone 4-Day Access $19.95 Phone Full Tournament Access $19.95 Phone Select Access $6.95 Phone Conference Championships Access $5.95 Computer Full Tournament Access $6.95 Computer Select Access $6.95 Computer Conference Championships Access $5.95 Computer $19.95.\nfor only $6.95 Pay once, during an event and you\u2019ll lock-in access anywhere you\u2019d like across multiple devices.\nFor only $19.95, you\u2019ll receive automatic refunds - after each high school basketball finals and/or after each boys state hockey game daily - and get refunded on the remaining payments.\nAvailable BOST",
+  "z0": 8.909545442950499,
+  "seconds": 190.6
+ }
+}

@@ -1,0 +1,261 @@
+{
+ "sample_id": "sta16_len200:41",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.5925480769230769,
+ "needed_share": 0.7920274172980742,
+ "delta_needed": 0.1144598697875847,
+ "segmentation": {
+  "chars": 832,
+  "segments": 7,
+  "eligible": 2,
+  "skipped": 5,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 3,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 493,
+  "eligible_char_share": 0.5925480769230769
+ },
+ "attack": {
+  "z0": 9.616652224137045,
+  "z_final": 4.042613387982437,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 255,
+  "seconds": 383.9,
+  "seconds_by_phase": {
+   "generate": 360.1,
+   "gates": 23.7,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 288,
+    "z_before": 9.616652224137045,
+    "z_after": 7.452818434511943,
+    "accepted": true,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 40,
+     "after_content": 40,
+     "after_semantic": 40,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "CJK text": 12,
+      "hit length limit": 1,
+      "unknown word": 7
+     }
+    },
+    "queries_total": 41,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 76.16
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 205,
+    "z_before": 7.452818434511943,
+    "z_after": 5.686544430914687,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 5,
+      "several lines": 2,
+      "glued punctuation": 1,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 91,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 44.07
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 288,
+    "z_before": 5.686544430914687,
+    "z_after": 5.8918830363717944,
+    "accepted": false,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 36,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "several lines": 2,
+      "CJK text": 13,
+      "unknown word": 9,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 126,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 75.66
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 205,
+    "z_before": 5.686544430914687,
+    "z_after": 4.042613387982437,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 5,
+      "several lines": 1,
+      "duplicate": 1,
+      "unknown word": 4
+     }
+    },
+    "queries_total": 173,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.15
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 288,
+    "z_before": 4.042613387982437,
+    "z_after": 4.1007834764558035,
+    "accepted": false,
+    "survivors": 37,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 37,
+     "after_content": 37,
+     "after_semantic": 37,
+     "fluency_skipped": false,
+     "after_fluency": 37,
+     "rejected": {
+      "CJK text": 13,
+      "several lines": 2,
+      "hit length limit": 1,
+      "unknown word": 7
+     }
+    },
+    "queries_total": 210,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 80.7
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 205,
+    "z_before": 4.042613387982437,
+    "z_after": 5.455447255899809,
+    "accepted": false,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 5,
+      "duplicate": 3,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 255,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.37
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "Tensions in Jisr al-Zarqa have been high, both on account of the upcoming election and the public visit by Ben-Gvir and members of his Otzma Yehudit (Jewish Identity) political party to the town, during which Ben-Gvir shouted the slogan \"Death to the Arabs\", according to local residents.",
+    "rewrite": "Conflicts in Jisr al-Zarqa have risen due to the impending election as well as the public appearance of Ben-Gvir and members of his Otzma Yehudit political party, where Ben-Gvir yelled the slogan \"Death to the Arabs\", as reported by locals."
+   },
+   "1": {
+    "original": "Palestinians fear their indigenous culture could be overwritten by Jewish texts, beliefs and values, leading to further discrimination against Arabs, particularly in matters of education and the judiciary.",
+    "rewrite": "Palestinians worry that their native culture might be supplanted by Jewish_texts, _beliefs_and_values,_which_could_escalate_discrimination_against_Arabs,_especially_in_education_and_justice."
+   }
+  },
+  "final_span": "declaring Israel a Jewish state. Palestinians worry that their native culture might be supplanted by Jewish_texts, _beliefs_and_values,_which_could_escalate_discrimination_against_Arabs,_especially_in_education_and_justice.\nConflicts in Jisr al-Zarqa have risen due to the impending election as well as the public appearance of Ben-Gvir and members of his Otzma Yehudit political party, where Ben-Gvir yelled the slogan \"Death to the Arabs\", as reported by locals.\n\"They are not losing any votes. The right is gaining votes. It would behoove them not to spit hatred right in everybody three days before the elections,\" Farah said.\n\"They don't care about what people may say, but there is something which is more troubling than just the election and the election results",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 2,
+   "segments": 7,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 28.571428571428573
+  },
+  "tokens": {
+   "original": 201,
+   "final": 214,
+   "length_change": 13,
+   "pct_not_preserved": 28.855721393034827,
+   "pct_new": 33.177570093457945
+  },
+  "words": {
+   "original": 133,
+   "final": 110,
+   "length_change": -23,
+   "pct_not_preserved": 35.338345864661655,
+   "pct_new": 21.818181818181813
+  },
+  "characters": {
+   "original": 832,
+   "final": 769,
+   "length_change": -63,
+   "pct_not_preserved": 21.634615384615387,
+   "pct_new": 15.21456436931079
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 168,
+   "green_after": 136,
+   "pairs_before": 200,
+   "pairs_after": 213,
+   "pairs_changed_before": 78,
+   "pairs_changed_after": 91,
+   "green_fraction_of_new_pairs": 0.4065934065934066,
+   "delta_achieved": 0.09340659340659341
+  }
+ }
+}

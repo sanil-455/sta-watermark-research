@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:245",
+ "nobox": {
+  "z_final": 3.206117249455934,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Whatever solution we resort to, an all-out offensive on the war on drugs is just the thing to stop problematic drug use from taking over our lives.",
+    "rewrite": "Whatever solution we adopt, an all-out offensive against the war on drugs is precisely what is needed to prevent problematic drug use from controlling our lives."
+   },
+   "1": {
+    "original": "Alternatively, we can look to other drugs, like nicotine and alcohol, which are legal and regulated but which we shame and stigmatize.",
+    "rewrite": "Alternatively, we can consider other legal and regulated drugs, such as nicotine and alcohol, which we shame and stigmatize."
+   },
+   "3": {
+    "original": "And that is no longer a partisan policy; both red and blue advocates - Democrats and Republicans - are coming to the table.",
+    "rewrite": "And that is no longer a partisan issue; both red and blue supporters - Democrats and Republicans - are joining the discussion."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 11,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 5,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the use of all drugs but continue an effective war against the traffickers that distribute them. Alternatively, we can consider other legal and regulated drugs, such as nicotine and alcohol, which we shame and stigmatize.\nWhatever solution we adopt, an all-out offensive against the war on drugs is precisely what is needed to prevent problematic drug use from controlling our lives. And that is no longer a partisan issue; both red and blue supporters - Democrats and Republicans - are joining the discussion.\nPhoto: Yuri Gripas / Reuters\nSebastian Wahl MEMBER September 3, 2014\n\u2026intense toking up by people during coffee breaks would effectively destroy the productivity of firms.\nWorking people probably wouldn\u2019t tolerate it, because it would mean porn trafic in the office, among many other",
+  "z0": 5.091168824543142,
+  "seconds": 103.8
+ }
+}

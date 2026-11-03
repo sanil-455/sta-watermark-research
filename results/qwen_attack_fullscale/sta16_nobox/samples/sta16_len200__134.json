@@ -1,0 +1,44 @@
+{
+ "sample_id": "sta16_len200:134",
+ "nobox": {
+  "z_final": 8.121624487362457,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "In June, SpaceX landed at another historic first, winning a contract by the American Civilian Services Administration -- the public services component of the government's \"go to\" government solutions -- as its official Civilian Launch Provider, again beating both Orbital ATK and Boeing to the prize.",
+    "rewrite": "In June, SpaceX achieved another historic first by securing a contract through the American Civilian Services Administration -- the public services wing of the government's \"go to\" for reliable government solutions -- as the government's official Civilian Launch Provider, once more outpacing both Orbital ATK and Boeing for the award."
+   },
+   "2": {
+    "original": "And an unbeatable streak it would have been, if indeed it could ever be beaten, since SpaceX has rightfully argued before that time-to-launch is the only factor that matters in a success-oriented competitive business like it.",
+    "rewrite": "It would have been an unbeatable streak, if it could indeed ever be challenged, as SpaceX has consistently maintained that time-to-launch is the sole determinant of success in their competitive business environment."
+   },
+   "3": {
+    "original": "But podiums are podiums and this time SpaceX was BMOC even faster than anyone had predicted.",
+    "rewrite": "But podium positions are podium positions, and this time SpaceX was the standout again even faster than anticipated."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 4,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 25,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 5,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "military's \"certified\" launchers capable of going from pad ready to space worthy in as few as 50 days, not counting time-pressure mandated delays. In June, SpaceX achieved another historic first by securing a contract through the American Civilian Services Administration -- the public services wing of the government's \"go to\" for reliable government solutions -- as the government's official Civilian Launch Provider, once more outpacing both Orbital ATK and Boeing for the award.\nIt would have been an unbeatable streak, if it could indeed ever be challenged, as SpaceX has consistently maintained that time-to-launch is the sole determinant of success in their competitive business environment. But podium positions are podium positions, and this time SpaceX was the standout again even faster than anticipated.\nSo now Musk and his team will have the extra time needed to figure out how a missile",
+  "z0": 12.303657992645926,
+  "seconds": 138.8
+ }
+}

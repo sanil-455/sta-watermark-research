@@ -1,0 +1,35 @@
+{
+ "sample_id": "sta16_len200:123",
+ "nobox": {
+  "z_final": 7.246023348632824,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "Coakley is considering requiring greater proactive disclosure of salary information by hospitals and medical schools that receive taxpayer funds.",
+    "rewrite": "Coakley is contemplating the need for more proactive disclosure of salary information from hospitals and medical schools that receive taxpayer funding."
+   },
+   "5": {
+    "original": "Globe Spotlight Team reporters Andrew C. Revkin and Mark Pratt contributed to this report.",
+    "rewrite": "Globe Spotlight Team reporters Andrew C. Revkin and Mark Pratt assisted in this report."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 15,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the Health Care Quality and Cost Council. Partners' \"significant market power\" is \"indirectly harmful to the Massachusetts resident, but very directly harmful to the overall market that is looking to be competitive.\"\n\"Whether or not it enables them to pay doctors a lot of money has never been reported by them,\" she said. \"But it must enable them to pay more, otherwise they wouldn't be able to staff themselves like they are.\"\nCoakley is contemplating the need for more proactive disclosure of salary information from hospitals and medical schools that receive taxpayer funding.\nGlobe Spotlight Team reporters Andrew C. Revkin and Mark Pratt assisted in this report. Ben Kesling can be reached at bkesling@wsj.com\nGlass Hospital: Partners HealthCare spinoff is another piece in merit three-piece puzzle - -The Boston Glo",
+  "z0": 7.919595949289332,
+  "seconds": 60.6
+ }
+}

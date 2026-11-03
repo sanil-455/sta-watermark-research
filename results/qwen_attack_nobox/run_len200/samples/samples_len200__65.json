@@ -1,0 +1,31 @@
+{
+ "sample_id": "samples_len200:65",
+ "nobox": {
+  "z_final": 2.4041630560342613,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "Vikings coach Mike Zimmer said of the offensive line.",
+    "rewrite": "Vikings coach Mike Zimmer commented on the offensive line."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 5,
+    "survivors": 9,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "played tough, physical. Like I said, we got some yards in the running game.\"\nSam Bradford: It's on the O-line and me to make reads, hold the ball\nOffensive coordinator Pat Shurmur was impressed by the Vikings offensive line, saying they didn't make any \"catastrophes\" and they did \"an overall good job.\"\n\"You can\u2019t block for everybody, but I thought our guys did a good job of getting on the same page and working together.\" Vikings coach Mike Zimmer commented on the offensive line.\nOpponents Registered Quarterback Pressures vs Percent of Snaps\n\"You can\u2019t block for everybody, but I thought our guys did a good job of getting on the same page and working together,\" Vikings coach Mike Zimmer said. \"I don\u2019t have any hesitation to feel good about the way they blocked. It\u2019",
+  "z0": 2.262741699796952,
+  "seconds": 55.0
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:271",
+ "nobox": {
+  "z_final": 2.9698484809834995,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "It would force a President who inherited a government with minimal capabilities in cyberspace to make decisions that would dramatically expand America\u2019s power in this new and sometimes lawless frontier and alter the relationship between Americans and the government in ways we still struggle to comprehend.",
+    "rewrite": "It would compel a President who took over a government with few capabilities in cyberspace to make choices that would significantly broaden America's influence in this new and often unpredictable domain, and change the interaction between Americans and the government in ways we still find hard to grasp."
+   },
+   "1": {
+    "original": "As teams of American policymakers and code makers found themselves in a constantly escalating war with the forces of repression, both foreign and domestic, David Sanger takes us into the room as President Obama arrives at a crossroads.",
+    "rewrite": "As teams of American policymakers and code makers confronted an increasingly escalated conflict against repressive forces, both foreign and domestic, David Sanger takes us into the room as President Obama approaches a critical juncture."
+   },
+   "4": {
+    "original": "The result is a breathtaking book by a versatile and skillful writer, whose coverage of national security for the New York Times has won every major award in American journalism.",
+    "rewrite": "The result is a breathtaking book by a versatile and skilled writer, whose coverage of national security for the New York Times has garnered every major award in American journalism."
+   },
+   "2": {
+    "original": "The choice before him would change the trajectory of history in a way that only he fully grasped, according to Sanger.",
+    "rewrite": "According to Sanger, the decision before him would alter the course of history in a manner that only he fully understood."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 48,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "transformed geopolitics like nothing since the invention of the atomic bomb. As teams of American policymakers and code makers confronted an increasingly escalated conflict against repressive forces, both foreign and domestic, David Sanger takes us into the room as President Obama approaches a critical juncture. According to Sanger, the decision before him would alter the course of history in a manner that only he fully understood. It would compel a President who took over a government with few capabilities in cyberspace to make choices that would significantly broaden America's influence in this new and often unpredictable domain, and change the interaction between Americans and the government in ways we still find hard to grasp.\nThe result is a breathtaking book by a versatile and skilled writer, whose coverage of national security for the New York Times has garnered every major award in American journalism. Drawing on remarkable access to government insiders and private",
+  "z0": 4.525483399593904,
+  "seconds": 202.8
+ }
+}

@@ -1,0 +1,376 @@
+{
+ "sample_id": "samples_len500:262",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8420138888888888,
+ "needed_share": 0.7447050525292722,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2304,
+  "segments": 20,
+  "eligible": 17,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "does not start like a sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1940,
+  "eligible_char_share": 0.8420138888888888
+ },
+ "attack": {
+  "z0": 7.834075918127292,
+  "z_final": 1.956038587687303,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 273,
+  "seconds": 315.9,
+  "seconds_by_phase": {
+   "generate": 295.4,
+   "gates": 20.3,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 293,
+    "z_before": 7.834075918127292,
+    "z_after": 7.393691004272944,
+    "accepted": true,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 44,
+     "after_content": 9,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "several lines": 2,
+      "CJK text": 6,
+      "unknown word": 8,
+      "negation count changed": 35
+     }
+    },
+    "queries_total": 10,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 51.45
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 207,
+    "z_before": 7.393691004272944,
+    "z_after": 6.090909090909091,
+    "accepted": true,
+    "survivors": 16,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 47,
+     "after_content": 45,
+     "after_semantic": 18,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "CJK text": 12,
+      "unknown word": 1,
+      "negation count changed": 2,
+      "meaning too different": 27,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 26,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 49.93
+   },
+   {
+    "pass": 1,
+    "segment": 16,
+    "chars": 176,
+    "z_before": 6.090909090909091,
+    "z_after": 5.139516917604364,
+    "accepted": true,
+    "survivors": 24,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 53,
+     "after_content": 52,
+     "after_semantic": 25,
+     "fluency_skipped": false,
+     "after_fluency": 24,
+     "rejected": {
+      "CJK text": 1,
+      "glued punctuation": 2,
+      "unknown word": 4,
+      "negation count changed": 1,
+      "meaning too different": 27,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 50,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.31
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 150,
+    "z_before": 5.139516917604364,
+    "z_after": 4.293250516799596,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 2,
+      "meaning too different": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 103,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.41
+   },
+   {
+    "pass": 1,
+    "segment": 18,
+    "chars": 129,
+    "z_before": 4.293250516799596,
+    "z_after": 3.6188131180310394,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "duplicate": 6,
+      "CJK text": 1,
+      "meaning too different": 1,
+      "perplexity too high": 10
+     }
+    },
+    "queries_total": 145,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.4
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 127,
+    "z_before": 3.6188131180310394,
+    "z_after": 3.213517267277653,
+    "accepted": true,
+    "survivors": 56,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 56,
+     "rejected": {
+      "duplicate": 1,
+      "CJK text": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 201,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.96
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 120,
+    "z_before": 3.213517267277653,
+    "z_after": 2.71985556861303,
+    "accepted": true,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 24,
+     "after_spelling": 24,
+     "after_content": 24,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "duplicate": 36,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 224,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.57
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 114,
+    "z_before": 2.71985556861303,
+    "z_after": 2.22717701593687,
+    "accepted": true,
+    "survivors": 12,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 53,
+     "after_content": 12,
+     "after_semantic": 12,
+     "fluency_skipped": false,
+     "after_fluency": 12,
+     "rejected": {
+      "duplicate": 4,
+      "CJK text": 1,
+      "unknown word": 2,
+      "negation count changed": 41
+     }
+    },
+    "queries_total": 236,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.44
+   },
+   {
+    "pass": 1,
+    "segment": 17,
+    "chars": 111,
+    "z_before": 2.22717701593687,
+    "z_after": 1.956038587687303,
+    "accepted": true,
+    "survivors": 37,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 42,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 37,
+     "fluency_skipped": false,
+     "after_fluency": 37,
+     "rejected": {
+      "CJK text": 11,
+      "duplicate": 7,
+      "meaning too different": 5
+     }
+    },
+    "queries_total": 273,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.93
+   }
+  ],
+  "rewrites": {
+   "10": {
+    "original": "I think that a democratic and/or representative democracy - where the electorate has real control over the government - it's institutions, programmes and policies - is much better suited than a republic where the president even cannot raise his own taxes without the consent of the parliament.",
+    "rewrite": "A democratic or representative democracy, in which the electorate exercises genuine control over the government's institutions, programs, and policies, is significantly more appropriate than a republic where the president cannot even increase taxes without legislative approval."
+   },
+   "4": {
+    "original": "Start approaching anything; a city, a home, a garden with self-inflicting money rules - sooner or later you\u2019ll find yourself in a spiraling cycle of damages which according to the rule expands its wholesale.",
+    "rewrite": "Approach any place\u2014whether a city, a home, or a garden\u2014with your own restrictive financial rules, and eventually you\u2019ll fall into a widening cycle of damage."
+   },
+   "16": {
+    "original": "With political parties being essentially warring camps of rich and/or opinionated people, both taking positions to the contrary, they are only working to or against each other.",
+    "rewrite": "Given that political parties largely consist of competing groups of wealthy and/or ideologically-driven individuals, each staking opposing positions, they are invariably working in conflict with one another."
+   },
+   "9": {
+    "original": "While the American and British constitutions are truly democratic, their right to have three levels of government... one really represents the people.",
+    "rewrite": "While both the American and British constitutions are genuinely democratic, they feature a tiered government structure in which one level truly reflects the people's representation."
+   },
+   "18": {
+    "original": "Success, being the wise use of resources leads naturally to increased good will between government officials and business owners.",
+    "rewrite": "Success, through the judicious use of resources, naturally fosters better relationships between government officials and business owners."
+   },
+   "8": {
+    "original": "While we may be a representative democracy, since 1914 we are closer to the conditions of the American constitutional republic.",
+    "rewrite": "Although we might be considered a representative democracy, we have become more akin to an American constitutional republic since 1914."
+   },
+   "11": {
+    "original": "However, neither one is as good in a capitalist democracy with corporate or even private interest is greatest influence.",
+    "rewrite": "However, neither one fares as well in a capitalist democracy where corporate or private interests have the greatest influence."
+   },
+   "3": {
+    "original": "The output of a planned economy (the output of an amoral growth-only economy) is no different from runaway market.",
+    "rewrite": "The produce of a managed economy (the produce of an amoral growth-only economy) is no different from a runaway market."
+   },
+   "17": {
+    "original": "Those involved in productive economic activity, obviously put their best work into developing those activities.",
+    "rewrite": "Individuals engaged in productive economic activities clearly dedicate their best efforts to developing those initiatives."
+   }
+  },
+  "final_span": "the benefits of slit throat against the armadillo.\nHe who has heart likes money more.\nThere is no power of the market to improve the environment and governance. The produce of a managed economy (the produce of an amoral growth-only economy) is no different from a runaway market.\nApproach any place\u2014whether a city, a home, or a garden\u2014with your own restrictive financial rules, and eventually you\u2019ll fall into a widening cycle of damage.\nSo, I\u2019d like to suggest to go proactive in an anti-money way.\n... and so on, until it hits you ... stop doing things for money and enjoy yourself!\nI think the biggest mistake our policy-makers make is thinking that we are a democracy. Although we might be considered a representative democracy, we have become more akin to an American constitutional republic since 1914.\nWhile both the American and British constitutions are genuinely democratic, they feature a tiered government structure in which one level truly reflects the people's representation.\nA democratic or representative democracy, in which the electorate exercises genuine control over the government's institutions, programs, and policies, is significantly more appropriate than a republic where the president cannot even increase taxes without legislative approval.\nHowever, neither one fares as well in a capitalist democracy where corporate or private interests have the greatest influence.\nAs for the alternative;the mixed economy.\nDavid, I believe you are onto something here. The ideal society in my considered opinion is a free mixed economy. This means both the government and the people engaged in productive and traditional economic activities.\nGiven that political parties largely consist of competing groups of wealthy and/or ideologically-driven individuals, each staking opposing positions, they are invariably working in conflict with one another.\nIndividuals engaged in productive economic activities clearly dedicate their best efforts to developing those initiatives. Success, through the judicious use of resources, naturally fosters better relationships between government officials and business owners.\nThere is something here I think most of us agree on: throwing all of our resources into producing as much as we physically can in as many ways as we can, and/or making sure our \"policy\" environment looks like it",
+  "break_point": {
+   "step": 8,
+   "sentences_rewritten": 9,
+   "queries": 273
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 9,
+   "eligible": 17,
+   "segments": 20,
+   "pct_of_eligible": 52.94117647058823,
+   "pct_of_segments": 45.0
+  },
+  "tokens": {
+   "original": 500,
+   "final": 507,
+   "length_change": 7,
+   "pct_not_preserved": 27.0,
+   "pct_new": 28.007889546351084
+  },
+  "words": {
+   "original": 375,
+   "final": 357,
+   "length_change": -18,
+   "pct_not_preserved": 32.53333333333334,
+   "pct_new": 29.13165266106442
+  },
+  "characters": {
+   "original": 2304,
+   "final": 2338,
+   "length_change": 34,
+   "pct_not_preserved": 18.663194444444443,
+   "pct_new": 19.84602224123182
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 337,
+   "green_after": 275,
+   "pairs_before": 499,
+   "pairs_after": 506,
+   "pairs_changed_before": 189,
+   "pairs_changed_after": 196,
+   "green_fraction_of_new_pairs": 0.3826530612244898,
+   "delta_achieved": 0.11734693877551022
+  }
+ }
+}

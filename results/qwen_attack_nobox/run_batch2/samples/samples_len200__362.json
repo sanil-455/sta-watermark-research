@@ -1,0 +1,71 @@
+{
+ "sample_id": "samples_len200:362",
+ "nobox": {
+  "z_final": 2.251512143136934,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "Fellow two Indian Sikh brothers - Umesh Mehta, 28, and Gintar Skenderov, 38, are also posthumously awarded the MBE for their courage and help to survivors.",
+    "rewrite": "The two Indian Sikh brothers, Umesh Mehta, 28, and Gintar Skenderov, 38, are also posthumously awarded the MBE for their courage and assistance to survivors."
+   },
+   "3": {
+    "original": "Their actions saved the life of the foreigner - Sonya Johnson, visiting North London from Olympia, Washington, USA.",
+    "rewrite": "Their actions saved the life of the foreigner - Sonya Johnson, who was visiting North London from Olympia, Washington, USA."
+   },
+   "2": {
+    "original": "The couple reportedly selflessly laid their lives between a dying American woman and a speeding vehicle.",
+    "rewrite": "The couple reportedly placed their lives selflessly between a dying American woman and a speeding vehicle."
+   },
+   "1": {
+    "original": "Mansoor Ahmed, 77, and his wife Zahida, are recipients of MBEs, posthumously.",
+    "rewrite": "Mansoor Ahmed, aged 77, and his late wife Zahida are recipients of MBEs posthumously."
+   },
+   "6": {
+    "original": "They tried to calm panicked people trapped under the wreckage.",
+    "rewrite": "They attempted to soothe panicked individuals stranded beneath the wreckage."
+   },
+   "7": {
+    "original": "All three of them are residents of Brondesbury.",
+    "rewrite": "All three are residents of Brondesbury."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 18,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 21,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 4,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 16,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "three OBEs for the families of the Thai couple and an Indian Sikh boy, killed when they saved tottering tourists after the July 7 bombings in London.\nMansoor Ahmed, aged 77, and his late wife Zahida are recipients of MBEs posthumously. The couple reportedly placed their lives selflessly between a dying American woman and a speeding vehicle. Their actions saved the life of the foreigner - Sonya Johnson, who was visiting North London from Olympia, Washington, USA. They died in the explosion. The two Indian Sikh brothers, Umesh Mehta, 28, and Gintar Skenderov, 38, are also posthumously awarded the MBE for their courage and assistance to survivors. They attempted to soothe panicked individuals stranded beneath the wreckage. All three are residents of Brondesbury.\nAnita and",
+  "z0": 3.676955262170047,
+  "seconds": 183.3
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:323",
+ "nobox": {
+  "z_final": 3.5129449359340987,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "Besides the overwhelming feeling of being on the brink of cracking, being stressed all the time, and the physical and mental exhaustion that occupational stress brings, you may actually see the signs: you might gain ten pounds, become depressed, lose interest, spend money you can\u2019t afford to, and drink or smoke more often than you used to.",
+    "rewrite": "In addition to the immense feeling of being on the verge of breaking, constant stress, and the physical and mental exhaustion from occupational stress, you might witness these signs: you could put on ten pounds, become depressed, lose interest, spend money you can't afford to, and drink or smoke more frequently than before."
+   },
+   "5": {
+    "original": "Here is a list of symptoms and a description of burnout, as laid out by the American Psychological Association for trauma and emergency workers.",
+    "rewrite": "Below is a list of symptoms and a description of burnout, as defined by the American Psychological Association for trauma and emergency workers."
+   },
+   "3": {
+    "original": "Other than getting tired, feeling overwhelmed, and getting hurt, how can you tell that you\u2019re burning out and what can you do about it?",
+    "rewrite": "Beyond feeling tired, overwhelmed, and hurting, how can you identify signs of burning out and what actions can you take?"
+   },
+   "2": {
+    "original": "I let the critical inner voice harangue me for a while until I realize what it\u2019s trying to do and tell it to shut its piehole.",
+    "rewrite": "I allowed the critical inner voice to berate me for a moment before recognizing its intent and telling it to silence itself."
+   },
+   "6": {
+    "original": "I don\u2019t know if one necessarily precedes the other.",
+    "rewrite": "I\u2019m not sure if one necessarily comes before the other."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 15,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 17,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 14,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 8,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 1,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "\u201cDo this! Fix that!\u201d I allowed the critical inner voice to berate me for a moment before recognizing its intent and telling it to silence itself.\nBeyond feeling tired, overwhelmed, and hurting, how can you identify signs of burning out and what actions can you take?\nIn addition to the immense feeling of being on the verge of breaking, constant stress, and the physical and mental exhaustion from occupational stress, you might witness these signs: you could put on ten pounds, become depressed, lose interest, spend money you can't afford to, and drink or smoke more frequently than before.\nBelow is a list of symptoms and a description of burnout, as defined by the American Psychological Association for trauma and emergency workers. I\u2019m not sure if one necessarily comes before the other.\nWhen",
+  "z0": 2.6870057685088806,
+  "seconds": 179.4
+ }
+}

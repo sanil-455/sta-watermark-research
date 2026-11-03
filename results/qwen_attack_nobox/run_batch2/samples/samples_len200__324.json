@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:324",
+ "nobox": {
+  "z_final": 1.8384776310850235,
+  "status": "broken",
+  "rewrites": {
+   "3": {
+    "original": "Towards the end of World War I, Keogh\u2019s father deserted the British army and kept his own family in Ireland and defected to the Irish Army, which was then fighting for Germany\u2019s ally, the Ottoman Empire.",
+    "rewrite": "At the close of World War I, Keogh's father deserted the British army, maintained his family in Ireland, and defected to the Irish Army, which was battling on the side of Germany\u2019s ally, the Ottoman Empire."
+   },
+   "2": {
+    "original": "While Hitler remained in Keogh\u2019s Munich barracks he also visited Keogh\u2019s home and even received a glass of poteen in the Kildare village.",
+    "rewrite": "While Hitler stayed in Keogh's Munich barracks, he also visited Keogh's home and even received a glass of poteen in Kildare village."
+   },
+   "1": {
+    "original": "The extraordinary story of how Keogh saved Hitler\u2019s life will be told in a planned Radio 1 documentary series \u2013 based on the book.",
+    "rewrite": "The remarkable tale of how Keogh saved Hitler\u2019s life will be revealed in a forthcoming Radio 1 documentary series\u2014inspired by the book."
+   },
+   "4": {
+    "original": "The life story of Michael Keogh is one that is sure to fascinate.",
+    "rewrite": "The life story of Michael Keogh is certain to fascinate."
+   },
+   "5": {
+    "original": "It is likely we will learn more about his ordeal on Radio 1 soon.",
+    "rewrite": "We are likely to learn more about his ordeal on Radio 1 soon."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 11,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "and let the other man go \u2013 only to find out later the second soldier who was beaten up was Adolf Hitler.\nThe remarkable tale of how Keogh saved Hitler\u2019s life will be revealed in a forthcoming Radio 1 documentary series\u2014inspired by the book.\nWhile Hitler stayed in Keogh's Munich barracks, he also visited Keogh's home and even received a glass of poteen in Kildare village.\nAt the close of World War I, Keogh's father deserted the British army, maintained his family in Ireland, and defected to the Irish Army, which was battling on the side of Germany\u2019s ally, the Ottoman Empire.\nThe life story of Michael Keogh is certain to fascinate. We are likely to learn more about his ordeal on Radio 1 soon.\nEmail \u201cThe Irishman who saved Hitler's life is the",
+  "z0": 2.4041630560342613,
+  "seconds": 181.8
+ }
+}

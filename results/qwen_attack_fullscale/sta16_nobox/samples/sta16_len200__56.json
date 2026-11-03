@@ -1,0 +1,80 @@
+{
+ "sample_id": "sta16_len200:56",
+ "nobox": {
+  "z_final": 6.910963848827236,
+  "status": "not broken",
+  "rewrites": {
+   "7": {
+    "original": "Green tea or nestea can be a part of your healthy foods as it can aid in controlling hunger as it three time more effective than placebo in lowering what nutritionists call hunger hormones versus green humor.",
+    "rewrite": "Green tea or Nestea can be part of your healthy foods as they may aid in controlling hunger, being three times more effective than placebo in lowering what nutritionists call hunger hormones compared to green humor."
+   },
+   "5": {
+    "original": "It can alter the energy usage in your cells in a positive, elevated way, which is very effective in assisting you to lose weight.",
+    "rewrite": "It can enhance the energy usage in your cells in a positive, elevated manner, which is very effective for helping you lose weight."
+   },
+   "4": {
+    "original": "As per the research published in Harvard, coconut oil could even boost your metabolism compared to other vegetable oils.",
+    "rewrite": "According to the research published in Harvard, coconut oil might even boost your metabolism more than other vegetable oils."
+   },
+   "6": {
+    "original": "However, you must opt for extra virgin coconut oil.",
+    "rewrite": "However, you should choose extra virgin coconut oil instead."
+   },
+   "3": {
+    "original": "It also may help in maintaining healthy weight.",
+    "rewrite": "It may also aid in keeping a healthy weight."
+   },
+   "1": {
+    "original": "Coconut oil has an array of health benefits.",
+    "rewrite": "Coconut oil offers a variety of health benefits."
+   },
+   "2": {
+    "original": "It is according to a Harvard study.",
+    "rewrite": "According to a Harvard study."
+   }
+  },
+  "sentences_rewritten": 7,
+  "eligible": 7,
+  "per_sentence": [
+   {
+    "index": 7,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 3,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 10,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 5,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 11,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "fat (avocado, cheese, butter), low CGI-style carbs (quinoa and lentils) and fruit, to make a satisfying, portion control-friendly salad.\nCoconut oil offers a variety of health benefits. According to a Harvard study. It may also aid in keeping a healthy weight. According to the research published in Harvard, coconut oil might even boost your metabolism more than other vegetable oils. It can enhance the energy usage in your cells in a positive, elevated manner, which is very effective for helping you lose weight. However, you should choose extra virgin coconut oil instead.\nGreen tea or Nestea can be part of your healthy foods as they may aid in controlling hunger, being three times more effective than placebo in lowering what nutritionists call hunger hormones compared to green humor. To get",
+  "z0": 9.899494936611665,
+  "seconds": 165.8
+ }
+}

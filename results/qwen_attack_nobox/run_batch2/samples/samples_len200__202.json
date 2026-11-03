@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:202",
+ "nobox": {
+  "z_final": 1.7320508075688774,
+  "status": "broken",
+  "rewrites": {
+   "3": {
+    "original": "In addition, supporters of the merger didn't address the reality that a key element in its wholesale service erosion was that the predominantly religious-affiliated Holy Redeemer paid about $50,000,000 to Abington to cover its $100,000,000-a-year debt.",
+    "rewrite": "Moreover, advocates for the merger did not consider the fact that a major factor in the decline of its wholesale services was Holy Redeemer, a primarily religious-affiliated institution, paying Abington around $50,000,000 to cover its annual debt of approximately $100,000,000."
+   },
+   "2": {
+    "original": "Whether run by a public, corporate, or church governing body, any hospital providing medical care should be geared toward saving lives, not taking them.",
+    "rewrite": "Whether operated by a public, corporate, or church governing body, any hospital offering medical care should aim to save lives, not end them."
+   },
+   "1": {
+    "original": "And most worrisome is their potential effect of making abortion more burdensome and cost-prohibitive for women already having a hard time securing it.",
+    "rewrite": "And most concerning is their potential impact of making abortion more burdensome and cost-prohibitive for women who are already struggling to obtain it."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 7,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 42,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "undergo expensive remodeling and adoption of hospital-like standards to qualify for licensing. And most concerning is their potential impact of making abortion more burdensome and cost-prohibitive for women who are already struggling to obtain it.\nWhether operated by a public, corporate, or church governing body, any hospital offering medical care should aim to save lives, not end them.\nMoreover, advocates for the merger did not consider the fact that a major factor in the decline of its wholesale services was Holy Redeemer, a primarily religious-affiliated institution, paying Abington around $50,000,000 to cover its annual debt of approximately $100,000,000. So why not carry on in the traditional partnership if for no other reasons than to promote continued cooperation and ensure the continued financial",
+  "z0": 3.111269837220809,
+  "seconds": 149.2
+ }
+}

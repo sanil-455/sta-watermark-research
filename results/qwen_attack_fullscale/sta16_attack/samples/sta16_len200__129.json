@@ -1,0 +1,112 @@
+{
+ "sample_id": "sta16_len200:129",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.2546948356807512,
+ "needed_share": 0.8209856250160639,
+ "delta_needed": null,
+ "segmentation": {
+  "chars": 852,
+  "segments": 4,
+  "eligible": 1,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 217,
+  "eligible_char_share": 0.2546948356807512
+ },
+ "attack": {
+  "z0": 11.17228714274745,
+  "z_final": 11.17228714274745,
+  "status": "stalled",
+  "reason": "no candidate passed the gates",
+  "passes": 1,
+  "queries": 1,
+  "seconds": 49.5,
+  "seconds_by_phase": {
+   "generate": 49.5,
+   "gates": 0.0,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 217,
+    "z_before": 11.17228714274745,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 0,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 47,
+      "glued punctuation": 11
+     }
+    },
+    "queries_total": 1,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 49.47
+   }
+  ],
+  "rewrites": {},
+  "final_span": "mechanisms of coming to an understanding how anyone who has suffered this pain, perpetrator, victim, observer, has an opportunity to reflect on the hurt they feel has contributed to that hurt and think about where they can go from this.\"\n\"And so our thinking is first - there has to be some wholesale changes in society that make us less susceptible to proclivities of violence, which we collectively as citizens, we have really lived with since 2005 and really got an opportunity to express in August - us being responsible, individually, if part of us is violent or aligns with the violent tendency in society,\" he added.\nBomba's sentiment were also echoed by Congress of Trade Union chief sales assistant at MAS Mutamba whatsapp group Masawi Ongwenje who said deep-seated violence versus each other is the core of our Zimbabwe's problems.\n\"This is Z",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 0,
+   "eligible": 1,
+   "segments": 4,
+   "pct_of_eligible": 0.0,
+   "pct_of_segments": 0.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 201,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "words": {
+   "original": 144,
+   "final": 144,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "characters": {
+   "original": 852,
+   "final": 852,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 179,
+   "green_after": 179,
+   "pairs_before": 200,
+   "pairs_after": 200,
+   "pairs_changed_before": 0,
+   "pairs_changed_after": 0,
+   "green_fraction_of_new_pairs": null,
+   "delta_achieved": null
+  }
+ }
+}

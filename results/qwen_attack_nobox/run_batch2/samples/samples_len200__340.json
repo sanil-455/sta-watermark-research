@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:340",
+ "nobox": {
+  "z_final": 1.4071950894605838,
+  "status": "broken",
+  "rewrites": {
+   "3": {
+    "original": "Microsoft plans to release the Office 2010 WAB/App and Web Apps feature pack between the second quarter of 2010 and the second quarter of 2011, according to a product roadmap.",
+    "rewrite": "Microsoft intends to release the Office 2010 WAB/App and Web Apps feature pack during either the second quarter of 2010 or the second quarter of 2011, as per the product roadmap."
+   },
+   "1": {
+    "original": "It kicks the enternal/performance tweaks that had been planned for SP1 into subsequent updates to the product, which currently is in \"release candidate\" for customer testing.",
+    "rewrite": "It pushes the internal/performance enhancements that were slated for SP1 to later updates of the product, which is presently at the \"release candidate\" stage for customer testing."
+   },
+   "2": {
+    "original": "Mid-summer 2011 is just a month or so after the release of the last feature pack for Office 2010.",
+    "rewrite": "Mid-summer 2011 is about a month following the release of the last feature pack for Office 2010."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 21,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 57,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 40,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "for Mac isn't really a service pack -- it's just the first planned point-release update to the product, Microsoft officials said. It pushes the internal/performance enhancements that were slated for SP1 to later updates of the product, which is presently at the \"release candidate\" stage for customer testing.\nMid-summer 2011 is about a month following the release of the last feature pack for Office 2010. Microsoft intends to release the Office 2010 WAB/App and Web Apps feature pack during either the second quarter of 2010 or the second quarter of 2011, as per the product roadmap.\nThe Office team hasn't yet said exactly what will be included in SP1, but on the Mac side, it appears that some of the tweaks will address the \"half-baked\" performance incidents that many Office 2011",
+  "z0": 2.4041630560342613,
+  "seconds": 138.2
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:99",
+ "nobox": {
+  "z_final": 0.9850365626224086,
+  "status": "broken",
+  "rewrites": {
+   "1": {
+    "original": "However, kids love candy, and over the 2013-2014 school year, children ages 6 to 11 at 3,600 elementary schools ate more than 1.75 million pounds of candy, according to The NPD Group, a Chicago-based market research firm that surveys diners and also tracks children\u2019s snacks.",
+    "rewrite": "However, children adore candy, and during the 2013-2014 school year, kids aged 6 to 11 from 3,600 elementary schools consumed over 1.75 million pounds of candy, as reported by The NPD Group, a Chicago-based market research firm that surveys diners and monitors children\u2019s snacks."
+   },
+   "3": {
+    "original": "Overall, non-chocolate candies were displaced by chocolates during 2013-2014, NPD found, but most candy items didn\u2019t have fat or sugar reductions.",
+    "rewrite": "Overall, non-chocolate candies were overtaken by chocolates during 2013-2014, NPD found, but the majority of candy items didn't feature fat or sugar reductions."
+   },
+   "2": {
+    "original": "That\u2019s 13% higher compared to the previous year.",
+    "rewrite": "That\u2019s 13% higher than the previous year."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 9,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "of the country\u2019s 32 billion-calorie reduction came from lower-calorie foods, according to the study.\nHowever, children adore candy, and during the 2013-2014 school year, kids aged 6 to 11 from 3,600 elementary schools consumed over 1.75 million pounds of candy, as reported by The NPD Group, a Chicago-based market research firm that surveys diners and monitors children\u2019s snacks. That\u2019s 13% higher than the previous year. Overall, non-chocolate candies were overtaken by chocolates during 2013-2014, NPD found, but the majority of candy items didn't feature fat or sugar reductions. Mark Hamiana, NPD\u2019s director of nutritional health and wellness, said the trend toward health",
+  "z0": 2.262741699796952,
+  "seconds": 166.0
+ }
+}

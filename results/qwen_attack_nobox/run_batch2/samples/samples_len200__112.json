@@ -1,0 +1,26 @@
+{
+ "sample_id": "samples_len200:112",
+ "nobox": {
+  "z_final": 4.121880516208469,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "In addition to United Natural Foods, fellow Whole Foods suppliers like Aphria, which makes medical marijuana products for retail chains and dispensaries, Ben & Jerry's owner Unilever, and cheese manufacturer Kraft Heinz have all spoken to how Amazon's purchase of Whole Foods has affected them positively.",
+    "rewrite": "In addition to United Natural Foods, fellow Whole Foods suppliers including Aphria, which produces medical marijuana products for retail chains and dispensaries, Ben & Jerry's owner Unilever, and cheese manufacturer Kraft Heinz have all mentioned positive impacts from Amazon's acquisition of Whole Foods."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 57,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "acquisition has led to increased consumer demand at the grocery chain.\n\"We now expect revenue growth to exceed 7.5% for fiscal year 2018, up from our prior guidance of 5% to 7%,\" United Natural Foods, which derives roughly a third of its sales from Whole Foods, said in a press release.\nIn addition to United Natural Foods, fellow Whole Foods suppliers including Aphria, which produces medical marijuana products for retail chains and dispensaries, Ben & Jerry's owner Unilever, and cheese manufacturer Kraft Heinz have all mentioned positive impacts from Amazon's acquisition of Whole Foods.\nAphria, which provides about 10% of all medical cannabis sold in Canada to various dispensaries, told Business Insider last week it expects sales to double after receiving extra traction and",
+  "z0": 5.091168824543142,
+  "seconds": 72.1
+ }
+}

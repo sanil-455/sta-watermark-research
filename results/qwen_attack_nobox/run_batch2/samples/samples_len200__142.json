@@ -1,0 +1,89 @@
+{
+ "sample_id": "samples_len200:142",
+ "nobox": {
+  "z_final": 2.807281427919909,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Students who attend grad school part time often can more easily maintain a consistent work schedule while also pursuing a degree.",
+    "rewrite": "Students attending grad school part time can often more easily maintain a consistent work schedule while pursuing a degree."
+   },
+   "7": {
+    "original": "Also, choosing to go to grad school part time may mean paying more tuition, depending on your school system.",
+    "rewrite": "Also, going to grad school part time could result in higher tuition costs, depending on your school system."
+   },
+   "5": {
+    "original": "Part-time students may find that it takes them longer than they anticipated to complete their degree.",
+    "rewrite": "Part-time students might discover that completing their degree takes them longer than expected."
+   },
+   "2": {
+    "original": "Part-time students also have more time to study and focus on courses that may apply to their work.",
+    "rewrite": "Part-time students also have more time to dedicate to studies and courses that are relevant to their work."
+   },
+   "6": {
+    "original": "Some part-time students may also need to support themselves with a second job to make ends meet.",
+    "rewrite": "Certain part-time students might also require a second job to ensure they have enough income."
+   },
+   "3": {
+    "original": "Part-time graduate students may also be able to devote more time to job opportunities.",
+    "rewrite": "Part-time graduate students might also be able to dedicate more time to job opportunities."
+   },
+   "8": {
+    "original": "The Skidmore College Career Development Center: Is Graduate School Right for Me?",
+    "rewrite": "Skidmore College Career Development Center: Should I Pursue Graduate School?"
+   },
+   "4": {
+    "original": "The downside of working while pursuing a degree is the limitation on time.",
+    "rewrite": "Working while pursuing a degree has the downside of time limitations."
+   }
+  },
+  "sentences_rewritten": 8,
+  "eligible": 8,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 21,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 4,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 22,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "work after earning your degree.\nStudents attending grad school part time can often more easily maintain a consistent work schedule while pursuing a degree. Part-time students also have more time to dedicate to studies and courses that are relevant to their work. Part-time graduate students might also be able to dedicate more time to job opportunities.\nWorking while pursuing a degree has the downside of time limitations. Part-time students might discover that completing their degree takes them longer than expected. Certain part-time students might also require a second job to ensure they have enough income. Also, going to grad school part time could result in higher tuition costs, depending on your school system.\nSkidmore College Career Development Center: Should I Pursue Graduate School?\nMurray, Nolan. \"Pros & Cons of Going to Grad School as a Part-Time or Full",
+  "z0": 4.525483399593904,
+  "seconds": 212.7
+ }
+}

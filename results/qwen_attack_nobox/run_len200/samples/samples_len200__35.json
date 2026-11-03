@@ -1,0 +1,89 @@
+{
+ "sample_id": "samples_len200:35",
+ "nobox": {
+  "z_final": 3.3197640478403483,
+  "status": "not broken",
+  "rewrites": {
+   "8": {
+    "original": "And I've been conditioned to only use the lower half of the screen for typing, so to me the higher end type of screens - although extremely useful - don't fit well.",
+    "rewrite": "I have been conditioned to use only the lower half of the screen for typing, so to me, higher-end types of screens, although extremely useful, do not fit well."
+   },
+   "7": {
+    "original": "Using a 4 inch screen on the other hand fits comfortably in your hand, and works for long reading sessions.",
+    "rewrite": "On the other hand, a 4-inch screen fits comfortably in your hand and works well for extended reading sessions."
+   },
+   "1": {
+    "original": "If Samsung/HTC/whoever is going to put my large screen on this phone, I'll happily switch over.",
+    "rewrite": "If Samsung/HTC/anyone puts my large screen on this phone, I'll happily switch over."
+   },
+   "3": {
+    "original": "You don't mind the tiny ones because you've already owned the iPhone.",
+    "rewrite": "You don't mind the small ones since you already have an iPhone."
+   },
+   "4": {
+    "original": "Totally different experience for people who've gone from a 4 to a 4S.",
+    "rewrite": "A vastly different experience for those who moved from a 4 to a 4S."
+   },
+   "2": {
+    "original": "I don't mind the HUGE phones, I mind the tiny ones.",
+    "rewrite": "I don't mind the enormous phones, I mind the small ones."
+   },
+   "5": {
+    "original": "Using the same phone size suddenly looks enormous.",
+    "rewrite": "Using the same phone size suddenly appears enormous."
+   },
+   "6": {
+    "original": "Like small cars after you get used to a Prius.",
+    "rewrite": "Like small cars once you get accustomed to a Prius."
+   }
+  },
+  "sentences_rewritten": 8,
+  "eligible": 8,
+  "per_sentence": [
+   {
+    "index": 8,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 27,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 13,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 26,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "phone if every phone maxed out at 4.3 inches or something.\nIf Samsung/HTC/anyone puts my large screen on this phone, I'll happily switch over.\nI don't mind the enormous phones, I mind the small ones.\nYou don't mind the small ones since you already have an iPhone.\nA vastly different experience for those who moved from a 4 to a 4S. Using the same phone size suddenly appears enormous. Like small cars once you get accustomed to a Prius. On the other hand, a 4-inch screen fits comfortably in your hand and works well for extended reading sessions. I have been conditioned to use only the lower half of the screen for typing, so to me, higher-end types of screens, although extremely useful, do not fit well.\nAnd I've been conditioned to only",
+  "z0": 5.939696961966999,
+  "seconds": 216.2
+ }
+}

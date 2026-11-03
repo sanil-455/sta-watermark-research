@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:329",
+ "nobox": {
+  "z_final": 1.866691212406119,
+  "status": "broken",
+  "rewrites": {
+   "2": {
+    "original": "Other than mark-up, there are additional tactics search engines discourage, known collectively as black-hat; using tricky and/or unlawful methods to game online search engines according to rules set by the search engine itself.",
+    "rewrite": "Other than mark-up, search engines discourage additional tactics, collectively known as black-hat, which involve tricky and/or unlawful methods to manipulate online search engines according to rules established by the search engine itself."
+   },
+   "1": {
+    "original": "Part of the search engines relevancy index is SRL, or Schema markup, which is a way of communicating to the search engine which page elements contain relevant content.",
+    "rewrite": "A part of the search engines relevancy index involves SRL, or Schema markup, which serves to inform the search engine about which page elements include relevant content."
+   },
+   "5": {
+    "original": "Using proactive SEO can help to bring in people who, unaware of the existence of a web page, would not otherwise find their way to it.",
+    "rewrite": "Implementing proactive SEO can attract individuals who, uninformed about the presence of a webpage, would otherwise not stumble upon it."
+   },
+   "6": {
+    "original": "Search engine optimisation does not require any additional effort to browse a website, adding to a site's ease of use.",
+    "rewrite": "Search engine optimisation does not need extra browsing efforts for a website, contributing to its ease of use."
+   },
+   "4": {
+    "original": "With SEO, web pages are always ready to be accessed by prospective readers, increasing the number of hits and views.",
+    "rewrite": "Through SEO, web pages are constantly prepared for access by potential readers, boosting the number of visits and views."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 48,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "engines to improve their rankings. A part of the search engines relevancy index involves SRL, or Schema markup, which serves to inform the search engine about which page elements include relevant content.\nOther than mark-up, search engines discourage additional tactics, collectively known as black-hat, which involve tricky and/or unlawful methods to manipulate online search engines according to rules established by the search engine itself.\nAdvantages of SEO\nThrough SEO, web pages are constantly prepared for access by potential readers, boosting the number of visits and views. Implementing proactive SEO can attract individuals who, uninformed about the presence of a webpage, would otherwise not stumble upon it. Search engine optimisation does not need extra browsing efforts for a website, contributing to its ease of use.\nDisadvantages of SEO\nAn important disadvantage of search engine optim",
+  "z0": 3.8183766184073566,
+  "seconds": 201.5
+ }
+}

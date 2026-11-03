@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:231",
+ "nobox": {
+  "z_final": 3.014379950584612,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "All ice-melters can be harmful to animals, and there are additional hazards when used on children and pets: Once they contact the skin, alcohol, magnesium chloride and propylene glycol may be irritating; once they\u2019re ingested rock salt (sodium chloride) and urea can also cause irritation to the stomach and intestines and dehydration.",
+    "rewrite": "Ice-melters can pose dangers to animals, and extra risks apply when used around children and pets: Upon skin contact, alcohol, magnesium chloride, and propylene glycol can irritate, while ingestion of rock salt (sodium chloride) and urea can lead to stomach and intestinal irritation and dehydration."
+   },
+   "3": {
+    "original": "Rock salts, which contains, sodium chloride, can fail to perform according to its label claims because it doesn\u2019t always melt snow and ice, but it can get wet and hard to blow.",
+    "rewrite": "Rock salts containing sodium chloride may fail to meet its label claims because it doesn't always melt snow and ice; instead, it may become wet and hard to blow."
+   },
+   "1": {
+    "original": "If an ice-melter does not contain any SDDS, what should you do before applying it on kids/animals and pets?",
+    "rewrite": "Before applying an ice-melter that does not contain SDDS on kids, animals, or pets, what should you do?"
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 11,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "allergic reaction.\nBefore applying an ice-melter that does not contain SDDS on kids, animals, or pets, what should you do?\nIce-melters can pose dangers to animals, and extra risks apply when used around children and pets: Upon skin contact, alcohol, magnesium chloride, and propylene glycol can irritate, while ingestion of rock salt (sodium chloride) and urea can lead to stomach and intestinal irritation and dehydration.\nRock salts containing sodium chloride may fail to meet its label claims because it doesn't always melt snow and ice; instead, it may become wet and hard to blow. This happens when you or the air temperatures fall below 15F/-9C and",
+  "z0": 5.232590180780451,
+  "seconds": 178.9
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:34",
+ "nobox": {
+  "z_final": 3.4911054494075726,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "In the fall of 2017 during the Eagle County Peak Parenting class, Kate Eastwood, executive director of the Vail Health Mental Health Institute, talked about what constitutes a healthy community and the wide net of the Mental Health Alliance.",
+    "rewrite": "In the autumn of 2017 at the Eagle County Peak Parenting class, Kate Eastwood, executive director of the Vail Health Mental Health Institute, discussed what constitutes a healthy community and the broad reach of the Mental Health Alliance."
+   },
+   "3": {
+    "original": "And, Martin added, the regional psychiatric clinic for children \u2014 Child and Family services \u2014 has received its state-license and is up and running.",
+    "rewrite": "And, Martin added, the regional psychiatric clinic for children\u2014Child and Family services\u2014has obtained its state license and is now operational."
+   },
+   "4": {
+    "original": "The Next Step in Mental Health: Supports, Case Management, Community Services, Treatment.",
+    "rewrite": "Steps Forward in Mental Health: Supports, Case Management, Community Services, Treatment."
+   },
+   "0": {
+    "original": "Valley and Roaring Fork schools, to rebalance the mental health marijuana tax funds.",
+    "rewrite": "Valley and Roaring Fork schools aim to rebalance the mental health marijuana tax funds."
+   },
+   "1": {
+    "original": "Coincidentally, kids this fall will have more options to get aid.",
+    "rewrite": "Interestingly, children this fall will have more choices for getting aid."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 32,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 36,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Valley and Roaring Fork schools aim to rebalance the mental health marijuana tax funds.\nInterestingly, children this fall will have more choices for getting aid.\nIn addition to what Martin described as a \u201cleveled up mental health system\u201d run by Eagle County\u2019s Total Health Alliance, Colorado Crisis Service has announced a brand-new Trevor Project Crisis Line for teens. And, Martin added, the regional psychiatric clinic for children\u2014Child and Family services\u2014has obtained its state license and is now operational.\nSteps Forward in Mental Health: Supports, Case Management, Community Services, Treatment.\nIn the autumn of 2017 at the Eagle County Peak Parenting class, Kate Eastwood, executive director of the Vail Health Mental Health Institute, discussed what constitutes a healthy community and the broad reach of the Mental Health Alliance.",
+  "z0": 3.2526911934581184,
+  "seconds": 169.2
+ }
+}

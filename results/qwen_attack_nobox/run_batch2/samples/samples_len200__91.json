@@ -1,0 +1,15 @@
+{
+ "sample_id": "samples_len200:91",
+ "nobox": {
+  "z_final": 3.3317416635391788,
+  "status": "not broken",
+  "rewrites": {},
+  "sentences_rewritten": 0,
+  "eligible": 0,
+  "per_sentence": [],
+  "queries": 1,
+  "final_span": "interests of stakeholders and the public\".\nTata Power clarifies on statements made by interim MD CGD\nTata Power winds up renewable energy business, invests more in Solar\nMuch Hue and Cry, Much Ado about Arbitration Laws, Online Gaming\nTata Power completes acquisition of 100% stake in CLP India's transmission assets\nNational Company Law tribes (NCLT)Tata SonsNewsCyrus MistryRatan TataMistry-Tata fightNCLT orderMistry oustedTata PowerOusting MistryTATA, named after Lord Pallava warriors of the eleventh centuryMistrynamed 4th richest tycoon in the worldOustingthirteenth NCP or TAI union leaderSalient features of 2017SBI ChairpersonRamnathKovindrailwaysinaug",
+  "z0": 3.3317416635391788,
+  "seconds": 0.0
+ }
+}

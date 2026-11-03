@@ -1,0 +1,377 @@
+{
+ "sample_id": "samples_len500:173",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8772579898100973,
+ "needed_share": 0.6759321771739435,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2159,
+  "segments": 17,
+  "eligible": 14,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1894,
+  "eligible_char_share": 0.8772579898100973
+ },
+ "attack": {
+  "z0": 6.171547617899419,
+  "z_final": 1.956038587687303,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 303,
+  "seconds": 359.5,
+  "seconds_by_phase": {
+   "generate": 335.4,
+   "gates": 23.9,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 217,
+    "z_before": 6.171547617899419,
+    "z_after": 6.108528080327624,
+    "accepted": true,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 36,
+     "after_spelling": 35,
+     "after_content": 35,
+     "after_semantic": 35,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "duplicate": 22,
+      "CJK text": 2,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 36,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 56.81
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 198,
+    "z_before": 6.108528080327624,
+    "z_after": 5.523398999523437,
+    "accepted": true,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 51,
+     "after_content": 46,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "CJK text": 7,
+      "unknown word": 2,
+      "negation count changed": 5,
+      "meaning too different": 5,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 75,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 45.79
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 184,
+    "z_before": 5.523398999523437,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 46,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 6,
+      "several lines": 2,
+      "unknown word": 3,
+      "negation count changed": 46
+     }
+    },
+    "queries_total": 75,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 39.74
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 169,
+    "z_before": 5.523398999523437,
+    "z_after": 5.048467683179104,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "CJK text": 7,
+      "unknown word": 3,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 120,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.98
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 161,
+    "z_before": 5.048467683179104,
+    "z_after": 3.8946548850118536,
+    "accepted": true,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 51,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 5,
+      "several lines": 1,
+      "unknown word": 2,
+      "negation count changed": 15,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 151,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 39.73
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 144,
+    "z_before": 3.8946548850118536,
+    "z_after": 3.6188131180310394,
+    "accepted": true,
+    "survivors": 30,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 31,
+     "after_spelling": 31,
+     "after_content": 31,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 30,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 26,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 181,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.55
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 133,
+    "z_before": 3.6188131180310394,
+    "z_after": 2.9933392457787606,
+    "accepted": true,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 31,
+     "after_spelling": 31,
+     "after_content": 28,
+     "after_semantic": 28,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "duplicate": 28,
+      "CJK text": 1,
+      "negation count changed": 3,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 204,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.29
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 129,
+    "z_before": 2.9933392457787606,
+    "z_after": 2.22717701593687,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 1,
+      "unknown word": 1,
+      "meaning too different": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 256,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.99
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 123,
+    "z_before": 2.22717701593687,
+    "z_after": 1.956038587687303,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "CJK text": 6,
+      "several lines": 2,
+      "unknown word": 2,
+      "meaning too different": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 303,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.57
+   }
+  ],
+  "rewrites": {
+   "9": {
+    "original": "The EPA issued the emergency exemptions in April 2007 to allow aerial spraying for the inch-long moth in Alameda, Marin, Monterey, Napa, Santa Clara, San Mateo, Santa Cruz and Sonoma, and part of San Francisco County.",
+    "rewrite": "In April 2007, the EPA granted emergency exemptions to permit aerial spraying for the miniature moth in Alameda, Marin, Monterey, Napa, Santa Clara, San Mateo, Santa Cruz, and Sonoma counties, along with a portion of San Francisco County."
+   },
+   "11": {
+    "original": "The combination is sprayed over high-value crops, trees and ornamentals and is meant to disrupt incoming male moths from taking up mating posts and possibly marking a female or fertilizing her eggs.",
+    "rewrite": "The blend is misted onto valuable crops, trees, and ornamentals with the aim of obstructing male moths from reaching mating spots and potentially courting a female or inseminating her eggs."
+   },
+   "7": {
+    "original": "It would yield judgment in a more favorable district, but sparing the federal government and the manufacturer from litigation time and costs in bringing a case in Marin.",
+    "rewrite": "It would result in a more favorable judgment but would avoid litigation delays and expenses for both the federal government and the manufacturer in Marin."
+   },
+   "2": {
+    "original": "EPA spokeswoman Dale Kemery said the decision to suspend the emergency approval was made after lawyers reviewed the evidence that an emergency no longer existed.",
+    "rewrite": "EPA spokesperson Dale Kemery stated that the decision to halt the emergency approval was made following a legal review of evidence indicating the emergency no longer existed."
+   },
+   "4": {
+    "original": "The court challenge drew public interests groups and North Coast activists into the controversy, many of them proponents of organic agriculture.",
+    "rewrite": "The court challenge attracted public interest groups and North Coast activists into the debate, with many supporters of organic agriculture among them."
+   },
+   "1": {
+    "original": "The request to dismiss the lawsuit does not presume the administration's plan to release sterile insects will be successful, he said.",
+    "rewrite": "He stated that the request for dismissing the lawsuit doesn't assume the administration's plan to release sterile insects will succeed."
+   },
+   "3": {
+    "original": "The emergency approvals remain under legal challenge, and the agencies have argued they may resume spraying as soon as next year.",
+    "rewrite": "Legal challenges remain in place for the emergency approvals, while the agencies claim they could resume spraying as early as next year."
+   },
+   "6": {
+    "original": "On Monday, District Judge William Alsup took the unusual step of asking if part of the case could be moved to Marin County.",
+    "rewrite": "On Monday, District Judge William Alsup made an unusual request by inquiring if a portion of the case could be transferred to Marin County."
+   }
+  },
+  "final_span": "appeal is decided. He stated that the request for dismissing the lawsuit doesn't assume the administration's plan to release sterile insects will succeed.\nEPA spokesperson Dale Kemery stated that the decision to halt the emergency approval was made following a legal review of evidence indicating the emergency no longer existed.\nLegal challenges remain in place for the emergency approvals, while the agencies claim they could resume spraying as early as next year.\nThe court challenge attracted public interest groups and North Coast activists into the debate, with many supporters of organic agriculture among them.\nThe group sought to include named plaintiffs in the case but was prevented because the Browns lived in a Los Angeles bedroom community and the Kochans didn't have legal representation.\nOn Monday, District Judge William Alsup made an unusual request by inquiring if a portion of the case could be transferred to Marin County. It would result in a more favorable judgment but would avoid litigation delays and expenses for both the federal government and the manufacturer in Marin.\nThe court is \"trying to solve their problem with the least disruptive humor possible,\" said Stephen Levine, the Harvard-trained attorney representing the local farming community in the case.\nIn April 2007, the EPA granted emergency exemptions to permit aerial spraying for the miniature moth in Alameda, Marin, Monterey, Napa, Santa Clara, San Mateo, Santa Cruz, and Sonoma counties, along with a portion of San Francisco County.\nThe product contains pheromones mixed with a carrier, typically a mixture of oil and water. The blend is misted onto valuable crops, trees, and ornamentals with the aim of obstructing male moths from reaching mating spots and potentially courting a female or inseminating her eggs.\nComplaints promptly followed, particularly in rural areas where the pesticide was sprayed. The San Francisco Bay chapter of the Sierra Club sued in San Francisco Superior Court, but a judge dismissed the complaint. In response, the coalition sued the federal officials.\nBut if the decision is allowed to stand, government may follow an easier path. Even if the court dismisses the complaint",
+  "break_point": {
+   "step": 8,
+   "sentences_rewritten": 8,
+   "queries": 303
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 8,
+   "eligible": 14,
+   "segments": 17,
+   "pct_of_eligible": 57.142857142857146,
+   "pct_of_segments": 47.05882352941177
+  },
+  "tokens": {
+   "original": 501,
+   "final": 507,
+   "length_change": 6,
+   "pct_not_preserved": 21.357285429141715,
+   "pct_new": 22.2879684418146
+  },
+  "words": {
+   "original": 345,
+   "final": 346,
+   "length_change": 1,
+   "pct_not_preserved": 24.927536231884062,
+   "pct_new": 25.144508670520228
+  },
+  "characters": {
+   "original": 2159,
+   "final": 2201,
+   "length_change": 42,
+   "pct_not_preserved": 14.404817044928208,
+   "pct_new": 16.038164470695136
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 319,
+   "green_after": 275,
+   "pairs_before": 500,
+   "pairs_after": 506,
+   "pairs_changed_before": 153,
+   "pairs_changed_after": 159,
+   "green_fraction_of_new_pairs": 0.3710691823899371,
+   "delta_achieved": 0.12893081761006292
+  }
+ }
+}

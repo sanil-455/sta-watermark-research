@@ -1,0 +1,497 @@
+{
+ "sample_id": "sta16_len200:77",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.4233576642335766,
+ "needed_share": 0.8254057330403586,
+ "delta_needed": 0.3846144327197293,
+ "segmentation": {
+  "chars": 822,
+  "segments": 11,
+  "eligible": 3,
+  "skipped": 8,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 7
+  },
+  "eligible_chars": 348,
+  "eligible_char_share": 0.4233576642335766
+ },
+ "attack": {
+  "z0": 11.455129855222069,
+  "z_final": 7.5548310171778965,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 5,
+  "queries": 507,
+  "seconds": 471.0,
+  "seconds_by_phase": {
+   "generate": 430.1,
+   "gates": 40.8,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 138,
+    "z_before": 11.455129855222069,
+    "z_after": 9.754262200082648,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "several lines": 1,
+      "duplicate": 1,
+      "CJK text": 1,
+      "unknown word": 2,
+      "perplexity too high": 12
+     }
+    },
+    "queries_total": 44,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.22
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 111,
+    "z_before": 9.754262200082648,
+    "z_after": 8.918182582932706,
+    "accepted": true,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 32,
+     "after_spelling": 32,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "duplicate": 27,
+      "several lines": 1
+     }
+    },
+    "queries_total": 76,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.8
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 99,
+    "z_before": 8.918182582932706,
+    "z_after": 8.360796171499413,
+    "accepted": true,
+    "survivors": 26,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 27,
+     "after_content": 27,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 26,
+     "rejected": {
+      "duplicate": 33,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 102,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.93
+   },
+   {
+    "pass": 2,
+    "segment": 7,
+    "chars": 138,
+    "z_before": 8.360796171499413,
+    "z_after": 8.28078671210825,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 59,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 1,
+      "perplexity too high": 8
+     }
+    },
+    "queries_total": 153,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.09
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 111,
+    "z_before": 8.28078671210825,
+    "z_after": 8.271071757597298,
+    "accepted": true,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 29,
+     "after_spelling": 29,
+     "after_content": 29,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "duplicate": 28,
+      "several lines": 2,
+      "CJK text": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 180,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.94
+   },
+   {
+    "pass": 2,
+    "segment": 9,
+    "chars": 99,
+    "z_before": 8.271071757597298,
+    "z_after": 7.816373441686643,
+    "accepted": true,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "duplicate": 30,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 208,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.25
+   },
+   {
+    "pass": 3,
+    "segment": 7,
+    "chars": 138,
+    "z_before": 7.816373441686643,
+    "z_after": 7.816373441686643,
+    "accepted": false,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "several lines": 1,
+      "duplicate": 1,
+      "unknown word": 2,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 257,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.17
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 111,
+    "z_before": 7.816373441686643,
+    "z_after": 7.692191581126585,
+    "accepted": true,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 33,
+     "after_spelling": 33,
+     "after_content": 33,
+     "after_semantic": 33,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "duplicate": 27,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 288,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.32
+   },
+   {
+    "pass": 3,
+    "segment": 9,
+    "chars": 99,
+    "z_before": 7.692191581126585,
+    "z_after": 7.866747376502838,
+    "accepted": false,
+    "survivors": 26,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 27,
+     "after_content": 27,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 26,
+     "rejected": {
+      "duplicate": 33,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 314,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.99
+   },
+   {
+    "pass": 4,
+    "segment": 7,
+    "chars": 138,
+    "z_before": 7.692191581126585,
+    "z_after": 7.5548310171778965,
+    "accepted": true,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 1,
+      "perplexity too high": 10
+     }
+    },
+    "queries_total": 360,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.26
+   },
+   {
+    "pass": 4,
+    "segment": 1,
+    "chars": 111,
+    "z_before": 7.5548310171778965,
+    "z_after": 7.5548310171778965,
+    "accepted": false,
+    "survivors": 30,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 32,
+     "after_spelling": 32,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 30,
+     "rejected": {
+      "duplicate": 28,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 390,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.12
+   },
+   {
+    "pass": 4,
+    "segment": 9,
+    "chars": 99,
+    "z_before": 7.5548310171778965,
+    "z_after": 7.779240816283111,
+    "accepted": false,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 34,
+     "after_content": 34,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "duplicate": 26,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 423,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.44
+   },
+   {
+    "pass": 5,
+    "segment": 7,
+    "chars": 138,
+    "z_before": 7.5548310171778965,
+    "z_after": 7.728734264634367,
+    "accepted": false,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "several lines": 1,
+      "unknown word": 2,
+      "perplexity too high": 10
+     }
+    },
+    "queries_total": 468,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.25
+   },
+   {
+    "pass": 5,
+    "segment": 1,
+    "chars": 111,
+    "z_before": 7.5548310171778965,
+    "z_after": 7.5548310171778965,
+    "accepted": false,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 36,
+     "after_spelling": 35,
+     "after_content": 35,
+     "after_semantic": 35,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "duplicate": 24,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 491,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.18
+   },
+   {
+    "pass": 5,
+    "segment": 9,
+    "chars": 99,
+    "z_before": 7.5548310171778965,
+    "z_after": 7.916926494447414,
+    "accepted": false,
+    "survivors": 26,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 26,
+     "rejected": {
+      "duplicate": 30,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 507,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.13
+   }
+  ],
+  "rewrites": {
+   "7": {
+    "original": "He said the Sweet Georgia Sound will perform songs from the type of orchestra Frank Sinatra would sing with and perhaps even Greg himself.",
+    "rewrite": "He said that the Sweet Georgia Sound will perform songs from an orchestra similar to the one Frank Sinatra sung with, possibly even including some of Greg's own selections."
+   },
+   "1": {
+    "original": "Glover said he and the rest of the Sweet Georgia Sound have looked forward to coming to Cleveland this weekend.",
+    "rewrite": "Glover noted that he and the other members of Sweet Georgia Sound are excited about performing in Cleveland this weekend."
+   },
+   "9": {
+    "original": "Glover said he and the Sweet Georgia Sound have looked forward to coming to Cleveland this weekend.",
+    "rewrite": "Glover stated that he and the Sweet Georgia Sound had anticipated their arrival in Cleveland for this weekend."
+   }
+  },
+  "final_span": "dancing marathon!\nGlover noted that he and the other members of Sweet Georgia Sound are excited about performing in Cleveland this weekend.\n\"This is such a beautiful region,\" Glover said. \"I always love coming to an area that is so well rounded.\"\n\"This is such an enjoyable type of music,\" Glover said. \"We want to make people enjoy themselves when they walk in and come out of the venue with a smile. We think they will have fun.\"\nHe said that the Sweet Georgia Sound will perform songs from an orchestra similar to the one Frank Sinatra sung with, possibly even including some of Greg's own selections.\n\"We\u2019re going to play a lot of classics and jazz standards, but laugh a lot in between...so come out and join us.\"\nGlover stated that he and the Sweet Georgia Sound had anticipated their arrival in Cleveland for this weekend.\n\"This is such a beautiful region,\" Glover said.",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 3,
+   "segments": 11,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 27.272727272727273
+  },
+  "tokens": {
+   "original": 201,
+   "final": 213,
+   "length_change": 12,
+   "pct_not_preserved": 11.940298507462687,
+   "pct_new": 16.901408450704224
+  },
+  "words": {
+   "original": 149,
+   "final": 155,
+   "length_change": 6,
+   "pct_not_preserved": 17.4496644295302,
+   "pct_new": 20.645161290322577
+  },
+  "characters": {
+   "original": 822,
+   "final": 877,
+   "length_change": 55,
+   "pct_not_preserved": 9.48905109489051,
+   "pct_new": 15.16533637400228
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 181,
+   "green_after": 161,
+   "pairs_before": 200,
+   "pairs_after": 212,
+   "pairs_changed_before": 38,
+   "pairs_changed_after": 50,
+   "green_fraction_of_new_pairs": 0.32,
+   "delta_achieved": 0.18
+  }
+ }
+}

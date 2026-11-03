@@ -1,0 +1,152 @@
+{
+ "sample_id": "samples_len500:78",
+ "nobox": {
+  "z_final": 3.8930370798282965,
+  "status": "not broken",
+  "rewrites": {
+   "15": {
+    "original": "There\u2019s work to be done and people to be helped as the \u201cI\u201d\u009d switches to the \u201cwe\u201d,\u009d to demonstrate that together we truly trust in God, give witness to that trust when others falter, and never allow ourselves or others to be prisoners of expectation or low self-esteem.",
+    "rewrite": "There is work to do and people to aid as the focus shifts from \u201cI\u201d to \u201cwe,\u201d showing our trust in God when others waver, and ensuring that we and others are not constrained by expectations or diminished self-regard."
+   },
+   "16": {
+    "original": "At Leo, we teach you how to spot the shells on others, so you can shine your light upon them, not to illuminate their jewelry, but to shine out the presence of the Almighty through your brilliant reflection.",
+    "rewrite": "At Leo, we guide you to recognize the shells in others, so you can let your light shine upon them, not to highlight their jewelry, but to reveal the presence of the Almighty through your radiant reflection."
+   },
+   "9": {
+    "original": "As we survey the world, we often observe that light and love and joy seem to have been extinguished by the humorless, unmerciful, and sometimes violent behavior of our sisters and brothers.",
+    "rewrite": "As we observe the world, it is apparent that light, love, and joy frequently appear extinguished due to the humorless, unmerciful, and at times violent actions of our sisters and brothers."
+   },
+   "8": {
+    "original": "The prisoners, once rescued, are now citizens of judgment, capable of giving testimony to the good of our work and the contrary, should another prisoner wish to three down our path.",
+    "rewrite": "Once rescued, the prisoners are now citizens of judgment, able to testify to the benefits of our work and its challenges, should another prisoner aspire to follow our path."
+   },
+   "3": {
+    "original": "We might be able to generate wealth for our clients or our bosses, but according to the prophet Isaiah, we are to be more about contributing to the wealth of our communities.",
+    "rewrite": "We could generate wealth for our clients or bosses, yet as stated by the prophet Isaiah, our focus should be on contributing to our communities' wealth."
+   },
+   "11": {
+    "original": "They happen to us because our way of doing business, neglecting our light as citizens of creation, has caused the darkest of voids.",
+    "rewrite": "They occur due to our approach to business, disregarding our role as citizens of creation, which has led to the deepest darkness."
+   },
+   "1": {
+    "original": "From the beginning, according to Scripture, humans had a purpose that meant something, and their work had value.",
+    "rewrite": "Scripture indicates that from the start, humans were given a purpose with meaning, and their work held value."
+   },
+   "12": {
+    "original": "Instead of being a light of love and mercy, we end up just as disconnected and disinterested as our neighbors.",
+    "rewrite": "Instead of shining a light of love and mercy, we wind up just as disconnected and disinterested as our neighbors."
+   },
+   "4": {
+    "original": "Isaiah tells us that we are to be people of service, not people of personal ambition.",
+    "rewrite": "Isaiah tells us to strive to be service-oriented people, not those driven by personal ambition."
+   },
+   "14": {
+    "original": "Train with us, trust your own power, and walk away from the cave!",
+    "rewrite": "Train with us, believe in your own power, and step away from the cave!"
+   },
+   "10": {
+    "original": "These observations are not accidents or random episodes.",
+    "rewrite": "These observations are not accidental or random occurrences."
+   },
+   "6": {
+    "original": "By caring for our brothers and sisters, we care for us.",
+    "rewrite": "Through caring for our brothers and sisters, we care for ourselves."
+   },
+   "13": {
+    "original": "That\u2019s not Christian, and it\u2019s not good for business.",
+    "rewrite": "That is not Christian, and it is not beneficial for business."
+   },
+   "2": {
+    "original": "Too often, our work has no lasting effect.",
+    "rewrite": "At times, the impact of our work is not enduring."
+   },
+   "7": {
+    "original": "Isaiah speaks of rescuing the prisoners.\u201d",
+    "rewrite": "Isaiah speaks about rescuing the prisoners."
+   }
+  },
+  "sentences_rewritten": 15,
+  "eligible": 15,
+  "per_sentence": [
+   {
+    "index": 15,
+    "survivors": 8,
+    "rewritten": true
+   },
+   {
+    "index": 16,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 17,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 57,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 17,
+    "rewritten": true
+   },
+   {
+    "index": 14,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 13,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 15,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 7,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 2,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 24,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "second chapter we read that God got involved, took the hand of Adam and Eve, and made a co-creator of humankind. Scripture indicates that from the start, humans were given a purpose with meaning, and their work held value.\nAt times, the impact of our work is not enduring. We could generate wealth for our clients or bosses, yet as stated by the prophet Isaiah, our focus should be on contributing to our communities' wealth. Isaiah tells us to strive to be service-oriented people, not those driven by personal ambition. Isaiah 41:17 tells us, \u201cWhen men plot evil, they plot it for themselves\u2026 When I plan an undertaking, I plan it for my people\u201d\u009d . Through caring for our brothers and sisters, we care for ourselves. Isaiah speaks about rescuing the prisoners. Once rescued, the prisoners are now citizens of judgment, able to testify to the benefits of our work and its challenges, should another prisoner aspire to follow our path.\nAs we observe the world, it is apparent that light, love, and joy frequently appear extinguished due to the humorless, unmerciful, and at times violent actions of our sisters and brothers. These observations are not accidental or random occurrences. They occur due to our approach to business, disregarding our role as citizens of creation, which has led to the deepest darkness. Instead of shining a light of love and mercy, we wind up just as disconnected and disinterested as our neighbors. That is not Christian, and it is not beneficial for business.\nTrain with us, believe in your own power, and step away from the cave! There is work to do and people to aid as the focus shifts from \u201cI\u201d to \u201cwe,\u201d showing our trust in God when others waver, and ensuring that we and others are not constrained by expectations or diminished self-regard. At Leo, we guide you to recognize the shells in others, so you can let your light shine upon them, not to highlight their jewelry, but to reveal the presence of the Almighty through your radiant reflection. Our goal is to make lives brighter,",
+  "z0": 8.675943752699183,
+  "seconds": 492.8
+ }
+}

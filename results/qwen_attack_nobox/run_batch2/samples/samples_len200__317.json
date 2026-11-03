@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:317",
+ "nobox": {
+  "z_final": 3.256085723815897,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "The fund was brought about in an effort to accelerate commercialisation in local companies, as well as to attract foreign industries to establish presence in Singapore and tap on the attractive pool of scientific talent here.",
+    "rewrite": "The fund was initiated to accelerate commercialization in local companies and also to attract foreign industries to set up in Singapore and leverage the talented scientific workforce available locally."
+   },
+   "2": {
+    "original": "DeClout is Asia's biggest marketer of patents and intellectual property, and currently has over a dozen runway companies in its ventures division.",
+    "rewrite": "DeClout is Asia's largest marketer of patents and intellectual property, with currently over a dozen runway companies in its ventures division."
+   },
+   "1": {
+    "original": "The fund aims to accelerate commercialisation of technologies by early stage venture capital companies to attract global and regional industries.",
+    "rewrite": "The fund seeks to accelerate the commercialization of technologies through early-stage venture capital firms to attract both global and regional industries."
+   },
+   "4": {
+    "original": "In return, DeClout would contribute additional funding to whittle down the risk of the financial support for the local companies.",
+    "rewrite": "In return, DeClout would add more funding to reduce the financial support risk for the local companies."
+   },
+   "3": {
+    "original": "Last year, it committed to an S$85-million venture capital fund for companies in which it had invested.",
+    "rewrite": "Last year, it committed to an S$85 million venture capital fund for companies it had invested in."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 38,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 38,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 27,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the 15 local companies receiving the fund. The fund seeks to accelerate the commercialization of technologies through early-stage venture capital firms to attract both global and regional industries.\nDeClout is Asia's largest marketer of patents and intellectual property, with currently over a dozen runway companies in its ventures division. Last year, it committed to an S$85 million venture capital fund for companies it had invested in.\nIn return, DeClout would add more funding to reduce the financial support risk for the local companies. The fund was initiated to accelerate commercialization in local companies and also to attract foreign industries to set up in Singapore and leverage the talented scientific workforce available locally.\nAt the NRF Venture Summit on May 4, Chairman of DeClout, Patrick Wee, said: \"This is the third of its",
+  "z0": 3.959797974644666,
+  "seconds": 186.4
+ }
+}

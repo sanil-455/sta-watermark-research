@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:109",
+ "nobox": {
+  "z_final": 3.857142857142857,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "Making the argument that the United States was vulnerable to a possible Russian attack was a ploy by the Pentagon to help bolster its fail-safe plans to scrap Obama-era nuclear deal with India, which would effectively lift nuclear trade restrictions on India, to secure a congressional victory.",
+    "rewrite": "Claiming U.S. vulnerability to a Russian attack was an effort by the Pentagon to strengthen its secure plans for revoking the Obama-era nuclear agreement with India, thus removing nuclear trade constraints on India, in order to win congressional support."
+   },
+   "0": {
+    "original": "Blechman, co-founder of the Stimson Center think tank, said attempts to develop more capable systems were deeply misguided.",
+    "rewrite": "Blechman, co-founder of the Stimson Center think tank, stated that efforts to develop more capable systems were fundamentally misguided."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 37,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Blechman, co-founder of the Stimson Center think tank, stated that efforts to develop more capable systems were fundamentally misguided.\n\"What is the point of spending massive amounts of money developing this technology? That missile is just as likely to land on a missile silo as at a target,\" Blechman said, referring to missile interceptors typically stationed in remote areas far from cities.\n\"You will not defend in a major war\" the large US cities targeted in a major attack, Blechman said.\nClaiming U.S. vulnerability to a Russian attack was an effort by the Pentagon to strengthen its secure plans for revoking the Obama-era nuclear agreement with India, thus removing nuclear trade constraints on India, in order to win congressional support.\n\"Before us is the chance to normalize Indo-US ties, and the new government of",
+  "z0": 5.5154328932550705,
+  "seconds": 115.4
+ }
+}

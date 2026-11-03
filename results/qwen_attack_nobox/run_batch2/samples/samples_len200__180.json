@@ -1,0 +1,80 @@
+{
+ "sample_id": "samples_len200:180",
+ "nobox": {
+  "z_final": 2.375391977470692,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "Manufacturers of garage door openers have engineered solutions available now - such as battery backups and wireless signals - that would allow garage doors to be opened even with the loss of electricity to a home.",
+    "rewrite": "Manufacturers of garage door openers have developed solutions currently available - including battery backups and wireless signals - that permit garage doors to be opened during a loss of electricity to a home."
+   },
+   "1": {
+    "original": "It says it also found cases of homeowners climbing into attic garages through crawl spaces to throw totes filled with their loved ones' belongings out over a ladder.",
+    "rewrite": "It also found cases where homeowners climbed into attic garages via crawl spaces to discard totes laden with their loved ones' possessions over a ladder."
+   },
+   "3": {
+    "original": "Some manufacturers told the press their products' batteries typically last no more than one or two hours.",
+    "rewrite": "Some manufacturers told the press that their products' batteries usually last for no more than one or two hours."
+   },
+   "2": {
+    "original": "The problem could be worse when it comes to battery-only openers, which operate on limited power.",
+    "rewrite": "The issue might be more severe for battery-only openers, which function with limited power."
+   },
+   "7": {
+    "original": "There was some scepticism among manufacturers last year when the new law was proposed.",
+    "rewrite": "Last year, there was some scepticism among manufacturers when the new law was proposed."
+   },
+   "5": {
+    "original": "The Association says, however, that few, if any fail-safe units are in common use.",
+    "rewrite": "The Association indicates that very few, if any, fail-safe units are commonly used."
+   },
+   "6": {
+    "original": "The requirement to add such equipment would add cost to an open-and-shut decision.",
+    "rewrite": "Adding that equipment would increase the cost of an open-and-shut decision."
+   }
+  },
+  "sentences_rewritten": 7,
+  "eligible": 7,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 25,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 37,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "do so. It also found cases where homeowners climbed into attic garages via crawl spaces to discard totes laden with their loved ones' possessions over a ladder.\nThe issue might be more severe for battery-only openers, which function with limited power. Some manufacturers told the press that their products' batteries usually last for no more than one or two hours.\nManufacturers of garage door openers have developed solutions currently available - including battery backups and wireless signals - that permit garage doors to be opened during a loss of electricity to a home. The Association indicates that very few, if any, fail-safe units are commonly used.\nAdding that equipment would increase the cost of an open-and-shut decision.\nLast year, there was some scepticism among manufacturers when the new law was proposed. The Association said the new requirements",
+  "z0": 4.525483399593904,
+  "seconds": 217.8
+ }
+}

@@ -1,0 +1,362 @@
+{
+ "sample_id": "sta16_len200:118",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.5374841168996188,
+ "needed_share": 0.8035814496704035,
+ "delta_needed": 0.17822859650264467,
+ "segmentation": {
+  "chars": 787,
+  "segments": 4,
+  "eligible": 2,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 423,
+  "eligible_char_share": 0.5374841168996188
+ },
+ "attack": {
+  "z0": 10.182337649086284,
+  "z_final": 5.488060848896277,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 5,
+  "queries": 229,
+  "seconds": 518.0,
+  "seconds_by_phase": {
+   "generate": 492.7,
+   "gates": 25.2,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 280,
+    "z_before": 10.182337649086284,
+    "z_after": 7.281456436945651,
+    "accepted": true,
+    "survivors": 26,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 48,
+     "after_content": 26,
+     "after_semantic": 26,
+     "fluency_skipped": false,
+     "after_fluency": 26,
+     "rejected": {
+      "CJK text": 8,
+      "unknown word": 4,
+      "negation count changed": 22
+     }
+    },
+    "queries_total": 27,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 59.57
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 143,
+    "z_before": 7.281456436945651,
+    "z_after": 6.161232369723243,
+    "accepted": true,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 20,
+     "after_spelling": 19,
+     "after_content": 19,
+     "after_semantic": 19,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "duplicate": 40,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 46,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.41
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 280,
+    "z_before": 6.161232369723243,
+    "z_after": 6.495401750657077,
+    "accepted": false,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 52,
+     "after_content": 33,
+     "after_semantic": 33,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "CJK text": 4,
+      "several lines": 1,
+      "unknown word": 3,
+      "negation count changed": 19
+     }
+    },
+    "queries_total": 79,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 55.54
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 143,
+    "z_before": 6.161232369723243,
+    "z_after": 6.106202935189289,
+    "accepted": true,
+    "survivors": 30,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 31,
+     "after_spelling": 31,
+     "after_content": 31,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 30,
+     "rejected": {
+      "duplicate": 28,
+      "CJK text": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 97,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.41
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 280,
+    "z_before": 6.106202935189289,
+    "z_after": 6.861372411737247,
+    "accepted": false,
+    "survivors": 26,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 54,
+     "after_content": 26,
+     "after_semantic": 26,
+     "fluency_skipped": false,
+     "after_fluency": 26,
+     "rejected": {
+      "CJK text": 3,
+      "several lines": 2,
+      "unknown word": 1,
+      "negation count changed": 28
+     }
+    },
+    "queries_total": 123,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 59.75
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 143,
+    "z_before": 6.106202935189289,
+    "z_after": 5.628780357842335,
+    "accepted": true,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 29,
+     "after_spelling": 28,
+     "after_content": 28,
+     "after_semantic": 28,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "duplicate": 30,
+      "CJK text": 1,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 140,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.35
+   },
+   {
+    "pass": 4,
+    "segment": 2,
+    "chars": 280,
+    "z_before": 5.628780357842335,
+    "z_after": 5.943753454527293,
+    "accepted": false,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 50,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "CJK text": 7,
+      "several lines": 2,
+      "unknown word": 1,
+      "negation count changed": 18
+     }
+    },
+    "queries_total": 172,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 65.56
+   },
+   {
+    "pass": 4,
+    "segment": 1,
+    "chars": 143,
+    "z_before": 5.628780357842335,
+    "z_after": 5.488060848896277,
+    "accepted": true,
+    "survivors": 30,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 30,
+     "rejected": {
+      "duplicate": 30
+     }
+    },
+    "queries_total": 190,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.35
+   },
+   {
+    "pass": 5,
+    "segment": 2,
+    "chars": 280,
+    "z_before": 5.488060848896277,
+    "z_after": 5.887256900665452,
+    "accepted": false,
+    "survivors": 30,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 49,
+     "after_content": 30,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 30,
+     "rejected": {
+      "CJK text": 6,
+      "several lines": 3,
+      "unknown word": 2,
+      "negation count changed": 19
+     }
+    },
+    "queries_total": 220,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 65.39
+   },
+   {
+    "pass": 5,
+    "segment": 1,
+    "chars": 143,
+    "z_before": 5.488060848896277,
+    "z_after": 6.021204361320442,
+    "accepted": false,
+    "survivors": 30,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 30,
+     "rejected": {
+      "duplicate": 30
+     }
+    },
+    "queries_total": 229,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.41
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "Lopez built up a career on coaching defenses and second team clubs, but never advanced to the top division or to a coaching position with an established team in a Central American league system that is seen by top European leagues as only slightly better than Major League Soccer.",
+    "rewrite": "Lopez established himself through defensive coaching and work with second-tier teams, yet he never reached the highest division or secured a coaching role with a notable Central American team, competing in a league perceived as just above the level of Major League Soccer by top European leagues."
+   },
+   "1": {
+    "original": "Before the day, Klinsmann said Honduras had a coach (Celestino Lopez) who had more head coaching experience (seven caps) than him (three caps).",
+    "rewrite": "Before the game, Klinsmann noted that Honduras's coach, Celestino Lopez, had more managerial experience ( seven caps ) than his own ( three caps )."
+   }
+  },
+  "final_span": "the tying goal, Klinsmann\u2019s Colombian team had made their opponent\u2019s defense of the lead hold up. Before the game, Klinsmann noted that Honduras's coach, Celestino Lopez, had more managerial experience ( seven caps ) than his own ( three caps ). Lopez established himself through defensive coaching and work with second-tier teams, yet he never reached the highest division or secured a coaching role with a notable Central American team, competing in a league perceived as just above the level of Major League Soccer by top European leagues.\nClearly, Lopez or Honduras coaches preferences don\u2019t matter in soccer, but the evidence of skill is in the final score of 2-1, not in Klinsmann\u2019s statement. three of the four games in Columbus saw the obvious starters, Michael Bradley and Clint Dempsey, on the ben",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 2,
+   "segments": 4,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 50.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 203,
+   "length_change": 2,
+   "pct_not_preserved": 24.378109452736318,
+   "pct_new": 25.12315270935961
+  },
+  "words": {
+   "original": 133,
+   "final": 133,
+   "length_change": 0,
+   "pct_not_preserved": 39.097744360902254,
+   "pct_new": 39.097744360902254
+  },
+  "characters": {
+   "original": 787,
+   "final": 807,
+   "length_change": 20,
+   "pct_not_preserved": 19.44091486658196,
+   "pct_new": 21.437422552664188
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 172,
+   "green_after": 140,
+   "pairs_before": 200,
+   "pairs_after": 202,
+   "pairs_changed_before": 74,
+   "pairs_changed_after": 76,
+   "green_fraction_of_new_pairs": 0.4473684210526316,
+   "delta_achieved": 0.05263157894736842
+  }
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:345",
+ "nobox": {
+  "z_final": 2.82842712474619,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Coming to Chinese audiences just in time for China's biggest online entertainment phenomenon, which is the Lunar New Year holiday, debuting first amongst Chinese audiences especially at the small screen is well-known Dutch and Portuguese series Onda Nova...",
+    "rewrite": "Arriving at Chinese audiences precisely in time for China's biggest online entertainment event during the Lunar New Year holiday, the debut amongst Chinese viewers, particularly on smaller screens, features the well-known Dutch and Portuguese series Onda Nova..."
+   },
+   "4": {
+    "original": "Plot focus, named character Sangok, is Chinese warlord Hong Kong Sang-Ook, a hot-tempered but honourable warrior-king who wants to found an empire.",
+    "rewrite": "The plot focuses on named character Sangok, who is Chinese warlord Hong Kong Sang-Ook, a hot-tempered yet honourable warrior-king seeking to establish an empire."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 53,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "and Ripper Street to the Qiaobiyun Youku Overseas Online Platform \u2013 with both going live yesterday on the platform as Season 1 whilst simultaneously going live on overseas platform Youku Entertainment.\nAnother of Endemol's programmes, Peaky Blinders goes live on the platform\nArriving at Chinese audiences precisely in time for China's biggest online entertainment event during the Lunar New Year holiday, the debut amongst Chinese viewers, particularly on smaller screens, features the well-known Dutch and Portuguese series Onda Nova... Hong Sang-Ook.\nThe plot focuses on named character Sangok, who is Chinese warlord Hong Kong Sang-Ook, a hot-tempered yet honourable warrior-king seeking to establish an empire. When he is framed for losing a city to the Northern barbarians, King Sang-Ook bears the bl",
+  "z0": 4.1012193308819755,
+  "seconds": 110.5
+ }
+}

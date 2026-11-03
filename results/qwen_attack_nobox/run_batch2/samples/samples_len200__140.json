@@ -1,0 +1,26 @@
+{
+ "sample_id": "samples_len200:140",
+ "nobox": {
+  "z_final": 5.374011537017761,
+  "status": "not broken",
+  "rewrites": {},
+  "sentences_rewritten": 0,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 9,
+    "survivors": 0,
+    "rewritten": false
+   }
+  ],
+  "queries": 1,
+  "final_span": "Mayor, we have got to discuss it,\" Crs Light and Maddern said.\n\"You moved a motion before the whole room. You didn't second this motion. I don't know what you were asking. I don't know what it's about, I don't know.\"\nCr Loft couldn't garner a second for his motion because councillors said the meeting was not confidential and according to council rules, a mayor can't address the floor about a council matter if they don't second the motion.\n\"Disappointed? No. That's how elected representatives should act and debate in a meeting,\" Desmond said after council meeting.\n\"Councillors know what they were asked to do.\"\nDavid Hudson, Mayor ofToowoomba Regional Council, had left council to speak to Cr Loft privatelater in the lockup.\n\"The part I'm really",
+  "z0": 5.374011537017761,
+  "seconds": 74.1
+ }
+}

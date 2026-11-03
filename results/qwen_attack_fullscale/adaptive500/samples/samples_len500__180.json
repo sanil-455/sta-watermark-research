@@ -1,0 +1,502 @@
+{
+ "sample_id": "samples_len500:180",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.9019073569482289,
+ "needed_share": 0.7569491328804576,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2202,
+  "segments": 19,
+  "eligible": 17,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1986,
+  "eligible_char_share": 0.9019073569482289
+ },
+ "attack": {
+  "z0": 8.228730157199225,
+  "z_final": 1.520526224699857,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 437,
+  "seconds": 405.6,
+  "seconds_by_phase": {
+   "generate": 372.5,
+   "gates": 32.8,
+   "detector": 0.3
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 213,
+    "z_before": 8.228730157199225,
+    "z_after": 7.401261516268233,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "duplicate": 3,
+      "CJK text": 1,
+      "unknown word": 3,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 52,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.02
+   },
+   {
+    "pass": 1,
+    "segment": 14,
+    "chars": 170,
+    "z_before": 7.401261516268233,
+    "z_after": 6.71062250175457,
+    "accepted": true,
+    "survivors": 3,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 42,
+     "after_content": 3,
+     "after_semantic": 3,
+     "fluency_skipped": false,
+     "after_fluency": 3,
+     "rejected": {
+      "duplicate": 1,
+      "CJK text": 9,
+      "unknown word": 8,
+      "negation count changed": 39
+     }
+    },
+    "queries_total": 55,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.41
+   },
+   {
+    "pass": 1,
+    "segment": 16,
+    "chars": 169,
+    "z_before": 6.71062250175457,
+    "z_after": 5.758992264522848,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "duplicate": 3,
+      "CJK text": 1,
+      "unknown word": 5,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 103,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.02
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 165,
+    "z_before": 5.758992264522848,
+    "z_after": 4.9991885751325995,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 3,
+      "duplicate": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 154,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.84
+   },
+   {
+    "pass": 1,
+    "segment": 15,
+    "chars": 143,
+    "z_before": 4.9991885751325995,
+    "z_after": 4.368660286377136,
+    "accepted": true,
+    "survivors": 56,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 56,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 1,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 210,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.7
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 125,
+    "z_before": 4.368660286377136,
+    "z_after": 3.902483344941432,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "duplicate": 2,
+      "meaning too different": 9,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 257,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.53
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 111,
+    "z_before": 3.902483344941432,
+    "z_after": 3.440106297387531,
+    "accepted": true,
+    "survivors": 16,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 16,
+     "after_spelling": 16,
+     "after_content": 16,
+     "after_semantic": 16,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "duplicate": 43,
+      "CJK text": 1
+     }
+    },
+    "queries_total": 273,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 31.96
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 105,
+    "z_before": 3.440106297387531,
+    "z_after": 3.1657335306807397,
+    "accepted": true,
+    "survivors": 12,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 46,
+     "after_spelling": 45,
+     "after_content": 12,
+     "after_semantic": 12,
+     "fluency_skipped": false,
+     "after_fluency": 12,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 10,
+      "unknown word": 1,
+      "negation count changed": 33
+     }
+    },
+    "queries_total": 285,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.17
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 97,
+    "z_before": 3.1657335306807397,
+    "z_after": 2.9457241616711816,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "CJK text": 6,
+      "duplicate": 7,
+      "unknown word": 3,
+      "meaning too different": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 326,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.67
+   },
+   {
+    "pass": 1,
+    "segment": 13,
+    "chars": 95,
+    "z_before": 2.9457241616711816,
+    "z_after": 2.767195424600201,
+    "accepted": true,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 40,
+     "after_spelling": 37,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "duplicate": 19,
+      "CJK text": 1,
+      "unknown word": 3,
+      "negation count changed": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 361,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.2
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 94,
+    "z_before": 2.767195424600201,
+    "z_after": 2.778286432678969,
+    "accepted": false,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 52,
+     "after_content": 23,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 6,
+      "unknown word": 1,
+      "negation count changed": 29,
+      "meaning too different": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 380,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.99
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 91,
+    "z_before": 2.767195424600201,
+    "z_after": 2.2316092133872587,
+    "accepted": true,
+    "survivors": 22,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 49,
+     "after_content": 25,
+     "after_semantic": 25,
+     "fluency_skipped": false,
+     "after_fluency": 22,
+     "rejected": {
+      "duplicate": 8,
+      "several lines": 1,
+      "unknown word": 2,
+      "negation count changed": 24,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 402,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.22
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 86,
+    "z_before": 2.2316092133872587,
+    "z_after": 1.520526224699857,
+    "accepted": true,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 38,
+     "after_spelling": 38,
+     "after_content": 38,
+     "after_semantic": 38,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "CJK text": 6,
+      "duplicate": 16,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 437,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.75
+   }
+  ],
+  "rewrites": {
+   "4": {
+    "original": "Manufacturers of garage door openers have engineered solutions available now - such as battery backups and wireless signals - that would allow garage doors to be opened even with the loss of electricity to a home.",
+    "rewrite": "Manufacturers of garage door openers have designed solutions that are currently available - including battery backups and wireless signals - to enable garage doors to be opened in case of lost electricity at home."
+   },
+   "14": {
+    "original": "Power outages can continue for more than 24 hours, affecting homes within the immediate vicinity, and many homes cannot run on alternative power supplies for this period.",
+    "rewrite": "Power outages may last over 24 hours, impacting homes nearby, and numerous homes do not have viable alternative power sources during this time."
+   },
+   "16": {
+    "original": "Power requirements for garage doors have evolved dramatically since the days when installers needed little more than a one-inch wire inserted into the garage door track.",
+    "rewrite": "Since the past, the power needs of garage doors have changed significantly, requiring much more than the mere insertion of a one-inch wire into the track during installation."
+   },
+   "1": {
+    "original": "It says it also found cases of homeowners climbing into attic garages through crawl spaces to throw totes filled with their loved ones' belongings out over a ladder.",
+    "rewrite": "It mentioned finding instances where homeowners accessed their attic garages via crawl spaces to dispose of totes containing their loved ones' possessions by passing them over a ladder."
+   },
+   "15": {
+    "original": "Jay Reed, owner of Hanson Brothers Inc, estimates the cost of retrofitting 100 garage doors with backup batteries could be as much as $133,000.",
+    "rewrite": "Jay Reed, the owner of Hanson Brothers Inc, forecasts that the cost for fitting backup batteries in 100 garage doors might reach up to $133,000."
+   },
+   "12": {
+    "original": "The California law was passed with the expectation that everyone will always have power within a street or two of their home.",
+    "rewrite": "The California law was enacted with the expectation that there would be power available within a street or two from everyone's residence."
+   },
+   "8": {
+    "original": "The Association said the new requirements could add $150 to $1,000 or more to the cost of installing an opener.",
+    "rewrite": "The Association noted that the new requirements might increase the cost of installing an opener by $150 to as much as $1,000 or more."
+   },
+   "3": {
+    "original": "Some manufacturers told the press their products' batteries typically last no more than one or two hours.",
+    "rewrite": "Some manufacturers told the press that their products' batteries usually last for no more than one to two hours."
+   },
+   "2": {
+    "original": "The problem could be worse when it comes to battery-only openers, which operate on limited power.",
+    "rewrite": "The issue might be more severe for battery-only openers, which rely on restricted power resources."
+   },
+   "13": {
+    "original": "However, an emergency can happen in a neighborhood nearby - not just the one across the street.",
+    "rewrite": "However, an emergency can occur in a nearby neighborhood \u2014 not just in the one next door."
+   },
+   "9": {
+    "original": "Besides the higher price, there will be insufficient access to replace a battery if needed.",
+    "rewrite": "In addition to the higher cost, access for replacing the battery when needed will be inadequate."
+   },
+   "7": {
+    "original": "There was some scepticism among manufacturers last year when the new law was proposed.",
+    "rewrite": "Last year, manufacturers expressed some scepticism regarding the proposed new law."
+   }
+  },
+  "final_span": "do so. It mentioned finding instances where homeowners accessed their attic garages via crawl spaces to dispose of totes containing their loved ones' possessions by passing them over a ladder.\nThe issue might be more severe for battery-only openers, which rely on restricted power resources. Some manufacturers told the press that their products' batteries usually last for no more than one to two hours.\nManufacturers of garage door openers have designed solutions that are currently available - including battery backups and wireless signals - to enable garage doors to be opened in case of lost electricity at home. The Association says, however, that few, if any fail-safe units are in common use.\nThe requirement to add such equipment would add cost to an open-and-shut decision.\nLast year, manufacturers expressed some scepticism regarding the proposed new law. The Association noted that the new requirements might increase the cost of installing an opener by $150 to as much as $1,000 or more.\nIn addition to the higher cost, access for replacing the battery when needed will be inadequate. The obvious solution is to add an entire new generator system to a residence.\nHomeowners assume that if they are left in the dark, the power has gone out in their vicinity. The California law was enacted with the expectation that there would be power available within a street or two from everyone's residence.\nHowever, an emergency can occur in a nearby neighborhood \u2014 not just in the one next door. Power outages may last over 24 hours, impacting homes nearby, and numerous homes do not have viable alternative power sources during this time.\nJay Reed, the owner of Hanson Brothers Inc, forecasts that the cost for fitting backup batteries in 100 garage doors might reach up to $133,000.\nSince the past, the power needs of garage doors have changed significantly, requiring much more than the mere insertion of a one-inch wire into the track during installation. At any rate, the cost of products for residential applications is relatively low.\nBackup generators cost less than $1,000 but the environmental impact of keeping one running continuously during an emergency will be a concern to everyone living surrounding homes if they need",
+  "break_point": {
+   "step": 12,
+   "sentences_rewritten": 12,
+   "queries": 437
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 12,
+   "eligible": 17,
+   "segments": 19,
+   "pct_of_eligible": 70.58823529411765,
+   "pct_of_segments": 63.1578947368421
+  },
+  "tokens": {
+   "original": 501,
+   "final": 501,
+   "length_change": 0,
+   "pct_not_preserved": 28.742514970059887,
+   "pct_new": 28.742514970059887
+  },
+  "words": {
+   "original": 366,
+   "final": 366,
+   "length_change": 0,
+   "pct_not_preserved": 34.97267759562842,
+   "pct_new": 34.97267759562842
+  },
+  "characters": {
+   "original": 2202,
+   "final": 2238,
+   "length_change": 36,
+   "pct_not_preserved": 24.34150772025432,
+   "pct_new": 25.558534405719392
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 342,
+   "green_after": 267,
+   "pairs_before": 500,
+   "pairs_after": 500,
+   "pairs_changed_before": 205,
+   "pairs_changed_after": 205,
+   "green_fraction_of_new_pairs": 0.35121951219512193,
+   "delta_achieved": 0.14878048780487807
+  }
+ }
+}

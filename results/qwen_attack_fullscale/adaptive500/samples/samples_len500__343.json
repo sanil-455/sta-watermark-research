@@ -1,0 +1,341 @@
+{
+ "sample_id": "samples_len500:343",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 495,
+ "eligible_share": 0.8848700967906266,
+ "needed_share": 0.7367030122924616,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 1963,
+  "segments": 17,
+  "eligible": 14,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "no final punctuation": 1,
+   "quotation": 1
+  },
+  "eligible_chars": 1737,
+  "eligible_char_share": 0.8848700967906266
+ },
+ "attack": {
+  "z0": 7.595985117085861,
+  "z_final": 1.7953312467938292,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 265,
+  "seconds": 287.5,
+  "seconds_by_phase": {
+   "generate": 267.3,
+   "gates": 20.0,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 211,
+    "z_before": 7.595985117085861,
+    "z_after": 7.0175651263366134,
+    "accepted": true,
+    "survivors": 7,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 50,
+     "after_content": 10,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 7,
+     "rejected": {
+      "CJK text": 5,
+      "duplicate": 2,
+      "unknown word": 3,
+      "negation count changed": 40,
+      "meaning too different": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 8,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.36
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 210,
+    "z_before": 7.0175651263366134,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 59,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "unknown word": 1,
+      "negation count changed": 59
+     }
+    },
+    "queries_total": 8,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.62
+   },
+   {
+    "pass": 1,
+    "segment": 16,
+    "chars": 198,
+    "z_before": 7.0175651263366134,
+    "z_after": 5.821830410407779,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 53,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 4,
+      "negation count changed": 3,
+      "meaning too different": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 58,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 50.17
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 155,
+    "z_before": 5.821830410407779,
+    "z_after": 4.424591111909912,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 2,
+      "meaning too different": 12,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 100,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.44
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 151,
+    "z_before": 4.424591111909912,
+    "z_after": 4.136180769827541,
+    "accepted": true,
+    "survivors": 24,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 25,
+     "after_spelling": 24,
+     "after_content": 24,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 24,
+     "rejected": {
+      "duplicate": 34,
+      "CJK text": 1,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 124,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 31.26
+   },
+   {
+    "pass": 1,
+    "segment": 14,
+    "chars": 151,
+    "z_before": 4.136180769827541,
+    "z_after": 3.256694736394648,
+    "accepted": true,
+    "survivors": 56,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 56,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 180,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.41
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 121,
+    "z_before": 3.256694736394648,
+    "z_after": 2.9470156992674243,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 3,
+      "unknown word": 1,
+      "negation count changed": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 230,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.63
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 118,
+    "z_before": 2.9470156992674243,
+    "z_after": 1.7953312467938292,
+    "accepted": true,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 38,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "duplicate": 4,
+      "unknown word": 5,
+      "meaning too different": 13,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 265,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.45
+   }
+  ],
+  "rewrites": {
+   "10": {
+    "original": "It may be that the obvious tragedy of the uninsured is something less dramatic than an arbitrary endpoint like death.erno podr\u00e1s recuperar el dinero de su regalo, ver acciones de fraude, pagos por idiota, etc...",
+    "rewrite": "The obvious tragedy of the uninsured might be less sensational than a tragic endpoint like death."
+   },
+   "16": {
+    "original": "I would put the death rate for the uninsured in a poor group somewhere at less than 1,000 in a year, but more something like 170,000 in a group that had already been in the care of Federal Medicaid.",
+    "rewrite": "The mortality rate for those uninsured and from a disadvantaged background could be estimated below 1,000 per annum, but ascended to around 170,000 for a population already covered by Federal Medicaid."
+   },
+   "3": {
+    "original": "I'll take that trade, for the same reason that I'd gladly let an alcoholic drink himself to death if he just stopped shooting up his liver in the meantime.",
+    "rewrite": "I'll accept that trade, just as I would readily allow an alcoholic to drink himself to death provided he ceased injecting substances harmful to his liver at the same time."
+   },
+   "2": {
+    "original": "It's a lot more likely that the uninsured are spending a higher portion of their health care budget on preventable services and over the counter drugs.",
+    "rewrite": "There is a much greater chance that the uninsured are allocating a larger segment of their health care spending to preventable services and over-the-counter drugs."
+   },
+   "14": {
+    "original": "Somewhere, there's someone living--as I'm doing--on a county and federal medical policy option that requires them to purchase prescriptions of Folicid.",
+    "rewrite": "Someplace, someone is residing--just as I am--utilizing a county or federal medical provision that mandates the acquisition of Folicid prescriptions."
+   },
+   "6": {
+    "original": "If people are choosing to avoid things like paying their rent, they're probably also avoiding preventative colonoscopies.",
+    "rewrite": "If individuals are skipping rent payments, they likely also are avoiding preventive colonoscopies."
+   },
+   "12": {
+    "original": "Inter\u79d1 in a conspiracy context, here the definition of \"the end\" means just that: it's the final result of an autlers.",
+    "rewrite": "In a conspiracy context, the term \"the end\" simply denotes the ultimate outcome of the event."
+   }
+  },
+  "final_span": "the direct cause of mortality. It could, to the contrary, be an external cause which ends up killing people. There is a much greater chance that the uninsured are allocating a larger segment of their health care spending to preventable services and over-the-counter drugs. I'll accept that trade, just as I would readily allow an alcoholic to drink himself to death provided he ceased injecting substances harmful to his liver at the same time.\nAnd so I'm going to go for another possibility here. To the extent that people avoid small costs, they are healthy and avoid big costs. If individuals are skipping rent payments, they likely also are avoiding preventive colonoscopies. This isn't the sort of cost-benefit tradeoff that affects a disproportionate number of the societies disadvantaged, if for no other reason than that incidence among the societies most disadvantaged is very low. I'm not sure it's irrelevant, though. Renal problems are increasingly common in this population, no doubt a result of less preventative care. The obvious tragedy of the uninsured might be less sensational than a tragic endpoint like death.\nSuscripciones (Zolmarkt)\nIn a conspiracy context, the term \"the end\" simply denotes the ultimate outcome of the event.\nNo doubt the poor are doing the next best thing--to reduce their costs. Someplace, someone is residing--just as I am--utilizing a county or federal medical provision that mandates the acquisition of Folicid prescriptions. And I've done the calculations because I've been wondering \"since that's a federal program, somebody's been spending real money I didn't have to put it on\".\nThe mortality rate for those uninsured and from a disadvantaged background could be estimated below 1,000 per annum, but ascended to around 170,000 for a population already covered by Federal Medicaid.",
+  "break_point": {
+   "step": 7,
+   "sentences_rewritten": 7,
+   "queries": 265
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 7,
+   "eligible": 14,
+   "segments": 17,
+   "pct_of_eligible": 50.0,
+   "pct_of_segments": 41.1764705882353
+  },
+  "tokens": {
+   "original": 496,
+   "final": 449,
+   "length_change": -47,
+   "pct_not_preserved": 30.645161290322577,
+   "pct_new": 23.385300668151444
+  },
+  "words": {
+   "original": 327,
+   "final": 290,
+   "length_change": -37,
+   "pct_not_preserved": 37.61467889908256,
+   "pct_new": 29.655172413793107
+  },
+  "characters": {
+   "original": 1963,
+   "final": 1830,
+   "length_change": -133,
+   "pct_not_preserved": 23.942944472745797,
+   "pct_new": 18.415300546448087
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 332,
+   "green_after": 243,
+   "pairs_before": 495,
+   "pairs_after": 448,
+   "pairs_changed_before": 202,
+   "pairs_changed_after": 155,
+   "green_fraction_of_new_pairs": 0.34838709677419355,
+   "delta_achieved": 0.15161290322580645
+  }
+ }
+}

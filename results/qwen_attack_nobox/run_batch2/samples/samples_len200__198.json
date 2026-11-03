@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:198",
+ "nobox": {
+  "z_final": 4.207762250638067,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "USA, Israel and Brazil debutants claimed the individual all-around titles at the International Gymnastics Federation (FIG) Junior Artistic Gymnastics World Cup qualification as they powered to the top in Quer\u00e9taro yesterday.",
+    "rewrite": "Debuting USA, Israel, and Brazil claimed the individual all-around titles at the FIG Junior Artistic Gymnastics World Cup qualification in Quer\u00e9taro yesterday, dominating the top positions."
+   },
+   "1": {
+    "original": "Israel\u2019s most successful gymnast, Linoy Ashram, is approaching peak physical condition after a year of injury problems as she prepares to make her comeback over the next few weeks in major meetings.",
+    "rewrite": "Israel\u2019s most successful gymnast, Linoy Ashram, is nearing peak physical condition following a year of injury issues as she sets to return to competition in major events over the next few weeks."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 41,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "gold medals as she showed top form in front of the home crowd in their Sara Herzog Gymnastics Center in Ramat Gan at the International Gymnastics Federation (FIG) Junior Artistic Gymnastics World Cup.\nIsrael\u2019s most successful gymnast, Linoy Ashram, is nearing peak physical condition following a year of injury issues as she sets to return to competition in major events over the next few weeks.\nDebuting USA, Israel, and Brazil claimed the individual all-around titles at the FIG Junior Artistic Gymnastics World Cup qualification in Quer\u00e9taro yesterday, dominating the top positions.\nAzerbaijan\u2019s Iryna Shymanivska had the biggest rise from qualification to an all-around title in the history of the International Gymnastics Federation (FIG), winning the final in Quer\u00e9taro for the",
+  "z0": 4.384062043356595,
+  "seconds": 105.3
+ }
+}

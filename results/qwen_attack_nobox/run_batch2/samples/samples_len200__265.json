@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:265",
+ "nobox": {
+  "z_final": 3.508962882793221,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "However, votes in one large Florida county are being repeatedly excluded according to the Associated Press.",
+    "rewrite": "According to the Associated Press, votes in one large Florida county are being repeatedly excluded."
+   },
+   "3": {
+    "original": "Gillum reportedly won the Democratic primary according to unofficial results by about 3 percent.",
+    "rewrite": "According to unofficial results, Gillum is said to have won the Democratic primary by about 3 percent."
+   },
+   "8": {
+    "original": "Trump's tweet seems to be alluding to an ad purchased on behalf of Loeffler.",
+    "rewrite": "Trump's tweet appears to refer to an ad bought for Loeffler."
+   },
+   "5": {
+    "original": "The small county is home to a lot of Democrats.",
+    "rewrite": "The small county has a large number of Democrats."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 38,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 38,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 3,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 17,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Andrew Gillum, the failed Socialist Mayor of Tallahassee, SHOCKINGLY win the Democrat nomination for Governor of Florida, but his win was so big that the Fake News said he actually won by 7%!\" Trump tweeted. \"His opponent for the General Election won by a lot less!\"\nAccording to unofficial results, Gillum is said to have won the Democratic primary by about 3 percent. According to the Associated Press, votes in one large Florida county are being repeatedly excluded. The small county has a large number of Democrats.\n\"RIGGED! Loeffler paid her partner who then bought named companies to spend money against fail candidate BRYAN GRIFFIN to help Loeffler during the primary\u2014total rigging,\" Trump tweeted.\nTrump's tweet appears to refer to an ad bought for Loeffler. The ad",
+  "z0": 6.222539674441618,
+  "seconds": 90.5
+ }
+}

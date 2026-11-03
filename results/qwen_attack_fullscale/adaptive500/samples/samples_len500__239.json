@@ -1,0 +1,443 @@
+{
+ "sample_id": "samples_len500:239",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.7501251877816725,
+ "needed_share": 0.7967210929545645,
+ "delta_needed": 0.013665851120599742,
+ "segmentation": {
+  "chars": 1997,
+  "segments": 19,
+  "eligible": 14,
+  "skipped": 5,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "does not start like a sentence": 1,
+   "quotation": 1,
+   "too short": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1498,
+  "eligible_char_share": 0.7501251877816725
+ },
+ "attack": {
+  "z0": 9.838699100999074,
+  "z_final": 1.9752807658776619,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 359,
+  "seconds": 386.9,
+  "seconds_by_phase": {
+   "generate": 359.2,
+   "gates": 27.5,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 17,
+    "chars": 218,
+    "z_before": 9.838699100999074,
+    "z_after": 8.641446821835055,
+    "accepted": true,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 11,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 1,
+      "negation count changed": 46
+     }
+    },
+    "queries_total": 12,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.68
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 203,
+    "z_before": 8.641446821835055,
+    "z_after": 7.084919084320763,
+    "accepted": true,
+    "survivors": 14,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 52,
+     "after_content": 16,
+     "after_semantic": 16,
+     "fluency_skipped": false,
+     "after_fluency": 14,
+     "rejected": {
+      "CJK text": 6,
+      "several lines": 1,
+      "unknown word": 1,
+      "negation count changed": 36,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 26,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 58.28
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 160,
+    "z_before": 7.084919084320763,
+    "z_after": 6.263351497755479,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "CJK text": 1,
+      "meaning too different": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 81,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.59
+   },
+   {
+    "pass": 1,
+    "segment": 15,
+    "chars": 146,
+    "z_before": 6.263351497755479,
+    "z_after": 6.125071824425322,
+    "accepted": true,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 1,
+      "unknown word": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 135,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.11
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 125,
+    "z_before": 6.125071824425322,
+    "z_after": 5.243766525946858,
+    "accepted": true,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 60,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "numbers changed": 24,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 168,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.75
+   },
+   {
+    "pass": 1,
+    "segment": 16,
+    "chars": 122,
+    "z_before": 5.243766525946858,
+    "z_after": 4.362461227468395,
+    "accepted": true,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 56,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 3,
+      "negation count changed": 14,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 206,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.7
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 95,
+    "z_before": 4.362461227468395,
+    "z_after": 3.833678048381316,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 2,
+      "perplexity too high": 10
+     }
+    },
+    "queries_total": 253,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.69
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 87,
+    "z_before": 3.833678048381316,
+    "z_after": 3.1757838580168625,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "duplicate": 3,
+      "CJK text": 2,
+      "several lines": 1,
+      "meaning too different": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 302,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.92
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 75,
+    "z_before": 3.1757838580168625,
+    "z_after": 2.5533076283443092,
+    "accepted": true,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 48,
+     "after_semantic": 28,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 1,
+      "preamble": 1,
+      "negation count changed": 7,
+      "meaning too different": 20,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 325,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.96
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 71,
+    "z_before": 2.5533076283443092,
+    "z_after": 2.3219721579931147,
+    "accepted": true,
+    "survivors": 26,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 28,
+     "after_spelling": 28,
+     "after_content": 28,
+     "after_semantic": 28,
+     "fluency_skipped": false,
+     "after_fluency": 26,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 31,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 351,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.64
+   },
+   {
+    "pass": 1,
+    "segment": 14,
+    "chars": 58,
+    "z_before": 2.3219721579931147,
+    "z_after": 1.9752807658776619,
+    "accepted": true,
+    "survivors": 8,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 43,
+     "after_spelling": 43,
+     "after_content": 36,
+     "after_semantic": 10,
+     "fluency_skipped": false,
+     "after_fluency": 8,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 14,
+      "negation count changed": 7,
+      "meaning too different": 26,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 359,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 20.85
+   }
+  ],
+  "rewrites": {
+   "17": {
+    "original": "I currently living in Ireland and follow the Irish soccer, rugby and Gaelic games closely and don't know what bit, but my visceral reaction is something like I'm staggering around throwing punches at anything in sight.",
+    "rewrite": "Currently residing in Ireland, I keep a close eye on Irish soccer, rugby, and Gaelic games, and though I can't pinpoint the exact reason, my gut reaction is akin to stumbling around and throwing punches at everything."
+   },
+   "2": {
+    "original": "He did well Martin, pretty good article and no biased, I'm not saying you couldn't see the biased however I came here because I'm a United fan, because I wanted to read a biased story, not slate Chelsea.",
+    "rewrite": "He performed well, Martin, with a decent article and no bias evident. I'm not implying you can't notice any bias, but I sought your site as a Chelsea supporter, expecting a supportive take on the team, not an impartial view of Chelsea."
+   },
+   "9": {
+    "original": "To actually walk in at the half time break with the score 0-0 and seeing Liverpool fans scratching their heads with there is BETTER players than that of United.",
+    "rewrite": "To actually enter during the half-time interval with the score still 0-0, and to see Liverpool supporters puzzled about how United could have such inferior players compared to theirs."
+   },
+   "15": {
+    "original": "I watched football for 40 years from the time as a boy I saw Rangers play Blackpool and I experienced the crowded atmosphere in Reidfield grounds.",
+    "rewrite": "For 40 years, I've watched football since childhood, witnessing Rangers play against Blackpool and feeling the crowded atmosphere at Reidfield Stadium."
+   },
+   "10": {
+    "original": "Then with the Tevez debacle etc., honestly, we're winning playing like that in a 5 goal thriller with the better team on top?",
+    "rewrite": "After the Tevez incident, genuinely, can we be considered better in a 5-goal match by playing like this in a competitive thriller?"
+   },
+   "16": {
+    "original": "I cried for Rangers when they were relegated last year, but no worse pain than when I see the events at Manchester United.",
+    "rewrite": "I shed tears for Rangers during their relegation last year, yet nothing hurts more than seeing the current events at Manchester United."
+   },
+   "1": {
+    "original": "Watch all the goals as they went in LIVE on Sports Plus: FA CGU on NOW/Freeview/Sky and dsquad.",
+    "rewrite": "Observe every goal as it is scored LIVE on Sports Plus: FA CGU from NOW/Freeview/Sky and dsquad."
+   },
+   "5": {
+    "original": "For 45 minutes Liverpool dominated, they were the better side and we were on the ropes.",
+    "rewrite": "For 45 minutes, Liverpool dominated the match and appeared the superior side, leaving us struggling."
+   },
+   "4": {
+    "original": "And, forgive my ignorance, but have these lads not had a night to remember?",
+    "rewrite": "And pardon my lack of knowledge, but haven't these gentlemen had an unforgettable night?"
+   },
+   "6": {
+    "original": "Torres, Kuyt and Robbie Keane were all looking dangerous for Liverpool.",
+    "rewrite": "Torres, Kuyt, and Robbie Keane all posed a threat to Liverpool's defense."
+   },
+   "14": {
+    "original": "Please help, I need to know if this all just a bad dream ?",
+    "rewrite": "Can you please clarify if this is all just a bad dream?"
+   }
+  },
+  "final_span": "to feel uncomfortable.\nObserve every goal as it is scored LIVE on Sports Plus: FA CGU from NOW/Freeview/Sky and dsquad.\nHe performed well, Martin, with a decent article and no bias evident. I'm not implying you can't notice any bias, but I sought your site as a Chelsea supporter, expecting a supportive take on the team, not an impartial view of Chelsea.\ngood article but on another subject i don't think fergie went on the defensive at all when asked about the t-shirts. my fault for not catching the presser.\nAnd pardon my lack of knowledge, but haven't these gentlemen had an unforgettable night? For 45 minutes, Liverpool dominated the match and appeared the superior side, leaving us struggling. Torres, Kuyt, and Robbie Keane all posed a threat to Liverpool's defense. Liverpool should have been 2 up before the half. It was not only a miracle that we got to half time without losing but a laughter in merriest for Liverpool fans no doubt - they were going to what must have been the \"best half of football their club had ever experienced versus United\". To actually enter during the half-time interval with the score still 0-0, and to see Liverpool supporters puzzled about how United could have such inferior players compared to theirs. After the Tevez incident, genuinely, can we be considered better in a 5-goal match by playing like this in a competitive thriller? Entirely possible? I think maybe they went on the beach!\nI am distraught, I have been losing sleep last night. Can you please clarify if this is all just a bad dream?\nFor 40 years, I've watched football since childhood, witnessing Rangers play against Blackpool and feeling the crowded atmosphere at Reidfield Stadium.\nI shed tears for Rangers during their relegation last year, yet nothing hurts more than seeing the current events at Manchester United.\nCurrently residing in Ireland, I keep a close eye on Irish soccer, rugby, and Gaelic games, and though I can't pinpoint the exact reason, my gut reaction is akin to stumbling around and throwing punches at everything.\nI think football clubs lives or dies on the morals",
+  "break_point": {
+   "step": 10,
+   "sentences_rewritten": 11,
+   "queries": 359
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 11,
+   "eligible": 14,
+   "segments": 19,
+   "pct_of_eligible": 78.57142857142857,
+   "pct_of_segments": 57.89473684210526
+  },
+  "tokens": {
+   "original": 501,
+   "final": 520,
+   "length_change": 19,
+   "pct_not_preserved": 34.331337325349295,
+   "pct_new": 36.73076923076923
+  },
+  "words": {
+   "original": 363,
+   "final": 358,
+   "length_change": -5,
+   "pct_not_preserved": 43.25068870523416,
+   "pct_new": 42.45810055865922
+  },
+  "characters": {
+   "original": 1997,
+   "final": 2100,
+   "length_change": 103,
+   "pct_not_preserved": 26.089133700550825,
+   "pct_new": 29.714285714285715
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 360,
+   "green_after": 282,
+   "pairs_before": 500,
+   "pairs_after": 519,
+   "pairs_changed_before": 238,
+   "pairs_changed_after": 257,
+   "green_fraction_of_new_pairs": 0.4163424124513619,
+   "delta_achieved": 0.08365758754863811
+  }
+ }
+}

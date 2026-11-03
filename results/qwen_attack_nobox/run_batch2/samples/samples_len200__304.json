@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:304",
+ "nobox": {
+  "z_final": 1.0,
+  "status": "broken",
+  "rewrites": {
+   "3": {
+    "original": "Xanamane and Cheng had heard in the past about a foreign-born person having to first obtain a birth certificate in order to get a marriage license, but had never known anyone to have actually faced the problem.",
+    "rewrite": "Xanamane and Cheng had learned before about a foreign-born individual needing to get a birth certificate first for a marriage license, but had never met someone who encountered this issue personally."
+   },
+   "5": {
+    "original": "So they had only their green card, both for the original marriage and for getting a marriage license.",
+    "rewrite": "So they only had their green card for both the original marriage and the marriage license."
+   },
+   "4": {
+    "original": "There is no place in the law for them to have obtained such a document before they sought it.",
+    "rewrite": "They had no avenue within the law through which to obtain such a document before their request."
+   },
+   "2": {
+    "original": "Most were sympathetic but said the couple needed birth certificates.",
+    "rewrite": "While most were sympathetic, they stated that the couple required birth certificates."
+   },
+   "6": {
+    "original": "They reached out to other refugees, who explained the predicament.",
+    "rewrite": "Other refugees were contacted by them, who then described their predicament."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 21,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "refugees, other immigrant families \u2014 anyone to let them know this was not just a problem anyone could fix, but a sign of the depth of the state\u2019s cruelty toward immigration.\n\u201cOur belief is we are victims of law discrimination,\u201d Xanamane says.\nWhile most were sympathetic, they stated that the couple required birth certificates.\nXanamane and Cheng had learned before about a foreign-born individual needing to get a birth certificate first for a marriage license, but had never met someone who encountered this issue personally. They had no avenue within the law through which to obtain such a document before their request.\nSo they only had their green card for both the original marriage and the marriage license.\nOther refugees were contacted by them, who then described their predicament. There are thousands of them in Baton Rouge, said Pat Xayachack, a",
+  "z0": 2.6870057685088806,
+  "seconds": 146.1
+ }
+}

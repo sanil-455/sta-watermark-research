@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:307",
+ "nobox": {
+  "z_final": 2.821940960640444,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "It looks like Mrs May\u2019s reputation is currently on the line and, given their penchant for foot-shooting over the past 2\u00bd years, it could all depend on whether they\u2019ve got sufficient sense to kick-out before the \u201ccliff-edge\u201d arrives!",
+    "rewrite": "It appears Mrs May\u2019s reputation is at stake, and considering their history of missteps over 2\u00bd years, it might hinge on whether they have the acumen to kick out before the \u201ccliff-edge\u201d occurs!"
+   },
+   "5": {
+    "original": "If it\u2019s me, you\u2019re correct, I don\u2019t like the Prime Minister personally, but agree with her strategy to date.",
+    "rewrite": "If it\u2019s me, you are right, I don't like the Prime Minister personally, but agree with her strategy to date."
+   },
+   "1": {
+    "original": "Keep everything crossed and let\u2019s hope cool sense prevails.",
+    "rewrite": "Keep fingers crossed and let's hope cooler sense prevails."
+   },
+   "6": {
+    "original": "She\u2019s responding to the wishes of MPs, both left and right.",
+    "rewrite": "She is aligning her response with the wishes of MPs from both the left and right."
+   },
+   "4": {
+    "original": "I\u2019m not sure if you\u2019re responding to me or YulB.",
+    "rewrite": "I\u2019m not certain if you\u2019re responding to me or YulB."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 2,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 7,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "\u201ccrash-out\u201d Brexit. Keep fingers crossed and let's hope cooler sense prevails. It appears Mrs May\u2019s reputation is at stake, and considering their history of missteps over 2\u00bd years, it might hinge on whether they have the acumen to kick out before the \u201ccliff-edge\u201d occurs!\nNick Baird 21st Mar '19 - 12:13pm\nI\u2019m not certain if you\u2019re responding to me or YulB.\nIf it\u2019s me, you are right, I don't like the Prime Minister personally, but agree with her strategy to date. She is aligning her response with the wishes of MPs from both the left and right. I simply hope she sees the wisdom of ending with a People\u2019s Vote, as she\u2019s part of the problem in not providing the",
+  "z0": 4.242640687119285,
+  "seconds": 153.7
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:117",
+ "nobox": {
+  "z_final": 5.0585405491415845,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "People who are dehydrated, have high heat, are in very cold conditions, particularly those people with hot-natured disorders, may need to pace themselves more carefully.",
+    "rewrite": "Individuals who are dehydrated, experience high heat, are in cold conditions, especially those with hot-natured disorders, might need to pace themselves more cautiously."
+   },
+   "1": {
+    "original": "Anyone who wants to start an exercise routine should do so cautiously and gradually, increasing activity as their bodies adjust to the stress.",
+    "rewrite": "Those looking to begin an exercise regimen should proceed with caution and gradually, boosting activity levels as their bodies adapt to the stress."
+   },
+   "5": {
+    "original": "Exercise should be especially vigilantly monitored when the tendency is to deplete oxygen supply and breathing can become compromised.",
+    "rewrite": "Exercise should be especially closely monitored when the tendency is to deplete oxygen supply and breathing can become compromised."
+   },
+   "2": {
+    "original": "Breathing is a key factor to any exercise plan that is safe and effective.",
+    "rewrite": "Breathing is crucial for any safe and effective exercise plan."
+   },
+   "4": {
+    "original": "The more oxygen they get, the better the results of their workout.",
+    "rewrite": "The greater the oxygen they receive, the better their workout results."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 25,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "workouts isn't a good idea. Those looking to begin an exercise regimen should proceed with caution and gradually, boosting activity levels as their bodies adapt to the stress.\nBreathing is crucial for any safe and effective exercise plan. For most people, it's a safe bet that more oxygen will be circulating in their bodies if they are breathing through their noses according to Breathing.com. The greater the oxygen they receive, the better their workout results.\nExercise should be especially closely monitored when the tendency is to deplete oxygen supply and breathing can become compromised. Individuals who are dehydrated, experience high heat, are in cold conditions, especially those with hot-natured disorders, might need to pace themselves more cautiously.\nNo one needs to suffer the limitations of epilepsy if part of the exercise is conditioning",
+  "z0": 5.939696961966999,
+  "seconds": 153.1
+ }
+}

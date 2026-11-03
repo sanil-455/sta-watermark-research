@@ -1,0 +1,1352 @@
+{
+ "sample_id": "samples_len500:269",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.5757271815446339,
+ "needed_share": 0.7646244234210748,
+ "delta_needed": 0.06233938071194111,
+ "segmentation": {
+  "chars": 1994,
+  "segments": 15,
+  "eligible": 7,
+  "skipped": 8,
+  "skip_reasons": {
+   "quotation": 6,
+   "no final punctuation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1148,
+  "eligible_char_share": 0.5757271815446339
+ },
+ "attack": {
+  "z0": 8.497058314499201,
+  "z_final": 1.902208007376378,
+  "status": "broken",
+  "reason": null,
+  "passes": 7,
+  "queries": 2196,
+  "seconds": 1987.9,
+  "seconds_by_phase": {
+   "generate": 1801.3,
+   "gates": 185.3,
+   "detector": 1.3
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 205,
+    "z_before": 8.497058314499201,
+    "z_after": 8.065992869067975,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 3
+     }
+    },
+    "queries_total": 56,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.07
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 192,
+    "z_before": 8.065992869067975,
+    "z_after": 7.065974808899335,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "several lines": 1,
+      "unknown word": 11,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 103,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.54
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 191,
+    "z_before": 7.065974808899335,
+    "z_after": 6.120708607040153,
+    "accepted": true,
+    "survivors": 56,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 56,
+     "rejected": {
+      "CJK text": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 159,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.63
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 180,
+    "z_before": 6.120708607040153,
+    "z_after": 5.117432834134825,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "CJK text": 4,
+      "several lines": 1,
+      "unknown word": 10
+     }
+    },
+    "queries_total": 204,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.22
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 151,
+    "z_before": 5.117432834134825,
+    "z_after": 4.422993810926826,
+    "accepted": true,
+    "survivors": 60,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 60,
+     "after_content": 60,
+     "after_semantic": 60,
+     "fluency_skipped": false,
+     "after_fluency": 60,
+     "rejected": {}
+    },
+    "queries_total": 264,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.21
+   },
+   {
+    "pass": 1,
+    "segment": 0,
+    "chars": 123,
+    "z_before": 4.422993810926826,
+    "z_after": 3.830744467411416,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "several lines": 1,
+      "duplicate": 10,
+      "unknown word": 5,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 306,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.15
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 106,
+    "z_before": 3.830744467411416,
+    "z_after": 3.4332603079213655,
+    "accepted": true,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 43,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "CJK text": 7,
+      "unknown word": 10,
+      "perplexity too high": 12
+     }
+    },
+    "queries_total": 337,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.18
+   },
+   {
+    "pass": 2,
+    "segment": 11,
+    "chars": 205,
+    "z_before": 3.4332603079213655,
+    "z_after": 3.6453446406899737,
+    "accepted": false,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "unknown word": 3
+     }
+    },
+    "queries_total": 394,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.18
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 192,
+    "z_before": 3.4332603079213655,
+    "z_after": 3.06439758262186,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 449,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.77
+   },
+   {
+    "pass": 2,
+    "segment": 10,
+    "chars": 191,
+    "z_before": 3.06439758262186,
+    "z_after": 3.052380290906281,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 1,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 500,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.38
+   },
+   {
+    "pass": 2,
+    "segment": 9,
+    "chars": 180,
+    "z_before": 3.052380290906281,
+    "z_after": 3.06439758262186,
+    "accepted": false,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 46,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 10,
+      "numbers changed": 4
+     }
+    },
+    "queries_total": 542,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.49
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 151,
+    "z_before": 3.052380290906281,
+    "z_after": 2.99935142146037,
+    "accepted": true,
+    "survivors": 58,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 58,
+     "rejected": {
+      "duplicate": 1,
+      "negation count changed": 1
+     }
+    },
+    "queries_total": 600,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.47
+   },
+   {
+    "pass": 2,
+    "segment": 0,
+    "chars": 123,
+    "z_before": 2.99935142146037,
+    "z_after": 3.1286338095985458,
+    "accepted": false,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 43,
+     "after_spelling": 43,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 16,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 642,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.51
+   },
+   {
+    "pass": 2,
+    "segment": 12,
+    "chars": 106,
+    "z_before": 2.99935142146037,
+    "z_after": 2.8119985610479796,
+    "accepted": true,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "CJK text": 6,
+      "unknown word": 7,
+      "glued punctuation": 1,
+      "perplexity too high": 13
+     }
+    },
+    "queries_total": 675,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.96
+   },
+   {
+    "pass": 3,
+    "segment": 11,
+    "chars": 205,
+    "z_before": 2.8119985610479796,
+    "z_after": 2.7547976575137443,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 730,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.06
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 192,
+    "z_before": 2.7547976575137443,
+    "z_after": 3.028763841012415,
+    "accepted": false,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 5,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 781,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 39.74
+   },
+   {
+    "pass": 3,
+    "segment": 10,
+    "chars": 191,
+    "z_before": 2.7547976575137443,
+    "z_after": 2.682776932514609,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 2,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 833,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.75
+   },
+   {
+    "pass": 3,
+    "segment": 9,
+    "chars": 180,
+    "z_before": 2.682776932514609,
+    "z_after": 2.6932157926989224,
+    "accepted": false,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "duplicate": 1,
+      "CJK text": 1,
+      "unknown word": 13,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 877,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 52.9
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 151,
+    "z_before": 2.682776932514609,
+    "z_after": 2.858696731368026,
+    "accepted": false,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 934,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.22
+   },
+   {
+    "pass": 3,
+    "segment": 0,
+    "chars": 123,
+    "z_before": 2.682776932514609,
+    "z_after": 2.4700541117908927,
+    "accepted": true,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 42,
+     "after_spelling": 37,
+     "after_content": 37,
+     "after_semantic": 37,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "several lines": 1,
+      "duplicate": 17,
+      "unknown word": 5,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 969,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.81
+   },
+   {
+    "pass": 3,
+    "segment": 12,
+    "chars": 106,
+    "z_before": 2.4700541117908927,
+    "z_after": 2.3864853865045976,
+    "accepted": true,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 40,
+     "after_content": 40,
+     "after_semantic": 40,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "CJK text": 6,
+      "duplicate": 3,
+      "unknown word": 11,
+      "perplexity too high": 9
+     }
+    },
+    "queries_total": 1000,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.06
+   },
+   {
+    "pass": 4,
+    "segment": 11,
+    "chars": 205,
+    "z_before": 2.3864853865045976,
+    "z_after": 2.578414501951445,
+    "accepted": false,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 1057,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.51
+   },
+   {
+    "pass": 4,
+    "segment": 3,
+    "chars": 192,
+    "z_before": 2.3864853865045976,
+    "z_after": 2.5733338773067302,
+    "accepted": false,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "CJK text": 6,
+      "unknown word": 8
+     }
+    },
+    "queries_total": 1103,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 39.86
+   },
+   {
+    "pass": 4,
+    "segment": 10,
+    "chars": 191,
+    "z_before": 2.3864853865045976,
+    "z_after": 2.3818378935126465,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 59,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "unknown word": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 1158,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.36
+   },
+   {
+    "pass": 4,
+    "segment": 9,
+    "chars": 180,
+    "z_before": 2.3818378935126465,
+    "z_after": 2.3864853865045976,
+    "accepted": false,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 50,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 6,
+      "numbers changed": 2
+     }
+    },
+    "queries_total": 1206,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 52.84
+   },
+   {
+    "pass": 4,
+    "segment": 2,
+    "chars": 151,
+    "z_before": 2.3818378935126465,
+    "z_after": 2.3864853865045976,
+    "accepted": false,
+    "survivors": 59,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 60,
+     "after_content": 60,
+     "after_semantic": 60,
+     "fluency_skipped": false,
+     "after_fluency": 59,
+     "rejected": {
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 1265,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.83
+   },
+   {
+    "pass": 4,
+    "segment": 0,
+    "chars": 123,
+    "z_before": 2.3818378935126465,
+    "z_after": 2.682776932514609,
+    "accepted": false,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "duplicate": 10,
+      "CJK text": 2,
+      "unknown word": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 1308,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.98
+   },
+   {
+    "pass": 4,
+    "segment": 12,
+    "chars": 106,
+    "z_before": 2.3818378935126465,
+    "z_after": 2.433056753620949,
+    "accepted": false,
+    "survivors": 30,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 30,
+     "rejected": {
+      "identical to original": 1,
+      "CJK text": 3,
+      "duplicate": 1,
+      "unknown word": 13,
+      "perplexity too high": 12
+     }
+    },
+    "queries_total": 1338,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.81
+   },
+   {
+    "pass": 5,
+    "segment": 11,
+    "chars": 205,
+    "z_before": 2.3818378935126465,
+    "z_after": 2.6413527189768713,
+    "accepted": false,
+    "survivors": 58,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 58,
+     "rejected": {
+      "unknown word": 2
+     }
+    },
+    "queries_total": 1396,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.47
+   },
+   {
+    "pass": 5,
+    "segment": 3,
+    "chars": 192,
+    "z_before": 2.3818378935126465,
+    "z_after": 2.615129022349824,
+    "accepted": false,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "several lines": 2,
+      "CJK text": 5,
+      "unknown word": 8
+     }
+    },
+    "queries_total": 1441,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.89
+   },
+   {
+    "pass": 5,
+    "segment": 10,
+    "chars": 191,
+    "z_before": 2.3818378935126465,
+    "z_after": 2.433056753620949,
+    "accepted": false,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 1,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 1493,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.58
+   },
+   {
+    "pass": 5,
+    "segment": 9,
+    "chars": 180,
+    "z_before": 2.3818378935126465,
+    "z_after": 2.516611478423583,
+    "accepted": false,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 41,
+     "after_content": 40,
+     "after_semantic": 40,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "several lines": 3,
+      "CJK text": 3,
+      "unknown word": 13,
+      "numbers changed": 1
+     }
+    },
+    "queries_total": 1533,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 59.46
+   },
+   {
+    "pass": 5,
+    "segment": 2,
+    "chars": 151,
+    "z_before": 2.3818378935126465,
+    "z_after": 2.3354590409679283,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "duplicate": 6,
+      "CJK text": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 1584,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.79
+   },
+   {
+    "pass": 5,
+    "segment": 0,
+    "chars": 123,
+    "z_before": 2.3354590409679283,
+    "z_after": 2.72412360601523,
+    "accepted": false,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 42,
+     "after_spelling": 40,
+     "after_content": 40,
+     "after_semantic": 40,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "duplicate": 14,
+      "CJK text": 2,
+      "several lines": 2,
+      "unknown word": 2,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 1620,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.07
+   },
+   {
+    "pass": 5,
+    "segment": 12,
+    "chars": 106,
+    "z_before": 2.3354590409679283,
+    "z_after": 2.3772174470791843,
+    "accepted": false,
+    "survivors": 37,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 37,
+     "rejected": {
+      "CJK text": 5,
+      "unknown word": 8,
+      "meaning too different": 2,
+      "perplexity too high": 8
+     }
+    },
+    "queries_total": 1657,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.87
+   },
+   {
+    "pass": 6,
+    "segment": 11,
+    "chars": 205,
+    "z_before": 2.3354590409679283,
+    "z_after": 2.5483736959497314,
+    "accepted": false,
+    "survivors": 56,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 56,
+     "rejected": {
+      "glued punctuation": 1,
+      "unknown word": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 1713,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.06
+   },
+   {
+    "pass": 6,
+    "segment": 3,
+    "chars": 192,
+    "z_before": 2.3354590409679283,
+    "z_after": 2.5632620818012346,
+    "accepted": false,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 6
+     }
+    },
+    "queries_total": 1763,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.57
+   },
+   {
+    "pass": 6,
+    "segment": 10,
+    "chars": 191,
+    "z_before": 2.3354590409679283,
+    "z_after": 2.163402849872905,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 1816,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.36
+   },
+   {
+    "pass": 6,
+    "segment": 9,
+    "chars": 180,
+    "z_before": 2.163402849872905,
+    "z_after": 2.176166399253205,
+    "accepted": false,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 50,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 7,
+      "numbers changed": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 1863,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.1
+   },
+   {
+    "pass": 6,
+    "segment": 2,
+    "chars": 151,
+    "z_before": 2.163402849872905,
+    "z_after": 2.256107171539425,
+    "accepted": false,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "duplicate": 1,
+      "CJK text": 2
+     }
+    },
+    "queries_total": 1920,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.4
+   },
+   {
+    "pass": 6,
+    "segment": 0,
+    "chars": 123,
+    "z_before": 2.163402849872905,
+    "z_after": 2.3772174470791843,
+    "accepted": false,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 46,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "duplicate": 14,
+      "unknown word": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 1963,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.28
+   },
+   {
+    "pass": 6,
+    "segment": 12,
+    "chars": 106,
+    "z_before": 2.163402849872905,
+    "z_after": 2.2011272658140597,
+    "accepted": false,
+    "survivors": 29,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 39,
+     "after_content": 39,
+     "after_semantic": 39,
+     "fluency_skipped": false,
+     "after_fluency": 29,
+     "rejected": {
+      "CJK text": 7,
+      "duplicate": 2,
+      "unknown word": 12,
+      "perplexity too high": 10
+     }
+    },
+    "queries_total": 1992,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.6
+   },
+   {
+    "pass": 7,
+    "segment": 11,
+    "chars": 205,
+    "z_before": 2.163402849872905,
+    "z_after": 2.260535256607475,
+    "accepted": false,
+    "survivors": 56,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 56,
+     "rejected": {
+      "unknown word": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 2048,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.69
+   },
+   {
+    "pass": 7,
+    "segment": 3,
+    "chars": 192,
+    "z_before": 2.163402849872905,
+    "z_after": 2.260535256607475,
+    "accepted": false,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 1,
+      "unknown word": 6
+     }
+    },
+    "queries_total": 2098,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.82
+   },
+   {
+    "pass": 7,
+    "segment": 10,
+    "chars": 191,
+    "z_before": 2.163402849872905,
+    "z_after": 2.256107171539425,
+    "accepted": false,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 3,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 2151,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.88
+   },
+   {
+    "pass": 7,
+    "segment": 9,
+    "chars": 180,
+    "z_before": 2.163402849872905,
+    "z_after": 1.902208007376378,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 47,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 10,
+      "numbers changed": 2
+     }
+    },
+    "queries_total": 2196,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 52.96
+   }
+  ],
+  "rewrites": {
+   "11": {
+    "original": "BP chief executive Tony Hayward revealed engineering and equipment failures wrought by the collapse of the Deepwater Horizon had cost the company $US525 million, just in taking action to contain the spill.",
+    "rewrite": "BP\u2019s chief executive, Tony Hayward, disclosed that engineering and equipment failures resulting from the Deepwater Horizon collapse had caused the company $525 million in expenses solely for spill containment measures."
+   },
+   "3": {
+    "original": "On Saturday BP chief Bob Dudley said tribesmen had helped engineers identify flowing fluids on the sea floor, which are probably from natural wells tapped by the Deepwater Horizon crash probe.",
+    "rewrite": "On Saturday, BP chief Bob Dudley stated that tribal members aided engineers in locating fluid discharges on the seabed, likely originating from naturally occurring wells related to the Deepwater Horizon accident investigation."
+   },
+   "10": {
+    "original": "Ships have arrived at the scene with the specially fabricated \"top hat\" and prepared to start the top kill, BP's chief operating officer Doug Suttles said in a conference call with reporters.",
+    "rewrite": "In a conference call with journalists, BP's chief operating officer Doug Suttles stated that ships carrying the specifically designed \"top hat\" had reached the site and were ready to initiate the top kill procedure."
+   },
+   "9": {
+    "original": "Dudley confirmed BP was proceeding with its much-criticised $US104 million ($128.4 million) \"top kill\" strategy, to lay an elongated plug over the sunken oil well on the sea floor.",
+    "rewrite": "Dudley acknowledged that BP was moving forward with its greatly debated $104 million ($128.4 million) \"top kill\" approach, aimed at placing a long seal atop the submerged oil well on the ocean floor."
+   },
+   "2": {
+    "original": "As BP's effort got under way, President Obama warned the approaching tropical storm was a threat and also said the operation was no sure-fire solution.",
+    "rewrite": "As BP began its effort, President Obama warned about the impending tropical storm as a threat and also noted that the operation was not guaranteed to solve everything."
+   },
+   "0": {
+    "original": "Democratic Senator Mary Landrieu was asked whether she still believed the oil giant should be running the operation itself.",
+    "rewrite": "Did Democratic Senator Mary Landrieu confirm her belief that the oil giant should remain in charge of the operation?"
+   },
+   "12": {
+    "original": "The disaster has now lasted long enough for some of the spilled oil to reach a heavy seaweed, Kurt Wenner.",
+    "rewrite": "The catastrophe has permitted portions of the spilled oil to arrive at dense patches of seaweed, Kurt Wenner."
+   }
+  },
+  "final_span": "Did Democratic Senator Mary Landrieu confirm her belief that the oil giant should remain in charge of the operation?\n\"We're in the second winds and this is the first time they've been successful,\" she said.\nAs BP began its effort, President Obama warned about the impending tropical storm as a threat and also noted that the operation was not guaranteed to solve everything.\nOn Saturday, BP chief Bob Dudley stated that tribal members aided engineers in locating fluid discharges on the seabed, likely originating from naturally occurring wells related to the Deepwater Horizon accident investigation.\n\"We think two of the wells were found, named them Mack and Mama, and we have very good targeted mud applications right now,\" Dudley told a conference call.\n\"Our objective is to keep a gentle flow of oil up - it's losing pressure as it spreads on the surface - and is not causing new seepage. We've had some indication that corresponds and is meeting our current objectives.\n\"That is so early in this response three or four days in - but - we have low what we expect to be the impact on future oil leaks.\"\nBP versus Mother Nature: Ocean engineer says oil halt will be a challenge\nDudley acknowledged that BP was moving forward with its greatly debated $104 million ($128.4 million) \"top kill\" approach, aimed at placing a long seal atop the submerged oil well on the ocean floor.\nIn a conference call with journalists, BP's chief operating officer Doug Suttles stated that ships carrying the specifically designed \"top hat\" had reached the site and were ready to initiate the top kill procedure.\nBP\u2019s chief executive, Tony Hayward, disclosed that engineering and equipment failures resulting from the Deepwater Horizon collapse had caused the company $525 million in expenses solely for spill containment measures.\nThe catastrophe has permitted portions of the spilled oil to arrive at dense patches of seaweed, Kurt Wenner.\n\"It's settled 20-30 miles off shore, and we're starting to lose surface plumes and it getting washed out to sea,\" Wenner told reporters.\nHe is watching for the oil to was",
+  "break_point": {
+   "step": 45,
+   "sentences_rewritten": 7,
+   "queries": 2196
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 7,
+   "eligible": 7,
+   "segments": 15,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 46.666666666666664
+  },
+  "tokens": {
+   "original": 501,
+   "final": 512,
+   "length_change": 11,
+   "pct_not_preserved": 25.149700598802394,
+   "pct_new": 26.7578125
+  },
+  "words": {
+   "original": 345,
+   "final": 351,
+   "length_change": 6,
+   "pct_not_preserved": 30.724637681159418,
+   "pct_new": 31.908831908831914
+  },
+  "characters": {
+   "original": 1994,
+   "final": 2096,
+   "length_change": 102,
+   "pct_not_preserved": 19.057171514543636,
+   "pct_new": 22.996183206106867
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 345,
+   "green_after": 277,
+   "pairs_before": 500,
+   "pairs_after": 511,
+   "pairs_changed_before": 169,
+   "pairs_changed_after": 180,
+   "green_fraction_of_new_pairs": 0.29444444444444445,
+   "delta_achieved": 0.20555555555555555
+  }
+ }
+}

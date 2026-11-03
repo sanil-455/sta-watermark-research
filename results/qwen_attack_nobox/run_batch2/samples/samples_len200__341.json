@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:341",
+ "nobox": {
+  "z_final": 3.938631807216881,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "The unique debut published under the title, Too much busyness raises my doubts (yehovitigena mahapravesha pitey... ), attempts to elevate Martin Luther King Jr. and Mahatma Gandhi to the status of IT people during India's independence movement and points out how the two would proceed with their activities.",
+    "rewrite": "The distinctive first publication, titled Too much busyness raises my doubts (yehovitigena mahapravesha pitey... ), aims to elevate Martin Luther King Jr. and Mahatma Gandhi to the level of IT figures in India's independence movement, illustrating how the two would conduct their activities."
+   },
+   "4": {
+    "original": "Thinking what would Martin Luther King Jr. and Mahatma Gandhi do if they worked in an IT firm, an official from the Mysore press club and former journalist, Bhavyavarma Prabhakar, has penned down in a collection of essays.",
+    "rewrite": "An official from the Mysore press club and former journalist, Bhavyavarma Prabhakar, has written a collection of essays pondering what Martin Luther King Jr. and Mahatma Gandhi would do if they worked in an IT firm."
+   },
+   "2": {
+    "original": "It will be cool to have anyone on the planet type my birthdays on this board!",
+    "rewrite": "It would be cool to have anyone on the planet type my birthdays on this board!"
+   },
+   "1": {
+    "original": "Google announced an interactive tabletop called Think Board.",
+    "rewrite": "Google announced an interactive tabletop named Think Board."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 8,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "of stealing Internet technology!\nGoogle announced an interactive tabletop named Think Board. It would be cool to have anyone on the planet type my birthdays on this board!\nBreakaway daydream\nAn official from the Mysore press club and former journalist, Bhavyavarma Prabhakar, has written a collection of essays pondering what Martin Luther King Jr. and Mahatma Gandhi would do if they worked in an IT firm.\nThe distinctive first publication, titled Too much busyness raises my doubts (yehovitigena mahapravesha pitey... ), aims to elevate Martin Luther King Jr. and Mahatma Gandhi to the level of IT figures in India's independence movement, illustrating how the two would conduct their activities.\nOn a personal note, I lost a friend (sadly, since 2004) and",
+  "z0": 5.5154328932550705,
+  "seconds": 173.7
+ }
+}

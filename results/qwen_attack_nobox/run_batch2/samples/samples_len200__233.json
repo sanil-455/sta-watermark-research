@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:233",
+ "nobox": {
+  "z_final": 5.883714001569188,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "In addition to having meetings about garlic at Aris Books for the public, he hosts visiting groups of Japanese, South American and Scandinavian chefs here and in his native England to bring them up to date on spicing with the stinker.",
+    "rewrite": "In addition to hosting meetings about garlic at Aris Books for the public, he also brings visiting groups of Japanese, South American, and Scandinavian chefs here and in his native England up to date on spicing with the stinker."
+   },
+   "2": {
+    "original": "These days, Harris is happy to be out of the spotlight most of the time.",
+    "rewrite": "These days, Harris prefers to be out of the spotlight most of the time."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 17,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "told a painter that he was putting an extra arm on one of the female figures in a painting.\n\"Then use garlic for the CG,\" Miller kidded this member of the garlic elite.\nThese days, Harris prefers to be out of the spotlight most of the time. \"I couldn't put up with anything; press, food. I've just slowed down because I'm just getting tired.\"\nIn addition to hosting meetings about garlic at Aris Books for the public, he also brings visiting groups of Japanese, South American, and Scandinavian chefs here and in his native England up to date on spicing with the stinker.\n\"In the beginning I thought it would be a whole lot of fun,\" Morgan Adams, the founder of the Garth Garlic Fest in Castro Valley, conceded. \"Then since 1983, Greg is never in my town.",
+  "z0": 6.222539674441618,
+  "seconds": 88.3
+ }
+}

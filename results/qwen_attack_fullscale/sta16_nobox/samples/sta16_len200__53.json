@@ -1,0 +1,53 @@
+{
+ "sample_id": "sta16_len200:53",
+ "nobox": {
+  "z_final": 5.713955643818569,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Irving, meanwhile, has topped the 40-point mark three times in his past six games \u2013 including a 40-point effort against the Golden State Warriors on April 5 \u2013 and is in line to start in the Finals against the Warriors for a second straight season.",
+    "rewrite": "Meanwhile, Irving has reached the 40-point mark three times in his last six games, including a 40-point performance against the Golden State Warriors on April 5, and is set to start in the Finals against the Warriors for back-to-back seasons."
+   },
+   "2": {
+    "original": "Love, after shooting 58 percent in the conference finals, shot just 7 for 19 from the field and said he was a victim of game plan, not just the failures of Browns fans filling Quicken Loans Arena.",
+    "rewrite": "Love, having made 58 percent of his shots in the conference finals, scored only 7 out of 19 attempts from the field and claimed he was targeted by the game plan, not influenced by the Browns fans' lack of support at Quicken Loans Arena."
+   },
+   "1": {
+    "original": "He accepted how James\u2019 quick two fouls tied up his offense and led to a stretch of 5-plus minutes in the second quarter when he did not play.",
+    "rewrite": "He acknowledged how James' quick two fouls tied up his role offensively, resulting in a stretch of over 5 minutes in the second quarter where he did not play."
+   },
+   "4": {
+    "original": "Irving, whose father had surgery recently to repair an aortic aneurysm, would welcome that.",
+    "rewrite": "Irving, whose father underwent surgery recently for an aortic aneurysm, would welcome that."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 10,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 44,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "hard pick while going up for a shot.\nHe acknowledged how James' quick two fouls tied up his role offensively, resulting in a stretch of over 5 minutes in the second quarter where he did not play.\nLove, having made 58 percent of his shots in the conference finals, scored only 7 out of 19 attempts from the field and claimed he was targeted by the game plan, not influenced by the Browns fans' lack of support at Quicken Loans Arena.\nMeanwhile, Irving has reached the 40-point mark three times in his last six games, including a 40-point performance against the Golden State Warriors on April 5, and is set to start in the Finals against the Warriors for back-to-back seasons.\nIrving, whose father underwent surgery recently for an aortic aneurysm, would welcome that.\nCavaliers reserve guard Dwyane W",
+  "z0": 8.48528137423857,
+  "seconds": 202.1
+ }
+}

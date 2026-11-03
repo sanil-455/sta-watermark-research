@@ -1,0 +1,26 @@
+{
+ "sample_id": "sta16_len200:51",
+ "nobox": {
+  "z_final": 9.146768081493795,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Cohen Reynolds is part of the Los Angeles law firm Cohen Milstein Sellers & Toll PLLC, which represented Daniels with the other law firm, Glendon J. Mangione PC of Inglewood.",
+    "rewrite": "Cohen Reynolds is part of the Los Angeles law firm Cohen Milstein Sellers & Toll PLLC, which worked alongside another law firm, Glendon J. Mangione PC of Inglewood, to represent Daniels."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 30,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "work honestly and diligently with Defendant has also interfered with CGC's reputation as a credible litigation organization, which in turn could impact the image of Cohen Reynolds. The Court also notes that because CGC has no overseer location, any negative impact on CGC would inherently have harmful tendencies and bind the conduct of other similarly situated attorneys,\" he wrote.\nCohen Reynolds is part of the Los Angeles law firm Cohen Milstein Sellers & Toll PLLC, which worked alongside another law firm, Glendon J. Mangione PC of Inglewood, to represent Daniels.\nCohen Reynolds has said Daniels filed a defamation suit because Texas law permits recovery of legal fees only for litigation with \"frivolous\" claims or complaints that aren't filed in good faith \u2014 requirements that generally don't exist in California and most",
+  "z0": 9.616652224137045,
+  "seconds": 52.4
+ }
+}

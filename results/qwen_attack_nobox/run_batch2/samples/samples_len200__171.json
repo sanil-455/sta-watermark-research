@@ -1,0 +1,26 @@
+{
+ "sample_id": "samples_len200:171",
+ "nobox": {
+  "z_final": 1.5116130765722586,
+  "status": "broken",
+  "rewrites": {
+   "1": {
+    "original": "On immigration and the family separation fiasco, Mr. Trump has used the Hatch Act \u2013 the old Congress-deprived-of-power goes way back \u2013 to curtail the press, to shut down the opposition, and to order Treasury Secretary Steven Mnuchin and his friend Wilbur Ross, the Commerce Secretary, to withhold key documents from Congress investigating possible Russian interference in the 2016 U.S. presidential campaign.",
+    "rewrite": "Regarding immigration and the family separation controversy, Mr. Trump has employed the Hatch Act\u2014the long-standing tool to curtail Congress and its power\u2014to silence the media, suppress opposition, and direct Treasury Secretary Steven Mnuchin and his friend Wilbur Ross, the Commerce Secretary, to restrict vital documents from the Congress investigating potential Russian interference in the 2016 U.S. presidential election."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 50,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the same character, and as it has gone on now for more than a year, policymakers have become numb to the process.\nRegarding immigration and the family separation controversy, Mr. Trump has employed the Hatch Act\u2014the long-standing tool to curtail Congress and its power\u2014to silence the media, suppress opposition, and direct Treasury Secretary Steven Mnuchin and his friend Wilbur Ross, the Commerce Secretary, to restrict vital documents from the Congress investigating potential Russian interference in the 2016 U.S. presidential election.\nThe \u201cregular order, \u201d Thomas Mann, a political scientist at the Brookings Institution, told The New York Times during the chaos over immigration, is breaking down \u201cthanks to a type of nihilism, which has already reshaped the Republicans and the nature of the American political order.\u201d And it\u2019s no",
+  "z0": 2.262741699796952,
+  "seconds": 99.5
+ }
+}

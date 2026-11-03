@@ -1,0 +1,649 @@
+{
+ "sample_id": "samples_len500:275",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.41916167664670656,
+ "needed_share": 0.7204915028125263,
+ "delta_needed": 0.11502189935929574,
+ "segmentation": {
+  "chars": 1837,
+  "segments": 11,
+  "eligible": 5,
+  "skipped": 6,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "does not start like a sentence": 3,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 770,
+  "eligible_char_share": 0.41916167664670656
+ },
+ "attack": {
+  "z0": 7.155417527999327,
+  "z_final": 3.6116114927484495,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 4,
+  "queries": 754,
+  "seconds": 768.2,
+  "seconds_by_phase": {
+   "generate": 705.9,
+   "gates": 61.9,
+   "detector": 0.4
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 200,
+    "z_before": 7.155417527999327,
+    "z_after": 6.504138908235721,
+    "accepted": true,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 59,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "unknown word": 1,
+      "numbers changed": 5
+     }
+    },
+    "queries_total": 55,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.31
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 180,
+    "z_before": 6.504138908235721,
+    "z_after": 6.1839278662854475,
+    "accepted": true,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 32,
+     "after_spelling": 32,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "duplicate": 28
+     }
+    },
+    "queries_total": 87,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 51.79
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 146,
+    "z_before": 6.1839278662854475,
+    "z_after": 5.646195008347583,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 50,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "CJK text": 5,
+      "duplicate": 2,
+      "unknown word": 3,
+      "negation count changed": 2
+     }
+    },
+    "queries_total": 135,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 31.05
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 125,
+    "z_before": 5.646195008347583,
+    "z_after": 4.620181431367443,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "duplicate": 2,
+      "unknown word": 1,
+      "glued punctuation": 1,
+      "meaning too different": 5,
+      "perplexity too high": 9
+     }
+    },
+    "queries_total": 177,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.26
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 119,
+    "z_before": 4.620181431367443,
+    "z_after": 4.024922359499621,
+    "accepted": true,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 29,
+     "after_spelling": 29,
+     "after_content": 29,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "duplicate": 31,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 205,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.01
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 200,
+    "z_before": 4.024922359499621,
+    "z_after": 3.9354796403996297,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "duplicate": 3,
+      "numbers changed": 8
+     }
+    },
+    "queries_total": 254,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.43
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 180,
+    "z_before": 3.9354796403996297,
+    "z_after": 3.9276322155615757,
+    "accepted": true,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 25,
+     "after_spelling": 23,
+     "after_content": 23,
+     "after_semantic": 23,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "duplicate": 35,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 277,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 51.73
+   },
+   {
+    "pass": 2,
+    "segment": 8,
+    "chars": 146,
+    "z_before": 3.9276322155615757,
+    "z_after": 4.000988020269483,
+    "accepted": false,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 54,
+     "after_content": 52,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "duplicate": 3,
+      "CJK text": 2,
+      "unknown word": 1,
+      "negation count changed": 2,
+      "meaning too different": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 326,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.08
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 125,
+    "z_before": 3.9276322155615757,
+    "z_after": 3.838367847026085,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 1,
+      "meaning too different": 2,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 378,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.39
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 119,
+    "z_before": 3.838367847026085,
+    "z_after": 3.7081665283527934,
+    "accepted": true,
+    "survivors": 24,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 24,
+     "after_spelling": 24,
+     "after_content": 24,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 24,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 35
+     }
+    },
+    "queries_total": 402,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.33
+   },
+   {
+    "pass": 3,
+    "segment": 5,
+    "chars": 200,
+    "z_before": 3.7081665283527934,
+    "z_after": 3.7081665283527934,
+    "accepted": false,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "duplicate": 1,
+      "numbers changed": 4
+     }
+    },
+    "queries_total": 457,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.8
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 180,
+    "z_before": 3.7081665283527934,
+    "z_after": 3.7081665283527934,
+    "accepted": false,
+    "survivors": 26,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 26,
+     "after_content": 26,
+     "after_semantic": 26,
+     "fluency_skipped": false,
+     "after_fluency": 26,
+     "rejected": {
+      "duplicate": 32,
+      "CJK text": 1,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 483,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 52.04
+   },
+   {
+    "pass": 3,
+    "segment": 8,
+    "chars": 146,
+    "z_before": 3.7081665283527934,
+    "z_after": 3.6116114927484495,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "duplicate": 2,
+      "CJK text": 3,
+      "unknown word": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 533,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.41
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 125,
+    "z_before": 3.6116114927484495,
+    "z_after": 3.6598391099551044,
+    "accepted": false,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "duplicate": 2,
+      "meaning too different": 4,
+      "perplexity too high": 14
+     }
+    },
+    "queries_total": 573,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.7
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 119,
+    "z_before": 3.6116114927484495,
+    "z_after": 3.7416573867739413,
+    "accepted": false,
+    "survivors": 24,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 25,
+     "after_spelling": 25,
+     "after_content": 25,
+     "after_semantic": 25,
+     "fluency_skipped": false,
+     "after_fluency": 24,
+     "rejected": {
+      "duplicate": 34,
+      "CJK text": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 597,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.27
+   },
+   {
+    "pass": 4,
+    "segment": 5,
+    "chars": 200,
+    "z_before": 3.6116114927484495,
+    "z_after": 3.6116114927484495,
+    "accepted": false,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 57,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "duplicate": 1,
+      "CJK text": 1,
+      "unknown word": 1,
+      "numbers changed": 6
+     }
+    },
+    "queries_total": 648,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.24
+   },
+   {
+    "pass": 4,
+    "segment": 1,
+    "chars": 180,
+    "z_before": 3.6116114927484495,
+    "z_after": 3.6188131180310394,
+    "accepted": false,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 25,
+     "after_spelling": 23,
+     "after_content": 23,
+     "after_semantic": 23,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "duplicate": 34,
+      "CJK text": 1,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 671,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 51.74
+   },
+   {
+    "pass": 4,
+    "segment": 8,
+    "chars": 146,
+    "z_before": 3.6116114927484495,
+    "z_after": 3.667151483099655,
+    "accepted": false,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 52,
+     "after_content": 48,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "CJK text": 5,
+      "unknown word": 3,
+      "negation count changed": 4,
+      "meaning too different": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 713,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.82
+   },
+   {
+    "pass": 4,
+    "segment": 2,
+    "chars": 125,
+    "z_before": 3.6116114927484495,
+    "z_after": 3.6598391099551044,
+    "accepted": false,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "duplicate": 4,
+      "meaning too different": 3,
+      "perplexity too high": 15
+     }
+    },
+    "queries_total": 744,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.31
+   },
+   {
+    "pass": 4,
+    "segment": 3,
+    "chars": 119,
+    "z_before": 3.6116114927484495,
+    "z_after": 3.8791382699890753,
+    "accepted": false,
+    "survivors": 20,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 21,
+     "after_spelling": 21,
+     "after_content": 21,
+     "after_semantic": 21,
+     "fluency_skipped": false,
+     "after_fluency": 20,
+     "rejected": {
+      "duplicate": 36,
+      "CJK text": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 754,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.14
+   }
+  ],
+  "rewrites": {
+   "5": {
+    "original": "However, 23 percent experienced shortage of the product, notably at institutions with orthopedics and Renal transplant programs. three percent of responding anesthesiologists noted a shortage of Quip.",
+    "rewrite": "However, 23 percent reported product shortages, especially at facilities with orthopedic and renal transplant services. Three percent of responding anesthesiologists mentioned a shortage of Quip."
+   },
+   "1": {
+    "original": "Sources of the drug shortages vary across CG Nephew, Inc/Mallinckrodt, IPPC., Inc, Akorn Inc, Onyx Pharmaceuticals, Kroenke Pharmaceuticals, Sanofi and Amneal Pharmaceuticals, Inc.",
+    "rewrite": "Varies among the sources of drug shortages, including CG Nephew, Inc/Mallinckrodt, IPPC., Inc, Akorn Inc, Onyx Pharmaceuticals, Kroenke Pharmaceuticals, Sanofi, and Amneal Pharmaceuticals, Inc."
+   },
+   "8": {
+    "original": "Though labeled as a scheduled controlled substance DIP, propofol is not controlled like other substances or chemicals involved in other medicines.",
+    "rewrite": "Although classified as a scheduled controlled substance, propofol is not regulated similarly to other substances or chemicals in pharmaceuticals."
+   },
+   "2": {
+    "original": "Different drugs were in shortage throughout the country depending on the regional, state and institutional level of activity.",
+    "rewrite": "Varying drug shortages occurred across the country at levels dependent on region, state, and institutional activities."
+   },
+   "3": {
+    "original": "Locally anesthetics represent the largest portion of shortages followed by binders and pre-treatments and then opioids.",
+    "rewrite": "Locally applied anesthetics account for the most significant shortages, followed by binders and pre-treatments, then opioids."
+   }
+  },
+  "final_span": "the Society's nearly 53,000 members) provided responses. Varies among the sources of drug shortages, including CG Nephew, Inc/Mallinckrodt, IPPC., Inc, Akorn Inc, Onyx Pharmaceuticals, Kroenke Pharmaceuticals, Sanofi, and Amneal Pharmaceuticals, Inc.\nVarying drug shortages occurred across the country at levels dependent on region, state, and institutional activities. Locally applied anesthetics account for the most significant shortages, followed by binders and pre-treatments, then opioids.\n\u2022 Quip, named as being in shortage 89 times in response to the question, had differing reports across the country\u201450 percent of anesthesia providers found no shortage of or issues with Quip (ethyl bromide porous polyethylene). However, 23 percent reported product shortages, especially at facilities with orthopedic and renal transplant services. Three percent of responding anesthesiologists mentioned a shortage of Quip.\n\u2022 Ongoing supply shortages have affected humor al preparations (25), bupivacaine (21), Lidocaine (21), Amino-Procaine Bupivacaine (21), Dycloprofen Sodium EMLA Cream (17), Atracaine (16), Lidocaine Entropy Gel (16) and Amphetamine (15).\n\u2022 After local anesthetic agents, the next most common drug in shortage across the country was propofol, which is often used as part of induction of anesthesia or, rarely, as part of adjunctive therapy for procedural sedation. Although classified as a scheduled controlled substance, propofol is not regulated similarly to other substances or chemicals in pharmaceuticals.\n\"The purpose of the survey was to identify and quantitate the impact of the shortage crisis on health care: to measure its effectiveness on patient, provider, and institutional care. This was done through response from members of the American Society of Anesthesiologists through an informal survey,\" said Dr. Grant",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 5,
+   "eligible": 5,
+   "segments": 11,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 45.45454545454545
+  },
+  "tokens": {
+   "original": 501,
+   "final": 504,
+   "length_change": 3,
+   "pct_not_preserved": 9.78043912175649,
+   "pct_new": 10.317460317460315
+  },
+  "words": {
+   "original": 265,
+   "final": 260,
+   "length_change": -5,
+   "pct_not_preserved": 17.73584905660377,
+   "pct_new": 16.153846153846153
+  },
+  "characters": {
+   "original": 1837,
+   "final": 1843,
+   "length_change": 6,
+   "pct_not_preserved": 8.87316276537834,
+   "pct_new": 9.169831795984805
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 330,
+   "green_after": 292,
+   "pairs_before": 500,
+   "pairs_after": 503,
+   "pairs_changed_before": 78,
+   "pairs_changed_after": 81,
+   "green_fraction_of_new_pairs": 0.2962962962962963,
+   "delta_achieved": 0.20370370370370372
+  }
+ }
+}

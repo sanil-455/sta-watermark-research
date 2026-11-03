@@ -1,0 +1,35 @@
+{
+ "sample_id": "sta16_len200:118",
+ "nobox": {
+  "z_final": 7.752576283042318,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Lopez built up a career on coaching defenses and second team clubs, but never advanced to the top division or to a coaching position with an established team in a Central American league system that is seen by top European leagues as only slightly better than Major League Soccer.",
+    "rewrite": "Lopez developed a career focusing on coaching defenses and second-tier clubs, yet never progressed to the top division or secured a coaching role with a well-established team in a Central American league system, which is regarded as just slightly better than Major League Soccer."
+   },
+   "1": {
+    "original": "Before the day, Klinsmann said Honduras had a coach (Celestino Lopez) who had more head coaching experience (seven caps) than him (three caps).",
+    "rewrite": "Before the day, Klinsmann said that Honduras had a coach (Celestino Lopez) with more head coaching experience (seven caps) than his own (three caps)."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 29,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the tying goal, Klinsmann\u2019s Colombian team had made their opponent\u2019s defense of the lead hold up. Before the day, Klinsmann said that Honduras had a coach (Celestino Lopez) with more head coaching experience (seven caps) than his own (three caps). Lopez developed a career focusing on coaching defenses and second-tier clubs, yet never progressed to the top division or secured a coaching role with a well-established team in a Central American league system, which is regarded as just slightly better than Major League Soccer.\nClearly, Lopez or Honduras coaches preferences don\u2019t matter in soccer, but the evidence of skill is in the final score of 2-1, not in Klinsmann\u2019s statement. three of the four games in Columbus saw the obvious starters, Michael Bradley and Clint Dempsey, on the ben",
+  "z0": 10.182337649086284,
+  "seconds": 111.5
+ }
+}

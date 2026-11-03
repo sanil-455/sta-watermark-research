@@ -1,0 +1,62 @@
+{
+ "sample_id": "sta16_len200:128",
+ "nobox": {
+  "z_final": 6.0254902425708545,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Based on the videos circulating in different local news websites - such as Yamaniya TV - the neighborhoods apparently hit are located on the outskirts of the city - not close to its centre.",
+    "rewrite": "According to the videos shared across various local news websites, including Yamaniya TV, the affected neighborhoods are clearly located at the city's outskirts and not near its center."
+   },
+   "5": {
+    "original": "For the Security Council's peacekeeping body UNSCO three civilians in one family were killed on Sunday in Libya's western town of Zuwarah after a shell hit hospital they were in it.",
+    "rewrite": "For the Security Council's peacekeeping body UNSCO, three civilians from one family were killed on Sunday in Libya's western town of Zuwarah when a shell hit the hospital they were in."
+   },
+   "4": {
+    "original": "On Monday, claims circulating in Libyan media suggested that NATO jets launched up to 50 raids against targets near airports in Libyan part of the country.",
+    "rewrite": "On Monday, reports in Libyan media indicated that NATO jets conducted approximately 50 raids on targets near airports in the Libyan area of the country."
+   },
+   "2": {
+    "original": "There is no clarity yet about what kind of targets might have been the object of these bombings.",
+    "rewrite": "As yet, there is no clarity about what kind of targets might have been the object of these bombings."
+   },
+   "1": {
+    "original": "Eyewitnesses also say that over a dozen airstrikes hit locations around Tripoli overnight.",
+    "rewrite": "Eyewitnesses also report that more than a dozen airstrikes hit areas near Tripoli overnight."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 14,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 28,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "ten hours on the Qumashan neighbourhood of the city, close to the centre of Tripoli.\nEyewitnesses also report that more than a dozen airstrikes hit areas near Tripoli overnight.\nAs yet, there is no clarity about what kind of targets might have been the object of these bombings.\nAccording to the videos shared across various local news websites, including Yamaniya TV, the affected neighborhoods are clearly located at the city's outskirts and not near its center.\nOn Monday, reports in Libyan media indicated that NATO jets conducted approximately 50 raids on targets near airports in the Libyan area of the country.\nFor the Security Council's peacekeeping body UNSCO, three civilians from one family were killed on Sunday in Libya's western town of Zuwarah when a shell hit the hospital they were in.\nU",
+  "z0": 11.17228714274745,
+  "seconds": 196.3
+ }
+}

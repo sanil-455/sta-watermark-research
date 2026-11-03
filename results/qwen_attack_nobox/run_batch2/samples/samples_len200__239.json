@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:239",
+ "nobox": {
+  "z_final": 5.827486247053352,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "He did well Martin, pretty good article and no biased, I'm not saying you couldn't see the biased however I came here because I'm a United fan, because I wanted to read a biased story, not slate Chelsea.",
+    "rewrite": "He did well, Martin, with a good article and no bias, I'm not saying you couldn't see any bias, but I came here as a United fan to read a biased story about Chelsea, not an unbiased one."
+   },
+   "1": {
+    "original": "Watch all the goals as they went in LIVE on Sports Plus: FA CGU on NOW/Freeview/Sky and dsquad.",
+    "rewrite": "Watch all the goals as they go in LIVE on Sports Plus: FA CGU NOW/Freeview/Sky and dsquad."
+   },
+   "5": {
+    "original": "For 45 minutes Liverpool dominated, they were the better side and we were on the ropes.",
+    "rewrite": "For 45 minutes, Liverpool dominated, being the better side as we struggled to keep up."
+   },
+   "4": {
+    "original": "And, forgive my ignorance, but have these lads not had a night to remember?",
+    "rewrite": "Excuse my naivety, but haven't these lads had a night to remember?"
+   },
+   "6": {
+    "original": "Torres, Kuyt and Robbie Keane were all looking dangerous for Liverpool.",
+    "rewrite": "Torres, Kuyt, and Robbie Keane all appeared dangerous for Liverpool."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 10,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 29,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "to feel uncomfortable.\nWatch all the goals as they go in LIVE on Sports Plus: FA CGU NOW/Freeview/Sky and dsquad.\nHe did well, Martin, with a good article and no bias, I'm not saying you couldn't see any bias, but I came here as a United fan to read a biased story about Chelsea, not an unbiased one.\ngood article but on another subject i don't think fergie went on the defensive at all when asked about the t-shirts. my fault for not catching the presser.\nExcuse my naivety, but haven't these lads had a night to remember? For 45 minutes, Liverpool dominated, being the better side as we struggled to keep up. Torres, Kuyt, and Robbie Keane all appeared dangerous for Liverpool. Liverpool should have been ",
+  "z0": 7.353910524340094,
+  "seconds": 182.6
+ }
+}

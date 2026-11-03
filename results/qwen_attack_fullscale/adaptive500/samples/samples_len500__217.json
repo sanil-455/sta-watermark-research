@@ -1,0 +1,350 @@
+{
+ "sample_id": "samples_len500:217",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8075750979538528,
+ "needed_share": 0.7239422250000259,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2297,
+  "segments": 17,
+  "eligible": 13,
+  "skipped": 4,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "too short": 1,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1855,
+  "eligible_char_share": 0.8075750979538528
+ },
+ "attack": {
+  "z0": 7.244860247099318,
+  "z_final": 1.7888543819998317,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 257,
+  "seconds": 336.4,
+  "seconds_by_phase": {
+   "generate": 316.0,
+   "gates": 20.3,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 15,
+    "chars": 286,
+    "z_before": 7.244860247099318,
+    "z_after": 6.579402522220929,
+    "accepted": true,
+    "survivors": 13,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 47,
+     "after_content": 13,
+     "after_semantic": 13,
+     "fluency_skipped": false,
+     "after_fluency": 13,
+     "rejected": {
+      "CJK text": 9,
+      "unknown word": 4,
+      "negation count changed": 34
+     }
+    },
+    "queries_total": 14,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.55
+   },
+   {
+    "pass": 1,
+    "segment": 14,
+    "chars": 240,
+    "z_before": 6.579402522220929,
+    "z_after": 5.495234734787874,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 5
+     }
+    },
+    "queries_total": 65,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 47.05
+   },
+   {
+    "pass": 1,
+    "segment": 13,
+    "chars": 222,
+    "z_before": 5.495234734787874,
+    "z_after": 4.80118562432338,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 43,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "CJK text": 8,
+      "preamble": 6,
+      "several lines": 1,
+      "unknown word": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 107,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 49.82
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 178,
+    "z_before": 4.80118562432338,
+    "z_after": 4.463218426774517,
+    "accepted": true,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 47,
+     "after_content": 2,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "CJK text": 9,
+      "hit length limit": 1,
+      "several lines": 2,
+      "unknown word": 1,
+      "negation count changed": 45,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 108,
+    "hit_limit": 2,
+    "oom_events": [],
+    "seconds_generate": 48.89
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 139,
+    "z_before": 4.463218426774517,
+    "z_after": 4.187092789961315,
+    "accepted": true,
+    "survivors": 10,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 54,
+     "after_content": 14,
+     "after_semantic": 14,
+     "fluency_skipped": false,
+     "after_fluency": 10,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 1,
+      "unknown word": 3,
+      "negation count changed": 40,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 118,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.99
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 137,
+    "z_before": 4.187092789961315,
+    "z_after": 3.2962219835865674,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 1,
+      "meaning too different": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 169,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.68
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 131,
+    "z_before": 3.2962219835865674,
+    "z_after": 2.334868926348074,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "duplicate": 9,
+      "CJK text": 3,
+      "several lines": 1,
+      "unknown word": 1,
+      "meaning too different": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 211,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.63
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 130,
+    "z_before": 2.334868926348074,
+    "z_after": 1.7888543819998317,
+    "accepted": true,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "duplicate": 8,
+      "unknown word": 2,
+      "meaning too different": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 257,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.36
+   }
+  ],
+  "rewrites": {
+   "15": {
+    "original": "President Obama should not shortchange other countries for the sake of a vague promise, exacerbating the rivalry with China, Russia, and the United Kingdom over whether plurilateral agreements can be effective without the broad participation of the United States, their largest economy.",
+    "rewrite": "President Obama must not prioritize such vague promises at the expense of other nations, which could heighten tensions with China, Russia, and the United Kingdom regarding the potential effectiveness of plurilateral agreements without major U.S. involvement, given that America remains their largest economy."
+   },
+   "14": {
+    "original": "The European Union already has invested heavily in countering the climate-change denialism that has become a part of the Republican Party\u2019s identity, and has signed pacts with India, China, and Brazil to accelerate action on climate change.",
+    "rewrite": "The European Union has already made substantial investments in combating the climate-change denialism integrated into the Republican Party\u2019s ideology, and has concluded agreements with India, China, and Brazil to quicken climate action."
+   },
+   "13": {
+    "original": "Indeed, the greatest obstacle to a closer relationship would be a climate-change accord that the Obama administration, nervous about losing congressional support for a new treaty, has promised to consult India about first.",
+    "rewrite": "Undeniably, a climate-change accord would present the biggest barrier to a more closely knit relationship, an issue the Obama administration, concerned about maintaining congressional backing for a new treaty, plans to consult India on initially."
+   },
+   "1": {
+    "original": "The two democracies are locked in a love-hate relationship not because of shared values but because of distinct interests that may be aligned from time to time but are often not.",
+    "rewrite": "The two democracies maintain a love-hate dynamic not due to shared values, but due to distinct interests that occasionally coincide but frequently do not."
+   },
+   "12": {
+    "original": "Relations between the two are not harmonious even in areas of common interest, such as the nonproliferation of weapons of mass destruction.",
+    "rewrite": "Relations between the two are not amicable even in areas of mutual concern, such as preventing the proliferation of weapons of mass destruction."
+   },
+   "2": {
+    "original": "Before Obama\u2019s visit, there was a perception that the two countries needed to overcome self-inflicted obstacles to a deeper relationship.",
+    "rewrite": "Before Obama's visit, it was perceived that both nations had to work through self-imposed barriers to develop a more robust relationship."
+   },
+   "7": {
+    "original": "Yet as India attracts greater attention\u2014and more investment and business\u2014it is unavoidably disconnected from some of its neighbors.",
+    "rewrite": "As India draws more attention and investments, it inevitably distances itself from some neighbors."
+   },
+   "8": {
+    "original": "As Burns points out, India views its relationship with Pakistan in strictly instrumental terms, defined by counterterrorism goals.",
+    "rewrite": "Burns highlights that India considers its interaction with Pakistan solely from a tactical perspective, shaped by counterterrorism objectives."
+   }
+  },
+  "final_span": "political and economic trajectories of the United States and India are unlikely to form an enduring partnership. The two democracies maintain a love-hate dynamic not due to shared values, but due to distinct interests that occasionally coincide but frequently do not.\nBefore Obama's visit, it was perceived that both nations had to work through self-imposed barriers to develop a more robust relationship. Some of those obstacles still exist, but, ironically, they flow from India\u2019s success, not its failure.\nIndia occupies a larger space on the global stage than before. It can no longer be ignored. Nor can the United States afford to exclude it from regional debates and economic development. As India draws more attention and investments, it inevitably distances itself from some neighbors. Burns highlights that India considers its interaction with Pakistan solely from a tactical perspective, shaped by counterterrorism objectives. For Pakistan, India is its big bully adversary, rightfully viewed three times in a row as \u201cthe most dangerous country in the world,\u201d according to a 2013 Pew Research Center survey.\nIt is not just the neighbors who disagree with India\u2019s worldview. It differs sharply from the view that accords with the United States. Relations between the two are not amicable even in areas of mutual concern, such as preventing the proliferation of weapons of mass destruction.\nUndeniably, a climate-change accord would present the biggest barrier to a more closely knit relationship, an issue the Obama administration, concerned about maintaining congressional backing for a new treaty, plans to consult India on initially. The European Union has already made substantial investments in combating the climate-change denialism integrated into the Republican Party\u2019s ideology, and has concluded agreements with India, China, and Brazil to quicken climate action. President Obama must not prioritize such vague promises at the expense of other nations, which could heighten tensions with China, Russia, and the United Kingdom regarding the potential effectiveness of plurilateral agreements without major U.S. involvement, given that America remains their largest economy.\nNor should the United States assume that it has the leverage to force China or other major powers to tight",
+  "break_point": {
+   "step": 7,
+   "sentences_rewritten": 8,
+   "queries": 257
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 8,
+   "eligible": 13,
+   "segments": 17,
+   "pct_of_eligible": 61.53846153846154,
+   "pct_of_segments": 47.05882352941177
+  },
+  "tokens": {
+   "original": 501,
+   "final": 501,
+   "length_change": 0,
+   "pct_not_preserved": 28.942115768463072,
+   "pct_new": 28.942115768463072
+  },
+  "words": {
+   "original": 360,
+   "final": 349,
+   "length_change": -11,
+   "pct_not_preserved": 34.166666666666664,
+   "pct_new": 32.09169054441261
+  },
+  "characters": {
+   "original": 2297,
+   "final": 2299,
+   "length_change": 2,
+   "pct_not_preserved": 21.723987810187197,
+   "pct_new": 21.792083514571548
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 331,
+   "green_after": 270,
+   "pairs_before": 500,
+   "pairs_after": 500,
+   "pairs_changed_before": 203,
+   "pairs_changed_after": 203,
+   "green_fraction_of_new_pairs": 0.3694581280788177,
+   "delta_achieved": 0.13054187192118227
+  }
+ }
+}

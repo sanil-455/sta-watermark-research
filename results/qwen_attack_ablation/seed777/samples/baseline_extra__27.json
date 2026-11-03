@@ -1,0 +1,214 @@
+{
+ "sample_id": "baseline_extra:27",
+ "source": "results/raw/baseline_extra.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.9363295880149812,
+ "needed_share": 0.6785878267333876,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 801,
+  "segments": 7,
+  "eligible": 6,
+  "skipped": 1,
+  "skip_reasons": {
+   "trailing fragment": 1
+  },
+  "eligible_chars": 750,
+  "eligible_char_share": 0.9363295880149812
+ },
+ "attack": {
+  "z0": 6.222539674441618,
+  "z_final": 1.9898733526523642,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 148,
+  "seconds": 148.9,
+  "seconds_by_phase": {
+   "generate": 137.5,
+   "gates": 11.3,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 201,
+    "z_before": 6.222539674441618,
+    "z_after": 5.600161519565853,
+    "accepted": true,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 36,
+     "after_spelling": 36,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "duplicate": 24
+     }
+    },
+    "queries_total": 37,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.82
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 185,
+    "z_before": 5.600161519565853,
+    "z_after": 4.346070049262488,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 43,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "CJK text": 7,
+      "duplicate": 8,
+      "unknown word": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 79,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.39
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 153,
+    "z_before": 4.346070049262488,
+    "z_after": 2.821940960640444,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 3,
+      "glued punctuation": 1,
+      "unknown word": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 130,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.77
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 99,
+    "z_before": 2.821940960640444,
+    "z_after": 1.9898733526523642,
+    "accepted": true,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 38,
+     "after_spelling": 36,
+     "after_content": 22,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "duplicate": 22,
+      "unknown word": 2,
+      "negation count changed": 14,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 148,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.52
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "To get started, head over to the Rivercentre Shops, an official Riverwalk shopping area, to peruse stores like Marc's, the Little Store, McKenna's, and the Jimmy Bryan location of Kendra Scott Jewelry.",
+    "rewrite": "To begin, visit the Rivercentre Shops, an official Riverwalk shopping district, to browse through stores such as Marc's, the Little Store, McKenna's, and the Jimmy Bryan location of Kendra Scott Jewelry."
+   },
+   "4": {
+    "original": "Other notable shopping options include the Yamani Museum Shops, where you can purchase souvenirs, and the many boutiques located in the surrounding King William and Southtown districts.",
+    "rewrite": "Apart from that, the Yamani Museum Shops and the numerous boutiques in the nearby King William and Southtown areas offer great shopping choices for souvenirs."
+   },
+   "5": {
+    "original": "If you're looking for a lively night out complete with live music, head over to the Twilite Alley Bar for a night of cheap beers and cheap tequila shots.",
+    "rewrite": "If you seek a vibrant evening featuring live entertainment, visit Twilite Alley Bar for affordable beer and inexpensive tequila shots."
+   },
+   "2": {
+    "original": "Whether you're looking for Texan Tex-Mex or American barbecue, you can find it along the Riverwalk.",
+    "rewrite": "Regardless of whether you crave Tex-Mex from Texas or barbecue from American cuisine, you'll find options along the Riverwalk."
+   }
+  },
+  "final_span": "Harry Horn that can be seen from the boat.\nOne of the key features of the Riverwalk is the shops and restaurants. Regardless of whether you crave Tex-Mex from Texas or barbecue from American cuisine, you'll find options along the Riverwalk. To begin, visit the Rivercentre Shops, an official Riverwalk shopping district, to browse through stores such as Marc's, the Little Store, McKenna's, and the Jimmy Bryan location of Kendra Scott Jewelry. Apart from that, the Yamani Museum Shops and the numerous boutiques in the nearby King William and Southtown areas offer great shopping choices for souvenirs.\nIf you seek a vibrant evening featuring live entertainment, visit Twilite Alley Bar for affordable beer and inexpensive tequila shots. The Casa Rio River Walk Restaurant is part of",
+  "break_point": {
+   "step": 3,
+   "sentences_rewritten": 4,
+   "queries": 148
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 4,
+   "eligible": 6,
+   "segments": 7,
+   "pct_of_eligible": 66.66666666666667,
+   "pct_of_segments": 57.142857142857146
+  },
+  "tokens": {
+   "original": 201,
+   "final": 199,
+   "length_change": -2,
+   "pct_not_preserved": 29.35323383084577,
+   "pct_new": 28.643216080402013
+  },
+  "words": {
+   "original": 135,
+   "final": 126,
+   "length_change": -9,
+   "pct_not_preserved": 37.77777777777778,
+   "pct_new": 33.333333333333336
+  },
+  "characters": {
+   "original": 801,
+   "final": 784,
+   "length_change": -17,
+   "pct_not_preserved": 28.589263420724098,
+   "pct_new": 27.040816326530614
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 144,
+   "green_after": 113,
+   "pairs_before": 200,
+   "pairs_after": 198,
+   "pairs_changed_before": 84,
+   "pairs_changed_after": 82,
+   "green_fraction_of_new_pairs": 0.4024390243902439,
+   "delta_achieved": 0.09756097560975607
+  }
+ }
+}

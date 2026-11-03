@@ -1,0 +1,71 @@
+{
+ "sample_id": "samples_len200:262",
+ "nobox": {
+  "z_final": 2.974372194624121,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "Start approaching anything; a city, a home, a garden with self-inflicting money rules - sooner or later you\u2019ll find yourself in a spiraling cycle of damages which according to the rule expands its wholesale.",
+    "rewrite": "Start approaching anything\u2014whether a city, a home, or a garden\u2014with self-inflicted money rules, and you\u2019ll eventually fall into a spiral of damaging repercussions that, according to the rule, widens its impact."
+   },
+   "3": {
+    "original": "The output of a planned economy (the output of an amoral growth-only economy) is no different from runaway market.",
+    "rewrite": "The output of a planned economy (the output of an amoral economy focused solely on growth) is no different from a runaway market."
+   },
+   "7": {
+    "original": "I think the biggest mistake our policy-makers make is thinking that we are a democracy.",
+    "rewrite": "I believe the major error in our policy-making is viewing us as a democracy."
+   },
+   "2": {
+    "original": "There is no power of the market to improve the environment and governance.",
+    "rewrite": "The market has no power to enhance the environment and governance."
+   },
+   "5": {
+    "original": "So, I\u2019d like to suggest to go proactive in an anti-money way.",
+    "rewrite": "So, I'd like to suggest going proactive in an anti-money laundering manner."
+   },
+   "1": {
+    "original": "He who has heart likes money more.",
+    "rewrite": "He who has a heart likes money more."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 17,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 4,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 6,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 12,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the benefits of slit throat against the armadillo.\nHe who has a heart likes money more.\nThe market has no power to enhance the environment and governance. The output of a planned economy (the output of an amoral economy focused solely on growth) is no different from a runaway market.\nStart approaching anything\u2014whether a city, a home, or a garden\u2014with self-inflicted money rules, and you\u2019ll eventually fall into a spiral of damaging repercussions that, according to the rule, widens its impact.\nSo, I'd like to suggest going proactive in an anti-money laundering manner.\n... and so on, until it hits you ... stop doing things for money and enjoy yourself!\nI believe the major error in our policy-making is viewing us as a democracy. While we may be a representative democracy, since 1914 we are closer to the conditions of the",
+  "z0": 5.374011537017761,
+  "seconds": 151.9
+ }
+}

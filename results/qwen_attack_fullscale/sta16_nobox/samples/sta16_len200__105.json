@@ -1,0 +1,26 @@
+{
+ "sample_id": "sta16_len200:105",
+ "nobox": {
+  "z_final": 10.606601717798213,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Just being a part of Sundance this year has taught Ho many things as well.",
+    "rewrite": "Being a part of Sundance this year has taught Ho many things as well."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 30,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "of their lives,\" says Ho.\n\"Watching my YouTube journey has taught me that being humble and grateful keeps your sense of humbleness. It is so easy to lose track of that and at the end of the day I believe it&apos;s important to show respect by acknowledging someone helped you and think about where they may be coming from,\" she says.\nBeing a part of Sundance this year has taught Ho many things as well.\n\"It&apos;s so cool, I feel like such a part of the Internet community to be able to be part of an event like this and help filmmakers with their well-being. So, I think since coming here and being a part of Sundance, I feel like it&apos;s really giving me another sense of humbleness and I feel like a part of humanity as opposed to just YouTube and the Internet community,\" she says.\n\"And that is",
+  "z0": 10.748023074035522,
+  "seconds": 22.6
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "sample_id": "samples_len200:343",
+ "nobox": {
+  "z_final": 2.9512445780696477,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "I'll take that trade, for the same reason that I'd gladly let an alcoholic drink himself to death if he just stopped shooting up his liver in the meantime.",
+    "rewrite": "I'll accept that trade, just as I would happily let an alcoholic drink himself to death provided he simply stopped injecting his liver in the meantime."
+   },
+   "2": {
+    "original": "It's a lot more likely that the uninsured are spending a higher portion of their health care budget on preventable services and over the counter drugs.",
+    "rewrite": "The uninsured are much more likely to be spending a larger portion of their health care budget on preventable services and over the counter drugs."
+   },
+   "6": {
+    "original": "If people are choosing to avoid things like paying their rent, they're probably also avoiding preventative colonoscopies.",
+    "rewrite": "If individuals are opting out of paying their rent, they might also be avoiding preventative colonoscopies."
+   },
+   "5": {
+    "original": "To the extent that people avoid small costs, they are healthy and avoid big costs.",
+    "rewrite": "People tend to avoid small costs when they are in good health and steering clear of major expenses."
+   },
+   "1": {
+    "original": "It could, to the contrary, be an external cause which ends up killing people.",
+    "rewrite": "To the contrary, it could be an external cause that ends up killing people."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 15,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 15,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 0,
+    "rewritten": false
+   }
+  ],
+  "queries": 1,
+  "final_span": "the direct cause of mortality. To the contrary, it could be an external cause that ends up killing people. The uninsured are much more likely to be spending a larger portion of their health care budget on preventable services and over the counter drugs. I'll accept that trade, just as I would happily let an alcoholic drink himself to death provided he simply stopped injecting his liver in the meantime.\nAnd so I'm going to go for another possibility here. People tend to avoid small costs when they are in good health and steering clear of major expenses. If individuals are opting out of paying their rent, they might also be avoiding preventative colonoscopies. This isn't the sort of cost-benefit tradeoff that affects a disproportionate number of the societies disadvantaged, if for no other reason than that incidence among",
+  "z0": 4.525483399593904,
+  "seconds": 175.3
+ }
+}

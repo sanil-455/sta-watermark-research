@@ -1,0 +1,116 @@
+{
+ "sample_id": "samples_len500:72",
+ "nobox": {
+  "z_final": 5.187677707799512,
+  "status": "not broken",
+  "rewrites": {
+   "13": {
+    "original": "Along with the endless amount of combinations, El Maguey has die-hard fan favorite the Super Macho, which is a taco made of loads of taco loaded with pico de gallo, diced chips, cheese, sour cream and tons of meat option you choose at the taco bar.",
+    "rewrite": "Along with an endless variety of combinations, El Maguey boasts a die-hard fan favorite called the Super Macho. This taco includes a generous serving of pico de gallo, diced chips, cheese, sour cream, and various meat options you can choose from the taco bar."
+   },
+   "11": {
+    "original": "The star taco is the Crispy Pork Carnitas al Pastor at Carnitas el Maguey, which is the West Los Angeles branch of El Maguey San Diego restaurant.",
+    "rewrite": "At Carnitas el Maguey in West Los Angeles, the star taco is the Crispy Pork Carnitas al Pastor from the El Maguey San Diego restaurant chain."
+   },
+   "16": {
+    "original": "While Corazon de Tlamanal nearly tripped some players\u2019 taco buttons getting the order, it\u2019s all worth it the moment you place the pieces together.",
+    "rewrite": "While Corazon de Tlamanal almost triggered some players' taco buttons with the ordering, it\u2019s all worthwhile once you assemble the pieces."
+   },
+   "12": {
+    "original": "The crispy exterior created through a five-hour resting period is the perfect complement to the al pastor marinated in a sour orange sauce.",
+    "rewrite": "The perfectly crispy exterior formed by a five-hour resting period complements the al pastor marinated in sour orange sauce beautifully."
+   },
+   "14": {
+    "original": "Carnitas el Maguey, West Los Angeles is located at 12620 Doheny Rd Suite 3, West Los Angeles.",
+    "rewrite": "Carnitas el Maguey, West Los Angeles has its location at 12620 Doheny Rd Suite 3, West Los Angeles."
+   },
+   "6": {
+    "original": "Sitting on the east end of the West Los Angeles is food incubator Platform 626.",
+    "rewrite": "Sitting on the east side of West Los Angeles is the food incubator Platform 626."
+   },
+   "4": {
+    "original": "Tito\u2019s Tacos is located at 805 West Manchester Blvd, Inglewood, CA 90301.",
+    "rewrite": "Tito's Tacos is situated at 805 West Manchester Blvd, Inglewood, CA 90301."
+   },
+   "7": {
+    "original": "Dig into a mouth-watering dinner before or after your taco crawl.",
+    "rewrite": "Dive into a mouth-watering dinner before or after your taco crawl."
+   },
+   "2": {
+    "original": "As with the sit-down location, Taco Tuesdays are huge here.",
+    "rewrite": "Similar to the sit-down location, Taco Tuesdays are massive here."
+   },
+   "9": {
+    "original": "Looking for an \u201cadult\u201d menu what with those above?",
+    "rewrite": "Looking for an \"adult\" menu now that you're older?"
+   },
+   "3": {
+    "original": "Weekday Tacos from 4pm-8pm are $1.25 each.",
+    "rewrite": "Weekdays from 4pm to 8pm, tacos are $1.25 each."
+   }
+  },
+  "sentences_rewritten": 11,
+  "eligible": 11,
+  "per_sentence": [
+   {
+    "index": 13,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 16,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 14,
+    "survivors": 13,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 23,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 15,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 26,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "not changed. The iconic menu, topped with the cheeky sentence \u201cWe don\u2019t guarantee quality as my wife kills rodents and keeps roaches and rats away,\u201d has been updated with some more fresh dishes and flavors: smoked brisket, chicken almendrado, carnitas, lengua and an arepa ($5.49 according to appetite). Similar to the sit-down location, Taco Tuesdays are massive here. Weekdays from 4pm to 8pm, tacos are $1.25 each.\nTito's Tacos is situated at 805 West Manchester Blvd, Inglewood, CA 90301. For more information visit https://tittos.com/, or call (310) 675-4219.\nSitting on the east side of West Los Angeles is the food incubator Platform 626. Dive into a mouth-watering dinner before or after your taco crawl. Photo: Paul Thompson.\nLooking for an \"adult\" menu now that you're older? We agree. At Carnitas el Maguey in West Los Angeles, the star taco is the Crispy Pork Carnitas al Pastor from the El Maguey San Diego restaurant chain. The perfectly crispy exterior formed by a five-hour resting period complements the al pastor marinated in sour orange sauce beautifully. Along with an endless variety of combinations, El Maguey boasts a die-hard fan favorite called the Super Macho. This taco includes a generous serving of pico de gallo, diced chips, cheese, sour cream, and various meat options you can choose from the taco bar.\nCarnitas el Maguey, West Los Angeles has its location at 12620 Doheny Rd Suite 3, West Los Angeles. For more information visit http://elmaguey.com/ or call (424) 249-1947.\nWhile Corazon de Tlamanal almost triggered some players' taco buttons with the ordering, it\u2019s all worthwhile once you assemble the pieces.\nAnother Mexican restaurant with a",
+  "z0": 7.92360821433446,
+  "seconds": 374.4
+ }
+}

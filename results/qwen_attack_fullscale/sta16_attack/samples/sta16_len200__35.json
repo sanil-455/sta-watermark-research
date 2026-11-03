@@ -1,0 +1,245 @@
+{
+ "sample_id": "sta16_len200:35",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.9247606019151847,
+ "needed_share": 0.7950415126995515,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 731,
+  "segments": 7,
+  "eligible": 6,
+  "skipped": 1,
+  "skip_reasons": {
+   "starts mid-sentence": 1
+  },
+  "eligible_chars": 676,
+  "eligible_char_share": 0.9247606019151847
+ },
+ "attack": {
+  "z0": 9.758073580374356,
+  "z_final": 1.9958974315773466,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 153,
+  "seconds": 177.0,
+  "seconds_by_phase": {
+   "generate": 164.3,
+   "gates": 12.6,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 269,
+    "z_before": 9.758073580374356,
+    "z_after": 6.08697642933518,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "CJK text": 3,
+      "negation count changed": 11,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 46,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.56
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 133,
+    "z_before": 6.08697642933518,
+    "z_after": 4.437097101465178,
+    "accepted": true,
+    "survivors": 26,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 27,
+     "after_semantic": 26,
+     "fluency_skipped": false,
+     "after_fluency": 26,
+     "rejected": {
+      "duplicate": 2,
+      "numbers changed": 31,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 72,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.16
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 102,
+    "z_before": 4.437097101465178,
+    "z_after": 3.5195307605124793,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "duplicate": 3,
+      "perplexity too high": 8
+     }
+    },
+    "queries_total": 121,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.62
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 74,
+    "z_before": 3.5195307605124793,
+    "z_after": 2.573251177328327,
+    "accepted": true,
+    "survivors": 24,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 26,
+     "after_spelling": 26,
+     "after_content": 25,
+     "after_semantic": 25,
+     "fluency_skipped": false,
+     "after_fluency": 24,
+     "rejected": {
+      "duplicate": 23,
+      "preamble": 11,
+      "negation count changed": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 145,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.73
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 53,
+    "z_before": 2.573251177328327,
+    "z_after": 1.9958974315773466,
+    "accepted": true,
+    "survivors": 8,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 18,
+     "after_spelling": 17,
+     "after_content": 17,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 8,
+     "rejected": {
+      "duplicate": 41,
+      "CJK text": 1,
+      "unknown word": 1,
+      "meaning too different": 6,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 153,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 13.26
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "I also haven't seen evidence that a larger screen would enable more battery life (does anybody have info?) - the physics of whichever size screen I'm holding is the limiting factor - it takes the same amount of energy to display pixels regardless of how many there are.",
+    "rewrite": "Similarly, I haven't found evidence that a bigger screen allows for better battery life; rather, the size of the screen I'm currently holding determines the energy usage, as displaying pixels consumes the same amount of energy irrespective of their quantity."
+   },
+   "3": {
+    "original": "I suspect phones we're are holding will be getting an extra 50th of an inch each time - adding 0.5-1.0 inch would not be intolerable.",
+    "rewrite": "I suspect that each phone will grow by an additional 50th of an inch\u2014adding 0.5 to 1.0 inch would not be considered excessive."
+   },
+   "1": {
+    "original": "I'd be willing to pay more for the extra iPhone screen real estate -- it wouldn't be as much as ~$150.",
+    "rewrite": "I'm willing to spend more for the additional screen space on my iPhone \u2014 it wouldn't exceed ~$150."
+   },
+   "4": {
+    "original": "Yes, but should Apple (and others) come out with a 4.75-inch Retina phone?",
+    "rewrite": "Is it possible that Apple (and others) might release a 4.75-inch Retina phone?"
+   },
+   "5": {
+    "original": "I think that would alienate some of the iPhone crowd.",
+    "rewrite": "I believe that might alienate some iPhone users."
+   }
+  },
+  "final_span": "phone if every phone maxed out at 4.3-4.5 inches. I'm willing to spend more for the additional screen space on my iPhone \u2014 it wouldn't exceed ~$150. Similarly, I haven't found evidence that a bigger screen allows for better battery life; rather, the size of the screen I'm currently holding determines the energy usage, as displaying pixels consumes the same amount of energy irrespective of their quantity.\nI suspect that each phone will grow by an additional 50th of an inch\u2014adding 0.5 to 1.0 inch would not be considered excessive.\nIs it possible that Apple (and others) might release a 4.75-inch Retina phone? I believe that might alienate some iPhone users. And it would create the risk of feature envy.",
+  "break_point": {
+   "step": 4,
+   "sentences_rewritten": 5,
+   "queries": 153
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 5,
+   "eligible": 6,
+   "segments": 7,
+   "pct_of_eligible": 83.33333333333333,
+   "pct_of_segments": 71.42857142857143
+  },
+  "tokens": {
+   "original": 201,
+   "final": 184,
+   "length_change": -17,
+   "pct_not_preserved": 37.810945273631845,
+   "pct_new": 32.065217391304344
+  },
+  "words": {
+   "original": 135,
+   "final": 120,
+   "length_change": -15,
+   "pct_not_preserved": 48.88888888888889,
+   "pct_new": 42.50000000000001
+  },
+  "characters": {
+   "original": 731,
+   "final": 708,
+   "length_change": -23,
+   "pct_not_preserved": 34.61012311901504,
+   "pct_new": 32.485875706214685
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 169,
+   "green_after": 105,
+   "pairs_before": 200,
+   "pairs_after": 183,
+   "pairs_changed_before": 106,
+   "pairs_changed_after": 89,
+   "green_fraction_of_new_pairs": 0.34831460674157305,
+   "delta_achieved": 0.15168539325842695
+  }
+ }
+}

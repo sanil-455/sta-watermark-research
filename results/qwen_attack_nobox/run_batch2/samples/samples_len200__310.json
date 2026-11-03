@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:310",
+ "nobox": {
+  "z_final": 4.1823991095491815,
+  "status": "not broken",
+  "rewrites": {
+   "8": {
+    "original": "In addition to the controversial claims made by former Scientologists, reports continue to surface about damage to Suri Cruise\u2019s emotional wellbeing.",
+    "rewrite": "Alongside controversial claims by former Scientologists, ongoing reports persist regarding damage to Suri Cruise\u2019s emotional wellbeing."
+   },
+   "7": {
+    "original": "The 48 Hours interview will be broadcast on Friday.",
+    "rewrite": "On Friday, the 48 Hours interview will be broadcast."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 8,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 8,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "recruiter than Tom. He got recruits. He got them in there who did not know what it was, and he got their kids in there and his interest went from there, and he\u2019s a Martinis and Camelot.\u201d Pressley added, \u201cIt goes at 2 o\u2019clock in the morning, because he was allowed to be up watching after his kid. And according to the plan, there was a child location, Katie was at the child location. These are all things that\u2019s public knowledge, and all kinds of documents that I was in charge of. As a prosecutor, you would categorically say, \u2018This is not just somebody\u2019s opinion, this is actually documented.'\u201d\nOn Friday, the 48 Hours interview will be broadcast. Alongside controversial claims by former Scientologists, ongoing reports persist regarding damage to Suri Cruise\u2019s emotional wellbeing. The New York",
+  "z0": 5.091168824543142,
+  "seconds": 50.5
+ }
+}

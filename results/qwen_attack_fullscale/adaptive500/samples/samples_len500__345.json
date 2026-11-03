@@ -1,0 +1,338 @@
+{
+ "sample_id": "samples_len500:345",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.7920549288867091,
+ "needed_share": 0.7646244234210748,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2039,
+  "segments": 16,
+  "eligible": 11,
+  "skipped": 5,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "no final punctuation": 2,
+   "too short": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1615,
+  "eligible_char_share": 0.7920549288867091
+ },
+ "attack": {
+  "z0": 8.497058314499201,
+  "z_final": 1.956038587687303,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 355,
+  "seconds": 356.9,
+  "seconds_by_phase": {
+   "generate": 327.4,
+   "gates": 29.3,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 280,
+    "z_before": 8.497058314499201,
+    "z_after": 6.9248892999359395,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 56,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 61.82
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 257,
+    "z_before": 6.9248892999359395,
+    "z_after": 5.942001786396645,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 111,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 49.56
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 171,
+    "z_before": 5.942001786396645,
+    "z_after": 4.890096469218258,
+    "accepted": true,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 38,
+     "after_content": 38,
+     "after_semantic": 38,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "CJK text": 12,
+      "several lines": 3,
+      "unknown word": 7
+     }
+    },
+    "queries_total": 149,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 47.4
+   },
+   {
+    "pass": 1,
+    "segment": 14,
+    "chars": 168,
+    "z_before": 4.890096469218258,
+    "z_after": 4.000988020269483,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 52,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "CJK text": 3,
+      "several lines": 1,
+      "unknown word": 4,
+      "quotation changed": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 196,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.73
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 147,
+    "z_before": 4.000988020269483,
+    "z_after": 3.337456196174886,
+    "accepted": true,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "duplicate": 12,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 242,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.41
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 144,
+    "z_before": 3.337456196174886,
+    "z_after": 2.6673253468463223,
+    "accepted": true,
+    "survivors": 30,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 31,
+     "after_content": 31,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 30,
+     "rejected": {
+      "duplicate": 1,
+      "CJK text": 1,
+      "unknown word": 27,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 272,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.06
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 123,
+    "z_before": 2.6673253468463223,
+    "z_after": 2.3958625754235072,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "duplicate": 5,
+      "numbers changed": 7
+     }
+    },
+    "queries_total": 320,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.77
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 102,
+    "z_before": 2.3958625754235072,
+    "z_after": 1.956038587687303,
+    "accepted": true,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 35,
+     "after_spelling": 35,
+     "after_content": 35,
+     "after_semantic": 35,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "duplicate": 25
+     }
+    },
+    "queries_total": 355,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.61
+   }
+  ],
+  "rewrites": {
+   "5": {
+    "original": "When he is framed for losing a city to the Northern barbarians, King Sang-Ook bears the blame and is forced into a suicidal duel in order to save his people and his fatherland right before the Lunar New Year \u2013 a time of peace, happiness and joy when Chinese families get together.",
+    "rewrite": "King Sang-Ook, falsely accused of forfeiting a city to the Northern barbarians, confronts a compelled and deadly duel to safeguard his populace and homeland just prior to the Lunar New Year \u2013 a season of peace, happiness, and joy marked by Chinese families reunite."
+   },
+   "2": {
+    "original": "Coming to Chinese audiences just in time for China's biggest online entertainment phenomenon, which is the Lunar New Year holiday, debuting first amongst Chinese audiences especially at the small screen is well-known Dutch and Portuguese series Onda Nova...",
+    "rewrite": "Debuting first amongst Chinese audiences, especially during the lunar new year holiday when China's biggest online entertainment phenomena are on full display, Onda Nova, a well-known Dutch and Portuguese series, arrives just in time for Chinese audiences..."
+   },
+   "9": {
+    "original": "Hong Sang-Ook was made and shot in Portugal, but has now become a product of two different nations and industries is destined to make its mark on the Chinese small screen.",
+    "rewrite": "HONG Sang-Ook was conceptualized and filmed in Portugal, yet it is now recognized as a product of two nations and industries, destined to leave an impact on the Chinese television scene."
+   },
+   "14": {
+    "original": "Being dubbed iQiyi, which means \"watching the moon\" in Chinese, Youku plans on primarily focusing on TV programmes and films made by the Chinese maker group themselves.",
+    "rewrite": "Named iQiyi, which translates to \"watching the moon\" in Chinese, Youku intends to concentrate mainly on TV shows and films produced by Chinese content creators themselves."
+   },
+   "4": {
+    "original": "Plot focus, named character Sangok, is Chinese warlord Hong Kong Sang-Ook, a hot-tempered but honourable warrior-king who wants to found an empire.",
+    "rewrite": "The plot centers on named character Hong Kong Sang-Ook, a warlord known as Sangok, who is fiery yet honourable and seeks to establish an empire."
+   },
+   "11": {
+    "original": "Jaylin Zhu, manager of the content department at Youku, revealed intentions to find and film more relevant stories for the Chinese small screen.",
+    "rewrite": "The manager of the content department at Youku, Jaylin Zhu, disclosed plans to discover and produce additional pertinent tales for the Chinese television audience."
+   },
+   "12": {
+    "original": "With almost 500 million registered accounts and 52.3 million paying customers (net of Outlook), that is certainly possible.",
+    "rewrite": "Having nearly 500 million registered accounts and 52.3 million paying customers (excluding Outlook), it is certainly plausible."
+   },
+   "10": {
+    "original": "It is simple as it gets to possible, since its series name itself basically translates as \"Hong Kong\".",
+    "rewrite": "It is as simple as possible, given that its series title basically translates to \"Hong Kong\"."
+   }
+  },
+  "final_span": "and Ripper Street to the Qiaobiyun Youku Overseas Online Platform \u2013 with both going live yesterday on the platform as Season 1 whilst simultaneously going live on overseas platform Youku Entertainment.\nAnother of Endemol's programmes, Peaky Blinders goes live on the platform\nDebuting first amongst Chinese audiences, especially during the lunar new year holiday when China's biggest online entertainment phenomena are on full display, Onda Nova, a well-known Dutch and Portuguese series, arrives just in time for Chinese audiences... Hong Sang-Ook.\nThe plot centers on named character Hong Kong Sang-Ook, a warlord known as Sangok, who is fiery yet honourable and seeks to establish an empire. King Sang-Ook, falsely accused of forfeiting a city to the Northern barbarians, confronts a compelled and deadly duel to safeguard his populace and homeland just prior to the Lunar New Year \u2013 a season of peace, happiness, and joy marked by Chinese families reunite.\nProud but deep-in-debt warlord Hong Sang-Ook is the central character to Onda Nova... Hong Sang-Ook\nDeveloped with the help of the Korean branch of Endemol, Onda Nova... HONG Sang-Ook was conceptualized and filmed in Portugal, yet it is now recognized as a product of two nations and industries, destined to leave an impact on the Chinese television scene. It is as simple as possible, given that its series title basically translates to \"Hong Kong\".\nThe manager of the content department at Youku, Jaylin Zhu, disclosed plans to discover and produce additional pertinent tales for the Chinese television audience. Having nearly 500 million registered accounts and 52.3 million paying customers (excluding Outlook), it is certainly plausible.\nYouku will be featuring one of its other services for the time being. Named iQiyi, which translates to \"watching the moon\" in Chinese, Youku intends to concentrate mainly on TV shows and films produced by Chinese content creators themselves. Still getting the their focus for the coming Chinese New Year surrounding, iQiyi and its sister company iQiy",
+  "break_point": {
+   "step": 7,
+   "sentences_rewritten": 8,
+   "queries": 355
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 8,
+   "eligible": 11,
+   "segments": 16,
+   "pct_of_eligible": 72.72727272727273,
+   "pct_of_segments": 50.0
+  },
+  "tokens": {
+   "original": 501,
+   "final": 507,
+   "length_change": 6,
+   "pct_not_preserved": 30.53892215568862,
+   "pct_new": 31.360946745562135
+  },
+  "words": {
+   "original": 331,
+   "final": 322,
+   "length_change": -9,
+   "pct_not_preserved": 37.160120845921455,
+   "pct_new": 35.40372670807454
+  },
+  "characters": {
+   "original": 2039,
+   "final": 2054,
+   "length_change": 15,
+   "pct_not_preserved": 22.903384011770477,
+   "pct_new": 23.46640701071081
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 345,
+   "green_after": 275,
+   "pairs_before": 500,
+   "pairs_after": 506,
+   "pairs_changed_before": 206,
+   "pairs_changed_after": 212,
+   "green_fraction_of_new_pairs": 0.3915094339622642,
+   "delta_achieved": 0.10849056603773582
+  }
+ }
+}

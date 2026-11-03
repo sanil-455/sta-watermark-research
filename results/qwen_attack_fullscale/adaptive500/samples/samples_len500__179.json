@@ -1,0 +1,437 @@
+{
+ "sample_id": "samples_len500:179",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.9323600973236009,
+ "needed_share": 0.7763932022500211,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2055,
+  "segments": 15,
+  "eligible": 13,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1916,
+  "eligible_char_share": 0.9323600973236009
+ },
+ "attack": {
+  "z0": 8.94427190999916,
+  "z_final": 1.6035674514745464,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 322,
+  "seconds": 489.5,
+  "seconds_by_phase": {
+   "generate": 464.4,
+   "gates": 24.9,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 224,
+    "z_before": 8.94427190999916,
+    "z_after": 8.245237155047263,
+    "accepted": true,
+    "survivors": 17,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 48,
+     "after_content": 17,
+     "after_semantic": 17,
+     "fluency_skipped": false,
+     "after_fluency": 17,
+     "rejected": {
+      "several lines": 3,
+      "CJK text": 4,
+      "duplicate": 1,
+      "unknown word": 4,
+      "negation count changed": 31
+     }
+    },
+    "queries_total": 18,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.64
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 220,
+    "z_before": 8.245237155047263,
+    "z_after": 7.717121969151564,
+    "accepted": true,
+    "survivors": 26,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 26,
+     "fluency_skipped": false,
+     "after_fluency": 26,
+     "rejected": {
+      "CJK text": 12,
+      "several lines": 3,
+      "unknown word": 3,
+      "meaning too different": 16
+     }
+    },
+    "queries_total": 44,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 70.02
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 191,
+    "z_before": 7.717121969151564,
+    "z_after": 7.137712432951485,
+    "accepted": true,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 2,
+     "after_content": 2,
+     "after_semantic": 2,
+     "fluency_skipped": true,
+     "after_fluency": 2,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 56
+     }
+    },
+    "queries_total": 46,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.05
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 183,
+    "z_before": 7.137712432951485,
+    "z_after": 6.260245152643525,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "CJK text": 2,
+      "several lines": 2,
+      "duplicate": 2,
+      "unknown word": 4,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 94,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 39.7
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 179,
+    "z_before": 6.260245152643525,
+    "z_after": 5.466950722368295,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "CJK text": 4,
+      "hit length limit": 1,
+      "unknown word": 5,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 142,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 42.8
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 171,
+    "z_before": 5.466950722368295,
+    "z_after": 4.979030474580448,
+    "accepted": true,
+    "survivors": 20,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 21,
+     "after_spelling": 20,
+     "after_content": 20,
+     "after_semantic": 20,
+     "fluency_skipped": false,
+     "after_fluency": 20,
+     "rejected": {
+      "duplicate": 39,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 162,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 52.5
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 143,
+    "z_before": 4.979030474580448,
+    "z_after": 4.049291435992628,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "several lines": 1,
+      "duplicate": 3,
+      "CJK text": 1
+     }
+    },
+    "queries_total": 217,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 37.02
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 134,
+    "z_before": 4.049291435992628,
+    "z_after": 3.667151483099655,
+    "accepted": true,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 35,
+     "after_spelling": 35,
+     "after_content": 35,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "CJK text": 22,
+      "hit length limit": 1,
+      "several lines": 2,
+      "meaning too different": 5,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 245,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 37.09
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 112,
+    "z_before": 3.667151483099655,
+    "z_after": 2.9873823458536557,
+    "accepted": true,
+    "survivors": 30,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 35,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 30,
+     "rejected": {
+      "duplicate": 25,
+      "unknown word": 5
+     }
+    },
+    "queries_total": 275,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.96
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 111,
+    "z_before": 2.9873823458536557,
+    "z_after": 2.1848020141317783,
+    "accepted": true,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 38,
+     "after_content": 38,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "CJK text": 3,
+      "several lines": 1,
+      "duplicate": 9,
+      "unknown word": 9,
+      "meaning too different": 4
+     }
+    },
+    "queries_total": 309,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.14
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 92,
+    "z_before": 2.1848020141317783,
+    "z_after": 1.6035674514745464,
+    "accepted": true,
+    "survivors": 13,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 14,
+     "after_spelling": 14,
+     "after_content": 14,
+     "after_semantic": 14,
+     "fluency_skipped": false,
+     "after_fluency": 13,
+     "rejected": {
+      "duplicate": 44,
+      "CJK text": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 322,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.51
+   }
+  ],
+  "rewrites": {
+   "4": {
+    "original": "He said claims of the Punjab Chief Minister about performing the complete national duty were baseless as India would not be disinterested if the Pakistan Democratic Movement (PDM) defeated his party in Lok Sabha\u2019s elections.",
+    "rewrite": "He stated that the Punjab Chief Minister\u2019s assertions about fulfilling all national duties were unfounded, as India would not remain uninvolved if the PDM triumphed in the Lok Sabha elections."
+   },
+   "2": {
+    "original": "People\u2019s National Party senior leader Sikandar Sherpao said that it was unfortunate that police officials came to the house of an ordinary citizen and laid siege, apprehending that some bomb would be placed in the house.",
+    "rewrite": "People\u2019s National Party senior leader Sikandar Sherpao mentioned that it was unfortunate when police officers surrounded the home of a regular citizen, fearing that a bomb might be planted there."
+   },
+   "5": {
+    "original": "He questioned the claims of the Punjab Law Minister Raja Basharat about stopping bus fleecers in Punjab terming it as contrary to their claims in Sindh about taking over the Sindh government.",
+    "rewrite": "He doubted the Punjab Law Minister Raja Bash\u0430\u0440\u0430\u0442's claims on halting bus fleecers, seeing them as contradicted by their statements in Sindh regarding taking charge of the Sindh government."
+   },
+   "3": {
+    "original": "He said that on humanitarian grounds the police officials\u2019 children should visit Afghanistan as they were tribals and their children should know the customs and traditions of Afghans.",
+    "rewrite": "He stated that for humanitarian reasons, the children of police officials ought to visit Afghanistan, as being tribals, their kids should understand the customs and traditions of Afghans."
+   },
+   "1": {
+    "original": "He demanded action against the officials involved in Sahiwal killings and release of arrested farmers, who were detained at different cities and sold animals over a disputed land.",
+    "rewrite": "He insisted on action against officials implicated in the Sahiwal killings and called for the release of detained farmers in various cities whose animals had been sold due to a dispute over land."
+   },
+   "12": {
+    "original": "Nawabzada Haji Aminul Hasnat Khan of Pakhtunkhwa Milli Awami Party (PMLA) said that a commission under the supervision of a high-court judge should probe Sahiwal incident.",
+    "rewrite": "Nawabzada Haji Aminul Hasnat Khan from Pakhtunkhwa Milli Awami Party (PMLA) stated that a commission overseen by a high-court judge ought to investigate the Sahiwal incident."
+   },
+   "9": {
+    "original": "He criticised the ministers involved in Sahiwal incident and said that either they are supporting or doing such incidents were a shame to them.",
+    "rewrite": "He condemned the ministers involved in the Sahiwal incident and stated that such support or participation in these events were a shame."
+   },
+   "10": {
+    "original": "He said that a conspiracy was made to kill the innocent citizens and the wretched Class-IV employees accompanied the police officials.",
+    "rewrite": "He stated that a conspiracy had been formulated to assassinate innocent citizens along with the low-ranking Class-IV employees who were with the police officials."
+   },
+   "8": {
+    "original": "Jamiat Ahle Hadis leader Pir Azhar Hussain Rizvi condemned the killing in a conspiracy by the police in Sahiwal.",
+    "rewrite": "Pir Azhar Hussain Rizvi, the leader of Jamiat Ahle Hadis, condemned the killing as a police conspiracy in Sahiwal."
+   },
+   "7": {
+    "original": "He said the Pakistan Tehreek-e-Insaf should have learnt lessons from Punjab instead of celebrating the victory.",
+    "rewrite": "He stated that the Pakistan Tehreek-e-Insaf ought to have learned from Punjab rather than commemorating their triumph."
+   },
+   "6": {
+    "original": "Mr Sherpao said that the Punjab law minister\u2019s son was party to corrupt practices in Punjab.",
+    "rewrite": "Mr Sherpao stated that the son of Punjab's law minister was involved in corrupt activities in Punjab."
+   }
+  },
+  "final_span": "the wounds of the dead people.\nHe insisted on action against officials implicated in the Sahiwal killings and called for the release of detained farmers in various cities whose animals had been sold due to a dispute over land.\nPeople\u2019s National Party senior leader Sikandar Sherpao mentioned that it was unfortunate when police officers surrounded the home of a regular citizen, fearing that a bomb might be planted there. He stated that for humanitarian reasons, the children of police officials ought to visit Afghanistan, as being tribals, their kids should understand the customs and traditions of Afghans.\nHe stated that the Punjab Chief Minister\u2019s assertions about fulfilling all national duties were unfounded, as India would not remain uninvolved if the PDM triumphed in the Lok Sabha elections.\nHe doubted the Punjab Law Minister Raja Bash\u0430\u0440\u0430\u0442's claims on halting bus fleecers, seeing them as contradicted by their statements in Sindh regarding taking charge of the Sindh government.\nMr Sherpao stated that the son of Punjab's law minister was involved in corrupt activities in Punjab. He stated that the Pakistan Tehreek-e-Insaf ought to have learned from Punjab rather than commemorating their triumph.\nPir Azhar Hussain Rizvi, the leader of Jamiat Ahle Hadis, condemned the killing as a police conspiracy in Sahiwal. He condemned the ministers involved in the Sahiwal incident and stated that such support or participation in these events were a shame. He stated that a conspiracy had been formulated to assassinate innocent citizens along with the low-ranking Class-IV employees who were with the police officials. He said that a political session should be held in Sahiwal to discuss the sad incidents.\nNawabzada Haji Aminul Hasnat Khan from Pakhtunkhwa Milli Awami Party (PMLA) stated that a commission overseen by a high-court judge ought to investigate the Sahiwal incident. He said the ministers should appear before the judicial, commission.\nHe said Sahiwal incident was a barbaric act and questioned the police officials of the province",
+  "break_point": {
+   "step": 10,
+   "sentences_rewritten": 11,
+   "queries": 322
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 11,
+   "eligible": 13,
+   "segments": 15,
+   "pct_of_eligible": 84.61538461538461,
+   "pct_of_segments": 73.33333333333333
+  },
+  "tokens": {
+   "original": 501,
+   "final": 505,
+   "length_change": 4,
+   "pct_not_preserved": 31.73652694610778,
+   "pct_new": 32.277227722772274
+  },
+  "words": {
+   "original": 329,
+   "final": 323,
+   "length_change": -6,
+   "pct_not_preserved": 44.07294832826748,
+   "pct_new": 43.034055727554176
+  },
+  "characters": {
+   "original": 2055,
+   "final": 2056,
+   "length_change": 1,
+   "pct_not_preserved": 29.391727493917273,
+   "pct_new": 29.426070038910503
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 350,
+   "green_after": 270,
+   "pairs_before": 500,
+   "pairs_after": 504,
+   "pairs_changed_before": 238,
+   "pairs_changed_after": 242,
+   "green_fraction_of_new_pairs": 0.371900826446281,
+   "delta_achieved": 0.12809917355371903
+  }
+ }
+}

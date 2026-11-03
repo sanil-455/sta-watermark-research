@@ -1,0 +1,361 @@
+{
+ "sample_id": "samples_len500:172",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.7607612143180789,
+ "needed_share": 0.727308783231733,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2207,
+  "segments": 14,
+  "eligible": 9,
+  "skipped": 5,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 3,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1679,
+  "eligible_char_share": 0.7607612143180789
+ },
+ "attack": {
+  "z0": 7.33430296619931,
+  "z_final": 1.7529196424044293,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 317,
+  "seconds": 365.2,
+  "seconds_by_phase": {
+   "generate": 339.2,
+   "gates": 25.8,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 287,
+    "z_before": 7.33430296619931,
+    "z_after": 6.78694528212997,
+    "accepted": true,
+    "survivors": 60,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 60,
+     "after_content": 60,
+     "after_semantic": 60,
+     "fluency_skipped": false,
+     "after_fluency": 60,
+     "rejected": {}
+    },
+    "queries_total": 61,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 56.81
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 261,
+    "z_before": 6.78694528212997,
+    "z_after": 6.465790872963897,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 46,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "duplicate": 14,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 105,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 55.23
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 213,
+    "z_before": 6.465790872963897,
+    "z_after": 5.8643654015695725,
+    "accepted": true,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 12,
+     "after_spelling": 11,
+     "after_content": 11,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "duplicate": 48,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 116,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.01
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 191,
+    "z_before": 5.8643654015695725,
+    "z_after": 5.108462150409718,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 5,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 167,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.03
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 163,
+    "z_before": 5.108462150409718,
+    "z_after": 4.679181214924815,
+    "accepted": true,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 40,
+     "after_spelling": 36,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "duplicate": 20,
+      "unknown word": 4
+     }
+    },
+    "queries_total": 203,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.51
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 158,
+    "z_before": 4.679181214924815,
+    "z_after": 3.9423463135361607,
+    "accepted": true,
+    "survivors": 22,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 24,
+     "after_spelling": 24,
+     "after_content": 24,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 22,
+     "rejected": {
+      "duplicate": 36,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 225,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.66
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 152,
+    "z_before": 3.9423463135361607,
+    "z_after": 2.8066081273180745,
+    "accepted": true,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 41,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "duplicate": 19,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 265,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.45
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 138,
+    "z_before": 2.8066081273180745,
+    "z_after": 2.429574861595577,
+    "accepted": true,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 22,
+     "after_spelling": 22,
+     "after_content": 22,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "identical to original": 2,
+      "duplicate": 36,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 284,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.29
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 116,
+    "z_before": 2.429574861595577,
+    "z_after": 1.7529196424044293,
+    "accepted": true,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 41,
+     "after_spelling": 40,
+     "after_content": 40,
+     "after_semantic": 40,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "duplicate": 19,
+      "unknown word": 1,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 317,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.21
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "Law students Cristina Maldonado and Vanessa Sanchez, both third-year members of The Walter S. Leas Jr. Mock Trial Team at Vanderbilt Law School, will assist Adamson and Rudovsky during their presentations and will conduct a question and answer session after their presentations conclude.",
+    "rewrite": "Third-year law students Cristina Maldonado and Vanessa Sanchez from The Walter S. Leas Jr. Mock Trial Team at Vanderbilt Law School will support Adamson and Rudovsky during their presentations and will host a question and answer session following their presentations."
+   },
+   "9": {
+    "original": "Davidson County Clerk Brenda Wynn; Ayanna Starks, a member of the Bedroom Light String Band, which is one of the oldest musical groups in Nashville; and Patrick Robinson, a senior legal strategist for the American Civil Liberties Union, will moderate the panel.",
+    "rewrite": "Brenda Wynn from Davidson County Clerk; Ayanna Starks, a member of the Bedroom Light String Band, known as one of the oldest musical groups in Nashville; and Patrick Robinson, a senior legal strategist for the American Civil Liberties Union, will moderate the panel."
+   },
+   "3": {
+    "original": "The symposium\u2019s second session will feature Vanden Bossche of the Central Alabama Chapter of the NAACP; Vanderbilt Law School professor Ralph Taylor; and Stuart McElhinny, with the Nashville Transitional Services.",
+    "rewrite": "During the symposium\u2019s second session, participants will hear from Vanden Bossche of the Central Alabama Chapter of the NAACP, Vanderbilt Law School professor Ralph Taylor, and Stuart McElhinny from Nashville Transitional Services."
+   },
+   "7": {
+    "original": "McElhinny will discuss how law enforcement can effectively interact with the transgender community and offer insight on issues related to the transgender community that law enforcement faces.",
+    "rewrite": "McElhinny will examine the effective interaction between law enforcement and the transgender community, providing insight into the challenges faced by law enforcement regarding this group."
+   },
+   "1": {
+    "original": "David Rudovsky, a professor at the University of Pennsylvania School of Law will deliver a presentation on the law in relation to race, violence and public policy.",
+    "rewrite": "David Rudovsky, a law professor at the University of Pennsylvania, will present on the law concerning race, violence, and public policy."
+   },
+   "4": {
+    "original": "Taylor will speak about the history of law enforcement in the United States and the impact it has had on the way various minority groups have been dealt with.",
+    "rewrite": "Taylor will discuss the historical development of law enforcement in the United States and its effects on the treatment of diverse minority groups."
+   },
+   "8": {
+    "original": "The third session will begin at 1 p.m. The panel for the session will feature Brittany Greeson, youth coordinator at the Nashville Youth Amnesty Center.",
+    "rewrite": "The third session, starting at 1 p.m., will include Brittany Greeson, the youth coordinator from the Nashville Youth Amnesty Center, as a panelist."
+   },
+   "10": {
+    "original": "Third-year law student Mary Coffey and second-year law student Jim Justice Latham will assist Greeson and the Moderators during the panel.",
+    "rewrite": "Mary Coffey, a third-year law student, and Jim Justice Latham, a second-year law student, will assist Greeson and the Moderators during the panel."
+   },
+   "11": {
+    "original": "The panel will provide an overview of the experiences transgender people have when interacting with law enforcement.",
+    "rewrite": "The panel will offer insights into the experiences of transgender individuals during their encounters with law enforcement."
+   }
+  },
+  "final_span": "the press can sometimes make it more difficult to let the facts of an incident which may be complex and intermingled with emotion,\u201d said Adamson.\nDavid Rudovsky, a law professor at the University of Pennsylvania, will present on the law concerning race, violence, and public policy.\nThird-year law students Cristina Maldonado and Vanessa Sanchez from The Walter S. Leas Jr. Mock Trial Team at Vanderbilt Law School will support Adamson and Rudovsky during their presentations and will host a question and answer session following their presentations.\nDuring the symposium\u2019s second session, participants will hear from Vanden Bossche of the Central Alabama Chapter of the NAACP, Vanderbilt Law School professor Ralph Taylor, and Stuart McElhinny from Nashville Transitional Services.\nTaylor will discuss the historical development of law enforcement in the United States and its effects on the treatment of diverse minority groups.\n\u201c[What should I bring to the symposium?] Just a sense of open mindedness for whatever the information will be and being willing to look at this very serious problem of race relations in the criminal justice system in a different way,\u201d said Taylor.\nMcElhinny will examine the effective interaction between law enforcement and the transgender community, providing insight into the challenges faced by law enforcement regarding this group.\nThe third session, starting at 1 p.m., will include Brittany Greeson, the youth coordinator from the Nashville Youth Amnesty Center, as a panelist.\nBrenda Wynn from Davidson County Clerk; Ayanna Starks, a member of the Bedroom Light String Band, known as one of the oldest musical groups in Nashville; and Patrick Robinson, a senior legal strategist for the American Civil Liberties Union, will moderate the panel.\nMary Coffey, a third-year law student, and Jim Justice Latham, a second-year law student, will assist Greeson and the Moderators during the panel. The panel will offer insights into the experiences of transgender individuals during their encounters with law enforcement.\n\u201cWe\u2019re not really doing anything groundbreaking here,\u201d said Wynn. \u201cWe\u2019re not explaining how the justice system handles things",
+  "break_point": {
+   "step": 8,
+   "sentences_rewritten": 9,
+   "queries": 317
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 9,
+   "eligible": 9,
+   "segments": 14,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 64.28571428571429
+  },
+  "tokens": {
+   "original": 501,
+   "final": 496,
+   "length_change": -5,
+   "pct_not_preserved": 20.159680638722556,
+   "pct_new": 19.354838709677423
+  },
+  "words": {
+   "original": 347,
+   "final": 333,
+   "length_change": -14,
+   "pct_not_preserved": 27.665706051873194,
+   "pct_new": 24.624624624624623
+  },
+  "characters": {
+   "original": 2207,
+   "final": 2179,
+   "length_change": -28,
+   "pct_not_preserved": 16.447666515632076,
+   "pct_new": 15.374024782010098
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 332,
+   "green_after": 267,
+   "pairs_before": 500,
+   "pairs_after": 495,
+   "pairs_changed_before": 146,
+   "pairs_changed_after": 141,
+   "green_fraction_of_new_pairs": 0.3049645390070922,
+   "delta_achieved": 0.1950354609929078
+  }
+ }
+}

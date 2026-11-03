@@ -1,0 +1,71 @@
+{
+ "sample_id": "sta16_len200:78",
+ "nobox": {
+  "z_final": 8.632907598026236,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "He has touched our humanity first as man\u2019s maker and partner, and finally, and predominantly, as our Redeemer by bearing our sins to the Cross.",
+    "rewrite": "First as man's maker and partner, and finally and predominantly as our Redeemer by bearing our sins to the Cross, he has touched our humanity."
+   },
+   "1": {
+    "original": "He is no stranger in heaven approaching us; He has knit us together by His Spirit inside the wombs of our mothers in utero.",
+    "rewrite": "He is not unfamiliar in heaven approaching us; He has woven us together with His Spirit within the wombs of our mothers in utero."
+   },
+   "6": {
+    "original": "God who has touched you and I, we don\u2019t laugh three time like doves at a wedding.",
+    "rewrite": "God who has touched you and me, we don't laugh three times like doves at a wedding."
+   },
+   "3": {
+    "original": "This God we sing so emphatically is the God we now get to carry us in prayer.",
+    "rewrite": "This God we sing about so fervently is the God who now carries us in prayer."
+   },
+   "4": {
+    "original": "He is looking at me and you now.",
+    "rewrite": "He is looking at both me and you now."
+   },
+   "8": {
+    "original": "Laugh\u2026 We agree with laughter?",
+    "rewrite": "Laugh\u2026 Do we agree with laughter?"
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 8,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 24,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "days to come we are invited to journey through Scripture and see the God of the Bible as intimately invested in creation, and humankind. He is not unfamiliar in heaven approaching us; He has woven us together with His Spirit within the wombs of our mothers in utero. First as man's maker and partner, and finally and predominantly as our Redeemer by bearing our sins to the Cross, he has touched our humanity. This God we sing about so fervently is the God who now carries us in prayer. He is looking at both me and you now. He is touching us now.\nGod who has touched you and me, we don't laugh three times like doves at a wedding. We what? Laugh\u2026 Do we agree with laughter? We party with laughter? We sing with laughter? We talk through laughter? We wait on the verdict of laughter",
+  "z0": 9.758073580374356,
+  "seconds": 184.4
+ }
+}

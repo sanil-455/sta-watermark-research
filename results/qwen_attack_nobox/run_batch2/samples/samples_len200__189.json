@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:189",
+ "nobox": {
+  "z_final": 2.1975317355258412,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Councilman James Rogers, along with co-sponsors Councilmen Chris Wharton and Derek Kitchen, pushed to continue debate on the police hires and their proposed homeless housing project downtown at 360 W. 300 South.",
+    "rewrite": "Councilman James Rogers, alongside Councilmen Chris Wharton and Derek Kitchen as co-sponsors, pushed to continue the debate on the police hires and their proposed homeless housing project downtown at 360 W. 300 South."
+   },
+   "4": {
+    "original": "He argued for a greater investment in youth programs and in neighborhood-based services, which he said are better at prevention than police.",
+    "rewrite": "He advocated for increased investment in youth programs and neighborhood-based services, stating that these are more effective for prevention compared to police."
+   },
+   "3": {
+    "original": "Councilman Charlie Luke repeatedly advocated for more additional money for services aimed at families and neighborhoods.",
+    "rewrite": "Councilman Charlie Luke repeatedly pushed for increased funds for services benefiting families and neighborhoods."
+   },
+   "2": {
+    "original": "The council tabled that vote last week, and the plan for a homeless housing location is still pending.",
+    "rewrite": "Last week, the council tabled the vote, and the plan for a homeless housing location remains pending."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 30,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the budget, which it approved 6-3.\nCouncilman James Rogers, alongside Councilmen Chris Wharton and Derek Kitchen as co-sponsors, pushed to continue the debate on the police hires and their proposed homeless housing project downtown at 360 W. 300 South. Last week, the council tabled the vote, and the plan for a homeless housing location remains pending.\nCouncilman Charlie Luke repeatedly pushed for increased funds for services benefiting families and neighborhoods. He advocated for increased investment in youth programs and neighborhood-based services, stating that these are more effective for prevention compared to police.\n\"We know prevention is very successful, and the police respond during the aftermath,\" Luke said. \"I would hope we would do more in terms of adding resources in our neighborhoods, addressing what our residents tell us is important to them, instead of the",
+  "z0": 3.676955262170047,
+  "seconds": 154.1
+ }
+}

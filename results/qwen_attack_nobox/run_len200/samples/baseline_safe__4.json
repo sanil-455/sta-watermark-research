@@ -1,0 +1,67 @@
+{
+ "sample_id": "baseline_safe:4",
+ "nobox": {
+  "z_final": 1.8571428571428572,
+  "status": "broken",
+  "rewrites": {
+   "1": {
+    "original": "People also have to understand my company receives compensation and airtime from over a hundred private advertisers who support me, and that we accept compensation for producing television shows for educational institutions, trade associations, and dozens of other entities.",
+    "rewrite": "Individuals also need to comprehend that my company earns compensation and airtime from more than a hundred private advertisers who back us, and that we accept compensation for creating television shows for educational institutions, trade associations, and numerous other entities."
+   },
+   "3": {
+    "original": "Any column, audio or video will be free from any compensation so that readers can trust they are uninfluenced by those who are paying us.",
+    "rewrite": "Every column, audio, or video will remain uncompensated to ensure that readers trust in their impartiality from those who pay us."
+   },
+   "6": {
+    "original": "I now understand that even to speak of anything in commerce must be with a voice that is objective.",
+    "rewrite": "Even speaking of commerce requires a voice that is objective, which I now understand."
+   },
+   "2": {
+    "original": "I also do commentaries and consult for literally hundreds of companies.",
+    "rewrite": "I also provide commentaries and consult for nearly hundreds of companies."
+   },
+   "5": {
+    "original": "This initiative represents the bedrock of my beliefs.",
+    "rewrite": "This initiative forms the cornerstone of my beliefs."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 3,
+    "survivors": 1,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 7,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "barriers between my personal views, my company, and the compensation which we do accept. Individuals also need to comprehend that my company earns compensation and airtime from more than a hundred private advertisers who back us, and that we accept compensation for creating television shows for educational institutions, trade associations, and numerous other entities. I also provide commentaries and consult for nearly hundreds of companies. Every column, audio, or video will remain uncompensated to ensure that readers trust in their impartiality from those who pay us.\nI support and believe in school vouchers and in the power of competition to expose institutions, no matter how big, to the reality that children cannot wait any longer to learn. This initiative forms the cornerstone of my beliefs. Even speaking of commerce requires a voice that is objective, which I now understand. So, from now on you will see Greg in everything, not the personal voice,",
+  "z0": 3.5355339059327373,
+  "seconds": 189.5
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:128",
+ "nobox": {
+  "z_final": 3.6055512754639896,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Just a few hours earlier the foreign ministers of the UN Security Council and North Africa reached Tripoli for a meeting to discuss ending the pro-government forces' offensive against Misrata.",
+    "rewrite": "Just a few hours beforehand, the foreign ministers of the UN Security Council and North Africa arrived in Tripoli for a meeting to discuss an end to the pro-government forces' offensive against Misrata."
+   },
+   "4": {
+    "original": "Libyan leaders have also warned of a looming humanitarian disaster during the assault on the besieged city.",
+    "rewrite": "Libyan leaders have likewise warned of an impending humanitarian disaster due to the assault on the encircled city."
+   },
+   "2": {
+    "original": "A military source in Libya told Reuters that the planes bombarded the area around the city airport.",
+    "rewrite": "A Libyan military source told Reuters that the planes bombed the area near the city's airport."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 41,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "ten hours.\n\"The heavy airstrikes are intensifying which have been taking place over the last few weeks in the second largest city of the country over the years, and such a repression can mark a step forward in repeating the Syrian scenario,\" said Arsheen Ahmed, a public policy expert from the UK, to RT.\nA Libyan military source told Reuters that the planes bombed the area near the city's airport.\nJust a few hours beforehand, the foreign ministers of the UN Security Council and North Africa arrived in Tripoli for a meeting to discuss an end to the pro-government forces' offensive against Misrata.\nLibyan leaders have likewise warned of an impending humanitarian disaster due to the assault on the encircled city.\nAccording to the UN humanitarian chief, the number of internally displaced Libyans is already five times larger than it was before the Security Council",
+  "z0": 3.959797974644666,
+  "seconds": 110.8
+ }
+}

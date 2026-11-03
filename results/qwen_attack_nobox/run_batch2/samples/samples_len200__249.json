@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:249",
+ "nobox": {
+  "z_final": 3.256085723815897,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "To name a few things, he said, he\u2019s working on getting back \u201cat the right time\u201d to help initiate India\u2019nToo\u2019s offense.",
+    "rewrite": "He mentioned that he is working on getting back \"at the right time\" to help initiate India'nToo's offense."
+   },
+   "5": {
+    "original": "He has also done a better job offering passes to screens, something he admitted struggling with early in camp.",
+    "rewrite": "He has also improved his job of offering passes to screens, an area he admitted struggling with early in camp."
+   },
+   "3": {
+    "original": "Evans said he\u2019s made small, yet important, improvements since watching tape together with McMillan.",
+    "rewrite": "Evans stated he has implemented minor but significant changes since reviewing tapes with McMillan."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 16,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "his debut with the Pacers.\n\u201cWatching guys like Kevin and Darren and how they\u2019ve become consistent players in their kids this is a little bit different, but guys like Victor and Martin (Gosselin) and Nate (McMillan) run at a real, real steady pace,\u201d McDermott said. \u201cYou just kind of slow down and play at their speed, and I think sooner or later you start making better plays and you start playing more confident on the court.\nEvans stated he has implemented minor but significant changes since reviewing tapes with McMillan. He mentioned that he is working on getting back \"at the right time\" to help initiate India'nToo's offense. He has also improved his job of offering passes to screens, an area he admitted struggling with early in camp.\nAnd he\u2019s made sure he\u2019s been paying close",
+  "z0": 3.2526911934581184,
+  "seconds": 94.4
+ }
+}

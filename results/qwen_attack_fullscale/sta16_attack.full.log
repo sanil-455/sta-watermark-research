@@ -1,0 +1,103 @@
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   1%|          | 2/339 [00:00<00:32, 10.53it/s]Loading weights:   5%|▌         | 17/339 [00:00<00:04, 68.76it/s]Loading weights:  12%|█▏        | 42/339 [00:00<00:02, 130.94it/s]Loading weights:  19%|█▉        | 66/339 [00:00<00:01, 167.77it/s]Loading weights:  28%|██▊       | 94/339 [00:00<00:01, 203.28it/s]Loading weights:  35%|███▌      | 120/339 [00:00<00:00, 220.46it/s]Loading weights:  44%|████▎     | 148/339 [00:00<00:00, 230.36it/s]Loading weights:  51%|█████     | 173/339 [00:00<00:00, 227.68it/s]Loading weights:  58%|█████▊    | 197/339 [00:01<00:00, 229.55it/s]Loading weights:  65%|██████▌   | 221/339 [00:01<00:00, 231.92it/s]Loading weights:  73%|███████▎  | 246/339 [00:01<00:00, 228.58it/s]Loading weights:  81%|████████  | 273/339 [00:01<00:00, 240.27it/s]Loading weights:  88%|████████▊ | 298/339 [00:01<00:00, 242.09it/s]Loading weights:  96%|█████████▌| 324/339 [00:01<00:00, 245.65it/s]Loading weights: 100%|██████████| 339/339 [00:01<00:00, 211.06it/s]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 9677.50it/s]
+[2/99] sta16_len200:30        z0 9.33 -> 5.49 | stalled | 3 rewrites, 402 queries | 7.1 min | about 691 min left
+[3/99] sta16_len200:31        z0 9.76 -> 0.50 | broken | 6 rewrites, 297 queries | 8.2 min | about 735 min left
+[4/99] sta16_len200:32        z0 10.04 -> 8.29 | stalled | 1 rewrites, 128 queries | 1.8 min | about 543 min left
+[5/99] sta16_len200:33        z0 10.47 -> 3.52 | stalled | 3 rewrites, 338 queries | 7.9 min | about 589 min left
+[6/99] sta16_len200:35        z0 9.76 -> 2.00 | broken | 5 rewrites, 153 queries | 3.0 min | about 521 min left
+[7/99] sta16_len200:36        z0 8.91 -> 1.95 | broken | 4 rewrites, 81 queries | 2.9 min | about 473 min left
+[8/99] sta16_len200:37        z0 10.47 -> 1.92 | broken | 6 rewrites, 359 queries | 4.6 min | about 461 min left
+[9/99] sta16_len200:41        z0 9.62 -> 4.04 | stalled | 2 rewrites, 255 queries | 6.4 min | about 471 min left
+[10/99] sta16_len200:44        z0 10.18 -> 2.75 | stalled | 3 rewrites, 277 queries | 4.9 min | about 462 min left
+[11/99] sta16_len200:46        z0 8.20 -> 1.65 | broken | 5 rewrites, 157 queries | 2.3 min | about 432 min left
+[12/99] sta16_len200:47        z0 10.89 -> 3.28 | stalled | 4 rewrites, 348 queries | 6.9 min | about 442 min left
+[13/99] sta16_len200:50        z0 12.16 -> 8.74 | stalled | 2 rewrites, 168 queries | 3.7 min | about 428 min left
+[14/99] sta16_len200:51        z0 9.62 -> 8.40 | stalled | 1 rewrites, 41 queries | 1.6 min | about 401 min left
+[15/99] sta16_len200:52        z0 9.48 -> 1.74 | broken | 6 rewrites, 193 queries | 2.9 min | about 386 min left
+[16/99] sta16_len200:53        z0 8.49 -> 2.46 | stalled | 4 rewrites, 269 queries | 6.3 min | about 390 min left
+[17/99] sta16_len200:54        z0 10.89 -> 2.11 | stalled | 7 rewrites, 761 queries | 13.7 min | about 432 min left
+[18/99] sta16_len200:55        z0 9.48 -> 3.76 | stalled | 7 rewrites, 343 queries | 8.2 min | about 441 min left
+[19/99] sta16_len200:56        z0 9.90 -> 1.95 | broken | 7 rewrites, 373 queries | 6.1 min | about 438 min left
+[20/99] sta16_len200:57        z0 9.05 -> 6.08 | stalled | 2 rewrites, 219 queries | 3.0 min | about 422 min left
+[21/99] sta16_len200:59        z0 10.32 -> 4.28 | stalled | 3 rewrites, 299 queries | 5.6 min | about 418 min left
+[22/99] sta16_len200:60        z0 9.48 -> 7.16 | stalled | 2 rewrites, 133 queries | 3.3 min | about 405 min left
+[23/99] sta16_len200:61        z0 11.17 -> 3.90 | stalled | 6 rewrites, 344 queries | 6.3 min | about 403 min left
+[24/99] sta16_len200:62        z0 7.64 -> 4.04 | stalled | 3 rewrites, 356 queries | 9.3 min | about 411 min left
+[25/99] sta16_len200:63        z0 10.38 -> 8.29 | stalled | 1 rewrites, 122 queries | 2.4 min | about 396 min left
+[26/99] sta16_len200:65        z0 7.21 -> 1.81 | broken | 4 rewrites, 124 queries | 2.5 min | about 382 min left
+[27/99] sta16_len200:66        z0 8.63 -> 3.10 | stalled | 4 rewrites, 472 queries | 9.4 min | about 388 min left
+[28/99] sta16_len200:68        z0 10.61 -> 9.62 | stalled | 1 rewrites, 50 queries | 0.7 min | about 371 min left
+[29/99] sta16_len200:69        z0 9.05 -> 4.82 | stalled | 2 rewrites, 175 queries | 5.9 min | about 367 min left
+[30/99] sta16_len200:71        z0 11.03 -> 4.34 | stalled | 4 rewrites, 475 queries | 6.4 min | about 365 min left
+[31/99] sta16_len200:72        z0 10.04 -> 8.44 | stalled | 1 rewrites, 170 queries | 2.6 min | about 353 min left
+[32/99] sta16_len200:74        z0 7.50 -> 3.20 | stalled | 4 rewrites, 394 queries | 6.9 min | about 352 min left
+[33/99] sta16_len200:75        z0 9.76 -> 7.65 | stalled | 2 rewrites, 409 queries | 5.2 min | about 347 min left
+[34/99] sta16_len200:76        z0 9.19 -> 6.31 | stalled | 1 rewrites, 58 queries | 3.7 min | about 338 min left
+[35/99] sta16_len200:77        z0 11.46 -> 7.55 | stalled | 3 rewrites, 507 queries | 7.8 min | about 338 min left
+[36/99] sta16_len200:78        z0 9.76 -> 2.00 | broken | 6 rewrites, 1459 queries | 19.1 min | about 357 min left
+[37/99] sta16_len200:80        z0 12.30 -> 1.97 | broken | 7 rewrites, 425 queries | 6.0 min | about 352 min left
+[38/99] sta16_len200:84        z0 9.76 -> 1.96 | broken | 5 rewrites, 652 queries | 8.6 min | about 351 min left
+[39/99] sta16_len200:85        z0 7.78 -> 1.79 | broken | 4 rewrites, 275 queries | 4.3 min | about 343 min left
+[40/99] sta16_len200:86        z0 9.19 -> 1.32 | broken | 5 rewrites, 137 queries | 2.8 min | about 333 min left
+[41/99] sta16_len200:88        z0 9.90 -> 1.45 | broken | 3 rewrites, 111 queries | 2.3 min | about 323 min left
+[42/99] sta16_len200:89        z0 8.77 -> 1.15 | broken | 5 rewrites, 152 queries | 2.8 min | about 313 min left
+[43/99] sta16_len200:90        z0 10.47 -> 7.97 | stalled | 1 rewrites, 157 queries | 1.7 min | about 303 min left
+[44/99] sta16_len200:92        z0 10.04 -> 5.15 | stalled | 2 rewrites, 183 queries | 4.8 min | about 297 min left
+[45/99] sta16_len200:93        z0 10.47 -> 4.28 | stalled | 3 rewrites, 192 queries | 4.5 min | about 290 min left
+[46/99] sta16_len200:94        z0 10.85 -> 4.81 | stalled | 5 rewrites, 682 queries | 9.9 min | about 290 min left
+[47/99] sta16_len200:97        z0 8.91 -> 3.05 | stalled | 3 rewrites, 591 queries | 9.2 min | about 289 min left
+[48/99] sta16_len200:98        z0 9.19 -> 1.87 | broken | 3 rewrites, 255 queries | 4.9 min | about 283 min left
+[49/99] sta16_len200:99        z0 9.05 -> 3.12 | stalled | 2 rewrites, 197 queries | 5.6 min | about 277 min left
+[50/99] sta16_len200:100       z0 10.18 -> 3.98 | stalled | 2 rewrites, 178 queries | 6.8 min | about 273 min left
+[51/99] sta16_len200:101       z0 7.78 -> 2.88 | stalled | 4 rewrites, 229 queries | 10.3 min | about 272 min left
+[52/99] sta16_len200:102       z0 11.74 -> 1.61 | broken | 7 rewrites, 209 queries | 3.0 min | about 264 min left
+[53/99] sta16_len200:103       z0 10.56 -> 4.77 | stalled | 6 rewrites, 406 queries | 10.2 min | about 262 min left
+[54/99] sta16_len200:104       z0 9.48 -> 2.55 | stalled | 4 rewrites, 297 queries | 5.4 min | about 256 min left
+[55/99] sta16_len200:105       z0 10.75 -> 9.90 | stalled | 1 rewrites, 43 queries | 0.7 min | about 246 min left
+[56/99] sta16_len200:106       z0 10.37 -> 1.92 | broken | 5 rewrites, 198 queries | 3.5 min | about 239 min left
+[57/99] sta16_len200:107       z0 8.77 -> 2.09 | stalled | 4 rewrites, 277 queries | 5.6 min | about 234 min left
+[58/99] sta16_len200:108       z0 9.62 -> 3.23 | stalled | 3 rewrites, 199 queries | 7.6 min | about 230 min left
+[59/99] sta16_len200:109       z0 10.47 -> 10.47 | no eligible text | 0 rewrites, 1 queries | 0.0 min | about 220 min left
+[60/99] sta16_len200:110       z0 10.89 -> 1.11 | broken | 5 rewrites, 234 queries | 3.1 min | about 213 min left
+[61/99] sta16_len200:112       z0 5.94 -> 4.44 | stalled | 2 rewrites, 140 queries | 3.4 min | about 206 min left
+[62/99] sta16_len200:113       z0 11.03 -> 2.78 | stalled | 4 rewrites, 514 queries | 7.4 min | about 202 min left
+[63/99] sta16_len200:114       z0 9.05 -> 2.18 | stalled | 5 rewrites, 1216 queries | 25.6 min | about 208 min left
+[64/99] sta16_len200:115       z0 8.34 -> 7.30 | stalled | 1 rewrites, 80 queries | 1.6 min | about 200 min left
+[65/99] sta16_len200:116       z0 10.47 -> 1.87 | broken | 6 rewrites, 479 queries | 6.3 min | about 195 min left
+[66/99] sta16_len200:118       z0 10.18 -> 5.49 | stalled | 2 rewrites, 229 queries | 8.6 min | about 190 min left
+[67/99] sta16_len200:119       z0 10.04 -> 1.95 | broken | 3 rewrites, 422 queries | 8.0 min | about 186 min left
+[68/99] sta16_len200:120       z0 8.77 -> 1.69 | broken | 7 rewrites, 466 queries | 7.6 min | about 181 min left
+[69/99] sta16_len200:121       z0 9.62 -> 5.34 | stalled | 3 rewrites, 308 queries | 4.9 min | about 174 min left
+[70/99] sta16_len200:123       z0 7.92 -> 6.02 | stalled | 2 rewrites, 185 queries | 2.8 min | about 167 min left
+[71/99] sta16_len200:124       z0 8.91 -> 1.62 | broken | 5 rewrites, 130 queries | 3.1 min | about 161 min left
+[72/99] sta16_len200:125       z0 10.61 -> 3.13 | stalled | 3 rewrites, 369 queries | 9.6 min | about 156 min left
+[73/99] sta16_len200:126       z0 7.50 -> 3.30 | stalled | 2 rewrites, 447 queries | 7.6 min | about 151 min left
+[74/99] sta16_len200:127       z0 10.32 -> 10.32 | stalled | 0 rewrites, 2 queries | 0.2 min | about 143 min left
+[75/99] sta16_len200:128       z0 11.17 -> 1.71 | broken | 5 rewrites, 214 queries | 4.5 min | about 137 min left
+[76/99] sta16_len200:129       z0 11.17 -> 11.17 | stalled | 0 rewrites, 1 queries | 0.8 min | about 130 min left
+[77/99] sta16_len200:130       z0 10.32 -> 10.32 | stalled | 0 rewrites, 1 queries | 1.0 min | about 123 min left
+[78/99] sta16_len200:131       z0 8.63 -> 3.03 | stalled | 3 rewrites, 429 queries | 10.8 min | about 119 min left
+[79/99] sta16_len200:132       z0 7.07 -> 2.55 | stalled | 5 rewrites, 503 queries | 10.5 min | about 114 min left
+[80/99] sta16_len200:134       z0 12.30 -> 4.90 | stalled | 3 rewrites, 154 queries | 11.2 min | about 110 min left
+[81/99] sta16_len200:135       z0 11.60 -> 5.71 | stalled | 4 rewrites, 600 queries | 12.2 min | about 106 min left
+[82/99] sta16_len200:136       z0 10.89 -> 1.10 | broken | 5 rewrites, 212 queries | 2.8 min | about 99 min left
+[83/99] sta16_len200:137       z0 9.05 -> 1.54 | broken | 4 rewrites, 98 queries | 2.4 min | about 93 min left
+[84/99] sta16_len200:138       z0 8.49 -> 6.79 | stalled | 1 rewrites, 20 queries | 2.7 min | about 86 min left
+[85/99] sta16_len200:139       z0 11.03 -> 11.03 | no eligible text | 0 rewrites, 1 queries | 0.0 min | about 80 min left
+[86/99] sta16_len200:140       z0 11.31 -> 11.31 | no eligible text | 0 rewrites, 1 queries | 0.0 min | about 73 min left
+[87/99] sta16_len200:141       z0 10.18 -> 1.74 | broken | 5 rewrites, 148 queries | 3.1 min | about 67 min left
+[88/99] sta16_len200:142       z0 6.79 -> 1.66 | broken | 4 rewrites, 167 queries | 2.0 min | about 61 min left
+[89/99] sta16_len200:143       z0 9.19 -> 2.69 | stalled | 3 rewrites, 396 queries | 6.7 min | about 56 min left
+[90/99] sta16_len200:144       z0 11.03 -> 11.03 | no eligible text | 0 rewrites, 1 queries | 0.0 min | about 50 min left
+[91/99] sta16_len200:146       z0 9.05 -> 2.21 | stalled | 4 rewrites, 496 queries | 8.4 min | about 44 min left
+[92/99] sta16_len200:148       z0 9.48 -> 1.64 | broken | 6 rewrites, 211 queries | 2.7 min | about 39 min left
+[93/99] sta16_len200:150       z0 7.92 -> 3.03 | stalled | 2 rewrites, 289 queries | 6.6 min | about 33 min left
+[94/99] sta16_len200:151       z0 10.61 -> 1.51 | broken | 9 rewrites, 273 queries | 4.0 min | about 27 min left
+[95/99] sta16_len200:152       z0 10.32 -> 3.30 | stalled | 5 rewrites, 1127 queries | 12.5 min | about 22 min left
+[96/99] sta16_len200:153       z0 7.66 -> 2.49 | stalled | 5 rewrites, 511 queries | 9.6 min | about 17 min left
+[97/99] sta16_len200:154       z0 9.19 -> 6.65 | stalled | 2 rewrites, 67 queries | 3.7 min | about 11 min left
+[98/99] sta16_len200:156       z0 9.48 -> 1.88 | broken | 7 rewrites, 224 queries | 3.5 min | about 6 min left
+[99/99] sta16_len200:157       z0 8.20 -> 1.93 | broken | 4 rewrites, 174 queries | 2.6 min | about 0 min left
+
+report: results/qwen_attack_fullscale/sta16_attack/REPORT.md
+to save the result to your repo, after reading it:  cat results/qwen_attack_fullscale/sta16_attack/STATUS_entry.md >> research/STATUS.md

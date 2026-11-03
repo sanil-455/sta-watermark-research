@@ -1,0 +1,245 @@
+{
+ "sample_id": "samples_len500:216",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8205128205128205,
+ "needed_share": 0.6759321771739435,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2028,
+  "segments": 14,
+  "eligible": 9,
+  "skipped": 5,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "no final punctuation": 3,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1664,
+  "eligible_char_share": 0.8205128205128205
+ },
+ "attack": {
+  "z0": 6.171547617899419,
+  "z_final": 1.4605934866804429,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 209,
+  "seconds": 300.1,
+  "seconds_by_phase": {
+   "generate": 281.5,
+   "gates": 18.4,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 279,
+    "z_before": 6.171547617899419,
+    "z_after": 5.108462150409718,
+    "accepted": true,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 31,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 2,
+      "numbers changed": 25
+     }
+    },
+    "queries_total": 32,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 59.56
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 272,
+    "z_before": 5.108462150409718,
+    "z_after": 4.458735756199345,
+    "accepted": true,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 50,
+     "after_content": 19,
+     "after_semantic": 19,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "CJK text": 5,
+      "several lines": 3,
+      "unknown word": 2,
+      "negation count changed": 31
+     }
+    },
+    "queries_total": 51,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 60.74
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 255,
+    "z_before": 4.458735756199345,
+    "z_after": 3.5308940956582227,
+    "accepted": true,
+    "survivors": 56,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 57,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 56,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 1,
+      "negation count changed": 1
+     }
+    },
+    "queries_total": 107,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 58.94
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 252,
+    "z_before": 3.5308940956582227,
+    "z_after": 2.5454545454545454,
+    "accepted": true,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 4
+     }
+    },
+    "queries_total": 161,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.39
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 193,
+    "z_before": 2.5454545454545454,
+    "z_after": 1.4605934866804429,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "CJK text": 9,
+      "several lines": 1,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 209,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 48.89
+   }
+  ],
+  "rewrites": {
+   "5": {
+    "original": "Using brain bank testing, two of the group were diagnosed with CTE, and three had other memory problems of the kind associated with dementia, 48% of the group had an identical pattern in their brains to that seen in CTE, and five per cent were classified as having normal brains.",
+    "rewrite": "Through brain bank testing, two individuals in the group were diagnosed with CTE, while three others exhibited memory issues akin to those in dementia. Nearly half of the group, 48%, showed an identical brain pattern to CTE, and five percent were considered to have normal brains."
+   },
+   "2": {
+    "original": "It has previously been reported that some ex-league footballers develop dementia before the age at which they would be expected to; while a previous study also found a link between professional football and dementia, the results had not been confirmed with a larger study.",
+    "rewrite": "Previously reported cases suggest that some former league footballers experience dementia earlier than anticipated; although a prior study indicated a connection between professional football and dementia, those findings were inconclusive without further investigation in a larger group."
+   },
+   "6": {
+    "original": "Two of the three diagnosed with CTE had played at a top level, including a youth professional contract in England, one at a professional level, right through to three levels (and two clubs) at a semi-professional level, and three at grassroots level only.",
+    "rewrite": "Three individuals diagnosed with CTE had played at a top level, with two of them having played professionally at various levels (across two clubs), another at a semi-professional level for three levels, and three only at grassroots level."
+   },
+   "12": {
+    "original": "Another player in the group had experienced three or more concussions and extensive injury to the mid-brain and is likely to have chronic traumatic encephalopathy and possibly early onset dementia, which led to the death of the player at the age of 47.",
+    "rewrite": "A member of the group had suffered three or more concussions and significant mid-brain injury, and is probably living with chronic traumatic encephalopathy and potentially early onset dementia, resulting in the player's death at 47 years old."
+   },
+   "9": {
+    "original": "The cause of CTE in any particular case remains unknown, although there is some evidence that repeated mild head injuires can cause brain tissue to die, which does is thought to cause dementia.",
+    "rewrite": "In any specific case, the reason for CTE remains unclear, but research suggests that repeated mild head injuries might lead to brain tissue death, believed to result in dementia."
+   }
+  },
+  "final_span": "of tau protein in the brain.\nWatch: Report: A \u2018disturbing\u2019 amount of ex-footballers will develop dementia at 45 and younger, study finds\nPreviously reported cases suggest that some former league footballers experience dementia earlier than anticipated; although a prior study indicated a connection between professional football and dementia, those findings were inconclusive without further investigation in a larger group.\nJustin Hardy/PA Media\nThe players in this study were all aged between 58 and 65. Through brain bank testing, two individuals in the group were diagnosed with CTE, while three others exhibited memory issues akin to those in dementia. Nearly half of the group, 48%, showed an identical brain pattern to CTE, and five percent were considered to have normal brains.\nThree individuals diagnosed with CTE had played at a top level, with two of them having played professionally at various levels (across two clubs), another at a semi-professional level for three levels, and three only at grassroots level.\nCause of dementia\nTwo of the three with CTE were left with symptoms consistent with dementia and one was with mild cognitive impairment. In any specific case, the reason for CTE remains unclear, but research suggests that repeated mild head injuries might lead to brain tissue death, believed to result in dementia.\nOne player in the group had a causes of dementia type, while two were not diagnosed with CTE.\nThis included a diagnosis of type 2 diabetes, which is one of the risk factors associated with dementia, and a diagnosis of high blood pressure.\nA member of the group had suffered three or more concussions and significant mid-brain injury, and is probably living with chronic traumatic encephalopathy and potentially early onset dementia, resulting in the player's death at 47 years old.\nThe study was performed between September, 2018 and January, 2019 and the team studied the brains of 14 footballers and exposed them to \u201cphysical inspections and questionnaires\u201d,",
+  "break_point": {
+   "step": 4,
+   "sentences_rewritten": 5,
+   "queries": 209
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 5,
+   "eligible": 9,
+   "segments": 14,
+   "pct_of_eligible": 55.55555555555556,
+   "pct_of_segments": 35.714285714285715
+  },
+  "tokens": {
+   "original": 501,
+   "final": 481,
+   "length_change": -20,
+   "pct_not_preserved": 26.546906187624753,
+   "pct_new": 23.49272349272349
+  },
+  "words": {
+   "original": 343,
+   "final": 317,
+   "length_change": -26,
+   "pct_not_preserved": 36.15160349854227,
+   "pct_new": 30.91482649842271
+  },
+  "characters": {
+   "original": 2028,
+   "final": 2002,
+   "length_change": -26,
+   "pct_not_preserved": 21.893491124260358,
+   "pct_new": 20.879120879120883
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 319,
+   "green_after": 256,
+   "pairs_before": 500,
+   "pairs_after": 480,
+   "pairs_changed_before": 181,
+   "pairs_changed_after": 161,
+   "green_fraction_of_new_pairs": 0.453416149068323,
+   "delta_achieved": 0.046583850931676996
+  }
+ }
+}

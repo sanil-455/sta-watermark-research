@@ -1,0 +1,49 @@
+{
+ "sample_id": "baseline_safe:1",
+ "nobox": {
+  "z_final": 5.628780357842335,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "In addition to an 8% growth, North America represented 45% of the region&apos;s segment income; more broadly, North America represented 60% of income while Europe, Middle East, and Africa produced 27% -- a significant rebalancing of the income distribution.",
+    "rewrite": "In addition to experiencing an 8% growth rate, North America accounted for 45% of the region's segment income; overall, North America contributed 60% of the income, whereas Europe, Middle East, and Africa generated 27% \u2014 indicating a substantial shift in income distribution."
+   },
+   "6": {
+    "original": "Johnson Controls is the biggest company you&apos;ve never heard of.",
+    "rewrite": "Johnson Controls is the largest company you&apos;ve never heard of."
+   },
+   "4": {
+    "original": "News also came from the China business.",
+    "rewrite": "News also came from the China-related business."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 6,
+    "survivors": 13,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 8,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "that lead to that outcome.\n\"In North America we rebalanced the business to benefit from cooling growth,\" according to management. Though this isn&apos;t rocket science, its manifestation has been particularly important. In addition to experiencing an 8% growth rate, North America accounted for 45% of the region's segment income; overall, North America contributed 60% of the income, whereas Europe, Middle East, and Africa generated 27% \u2014 indicating a substantial shift in income distribution.\nNews also came from the China-related business. \"We have been making some good progress with the regional leadership team to proactively address nonprofitable projects, which we expect to result in lower working capital needs for the business,\" according to McDonald.\nJohnson Controls is the largest company you&apos;ve never heard of. You&apos;ve probably used its products, without knowing it, if for instance",
+  "z0": 6.505382386916237,
+  "seconds": 119.5
+ }
+}

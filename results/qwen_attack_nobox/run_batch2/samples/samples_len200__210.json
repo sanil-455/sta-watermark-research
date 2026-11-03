@@ -1,0 +1,40 @@
+{
+ "sample_id": "samples_len200:210",
+ "nobox": {
+  "z_final": 2.6870057685088806,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "To analyze the data, surveys were conducted last April by Market Strategies using a sample of about 6,450 online users aged 13 and up, supplemented with surveys of another 1,605 adults aged 25 and up.",
+    "rewrite": "Last April, surveys were carried out by Market Strategies to analyze the data using a sample of around 6,450 online users aged 13 and over, supplemented by another 1,605 adults aged 25 and above."
+   },
+   "2": {
+    "original": "Data on social networks, portals and websites was divided in six categories - paid, free, local, international, online, and mobile.",
+    "rewrite": "Data from social networks, portals, and websites was segmented into six categories: paid, free, local, international, online, and mobile."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 0,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 1,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 23,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Google came out on top as the most-loved major website, beating Facebook which did not even make it to the top 10 of the index of social networks, barely squeaking into eleventh place with a score of 67 percent.\nLast April, surveys were carried out by Market Strategies to analyze the data using a sample of around 6,450 online users aged 13 and over, supplemented by another 1,605 adults aged 25 and above. Data from social networks, portals, and websites was segmented into six categories: paid, free, local, international, online, and mobile.\n\"Customer satisfaction is a key measure of a company\u2019s long-term business prospects,\" said Claes Fornell, ACSI chairman and founder. \"Satisfied customers are loyal for longer periods of time, and the Customer\u2019s Journey may lead from one",
+  "z0": 2.9698484809834995,
+  "seconds": 144.2
+ }
+}

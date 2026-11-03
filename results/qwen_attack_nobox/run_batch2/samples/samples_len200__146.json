@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:146",
+ "nobox": {
+  "z_final": 4.102949779267559,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "Social Security is in dire financial straits, and the only feasible solution is to make changes now in order to avoid disastrous results in the future.",
+    "rewrite": "Social Security faces severe financial challenges, and the only practical solution is to enact changes presently to prevent catastrophic outcomes later."
+   },
+   "1": {
+    "original": "Social Security's reserves of $2.85 trillion sound like a lot of money, but it won't last long.",
+    "rewrite": "Social Security's reserves of $2.85 trillion may seem substantial, but they won't last for long."
+   },
+   "2": {
+    "original": "The program's costs are rising, and the runway at this point does not look promising at all.",
+    "rewrite": "The program's costs are increasing, and the prospects at this stage do not look promising at all."
+   },
+   "4": {
+    "original": "In short, the facts are right here in plain sight.",
+    "rewrite": "In brief, the facts are clearly visible right here."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 38,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 17,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 9,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "could be fixed with a 2.8% revenue increase and an administration benefit cut of 0.8%.\nSocial Security's reserves of $2.85 trillion may seem substantial, but they won't last for long. The program's costs are increasing, and the prospects at this stage do not look promising at all. The numbers are just the beginning, as Treasury Secretary Janet Yellen noted in her statement on the report: \"It looks as if we're going to have to whittle away small benefits, increasing the retirement age, or means testing...I don't think tax increases have been discussed seriously, and I think they're not fail-safe.\"\nIn brief, the facts are clearly visible right here. Social Security faces severe financial challenges, and the only practical solution is to enact changes presently to prevent catastrophic outcomes later.",
+  "z0": 4.74950407355585,
+  "seconds": 108.2
+ }
+}

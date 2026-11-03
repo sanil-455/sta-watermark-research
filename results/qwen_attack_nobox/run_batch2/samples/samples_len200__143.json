@@ -1,0 +1,26 @@
+{
+ "sample_id": "samples_len200:143",
+ "nobox": {
+  "z_final": 3.8794008872222903,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "On September 3, 2018, Gabriel Resources released a press statement following the sixth hearing in London during the arbitration case initiated on July 21, 2015.",
+    "rewrite": "On September 3, 2018, Gabriel Resources issued a press statement after the sixth hearing in London during the arbitration case that was started on July 21, 2015."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 36,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the Ro\u0219ia Montan\u0103 project, to the extent of intensifying the disputes caused by the project. Romania's failure to protect the Ro\u0219ia Montan\u0103 project is a high-profile example that CEO perceives as reflecting the imbalance in the agreement: \"This does not however present any problem to corporations. The methods they use to protect their economic interests do not only include lobbying for friendlier environmental policy, but also enforcement of legal loopholes, creating private-public partnerships ('PPPs'), and use of US-EU trade agreements such as CETA.\"\nOn September 3, 2018, Gabriel Resources issued a press statement after the sixth hearing in London during the arbitration case that was started on July 21, 2015. Gabriel Resources claims that Romania has not responded to part of the requests made in 2015 concerning the breaching",
+  "z0": 3.959797974644666,
+  "seconds": 60.2
+ }
+}

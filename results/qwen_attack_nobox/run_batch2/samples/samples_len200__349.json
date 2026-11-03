@@ -1,0 +1,71 @@
+{
+ "sample_id": "samples_len200:349",
+ "nobox": {
+  "z_final": 4.124375250166803,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "To save everyone's time, Chris Chibnall suggests Doctor Who may abandon the idea of resourceful location; perhaps that's why the Doctor doesn't go off on her own in this instance.",
+    "rewrite": "To save everyone's time, Chris Chibnall considers Doctor Who might dismiss the idea of resourceful location; possibly, this is why the Doctor does not venture off alone in this scenario."
+   },
+   "1": {
+    "original": "But the way things work at Kerblam! is that humans are far more powerful than CGI robots, and so the Human Reps are shielded from this main control system.",
+    "rewrite": "At Kerblam, humans have significantly more power than CGI robots, which is why the Human Reps are protected from the main control system."
+   },
+   "2": {
+    "original": "They are called \"bobbles\" by humans, but the Doctor's investigation works, and she does indeed notice a break in the system.",
+    "rewrite": "They are referred to as \"bobbles\" by humans, yet the Doctor's investigation pays off, and she does indeed observe a malfunction in the system."
+   },
+   "7": {
+    "original": "Like many Skinner Box shows, Doctor Who makes a particular focus on the everyday tasks we're all familiar with.",
+    "rewrite": "Like many Skinner Box shows, Doctor Who focuses particularly on the everyday tasks that are familiar to us all."
+   },
+   "6": {
+    "original": "Did Doctor Who Argot Get In The Way Of Paying Customers?",
+    "rewrite": "Did Doctor Who Argot Hinder Paying Customers?"
+   },
+   "4": {
+    "original": "Next Page: What Was The Biggest Issue With 'Kerblam!'?",
+    "rewrite": "Next Page: Which Was the Major Issue with 'Kerblam!'?"
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 27,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 6,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 35,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "to scan for breaks in the system. At Kerblam, humans have significantly more power than CGI robots, which is why the Human Reps are protected from the main control system. They are referred to as \"bobbles\" by humans, yet the Doctor's investigation pays off, and she does indeed observe a malfunction in the system. To save everyone's time, Chris Chibnall considers Doctor Who might dismiss the idea of resourceful location; possibly, this is why the Doctor does not venture off alone in this scenario.\nNext Page: Which Was the Major Issue with 'Kerblam!'?\n7. Did Doctor Who Argot Hinder Paying Customers?\nLike many Skinner Box shows, Doctor Who focuses particularly on the everyday tasks that are familiar to us all. In this case, the humans in the warehouse have an interesting set of verbal catch",
+  "z0": 4.242640687119285,
+  "seconds": 204.0
+ }
+}

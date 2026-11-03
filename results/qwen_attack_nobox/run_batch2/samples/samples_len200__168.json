@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:168",
+ "nobox": {
+  "z_final": 4.958855099964005,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "In addition to a living room, powder room on the ground floor, there\u2019s a expansive zoned kitchen, which opens to a pergola-covered courtyard with marble sculpture fountain.",
+    "rewrite": "In addition to a living room and a powder room on the ground floor, there is an expansive zoned kitchen that opens to a pergola-covered courtyard with a marble sculpture fountain."
+   },
+   "1": {
+    "original": "They combined the two bedrooms into a master/parents retreat overlooking a lushly landscaped yard.",
+    "rewrite": "They merged the two bedrooms into a master/parents retreat that overlooks a lushly landscaped yard."
+   },
+   "5": {
+    "original": "A third bedroom on the ground floor is accessed through a large study.",
+    "rewrite": "Access to a third bedroom on the ground floor is via a large study."
+   },
+   "4": {
+    "original": "The elevated two-level home measures 228sq m.",
+    "rewrite": "The home on two levels spans an area of 228sq m."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 5,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "ceilings, ornate cornices and windows and ornate doorway arches.\nThey merged the two bedrooms into a master/parents retreat that overlooks a lushly landscaped yard.\n\u201cWe added a second bathroom to the upstairs, which worked out at 2m by 3m; a walk-in shower became a standard shower, which didn\u2019t do the space justice.\nIn addition to a living room and a powder room on the ground floor, there is an expansive zoned kitchen that opens to a pergola-covered courtyard with a marble sculpture fountain.\nThe home on two levels spans an area of 228sq m.\nAccess to a third bedroom on the ground floor is via a large study.\nThe base of the home retains some of its original features including leadlight windows, white marble porcelain tiles in the",
+  "z0": 5.5154328932550705,
+  "seconds": 111.6
+ }
+}

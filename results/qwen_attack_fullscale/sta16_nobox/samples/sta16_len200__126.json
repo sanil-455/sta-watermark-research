@@ -1,0 +1,35 @@
+{
+ "sample_id": "sta16_len200:126",
+ "nobox": {
+  "z_final": 4.702478122502097,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Anticipation for the start of the peak third-quarter season also boosted sentiment last week since 83.7 percent of S&P 500 companies have reported positive EPS surprises, according to Thomson Reuters datastream.",
+    "rewrite": "Sentiment was bolstered last week by anticipation for the start of the peak third-quarter season, and 83.7 percent of S&P 500 companies reported positive EPS surprises, as per Thomson Reuters datastream."
+   },
+   "1": {
+    "original": "Just a day before the start of its earnings season, Apple unveiled a cheaper version of its iPhone with a reduced LCD screen to cater to a wider audience.",
+    "rewrite": "One day preceding the beginning of its earnings season, Apple revealed a more affordable version of its iPhone featuring a smaller LCD screen, aimed at a broader customer base."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 36,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 58,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the country\u2019s biggest banks are expected to provide reassurance over the impact on the economy of an escalating trade war between the United States and China and their planned tariffs on each other\u2019s goods, but a slowdown in China\u2019s third quarter economic growth and rising interest rates remain a source of major concerns.\nOne day preceding the beginning of its earnings season, Apple revealed a more affordable version of its iPhone featuring a smaller LCD screen, aimed at a broader customer base.\nSentiment was bolstered last week by anticipation for the start of the peak third-quarter season, and 83.7 percent of S&P 500 companies reported positive EPS surprises, as per Thomson Reuters datastream.\nAmong the S&P 500 companies reporting after the close, Amazon is expected to exceed Wall Street forecasts as it forecast third-quarter revenue above analyst",
+  "z0": 7.495331880577403,
+  "seconds": 100.8
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "sample_id": "sta16_len200:115",
+ "nobox": {
+  "z_final": 8.010357616594195,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "Singapore sought additional training areas when it bought the F-15s from the United States in 2014 for SG$7.6 billion (US$5.7 billion).",
+    "rewrite": "When Singapore purchased the F-15s from the United States in 2014 for SG$7.6 billion (US$5.7 billion), it sought extra training areas."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 42,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Nanaia Mahuta.\n\"Defence cooperation between Singapore and New Zealand continued to be healthy,\" said MINDEF.\n\"Underlining this cooperation was the commitment to deepen and expand defence collaborations, and advance defence capacity building. This has seen increased defence exercises, training opportunities in different terrain and environments, and defence engagement on key defence interests such as disruptive technologies and evolving threats to the two countries.\n\"In the course of the discussions, both ministers agreed that New Zealand would continue to consider offering Singapore the opportunity to undertake basic pilot conversion training in Ohakea, should appropriate parameters on the training package were finalised and agreed to by both parties.\"\nWhen Singapore purchased the F-15s from the United States in 2014 for SG$7.6 billion (US$5.7 billion), it sought extra training areas. In a blow to the",
+  "z0": 8.34386001800126,
+  "seconds": 50.7
+ }
+}

@@ -1,0 +1,436 @@
+{
+ "sample_id": "sta16_len200:113",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.749727965179543,
+ "needed_share": 0.8186905689265263,
+ "delta_needed": 0.03587356576045903,
+ "segmentation": {
+  "chars": 919,
+  "segments": 6,
+  "eligible": 4,
+  "skipped": 2,
+  "skip_reasons": {
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 689,
+  "eligible_char_share": 0.749727965179543
+ },
+ "attack": {
+  "z0": 11.030865786510141,
+  "z_final": 2.7774602993176543,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 514,
+  "seconds": 441.7,
+  "seconds_by_phase": {
+   "generate": 401.3,
+   "gates": 40.3,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 204,
+    "z_before": 11.030865786510141,
+    "z_after": 8.850810251342143,
+    "accepted": true,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "several lines": 1,
+      "duplicate": 1,
+      "negation count changed": 1
+     }
+    },
+    "queries_total": 58,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.63
+   },
+   {
+    "pass": 1,
+    "segment": 0,
+    "chars": 187,
+    "z_before": 8.850810251342143,
+    "z_after": 7.293249574894728,
+    "accepted": true,
+    "survivors": 29,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 33,
+     "fluency_skipped": false,
+     "after_fluency": 29,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 3,
+      "glued punctuation": 1,
+      "meaning too different": 20,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 87,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.6
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 181,
+    "z_before": 7.293249574894728,
+    "z_after": 4.595745763298828,
+    "accepted": true,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 40,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 1,
+      "meaning too different": 17
+     }
+    },
+    "queries_total": 127,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.04
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 117,
+    "z_before": 4.595745763298828,
+    "z_after": 2.8643577734887544,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 6,
+      "unknown word": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 172,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.32
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 204,
+    "z_before": 2.8643577734887544,
+    "z_after": 2.7774602993176543,
+    "accepted": true,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "CJK text": 3,
+      "several lines": 1,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 226,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.26
+   },
+   {
+    "pass": 2,
+    "segment": 0,
+    "chars": 187,
+    "z_before": 2.7774602993176543,
+    "z_after": 2.7774602993176543,
+    "accepted": false,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 3,
+      "glued punctuation": 1,
+      "meaning too different": 12,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 264,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.25
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 181,
+    "z_before": 2.7774602993176543,
+    "z_after": 3.0499714066520935,
+    "accepted": false,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "CJK text": 1,
+      "several lines": 1,
+      "unknown word": 1,
+      "meaning too different": 15,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 302,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.99
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 117,
+    "z_before": 2.7774602993176543,
+    "z_after": 2.931763649279746,
+    "accepted": false,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "CJK text": 5,
+      "duplicate": 5,
+      "unknown word": 1,
+      "meaning too different": 1,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 345,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.09
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 204,
+    "z_before": 2.7774602993176543,
+    "z_after": 2.8323527714997336,
+    "accepted": false,
+    "survivors": 60,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 60,
+     "after_content": 60,
+     "after_semantic": 60,
+     "fluency_skipped": false,
+     "after_fluency": 60,
+     "rejected": {}
+    },
+    "queries_total": 405,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 39.86
+   },
+   {
+    "pass": 3,
+    "segment": 0,
+    "chars": 187,
+    "z_before": 2.7774602993176543,
+    "z_after": 3.0,
+    "accepted": false,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 2,
+      "meaning too different": 20,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 438,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.98
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 181,
+    "z_before": 2.7774602993176543,
+    "z_after": 3.0323921743156137,
+    "accepted": false,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 3,
+      "meaning too different": 14,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 477,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.49
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 117,
+    "z_before": 2.7774602993176543,
+    "z_after": 3.0361458822299396,
+    "accepted": false,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "CJK text": 6,
+      "duplicate": 7,
+      "several lines": 2,
+      "unknown word": 1,
+      "meaning too different": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 514,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.8
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "You could also do this in a way to put an \u201copt-out\u201d into effect, which is according to the American Bar Association, should only allow the receiving party to opt-out if they go through a specific process.",
+    "rewrite": "An opt-out mechanism can also be implemented by having the receiving party go through a particular process, as noted by the American Bar Association."
+   },
+   "0": {
+    "original": "Unfortunately, to let the agreement expire is usually a major mistake as it provides an opportunity for your confidential information to be used in a way that competes with your business.",
+    "rewrite": "To allow the agreement to expire commonly represents a significant misstep, as it opens up potential misuse of your confidential information that could compete against your business."
+   },
+   "1": {
+    "original": "You could even put exceptions into effect, which according to Harvard, could include having them expire as soon as your information is first made public - such as at a public event.",
+    "rewrite": "Exceptions could be implemented, as Harvard suggests, potentially causing them to expire upon initial public disclosure, for example, at a public event."
+   },
+   "4": {
+    "original": "While, again, both of these have their merits, you could even opt to agree upon automatically renewing the agreement.",
+    "rewrite": "Despite both having their advantages, you could also choose to agree on automatically renewing the contract."
+   }
+  },
+  "final_span": "To allow the agreement to expire commonly represents a significant misstep, as it opens up potential misuse of your confidential information that could compete against your business.\nExceptions could be implemented, as Harvard suggests, potentially causing them to expire upon initial public disclosure, for example, at a public event.\nAn opt-out mechanism can also be implemented by having the receiving party go through a particular process, as noted by the American Bar Association.\nAccording to the team at the Chicago Tribune, you could also have another term, which is similar to \u201copt-out three-months after consummating the purpose of the agreement.\u201d Despite both having their advantages, you could also choose to agree on automatically renewing the contract.\nIn this article, we discussed some of the facets of an",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 4,
+   "eligible": 4,
+   "segments": 6,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 66.66666666666667
+  },
+  "tokens": {
+   "original": 201,
+   "final": 169,
+   "length_change": -32,
+   "pct_not_preserved": 48.258706467661696,
+   "pct_new": 38.46153846153846
+  },
+  "words": {
+   "original": 157,
+   "final": 127,
+   "length_change": -30,
+   "pct_not_preserved": 54.14012738853503,
+   "pct_new": 43.30708661417323
+  },
+  "characters": {
+   "original": 919,
+   "final": 821,
+   "length_change": -98,
+   "pct_not_preserved": 39.60826985854189,
+   "pct_new": 32.39951278928136
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 178,
+   "green_after": 102,
+   "pairs_before": 200,
+   "pairs_after": 168,
+   "pairs_changed_before": 120,
+   "pairs_changed_after": 88,
+   "green_fraction_of_new_pairs": 0.36363636363636365,
+   "delta_achieved": 0.13636363636363635
+  }
+ }
+}

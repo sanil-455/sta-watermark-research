@@ -1,0 +1,152 @@
+{
+ "sample_id": "samples_len500:81",
+ "nobox": {
+  "z_final": 5.077963596336063,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Miller said at the November ASB Executive Council meeting that he hoped to generate enough sponsorship funds for Everybody\u2019s Formal \u201cadministered funds,\u201d which he\u2019s defined as the cash on hand reserved for ASB sponsored events.",
+    "rewrite": "Miller said at the November ASB Executive Council meeting that he hoped to generate enough sponsorship funds for Everybody\u2019s Formal \u201cadministered funds,\u201d which he has defined as the cash on hand set aside for ASB sponsored events."
+   },
+   "9": {
+    "original": "When Morgan is meeting with current ASB director she said she laughs as they talk three or four years in the future about exactly where the organization was, where they were and what they were hoping to do.",
+    "rewrite": "When Morgan meets the current ASB director, she said she laughs as they talk three or four years in the future about exactly where the organization had been, where it had been, and what hopes they had."
+   },
+   "13": {
+    "original": "He is listed as the possible future ASB director for Everybody\u2019s Formal alongside Miller in Athletics Director Keith Carter\u2019s recommendation letter.",
+    "rewrite": "He is considered the likely future ASB director for Everybody's Formal, as stated in Athletics Director Keith Carter\u2019s recommendation letter alongside Miller."
+   },
+   "16": {
+    "original": "Miner, said he was excited to work for the University, remotely, and help things run smoothly for incoming, transfer and non-traditional students.",
+    "rewrite": "Miner said he was excited to work remotely for the University, helping things run smoothly for incoming, transfer, and non-traditional students."
+   },
+   "11": {
+    "original": "Mullins, who was ASB President in the 2013-14 school year, said the goal is getting everyone who wants to attend Everybody\u2019s Formal to attend.",
+    "rewrite": "Mullins, who served as ASB President in the 2013-14 school year, stated that the goal is to get everyone who wants to attend Everybody\u2019s Formal to do so."
+   },
+   "14": {
+    "original": "He said he was hired to recruit millennial and older \u201cmenthol stroke\u201d students as a special projects coordinator for Student Affairs.",
+    "rewrite": "He said he was hired to recruit millennial and older \u201cmenthol stroke\u201d students as a special projects coordinator within Student Affairs."
+   },
+   "15": {
+    "original": "Mullins said incoming students should take advantage of ASB\u2019s events, like Everybody\u2019s Formal, Geeks Prom, Speak Freely and IMPULSE.",
+    "rewrite": "Mullins said that incoming students should take advantage of ASB\u2019s events, including Everybody\u2019s Formal, Geeks Prom, Speak Freely, and IMPULSE."
+   },
+   "8": {
+    "original": "ASB President Elam Miller\u2019s objective last year was 30 formal commitments, and he said he\u2019d be OK with completing ASB\u2019s goals.",
+    "rewrite": "ASB President Elam Miller had an objective of 30 formal commitments last year, and he indicated that completing ASB's goals would be satisfactory."
+   },
+   "5": {
+    "original": "If ASB can generate enough administered funds for the coming events, Miller said, they can fail fast.",
+    "rewrite": "If ASB generates sufficient funds for upcoming events, Miller said they can fail fast."
+   },
+   "12": {
+    "original": "Greg Miner, Special Projects coordinator in Student Affairs, is a member of Kappa Sigma.",
+    "rewrite": "Greg Miner, Coordinator of Special Projects in Student Affairs, is a member of Kappa Sigma."
+   },
+   "4": {
+    "original": "ASB allocates budgets of different types for student organizations to host events.",
+    "rewrite": "ASB allocates various types of budgets for student organizations to host events."
+   },
+   "6": {
+    "original": "ASB\u2019s target for fundraising was the goal Morgan left for the organization.",
+    "rewrite": "The fundraising target set by ASB was the goal Morgan left for the organization."
+   },
+   "1": {
+    "original": "The sponsoring entities spent a collective $18,000 on Everybody\u2019s Formal.",
+    "rewrite": "The sponsoring entities collectively spent $18,000 on Everybody\u2019s Formal."
+   },
+   "2": {
+    "original": "Sistrunk said she\u2019s attended Everybody\u2019s Formal for the last two years.",
+    "rewrite": "Sistrunk stated that she has attended Everybody's Formal for the past two years."
+   },
+   "10": {
+    "original": "Mullins is the president of Ole Miss\u2019 Beta Theta Pi fraternity.",
+    "rewrite": "Mullins serves as the president of Ole Miss\u2019s Beta Theta Pi fraternity."
+   }
+  },
+  "sentences_rewritten": 15,
+  "eligible": 15,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 16,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 14,
+    "survivors": 27,
+    "rewritten": true
+   },
+   {
+    "index": 15,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 18,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 32,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 21,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 32,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 20,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 9,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "sponsorships for the event started in September. The sponsoring entities collectively spent $18,000 on Everybody\u2019s Formal.\nSistrunk stated that she has attended Everybody's Formal for the past two years.\nMiller said at the November ASB Executive Council meeting that he hoped to generate enough sponsorship funds for Everybody\u2019s Formal \u201cadministered funds,\u201d which he has defined as the cash on hand set aside for ASB sponsored events. ASB allocates various types of budgets for student organizations to host events. If ASB generates sufficient funds for upcoming events, Miller said they can fail fast.\nThe fundraising target set by ASB was the goal Morgan left for the organization. Morgan left in August.\nASB President Elam Miller had an objective of 30 formal commitments last year, and he indicated that completing ASB's goals would be satisfactory.\nWhen Morgan meets the current ASB director, she said she laughs as they talk three or four years in the future about exactly where the organization had been, where it had been, and what hopes they had.\nMullins serves as the president of Ole Miss\u2019s Beta Theta Pi fraternity.\nMullins, who served as ASB President in the 2013-14 school year, stated that the goal is to get everyone who wants to attend Everybody\u2019s Formal to do so.\nGreg Miner, Coordinator of Special Projects in Student Affairs, is a member of Kappa Sigma. He is considered the likely future ASB director for Everybody's Formal, as stated in Athletics Director Keith Carter\u2019s recommendation letter alongside Miller. He said he was hired to recruit millennial and older \u201cmenthol stroke\u201d students as a special projects coordinator within Student Affairs.\nMullins said that incoming students should take advantage of ASB\u2019s events, including Everybody\u2019s Formal, Geeks Prom, Speak Freely, and IMPULSE.\nMiner said he was excited to work remotely for the University, helping things run smoothly for incoming, transfer, and non-traditional students.\nFall housing check out runs from noon to 4 p.m. Jan. 19 at the Band Hall, Hasley Circle",
+  "z0": 7.781516561699267,
+  "seconds": 525.8
+ }
+}

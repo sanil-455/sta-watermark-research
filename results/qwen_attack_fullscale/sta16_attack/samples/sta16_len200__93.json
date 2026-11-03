@@ -1,0 +1,257 @@
+{
+ "sample_id": "sta16_len200:93",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.7302631578947368,
+ "needed_share": 0.8088900591387709,
+ "delta_needed": 0.039837629963643935,
+ "segmentation": {
+  "chars": 912,
+  "segments": 5,
+  "eligible": 3,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 666,
+  "eligible_char_share": 0.7302631578947368
+ },
+ "attack": {
+  "z0": 10.465180361560902,
+  "z_final": 4.275816728492017,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 2,
+  "queries": 192,
+  "seconds": 270.2,
+  "seconds_by_phase": {
+   "generate": 253.3,
+   "gates": 16.9,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 317,
+    "z_before": 10.465180361560902,
+    "z_after": 7.519206177414046,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 59,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "unknown word": 1,
+      "negation count changed": 3,
+      "quotation changed": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 52,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 64.24
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 209,
+    "z_before": 7.519206177414046,
+    "z_after": 5.3099686624091476,
+    "accepted": true,
+    "survivors": 29,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 29,
+     "rejected": {
+      "duplicate": 30,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 81,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.49
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 140,
+    "z_before": 5.3099686624091476,
+    "z_after": 4.275816728492017,
+    "accepted": true,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 1,
+     "after_content": 1,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "CJK text": 6,
+      "duplicate": 2,
+      "several lines": 1,
+      "unknown word": 50
+     }
+    },
+    "queries_total": 82,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.74
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 317,
+    "z_before": 4.275816728492017,
+    "z_after": 4.275816728492017,
+    "accepted": false,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 60,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "quotation changed": 2,
+      "negation count changed": 1
+     }
+    },
+    "queries_total": 139,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 62.38
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 209,
+    "z_before": 4.275816728492017,
+    "z_after": 4.299246036634387,
+    "accepted": false,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 46,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "duplicate": 14
+     }
+    },
+    "queries_total": 185,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.33
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 140,
+    "z_before": 4.275816728492017,
+    "z_after": 4.36140549863198,
+    "accepted": false,
+    "survivors": 7,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 7,
+     "after_content": 7,
+     "after_semantic": 7,
+     "fluency_skipped": false,
+     "after_fluency": 7,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 4,
+      "unknown word": 45
+     }
+    },
+    "queries_total": 192,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.09
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "Though the president would not be running campaigns from Dagbon, he could resort to reminding the people about those he has performed to show the policy credibility in Kufuor Administration according to the Yamani MP especially as he has never visited any north to campaign before the dawn of the \u201cYear of the North\u201d.",
+    "rewrite": "Although the president would not campaign from Dagbon, he might use reminders about his actions to demonstrate policy credibility from the Kufuor Administration to the people, especially since he had never campaigned in any northern region previously, akin to the \"Year of the North\" statement."
+   },
+   "3": {
+    "original": "According to the Yamani MP the presence of the president would afford him the opportunity to reflect on the enormity of the benefits or peace, reconstruction and agricultural developments porlolozing the area.",
+    "rewrite": "According to the Yamani MP, the president's presence would allow him to consider the significant benefits of peace, reconstruction, and agricultural developments ongoing in the area."
+   },
+   "1": {
+    "original": "He added that he was relying on the administration of the Sarki for a positive turnaround as far as buried feelings of anger were concerned.",
+    "rewrite": "He stated that he depended on the Sarki administration for a favorable change, especially regarding subdued anger."
+   }
+  },
+  "final_span": ". He stated that he depended on the Sarki administration for a favorable change, especially regarding subdued anger.\nAlthough the president would not campaign from Dagbon, he might use reminders about his actions to demonstrate policy credibility from the Kufuor Administration to the people, especially since he had never campaigned in any northern region previously, akin to the \"Year of the North\" statement.\nAccording to the Yamani MP, the president's presence would allow him to consider the significant benefits of peace, reconstruction, and agricultural developments ongoing in the area. He is hopeful that in similar fashion as it three time happened in Yendi \u201cPresident Kufuor will restore the peace\u201d in Dagbon following the removal of the kidnap king-pins it transformed in earlier times to business men acclaimed to have been",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 3,
+   "segments": 5,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 60.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 185,
+   "length_change": -16,
+   "pct_not_preserved": 35.820895522388064,
+   "pct_new": 30.270270270270274
+  },
+  "words": {
+   "original": 153,
+   "final": 130,
+   "length_change": -23,
+   "pct_not_preserved": 44.44444444444444,
+   "pct_new": 34.61538461538461
+  },
+  "characters": {
+   "original": 912,
+   "final": 836,
+   "length_change": -76,
+   "pct_not_preserved": 28.17982456140351,
+   "pct_new": 21.650717703349287
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 174,
+   "green_after": 121,
+   "pairs_before": 200,
+   "pairs_after": 184,
+   "pairs_changed_before": 101,
+   "pairs_changed_after": 85,
+   "green_fraction_of_new_pairs": 0.43529411764705883,
+   "delta_achieved": 0.06470588235294117
+  }
+ }
+}

@@ -1,0 +1,231 @@
+{
+ "sample_id": "sta16_len200:98",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.8161592505854801,
+ "needed_share": 0.7824286827118315,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 854,
+  "segments": 5,
+  "eligible": 3,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 697,
+  "eligible_char_share": 0.8161592505854801
+ },
+ "attack": {
+  "z0": 9.192388155425117,
+  "z_final": 1.866691212406119,
+  "status": "broken",
+  "reason": null,
+  "passes": 2,
+  "queries": 255,
+  "seconds": 295.1,
+  "seconds_by_phase": {
+   "generate": 272.8,
+   "gates": 22.2,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 292,
+    "z_before": 9.192388155425117,
+    "z_after": 5.743665268941905,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "CJK text": 9,
+      "several lines": 2,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 49,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 81.38
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 226,
+    "z_before": 5.743665268941905,
+    "z_after": 3.4285714285714284,
+    "accepted": true,
+    "survivors": 58,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 58,
+     "rejected": {
+      "unknown word": 2
+     }
+    },
+    "queries_total": 107,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 50.55
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 179,
+    "z_before": 3.4285714285714284,
+    "z_after": 2.0983663553480225,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "duplicate": 11,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 150,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.4
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 292,
+    "z_before": 2.0983663553480225,
+    "z_after": 2.1320071635561044,
+    "accepted": false,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "CJK text": 9,
+      "several lines": 2,
+      "unknown word": 3
+     }
+    },
+    "queries_total": 196,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 59.98
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 226,
+    "z_before": 2.0983663553480225,
+    "z_after": 1.866691212406119,
+    "accepted": true,
+    "survivors": 59,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 59,
+     "fluency_skipped": false,
+     "after_fluency": 59,
+     "rejected": {
+      "unknown word": 1
+     }
+    },
+    "queries_total": 255,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 50.48
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "Akeredolu, therefore, paid commendations to the federal lawmakers, especially Senator Gaya for the courage and vision in bringing a type of development objective, which since 2017 is beginning to ring the wellbeing of the masses contrary to what had before dominated federal\u2013 state relations.",
+    "rewrite": "Akeredolu, thus, expressed praise for the federal lawmakers, particularly Senator Gaya, for the bravery and foresight in promoting a developmental goal that started benefiting the public in 2017, a shift from previous federal-state dynamics."
+   },
+   "1": {
+    "original": "In his remarks, Governor Akeredolu, described the approaching 2019 elections as critical to the progress and continuity of development projects, especially on the roads, which have been the whine of the citizens of Ondo State.",
+    "rewrite": "During his remarks, Governor Akeredolu characterized the coming 2019 elections as crucial for the advancement and sustenance of development initiatives, particularly those concerning road improvement, an issue frequently voiced by the people of Ondo State."
+   },
+   "3": {
+    "original": "He tasked the federal lawmakers to look in deep details, during the budgeting process and approval thereof to federal capital road infrastructural developments across the country.",
+    "rewrite": "He assigned the federal lawmakers to examine the details thoroughly during the budgeting process and approval of federal capital road infrastructural developments nationwide."
+   }
+  },
+  "final_span": "especially Owo-Ifon-Ise- Akure Road.\nDuring his remarks, Governor Akeredolu characterized the coming 2019 elections as crucial for the advancement and sustenance of development initiatives, particularly those concerning road improvement, an issue frequently voiced by the people of Ondo State.\nAkeredolu, thus, expressed praise for the federal lawmakers, particularly Senator Gaya, for the bravery and foresight in promoting a developmental goal that started benefiting the public in 2017, a shift from previous federal-state dynamics.\nHe assigned the federal lawmakers to examine the details thoroughly during the budgeting process and approval of federal capital road infrastructural developments nationwide.\nGovernor Akeredolu, lauded Senator Gaya for his leadership skill and ability in harnessing the simple causes and dist",
+  "break_point": {
+   "step": 4,
+   "sentences_rewritten": 3,
+   "queries": 255
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 3,
+   "segments": 5,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 60.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 195,
+   "length_change": -6,
+   "pct_not_preserved": 35.820895522388064,
+   "pct_new": 33.84615384615385
+  },
+  "words": {
+   "original": 127,
+   "final": 114,
+   "length_change": -13,
+   "pct_not_preserved": 49.60629921259843,
+   "pct_new": 43.85964912280702
+  },
+  "characters": {
+   "original": 854,
+   "final": 828,
+   "length_change": -26,
+   "pct_not_preserved": 30.913348946135834,
+   "pct_new": 28.74396135265701
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 165,
+   "green_after": 110,
+   "pairs_before": 200,
+   "pairs_after": 194,
+   "pairs_changed_before": 97,
+   "pairs_changed_after": 91,
+   "green_fraction_of_new_pairs": 0.3626373626373626,
+   "delta_achieved": 0.13736263736263737
+  }
+ }
+}

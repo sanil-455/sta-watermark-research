@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:191",
+ "nobox": {
+  "z_final": 3.0,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "And after Ted Kaczynski's lawyer, Anthony Bisceglia, learned of Susan Swanson's involvement, he arranged to set up a meeting between Swanson and his client.",
+    "rewrite": "After learning of Susan Swanson's involvement, Anthony Bisceglia, Ted Kaczynski's lawyer, arranged a meeting between Swanson and his client."
+   },
+   "4": {
+    "original": "Bisceglia and his associate Marc DiNatale were joined by Trevor Trujillo, The New York Times' Seattle bureau chief at the time.",
+    "rewrite": "Bisceglia and his associate Marc DiNatale were accompanied by Trevor Trujillo, who was The New York Times' Seattle bureau chief at the time."
+   },
+   "2": {
+    "original": "Like most high-profile crimes, the case eventually captured the attention of the media.",
+    "rewrite": "As with most high-profile crimes, the case eventually attracted media attention."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 43,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "me to him! I don't know where he got this info.\"\nAs with most high-profile crimes, the case eventually attracted media attention. After learning of Susan Swanson's involvement, Anthony Bisceglia, Ted Kaczynski's lawyer, arranged a meeting between Swanson and his client. Bisceglia and his associate Marc DiNatale were accompanied by Trevor Trujillo, who was The New York Times' Seattle bureau chief at the time.\nSwanson, Van Zandt and bisceglia listened to Ted's story and then took turns asking him questions until about two hours after he started. During that time, Bisceglia remembered, Van Zandt got to work studying the facts from a prosecutorial perspective. Finally, they asked if he was willing to be a cooperating witness in any future trial. He agreed, if for no other reason than \"",
+  "z0": 4.242640687119285,
+  "seconds": 112.3
+ }
+}

@@ -1,0 +1,874 @@
+{
+ "sample_id": "samples_len500:259",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.625,
+ "needed_share": 0.791021684345814,
+ "delta_needed": 0.05684582472000673,
+ "segmentation": {
+  "chars": 2128,
+  "segments": 17,
+  "eligible": 9,
+  "skipped": 8,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "too short": 2,
+   "quotation": 3,
+   "no final punctuation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1330,
+  "eligible_char_share": 0.625
+ },
+ "attack": {
+  "z0": 9.5703709436991,
+  "z_final": 2.750805179189953,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 904,
+  "seconds": 1017.7,
+  "seconds_by_phase": {
+   "generate": 945.0,
+   "gates": 72.0,
+   "detector": 0.6
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 291,
+    "z_before": 9.5703709436991,
+    "z_after": 7.955558377066256,
+    "accepted": true,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 57,
+     "after_content": 42,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 2,
+      "negation count changed": 14,
+      "numbers changed": 1,
+      "meaning too different": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 40,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 57.41
+   },
+   {
+    "pass": 1,
+    "segment": 15,
+    "chars": 220,
+    "z_before": 7.955558377066256,
+    "z_after": 7.326305172100564,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 5,
+      "several lines": 2,
+      "unknown word": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 90,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 57.16
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 164,
+    "z_before": 7.326305172100564,
+    "z_after": 6.990527153192245,
+    "accepted": true,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 32,
+     "after_spelling": 32,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "duplicate": 28
+     }
+    },
+    "queries_total": 122,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.09
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 156,
+    "z_before": 6.990527153192245,
+    "z_after": 6.530471562110152,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 2,
+      "meaning too different": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 175,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.72
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 150,
+    "z_before": 6.530471562110152,
+    "z_after": 5.4167039205337275,
+    "accepted": true,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 35,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "CJK text": 3,
+      "several lines": 3,
+      "hit length limit": 1,
+      "duplicate": 1,
+      "unknown word": 4,
+      "meaning too different": 13,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 207,
+    "hit_limit": 2,
+    "oom_events": [],
+    "seconds_generate": 45.62
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 112,
+    "z_before": 5.4167039205337275,
+    "z_after": 4.740464112299554,
+    "accepted": true,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 26,
+     "after_content": 18,
+     "after_semantic": 18,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "duplicate": 33,
+      "unknown word": 1,
+      "negation count changed": 8
+     }
+    },
+    "queries_total": 225,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.28
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 109,
+    "z_before": 4.740464112299554,
+    "z_after": 4.114365078599612,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 5,
+      "unknown word": 1,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 270,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.25
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 90,
+    "z_before": 4.114365078599612,
+    "z_after": 3.5365257001831774,
+    "accepted": true,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 7,
+      "unknown word": 3,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 310,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.26
+   },
+   {
+    "pass": 1,
+    "segment": 14,
+    "chars": 38,
+    "z_before": 3.5365257001831774,
+    "z_after": 3.3440847155078237,
+    "accepted": true,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 14,
+     "after_spelling": 14,
+     "after_content": 14,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "duplicate": 43,
+      "CJK text": 3,
+      "meaning too different": 9,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 314,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 11.65
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 291,
+    "z_before": 3.3440847155078237,
+    "z_after": 2.886751345948129,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 57,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "unknown word": 3,
+      "negation count changed": 14,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 355,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 58.54
+   },
+   {
+    "pass": 2,
+    "segment": 15,
+    "chars": 220,
+    "z_before": 2.886751345948129,
+    "z_after": 2.7979282276112634,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "several lines": 3,
+      "CJK text": 8,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 402,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 69.01
+   },
+   {
+    "pass": 2,
+    "segment": 12,
+    "chars": 164,
+    "z_before": 2.7979282276112634,
+    "z_after": 2.833967633728305,
+    "accepted": false,
+    "survivors": 25,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 25,
+     "after_spelling": 25,
+     "after_content": 25,
+     "after_semantic": 25,
+     "fluency_skipped": false,
+     "after_fluency": 25,
+     "rejected": {
+      "duplicate": 35
+     }
+    },
+    "queries_total": 427,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.94
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 156,
+    "z_before": 2.7979282276112634,
+    "z_after": 2.8395408301315643,
+    "accepted": false,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 1,
+      "meaning too different": 3,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 477,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.46
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 150,
+    "z_before": 2.7979282276112634,
+    "z_after": 2.939873661036668,
+    "accepted": false,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "CJK text": 6,
+      "several lines": 2,
+      "unknown word": 2,
+      "meaning too different": 14,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 510,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.28
+   },
+   {
+    "pass": 2,
+    "segment": 6,
+    "chars": 112,
+    "z_before": 2.7979282276112634,
+    "z_after": 2.803463204786904,
+    "accepted": false,
+    "survivors": 17,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 17,
+     "after_semantic": 17,
+     "fluency_skipped": false,
+     "after_fluency": 17,
+     "rejected": {
+      "duplicate": 28,
+      "CJK text": 2,
+      "negation count changed": 13
+     }
+    },
+    "queries_total": 527,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.86
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 109,
+    "z_before": 2.7979282276112634,
+    "z_after": 2.963905499865519,
+    "accepted": false,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 4,
+      "several lines": 1,
+      "unknown word": 4,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 568,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.33
+   },
+   {
+    "pass": 2,
+    "segment": 8,
+    "chars": 90,
+    "z_before": 2.7979282276112634,
+    "z_after": 2.750805179189953,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 3,
+      "several lines": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 616,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.71
+   },
+   {
+    "pass": 2,
+    "segment": 14,
+    "chars": 38,
+    "z_before": 2.750805179189953,
+    "z_after": 2.7979282276112634,
+    "accepted": false,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 12,
+     "after_spelling": 12,
+     "after_content": 12,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "duplicate": 47,
+      "CJK text": 1,
+      "meaning too different": 7
+     }
+    },
+    "queries_total": 621,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 11.46
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 291,
+    "z_before": 2.750805179189953,
+    "z_after": 3.0950729977121703,
+    "accepted": false,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 52,
+     "after_content": 37,
+     "after_semantic": 37,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 6,
+      "negation count changed": 15,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 656,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 57.41
+   },
+   {
+    "pass": 3,
+    "segment": 15,
+    "chars": 220,
+    "z_before": 2.750805179189953,
+    "z_after": 2.8090311610265717,
+    "accepted": false,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "CJK text": 9,
+      "unknown word": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 702,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 56.99
+   },
+   {
+    "pass": 3,
+    "segment": 12,
+    "chars": 164,
+    "z_before": 2.750805179189953,
+    "z_after": 2.750805179189953,
+    "accepted": false,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 27,
+     "after_content": 27,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "duplicate": 33
+     }
+    },
+    "queries_total": 729,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.57
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 156,
+    "z_before": 2.750805179189953,
+    "z_after": 2.750805179189953,
+    "accepted": false,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 1,
+      "meaning too different": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 782,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.21
+   },
+   {
+    "pass": 3,
+    "segment": 5,
+    "chars": 150,
+    "z_before": 2.750805179189953,
+    "z_after": 2.8090311610265717,
+    "accepted": false,
+    "survivors": 30,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 30,
+     "rejected": {
+      "CJK text": 4,
+      "several lines": 3,
+      "hit length limit": 1,
+      "unknown word": 5,
+      "meaning too different": 16,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 812,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 45.15
+   },
+   {
+    "pass": 3,
+    "segment": 6,
+    "chars": 112,
+    "z_before": 2.750805179189953,
+    "z_after": 2.750805179189953,
+    "accepted": false,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 29,
+     "after_spelling": 29,
+     "after_content": 19,
+     "after_semantic": 19,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "duplicate": 31,
+      "negation count changed": 10,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 830,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.9
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 109,
+    "z_before": 2.750805179189953,
+    "z_after": 2.928276481073176,
+    "accepted": false,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "CJK text": 5,
+      "duplicate": 6,
+      "unknown word": 2,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 873,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.2
+   },
+   {
+    "pass": 3,
+    "segment": 8,
+    "chars": 90,
+    "z_before": 2.750805179189953,
+    "z_after": 2.750805179189953,
+    "accepted": false,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "CJK text": 4,
+      "several lines": 1,
+      "duplicate": 7,
+      "unknown word": 1,
+      "perplexity too high": 8
+     }
+    },
+    "queries_total": 903,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.36
+   },
+   {
+    "pass": 3,
+    "segment": 14,
+    "chars": 38,
+    "z_before": 2.750805179189953,
+    "z_after": 2.750805179189953,
+    "accepted": false,
+    "survivors": 6,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 13,
+     "after_spelling": 13,
+     "after_content": 13,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 6,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 43,
+      "meaning too different": 7
+     }
+    },
+    "queries_total": 904,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 12.22
+   }
+  ],
+  "rewrites": {
+   "4": {
+    "original": "The likes of Ireland, Scotland and Wales won\u2019t mind too much having to go through pot one as these nations benefit from the so-called fair draw concept - you\u2019re fixed in a group consisting of small clubs, well tutored, and then you can crash through qualifying in four two-legged encounters.",
+    "rewrite": "Nations such as Ireland, Scotland, and Wales aren't likely to object to staying in pot one because they gain advantage from the fair draw system\u2014ending up in a group with lesser-known clubs, well-prepared teams, and progressing by outmaneuvering four smaller opponents in two-match series."
+   },
+   "15": {
+    "original": "Up until now FFA - one of only two associations which publicly and loudly opposed the move - had advocated an 80-team tournament with the top 24 nations in the world and platoons of qualifiers from the non-elite nations.",
+    "rewrite": "Up until this point, FFA\u2014one of the lone two associations to publicly oppose the change\u2014had advocated for an 80-team tournament featuring the top 24 nations globally along with qualification slots for non-elite countries."
+   },
+   "12": {
+    "original": "Jay Coates, Football Australia's Football Stakeholders Manager, accompanied by Member Federations President Luke Bessey watching the FIFA Council meeting in Moscow.",
+    "rewrite": "Football Australia's Football Stakeholders Manager, Jay Coates, was joined by Member Federations President Luke Bessey as they observed the FIFA Council meeting in Moscow."
+   },
+   "1": {
+    "original": "Participants will be divided into eight pots for the group stage draw, as opposed to the current format where the nations are separated according to region.",
+    "rewrite": "Groups in the draw will be formed from eight pots, differing from the current system that divides nations by region."
+   },
+   "5": {
+    "original": "But there are two other groups of nations lurking in pot one that will enjoy the fair draw during qualifying but lament the unfair draw at the finals.",
+    "rewrite": "Yet, two additional groups of countries await their fate in pot one, relishing the fair distribution during qualifiers but later regretting what they see as an unfair treatment in the finals."
+   },
+   "6": {
+    "original": "On a personal note, I don\u2019t have time to speak about the damage this will have on European teams and their fans.",
+    "rewrite": "From a personal perspective, I do not have the time to discuss the impact this will have on European teams and their supporters."
+   },
+   "2": {
+    "original": "These groups will be seeded too, with the top eight ranked teams placed in group A and so on down to group H.",
+    "rewrite": "These teams will also be seeded, with the top eight ranked ones assigned to group A, progressing down to group H."
+   },
+   "8": {
+    "original": "But it may be worth noting what various European journalists said at the time of the vote.",
+    "rewrite": "However, it might be worthwhile to note what various European journalists remarked during the voting period."
+   },
+   "14": {
+    "original": "These views align with FFA\u2019s position.",
+    "rewrite": "These views are in accordance with FFA\u2019s stance."
+   }
+  },
+  "final_span": "comes with other downsides however. Groups in the draw will be formed from eight pots, differing from the current system that divides nations by region.\nThese teams will also be seeded, with the top eight ranked ones assigned to group A, progressing down to group H.\nThis is where the fun starts. Nations such as Ireland, Scotland, and Wales aren't likely to object to staying in pot one because they gain advantage from the fair draw system\u2014ending up in a group with lesser-known clubs, well-prepared teams, and progressing by outmaneuvering four smaller opponents in two-match series.\nYet, two additional groups of countries await their fate in pot one, relishing the fair distribution during qualifiers but later regretting what they see as an unfair treatment in the finals.\nFrom a personal perspective, I do not have the time to discuss the impact this will have on European teams and their supporters. Not now. However, it might be worthwhile to note what various European journalists remarked during the voting period.\nEuropean Journalists Association president Gianni Merlo - \u201cExpanding the World Cup has the aim of winning over new consumers, yet at this very moment there is no success anywhere in the world in terms of viewing audience.\u201d\nJournalist John Duerden - \u201cGovernments pay billions to FIFA and spend billions on infrastructure, just so that their citizens can watch Europeans play football.\u201d\nNorwegian journalist Geir Gulliksgaard - \"At a time when there is no progress in either the expansion of the continental club game or the global game to enable more countries to play more often, this move appears senseless and self-serving.\"\nFootball Australia's Football Stakeholders Manager, Jay Coates, was joined by Member Federations President Luke Bessey as they observed the FIFA Council meeting in Moscow. Picture: Football Australia/Sydney FBorooters\nThese views are in accordance with FFA\u2019s stance.\nUp until this point, FFA\u2014one of the lone two associations to publicly oppose the change\u2014had advocated for an 80-team tournament featuring the top 24 nations globally along with qualification slots for non-elite countries.\nThere was some focus on the platoons idea",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 9,
+   "eligible": 9,
+   "segments": 17,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 52.94117647058823
+  },
+  "tokens": {
+   "original": 501,
+   "final": 509,
+   "length_change": 8,
+   "pct_not_preserved": 28.742514970059887,
+   "pct_new": 29.862475442043223
+  },
+  "words": {
+   "original": 358,
+   "final": 346,
+   "length_change": -12,
+   "pct_not_preserved": 34.91620111731844,
+   "pct_new": 32.65895953757225
+  },
+  "characters": {
+   "original": 2128,
+   "final": 2183,
+   "length_change": 55,
+   "pct_not_preserved": 26.550751879699252,
+   "pct_new": 28.40128263857078
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 357,
+   "green_after": 285,
+   "pairs_before": 500,
+   "pairs_after": 508,
+   "pairs_changed_before": 204,
+   "pairs_changed_after": 212,
+   "green_fraction_of_new_pairs": 0.37264150943396224,
+   "delta_achieved": 0.12735849056603776
+  }
+ }
+}

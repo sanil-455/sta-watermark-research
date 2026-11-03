@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:278",
+ "nobox": {
+  "z_final": 4.346070049262488,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "However, unlike Facebook's Messenger platform, which does $1.6 billion in messaging-based revenue through Instant Games, online shopping, and physical goods, and is currently spending $3 billion-plus to acquire Martin Weisberg's 280, Inc., to expand the types of marketing services that it can do for third-party businesses, Apple is just getting started with online ads, and may initially struggle to monetize Business Chat.",
+    "rewrite": "However, unlike Facebook\u2019s Messenger platform, which generates $1.6 billion in messaging-based revenue through Instant Games, online shopping, and physical goods, and is spending over $3 billion to acquire Martin Weisberg\u2019s 280, Inc., to expand its marketing services for third-party businesses, Apple is only beginning to explore online ads, and may initially find it challenging to monetize Business Chat."
+   },
+   "2": {
+    "original": "Amazon, which built its entire first-party e-commerce empire on selling small sellers' products, faces a particularly similar situation to Facebook here: It needs an anti-Apple strategy for dealing with its growing direct access to Prime shoppers.",
+    "rewrite": "Amazon, which constructed its entire first-party e-commerce business on selling small sellers' products, is facing a particularly akin situation to Facebook: It requires an anti-Apple strategy for managing its expanding direct access to Prime shoppers."
+   },
+   "3": {
+    "original": "Fortunately for Amazon, particularly from a monetization perspective, it does not need to start from scratch.",
+    "rewrite": "Fortunately for Amazon, especially in terms of monetization, it doesn't have to start from scratch."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 58,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 38,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": ". However, unlike Facebook\u2019s Messenger platform, which generates $1.6 billion in messaging-based revenue through Instant Games, online shopping, and physical goods, and is spending over $3 billion to acquire Martin Weisberg\u2019s 280, Inc., to expand its marketing services for third-party businesses, Apple is only beginning to explore online ads, and may initially find it challenging to monetize Business Chat.\nAmazon, which constructed its entire first-party e-commerce business on selling small sellers' products, is facing a particularly akin situation to Facebook: It requires an anti-Apple strategy for managing its expanding direct access to Prime shoppers. Fortunately for Amazon, especially in terms of monetization, it doesn't have to start from scratch.\nOn a recent earnings call, Amazon Web Services (AWS)",
+  "z0": 5.79827560572969,
+  "seconds": 191.8
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "sample_id": "sta16_len200:110",
+ "nobox": {
+  "z_final": 5.939696961966999,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "In an attempt to show support for school safety in Olympia, KSH tribes are doing a Green Light/Slow Down campaign, since the public bus service stops near neighborhoods where children often wait for the school bus.",
+    "rewrite": "In an effort to support school safety in Olympia, the KSH tribes are conducting a Green Light/Slow Down campaign, as the public bus service stops near areas where children frequently wait for their bus."
+   },
+   "1": {
+    "original": "But the outlook for Snoqualmie, Crystal Mountain and Stevens Pass is beginning to look grim for a second winter in a row, leading most ski resorts to run on artificial snow and approaching capacity.",
+    "rewrite": "But the outlook for Snoqualmie, Crystal Mountain, and Stevens Pass is looking progressively grim for a consecutive second winter, forcing most ski resorts to operate with artificial snow and near full capacity."
+   },
+   "5": {
+    "original": "City Center Market will have Irish food, beer and merchandise Saturday for a day long celebration with live music.",
+    "rewrite": "City Center Market will offer Irish food, beer, and merchandise on Saturday for a day-long celebration with live music."
+   },
+   "3": {
+    "original": "All it takes is people letting up, pulling down, and signaling with their arms to make drivers aware we care.",
+    "rewrite": "All it takes are people lowering themselves, signaling with their arms, and indicating to let drivers know we care."
+   },
+   "4": {
+    "original": "Local restaurants and brewers join in offering St. Paddy\u2019s part food, beverages and tunes in Yelm.",
+    "rewrite": "Local restaurants and brewers come together to offer St. Paddy\u2019s day food, beverages, and music in Yelm."
+   },
+   "6": {
+    "original": "It is the kidnap capital of the world; Harvard it\u2019s not.",
+    "rewrite": "It is the kidnap capital of the world; Harvard is not."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 59,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 32,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 32,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the area has no snow; there\u2019s still plenty. But the outlook for Snoqualmie, Crystal Mountain, and Stevens Pass is looking progressively grim for a consecutive second winter, forcing most ski resorts to operate with artificial snow and near full capacity.\nIn an effort to support school safety in Olympia, the KSH tribes are conducting a Green Light/Slow Down campaign, as the public bus service stops near areas where children frequently wait for their bus. All it takes are people lowering themselves, signaling with their arms, and indicating to let drivers know we care.\nLocal restaurants and brewers come together to offer St. Paddy\u2019s day food, beverages, and music in Yelm. City Center Market will offer Irish food, beer, and merchandise on Saturday for a day-long celebration with live music. It is the kidnap capital of the world; Harvard is not. Yet this",
+  "z0": 10.889444430272832,
+  "seconds": 226.7
+ }
+}

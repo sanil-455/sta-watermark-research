@@ -1,0 +1,15 @@
+{
+ "sample_id": "samples_len200:248",
+ "nobox": {
+  "z_final": 4.1012193308819755,
+  "status": "not broken",
+  "rewrites": {},
+  "sentences_rewritten": 0,
+  "eligible": 0,
+  "per_sentence": [],
+  "queries": 1,
+  "final_span": "the film that can make it a part of their repertoire,\u201d Little-White explained.\n\u201cIt is a type of chronological kaleidoscope and this is the first time in any biographical film that Martin (Cosgrave) has done that because he's usually a run-and-gun [director]. But here he's committed to the idea that he's going to try it and see if Jamaica can pull off a film with a running time on that level for the first time. Once we get all of our interviews and crew together, we'll schedule our shoot and see how it unfolds. There is about six months of pre-production, then you have two months of shooting and then four to six months of editing so the target release is for the first quarter of 2019,\u201d he told the Observer.\n\u201cThis is an historic moment. We have to remember that Kingston 30 wasn",
+  "z0": 4.1012193308819755,
+  "seconds": 0.0
+ }
+}

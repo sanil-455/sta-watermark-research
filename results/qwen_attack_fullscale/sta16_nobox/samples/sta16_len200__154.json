@@ -1,0 +1,35 @@
+{
+ "sample_id": "sta16_len200:154",
+ "nobox": {
+  "z_final": 7.857142857142857,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "There are few things more frustrating for an NFL running back than having no room to run and the Seahawks simply annihilated Knowshon Morency and Marcus Thomas with six - TWO, SIX! - straight snaps going for minimal or no gain.",
+    "rewrite": "There are few things more frustrating for an NFL running back than little to no space to run and the Seahawks simply crushed Knowshon Moore and Marcus Thomas with six, TWO, SIX! consecutive plays yielding minimal or no gain."
+   },
+   "4": {
+    "original": "It had to be one of the Seahawks linemen - Frank Okam perhaps?",
+    "rewrite": "It had to be one of the Seahawks linemen - perhaps Frank Okam?"
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 1,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 20,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "that in mind, here are three things we learned from Denver coach John Fox, Seattle head coach Pete Carroll and players like Sherman, Darrell Hasesbeck and Russell Okung.\n\u2022 For a quarter and a half, Broncos coach John Fox appeared as clueless as his predecessor Josh McDaniels on defense.\n\u2022 For a man who has spent eight years raving about Seattle, defensive coordinator Gus Bradley was in a pressurized, no-man's land during Super Bowl Week.\n\u2022 Somebody got to Lynch. It had to be one of the Seahawks linemen - perhaps Frank Okam? There are few things more frustrating for an NFL running back than little to no space to run and the Seahawks simply crushed Knowshon Moore and Marcus Thomas with six, TWO, SIX! consecutive plays yielding minimal or no gain.\n",
+  "z0": 9.192388155425117,
+  "seconds": 73.8
+ }
+}

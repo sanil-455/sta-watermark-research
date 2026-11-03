@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:104",
+ "nobox": {
+  "z_final": 4.041051482891382,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "The honor code for UTSA's online masters program borrowed the language from a code for Kansas State University's business college, which is exaggerated, since the college has at least four similar codes, according to Yulia Manzhos, manager of academic ethics and standards at Kansas State.",
+    "rewrite": "The honor code for UTSA's online masters program used language from a code developed by Kansas State University's business college, although this appears exaggerated given that the college actually has at least four similar codes, as stated by Yulia Manzhos, the manager of academic ethics and standards at Kansas State."
+   },
+   "0": {
+    "original": "Nagu, a UTSA student, said the group discovered an honor code which included statements similar to what the school's College of Business students drafted and created.",
+    "rewrite": "Nagu, a UTSA student, indicated that the group found an honor code including statements akin to those drafted and created by the school's College of Business students."
+   },
+   "1": {
+    "original": "Before submitting it, Nagu planned to change the wording to reflect what UTSA's student leaders wanted, he said.",
+    "rewrite": "Nagu planned to change the wording before submitting it to reflect what UTSA's student leaders wanted, he said."
+   },
+   "5": {
+    "original": "Nagu said he was sure it had only the most tenuous connection to an honor code in Kansas.",
+    "rewrite": "Nagu said he was certain it had only a slight connection to an honor code in Kansas."
+   },
+   "4": {
+    "original": "KSU claims no intellectual property rights to its codes.",
+    "rewrite": "KSU asserts it holds no intellectual property rights in its codes."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 17,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Nagu, a UTSA student, indicated that the group found an honor code including statements akin to those drafted and created by the school's College of Business students. Nagu planned to change the wording before submitting it to reflect what UTSA's student leaders wanted, he said.\nUTSA has no honor code. The honor code for UTSA's online masters program used language from a code developed by Kansas State University's business college, although this appears exaggerated given that the college actually has at least four similar codes, as stated by Yulia Manzhos, the manager of academic ethics and standards at Kansas State.\nKSU asserts it holds no intellectual property rights in its codes.\nNagu said he was certain it had only a slight connection to an honor code in Kansas.\nUTSA's Online MBA -#1 ranking on Business Insider\n\"It's a really embarrassing mistake,\" said N",
+  "z0": 5.5154328932550705,
+  "seconds": 197.6
+ }
+}

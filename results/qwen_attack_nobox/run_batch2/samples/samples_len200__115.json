@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:115",
+ "nobox": {
+  "z_final": 2.468709655505094,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "Mr Ng and Ms Mahuta meet tribesmen as part of the indigenous first activity during the New Zealand Defence Ministers' visit to North Island and Hamilton.",
+    "rewrite": "Mr Ng and Ms Mahuta meet tribesmen as part of the indigenous first activity during the New Zealand Defence Ministers' visit to the North Island and Hamilton."
+   },
+   "6": {
+    "original": "New Zealand paid a visit to Singapore, named as part of the inaugural Pacific Payback visit by the New Zealand Defence Force from Feb 28 to Mar 13.",
+    "rewrite": "New Zealand made a visit to Singapore as part of the inaugural Pacific Payback visit by the New Zealand Defence Force from February 28 to March 13."
+   },
+   "1": {
+    "original": "The two countries also discussed the S-70 Seahawk multi-role helicopter this year.",
+    "rewrite": "This year, the two countries also discussed the S-70 Seahawk multi-role helicopter."
+   },
+   "7": {
+    "original": "Mr Ng and Ms Mahuta also meet tribesmen as part of the indigenous first activity.",
+    "rewrite": "Mr Ng and Ms Mahuta also meet with tribesmen as part of the indigenous first activity."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 4,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 28,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Nanaia Mahuta on Mar 8. This year, the two countries also discussed the S-70 Seahawk multi-role helicopter.\n\"MINDEF will continue to evaluate their proposal and will make an announcement based on the security implications in due course,\" it added.\nREAD: Singapore, New Zealand discuss opportunities in helicopter, air defence training\nMr Ng and Ms Mahuta meet tribesmen as part of the indigenous first activity during the New Zealand Defence Ministers' visit to the North Island and Hamilton. (Photo: MINDEF)\nNew Zealand made a visit to Singapore as part of the inaugural Pacific Payback visit by the New Zealand Defence Force from February 28 to March 13.\nMr Ng and Ms Mahuta also meet with tribesmen as part of the indigenous first activity.\n\"In line with Singapore-New Zealand relations, Defence ties would continue to",
+  "z0": 2.1213203435596424,
+  "seconds": 131.5
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "sample_id": "samples_len200:71",
+ "nobox": {
+  "z_final": 4.949747468305833,
+  "status": "not broken",
+  "rewrites": {},
+  "sentences_rewritten": 0,
+  "eligible": 0,
+  "per_sentence": [],
+  "queries": 1,
+  "final_span": "after a country park or protecting a wetland habitat, should a conservation charity which specialises in that also have responsibility for monitoring and reviewing the process of the farmer doing that and judging him?\u201d\nMr Duffy said: \u201cAs landowners and farmers, I think there is a lot at stake here and we do want to be kind to the countryside.\n\u201cNinety per cent of the country in agricultural land which is farmed privately so, basically, we are paid for looking after it.\n\u201cWe are small businesses and I think it is fair to say we have a proud record of doing it, but we do need to come up with new ways of working.\u201d\nMr Ward said farmers \u201cdon\u2019t necessarily have the skills\u201d in making environmental improvements on an estate-wide base to match the scientific expertise of environmental groups.\n\u201cThere is a balance, if part of the fund is",
+  "z0": 4.949747468305833,
+  "seconds": 0.0
+ }
+}

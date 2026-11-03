@@ -1,0 +1,303 @@
+{
+ "sample_id": "samples_len500:153",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8285035629453682,
+ "needed_share": 0.6894350031250291,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2105,
+  "segments": 21,
+  "eligible": 15,
+  "skipped": 6,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 4,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1744,
+  "eligible_char_share": 0.8285035629453682
+ },
+ "attack": {
+  "z0": 6.439875775199394,
+  "z_final": 1.548308843213331,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 310,
+  "seconds": 269.0,
+  "seconds_by_phase": {
+   "generate": 245.0,
+   "gates": 23.8,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 201,
+    "z_before": 6.439875775199394,
+    "z_after": 5.34228050682901,
+    "accepted": true,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 38,
+     "after_content": 38,
+     "after_semantic": 38,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "unknown word": 22
+     }
+    },
+    "queries_total": 39,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.09
+   },
+   {
+    "pass": 1,
+    "segment": 19,
+    "chars": 178,
+    "z_before": 5.34228050682901,
+    "z_after": 4.702989499905403,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "CJK text": 12,
+      "several lines": 1,
+      "unknown word": 3
+     }
+    },
+    "queries_total": 83,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.05
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 171,
+    "z_before": 4.702989499905403,
+    "z_after": 4.081839943314123,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 57,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 1,
+      "negation count changed": 6
+     }
+    },
+    "queries_total": 134,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.56
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 155,
+    "z_before": 4.081839943314123,
+    "z_after": 3.4744160273549856,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "unknown word": 4,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 185,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.81
+   },
+   {
+    "pass": 1,
+    "segment": 16,
+    "chars": 124,
+    "z_before": 3.4744160273549856,
+    "z_after": 2.99935142146037,
+    "accepted": true,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 42,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 40,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "duplicate": 18,
+      "meaning too different": 2
+     }
+    },
+    "queries_total": 225,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.3
+   },
+   {
+    "pass": 1,
+    "segment": 17,
+    "chars": 115,
+    "z_before": 2.99935142146037,
+    "z_after": 2.3864853865045976,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 53,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "duplicate": 5,
+      "unknown word": 2,
+      "negation count changed": 3,
+      "perplexity too high": 8
+     }
+    },
+    "queries_total": 267,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.2
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 113,
+    "z_before": 2.3864853865045976,
+    "z_after": 1.548308843213331,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "duplicate": 10,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 310,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.95
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "Massachusetts-based flight director Jonathan Beasley said the turbine works at 280 miles per hour, generating about 200 kilo newtons, and the overhang itself creates turbulence, which tribesmen resist.",
+    "rewrite": "Jonathan Beasley, a flight director based in Massachusetts, stated that the turbine operates at 280 miles per hour and produces around 200 kilo newtons of force. He noted that the overhang generates turbulence, a factor resisted by the tribal members."
+   },
+   "19": {
+    "original": "But it is unclear what kind of full-length search is required of a plane that has stopped flying and how it leads to the investigation and rescue of a survivor of the wheel well.",
+    "rewrite": "It remains uncertain what degree of comprehensive search is needed for a halted plane and how it contributes to the investigation and rescue of a wheel well survivor."
+   },
+   "12": {
+    "original": "Government flight rules classify falling human body as flight hazard and specify that any potentially hazardous substance should be covered or removed as soon as possible.",
+    "rewrite": "Government flight regulations categorize a falling human body as a flight risk and mandate that any potentially dangerous substance be concealed or eliminated as quickly as possible."
+   },
+   "10": {
+    "original": "Many were on passenger planes when their flights stopped; Other survivors passed through the wheel well on orders, missing, or transferred between flights.",
+    "rewrite": "Several were aboard passenger planes when their flights ceased; Other survivors navigated through the wheel wells based on instructions, were missing, or were transferred between flights."
+   },
+   "16": {
+    "original": "San Jose Department of Public Safety \u0622\u062e\u0631\u06cc It is just a process to prepare the plane and the wheel guard for the next flight.",
+    "rewrite": "The San Jose Department of Public Safety just undertakes a procedure to get the plane and the wheel guard ready for the subsequent flight."
+   },
+   "17": {
+    "original": "Nor do the aviation rules specify how extensive a search for a human body is required or is likely to be performed.",
+    "rewrite": "The aviation regulations also do not define the extent of a search for a human body that should be conducted."
+   },
+   "9": {
+    "original": "According to FAA records, at least 57 people survived after being close to three hours on planes in recent years.",
+    "rewrite": "FAA records show that at least 57 individuals survived following periods of up to nearly three hours in airplanes recently."
+   }
+  },
+  "final_span": "of the state child welfare department, Rosenfeld said Tuesday.\nHe had scratches from the drag on the bottom of the CG60 aviation wind machine buried in overhang bay near Maui.\nJonathan Beasley, a flight director based in Massachusetts, stated that the turbine operates at 280 miles per hour and produces around 200 kilo newtons of force. He noted that the overhang generates turbulence, a factor resisted by the tribal members.\n\u201cI am flowing from a wind chute fixed in overhang. The small wind tributary that formed the penny crash brought it out. There was a press release about \u201cthe game,\u201d claims Mackay.\nOld Payne of the Central Alabama Skunk River Managerion reads during the Maryland flood in 1975. More than a quarter million people were destroyed, nearly 2,000 people killed. He said most of them were due to window seal locks and doors.\nFAA records show that at least 57 individuals survived following periods of up to nearly three hours in airplanes recently.\nSeveral were aboard passenger planes when their flights ceased; Other survivors navigated through the wheel wells based on instructions, were missing, or were transferred between flights.\nBut it happens more often than people think.\nGovernment flight regulations categorize a falling human body as a flight risk and mandate that any potentially dangerous substance be concealed or eliminated as quickly as possible. FAA has not yet responded to a question about what steps the agency would take after a plane stopped flying.\nThey do not believe, however, that a human body should be considered suitable.\n\u201cSometimes the plane would not fly at all.\u201d The San Jose Department of Public Safety just undertakes a procedure to get the plane and the wheel guard ready for the subsequent flight.\nThe aviation regulations also do not define the extent of a search for a human body that should be conducted.\nEmployees working for the police followed standard operating procedures to control any possible flooded areas.\nIt remains uncertain what degree of comprehensive search is needed for a halted plane and how it contributes to the investigation and rescue of a wheel well survivor.\nSince at least 2014, when a metal worker nearly followed Fos",
+  "break_point": {
+   "step": 6,
+   "sentences_rewritten": 7,
+   "queries": 310
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 7,
+   "eligible": 15,
+   "segments": 21,
+   "pct_of_eligible": 46.666666666666664,
+   "pct_of_segments": 33.333333333333336
+  },
+  "tokens": {
+   "original": 501,
+   "final": 512,
+   "length_change": 11,
+   "pct_not_preserved": 19.760479041916167,
+   "pct_new": 21.484375
+  },
+  "words": {
+   "original": 355,
+   "final": 363,
+   "length_change": 8,
+   "pct_not_preserved": 21.690140845070427,
+   "pct_new": 23.41597796143251
+  },
+  "characters": {
+   "original": 2105,
+   "final": 2204,
+   "length_change": 99,
+   "pct_not_preserved": 14.204275534441802,
+   "pct_new": 18.058076225045372
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 322,
+   "green_after": 273,
+   "pairs_before": 500,
+   "pairs_after": 511,
+   "pairs_changed_before": 151,
+   "pairs_changed_after": 162,
+   "green_fraction_of_new_pairs": 0.3395061728395062,
+   "delta_achieved": 0.16049382716049382
+  }
+ }
+}

@@ -1,0 +1,308 @@
+{
+ "sample_id": "samples_len500:151",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.914804469273743,
+ "needed_share": 0.7515480025000234,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2148,
+  "segments": 17,
+  "eligible": 13,
+  "skipped": 4,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "too short": 2,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1965,
+  "eligible_char_share": 0.914804469273743
+ },
+ "attack": {
+  "z0": 8.049844718999243,
+  "z_final": 1.65303809095245,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 340,
+  "seconds": 330.6,
+  "seconds_by_phase": {
+   "generate": 301.2,
+   "gates": 29.2,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 247,
+    "z_before": 8.049844718999243,
+    "z_after": 7.155417527999327,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "unknown word": 11,
+      "glued punctuation": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 48,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 52.5
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 230,
+    "z_before": 7.155417527999327,
+    "z_after": 5.837172315870185,
+    "accepted": true,
+    "survivors": 56,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 60,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 56,
+     "rejected": {
+      "negation count changed": 4
+     }
+    },
+    "queries_total": 104,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 49.2
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 221,
+    "z_before": 5.837172315870185,
+    "z_after": 4.67243867464484,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 55,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "unknown word": 5,
+      "negation count changed": 6,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 148,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.98
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 172,
+    "z_before": 4.67243867464484,
+    "z_after": 4.342316366047699,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 50,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "duplicate": 10,
+      "negation count changed": 1,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 192,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.61
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 171,
+    "z_before": 4.342316366047699,
+    "z_after": 3.1657335306807397,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "duplicate": 1,
+      "CJK text": 5,
+      "unknown word": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 241,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 39.32
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 162,
+    "z_before": 3.1657335306807397,
+    "z_after": 2.5465721941699906,
+    "accepted": true,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 10,
+      "several lines": 1,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 287,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.34
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 154,
+    "z_before": 2.5465721941699906,
+    "z_after": 1.65303809095245,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "duplicate": 2,
+      "negation count changed": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 340,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.26
+   }
+  ],
+  "rewrites": {
+   "9": {
+    "original": "The default customizations are already set in your file format\u2014so for example, you customized Word, Excel, and PowerPoint files for years with Quick Access Toolbars that included the Commands button, Close, Page, Save, Recent documents, and so on.",
+    "rewrite": "Default customizations in your file formats are predetermined\u2014meaning you had personalized Word, Excel, and PowerPoint files via Quick Access Toolbars featuring the Commands button, Close, Page, Save, Recent documents, and others for quite some time."
+   },
+   "6": {
+    "original": "In the Pop window, click the Share button to launch a Live Meeting session to present the slide, if someone else is already in a Live Meeting session before you (and is willing to participate\u2014but note that you must have a Webcam).",
+    "rewrite": "On the Pop window, select the Share button to initiate a Live Meeting session for presenting the slide, provided another participant is already in the session and agrees to join\u2014but remember you need a Webcam for this."
+   },
+   "1": {
+    "original": "Customizing Word The Ribbon toolbars in Word and Excel 2013 support customizable Quick Access Toolbars\u2014but Word's Quick Access Toolbar supports run at startup, an option I missed terribly when I first tested the new Word.",
+    "rewrite": "Customizing the ribbon toolbars in Word and Excel 2013 allows for personalized Quick Access Toolbars\u2014yet, Word\u2019s Quick Access Toolbar offers the ability to run at startup, an option that I found sorely lacking during my initial testing of the new Word version."
+   },
+   "12": {
+    "original": "All of the ribbon buttons and tabs are on the same level, which means that you can add buttons to the Quick Access Toolbars in any order and across all of the applications.",
+    "rewrite": "All the ribbon buttons and tabs share the same level, meaning you can add them to the Quick Access Toolbars in any order and across all applications."
+   },
+   "3": {
+    "original": "In addition to location on the screen (below or on top of the ribbon), you can group together and hide other small icons at the top-right and bottom-right of the toolbars.",
+    "rewrite": "Apart from their placement on the screen (below or above the ribbon), you can also organize and conceal additional minor icons situated in the top-right and bottom-right corners of the toolbars."
+   },
+   "4": {
+    "original": "To add icons to the Quick Access Toolbar, click the Customize Quick Access Toolbar button, then click the buttons to add them or drag them to where you want them.",
+    "rewrite": "To include icons in the Quick Access Toolbar, press the Customize Quick Access Toolbar button, subsequently select the buttons to include or drag them to your preferred location."
+   },
+   "8": {
+    "original": "Ribbon Toolbar Customization While most information about the Ribbon toolbars in Office 2013 has now become a legacy issue, here's how you customize them.",
+    "rewrite": "Guide to Ribbon Toolbar Customization Although much of the information regarding Ribbon toolbars in Office 2013 has aged, this guide shows you how to customize them."
+   }
+  },
+  "final_span": "you work, or as you change the way things look, you can close the pane and save what you've done.\nCustomizing the ribbon toolbars in Word and Excel 2013 allows for personalized Quick Access Toolbars\u2014yet, Word\u2019s Quick Access Toolbar offers the ability to run at startup, an option that I found sorely lacking during my initial testing of the new Word version. Editing toolbar customization is another story. Apart from their placement on the screen (below or above the ribbon), you can also organize and conceal additional minor icons situated in the top-right and bottom-right corners of the toolbars. To include icons in the Quick Access Toolbar, press the Customize Quick Access Toolbar button, subsequently select the buttons to include or drag them to your preferred location.\nPresent an Explanation Click More to show a pop-up type of window that gives details about a number, spreadsheet part, or other element. On the Pop window, select the Share button to initiate a Live Meeting session for presenting the slide, provided another participant is already in the session and agrees to join\u2014but remember you need a Webcam for this. Present an Explanation is a handy tool for presenting the elements of a slide, PowerPoint's mouse cursors, or the size of other objects on the slide.\nGuide to Ribbon Toolbar Customization Although much of the information regarding Ribbon toolbars in Office 2013 has aged, this guide shows you how to customize them. Default customizations in your file formats are predetermined\u2014meaning you had personalized Word, Excel, and PowerPoint files via Quick Access Toolbars featuring the Commands button, Close, Page, Save, Recent documents, and others for quite some time.\nYou can, however, add or remove buttons from the available Quick Access Toolbars to make the applications more suited to how you work. Differing from previous versions of Office, you don't have any ribbon hierarchy. All the ribbon buttons and tabs share the same level, meaning you can add them to the Quick Access Toolbars in any order and across all applications. Here's how.\nClick the Tool buttons button to reveal the buttons available.\nClick Filmstrip. The ribbon toolbar appears along the top of",
+  "break_point": {
+   "step": 6,
+   "sentences_rewritten": 7,
+   "queries": 340
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 7,
+   "eligible": 13,
+   "segments": 17,
+   "pct_of_eligible": 53.84615384615385,
+   "pct_of_segments": 41.1764705882353
+  },
+  "tokens": {
+   "original": 501,
+   "final": 502,
+   "length_change": 1,
+   "pct_not_preserved": 21.357285429141715,
+   "pct_new": 21.513944223107572
+  },
+  "words": {
+   "original": 365,
+   "final": 358,
+   "length_change": -7,
+   "pct_not_preserved": 27.397260273972602,
+   "pct_new": 25.977653631284912
+  },
+  "characters": {
+   "original": 2148,
+   "final": 2205,
+   "length_change": 57,
+   "pct_not_preserved": 16.806331471135938,
+   "pct_new": 18.956916099773245
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 340,
+   "green_after": 269,
+   "pairs_before": 500,
+   "pairs_after": 501,
+   "pairs_changed_before": 158,
+   "pairs_changed_after": 159,
+   "green_fraction_of_new_pairs": 0.2830188679245283,
+   "delta_achieved": 0.2169811320754717
+  }
+ }
+}

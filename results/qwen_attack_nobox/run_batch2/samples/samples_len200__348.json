@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:348",
+ "nobox": {
+  "z_final": 3.3486113494317533,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Liza Treyger, host of the runaway hit Online Etiquette, came to Philadelphia last spring to perform at Chris Gethard\u2019s Beautiful/Anonymous at the Prince Theater, and quickly realized she had more to say than her first-ever stage time allowed.",
+    "rewrite": "Liza Treyger, host of the runaway hit Online Etiquette, visited Philadelphia last spring to perform at Chris Gethard\u2019s Beautiful/Anonymous at the Prince Theater and swiftly found that she had much to say beyond what her initial stage slot permitted."
+   },
+   "1": {
+    "original": "It could be hilarious or deeply poignant, kids love them or seniors over and over.",
+    "rewrite": "It could be hilarious or deeply poignant; kids love them, and seniors enjoy them repeatedly."
+   },
+   "2": {
+    "original": "In every sense of the word, they\u2019re personal.",
+    "rewrite": "They are personal in every sense of the word."
+   },
+   "6": {
+    "original": "There\u2019s a definite market for this right now.",
+    "rewrite": "There is certainly a market for this at present."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 23,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 2,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the same: You will hear an interesting person tell an interesting story. It could be hilarious or deeply poignant; kids love them, and seniors enjoy them repeatedly. They are personal in every sense of the word.\nLiza Treyger, host of the runaway hit Online Etiquette, visited Philadelphia last spring to perform at Chris Gethard\u2019s Beautiful/Anonymous at the Prince Theater and swiftly found that she had much to say beyond what her initial stage slot permitted.\n\u201cWhen I saw the [Apple] Studio I was like, \u2018Oh, I have things to say, I should keep it going!\u2019 \u201c she says. And luckily for the rest of us, she did.\nThere is certainly a market for this at present. Stories have been incredibly popular in recent years: podcasts, big-budget movies, and the new Russo Brother\u2019s Apple",
+  "z0": 4.666904755831213,
+  "seconds": 135.8
+ }
+}

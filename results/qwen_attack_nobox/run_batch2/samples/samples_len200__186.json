@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:186",
+ "nobox": {
+  "z_final": 4.121880516208469,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "But months after joining Facebook and after only a brief stint at Oculus according to his LinkedIn profile, which hasn't been updated since Nov. 13 of last year, Wong left the company.",
+    "rewrite": "But months after joining Facebook and shortly after starting at Oculus, as indicated by his LinkedIn profile, which has not been updated since Nov. 13 last year, Wong quit the company."
+   },
+   "1": {
+    "original": "He's planned to be a senior director overseeing software quality at Oculus, according to his LinkedIn profile.",
+    "rewrite": "According to his LinkedIn profile, he is planning to be a senior director overseeing software quality at Oculus."
+   },
+   "3": {
+    "original": "He did not say why he was leaving Facebook in a tweet at the time, according to a Google translation.",
+    "rewrite": "At the time, he did not say why he was leaving Facebook in a tweet, according to a Google translation."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 3,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 38,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the effort: Wong led the engineering team that worked on the $1,500 device, which combined a wearable computer with a display mounted at eye level and sold to developers and entrepreneurs.\nAccording to his LinkedIn profile, he is planning to be a senior director overseeing software quality at Oculus.\nBut months after joining Facebook and shortly after starting at Oculus, as indicated by his LinkedIn profile, which has not been updated since Nov. 13 last year, Wong quit the company. At the time, he did not say why he was leaving Facebook in a tweet, according to a Google translation.\nOn Friday, Google's page for Wong reports that he became a director at Alphabet Inc. in April, but the Alphabet page for Wong is identical to his previous page at google.com.\nNo one was available for comment on Wong's parting and return to",
+  "z0": 4.666904755831213,
+  "seconds": 100.8
+ }
+}

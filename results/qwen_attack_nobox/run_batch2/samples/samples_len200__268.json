@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:268",
+ "nobox": {
+  "z_final": 4.346070049262488,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "In the past, this sort of journey has always required the tricky arc of Female Character Development, where female protagonists learn to love and become overwhelmingly grateful for the friendships they find along the way.",
+    "rewrite": "In the past, such journeys have demanded the intricate progression of Female Character Development, where female protagonists learn to cherish and grow deeply thankful for the friendships they form."
+   },
+   "4": {
+    "original": "I hate to sound like a cynic \u2014 but am I whining when I point out that this formula smacks of insidious imperial feminism: Love everyone.",
+    "rewrite": "I hate to seem cynical \u2014 but am I whining when I note that this formula has an insidious taint of imperial feminism: Love everyone."
+   },
+   "5": {
+    "original": "Don\u2019t focus on the hardships or the abuse you fail to stop; don\u2019t work to mitigate the gender-based inequities that exist in the world.",
+    "rewrite": "Avoid concentrating on the hardships or the abuse that wasn't stopped; do not aim to lessen the gender-based inequities present in the world."
+   },
+   "1": {
+    "original": "They think it\u2019s fun to let Tip and Oh think she\u2019s going to be her responsibility, but she\u2019s not biting.",
+    "rewrite": "They believe it\u2019s enjoyable to make Tip and Oh think she\u2019ll take on the responsibility, but she\u2019s not falling for it."
+   },
+   "2": {
+    "original": "As Oh and Tip take this journey together, I was happy to see she was a capable travel companion.",
+    "rewrite": "As Oh and Tip embark on this journey together, it pleased me to see that she was a capable travel companion."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 37,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": ". They believe it\u2019s enjoyable to make Tip and Oh think she\u2019ll take on the responsibility, but she\u2019s not falling for it.\nAs Oh and Tip embark on this journey together, it pleased me to see that she was a capable travel companion. In the past, such journeys have demanded the intricate progression of Female Character Development, where female protagonists learn to cherish and grow deeply thankful for the friendships they form. I hate to seem cynical \u2014 but am I whining when I note that this formula has an insidious taint of imperial feminism: Love everyone. Avoid concentrating on the hardships or the abuse that wasn't stopped; do not aim to lessen the gender-based inequities present in the world. Instead, embrace the spirit of unconditional love and tolerance, which, conveniently, you will forget if it\u2019s a",
+  "z0": 5.374011537017761,
+  "seconds": 179.0
+ }
+}

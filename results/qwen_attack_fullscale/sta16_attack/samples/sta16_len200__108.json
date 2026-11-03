@@ -1,0 +1,349 @@
+{
+ "sample_id": "sta16_len200:108",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.693854748603352,
+ "needed_share": 0.7920274172980742,
+ "delta_needed": 0.04810618854074716,
+ "segmentation": {
+  "chars": 895,
+  "segments": 5,
+  "eligible": 3,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 621,
+  "eligible_char_share": 0.693854748603352
+ },
+ "attack": {
+  "z0": 9.616652224137045,
+  "z_final": 3.2262365304697727,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 199,
+  "seconds": 454.6,
+  "seconds_by_phase": {
+   "generate": 439.1,
+   "gates": 15.4,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 284,
+    "z_before": 9.616652224137045,
+    "z_after": 7.571428571428571,
+    "accepted": true,
+    "survivors": 7,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 54,
+     "after_content": 7,
+     "after_semantic": 7,
+     "fluency_skipped": false,
+     "after_fluency": 7,
+     "rejected": {
+      "CJK text": 5,
+      "unknown word": 1,
+      "quotation changed": 36,
+      "negation count changed": 11
+     }
+    },
+    "queries_total": 8,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 57.4
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 181,
+    "z_before": 7.571428571428571,
+    "z_after": 5.425943255790072,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 49,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "CJK text": 5,
+      "several lines": 6,
+      "negation count changed": 4,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 49,
+    "hit_limit": 3,
+    "oom_events": [],
+    "seconds_generate": 65.89
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 156,
+    "z_before": 5.425943255790072,
+    "z_after": 3.4008006448743817,
+    "accepted": true,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 19,
+     "after_semantic": 19,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "CJK text": 5,
+      "negation count changed": 36,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 67,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.2
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 284,
+    "z_before": 3.4008006448743817,
+    "z_after": 3.411211461689767,
+    "accepted": false,
+    "survivors": 8,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 50,
+     "after_content": 8,
+     "after_semantic": 8,
+     "fluency_skipped": false,
+     "after_fluency": 8,
+     "rejected": {
+      "CJK text": 8,
+      "unknown word": 2,
+      "negation count changed": 9,
+      "quotation changed": 33
+     }
+    },
+    "queries_total": 75,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 55.02
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 181,
+    "z_before": 3.4008006448743817,
+    "z_after": 3.256085723815897,
+    "accepted": true,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 47,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "CJK text": 11,
+      "several lines": 2,
+      "negation count changed": 6,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 114,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 50.41
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 156,
+    "z_before": 3.256085723815897,
+    "z_after": 3.2262365304697727,
+    "accepted": true,
+    "survivors": 20,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 55,
+     "after_content": 21,
+     "after_semantic": 21,
+     "fluency_skipped": false,
+     "after_fluency": 20,
+     "rejected": {
+      "CJK text": 2,
+      "several lines": 1,
+      "unknown word": 2,
+      "negation count changed": 34,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 134,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.57
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 284,
+    "z_before": 3.2262365304697727,
+    "z_after": 3.7142857142857144,
+    "accepted": false,
+    "survivors": 6,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 52,
+     "after_content": 6,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 6,
+     "rejected": {
+      "CJK text": 7,
+      "several lines": 1,
+      "negation count changed": 11,
+      "quotation changed": 35
+     }
+    },
+    "queries_total": 140,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 57.66
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 181,
+    "z_before": 3.2262365304697727,
+    "z_after": 3.243723035407737,
+    "accepted": false,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 48,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "CJK text": 11,
+      "unknown word": 1,
+      "negation count changed": 4,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 182,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 45.24
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 156,
+    "z_before": 3.2262365304697727,
+    "z_after": 3.2262365304697727,
+    "accepted": false,
+    "survivors": 17,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 53,
+     "after_content": 18,
+     "after_semantic": 18,
+     "fluency_skipped": false,
+     "after_fluency": 17,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 5,
+      "negation count changed": 35,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 199,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.75
+   }
+  ],
+  "rewrites": {
+   "1": {
+    "original": "Much of the reported impoverishment and lack of economic opportunity is more a product, not of human nature but of long histories of Western nations dominating the rest of the world, and then insisting that non-Western countries adapt to the expectations of globalized \u201cfree markets.\u201d",
+    "rewrite": "A significant part of the reported poverty and absence of economic opportunities is not a consequence of inherent human traits but rather of historical Western dominance over other nations, alongside the insistence that non-Western countries conform to the standards of globalized \u201cfree markets.\u201d"
+   },
+   "3": {
+    "original": "Until recently, at any rate, right-wing populism in large non-Western democracies was a fairly new occurrence, and so there was something relatively fresh and new to be inspired by.",
+    "rewrite": "Up until now, right-wing populism in major non-Western democracies had been somewhat novel, providing a relatively fresh source of inspiration."
+   },
+   "2": {
+    "original": "As India has pointed out many times in UN forums, India's historic poverty has for too long been blamed on the country\u2019s own government and not on the West.",
+    "rewrite": "India, as it has repeatedly emphasized in UN platforms, has long argued that its past poverty should not be solely attributed to its government but also to the actions of the West."
+   }
+  },
+  "final_span": "other hand, there are reasons why Colour Revolutions did not happen in places like Argentina, Chile, Belarus, Pakistan and Burma, despite similar levels of Western repression and corruption in their leadership, all of which is observable today in the United States.\nA significant part of the reported poverty and absence of economic opportunities is not a consequence of inherent human traits but rather of historical Western dominance over other nations, alongside the insistence that non-Western countries conform to the standards of globalized \u201cfree markets.\u201d India, as it has repeatedly emphasized in UN platforms, has long argued that its past poverty should not be solely attributed to its government but also to the actions of the West.\nUp until now, right-wing populism in major non-Western democracies had been somewhat novel, providing a relatively fresh source of inspiration.\nThere",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 3,
+   "segments": 5,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 60.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 187,
+   "length_change": -14,
+   "pct_not_preserved": 42.288557213930346,
+   "pct_new": 37.96791443850267
+  },
+  "words": {
+   "original": 145,
+   "final": 137,
+   "length_change": -8,
+   "pct_not_preserved": 44.827586206896555,
+   "pct_new": 41.6058394160584
+  },
+  "characters": {
+   "original": 895,
+   "final": 893,
+   "length_change": -2,
+   "pct_not_preserved": 27.59776536312849,
+   "pct_new": 27.43561030235162
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 168,
+   "green_after": 115,
+   "pairs_before": 200,
+   "pairs_after": 186,
+   "pairs_changed_before": 108,
+   "pairs_changed_after": 94,
+   "green_fraction_of_new_pairs": 0.43617021276595747,
+   "delta_achieved": 0.06382978723404253
+  }
+ }
+}

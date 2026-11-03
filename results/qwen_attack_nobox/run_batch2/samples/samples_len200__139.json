@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:139",
+ "nobox": {
+  "z_final": 4.643743795219926,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Making tricky and dangerous exercises more accessible by translating them into a live entertainment environment may mean that competitors are taking unnecessary risks, but debuting first-time competitors in a wholesome, well-regulated and rewarding environment is key to the developmental goals of the show.",
+    "rewrite": "Translating challenging and hazardous exercises into a live entertainment setting to make them more accessible could lead competitors to take unnecessary risks, whereas introducing first-time participants to a wholesome, well-regulated, and rewarding environment is crucial for the show's developmental objectives."
+   },
+   "4": {
+    "original": "And Ben said claims that it's fail fast and tough love in ITV's Ninja Warrior would be disingenuous.",
+    "rewrite": "And Ben stated that claims of fail fast and tough love in ITV's Ninja Warrior are disingenuous."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 44,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "where we've really got some absolute hardcore guys and girls and you do want to see them do well.\"\nBen continued: \"There are things that we do there and there, but there are so many advantages. Whoever is behind these courses that we put them through, they are safe as houses compared to what runners get coming up against at our dojo.\"\nTranslating challenging and hazardous exercises into a live entertainment setting to make them more accessible could lead competitors to take unnecessary risks, whereas introducing first-time participants to a wholesome, well-regulated, and rewarding environment is crucial for the show's developmental objectives.\nAnd Ben stated that claims of fail fast and tough love in ITV's Ninja Warrior are disingenuous.\n\"It's not 'if' you fail. So many things have safety measures in place, and it filters out too many people and",
+  "z0": 5.374011537017761,
+  "seconds": 93.3
+ }
+}

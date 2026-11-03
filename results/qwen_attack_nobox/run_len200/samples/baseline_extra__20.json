@@ -1,0 +1,35 @@
+{
+ "sample_id": "baseline_extra:20",
+ "nobox": {
+  "z_final": 2.4936467495768375,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "Health care's disastrous performance since March, fueled by criticism from the president and lackluster earnings reports, could ruin the market's momentum.",
+    "rewrite": "Since March, health care's poor performance, spurred by presidential criticism and weak earnings reports, could spoil the market's momentum."
+   },
+   "3": {
+    "original": "But reason No. 5 is the one that keeps the host of \"Mad Money\" up at night.",
+    "rewrite": "But reason No. 5 is the one that keeps the host of \"Mad Money\" awake at night."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 11,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "is that technology stocks have gone bananas, and a correction is inevitable, if not overdue, Cramer contended.\n\"But let me tell you this. In every correction I've ever had in my 47 years as an investor, technology stocks are the worst offenders, because they're the ones you've got to buy,\" according to Cramer.\nBut reason No. 5 is the one that keeps the host of \"Mad Money\" awake at night.\n\"It's all my fault,\" Cramer said, \"because I've been so bearish on health care, and so I'm not sure what to make of the fact that pharmaceutical stocks appear to be bottoming.\"\nSince March, health care's poor performance, spurred by presidential criticism and weak earnings reports, could spoil the market's momentum.",
+  "z0": 3.394112549695428,
+  "seconds": 68.0
+ }
+}

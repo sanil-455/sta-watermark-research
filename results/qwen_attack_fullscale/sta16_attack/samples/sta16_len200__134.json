@@ -1,0 +1,513 @@
+{
+ "sample_id": "sta16_len200:134",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.7250293772032902,
+ "needed_share": 0.8374467169686097,
+ "delta_needed": 0.06744767086065609,
+ "segmentation": {
+  "chars": 851,
+  "segments": 5,
+  "eligible": 3,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 617,
+  "eligible_char_share": 0.7250293772032902
+ },
+ "attack": {
+  "z0": 12.303657992645926,
+  "z_final": 4.900980294098034,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 5,
+  "queries": 154,
+  "seconds": 669.1,
+  "seconds_by_phase": {
+   "generate": 655.6,
+   "gates": 13.5,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 300,
+    "z_before": 12.303657992645926,
+    "z_after": 10.330822248246898,
+    "accepted": true,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 54,
+     "after_content": 5,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "unknown word": 6,
+      "quotation changed": 49
+     }
+    },
+    "queries_total": 6,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 59.01
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 225,
+    "z_before": 10.330822248246898,
+    "z_after": 6.892398322730286,
+    "accepted": true,
+    "survivors": 16,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 50,
+     "after_content": 16,
+     "after_semantic": 16,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 8,
+      "negation count changed": 34
+     }
+    },
+    "queries_total": 22,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.65
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 92,
+    "z_before": 6.892398322730286,
+    "z_after": 5.974470731214165,
+    "accepted": true,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "CJK text": 2,
+      "several lines": 1,
+      "meaning too different": 51,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 27,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.71
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 300,
+    "z_before": 5.974470731214165,
+    "z_after": 6.111753868860832,
+    "accepted": false,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 52,
+     "after_content": 1,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 7,
+      "quotation changed": 51
+     }
+    },
+    "queries_total": 28,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 58.15
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 225,
+    "z_before": 5.974470731214165,
+    "z_after": 6.318031795836095,
+    "accepted": false,
+    "survivors": 25,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 52,
+     "after_content": 27,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 25,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 6,
+      "negation count changed": 25,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 53,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.94
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 92,
+    "z_before": 5.974470731214165,
+    "z_after": 5.6853524361496115,
+    "accepted": true,
+    "survivors": 7,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 8,
+     "fluency_skipped": false,
+     "after_fluency": 7,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 5,
+      "glued punctuation": 1,
+      "unknown word": 2,
+      "meaning too different": 43,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 60,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.45
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 300,
+    "z_before": 5.6853524361496115,
+    "z_after": 5.628516949044862,
+    "accepted": true,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 45,
+     "after_content": 2,
+     "after_semantic": 2,
+     "fluency_skipped": true,
+     "after_fluency": 2,
+     "rejected": {
+      "unknown word": 15,
+      "quotation changed": 43
+     }
+    },
+    "queries_total": 62,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 58.41
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 225,
+    "z_before": 5.628516949044862,
+    "z_after": 5.398618130615209,
+    "accepted": true,
+    "survivors": 22,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 47,
+     "after_content": 24,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 22,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 9,
+      "negation count changed": 23,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 84,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.28
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 92,
+    "z_before": 5.398618130615209,
+    "z_after": 5.0585405491415845,
+    "accepted": true,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 2,
+      "unknown word": 4,
+      "meaning too different": 47,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 89,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.32
+   },
+   {
+    "pass": 4,
+    "segment": 1,
+    "chars": 300,
+    "z_before": 5.0585405491415845,
+    "z_after": 5.0079538725960475,
+    "accepted": true,
+    "survivors": 6,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 51,
+     "after_content": 6,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 6,
+     "rejected": {
+      "unknown word": 9,
+      "quotation changed": 45
+     }
+    },
+    "queries_total": 95,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 58.61
+   },
+   {
+    "pass": 4,
+    "segment": 2,
+    "chars": 225,
+    "z_before": 5.0079538725960475,
+    "z_after": 5.657285395733584,
+    "accepted": false,
+    "survivors": 24,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 51,
+     "after_content": 24,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 24,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 5,
+      "negation count changed": 27
+     }
+    },
+    "queries_total": 119,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 45.45
+   },
+   {
+    "pass": 4,
+    "segment": 3,
+    "chars": 92,
+    "z_before": 5.0079538725960475,
+    "z_after": 4.900980294098034,
+    "accepted": true,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 4,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "CJK text": 2,
+      "several lines": 2,
+      "hit length limit": 1,
+      "unknown word": 5,
+      "meaning too different": 46
+     }
+    },
+    "queries_total": 123,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 31.35
+   },
+   {
+    "pass": 5,
+    "segment": 1,
+    "chars": 300,
+    "z_before": 4.900980294098034,
+    "z_after": 4.91117269344913,
+    "accepted": false,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 53,
+     "after_content": 5,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 4,
+      "glued punctuation": 1,
+      "quotation changed": 48
+     }
+    },
+    "queries_total": 128,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 59.36
+   },
+   {
+    "pass": 5,
+    "segment": 2,
+    "chars": 225,
+    "z_before": 4.900980294098034,
+    "z_after": 5.571428571428571,
+    "accepted": false,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 48,
+     "after_content": 19,
+     "after_semantic": 19,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "CJK text": 6,
+      "unknown word": 6,
+      "negation count changed": 29,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 146,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 45.06
+   },
+   {
+    "pass": 5,
+    "segment": 3,
+    "chars": 92,
+    "z_before": 4.900980294098034,
+    "z_after": 4.949747468305833,
+    "accepted": false,
+    "survivors": 8,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 57,
+     "after_content": 56,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 8,
+     "rejected": {
+      "unknown word": 2,
+      "glued punctuation": 1,
+      "negation count changed": 1,
+      "meaning too different": 45,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 154,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.87
+   }
+  ],
+  "rewrites": {
+   "1": {
+    "original": "In June, SpaceX landed at another historic first, winning a contract by the American Civilian Services Administration -- the public services component of the government's \"go to\" government solutions -- as its official Civilian Launch Provider, again beating both Orbital ATK and Boeing to the prize.",
+    "rewrite": "In June, SpaceX secured another historic first by winning a contract through the American Civilian Services Administration -- the public services arm of the government's \"go to\" government solutions -- as the official Civilian Launch Provider, once again outpacing both Orbital ATK and Boeing in the competition."
+   },
+   "2": {
+    "original": "And an unbeatable streak it would have been, if indeed it could ever be beaten, since SpaceX has rightfully argued before that time-to-launch is the only factor that matters in a success-oriented competitive business like it.",
+    "rewrite": "It would have been an unrivaled streak, were it possible to maintain it unbeaten, given SpaceX's previous assertion that timing for launch is the sole criterion in a competitive business focused on success."
+   },
+   "3": {
+    "original": "But podiums are podiums and this time SpaceX was BMOC even faster than anyone had predicted.",
+    "rewrite": "But podium positions are still podium positions, and this time SpaceX outshined all expectations by being the fastest-growing participant."
+   }
+  },
+  "final_span": "military's \"certified\" launchers capable of going from pad ready to space worthy in as few as 50 days, not counting time-pressure mandated delays. In June, SpaceX secured another historic first by winning a contract through the American Civilian Services Administration -- the public services arm of the government's \"go to\" government solutions -- as the official Civilian Launch Provider, once again outpacing both Orbital ATK and Boeing in the competition.\nIt would have been an unrivaled streak, were it possible to maintain it unbeaten, given SpaceX's previous assertion that timing for launch is the sole criterion in a competitive business focused on success. But podium positions are still podium positions, and this time SpaceX outshined all expectations by being the fastest-growing participant.\nSo now Musk and his team will have the extra time needed to figure out how a missile",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 3,
+   "segments": 5,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 60.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 205,
+   "length_change": 4,
+   "pct_not_preserved": 28.855721393034827,
+   "pct_new": 30.243902439024396
+  },
+  "words": {
+   "original": 139,
+   "final": 140,
+   "length_change": 1,
+   "pct_not_preserved": 32.37410071942446,
+   "pct_new": 32.85714285714286
+  },
+  "characters": {
+   "original": 851,
+   "final": 890,
+   "length_change": 39,
+   "pct_not_preserved": 19.623971797884842,
+   "pct_new": 23.146067415730343
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 187,
+   "green_after": 137,
+   "pairs_before": 200,
+   "pairs_after": 204,
+   "pairs_changed_before": 81,
+   "pairs_changed_after": 85,
+   "green_fraction_of_new_pairs": 0.32941176470588235,
+   "delta_achieved": 0.17058823529411765
+  }
+ }
+}

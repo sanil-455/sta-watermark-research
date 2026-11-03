@@ -1,0 +1,350 @@
+{
+ "sample_id": "sta16_len200:59",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.5503105590062112,
+ "needed_share": 0.8062721147434116,
+ "delta_needed": 0.16976953524713975,
+ "segmentation": {
+  "chars": 805,
+  "segments": 7,
+  "eligible": 3,
+  "skipped": 4,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 2,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 443,
+  "eligible_char_share": 0.5503105590062112
+ },
+ "attack": {
+  "z0": 10.323759005323593,
+  "z_final": 4.281360678695938,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 299,
+  "seconds": 333.1,
+  "seconds_by_phase": {
+   "generate": 309.5,
+   "gates": 23.5,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 242,
+    "z_before": 10.323759005323593,
+    "z_after": 6.674381501012108,
+    "accepted": true,
+    "survivors": 21,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 47,
+     "after_content": 22,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 21,
+     "rejected": {
+      "CJK text": 8,
+      "unknown word": 5,
+      "negation count changed": 25,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 22,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 49.74
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 103,
+    "z_before": 6.674381501012108,
+    "z_after": 5.713299488454646,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 2,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 75,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.03
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 98,
+    "z_before": 5.713299488454646,
+    "z_after": 4.5621056412333765,
+    "accepted": true,
+    "survivors": 26,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 43,
+     "after_content": 43,
+     "after_semantic": 33,
+     "fluency_skipped": false,
+     "after_fluency": 26,
+     "rejected": {
+      "duplicate": 14,
+      "CJK text": 1,
+      "unknown word": 2,
+      "meaning too different": 10,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 101,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.82
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 242,
+    "z_before": 4.5621056412333765,
+    "z_after": 4.35780112235627,
+    "accepted": true,
+    "survivors": 20,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 54,
+     "after_content": 21,
+     "after_semantic": 21,
+     "fluency_skipped": false,
+     "after_fluency": 20,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 2,
+      "negation count changed": 33,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 121,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.62
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 103,
+    "z_before": 4.35780112235627,
+    "z_after": 4.34086826048683,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "duplicate": 7,
+      "CJK text": 3
+     }
+    },
+    "queries_total": 171,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.79
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 98,
+    "z_before": 4.34086826048683,
+    "z_after": 4.281360678695938,
+    "accepted": true,
+    "survivors": 29,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 29,
+     "rejected": {
+      "duplicate": 15,
+      "unknown word": 1,
+      "meaning too different": 8,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 200,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.21
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 242,
+    "z_before": 4.281360678695938,
+    "z_after": 4.503024286273868,
+    "accepted": false,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 45,
+     "after_content": 28,
+     "after_semantic": 28,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "CJK text": 7,
+      "several lines": 1,
+      "unknown word": 7,
+      "negation count changed": 17,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 227,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 49.43
+   },
+   {
+    "pass": 3,
+    "segment": 5,
+    "chars": 103,
+    "z_before": 4.281360678695938,
+    "z_after": 4.302608256737449,
+    "accepted": false,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 5,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 276,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.98
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 98,
+    "z_before": 4.281360678695938,
+    "z_after": 4.5621056412333765,
+    "accepted": false,
+    "survivors": 29,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 33,
+     "fluency_skipped": false,
+     "after_fluency": 29,
+     "rejected": {
+      "duplicate": 15,
+      "CJK text": 1,
+      "meaning too different": 11,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 299,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.85
+   }
+  ],
+  "rewrites": {
+   "1": {
+    "original": "That breaks your heart to be confronted with that type of suffering of children, but there was very, very little to show who had run these camps that did the murdering of the children, and we had nothing to prosecute - nothing to show at all.",
+    "rewrite": "Experiencing such suffering among children breaks one's heart, yet there was incredibly minimal evidence identifying those who ran the camps and murdered the children, leaving us with no basis for prosecution \u2013 no tangible evidence at all."
+   },
+   "5": {
+    "original": "Det Sgt Horn even received a medal for his role in finding a man whose identity lay buried for decades.",
+    "rewrite": "Det Sgt Horn was even honored with a medal for his part in identifying a person whose true identity was concealed for decades."
+   },
+   "3": {
+    "original": "Det Sgt Horn took time off after receiving death threats and is still the only person on the case.",
+    "rewrite": "After getting death threats, Det Sgt Horn took some time off but remains the sole individual working the case."
+   }
+  },
+  "final_span": "the area? Experiencing such suffering among children breaks one's heart, yet there was incredibly minimal evidence identifying those who ran the camps and murdered the children, leaving us with no basis for prosecution \u2013 no tangible evidence at all.\n\"Any opportunity to shed light and help other countries - you do things for that and I think every man and woman in war crimes is there to make sure people don&apos;t repeat those atrocities.\"\nAfter getting death threats, Det Sgt Horn took some time off but remains the sole individual working the case.\n\"It&apos;s not been easy at time - at times I wasn&apos;t sure if I could go on or not - it happens over a number of years and you do pay a heavy price.\"\nDet Sgt Horn was even honored with a medal for his part in identifying a person whose true identity was concealed for decades.\nIn",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 3,
+   "segments": 7,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 42.857142857142854
+  },
+  "tokens": {
+   "original": 201,
+   "final": 204,
+   "length_change": 3,
+   "pct_not_preserved": 27.86069651741293,
+   "pct_new": 28.921568627450977
+  },
+  "words": {
+   "original": 157,
+   "final": 151,
+   "length_change": -6,
+   "pct_not_preserved": 33.75796178343949,
+   "pct_new": 31.12582781456954
+  },
+  "characters": {
+   "original": 805,
+   "final": 837,
+   "length_change": 32,
+   "pct_not_preserved": 22.608695652173914,
+   "pct_new": 25.567502986857825
+  },
+  "entities": {
+   "before": 3,
+   "after": 3
+  },
+  "pairs": {
+   "green_before": 173,
+   "green_after": 132,
+   "pairs_before": 200,
+   "pairs_after": 203,
+   "pairs_changed_before": 77,
+   "pairs_changed_after": 80,
+   "green_fraction_of_new_pairs": 0.3625,
+   "delta_achieved": 0.1375
+  }
+ }
+}

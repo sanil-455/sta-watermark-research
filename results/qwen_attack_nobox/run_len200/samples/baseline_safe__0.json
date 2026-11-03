@@ -1,0 +1,35 @@
+{
+ "sample_id": "baseline_safe:0",
+ "nobox": {
+  "z_final": 3.9185877493350305,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "I'll take you to Cincinnati with me - although it looks like she might be coming to us.",
+    "rewrite": "I'll bring you to Cincinnati - although it seems like she might come to us."
+   },
+   "2": {
+    "original": "A quick internet search shows that Clinton isn't the only one in love with Fiona.",
+    "rewrite": "A quick online search reveals that Clinton is not the only one who loves Fiona."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 34,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "crush, Fiona the hippo, w fellow @RebuildHealth co-founders Jennifer Fry & Christie Olejniczak! pic.twitter.com/uWoQM0X8bj\n\u2014 Chelsea Clinton (@ChelseaClinton) June 12, 2018\nA quick online search reveals that Clinton is not the only one who loves Fiona.\nUSA Today reported that her first tweet on April 14, 2017, was, \"Hello Fiona! I am a proud feminist, who loves, admires, and desperately admires you. #TeamFintan #BringFionaHome.\"\nI love Fiona. I'll bring you to Cincinnati - although it seems like she might come to us. The zoo said the plan now is to bring Fiona to",
+  "z0": 3.8183766184073566,
+  "seconds": 52.5
+ }
+}

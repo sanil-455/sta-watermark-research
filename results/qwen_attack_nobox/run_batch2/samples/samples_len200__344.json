@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:344",
+ "nobox": {
+  "z_final": 4.20084025208403,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "Tesla\u2019s fixed expenses are small, its variable cost of manufacturing is high and we have a 3-5 year paidfor build-out period until we require any additional funds, according to Musk.",
+    "rewrite": "Tesla's fixed expenses are minimal, the variable cost of manufacturing is high, and we have a 3-5 year paid-for build-out period before needing any additional funds, according to Musk."
+   },
+   "5": {
+    "original": "In October, we had only the Elon Musk Payments Account & unused capital to fund a build-out to scale production of 500,000 cars annually.",
+    "rewrite": "In October, we only had the Elon Musk Payments Account and unused capital to fund a build-out for scaling production to 500,000 cars annually."
+   },
+   "1": {
+    "original": "Sources previously said that Tesla conducted a review of the customer referral program, which will be costly for the company.",
+    "rewrite": "Previously, sources indicated that Tesla carried out a review of the customer referral program, which will be expensive for the company."
+   },
+   "2": {
+    "original": "Other automakers that offer similar programs include BMW AG, Ford Motor Co and Volkswagen AG.",
+    "rewrite": "Other automakers that provide similar programs include BMW AG, Ford Motor Co, and Volkswagen AG."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 32,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "and galleries around the world and it also has a network of Tesla stores. Previously, sources indicated that Tesla carried out a review of the customer referral program, which will be expensive for the company.\nOther automakers that provide similar programs include BMW AG, Ford Motor Co, and Volkswagen AG.\nMusk had earlier said that he was focused on cutting costs at the company to show that he could \u201cadminister a company in a profitable and sustainable way over the long term\u201d.\nTesla's fixed expenses are minimal, the variable cost of manufacturing is high, and we have a 3-5 year paid-for build-out period before needing any additional funds, according to Musk.\nIn October, we only had the Elon Musk Payments Account and unused capital to fund a build-out for scaling production to 500,000 cars annually.\nTesla on Wed",
+  "z0": 4.808326112068523,
+  "seconds": 161.3
+ }
+}

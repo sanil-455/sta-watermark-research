@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:66",
+ "nobox": {
+  "z_final": 3.837612894400988,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "Ministers dismissed the allegations as baseless, saying Vadra had faced inquiries in the past, but people had voted him to office and he was presently facing enquiries in multiple agencies.",
+    "rewrite": "Ministers dismissed the allegations as unfounded, stating that Vadra had been subject to past inquiries, but voters had elected him to office, and he was currently under investigation by several agencies."
+   },
+   "5": {
+    "original": "The ongoing din over the question of land deal involving Vadra\u2019s alleged dubious transactions kept the Centre busy with government departments probing.",
+    "rewrite": "The constant noise around the land deal question involving Vadra\u2019s alleged dubious transactions kept the Centre busy as government departments probed."
+   },
+   "3": {
+    "original": "The party called an all-night brainstorming on the subject on Saturday after a meeting by the family earlier in the day.",
+    "rewrite": "The party held an all-night brainstorming on Saturday following a meeting with the family earlier that day."
+   },
+   "4": {
+    "original": "Brainstorming meeting became a standard after Prasad attacked Rahul Gandhi by calling him \u2018Pappu\u2019 last year.",
+    "rewrite": "After Prasad attacked Rahul Gandhi by calling him 'Pappu' last year, brainstorming meetings became a standard practice."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 25,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 20,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": ". \u201cThese are not ad hominem attacks. We made them because Sardar Patel has also become a brand as Nepotism Buster of the parties,\u201d spokesperson Sambit Patra said. The party held an all-night brainstorming on Saturday following a meeting with the family earlier that day. After Prasad attacked Rahul Gandhi by calling him 'Pappu' last year, brainstorming meetings became a standard practice.\nThe constant noise around the land deal question involving Vadra\u2019s alleged dubious transactions kept the Centre busy as government departments probed.\nMinisters dismissed the allegations as unfounded, stating that Vadra had been subject to past inquiries, but voters had elected him to office, and he was currently under investigation by several agencies.\nA commerce ministry official said, \u201cThe objective seems to be to spread confusion by trying",
+  "z0": 5.79827560572969,
+  "seconds": 149.1
+ }
+}

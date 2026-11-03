@@ -1,0 +1,35 @@
+{
+ "sample_id": "sta16_len200:99",
+ "nobox": {
+  "z_final": 5.438584287489962,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Ben & Jerry\u2019s, which already lists pro and anti-GMOs, allergens, fair trade, animals, air quality and gender pay parity on its website, is marketing unicorn ice cream that has \u201cnatural\u201d ingredients for health-centric millennials, and new natural turmeric and cauliflower-infused protein drinks and Asian flavored soups for consumers avoiding meat for health.",
+    "rewrite": "Ben & Jerry\u2019s, which already discloses pro and anti-GMOs, allergens, fair trade, animal welfare, air quality, and gender pay parity on its website, markets unicorn ice cream with \u201cnatural\u201d ingredients for health-conscious millennials, and introduces new natural turmeric and cauliflower-infused protein drinks along with Asian-flavored soups for those avoiding meat due to health reasons."
+   },
+   "1": {
+    "original": "More kids than ever are using low-calorie sweeteners in foods and beverages as they discern at a younger age; more food-makers also are using natural ingredients to highlight their offerings for consumers\u2019 health interests.",
+    "rewrite": "An increasing number of children now use low-calorie sweeteners in foods and beverages, recognizing them at an earlier age; similarly, more food manufacturers are opting for natural ingredients to cater to consumers' health concerns."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 53,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "of the country\u2019s 6 billion-calorie foods and beverages are no longer widely available.\nAn increasing number of children now use low-calorie sweeteners in foods and beverages, recognizing them at an earlier age; similarly, more food manufacturers are opting for natural ingredients to cater to consumers' health concerns. Ben & Jerry\u2019s, which already discloses pro and anti-GMOs, allergens, fair trade, animal welfare, air quality, and gender pay parity on its website, markets unicorn ice cream with \u201cnatural\u201d ingredients for health-conscious millennials, and introduces new natural turmeric and cauliflower-infused protein drinks along with Asian-flavored soups for those avoiding meat due to health reasons. Unlike deep-pocketed competitor Coca-Cola, Ben & Jerry\u2019s has refused to join other food",
+  "z0": 9.050966799187808,
+  "seconds": 164.7
+ }
+}

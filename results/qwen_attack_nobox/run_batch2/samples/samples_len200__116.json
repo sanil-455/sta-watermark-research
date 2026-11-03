@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:116",
+ "nobox": {
+  "z_final": 2.090199042874853,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "His 44 goals, 81 points and team MVP award mark him as a 27th overall pick worth his price tag, for the Wings who might have a chance to protect their young goalie with an extra spot this season, Zadina appears worth having.",
+    "rewrite": "His 44 goals, 81 points and team MVP award distinguish him as a 27th overall pick deserving of his price tag. For the Wings, who might have an opportunity to retain their young goalie with an additional spot this season, Zadina seems worth the investment."
+   },
+   "3": {
+    "original": "News and notes: Remember those busfests when Zadina would travel to and from games in Grand Rapids with defenseman Filip Hronek?",
+    "rewrite": "News and notes: Do you recall those bus trips when Zadina would accompany defenseman Filip Hronek to and from games in Grand Rapids?"
+   },
+   "4": {
+    "original": "That doesn\u2019t happen any longer, with Zadina getting a drive to and from Grand Rapids from Joe Louis Arena.",
+    "rewrite": "That no longer happens, as Zadina now gets a drive to and from Grand Rapids from Joe Louis Arena."
+   },
+   "2": {
+    "original": "Here\u2019s what to look for, plus on debut.",
+    "rewrite": "Here\u2019s what to look out for, plus on debut."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 7,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the debut of rookie Filip Zadina, who made the Wings after training camp following what anyone would consider a successful season in Grand Rapids. His 44 goals, 81 points and team MVP award distinguish him as a 27th overall pick deserving of his price tag. For the Wings, who might have an opportunity to retain their young goalie with an additional spot this season, Zadina seems worth the investment.\nHere\u2019s what to look out for, plus on debut.\nNews and notes: Do you recall those bus trips when Zadina would accompany defenseman Filip Hronek to and from games in Grand Rapids? That no longer happens, as Zadina now gets a drive to and from Grand Rapids from Joe Louis Arena. That means vehicle transportation is split in two, to help speed up departures, and might be a bit of a relief for trainer Kevin Neuses, who sometimes traveled",
+  "z0": 3.394112549695428,
+  "seconds": 159.2
+ }
+}

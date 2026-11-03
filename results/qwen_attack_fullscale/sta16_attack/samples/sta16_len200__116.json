@@ -1,0 +1,476 @@
+{
+ "sample_id": "sta16_len200:116",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.7467608951707891,
+ "needed_share": 0.8088900591387709,
+ "delta_needed": 0.030783334822179983,
+ "segmentation": {
+  "chars": 849,
+  "segments": 8,
+  "eligible": 6,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 634,
+  "eligible_char_share": 0.7467608951707891
+ },
+ "attack": {
+  "z0": 10.465180361560902,
+  "z_final": 1.8676290524384016,
+  "status": "broken",
+  "reason": null,
+  "passes": 3,
+  "queries": 479,
+  "seconds": 376.2,
+  "seconds_by_phase": {
+   "generate": 340.5,
+   "gates": 35.6,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 154,
+    "z_before": 10.465180361560902,
+    "z_after": 9.475142485638552,
+    "accepted": true,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 36,
+     "after_spelling": 29,
+     "after_content": 28,
+     "after_semantic": 28,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "duplicate": 18,
+      "CJK text": 6,
+      "unknown word": 7,
+      "negation count changed": 1
+     }
+    },
+    "queries_total": 29,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.11
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 136,
+    "z_before": 9.475142485638552,
+    "z_after": 7.816373441686643,
+    "accepted": true,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "CJK text": 10,
+      "unknown word": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 75,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.37
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 109,
+    "z_before": 7.816373441686643,
+    "z_after": 5.854368611626366,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 11,
+      "unknown word": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 118,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.28
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 93,
+    "z_before": 5.854368611626366,
+    "z_after": 4.866884749424328,
+    "accepted": true,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 23,
+     "after_spelling": 22,
+     "after_content": 22,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "duplicate": 32,
+      "CJK text": 3,
+      "several lines": 2,
+      "unknown word": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 137,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.19
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 84,
+    "z_before": 4.866884749424328,
+    "z_after": 3.298753309814903,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "duplicate": 8,
+      "CJK text": 1,
+      "unknown word": 3,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 181,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.69
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 58,
+    "z_before": 3.298753309814903,
+    "z_after": 2.3804761428476167,
+    "accepted": true,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 6,
+      "unknown word": 2,
+      "meaning too different": 4,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 220,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.81
+   },
+   {
+    "pass": 2,
+    "segment": 6,
+    "chars": 154,
+    "z_before": 2.3804761428476167,
+    "z_after": 2.3161459409338683,
+    "accepted": true,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 41,
+     "after_spelling": 37,
+     "after_content": 37,
+     "after_semantic": 37,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "duplicate": 14,
+      "CJK text": 5,
+      "unknown word": 4,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 256,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.13
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 136,
+    "z_before": 2.3161459409338683,
+    "z_after": 2.416274785363585,
+    "accepted": false,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "CJK text": 9,
+      "duplicate": 2,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 301,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.35
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 109,
+    "z_before": 2.3161459409338683,
+    "z_after": 2.6348259320698384,
+    "accepted": false,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "several lines": 1,
+      "duplicate": 9,
+      "unknown word": 1,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 344,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.3
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 93,
+    "z_before": 2.3161459409338683,
+    "z_after": 2.3161459409338683,
+    "accepted": false,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 29,
+     "after_spelling": 27,
+     "after_content": 27,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 28,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 370,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 20.69
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 84,
+    "z_before": 2.3161459409338683,
+    "z_after": 2.1651339168856922,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 4,
+      "unknown word": 5,
+      "glued punctuation": 1,
+      "perplexity too high": 8
+     }
+    },
+    "queries_total": 411,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.96
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 58,
+    "z_before": 2.1651339168856922,
+    "z_after": 2.0059719452116163,
+    "accepted": true,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 5,
+      "meaning too different": 5,
+      "perplexity too high": 13
+     }
+    },
+    "queries_total": 445,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.88
+   },
+   {
+    "pass": 3,
+    "segment": 6,
+    "chars": 154,
+    "z_before": 2.0059719452116163,
+    "z_after": 1.8676290524384016,
+    "accepted": true,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 39,
+     "after_spelling": 34,
+     "after_content": 34,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "duplicate": 20,
+      "CJK text": 1,
+      "unknown word": 5
+     }
+    },
+    "queries_total": 479,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.73
+   }
+  ],
+  "rewrites": {
+   "6": {
+    "original": "Green is the only player in camp who has broken away from defenseman Dennis Cholowski to make a successful breakout at the North Farm Credit Union Center.",
+    "rewrite": "Green is the lone player in camp to successfully break away from defenseman Dennis Cholowski and make a standout breakout at the North Farm Credit Union Center."
+   },
+   "2": {
+    "original": "He has three points (goal and two assists) in two games and showed in Sunday\u2019s victory over the Stars he looks solid on defense as well.",
+    "rewrite": "He scored three points (one goal and two assists) in his first two games and demonstrated in Sunday's win against the Stars that he plays solidly defensively as well."
+   },
+   "4": {
+    "original": "Blashill said Green doesn\u2019t have any limitations on how long he can stay in a game once he\u2019s back into shape.",
+    "rewrite": "Blashill stated that there are no duration restrictions for Green to play once he is fit again."
+   },
+   "1": {
+    "original": "Mike Green is happy with his early return to the Wings after coming back from a groin injury.",
+    "rewrite": "Mike Green expresses satisfaction with his swift comeback to the Wings following his groin injury."
+   },
+   "5": {
+    "original": "Blashill has also found an old NHL sourvenir in Green: losing a stick in transition.",
+    "rewrite": "Blashill has likewise discovered an vintage NHL memento in Green: a lost stick during transitional play."
+   },
+   "3": {
+    "original": "His speed has looked particularly good in transition game.",
+    "rewrite": "His performance in the transition game has particularly stood out in terms of speed."
+   }
+  },
+  "final_span": "broadcast on Fox Sports Detroit-plus, and the next three home games \u2013 against Columbus, Los Angeles and Anaheim \u2013 are being broadcast on FSD-plus over the next four days.\nMike Green expresses satisfaction with his swift comeback to the Wings following his groin injury. He scored three points (one goal and two assists) in his first two games and demonstrated in Sunday's win against the Stars that he plays solidly defensively as well. His performance in the transition game has particularly stood out in terms of speed.\nBlashill stated that there are no duration restrictions for Green to play once he is fit again.\nBlashill has likewise discovered an vintage NHL memento in Green: a lost stick during transitional play. Green is the lone player in camp to successfully break away from defenseman Dennis Cholowski and make a standout breakout at the North Farm Credit Union Center. The right-handed Green is taking left-",
+  "break_point": {
+   "step": 12,
+   "sentences_rewritten": 6,
+   "queries": 479
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 6,
+   "eligible": 6,
+   "segments": 8,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 75.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 210,
+   "length_change": 9,
+   "pct_not_preserved": 29.35323383084577,
+   "pct_new": 32.38095238095238
+  },
+  "words": {
+   "original": 151,
+   "final": 153,
+   "length_change": 2,
+   "pct_not_preserved": 36.423841059602644,
+   "pct_new": 37.254901960784316
+  },
+  "characters": {
+   "original": 849,
+   "final": 922,
+   "length_change": 73,
+   "pct_not_preserved": 23.203769140164898,
+   "pct_new": 29.28416485900217
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 174,
+   "green_after": 118,
+   "pairs_before": 200,
+   "pairs_after": 209,
+   "pairs_changed_before": 87,
+   "pairs_changed_after": 96,
+   "green_fraction_of_new_pairs": 0.2916666666666667,
+   "delta_achieved": 0.20833333333333331
+  }
+ }
+}

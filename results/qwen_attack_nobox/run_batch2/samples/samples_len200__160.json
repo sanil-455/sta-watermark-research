@@ -1,0 +1,71 @@
+{
+ "sample_id": "samples_len200:160",
+ "nobox": {
+  "z_final": 3.1895261282950678,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "Bayshore Drive: Subjects disturbing the peace was reported in the 400 block at 3:40 a.m. Sunday.",
+    "rewrite": "Bayshore Drive: Disturbing the peace was reported for subjects in the 400 block at 3:40 a.m. on Sunday."
+   },
+   "1": {
+    "original": "San Diego Avenue: A misdemeanor assault was reported in the 700 block at 6:22 a.m. Saturday.",
+    "rewrite": "San Diego Avenue: A misdemeanor assault was reported in the 700 block at 6:22 a.m. on Saturday."
+   },
+   "3": {
+    "original": "Avenida Cordoba: A gang incident was reported in the 7500 block at 7:47 p.m. Saturday.",
+    "rewrite": "Avenida Cordoba: A gang incident was reported in the 7500 block at 7:47 p.m. on Saturday."
+   },
+   "6": {
+    "original": "Rosemary Avenue: A loud party was reported in the 1500 block at 12:23 a.m. Sunday.",
+    "rewrite": "Rosemary Avenue: There was a loud party reported in the 1500 block at 12:23 a.m. on Sunday."
+   },
+   "4": {
+    "original": "Acacia Avenue: A loud party was reported in the 100 block at 12:13 a.m. Sunday.",
+    "rewrite": "Acacia Avenue: There was a reported loud party in the 100 block at 12:13 a.m. on Sunday."
+   },
+   "2": {
+    "original": "The caller said she was punched in the face.",
+    "rewrite": "The caller stated that she was punched in the face."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 38,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 21,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the 500 block at 8:44 a.m. Saturday.\nSan Diego Avenue: A misdemeanor assault was reported in the 700 block at 6:22 a.m. on Saturday. The caller stated that she was punched in the face.\nAvenida Cordoba: A gang incident was reported in the 7500 block at 7:47 p.m. on Saturday.\nAcacia Avenue: There was a reported loud party in the 100 block at 12:13 a.m. on Sunday.\nBayshore Drive: Disturbing the peace was reported for subjects in the 400 block at 3:40 a.m. on Sunday.\nRosemary Avenue: There was a loud party reported in the 1500 block at 12:23 a.m. on Sunday.\nFrom The Police Logs Old City",
+  "z0": 3.111269837220809,
+  "seconds": 214.0
+ }
+}

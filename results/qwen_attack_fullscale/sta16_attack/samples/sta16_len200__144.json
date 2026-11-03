@@ -1,0 +1,84 @@
+{
+ "sample_id": "sta16_len200:144",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.0,
+ "needed_share": 0.8186905689265263,
+ "delta_needed": null,
+ "segmentation": {
+  "chars": 836,
+  "segments": 12,
+  "eligible": 0,
+  "skipped": 12,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 10,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 0,
+  "eligible_char_share": 0.0
+ },
+ "attack": {
+  "z0": 11.030865786510141,
+  "z_final": 11.030865786510141,
+  "status": "no eligible text",
+  "reason": "no eligible text",
+  "passes": 0,
+  "queries": 1,
+  "seconds": 0.0,
+  "seconds_by_phase": {
+   "generate": 0.0,
+   "gates": 0.0,
+   "detector": 0.0
+  },
+  "steps": [],
+  "rewrites": {},
+  "final_span": "the technology sector, but never got involved in their love life. It changes you and your life. In such a volatile town, we have run into a lot of divorces and broken marriages because they were never married according to their heart,\u201d she says.\nAndersen says most of her services are second relationships, but some are firsts and come from \u201ctech-challenged women. I call them Paypals because I really only want to work with an Ivy League grad. And with a Paypal, I don\u2019t care if they\u2019re liberal or conservative, if they\u2019re religious or judgmental. But they three things have to be really clicking. We talk on a lot of different levels. We talk deep and we have dinner dates. I ask it\u2019s not about money or success. It\u2019s whether they\u2019re able to be kind.\nAndersen honestly reports that many clients have been through several breakups with",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 0,
+   "eligible": 0,
+   "segments": 12,
+   "pct_of_eligible": 0.0,
+   "pct_of_segments": 0.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 201,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "words": {
+   "original": 147,
+   "final": 147,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "characters": {
+   "original": 836,
+   "final": 836,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 178,
+   "green_after": 178,
+   "pairs_before": 200,
+   "pairs_after": 200,
+   "pairs_changed_before": 0,
+   "pairs_changed_after": 0,
+   "green_fraction_of_new_pairs": null,
+   "delta_achieved": null
+  }
+ }
+}

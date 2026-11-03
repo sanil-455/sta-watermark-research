@@ -1,0 +1,107 @@
+{
+ "sample_id": "samples_len500:47",
+ "nobox": {
+  "z_final": 3.7688358562479487,
+  "status": "not broken",
+  "rewrites": {
+   "10": {
+    "original": "Both switch-off smart-idle, stop-start technology, which shuts down the engine at idle and restarts it as is opens the throttle, delivers real fuel savings of 5.6 mpg, and a six-speed gearbox with Tiptronic are among the things that make the Yeti a notably economical machine.",
+    "rewrite": "Both the switch-off intelligent-idle, start-stop technology, which halts the engine during idle and reactivated when the throttle is opened, and a six-speed gearbox with Tiptronic, deliver notable fuel savings of 5.6 mpg, making the Yeti a particularly economical car."
+   },
+   "6": {
+    "original": "What should rightfully be three rows of buttons in the main panel - gearbox, lights, hazards and wipers \u2013 are awkwardly arrayed deep in the centre console, which means you can assume that the driver may be itching to put the Yeti through its paces.",
+    "rewrite": "The supposed three rows of buttons on the main panel for the gearbox, lights, hazards, and wipers are instead poorly situated deep within the center console, suggesting the driver might be eager to test the Yeti's capabilities."
+   },
+   "1": {
+    "original": "A concept that is already generating CGI kudos this is the first time that a system like this has been offered by a mainstream car manufacturer \u2013 and it\u2019s a clever way to set the Yeti apart from the competition.",
+    "rewrite": "This concept is currently earning significant CGI praise, and it marks the first time a mainstream car manufacturer has offered such a system \u2013 it's a smart approach to distinguishes the Yeti from its competitors."
+   },
+   "3": {
+    "original": "Developed jointly by Skoda\u2019s design team and the Czech engineers at Volkswagen\u2019s RCD division, its soft-touch interior follows the form and looks similar to its sister products the Audi A1, A4 and A6.",
+    "rewrite": "Created collaboratively by Skoda\u2019s design team and Czech engineers from Volkswagen\u2019s RCD division, its soft-touch interior resembles the aesthetic and texture of its sister products, including the Audi A1, A4, and A6."
+   },
+   "9": {
+    "original": "Power to the front wheels doesn\u2019t come cheap either with an engine displacing just 2.0 litres, which isn\u2019t to say the Yeti is short of steam as it carries huge reserves of torque.",
+    "rewrite": "Power to the front wheels also doesn't come without a high cost, even though the engine displacement is merely 2.0 litres, suggesting instead that the Yeti possesses substantial torque reserves."
+   },
+   "5": {
+    "original": "On a cold and dark November afternoon, it\u2019s clear the Yeti is part of the same mould as other VW Group models and it\u2019s no surprise to find its cabin feels at home on the range.",
+    "rewrite": "On a chilly and gloomy November afternoon, it's evident that the Yeti is from the same mold as other VW Group models, and it's not surprising that its cabin fits seamlessly with the range."
+   },
+   "8": {
+    "original": "Its gearbox is cleverly crafted with a throw of the perfectly placed lever so light that it does is easy to see why this system proved successful with its Audi A4.",
+    "rewrite": "Its gearbox is skillfully designed with a throw of an expertly positioned lever that is remarkably light, making it clear why this system was successful in the Audi A4."
+   },
+   "4": {
+    "original": "The canvas-textured materials look and feel like natural surroundings, differing only subtly from the version used in the base models.",
+    "rewrite": "The canvas-textured materials appear and feel similar to natural surroundings, differing only slightly from the version used in the base models."
+   },
+   "7": {
+    "original": "Out on the road the Yeti displays all the traits one expects of the Volkswagen Group.",
+    "rewrite": "On the road, the Yeti shows all the characteristics one would expect from the Volkswagen Group."
+   },
+   "2": {
+    "original": "Another area where the Yeti takes a different approach is in cabin materials.",
+    "rewrite": "Another area where the Yeti uses a different approach involves cabin materials."
+   }
+  },
+  "sentences_rewritten": 10,
+  "eligible": 10,
+  "per_sentence": [
+   {
+    "index": 10,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 11,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 38,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 23,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 32,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "tilted or rotated or folded to let the driver carry long objects inside the vehicle.\nThis concept is currently earning significant CGI praise, and it marks the first time a mainstream car manufacturer has offered such a system \u2013 it's a smart approach to distinguishes the Yeti from its competitors.\nAnother area where the Yeti uses a different approach involves cabin materials.\nCreated collaboratively by Skoda\u2019s design team and Czech engineers from Volkswagen\u2019s RCD division, its soft-touch interior resembles the aesthetic and texture of its sister products, including the Audi A1, A4, and A6.\nThe canvas-textured materials appear and feel similar to natural surroundings, differing only slightly from the version used in the base models.\nOn a chilly and gloomy November afternoon, it's evident that the Yeti is from the same mold as other VW Group models, and it's not surprising that its cabin fits seamlessly with the range.\nThe supposed three rows of buttons on the main panel for the gearbox, lights, hazards, and wipers are instead poorly situated deep within the center console, suggesting the driver might be eager to test the Yeti's capabilities.\nOn the road, the Yeti shows all the characteristics one would expect from the Volkswagen Group.\nIts gearbox is skillfully designed with a throw of an expertly positioned lever that is remarkably light, making it clear why this system was successful in the Audi A4.\nPower to the front wheels also doesn't come without a high cost, even though the engine displacement is merely 2.0 litres, suggesting instead that the Yeti possesses substantial torque reserves.\nBoth the switch-off intelligent-idle, start-stop technology, which halts the engine during idle and reactivated when the throttle is opened, and a six-speed gearbox with Tiptronic, deliver notable fuel savings of 5.6 mpg, making the Yeti a particularly economical car.\nThere\u2019s also a choice of two diesel engines, with a 2.0 litre, and a 1.8 lit",
+  "z0": 8.765386471799175,
+  "seconds": 481.8
+ }
+}

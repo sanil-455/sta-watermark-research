@@ -1,0 +1,117 @@
+resuming: 10 usable STA-16 samples already saved
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   1%|          | 2/291 [00:00<00:37,  7.76it/s]Loading weights:   8%|▊         | 23/291 [00:00<00:03, 78.20it/s]Loading weights:  12%|█▏        | 35/291 [00:00<00:03, 67.35it/s]Loading weights:  18%|█▊        | 53/291 [00:00<00:02, 96.35it/s]Loading weights:  23%|██▎       | 67/291 [00:00<00:02, 107.72it/s]Loading weights:  30%|██▉       | 87/291 [00:00<00:01, 133.10it/s]Loading weights:  38%|███▊      | 112/291 [00:00<00:01, 166.07it/s]Loading weights:  45%|████▌     | 132/291 [00:01<00:00, 174.10it/s]Loading weights:  55%|█████▍    | 159/291 [00:01<00:00, 198.20it/s]Loading weights:  64%|██████▍   | 186/291 [00:01<00:00, 215.35it/s]Loading weights:  73%|███████▎  | 212/291 [00:01<00:00, 223.09it/s]Loading weights:  81%|████████  | 235/291 [00:01<00:00, 180.08it/s]Loading weights:  89%|████████▊ | 258/291 [00:01<00:00, 189.64it/s]Loading weights:  98%|█████████▊| 284/291 [00:01<00:00, 204.12it/s]Loading weights: 100%|██████████| 291/291 [00:01<00:00, 159.24it/s]
+[11/100] prompt 45 | 598 prompt tok | 369 generated | z200=0.85 z500=0.88 | 16s | about 23 min left
+[12/100] prompt 46 | 351 prompt tok | 422 generated | z200=8.34 z500=12.56 | 17s | about 24 min left
+[13/100] prompt 47 | 518 prompt tok | 500 generated | z200=10.89 z500=16.55 | 21s | about 26 min left
+prompt 48: model stopped after 62 tokens, not counted
+prompt 49: model stopped after 154 tokens, not counted
+[14/100] prompt 50 | 1589 prompt tok | 500 generated | z200=12.30 z500=19.14 | 24s | about 21 min left
+[15/100] prompt 51 | 560 prompt tok | 500 generated | z200=9.62 z500=14.13 | 21s | about 22 min left
+[16/100] prompt 52 | 943 prompt tok | 307 generated | z200=9.62 z500=11.81 | 14s | about 22 min left
+[17/100] prompt 53 | 856 prompt tok | 231 generated | z200=8.63 z500=9.54 | 10s | about 21 min left
+[18/100] prompt 54 | 344 prompt tok | 500 generated | z200=11.03 z500=19.14 | 21s | about 21 min left
+[19/100] prompt 55 | 710 prompt tok | 500 generated | z200=9.62 z500=16.10 | 22s | about 22 min left
+[20/100] prompt 56 | 324 prompt tok | 308 generated | z200=10.04 z500=12.54 | 13s | about 21 min left
+[21/100] prompt 57 | 1242 prompt tok | 500 generated | z200=9.19 z500=14.58 | 23s | about 21 min left
+prompt 58: model stopped after 159 tokens, not counted
+[22/100] prompt 59 | 615 prompt tok | 500 generated | z200=10.47 z500=15.03 | 21s | about 21 min left
+[23/100] prompt 60 | 461 prompt tok | 500 generated | z200=9.62 z500=16.19 | 21s | about 21 min left
+[24/100] prompt 61 | 997 prompt tok | 500 generated | z200=11.31 z500=16.82 | 22s | about 21 min left
+[25/100] prompt 62 | 203 prompt tok | 448 generated | z200=7.78 z500=13.32 | 18s | about 21 min left
+[26/100] prompt 63 | 246 prompt tok | 195 generated | z200=10.38 z500=10.38 | 8s | about 20 min left
+prompt 64: model stopped after 182 tokens, not counted
+[27/100] prompt 65 | 466 prompt tok | 347 generated | z200=7.35 z500=11.43 | 14s | about 19 min left
+[28/100] prompt 66 | 501 prompt tok | 321 generated | z200=8.91 z500=11.67 | 13s | about 19 min left
+prompt 67: model stopped after 83 tokens, not counted
+[29/100] prompt 68 | 60 prompt tok | 229 generated | z200=10.75 z500=11.83 | 9s | about 18 min left
+[30/100] prompt 69 | 947 prompt tok | 365 generated | z200=9.19 z500=11.57 | 16s | about 17 min left
+prompt 70: model stopped after 193 tokens, not counted
+[31/100] prompt 71 | 301 prompt tok | 371 generated | z200=11.03 z500=13.86 | 15s | about 17 min left
+[32/100] prompt 72 | 833 prompt tok | 500 generated | z200=10.18 z500=14.85 | 22s | about 17 min left
+prompt 73: model stopped after 97 tokens, not counted
+[33/100] prompt 74 | 90 prompt tok | 500 generated | z200=7.64 z500=14.94 | 20s | about 17 min left
+[34/100] prompt 75 | 247 prompt tok | 500 generated | z200=9.76 z500=16.64 | 20s | about 16 min left
+[35/100] prompt 76 | 261 prompt tok | 500 generated | z200=9.48 z500=15.21 | 20s | about 16 min left
+[36/100] prompt 77 | 349 prompt tok | 232 generated | z200=11.46 z500=11.95 | 9s | about 16 min left
+[37/100] prompt 78 | 170 prompt tok | 500 generated | z200=9.90 z500=16.73 | 20s | about 16 min left
+prompt 79: model stopped after 171 tokens, not counted
+[38/100] prompt 80 | 1377 prompt tok | 500 generated | z200=12.30 z500=18.78 | 23s | about 16 min left
+prompt 81: model stopped after 40 tokens, not counted
+prompt 82: model stopped after 54 tokens, not counted
+prompt 83 skipped: 2244 tokens is over the 2048 cap
+[39/100] prompt 84 | 195 prompt tok | 250 generated | z200=9.76 z500=10.75 | 10s | about 15 min left
+[40/100] prompt 85 | 177 prompt tok | 493 generated | z200=7.78 z500=12.66 | 20s | about 15 min left
+[41/100] prompt 86 | 126 prompt tok | 499 generated | z200=9.33 z500=16.79 | 20s | about 14 min left
+prompt 87: model stopped after 84 tokens, not counted
+[42/100] prompt 88 | 1101 prompt tok | 299 generated | z200=10.04 z500=11.74 | 14s | about 14 min left
+[43/100] prompt 89 | 687 prompt tok | 500 generated | z200=8.91 z500=16.28 | 22s | about 14 min left
+[44/100] prompt 90 | 253 prompt tok | 450 generated | z200=10.61 z500=15.46 | 18s | about 14 min left
+prompt 91: model stopped after 136 tokens, not counted
+[45/100] prompt 92 | 1220 prompt tok | 399 generated | z200=10.04 z500=14.17 | 18s | about 13 min left
+[46/100] prompt 93 | 594 prompt tok | 209 generated | z200=10.61 z500=11.00 | 9s | about 13 min left
+[47/100] prompt 94 | 265 prompt tok | 463 generated | z200=10.89 z500=15.29 | 19s | about 13 min left
+prompt 95: model stopped after 79 tokens, not counted
+prompt 96 skipped: 2163 tokens is over the 2048 cap
+[48/100] prompt 97 | 144 prompt tok | 500 generated | z200=8.91 z500=15.74 | 20s | about 12 min left
+[49/100] prompt 98 | 272 prompt tok | 305 generated | z200=9.33 z500=11.85 | 12s | about 12 min left
+[50/100] prompt 99 | 428 prompt tok | 232 generated | z200=9.19 z500=9.45 | 10s | about 12 min left
+[51/100] prompt 100 | 182 prompt tok | 500 generated | z200=10.18 z500=16.90 | 20s | about 12 min left
+[52/100] prompt 101 | 841 prompt tok | 311 generated | z200=7.64 z500=8.90 | 14s | about 12 min left
+[53/100] prompt 102 | 394 prompt tok | 500 generated | z200=11.74 z500=18.69 | 21s | about 11 min left
+[54/100] prompt 103 | 96 prompt tok | 415 generated | z200=10.61 z500=15.17 | 17s | about 11 min left
+[55/100] prompt 104 | 176 prompt tok | 500 generated | z200=9.48 z500=16.19 | 20s | about 11 min left
+[56/100] prompt 105 | 1645 prompt tok | 231 generated | z200=10.75 z500=10.72 | 11s | about 11 min left
+[57/100] prompt 106 | 675 prompt tok | 500 generated | z200=10.47 z500=16.90 | 22s | about 11 min left
+[58/100] prompt 107 | 236 prompt tok | 500 generated | z200=8.77 z500=13.86 | 20s | about 10 min left
+[59/100] prompt 108 | 1244 prompt tok | 500 generated | z200=9.76 z500=15.83 | 23s | about 10 min left
+[60/100] prompt 109 | 598 prompt tok | 500 generated | z200=10.47 z500=15.83 | 21s | about 10 min left
+[61/100] prompt 110 | 265 prompt tok | 500 generated | z200=11.03 z500=17.98 | 20s | about 10 min left
+prompt 111 skipped: 2124 tokens is over the 2048 cap
+[62/100] prompt 112 | 137 prompt tok | 480 generated | z200=6.08 z500=10.13 | 19s | about 10 min left
+[63/100] prompt 113 | 457 prompt tok | 220 generated | z200=11.03 z500=11.33 | 9s | about 9 min left
+[64/100] prompt 114 | 275 prompt tok | 500 generated | z200=9.05 z500=15.65 | 20s | about 9 min left
+[65/100] prompt 115 | 99 prompt tok | 500 generated | z200=8.49 z500=14.85 | 20s | about 9 min left
+[66/100] prompt 116 | 172 prompt tok | 232 generated | z200=10.47 z500=11.03 | 9s | about 9 min left
+prompt 117: model stopped after 21 tokens, not counted
+[67/100] prompt 118 | 81 prompt tok | 379 generated | z200=10.32 z500=15.46 | 15s | about 8 min left
+[68/100] prompt 119 | 277 prompt tok | 301 generated | z200=10.04 z500=12.85 | 12s | about 8 min left
+[69/100] prompt 120 | 741 prompt tok | 500 generated | z200=8.77 z500=14.85 | 22s | about 8 min left
+[70/100] prompt 121 | 98 prompt tok | 212 generated | z200=9.62 z500=9.89 | 9s | about 7 min left
+prompt 122: model stopped after 75 tokens, not counted
+[71/100] prompt 123 | 1420 prompt tok | 500 generated | z200=8.06 z500=14.85 | 24s | about 7 min left
+[72/100] prompt 124 | 112 prompt tok | 427 generated | z200=8.91 z500=15.24 | 17s | about 7 min left
+[73/100] prompt 125 | 297 prompt tok | 500 generated | z200=10.75 z500=17.71 | 21s | about 7 min left
+[74/100] prompt 126 | 325 prompt tok | 440 generated | z200=7.64 z500=12.20 | 18s | about 7 min left
+[75/100] prompt 127 | 312 prompt tok | 366 generated | z200=10.47 z500=14.01 | 15s | about 6 min left
+[76/100] prompt 128 | 85 prompt tok | 500 generated | z200=11.31 z500=16.37 | 20s | about 6 min left
+[77/100] prompt 129 | 425 prompt tok | 305 generated | z200=11.17 z500=13.69 | 13s | about 6 min left
+[78/100] prompt 130 | 207 prompt tok | 492 generated | z200=10.32 z500=15.69 | 20s | about 6 min left
+[79/100] prompt 131 | 460 prompt tok | 255 generated | z200=8.77 z500=10.08 | 11s | about 5 min left
+[80/100] prompt 132 | 834 prompt tok | 500 generated | z200=7.21 z500=11.81 | 22s | about 5 min left
+prompt 133: model stopped after 10 tokens, not counted
+[81/100] prompt 134 | 541 prompt tok | 500 generated | z200=12.30 z500=18.78 | 21s | about 5 min left
+[82/100] prompt 135 | 534 prompt tok | 500 generated | z200=11.60 z500=17.80 | 21s | about 5 min left
+[83/100] prompt 136 | 169 prompt tok | 500 generated | z200=10.89 z500=18.25 | 20s | about 4 min left
+[84/100] prompt 137 | 124 prompt tok | 390 generated | z200=9.19 z500=14.68 | 16s | about 4 min left
+[85/100] prompt 138 | 433 prompt tok | 500 generated | z200=8.49 z500=15.65 | 21s | about 4 min left
+[86/100] prompt 139 | 155 prompt tok | 500 generated | z200=11.03 z500=16.28 | 20s | about 4 min left
+[87/100] prompt 140 | 276 prompt tok | 500 generated | z200=11.46 z500=18.87 | 20s | about 3 min left
+[88/100] prompt 141 | 363 prompt tok | 500 generated | z200=10.32 z500=18.96 | 21s | about 3 min left
+[89/100] prompt 142 | 262 prompt tok | 365 generated | z200=6.79 z500=8.22 | 15s | about 3 min left
+[90/100] prompt 143 | 1525 prompt tok | 500 generated | z200=9.33 z500=15.38 | 24s | about 3 min left
+[91/100] prompt 144 | 1200 prompt tok | 500 generated | z200=11.17 z500=15.92 | 23s | about 2 min left
+prompt 145 skipped: 2513 tokens is over the 2048 cap
+[92/100] prompt 146 | 760 prompt tok | 384 generated | z200=9.19 z500=11.33 | 17s | about 2 min left
+prompt 147 skipped: 3501 tokens is over the 2048 cap
+[93/100] prompt 148 | 134 prompt tok | 500 generated | z200=9.48 z500=17.08 | 20s | about 2 min left
+prompt 149 skipped: 10250 tokens is over the 2048 cap
+[94/100] prompt 150 | 121 prompt tok | 322 generated | z200=8.06 z500=10.59 | 13s | about 2 min left
+[95/100] prompt 151 | 1115 prompt tok | 290 generated | z200=10.61 z500=12.80 | 13s | about 1 min left
+[96/100] prompt 152 | 80 prompt tok | 500 generated | z200=10.47 z500=16.28 | 20s | about 1 min left
+[97/100] prompt 153 | 307 prompt tok | 195 generated | z200=7.81 z500=7.81 | 8s | about 1 min left
+[98/100] prompt 154 | 143 prompt tok | 500 generated | z200=9.19 z500=16.10 | 20s | about 1 min left
+prompt 155: model stopped after 157 tokens, not counted
+[99/100] prompt 156 | 342 prompt tok | 500 generated | z200=9.48 z500=17.71 | 21s | about 0 min left
+[100/100] prompt 157 | 274 prompt tok | 358 generated | z200=8.20 z500=10.68 | 15s | about 0 min left
+finished: 100 usable, 23 too short, 7 skipped for length, 0 out of memory events
+exported: results/raw/sta16_len200.json, results/raw/sta16_len500.json

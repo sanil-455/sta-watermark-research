@@ -1,0 +1,98 @@
+{
+ "sample_id": "samples_len500:28",
+ "nobox": {
+  "z_final": 5.567764362830022,
+  "status": "not broken",
+  "rewrites": {
+   "11": {
+    "original": "Family members were sworn to secrecy before they knew it: More than 13,000 Nerf shooting bullets were handmade by kindergartners and wrought by second-graders at a multitude of venues located in the district's 52 classrooms.",
+    "rewrite": "Before they knew it, family members were sworn to secrecy: Over 13,000 Nerf shooting bullets were handmade by kindergartners and crafted by second-graders across 52 classrooms in the district\u2019s numerous venues."
+   },
+   "7": {
+    "original": "He now runs Loan Office Vietnamese Restaurant, which features fresh versions of Vietnamese food, including grilled banh mi sandwiches and fried rice.",
+    "rewrite": "He now operates Loan Office Vietnamese Restaurant, which serves fresh versions of Vietnamese food, including grilled banh mi sandwiches and fried rice."
+   },
+   "2": {
+    "original": "Question: Have you ever had a dish at a restaurant that you said you could make better than them?",
+    "rewrite": "Have you ever tried a restaurant dish that you felt you could improve upon and make better?"
+   },
+   "9": {
+    "original": "The menu even includes quesadillas, which are not that common in a Mexican restaurant.",
+    "rewrite": "The menu even features quesadillas, which aren't particularly common in a Mexican restaurant."
+   },
+   "1": {
+    "original": "We don't have too much space, but we just cooked this great dinner for them.",
+    "rewrite": "We don't have plenty of space, but we just cooked a great dinner for them."
+   },
+   "3": {
+    "original": "Nguyen: Yeah, in fact, last week I went to another Vietnamese restaurant.",
+    "rewrite": "Nguyen: Yeah, in fact, last week I visited another Vietnamese restaurant."
+   },
+   "12": {
+    "original": "Nerf Night has 75 classrooms with 1,000 students taking part each year.",
+    "rewrite": "Each year, Nerf Night includes 75 classrooms with 1,000 students participating."
+   },
+   "4": {
+    "original": "It's across from here, and I wish I would never go there again.",
+    "rewrite": "It is close to here, yet I wish I had never gone there again."
+   },
+   "5": {
+    "original": "Soft shell crab...I don't know how.",
+    "rewrite": "Soft shell crab...I am not sure how to do it."
+   }
+  },
+  "sentences_rewritten": 9,
+  "eligible": 9,
+  "per_sentence": [
+   {
+    "index": 11,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 10,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 25,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 12,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 17,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 13,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 6,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "our guest coming in and going to the next table, and the next table asks us if we're cooking their food, and we say 'yes' and we cook this and this and this over and over again. We don't have plenty of space, but we just cooked a great dinner for them.\nHave you ever tried a restaurant dish that you felt you could improve upon and make better?\nNguyen: Yeah, in fact, last week I visited another Vietnamese restaurant. It is close to here, yet I wish I had never gone there again. Soft shell crab...I am not sure how to do it.\n\u2022 Quang Nguyen, 42, reports he never got to really enjoy eating food during the nearly three months he was unconscious following a motorcycle accident on St. Charles Road in May, but he's happy to be back at 390 Greg Boulevard. He now operates Loan Office Vietnamese Restaurant, which serves fresh versions of Vietnamese food, including grilled banh mi sandwiches and fried rice.\n\u2022 Sankar Sinnakarrappa, 50, and his wife Sunia are celebrating the grand opening of Mi Cocinas, an upscale Mexican restaurant with red leather booths, waiters in white jackets and intimate lighting. The menu even features quesadillas, which aren't particularly common in a Mexican restaurant.\n\u2022 What would normally be a quiet break between school years turned out to be an enormous challenge for Niles School District 219's Nerf Nights program.\nBefore they knew it, family members were sworn to secrecy: Over 13,000 Nerf shooting bullets were handmade by kindergartners and crafted by second-graders across 52 classrooms in the district\u2019s numerous venues.\nEach year, Nerf Night includes 75 classrooms with 1,000 students participating. It's a science, technology, engineering, math and the arts program for families, where 2:30 to 5:30 p.m. on a designated day is the time to build, throw and aim your Uncle Rico Film Character Nerf Board \u2014 named for the character",
+  "z0": 7.870959280799259,
+  "seconds": 252.5
+ }
+}

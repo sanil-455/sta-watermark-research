@@ -1,0 +1,210 @@
+{
+ "sample_id": "baseline_safe:2",
+ "source": "results/raw/baseline_safe.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.7201051248357424,
+ "needed_share": 0.6278385362176065,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 761,
+  "segments": 5,
+  "eligible": 3,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 548,
+  "eligible_char_share": 0.7201051248357424
+ },
+ "attack": {
+  "z0": 5.374011537017761,
+  "z_final": 1.4812257933030564,
+  "status": "broken",
+  "reason": null,
+  "passes": 2,
+  "queries": 195,
+  "seconds": 206.3,
+  "seconds_by_phase": {
+   "generate": 189.3,
+   "gates": 16.9,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 260,
+    "z_before": 5.374011537017761,
+    "z_after": 3.901704880033059,
+    "accepted": true,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "unknown word": 3
+     }
+    },
+    "queries_total": 58,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 60.25
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 173,
+    "z_before": 3.901704880033059,
+    "z_after": 2.76463669953251,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 1,
+      "meaning too different": 8,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 107,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.84
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 115,
+    "z_before": 2.76463669953251,
+    "z_after": 1.5634719199411433,
+    "accepted": true,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 1,
+      "unknown word": 2,
+      "meaning too different": 21,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 140,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.72
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 260,
+    "z_before": 1.5634719199411433,
+    "z_after": 1.4812257933030564,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 57,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "unknown word": 3,
+      "quotation changed": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 195,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 60.5
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "In the past, this abuse has served as the headline of Caveney\u2019s stories online and in print, and over time, he\u2019s come to tribes with his pain on debut documentaries for the BBC\u2019s Radio Days project, which are presented on the companion audio-CD to \u201cGibberish.\u201d",
+    "rewrite": "In the past, this mistreatment has been a central topic in Caveney\u2019s online and printed pieces. As time progressed, he took it upon himself to present his suffering in maiden documentaries for the BBC\u2019s Radio Days initiative. These were later released on an accompanying audio-CD alongside the work titled \u201cGibberish.\u201d"
+   },
+   "3": {
+    "original": "But as he reaches two critical milestones, entering his 50s and 60s, he\u2019s moved away from the spectacle of the abuse and started to look at the context in which it happened.",
+    "rewrite": "Yet as he approaches two key milestones by turning 50 and 60, he has distanced himself from the public displays of abuse and begun to examine the circumstances surrounding them."
+   },
+   "1": {
+    "original": "However, after the buried soul of his father\u2019s abuse is revealed, these painful anecdotes begin to make more sense.",
+    "rewrite": "Nevertheless, once the hidden essence of his father\u2019s abuse was uncovered, these hurtful stories started to become clearer."
+   }
+  },
+  "final_span": "times when it can feel like a stretch to find Caveney\u2019s purpose in going into such painful detail about his early abuse. Nevertheless, once the hidden essence of his father\u2019s abuse was uncovered, these hurtful stories started to become clearer. In the past, this mistreatment has been a central topic in Caveney\u2019s online and printed pieces. As time progressed, he took it upon himself to present his suffering in maiden documentaries for the BBC\u2019s Radio Days initiative. These were later released on an accompanying audio-CD alongside the work titled \u201cGibberish.\u201d Yet as he approaches two key milestones by turning 50 and 60, he has distanced himself from the public displays of abuse and begun to examine the circumstances surrounding them. So, with \u201cGibberish\u201d he\u2019s moved from pornography to an exploration of what incest, trauma",
+  "break_point": {
+   "step": 3,
+   "sentences_rewritten": 3,
+   "queries": 195
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 3,
+   "segments": 5,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 60.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 202,
+   "length_change": 1,
+   "pct_not_preserved": 33.83084577114428,
+   "pct_new": 34.15841584158416
+  },
+  "words": {
+   "original": 132,
+   "final": 134,
+   "length_change": 2,
+   "pct_not_preserved": 45.45454545454546,
+   "pct_new": 46.26865671641791
+  },
+  "characters": {
+   "original": 761,
+   "final": 831,
+   "length_change": 70,
+   "pct_not_preserved": 25.361366622864658,
+   "pct_new": 31.64861612515042
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 138,
+   "green_after": 111,
+   "pairs_before": 200,
+   "pairs_after": 201,
+   "pairs_changed_before": 98,
+   "pairs_changed_after": 99,
+   "green_fraction_of_new_pairs": 0.40404040404040403,
+   "delta_achieved": 0.09595959595959597
+  }
+ }
+}

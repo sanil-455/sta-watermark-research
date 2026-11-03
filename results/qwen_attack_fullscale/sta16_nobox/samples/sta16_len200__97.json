@@ -1,0 +1,44 @@
+{
+ "sample_id": "sta16_len200:97",
+ "nobox": {
+  "z_final": 6.285714285714286,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Launching the service was Ms Inez Lee, senior director, News and Direct Line, Google Singapore, who said the partnership -intended to provide training to up to 50,000 Singaporeans in a year - marked a new frontier for the search engine in training young people.",
+    "rewrite": "Ms Inez Lee, senior director of News and Direct Line at Google Singapore, launched the service, stating that the partnership aimed to train up to 50,000 Singaporeans yearly and represented a new frontier for the search engine in training youth."
+   },
+   "1": {
+    "original": "On Wednesday, Google partnered The Hive, Singapore's largest homegrown co-working space, to set up a Google Digital News Garage to show students how to be more tech savvy about media.",
+    "rewrite": "On Wednesday, Google partnered with The Hive, Singapore's largest homegrown co-working space, to establish a Google Digital News Garage to educate students on being more tech-savvy about media."
+   },
+   "3": {
+    "original": "Mr Chen Chang Xi three, meanwhile, has no need to be retrained in separating fake news from the real deal.",
+    "rewrite": "Meanwhile, Mr Chen Chang Xi III does not need to be retrained in distinguishing fake news from genuine information."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 60,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 58,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 40,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "differentiate between valid and invalid information, to be better equipped to be discerning when consuming online news.\nOn Wednesday, Google partnered with The Hive, Singapore's largest homegrown co-working space, to establish a Google Digital News Garage to educate students on being more tech-savvy about media.\nMs Inez Lee, senior director of News and Direct Line at Google Singapore, launched the service, stating that the partnership aimed to train up to 50,000 Singaporeans yearly and represented a new frontier for the search engine in training youth.\nMeanwhile, Mr Chen Chang Xi III does not need to be retrained in distinguishing fake news from genuine information.\nOn Wednesday, aged three, it took him all of 15 seconds to bluntly tell this newspaper: \"It's so easy to read fake",
+  "z0": 8.909545442950499,
+  "seconds": 150.5
+ }
+}

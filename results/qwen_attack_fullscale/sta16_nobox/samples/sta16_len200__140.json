@@ -1,0 +1,15 @@
+{
+ "sample_id": "sta16_len200:140",
+ "nobox": {
+  "z_final": 11.31370849898476,
+  "status": "not broken",
+  "rewrites": {},
+  "sentences_rewritten": 0,
+  "eligible": 0,
+  "per_sentence": [],
+  "queries": 1,
+  "final_span": "Mayor, we have got to discuss it,\" Crs Light and Maddern said hours after.\n\"It's going to have ramifications that affect this council for a long period of time if the motion was passed, and the way this council has gone in meetings about CEO, basically giving her a character assassination - it's very defamatory.\n\"Our press release went about CEO issues that named names but the press release is still there, we still put it on the site, and I had a call with a journalist last week because since 2017 and the new government we have been getting a lot of phone calls from newspapers asking about CEO, asking about what three councillors did in bringing a CEO into council what were they charged for and nobody is answering any of these questions.\"\nCrs Light and Maddern said their decision to leave the chamber was a move of conscience,\n\"Reluctantly, honest",
+  "z0": 11.31370849898476,
+  "seconds": 0.0
+ }
+}

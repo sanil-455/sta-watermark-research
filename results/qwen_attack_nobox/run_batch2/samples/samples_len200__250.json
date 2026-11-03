@@ -1,0 +1,26 @@
+{
+ "sample_id": "samples_len200:250",
+ "nobox": {
+  "z_final": 4.080865759435693,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "The ad network expects that in the longer run, as more publishers populate the platform, merchants can use its wholesale model to market their products even on Yahoo and Google.",
+    "rewrite": "As more publishers populate the platform in the long term, the ad network anticipates that merchants can utilize its wholesale model for product marketing on Yahoo and Google as well."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 40,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the platform to other merchants, 72Lux aims to benefit from a sense of urgency: It wants CGMs to find a home there and help boost the network\u2019s traffic.\n\u201cWe want to be the HQ of commerce growth, where merchants and publishers can get their commerce off the ground,\u201d said Holger Stern, co-founder and COO of 72Lux.\nAs more publishers populate the platform in the long term, the ad network anticipates that merchants can utilize its wholesale model for product marketing on Yahoo and Google as well.\nLaunched in 2014 by Columbia University graduates Thomas Lisek and Arne Lisek, the platform got its start by attracting premium merchants, including Ralph Lauren, Christian Louboutin, or Betsey Johnson, to sell on Bergdorf\u2019s Goodman and Vogue.com.",
+  "z0": 4.525483399593904,
+  "seconds": 46.8
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:74",
+ "nobox": {
+  "z_final": 1.9536514342895384,
+  "status": "broken",
+  "rewrites": {
+   "5": {
+    "original": "On the return trip, Armstrong asked Buzz Aldrin, his fellow crew member and pilot, to be sure to have a good look at the moon.",
+    "rewrite": "On the return trip, Armstrong requested that Buzz Aldrin, his fellow crew member and pilot, take a good look at the moon."
+   },
+   "2": {
+    "original": "It commemorated President Harry S. Truman, who donated the boxed brush to the Museum after he\u2019d lost a tooth.",
+    "rewrite": "It honored President Harry S. Truman, who later donated the boxed brush to the Museum when he lost a tooth."
+   },
+   "1": {
+    "original": "On the way to the moon, Armstrong detached the toothbrush from its box, and read an inscription.",
+    "rewrite": "Armstrong detached the toothbrush from its box and noticed an inscription on the way to the moon."
+   },
+   "4": {
+    "original": "Armstrong then tucked the toothbrush back whence it came.",
+    "rewrite": "Armstrong then placed the toothbrush back where it had been."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 36,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 21,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "tucked under his pocket a toothbrush and a Slinky from the National Museum of American History.\nArmstrong detached the toothbrush from its box and noticed an inscription on the way to the moon. It honored President Harry S. Truman, who later donated the boxed brush to the Museum when he lost a tooth. The note read \u201cGive a man a toothbrush and you feed his spirit.\u201d Armstrong then placed the toothbrush back where it had been.\nOn the return trip, Armstrong requested that Buzz Aldrin, his fellow crew member and pilot, take a good look at the moon. Aldrin remembers getting the message\u2014teasingly, as Armstrong was fond of doing\u2014that Armstrong wanted him to have a good view, if for no other reason than to send back a photo showing the signatures of the astr",
+  "z0": 2.9698484809834995,
+  "seconds": 118.4
+ }
+}

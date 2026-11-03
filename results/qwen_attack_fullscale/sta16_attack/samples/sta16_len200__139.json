@@ -1,0 +1,84 @@
+{
+ "sample_id": "sta16_len200:139",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.0,
+ "needed_share": 0.8186905689265263,
+ "delta_needed": null,
+ "segmentation": {
+  "chars": 738,
+  "segments": 8,
+  "eligible": 0,
+  "skipped": 8,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 6,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 0,
+  "eligible_char_share": 0.0
+ },
+ "attack": {
+  "z0": 11.030865786510141,
+  "z_final": 11.030865786510141,
+  "status": "no eligible text",
+  "reason": "no eligible text",
+  "passes": 0,
+  "queries": 1,
+  "seconds": 0.0,
+  "seconds_by_phase": {
+   "generate": 0.0,
+   "gates": 0.0,
+   "detector": 0.0
+  },
+  "steps": [],
+  "rewrites": {},
+  "final_span": "where we've really got some hardcore guys and women going for it.\"\nBen continued: \"There are things on that course that take me back, I'm at 40 now. But because ITV let us do those walls, everyone's pretty much fine now. We had a call last week saying, 'You can't whack people in the t-bone, you can't whack people in the knee. People who are doing this in real life have scars all over their back, we don't want to be accused of that.\n\"It's just done in a different type of way - it's losing people in stages, if they're really not capable of doing it, they're not capable of doing it. We don't take any prisoners, but what it does is - we both agree with this - it gives people this platform.\"\nBen humorously agreed: \"It's not dangerous",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 0,
+   "eligible": 0,
+   "segments": 8,
+   "pct_of_eligible": 0.0,
+   "pct_of_segments": 0.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 201,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "words": {
+   "original": 141,
+   "final": 141,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "characters": {
+   "original": 738,
+   "final": 738,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 178,
+   "green_after": 178,
+   "pairs_before": 200,
+   "pairs_after": 200,
+   "pairs_changed_before": 0,
+   "pairs_changed_after": 0,
+   "green_fraction_of_new_pairs": null,
+   "delta_achieved": null
+  }
+ }
+}

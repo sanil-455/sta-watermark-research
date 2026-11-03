@@ -1,0 +1,62 @@
+{
+ "sample_id": "sta16_len200:106",
+ "nobox": {
+  "z_final": 6.396021490668313,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "The fact that BMW, Mercedes, and Volkswagen did no official driving at all is notable, particularly in Mercedes\u2019 case, because they are probably the farthest along of the car companies in developing human-machine collaboration software, which is something of a precursor to a fully autonomous vehicle.",
+    "rewrite": "Notable is the fact that BMW, Mercedes, and Volkswagen performed no official driving at all, especially in Mercedes\u2019 case, since they are likely the furthest along among car companies in developing human-machine collaboration software, which serves as a precursor to a fully autonomous vehicle."
+   },
+   "4": {
+    "original": "The same went for Honda, which made no entries for California driving but a total of 750 miles in other states and about 750 more research miles in California versus passenger miles it drove with passengers paying to ride.",
+    "rewrite": "The same applied to Honda, which recorded no California driving entries but a total of 750 miles in other states and approximately another 750 research miles in California, compared to the passenger miles driven with paying riders."
+   },
+   "3": {
+    "original": "BMW only reported the distance their researchers walked on city sidewalks and some parking lots in California for testing of the car\u2019s new software versions and the sensors.",
+    "rewrite": "BMW only documented the distance their researchers walked on city sidewalks and some parking lots in California during testing of the car\u2019s new software versions and sensors."
+   },
+   "0": {
+    "original": "These cars can be tested and demonstrated on roads closed to other traffic, approved by the DMV.",
+    "rewrite": "These cars can be tested and showcased on roads that are closed to other traffic and approved by the DMV."
+   },
+   "2": {
+    "original": "Ditto for Ford, which named an entire division to work on HMC.",
+    "rewrite": "Similarly, Ford created an entire division dedicated to HMC."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 31,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "\nThese cars can be tested and showcased on roads that are closed to other traffic and approved by the DMV. Notable is the fact that BMW, Mercedes, and Volkswagen performed no official driving at all, especially in Mercedes\u2019 case, since they are likely the furthest along among car companies in developing human-machine collaboration software, which serves as a precursor to a fully autonomous vehicle. Similarly, Ford created an entire division dedicated to HMC.\nBMW only documented the distance their researchers walked on city sidewalks and some parking lots in California during testing of the car\u2019s new software versions and sensors. The same applied to Honda, which recorded no California driving entries but a total of 750 miles in other states and approximately another 750 research miles in California, compared to the passenger miles driven with paying riders. BMW and Ford even reported only information about pedestrian",
+  "z0": 10.368580553121394,
+  "seconds": 236.1
+ }
+}

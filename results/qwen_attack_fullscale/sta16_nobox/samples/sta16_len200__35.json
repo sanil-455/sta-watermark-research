@@ -1,0 +1,71 @@
+{
+ "sample_id": "sta16_len200:35",
+ "nobox": {
+  "z_final": 5.542581280764948,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "I also haven't seen evidence that a larger screen would enable more battery life (does anybody have info?) - the physics of whichever size screen I'm holding is the limiting factor - it takes the same amount of energy to display pixels regardless of how many there are.",
+    "rewrite": "I haven't found evidence that a larger screen allows for more battery life (is anyone aware of any? ); the physics of whichever screen size I hold is the limiting factor \u2013 it consumes the same amount of energy to display pixels, irrespective of the number of them."
+   },
+   "3": {
+    "original": "I suspect phones we're are holding will be getting an extra 50th of an inch each time - adding 0.5-1.0 inch would not be intolerable.",
+    "rewrite": "I suspect that phones we are holding will gain an extra 50th of an inch each time - adding 0.5 to 1.0 inch would not be intolerable."
+   },
+   "1": {
+    "original": "I'd be willing to pay more for the extra iPhone screen real estate -- it wouldn't be as much as ~$150.",
+    "rewrite": "I am willing to pay more for the additional iPhone screen space \u2014 it would still be no more than around $150."
+   },
+   "4": {
+    "original": "Yes, but should Apple (and others) come out with a 4.75-inch Retina phone?",
+    "rewrite": "Yes, but should Apple (and others) release a 4.75-inch Retina phone?"
+   },
+   "5": {
+    "original": "I think that would alienate some of the iPhone crowd.",
+    "rewrite": "I believe that would alienate some iPhone users."
+   },
+   "6": {
+    "original": "And it would create the risk of feature envy.",
+    "rewrite": "And it would introduce the risk of feature envy."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 21,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 56,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 23,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 12,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 3,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "phone if every phone maxed out at 4.3-4.5 inches. I am willing to pay more for the additional iPhone screen space \u2014 it would still be no more than around $150. I haven't found evidence that a larger screen allows for more battery life (is anyone aware of any? ); the physics of whichever screen size I hold is the limiting factor \u2013 it consumes the same amount of energy to display pixels, irrespective of the number of them.\nI suspect that phones we are holding will gain an extra 50th of an inch each time - adding 0.5 to 1.0 inch would not be intolerable.\nYes, but should Apple (and others) release a 4.75-inch Retina phone? I believe that would alienate some iPhone users. And it would introduce the risk of feature envy.",
+  "z0": 9.758073580374356,
+  "seconds": 201.6
+ }
+}

@@ -1,0 +1,276 @@
+{
+ "sample_id": "samples_len500:334",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.9104704097116844,
+ "needed_share": 0.7169534205696468,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 1977,
+  "segments": 16,
+  "eligible": 12,
+  "skipped": 4,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "too short": 2,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1800,
+  "eligible_char_share": 0.9104704097116844
+ },
+ "attack": {
+  "z0": 7.065974808899335,
+  "z_final": 1.9877173863915527,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 299,
+  "seconds": 355.5,
+  "seconds_by_phase": {
+   "generate": 327.9,
+   "gates": 27.4,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 14,
+    "chars": 331,
+    "z_before": 7.065974808899335,
+    "z_after": 4.979030474580448,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 56,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "unknown word": 4,
+      "negation count changed": 9
+     }
+    },
+    "queries_total": 48,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 66.47
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 295,
+    "z_before": 4.979030474580448,
+    "z_after": 4.570729292471853,
+    "accepted": true,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 41,
+     "after_spelling": 40,
+     "after_content": 40,
+     "after_semantic": 40,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "duplicate": 19,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 88,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 83.46
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 219,
+    "z_before": 4.570729292471853,
+    "z_after": 3.812771084138181,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 143,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.46
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 200,
+    "z_before": 3.812771084138181,
+    "z_after": 3.0175282390440015,
+    "accepted": true,
+    "survivors": 56,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 56,
+     "rejected": {
+      "duplicate": 2,
+      "CJK text": 1,
+      "negation count changed": 1
+     }
+    },
+    "queries_total": 199,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 47.91
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 161,
+    "z_before": 3.0175282390440015,
+    "z_after": 2.292279532375023,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 252,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.13
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 154,
+    "z_before": 2.292279532375023,
+    "z_after": 1.9877173863915527,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "CJK text": 7,
+      "several lines": 2,
+      "hit length limit": 1,
+      "unknown word": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 299,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 58.48
+   }
+  ],
+  "rewrites": {
+   "14": {
+    "original": "And even though city ordinances only allow neighborhood cops to carry 9mm handguns or larger caliber weapons or no firearms at all, police officers are willing to disarm those untrained, undoubtedly stupendously violent prohibited persons who neither use nor, we suppose, trust nonlethal devices such as pepper spray and stun guns.",
+    "rewrite": "Despite city ordinances limiting neighborhood cops to carry only 9mm pistols or bigger guns or no firearms whatsoever, police officers still choose to disarm the untrained, potentially violent individuals proscribed by law, who likely do not use and perhaps do not rely on nonlethal tools like pepper spray and stun guns."
+   },
+   "8": {
+    "original": "According to the Firearms Policy Cooperative, which keeps a database of three million Facebook followers, there are 833,664 concealed handgun licensees; 757,280 firearms registered in the city; 578,088 active shooting permits; and 652,661 registered users on the Bantay Guns gun tracker website.",
+    "rewrite": "The Firearms Policy Cooperative, which monitors a follower base of three million on Facebook, reports that there are 833,664 concealed handgun licensees; 757,280 firearms registered in the city; 578,088 active shooting permits; and 652,661 registered users on the Bantay Guns gun tracker website."
+   },
+   "3": {
+    "original": "In order to carry your lawfully purchased gun, you must have a state permit to carry a handgun, and an official notice from the police indicating you have passed an extensive mental health and criminal record screening.",
+    "rewrite": "To legally carry your purchased firearm, you need a state permit for handguns along with an official letter from the police confirming your background check, which includes thorough mental health and criminal background review."
+   },
+   "7": {
+    "original": "But during the Mayor\u2019s disastrous tenure, we\u2019ve seen a massive rise in street violence in New York city, and if part of the problem is guns, the city\u2019s gun control policies may be part of the problem.",
+    "rewrite": "During the Mayor\u2019s catastrophic term, there has been a significant increase in street violence in New York City. If guns are part of the issue, the city\u2019s gun control policies might contribute to the problem."
+   },
+   "4": {
+    "original": "The officers then conduct a training class with the requirements of the state as well as ongoing reviews of the permit\u2019s expiration and other state requirements.",
+    "rewrite": "The officers subsequently lead a training class that covers the state\u2019s requirements along with regular checks on the permit\u2019s expiration and other pertinent state regulations."
+   },
+   "9": {
+    "original": "So even with the city\u2019s so-called tough gun control laws, it\u2019s perfectly legal to own the number of firearms in the city; it\u2019s just illegal to carry them.",
+    "rewrite": "Despite the city\u2019s so-called strict gun control laws, it is lawful to possess a certain number of firearms; it is merely illegal to carry them."
+   }
+  },
+  "final_span": "strictest gun control laws in the country. Keeping a loaded handgun in your home requires a license. License to own a handgun are even more difficult to obtain than a license to carry. To legally carry your purchased firearm, you need a state permit for handguns along with an official letter from the police confirming your background check, which includes thorough mental health and criminal background review. The officers subsequently lead a training class that covers the state\u2019s requirements along with regular checks on the permit\u2019s expiration and other pertinent state regulations.\nThere are 833,664 licensed handgun owners in New York, according to the NRA. That\u2019s a lot of pistols to monitor. During the Mayor\u2019s catastrophic term, there has been a significant increase in street violence in New York City. If guns are part of the issue, the city\u2019s gun control policies might contribute to the problem.\nThe Firearms Policy Cooperative, which monitors a follower base of three million on Facebook, reports that there are 833,664 concealed handgun licensees; 757,280 firearms registered in the city; 578,088 active shooting permits; and 652,661 registered users on the Bantay Guns gun tracker website.\nDespite the city\u2019s so-called strict gun control laws, it is lawful to possess a certain number of firearms; it is merely illegal to carry them. Of course the illegality is, at least partially, because of the draconian requirements.\nBut no matter. We can just call the police. See, the police are well trained and adept at wringing potato sandwiches out of parking meter tickets. Despite city ordinances limiting neighborhood cops to carry only 9mm pistols or bigger guns or no firearms whatsoever, police officers still choose to disarm the untrained, potentially violent individuals proscribed by law, who likely do not use and perhaps do not rely on nonlethal tools like pepper spray and stun guns.\nRobbery numbers in the city \u2014 including robbery with a firearm \u2014 has gone up 1",
+  "break_point": {
+   "step": 5,
+   "sentences_rewritten": 6,
+   "queries": 299
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 6,
+   "eligible": 12,
+   "segments": 16,
+   "pct_of_eligible": 50.0,
+   "pct_of_segments": 37.5
+  },
+  "tokens": {
+   "original": 501,
+   "final": 491,
+   "length_change": -10,
+   "pct_not_preserved": 24.55089820359282,
+   "pct_new": 23.014256619144604
+  },
+  "words": {
+   "original": 329,
+   "final": 321,
+   "length_change": -8,
+   "pct_not_preserved": 30.69908814589666,
+   "pct_new": 28.971962616822434
+  },
+  "characters": {
+   "original": 1977,
+   "final": 1988,
+   "length_change": 11,
+   "pct_not_preserved": 19.372787051087503,
+   "pct_new": 19.818913480885314
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 329,
+   "green_after": 267,
+   "pairs_before": 500,
+   "pairs_after": 490,
+   "pairs_changed_before": 170,
+   "pairs_changed_after": 160,
+   "green_fraction_of_new_pairs": 0.31875,
+   "delta_achieved": 0.18125000000000002
+  }
+ }
+}

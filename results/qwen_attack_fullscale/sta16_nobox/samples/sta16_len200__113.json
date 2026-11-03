@@ -1,0 +1,53 @@
+{
+ "sample_id": "sta16_len200:113",
+ "nobox": {
+  "z_final": 7.848068473895326,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "You could also do this in a way to put an \u201copt-out\u201d into effect, which is according to the American Bar Association, should only allow the receiving party to opt-out if they go through a specific process.",
+    "rewrite": "You could also implement this with an \u201copt-out\u201d option, which, according to the American Bar Association, would only permit the receiving party to opt-out by following a specific process."
+   },
+   "0": {
+    "original": "Unfortunately, to let the agreement expire is usually a major mistake as it provides an opportunity for your confidential information to be used in a way that competes with your business.",
+    "rewrite": "Unfortunately, letting the agreement expire is often a significant mistake because it gives an opportunity for your confidential information to be used against your business."
+   },
+   "1": {
+    "original": "You could even put exceptions into effect, which according to Harvard, could include having them expire as soon as your information is first made public - such as at a public event.",
+    "rewrite": "According to Harvard, you could introduce exceptions that would make them expire right when your information is publicly disclosed, for instance, at a public event."
+   },
+   "4": {
+    "original": "While, again, both of these have their merits, you could even opt to agree upon automatically renewing the agreement.",
+    "rewrite": "While both of these have their merits, you could also consider agreeing to automatically renew the agreement."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 59,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 27,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 47,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Unfortunately, letting the agreement expire is often a significant mistake because it gives an opportunity for your confidential information to be used against your business.\nAccording to Harvard, you could introduce exceptions that would make them expire right when your information is publicly disclosed, for instance, at a public event.\nYou could also implement this with an \u201copt-out\u201d option, which, according to the American Bar Association, would only permit the receiving party to opt-out by following a specific process.\nAccording to the team at the Chicago Tribune, you could also have another term, which is similar to \u201copt-out three-months after consummating the purpose of the agreement.\u201d While both of these have their merits, you could also consider agreeing to automatically renew the agreement.\nIn this article, we discussed some of the facets of an",
+  "z0": 11.030865786510141,
+  "seconds": 163.9
+ }
+}

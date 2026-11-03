@@ -1,0 +1,184 @@
+{
+ "sample_id": "samples_len500:187",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.9069884364002011,
+ "needed_share": 0.561555298529453,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 1989,
+  "segments": 8,
+  "eligible": 6,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1804,
+  "eligible_char_share": 0.9069884364002011
+ },
+ "attack": {
+  "z0": 4.561578674099571,
+  "z_final": 1.5486575634925417,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 96,
+  "seconds": 317.7,
+  "seconds_by_phase": {
+   "generate": 303.8,
+   "gates": 13.8,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 571,
+    "z_before": 4.561578674099571,
+    "z_after": 3.377830118332837,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 47,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "CJK text": 6,
+      "several lines": 2,
+      "unknown word": 5,
+      "negation count changed": 3
+     }
+    },
+    "queries_total": 45,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 145.2
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 478,
+    "z_before": 3.377830118332837,
+    "z_after": 2.2249753850138494,
+    "accepted": true,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 49,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "CJK text": 5,
+      "unknown word": 6,
+      "negation count changed": 3
+     }
+    },
+    "queries_total": 91,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 92.36
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 279,
+    "z_before": 2.2249753850138494,
+    "z_after": 1.5486575634925417,
+    "accepted": true,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 45,
+     "after_content": 5,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 5,
+      "unknown word": 7,
+      "negation count changed": 40
+     }
+    },
+    "queries_total": 96,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 66.25
+   }
+  ],
+  "rewrites": {
+   "4": {
+    "original": "In 2015, he stepped right in between three of the producers - Stan Lee, Robert Evans, and Avi Arad - and Marvel film supervisors - Jeph Loeb and Matthew Vaughn, who had already signed off on the Fantastic Four franchise - and sued them for breaching contracts and breaching fiduciary duties, alleging that Marvel and its movie arm, Marvel Studios, committed fraud by switching in a newer production team - producer Bernd's son, Harald Eichinger; producers Robert Kulzar and David Maisel; and Marvel Entertainment - to breach its licensing agreement with 20th Century Fox.",
+    "rewrite": "In 2015, he directly approached three producers\u2014Stan Lee, Robert Evans, and Avi Arad\u2014and Marvel film supervisors Jeph Loeb and Matthew Vaughn\u2014who had already approved the Fantastic Four franchise\u2014and sued them for contract breaches and fiduciary duty violations, claiming that Marvel and its movie wing, Marvel Studios, deceitfully replaced the production team\u2014composed of producer Bernd\u2019s son, Harald Eichinger, and producers Robert Kulzar and David Maisel\u2014as part of a scheme to violate their license agreement with 20th Century Fox."
+   },
+   "5": {
+    "original": "Judge Ann D. Montgomery of San Diego County Superior Court ruled in favor of 20th Century Fox in late 2015, and instead of giving in and honoring the agreement and paying Reilly Industries, the executive committee chairman's company, thousands of dollars in breach of contract damages for the ending production, Mel Gibson, Robin Williams, and other actors' unused appearances, they settled for $3 million in damages instead of fighting a, potentially, years' long legal battle.",
+    "rewrite": "In late 2015, Judge Ann D. Montgomery of the San Diego County Superior Court ruled in favor of 20th Century Fox. Rather than honoring the agreement, paying Reilly Industries thousands of dollars in breach of contract damages for unreleased productions and unused appearances by Mel Gibson, Robin Williams, and other actors, the executive committee chairman's company opted for a $3 million settlement to avoid a potentially lengthy legal battle."
+   },
+   "3": {
+    "original": "And then came Thomas W. Perkins, the chairman of the executive committee at the board of 20th Century Fox, who didn't have a fond opinion about filmmakers such as Frank Miller (Sin City), James Cameron (Avatar), and the X-Men/Fantastic Four directors Tim Story and Josh Schwartz.",
+    "rewrite": "Then came Thomas W. Perkins, the chairman of the executive committee at the 20th Century Fox board, who harbored no favorable views towards filmmakers like Frank Miller (Sin City), James Cameron (Avatar), and the X-Men/Fantastic Four directors Tim Story and Josh Schwartz."
+   }
+  },
+  "final_span": "to let him have it easy was a challenge, but Eichinger finally succeeded in getting 20th Century Fox on board - albeit only CGI-animated films and live-action comedy features. In 1996, Hanna-Barbera, most famous for the Looney Tunes, started an animated TV series; then, in 2005, director Tim Story and star Chris Evans unveiled the first live-action feature about Marvel's First Family. Even though the movies - particularly the Days of Future Past and Apocalypse sequels - were generally deemed disappointing, the Fantastic Four lived on.\nThen came Thomas W. Perkins, the chairman of the executive committee at the 20th Century Fox board, who harbored no favorable views towards filmmakers like Frank Miller (Sin City), James Cameron (Avatar), and the X-Men/Fantastic Four directors Tim Story and Josh Schwartz. In 2015, he directly approached three producers\u2014Stan Lee, Robert Evans, and Avi Arad\u2014and Marvel film supervisors Jeph Loeb and Matthew Vaughn\u2014who had already approved the Fantastic Four franchise\u2014and sued them for contract breaches and fiduciary duty violations, claiming that Marvel and its movie wing, Marvel Studios, deceitfully replaced the production team\u2014composed of producer Bernd\u2019s son, Harald Eichinger, and producers Robert Kulzar and David Maisel\u2014as part of a scheme to violate their license agreement with 20th Century Fox.\nIn late 2015, Judge Ann D. Montgomery of the San Diego County Superior Court ruled in favor of 20th Century Fox. Rather than honoring the agreement, paying Reilly Industries thousands of dollars in breach of contract damages for unreleased productions and unused appearances by Mel Gibson, Robin Williams, and other actors, the executive committee chairman's company opted for a $3 million settlement to avoid a potentially lengthy legal battle. Still, the judge's decision proved that 20th Century Fox has the original holding library for the Fantastic Four.\nNow",
+  "break_point": {
+   "step": 2,
+   "sentences_rewritten": 3,
+   "queries": 96
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 6,
+   "segments": 8,
+   "pct_of_eligible": 50.0,
+   "pct_of_segments": 37.5
+  },
+  "tokens": {
+   "original": 501,
+   "final": 483,
+   "length_change": -18,
+   "pct_not_preserved": 21.9560878243513,
+   "pct_new": 19.047619047619047
+  },
+  "words": {
+   "original": 320,
+   "final": 293,
+   "length_change": -27,
+   "pct_not_preserved": 29.374999999999996,
+   "pct_new": 22.866894197952213
+  },
+  "characters": {
+   "original": 1989,
+   "final": 1913,
+   "length_change": -76,
+   "pct_not_preserved": 17.24484665661137,
+   "pct_new": 13.957135389440667
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 301,
+   "green_after": 258,
+   "pairs_before": 500,
+   "pairs_after": 482,
+   "pairs_changed_before": 147,
+   "pairs_changed_after": 129,
+   "green_fraction_of_new_pairs": 0.4263565891472868,
+   "delta_achieved": 0.0736434108527132
+  }
+ }
+}

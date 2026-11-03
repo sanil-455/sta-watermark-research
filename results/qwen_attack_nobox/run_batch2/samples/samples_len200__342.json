@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:342",
+ "nobox": {
+  "z_final": 4.69041575982343,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "So why should such a voice be heeded by the SBOE?",
+    "rewrite": "So why should the SBOE give heed to such a voice?"
+   },
+   "3": {
+    "original": "Much of that is happening now.",
+    "rewrite": "That is largely happening now."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 13,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 1,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the selection of books that best represent the truth, regardless of the religion involved. It should not be a contest between Christianity and Islam. It should be a competition between textbooks, which should be judged on their merit.\"\nThat is largely happening now. But, as state Sen. Eliot Shapleigh, D-El Paso, noted in a letter to The Dallas Morning News, \"our state board is inching closer and closer to tribesmen who, basically, pull quotations out of context and inject politics and bigotry into a debate that is supposed to be about education, not about religion.\"\nRives doesn't come close to representing anything close to Texas mainstream conservatives in his opinion that \"I believe we had only the Bible and the Constitution . . .\" in getting to where we are today. So why should the SBOE give heed to such a voice?\nMainstream Texans should reject R",
+  "z0": 5.374011537017761,
+  "seconds": 30.7
+ }
+}

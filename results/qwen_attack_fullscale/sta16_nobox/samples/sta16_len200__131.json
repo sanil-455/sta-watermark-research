@@ -1,0 +1,44 @@
+{
+ "sample_id": "sta16_len200:131",
+ "nobox": {
+  "z_final": 6.8418524738284034,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "In an interview, Los Angeles County Fire Department Chief David Kim said the new system - which establishes state goals for staffing nursing homes based on the population served - may be more rigorous, but the greatest achievement was having California created an inspector certification process.",
+    "rewrite": "In an interview, Los Angeles County Fire Department Chief David Kim said the new system, which establishes state goals for nursing home staffing based on the population served, might be more rigorous, but the biggest accomplishment was that California created an inspector certification process."
+   },
+   "2": {
+    "original": "Heather Lauer, senior director for program operations at the Incentive Sponsorship Fund, which helps self-funded state workers, called the new requirements \"an opportunity for improvement\" but said more should have been required of nursing homes and assisted-living facilities in California.",
+    "rewrite": "Heather Lauer, senior director for program operations at the Incentive Sponsorship Fund assisting self-funded state workers, described the new requirements as \"an opportunity for improvement\" but stated that more should have been mandated for nursing homes and assisted-living facilities in California."
+   },
+   "3": {
+    "original": "Other state agencies have been required by the federal Centers for Medicare and Medicaid Services to submit a new nursing home evaluation system to determine whether they are meeting stringent federal requirements.",
+    "rewrite": "The federal Centers for Medicare and Medicaid Services require other state agencies to submit a new nursing home evaluation system in order to assess their compliance with stringent federal requirements."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 59,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 11,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 48,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the new staff won't be felt for another year.\n\"It's a step in the right direction,\" Connors said.\nHeather Lauer, senior director for program operations at the Incentive Sponsorship Fund assisting self-funded state workers, described the new requirements as \"an opportunity for improvement\" but stated that more should have been mandated for nursing homes and assisted-living facilities in California. The federal Centers for Medicare and Medicaid Services require other state agencies to submit a new nursing home evaluation system in order to assess their compliance with stringent federal requirements.\nIn an interview, Los Angeles County Fire Department Chief David Kim said the new system, which establishes state goals for nursing home staffing based on the population served, might be more rigorous, but the biggest accomplishment was that California created an inspector certification process. In a blow to the county, state regul",
+  "z0": 8.626702730475879,
+  "seconds": 173.2
+ }
+}

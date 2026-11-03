@@ -1,0 +1,62 @@
+{
+ "sample_id": "sta16_len200:84",
+ "nobox": {
+  "z_final": 5.9135051489965,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "It is in effect a triple-top formation, basically a triple-peak penetration-failure, and penetration-failure two more times, which fits the price action over the last few weeks.",
+    "rewrite": "In effect, it is a triple-top formation, involving three consecutive penetration failures, which aligns with the price movements over the past few weeks."
+   },
+   "2": {
+    "original": "A second look at the chart above shows what prices are doing is forming what I call an Arrow Chart Formation (orange box above).",
+    "rewrite": "Another glance at the chart above reveals what prices are doing, forming what I call an Arrow Chart Formation (orange box above)."
+   },
+   "6": {
+    "original": "This situation falls into the what I consider a trap; sales may be deep but there is no reason to buy this stock right now.",
+    "rewrite": "This situation fits what I consider a trap; while sales might be high, there is no justification for buying this stock at present."
+   },
+   "1": {
+    "original": "Shorter-term momentum indicators are weakening.",
+    "rewrite": "Weakening signals are occurring in the short-term momentum indicators."
+   },
+   "4": {
+    "original": "See also: Triple Top Pattern Forming On Stocks?",
+    "rewrite": "See also: Is a Triple Top Pattern Forming on Stocks?"
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 38,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 22,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "200-day moving average line near $58. Weakening signals are occurring in the short-term momentum indicators.\nAnother glance at the chart above reveals what prices are doing, forming what I call an Arrow Chart Formation (orange box above). In effect, it is a triple-top formation, involving three consecutive penetration failures, which aligns with the price movements over the past few weeks.\nSee also: Is a Triple Top Pattern Forming on Stocks?\nThere are times when you want to \"add to a known profit,\" and then there are times when you want to \"fight the trend\" and buy at new highs contrary to what I three months ago. This situation fits what I consider a trap; while sales might be high, there is no justification for buying this stock at present.\nTake it easy for the next few weeks as prices may make a",
+  "z0": 9.758073580374356,
+  "seconds": 155.8
+ }
+}

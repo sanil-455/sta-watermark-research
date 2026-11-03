@@ -1,0 +1,44 @@
+{
+ "sample_id": "sta16_len200:77",
+ "nobox": {
+  "z_final": 9.206923582851392,
+  "status": "not broken",
+  "rewrites": {
+   "7": {
+    "original": "He said the Sweet Georgia Sound will perform songs from the type of orchestra Frank Sinatra would sing with and perhaps even Greg himself.",
+    "rewrite": "He said that the Sweet Georgia Sound will perform songs from an orchestra similar to the one Frank Sinatra would sing with, and perhaps even include some of Greg's songs as well."
+   },
+   "1": {
+    "original": "Glover said he and the rest of the Sweet Georgia Sound have looked forward to coming to Cleveland this weekend.",
+    "rewrite": "Glover stated that he and the other members of the Sweet Georgia Sound were looking forward to visiting Cleveland this weekend."
+   },
+   "9": {
+    "original": "Glover said he and the Sweet Georgia Sound have looked forward to coming to Cleveland this weekend.",
+    "rewrite": "Glover stated that he and the Sweet Georgia Sound have been looking forward to visiting Cleveland this weekend."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 7,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 32,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "dancing marathon!\nGlover stated that he and the other members of the Sweet Georgia Sound were looking forward to visiting Cleveland this weekend.\n\"This is such a beautiful region,\" Glover said. \"I always love coming to an area that is so well rounded.\"\n\"This is such an enjoyable type of music,\" Glover said. \"We want to make people enjoy themselves when they walk in and come out of the venue with a smile. We think they will have fun.\"\nHe said that the Sweet Georgia Sound will perform songs from an orchestra similar to the one Frank Sinatra would sing with, and perhaps even include some of Greg's songs as well.\n\"We\u2019re going to play a lot of classics and jazz standards, but laugh a lot in between...so come out and join us.\"\nGlover stated that he and the Sweet Georgia Sound have been looking forward to visiting Cleveland this weekend.\n\"This is such a beautiful region,\" Glover said.",
+  "z0": 11.455129855222069,
+  "seconds": 102.8
+ }
+}

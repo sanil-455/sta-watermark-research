@@ -1,0 +1,71 @@
+{
+ "sample_id": "sta16_len200:89",
+ "nobox": {
+  "z_final": 5.456482005494809,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "I looked over the new address book and saw the names and addresses of an amazing number of incredible people - many people closer to the core of my heart than anyone who had made their laugh three rows down at our wedding reception.",
+    "rewrite": "I went through the new address book and noticed the names and addresses of an incredible number of amazing people\u2014many closer to my heart than those whose laughter was three rows away at our wedding reception."
+   },
+   "3": {
+    "original": "I realized it had only taken me thirty-odd years to return to the highest level of identity I'd always wanted, yet never dared ask for.",
+    "rewrite": "I realized it took me around thirty years to reach the highest level of identity I'd always wanted but never dared ask for."
+   },
+   "1": {
+    "original": "I added new friends who were amazingly attractive and talented, but were also loyal and wouldn't mind my mistakes in public.",
+    "rewrite": "I added new friends who were astonishingly attractive and talented, but also loyal and wouldn't mind my errors in public."
+   },
+   "2": {
+    "original": "Starting my new address book was a cleansing experience.",
+    "rewrite": "Beginning my new address book was a cleansing experience."
+   },
+   "6": {
+    "original": "I remembered wonderful gatherings of friends and family.",
+    "rewrite": "I recalled wonderful gatherings of friends and family."
+   },
+   "7": {
+    "original": "I remembered my son's deep compassion humor.",
+    "rewrite": "I recalled my son's profound compassion and humor."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 11,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 10,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "to ask whether it was a to-go order or if I was dining in. I added new friends who were astonishingly attractive and talented, but also loyal and wouldn't mind my errors in public.\nBeginning my new address book was a cleansing experience. I realized it took me around thirty years to reach the highest level of identity I'd always wanted but never dared ask for.\nRIGHT, I WAS being haughty. I went through the new address book and noticed the names and addresses of an incredible number of amazing people\u2014many closer to my heart than those whose laughter was three rows away at our wedding reception. I recalled wonderful gatherings of friends and family. I recalled my son's profound compassion and humor. I remembered kidnap attempts, car accidents, moving itineraries, diffusing temper tantrums, mad cats",
+  "z0": 8.76812408671319,
+  "seconds": 180.8
+ }
+}

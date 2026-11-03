@@ -1,0 +1,261 @@
+{
+ "sample_id": "sta16_len200:92",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.47010309278350515,
+ "needed_share": 0.8008149912150571,
+ "delta_needed": 0.2497382504932125,
+ "segmentation": {
+  "chars": 970,
+  "segments": 4,
+  "eligible": 2,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 456,
+  "eligible_char_share": 0.47010309278350515
+ },
+ "attack": {
+  "z0": 10.040916292848975,
+  "z_final": 5.149022995767767,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 183,
+  "seconds": 288.4,
+  "seconds_by_phase": {
+   "generate": 271.9,
+   "gates": 16.4,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 331,
+    "z_before": 10.040916292848975,
+    "z_after": 6.892398322730286,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 3,
+      "several lines": 1,
+      "unknown word": 1,
+      "meaning too different": 3,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 50,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 57.44
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 125,
+    "z_before": 6.892398322730286,
+    "z_after": 5.25465498046547,
+    "accepted": true,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 16,
+     "after_content": 16,
+     "after_semantic": 10,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "duplicate": 12,
+      "CJK text": 1,
+      "unknown word": 31,
+      "meaning too different": 6,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 59,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.17
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 331,
+    "z_before": 5.25465498046547,
+    "z_after": 5.149022995767767,
+    "accepted": true,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "CJK text": 3
+     }
+    },
+    "queries_total": 116,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 52.28
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 125,
+    "z_before": 5.149022995767767,
+    "z_after": 5.149022995767767,
+    "accepted": false,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 43,
+     "after_spelling": 16,
+     "after_content": 16,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "duplicate": 14,
+      "CJK text": 3,
+      "unknown word": 27,
+      "meaning too different": 7
+     }
+    },
+    "queries_total": 125,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.85
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 331,
+    "z_before": 5.149022995767767,
+    "z_after": 5.6853524361496115,
+    "accepted": false,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 2,
+      "several lines": 1,
+      "unknown word": 1,
+      "meaning too different": 4,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 174,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 59.44
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 125,
+    "z_before": 5.149022995767767,
+    "z_after": 5.20662183100416,
+    "accepted": false,
+    "survivors": 10,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 16,
+     "after_content": 16,
+     "after_semantic": 10,
+     "fluency_skipped": false,
+     "after_fluency": 10,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 12,
+      "unknown word": 31,
+      "meaning too different": 6
+     }
+    },
+    "queries_total": 183,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.76
+   }
+  ],
+  "rewrites": {
+   "1": {
+    "original": "This conference will be based, like the other ones listed below during an unprecedented fall offering in publications ethics, on part of the research described above, and the identification of additional potential participants would contribute to the editors meeting their current constraints on the number of invited participants.",
+    "rewrite": "This conference, similar to the others listed below at an unparalleled fall event focusing on publication ethics, will be grounded in part of the aforementioned research, and identifying more potential participants will aid the editors in fulfilling their current participant limits."
+   },
+   "2": {
+    "original": "The time-frame will be after March 2014 (we may be able to move this date), and the proceedings may be published open-access.",
+    "rewrite": "The timeline will be post-March 2014 (we might shift this date), and the process could be made available for open access publication."
+   }
+  },
+  "final_span": "vehicle through which we explore the ethical and regulatory implications of how misconduct is generating questions at the core of the credit-building (and credit-control) function of publication, which in turn depend on an understanding of the tricky mixture of elements that has contributed to the epic problem of editorial overwork: which in turn creates endemic overwork conditions on peer reviewing \u2014 a situation whfat raises serious occupational and labor-regulatory concerns. This conference, similar to the others listed below at an unparalleled fall event focusing on publication ethics, will be grounded in part of the aforementioned research, and identifying more potential participants will aid the editors in fulfilling their current participant limits. The timeline will be post-March 2014 (we might shift this date), and the process could be made available for open access publication.\nPhase 6: Assessment and likely",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 2,
+   "segments": 4,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 50.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 202,
+   "length_change": 1,
+   "pct_not_preserved": 23.38308457711443,
+   "pct_new": 23.762376237623762
+  },
+  "words": {
+   "original": 145,
+   "final": 138,
+   "length_change": -7,
+   "pct_not_preserved": 31.72413793103448,
+   "pct_new": 28.260869565217394
+  },
+  "characters": {
+   "original": 970,
+   "final": 930,
+   "length_change": -40,
+   "pct_not_preserved": 18.556701030927837,
+   "pct_new": 15.053763440860212
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 171,
+   "green_after": 137,
+   "pairs_before": 200,
+   "pairs_after": 201,
+   "pairs_changed_before": 66,
+   "pairs_changed_after": 67,
+   "green_fraction_of_new_pairs": 0.3582089552238806,
+   "delta_achieved": 0.14179104477611942
+  }
+ }
+}

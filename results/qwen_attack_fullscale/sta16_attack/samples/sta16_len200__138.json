@@ -1,0 +1,175 @@
+{
+ "sample_id": "sta16_len200:138",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.31007751937984496,
+ "needed_share": 0.7642977396044841,
+ "delta_needed": 0.4394580630673383,
+ "segmentation": {
+  "chars": 774,
+  "segments": 4,
+  "eligible": 1,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 240,
+  "eligible_char_share": 0.31007751937984496
+ },
+ "attack": {
+  "z0": 8.48528137423857,
+  "z_final": 6.788225099390856,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 20,
+  "seconds": 162.8,
+  "seconds_by_phase": {
+   "generate": 161.1,
+   "gates": 1.7,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 240,
+    "z_before": 8.48528137423857,
+    "z_after": 7.071067811865475,
+    "accepted": true,
+    "survivors": 6,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 55,
+     "after_content": 6,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 6,
+     "rejected": {
+      "glued punctuation": 3,
+      "unknown word": 2,
+      "negation count changed": 39,
+      "quotation changed": 10
+     }
+    },
+    "queries_total": 7,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.67
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 240,
+    "z_before": 7.071067811865475,
+    "z_after": 6.788225099390856,
+    "accepted": true,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 57,
+     "after_content": 9,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "CJK text": 1,
+      "glued punctuation": 1,
+      "unknown word": 1,
+      "negation count changed": 40,
+      "quotation changed": 8
+     }
+    },
+    "queries_total": 16,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.01
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 240,
+    "z_before": 6.788225099390856,
+    "z_after": 7.229182785339043,
+    "accepted": false,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 55,
+     "after_content": 4,
+     "after_semantic": 4,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "glued punctuation": 4,
+      "unknown word": 1,
+      "negation count changed": 38,
+      "quotation changed": 13
+     }
+    },
+    "queries_total": 20,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.39
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "Michelle Robinson: Alter writes that Obama had considered nominating Jarrett to be his ambassador to the United Nations and she was definitely on \u201cshort list,\u201d though in the end she was passed over, having supported Hillary Clinton in 2008.",
+    "rewrite": "Michelle Robinson: Alter writes that Obama thought about nominating Jarrett as his UN ambassador and she was indeed among the \"short list,\" yet in the end she was overlooked due to her support of Hillary Clinton in 2008."
+   }
+  },
+  "final_span": "been allies in Democratic politics, most famously, Nancy Pelosi, after she overturned Obama\u2019s planned HCR compromise: \u201cI\u2019m at a real tricky place.\u201d The \u201ccrappy deals in meetings\u201d he frequently offered up for compromiser\u2019s consumption \u201creminded some people of the tasteless pickled eggs\u201d that first-grader Axelrod dispensed, claims Alter, to have scintillated his classmates during recess.\nMichelle Robinson: Alter writes that Obama thought about nominating Jarrett as his UN ambassador and she was indeed among the \"short list,\" yet in the end she was overlooked due to her support of Hillary Clinton in 2008.\nEmanuel, during his tenure in D.C., changed his own sartorial accoutrements from a blowsy red to an all-black in a morph from \u201cformer opposition",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 1,
+   "eligible": 1,
+   "segments": 4,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 25.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 201,
+   "length_change": 0,
+   "pct_not_preserved": 8.457711442786064,
+   "pct_new": 8.457711442786064
+  },
+  "words": {
+   "original": 118,
+   "final": 117,
+   "length_change": -1,
+   "pct_not_preserved": 14.406779661016945,
+   "pct_new": 13.675213675213671
+  },
+  "characters": {
+   "original": 774,
+   "final": 754,
+   "length_change": -20,
+   "pct_not_preserved": 8.656330749354002,
+   "pct_new": 6.233421750663126
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 160,
+   "green_after": 148,
+   "pairs_before": 200,
+   "pairs_after": 200,
+   "pairs_changed_before": 25,
+   "pairs_changed_after": 25,
+   "green_fraction_of_new_pairs": 0.44,
+   "delta_achieved": 0.06
+  }
+ }
+}

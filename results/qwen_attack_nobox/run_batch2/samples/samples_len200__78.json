@@ -1,0 +1,71 @@
+{
+ "sample_id": "samples_len200:78",
+ "nobox": {
+  "z_final": 2.984810028978546,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "We might be able to generate wealth for our clients or our bosses, but according to the prophet Isaiah, we are to be more about contributing to the wealth of our communities.",
+    "rewrite": "We could generate wealth for our clients or bosses, yet as stated by the prophet Isaiah, our focus should be on contributing to our communities' wealth."
+   },
+   "1": {
+    "original": "From the beginning, according to Scripture, humans had a purpose that meant something, and their work had value.",
+    "rewrite": "Scripture indicates that from the start, humans were given a purpose with meaning, and their work held value."
+   },
+   "4": {
+    "original": "Isaiah tells us that we are to be people of service, not people of personal ambition.",
+    "rewrite": "Isaiah tells us to strive to be service-oriented people, not those driven by personal ambition."
+   },
+   "6": {
+    "original": "By caring for our brothers and sisters, we care for us.",
+    "rewrite": "Through caring for our brothers and sisters, we care for ourselves."
+   },
+   "2": {
+    "original": "Too often, our work has no lasting effect.",
+    "rewrite": "At times, the impact of our work is not enduring."
+   },
+   "7": {
+    "original": "Isaiah speaks of rescuing the prisoners.\u201d",
+    "rewrite": "Isaiah speaks about rescuing the prisoners."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 57,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 17,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 15,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 2,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 24,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "second chapter we read that God got involved, took the hand of Adam and Eve, and made a co-creator of humankind. Scripture indicates that from the start, humans were given a purpose with meaning, and their work held value.\nAt times, the impact of our work is not enduring. We could generate wealth for our clients or bosses, yet as stated by the prophet Isaiah, our focus should be on contributing to our communities' wealth. Isaiah tells us to strive to be service-oriented people, not those driven by personal ambition. Isaiah 41:17 tells us, \u201cWhen men plot evil, they plot it for themselves\u2026 When I plan an undertaking, I plan it for my people\u201d\u009d . Through caring for our brothers and sisters, we care for ourselves. Isaiah speaks about rescuing the prisoners. The prisoners, once rescued, are",
+  "z0": 4.949747468305833,
+  "seconds": 152.8
+ }
+}

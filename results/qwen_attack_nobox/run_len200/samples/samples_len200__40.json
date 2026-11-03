@@ -1,0 +1,21 @@
+{
+ "sample_id": "samples_len200:40",
+ "nobox": {
+  "z_final": 4.1012193308819755,
+  "status": "not broken",
+  "rewrites": {},
+  "sentences_rewritten": 0,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 0,
+    "rewritten": false
+   }
+  ],
+  "queries": 1,
+  "final_span": "to endeavour to make as much money as possible from the charges made on local residents and which visitors must pay, anyone who visits my constituency will be well aware that currently there are very few Local Authorities who do not make a charge to park, most of them charge a lot of money for an average family car; streets with alternate side parking are typically liable to a charge, according to Calderdale\u2019s Freedom of Information requirements, over the last few years they have made a total additional income from expiring bus lane tickets, on street and off street penalties of some \u00a36million - it begs the question, how come they need even more?\u201d he said.\nCllr Isobel Aspinall said that the Council must do everything they can to ensure that they don\u2019t end up with a parking charge disorder in Calderdale if the extra money is really not there.\nBradford have been without",
+  "z0": 4.1012193308819755,
+  "seconds": 37.3
+ }
+}

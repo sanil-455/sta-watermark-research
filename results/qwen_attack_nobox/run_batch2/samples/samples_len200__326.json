@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:326",
+ "nobox": {
+  "z_final": 3.579498272352342,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "Buescher finished the night with 133 points \u2014 44 aerial and 89 total \u2014 to Thomas Meikle\u2019s 89 points as the Skenderbegan 4-star Elite Midfielder of the Week sponsored by Subway.",
+    "rewrite": "Buescher ended the night with 133 points \u2014 44 aerial and 89 total \u2014 topping Thomas Meikle\u2019s 89 points as the Skenderbegan 4-star Elite Midfielder of the Week sponsored by Subway."
+   },
+   "2": {
+    "original": "Buescher, who also had assists in four of the Wildcats\u2019 losses before Wednesday night, added an insurance goal after White made a kick-out to the sprinting senior.",
+    "rewrite": "Buescher, who also contributed assists in four of the Wildcats\u2019 previous losses, scored an additional insurance goal after White made a kick-out to the sprinting senior on Wednesday night."
+   },
+   "1": {
+    "original": "Watching the game unfold made White confident that finally beating a team that had totaled 18 goals on the season would be inevitable.",
+    "rewrite": "Seeing the game progress made White confident that finally scoring enough to beat a team with just 18 goals in the whole season was inevitable."
+   },
+   "3": {
+    "original": "His chip over Vasilas and into the upper-90 net made it a 2-0 game and also sealed the clean sheet.",
+    "rewrite": "His chip over Vasilas and into the upper-90 net made it a 2-0 game and secured a clean sheet."
+   },
+   "5": {
+    "original": "NU soccer nearly scored in the final moments, but Buescher\u2019s header was saved.",
+    "rewrite": "In the final moments, NU soccer nearly scored, but Buescher's header was saved."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 56,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 33,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "on a sliding clearance.\nSeeing the game progress made White confident that finally scoring enough to beat a team with just 18 goals in the whole season was inevitable.\nBuescher, who also contributed assists in four of the Wildcats\u2019 previous losses, scored an additional insurance goal after White made a kick-out to the sprinting senior on Wednesday night. His chip over Vasilas and into the upper-90 net made it a 2-0 game and secured a clean sheet.\nBuescher ended the night with 133 points \u2014 44 aerial and 89 total \u2014 topping Thomas Meikle\u2019s 89 points as the Skenderbegan 4-star Elite Midfielder of the Week sponsored by Subway.\nIn the final moments, NU soccer nearly scored, but Buescher's header was saved.\nNU improved to ",
+  "z0": 4.1012193308819755,
+  "seconds": 225.3
+ }
+}

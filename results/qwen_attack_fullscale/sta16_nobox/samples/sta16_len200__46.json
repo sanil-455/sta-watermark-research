@@ -1,0 +1,80 @@
+{
+ "sample_id": "sta16_len200:46",
+ "nobox": {
+  "z_final": 4.74950407355585,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Coleman was Cleveland\u2019s first pick under Browns owners Dee and Jimmy Haslam in 2016 and came into NFL with lofty expectations.",
+    "rewrite": "Coleman became the first pick for Cleveland under Browns owners Dee and Jimmy Haslam in 2016 and entered the NFL with high expectations."
+   },
+   "8": {
+    "original": "So with a contract locking him in as part of Cleveland\u2019s long-term future, how has he been handled?",
+    "rewrite": "Given his contract locking him in for Cleveland's long-term future, how has he been managed?"
+   },
+   "2": {
+    "original": "He reportedly blew through his combine money and squandered his status as a pro ready to dominate.",
+    "rewrite": "He reportedly blew through his combine funds and squandered his standing as a pro ready to dominate."
+   },
+   "0": {
+    "original": "He got himself back and we got him out there and I know he\u2019s going to make a bunch of plays.",
+    "rewrite": "He got himself back and we got him out there, and I know he\u2019ll make a bunch of plays."
+   },
+   "3": {
+    "original": "He repeatedly appeared late and kept getting pushed down the depth chart.",
+    "rewrite": "He was frequently late and repeatedly slid down the depth chart."
+   },
+   "9": {
+    "original": "For the Browns, if they get only Coleman\u2019s potential, they\u2019ll take that.",
+    "rewrite": "For the Browns, they'll take Coleman\u2019s potential even if it\u2019s the only thing they get."
+   },
+   "5": {
+    "original": "Coleman surely has disappointed the Haslams.",
+    "rewrite": "Coleman certainly has disappointed the Haslams."
+   }
+  },
+  "sentences_rewritten": 7,
+  "eligible": 7,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 21,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 21,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 13,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "He got himself back and we got him out there, and I know he\u2019ll make a bunch of plays.\nColeman became the first pick for Cleveland under Browns owners Dee and Jimmy Haslam in 2016 and entered the NFL with high expectations. He reportedly blew through his combine funds and squandered his standing as a pro ready to dominate. He was frequently late and repeatedly slid down the depth chart.\nHe wasn\u2019t game ready.\nColeman certainly has disappointed the Haslams. Browns owners love Coleman. He has unthinkable speed. Given his contract locking him in for Cleveland's long-term future, how has he been managed?\nFor the Browns, they'll take Coleman\u2019s potential even if it\u2019s the only thing they get.\nHe wasn\u2019t even sure when he was hurt and feared he suffered yet another f",
+  "z0": 8.202438661763951,
+  "seconds": 196.3
+ }
+}

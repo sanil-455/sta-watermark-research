@@ -1,0 +1,107 @@
+{
+ "sample_id": "samples_len200:318",
+ "nobox": {
+  "z_final": 3.434014098717226,
+  "status": "not broken",
+  "rewrites": {
+   "11": {
+    "original": "A third of primary schools had only one or no books left for students to read.",
+    "rewrite": "One third of primary schools had only one or no books available for students to read."
+   },
+   "0": {
+    "original": "Dungarvan, but funding to rebuild the historic building has not been found.",
+    "rewrite": "Funding to rebuild the historic building, however, has not been found in Dungarvan."
+   },
+   "1": {
+    "original": "Only Fools And Nephews at the chip shop is the Lord of the Rings of humour.",
+    "rewrite": "Only Fools and Nephews at the chip shop is the Lord of the Rings when it comes to humour."
+   },
+   "4": {
+    "original": "The former President has said he wants the books to stay in Ireland.",
+    "rewrite": "The previous President has stated that he wants the books to remain in Ireland."
+   },
+   "3": {
+    "original": "Let\u2019s get ready to welcome those 2m visitors we had last year.",
+    "rewrite": "Last year, we welcomed 2 million visitors; let's prepare to do the same this year."
+   },
+   "10": {
+    "original": "It\u2019s game over for your local library\u2019s Pay-per-view buttons.",
+    "rewrite": "The game is over for your local library\u2019s Pay-per-view buttons."
+   },
+   "7": {
+    "original": "If tribes are so thick, how come we can\u2019t all read at once?",
+    "rewrite": "If there are so many tribes, how come we can't all read at once?"
+   },
+   "8": {
+    "original": "There are small, tribal tensions in every library.",
+    "rewrite": "Every library harbors small, tribal tensions."
+   },
+   "9": {
+    "original": "Library and Archives of Ireland: Love?",
+    "rewrite": "National Library and Archives of Ireland: Love?"
+   },
+   "2": {
+    "original": "People just don\u2019t read anymore.",
+    "rewrite": "People no longer read as much."
+   }
+  },
+  "sentences_rewritten": 10,
+  "eligible": 10,
+  "per_sentence": [
+   {
+    "index": 11,
+    "survivors": 25,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 32,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 27,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 21,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 7,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 4,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Funding to rebuild the historic building, however, has not been found in Dungarvan.\nOnly Fools and Nephews at the chip shop is the Lord of the Rings when it comes to humour.\nPeople no longer read as much.\nLast year, we welcomed 2 million visitors; let's prepare to do the same this year.\nThe previous President has stated that he wants the books to remain in Ireland.\nNo time to read? No problem.\nIf there are so many tribes, how come we can't all read at once?\nEvery library harbors small, tribal tensions.\nNational Library and Archives of Ireland: Love?\nThe game is over for your local library\u2019s Pay-per-view buttons.\nOne third of primary schools had only one or no books available for students to read.\nThe government has to find an annual \u20ac60,000 to keep the 39 libraries and \u20ac12,00",
+  "z0": 3.959797974644666,
+  "seconds": 212.7
+ }
+}

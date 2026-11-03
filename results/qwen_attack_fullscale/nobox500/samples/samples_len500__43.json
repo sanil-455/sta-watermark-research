@@ -1,0 +1,104 @@
+{
+ "sample_id": "samples_len500:43",
+ "nobox": {
+  "z_final": 6.311687442672025,
+  "status": "not broken",
+  "rewrites": {
+   "9": {
+    "original": "DUDE \u2013 IT\u2019S TIME YOU JOINED THE WEIRD GLOBAL COMMUNITY THAT WE LIVE IN \u2013 WHERE A BUDGET OF $12,000 IS NOT SUFFICIENT TO TREAT A MEDICAL NECESSITY IN EGYPT \u2013 WHAT DO WE HAVE TO BE SAD ABOUT THEN?",
+    "rewrite": "DUDE \u2013 IT\u2019S TIME YOU JOINED THE WEIRD GLOBAL COMMUNITY THAT WE LIVE IN \u2013 WHERE A BUDGET OF $12,000 IS NOT ENOUGH TO TREAT A MEDICAL Necessity IN EGYPT \u2013 WHAT DO WE HAVE TO BE SAD ABOUT THEN?"
+   },
+   "3": {
+    "original": "And because it involved a madressah in Lahore which is location A, tribes are already forming on location B and according to you\u2019re the mind whfleingly, tribal tensions in Yemen.",
+    "rewrite": "And because it involved a madressah in Lahore at location A, tribes are already forming at location B and according to your understanding, tribal tensions in Yemen."
+   },
+   "12": {
+    "original": "AND, I AM SURE DAWOOD FORGE DID 95 % OF ALL BUSINESS THAT THE GOVT MADE IN PAKISTAN; MAKING PRIME MINISTER GROUP BOSS AND 2: OTHERS PARTNERS.",
+    "rewrite": "I AM SURE DAWOOD FORGE CONDUCTED 95 % OF THE GOVT'S BUSINESS IN PAKISTAN, MAKING PRIME MINISTER GROUP BOSS AND 2 OTHERS PARTNERS."
+   },
+   "2": {
+    "original": "Mind blowing, there was a madressah blast in Lahore that injured 12 students and it was widely condemned and reported.",
+    "rewrite": "Mind-boggling, a madressah explosion occurred in Lahore, injuring 12 students, and it was extensively condemned and reported."
+   },
+   "11": {
+    "original": "WHAT DO THE PUNKS WANT \u2013 FREE BOOKS FOR SENIORS \u2013 FREE KNIVES AND SCORES OF FOOD FOR THE VAGEC, PARACANTOUS, AWAM?",
+    "rewrite": "WHAT DO THE PUNKS SEEK \u2013 FREE BOOKS FOR seniors \u2013 FREE KNIVES AND LOTS OF FOOD FOR THE VAGEC, PARACANTOUS, AND AWAM?"
+   },
+   "6": {
+    "original": "India is the biggest target of terrorist attacks, Pakistan is left with third to tenth.",
+    "rewrite": "Terrorist attacks primarily target India, with Pakistan ranking from third to tenth."
+   },
+   "7": {
+    "original": "So why such apathy in losing people in your own country?",
+    "rewrite": "Why such apathy about losing people in your own country?"
+   },
+   "13": {
+    "original": "SIMPLY PUT, YOU SOUND BAD IN SO FEW WORDS IN INCREDIBLE.",
+    "rewrite": "SIMPLY PUT, YOUR PHRASING IS POOR IN VERY FEW WORDS IN Incredible."
+   }
+  },
+  "sentences_rewritten": 8,
+  "eligible": 11,
+  "per_sentence": [
+   {
+    "index": 8,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 9,
+    "survivors": 23,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 5,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 6,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 3,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 0,
+    "rewritten": false
+   }
+  ],
+  "queries": 1,
+  "final_span": "pray that we can tackle this darkness and hate to let the world become a better place which we can live in peace and harmony.\n@Ali: Oh this is so buried, barely not even a passing mention.\nMind-boggling, a madressah explosion occurred in Lahore, injuring 12 students, and it was extensively condemned and reported. And because it involved a madressah in Lahore at location A, tribes are already forming at location B and according to your understanding, tribal tensions in Yemen.\nBad news always gets buried, good news is spoken about by all, no matter how trivial, no point picking on it. Did I write the facts wrong? Terrorist attacks primarily target India, with Pakistan ranking from third to tenth. Why such apathy about losing people in your own country? Yeah I know, your country and the city, but nah, one may as well ignore what happens in country and city alike, especially if they get buried and should rightfully be three or four pages large stories at a time.\nDUDE \u2013 IT\u2019S TIME YOU JOINED THE WEIRD GLOBAL COMMUNITY THAT WE LIVE IN \u2013 WHERE A BUDGET OF $12,000 IS NOT ENOUGH TO TREAT A MEDICAL Necessity IN EGYPT \u2013 WHAT DO WE HAVE TO BE SAD ABOUT THEN? WHAT DO WE HAVE TO APPEASE BOTH GOD AND MAN? WHAT DO THE PUNKS SEEK \u2013 FREE BOOKS FOR seniors \u2013 FREE KNIVES AND LOTS OF FOOD FOR THE VAGEC, PARACANTOUS, AND AWAM? I AM SURE DAWOOD FORGE CONDUCTED 95 % OF THE GOVT'S BUSINESS IN PAKISTAN, MAKING PRIME MINISTER GROUP BOSS AND 2 OTHERS PARTNERS. SIMPLY PUT, YOUR PHRASING IS POOR IN VERY FEW WORDS IN Incredible. SO, WE CAN REST \u2013 RIGHT",
+  "z0": 7.602631123499284,
+  "seconds": 437.2
+ }
+}

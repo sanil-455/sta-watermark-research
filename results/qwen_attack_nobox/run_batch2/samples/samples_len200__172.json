@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:172",
+ "nobox": {
+  "z_final": 3.5179877236514594,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Law students Cristina Maldonado and Vanessa Sanchez, both third-year members of The Walter S. Leas Jr. Mock Trial Team at Vanderbilt Law School, will assist Adamson and Rudovsky during their presentations and will conduct a question and answer session after their presentations conclude.",
+    "rewrite": "Law students Cristina Maldonado and Vanessa Sanchez, who are both third-year members of The Walter S. Leas Jr. Mock Trial Team at Vanderbilt Law School, will help Adamson and Rudovsky with their presentations and will lead a question and answer session following the completion of their presentations."
+   },
+   "3": {
+    "original": "The symposium\u2019s second session will feature Vanden Bossche of the Central Alabama Chapter of the NAACP; Vanderbilt Law School professor Ralph Taylor; and Stuart McElhinny, with the Nashville Transitional Services.",
+    "rewrite": "The symposium\u2019s second session will include Vanden Bossche from the Central Alabama Chapter of the NAACP; Vanderbilt Law School professor Ralph Taylor; and Stuart McElhinny from Nashville Transitional Services."
+   },
+   "1": {
+    "original": "David Rudovsky, a professor at the University of Pennsylvania School of Law will deliver a presentation on the law in relation to race, violence and public policy.",
+    "rewrite": "Professor David Rudovsky from the University of Pennsylvania School of Law will give a presentation on law in relation to race, violence, and public policy."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 57,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 14,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 40,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the press can sometimes make it more difficult to let the facts of an incident which may be complex and intermingled with emotion,\u201d said Adamson.\nProfessor David Rudovsky from the University of Pennsylvania School of Law will give a presentation on law in relation to race, violence, and public policy.\nLaw students Cristina Maldonado and Vanessa Sanchez, who are both third-year members of The Walter S. Leas Jr. Mock Trial Team at Vanderbilt Law School, will help Adamson and Rudovsky with their presentations and will lead a question and answer session following the completion of their presentations.\nThe symposium\u2019s second session will include Vanden Bossche from the Central Alabama Chapter of the NAACP; Vanderbilt Law School professor Ralph Taylor; and Stuart McElhinny from Nashville Transitional Services.\nTaylor will speak about the history of law enforcement in the United States and",
+  "z0": 4.384062043356595,
+  "seconds": 149.8
+ }
+}

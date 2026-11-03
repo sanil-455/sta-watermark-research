@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:47",
+ "nobox": {
+  "z_final": 2.673670669975109,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "A concept that is already generating CGI kudos this is the first time that a system like this has been offered by a mainstream car manufacturer \u2013 and it\u2019s a clever way to set the Yeti apart from the competition.",
+    "rewrite": "This concept is currently earning significant CGI praise, and it marks the first time a mainstream car manufacturer has offered such a system \u2013 it's a smart approach to distinguishes the Yeti from its competitors."
+   },
+   "3": {
+    "original": "Developed jointly by Skoda\u2019s design team and the Czech engineers at Volkswagen\u2019s RCD division, its soft-touch interior follows the form and looks similar to its sister products the Audi A1, A4 and A6.",
+    "rewrite": "Created collaboratively by Skoda\u2019s design team and Czech engineers from Volkswagen\u2019s RCD division, its soft-touch interior resembles the aesthetic and texture of its sister products, including the Audi A1, A4, and A6."
+   },
+   "4": {
+    "original": "The canvas-textured materials look and feel like natural surroundings, differing only subtly from the version used in the base models.",
+    "rewrite": "The canvas-textured materials appear and feel similar to natural surroundings, differing only slightly from the version used in the base models."
+   },
+   "2": {
+    "original": "Another area where the Yeti takes a different approach is in cabin materials.",
+    "rewrite": "Another area where the Yeti uses a different approach involves cabin materials."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 23,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 32,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "tilted or rotated or folded to let the driver carry long objects inside the vehicle.\nThis concept is currently earning significant CGI praise, and it marks the first time a mainstream car manufacturer has offered such a system \u2013 it's a smart approach to distinguishes the Yeti from its competitors.\nAnother area where the Yeti uses a different approach involves cabin materials.\nCreated collaboratively by Skoda\u2019s design team and Czech engineers from Volkswagen\u2019s RCD division, its soft-touch interior resembles the aesthetic and texture of its sister products, including the Audi A1, A4, and A6.\nThe canvas-textured materials appear and feel similar to natural surroundings, differing only slightly from the version used in the base models.\nOn a cold and dark November afternoon, it\u2019s clear the Yeti is part of the same mould as other VW Group models and",
+  "z0": 5.5154328932550705,
+  "seconds": 168.7
+ }
+}

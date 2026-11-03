@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:327",
+ "nobox": {
+  "z_final": 4.497952750682073,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "And then that cycle proliferates, turning it into a full-blown cycle of violence, until Batman finally comes along and stops it.",
+    "rewrite": "And then that cycle amplifies, turning it into a comprehensive cycle of violence, until Batman eventually intervenes to stop it."
+   },
+   "3": {
+    "original": "And so begins the cycle of supervillains who inspire other supervillains, creating even more chaos in the future.",
+    "rewrite": "And so starts the cycle of supervillains inspiring future supervillains, leading to even more chaos."
+   },
+   "2": {
+    "original": "He's The Joker, after all, according to the person Bruce Wayne's probably going to eventually become.",
+    "rewrite": "He's The Joker, after all, as per the person Bruce Wayne is likely to become eventually."
+   },
+   "1": {
+    "original": "Whatever happens, there's no reason this kid wouldn't be afraid of Arthur Fleck.",
+    "rewrite": "No matter what happens, this kid wouldn't have any reason to be afraid of Arthur Fleck."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 32,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 15,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the Broadway performer will die in the act, and either the child actor playing young Bruce Wayne will be threatened by Arthur Fleck, or his older brother James will be buried under rubble when one of Arthur Fleck's bombs is detonated. No matter what happens, this kid wouldn't have any reason to be afraid of Arthur Fleck. He's The Joker, after all, as per the person Bruce Wayne is likely to become eventually.\nAnd so starts the cycle of supervillains inspiring future supervillains, leading to even more chaos. And then that cycle amplifies, turning it into a comprehensive cycle of violence, until Batman eventually intervenes to stop it. In the case of this Joker movie, though, the Joker has to die at the end for Thomas Wayne to be Batman, and presumably if part of the cycle is broken, Bruce Wayne's",
+  "z0": 4.808326112068523,
+  "seconds": 128.3
+ }
+}

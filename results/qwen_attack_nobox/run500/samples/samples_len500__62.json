@@ -1,0 +1,98 @@
+{
+ "sample_id": "samples_len500:62",
+ "nobox": {
+  "z_final": 1.3443321448446626,
+  "status": "broken",
+  "rewrites": {
+   "7": {
+    "original": "The USA Freedom Act, as MintPress previously reported, would give bulk surveillance powers to the FBI and NSA, according to the Guardian, while also blocking the government's use of National Security Letters for authorizing secret searches of Americans' private documents.",
+    "rewrite": "The USA Freedom Act, as MintPress previously reported, would grant bulk surveillance powers to the FBI and NSA, as per The Guardian, while also preventing the government from using National Security Letters to authorize secret searches of Americans' private documents."
+   },
+   "6": {
+    "original": "Before Congress can repeal the Patriot Act, part of the process would entail passing the USA Freedom Act, which may be voted on sometime next week after versions of the bill have passed through both the Senate and the House of Representatives.",
+    "rewrite": "Before Congress can repeal the Patriot Act, a portion of the process involves passing the USA Freedom Act, which might be voted on next week after bill versions have cleared both the Senate and the House of Representatives."
+   },
+   "3": {
+    "original": "Because of the PATRIOT Act, the government can collect your personal location information, read your emails, listen to your phone calls and obtain your browsing history without a warrant.",
+    "rewrite": "Due to the PATRIOT Act, the government has the ability to collect your personal location information, read your emails, listen to your phone calls, and obtain your browsing history without a warrant."
+   },
+   "9": {
+    "original": "Throughout former National Intelligence Director James Clapper's time as a public official, he always refused to answer any questions asked by Congress about surveillance of U.S. persons.",
+    "rewrite": "During Former National Intelligence Director James Clapper's tenure as a public official, he consistently refused to respond to any Questions from Congress regarding the surveillance of U.S. persons."
+   },
+   "11": {
+    "original": "Former NSA analyst and whistleblower, Kurt W. Richardson, brought the full extent of mass surveillance under US planners, to the table nearly a decade ago.",
+    "rewrite": "Former NSA analyst and whistleblower Kurt W. Richardson revealed the full extent of mass surveillance to US planners nearly a decade ago."
+   },
+   "2": {
+    "original": "It\u2019s past time to end the overbroad, unnecessary and unconstitutional surveillance that has put Americans\u2019 Fourth Amendment rights at risk.",
+    "rewrite": "It is time to cease the excessive, unwarranted and unconstitutional surveillance that jeopardizes Americans' Fourth Amendment rights."
+   },
+   "5": {
+    "original": "I\u2019m proud to join Rep. Pocan and other co-sponsors to right this wrong by repealing the PATRIOT Act and ending the surveillance state.",
+    "rewrite": "I am proud to join Rep. Pocan and other co-sponsors to rectify this injustice by revoking the PATRIOT Act and dismantling the surveillance state."
+   },
+   "4": {
+    "original": "The government should have to get a court order based on probable cause before infringing on Americans\u2019 rights.",
+    "rewrite": "Before infringing on Americans' rights, the government should obtain a court order with probable cause."
+   },
+   "12": {
+    "original": "His book Boundless Informant, exposed the legal and regulatory surrounding of mass domestic surveillance.",
+    "rewrite": "His book Boundless Informant uncovered the legal and regulatory aspects of mass domestic surveillance."
+   }
+  },
+  "sentences_rewritten": 9,
+  "eligible": 9,
+  "per_sentence": [
+   {
+    "index": 7,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 25,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 21,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "investigation \u201cupon request by the individual whose information is contained in the FISA surveillance system.\u201d\nCo-sponsor of the bill, Rep. Thomas Massie said:\nIt is time to cease the excessive, unwarranted and unconstitutional surveillance that jeopardizes Americans' Fourth Amendment rights. Due to the PATRIOT Act, the government has the ability to collect your personal location information, read your emails, listen to your phone calls, and obtain your browsing history without a warrant. Before infringing on Americans' rights, the government should obtain a court order with probable cause. I am proud to join Rep. Pocan and other co-sponsors to rectify this injustice by revoking the PATRIOT Act and dismantling the surveillance state.\nBefore Congress can repeal the Patriot Act, a portion of the process involves passing the USA Freedom Act, which might be voted on next week after bill versions have cleared both the Senate and the House of Representatives. The USA Freedom Act, as MintPress previously reported, would grant bulk surveillance powers to the FBI and NSA, as per The Guardian, while also preventing the government from using National Security Letters to authorize secret searches of Americans' private documents.\nClapper omitted Snowden revelations, Congress neglecting their responsibility\nDuring Former National Intelligence Director James Clapper's tenure as a public official, he consistently refused to respond to any Questions from Congress regarding the surveillance of U.S. persons. The omission in his testimony of the degree to which the NSA spied domestically, as leaked by whistleblower Edward Snowden, is, according to legal strategist Jeffrey Folkerts, \u201cyet another indicator that Congress is failing the American people by not adhering to its Constitutional duties regarding foreign invasions of privacy.\u201d\nFormer NSA analyst and whistleblower Kurt W. Richardson revealed the full extent of mass surveillance to US planners nearly a decade ago. His book Boundless Informant uncovered the legal and regulatory aspects of mass domestic surveillance.\nAccording to Richardson, NSA analysts use RIDEs, or \"",
+  "z0": 4.203807797699604,
+  "seconds": 412.2
+ }
+}

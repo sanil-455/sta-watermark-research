@@ -1,0 +1,248 @@
+{
+ "sample_id": "samples_len500:212",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.6952946550936501,
+ "needed_share": 0.68056171750003,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2189,
+  "segments": 12,
+  "eligible": 8,
+  "skipped": 4,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 2,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1522,
+  "eligible_char_share": 0.6952946550936501
+ },
+ "attack": {
+  "z0": 6.260990336999411,
+  "z_final": 1.9327062723946273,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 196,
+  "seconds": 282.5,
+  "seconds_by_phase": {
+   "generate": 263.8,
+   "gates": 18.5,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 329,
+    "z_before": 6.260990336999411,
+    "z_after": 5.225127824686562,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 4
+     }
+    },
+    "queries_total": 53,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 69.02
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 254,
+    "z_before": 5.225127824686562,
+    "z_after": 4.195425321168047,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 4,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 106,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.68
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 245,
+    "z_before": 4.195425321168047,
+    "z_after": 3.1657335306807397,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 5,
+      "unknown word": 6,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 151,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 59.23
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 209,
+    "z_before": 3.1657335306807397,
+    "z_after": 2.414953415699773,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 43,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 13,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 193,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.86
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 155,
+    "z_before": 2.414953415699773,
+    "z_after": 1.9327062723946273,
+    "accepted": true,
+    "survivors": 3,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 31,
+     "after_spelling": 30,
+     "after_content": 3,
+     "after_semantic": 3,
+     "fluency_skipped": false,
+     "after_fluency": 3,
+     "rejected": {
+      "CJK text": 9,
+      "duplicate": 19,
+      "several lines": 1,
+      "unknown word": 1,
+      "negation count changed": 27
+     }
+    },
+    "queries_total": 196,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.0
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "These have been driven by events that have raised global concerns about failures in communications and systemintolerance, including 2005 terrorist attacks in Spain, where containers loaded with explosives were destroyed, and a 2003 chemical spill tragedy in North Carolina, where river pollution was spread by leaking containers.",
+    "rewrite": "These have been propelled by events that have ignited worldwide worries about communication breakdowns and systemic intolerances, such as the 2005 terrorist attacks in Spain, during which containers filled with explosives were neutralized, and the 2003 chemical spill disaster in North Carolina, marked by the contamination of rivers due to leaking containers."
+   },
+   "5": {
+    "original": "Ocean carriers\u2019 supply-chain systems have come under particular scrutiny, much of it from Customs and the Coast Guard, both of which argue that carriers, freight forwarders and importers need better computerized systems to handle cargo and exchange data.",
+    "rewrite": "Customs and the Coast Guard have intensely examined ocean carriers\u2019 supply-chain systems, arguing that carriers, freight forwarders, and importers require improved computerized tools for managing cargo and sharing data."
+   },
+   "2": {
+    "original": "Other new regulations requiring electronic data exchange were created by the International Convention for the Safe Container Containers 2002 (CSC 2002), and are driven by the International Safe Trans-port of Hazardous Materials (IMO) Convention.",
+    "rewrite": "New regulations mandating electronic data exchange were formulated by the International Convention for the Safe Containers 2002 (CSC 2002), and are guided by the International Safe Transport of Dangerous Goods at Sea (IMO) Convention."
+   },
+   "9": {
+    "original": "A year ago, APL\u2019s Dothan, Alabama import terminal had a process for manually printing copies of electronic bills of lading and taking phone calls to create the documents when it shipped containers, Kirby said.",
+    "rewrite": "Last year, Kirby stated that APL\u2019s import terminal in Dothan, Alabama used a method for manually printing electronic bills of lading and handling phone calls to generate the documents when shipping containers."
+   },
+   "6": {
+    "original": "In particular, carriers have been criticized for lacking a central computerized clearinghouse or even a system that connects all parties in a supply chain.",
+    "rewrite": "Carriers have faced criticism for their absence of a centralized computerized clearinghouse and a unified system linking all supply chain participants."
+   }
+  },
+  "final_span": "communications, said Tom Schwenne, senior vice president of development for OSS Online Corp., a Los Angeles-based company that provides customs brokerage and compliance services.\n\u201cThat manifest regulation is what has pushed change in the past couple of years, because before that it was at least a bit more tolerable,\u201d Schwenne said.\nNew regulations mandating electronic data exchange were formulated by the International Convention for the Safe Containers 2002 (CSC 2002), and are guided by the International Safe Transport of Dangerous Goods at Sea (IMO) Convention.\nThese have been propelled by events that have ignited worldwide worries about communication breakdowns and systemic intolerances, such as the 2005 terrorist attacks in Spain, during which containers filled with explosives were neutralized, and the 2003 chemical spill disaster in North Carolina, marked by the contamination of rivers due to leaking containers.\nThe shipping industry, which previously operated at a slow crawl, rightfully took a beating in the \u201cblame game\u201d that followed both events, Schwenne said.\nCustoms and the Coast Guard have intensely examined ocean carriers\u2019 supply-chain systems, arguing that carriers, freight forwarders, and importers require improved computerized tools for managing cargo and sharing data. Carriers have faced criticism for their absence of a centralized computerized clearinghouse and a unified system linking all supply chain participants.\n\u201cThe simple causes are the lack of, or broken, supply-chain management systems within the bigger corporations, so no one trusted the data because they didn\u2019t have one system to trust and find it in,\u201d Schwenne said.\nBoth ship and land-based communications have become tighter.\nLast year, Kirby stated that APL\u2019s import terminal in Dothan, Alabama used a method for manually printing electronic bills of lading and handling phone calls to generate the documents when shipping containers. Those paper shells were then taken to a \u201csister plating\u201d facility to be stamped with the actual manifest information.\nIf the Customs\u2019 automated document exchange system failed, as it did on one crucial occasion, then the follow-",
+  "break_point": {
+   "step": 4,
+   "sentences_rewritten": 5,
+   "queries": 196
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 5,
+   "eligible": 8,
+   "segments": 12,
+   "pct_of_eligible": 62.5,
+   "pct_of_segments": 41.666666666666664
+  },
+  "tokens": {
+   "original": 501,
+   "final": 496,
+   "length_change": -5,
+   "pct_not_preserved": 20.159680638722556,
+   "pct_new": 19.354838709677423
+  },
+  "words": {
+   "original": 333,
+   "final": 324,
+   "length_change": -9,
+   "pct_not_preserved": 25.225225225225223,
+   "pct_new": 23.148148148148152
+  },
+  "characters": {
+   "original": 2189,
+   "final": 2170,
+   "length_change": -19,
+   "pct_not_preserved": 16.034719049794422,
+   "pct_new": 15.299539170506915
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 320,
+   "green_after": 269,
+   "pairs_before": 500,
+   "pairs_after": 495,
+   "pairs_changed_before": 151,
+   "pairs_changed_after": 146,
+   "green_fraction_of_new_pairs": 0.3698630136986301,
+   "delta_achieved": 0.13013698630136988
+  }
+ }
+}

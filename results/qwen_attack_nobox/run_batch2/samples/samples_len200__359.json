@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:359",
+ "nobox": {
+  "z_final": 1.4002800840280096,
+  "status": "broken",
+  "rewrites": {
+   "3": {
+    "original": "God of War: Ascension looks fantastic, and while it may not provide the sort of visual extravaganza we would love to see on the PS4 at all times, its quality never dims and looks spectacular when it matters.",
+    "rewrite": "God of War: Ascension appears splendid, though it might not offer the constant visual spectacle we desire on the PS4 constantly. Its quality never fades and shines spectacularly when it counts."
+   },
+   "5": {
+    "original": "While the vehicle-based portions of the game feel a little old in design, with a lack of enemy variation, the majority of the game is excellent.",
+    "rewrite": "Although the design of the vehicle-based portions of the game seems somewhat dated due to a lack of enemy variation, the rest of the game is predominantly excellent."
+   },
+   "2": {
+    "original": "In-game cinematics are pretty much Halo levels of quality, although, as normal, the run at 30 fps and we came to expect.",
+    "rewrite": "In-game cinematics are of similar quality to Halo levels, though, as usual, they run at 30 fps and that is what we have come to expect."
+   },
+   "4": {
+    "original": "Our first paidfor game on the PS3, God of War: Ascension is a fitting end to the series on the platform.",
+    "rewrite": "Our first paid game on the PS3, God of War: Ascension marks a fitting end to the series on that platform."
+   },
+   "1": {
+    "original": "Set against Greece, Ascension looks as beautiful as the PS3 and the PS4 combined.",
+    "rewrite": "Compared to Greece, Ascension appears just as stunningly beautiful as both the PS3 and PS4 games combined."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 1,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 36,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 51,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "beautifully animated character with stunning environmental assets, to let the game shine.\nCompared to Greece, Ascension appears just as stunningly beautiful as both the PS3 and PS4 games combined. In-game cinematics are of similar quality to Halo levels, though, as usual, they run at 30 fps and that is what we have come to expect.\nGod of War: Ascension appears splendid, though it might not offer the constant visual spectacle we desire on the PS4 constantly. Its quality never fades and shines spectacularly when it counts.\nOur first paid game on the PS3, God of War: Ascension marks a fitting end to the series on that platform. Although the design of the vehicle-based portions of the game seems somewhat dated due to a lack of enemy variation, the rest of the game is predominantly excellent. From the moment you pick up the controller, Kratos feels",
+  "z0": 2.262741699796952,
+  "seconds": 196.6
+ }
+}

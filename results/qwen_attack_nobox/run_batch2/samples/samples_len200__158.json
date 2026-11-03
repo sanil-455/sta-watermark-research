@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:158",
+ "nobox": {
+  "z_final": 2.297466107576762,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Beyond their obvious advantages, these relationships show that Apple still wants to operate on a selective, invitation-only basis when it comes to its streaming-media shows.",
+    "rewrite": "These relationships, beyond their clear benefits, indicate that Apple prefers to maintain a selective, invite-only approach for its streaming-media shows."
+   },
+   "4": {
+    "original": "Because so few people have on-demand TV shows at their disposal, whomever Apple works with has a larger-than-normal voice and audience.",
+    "rewrite": "Due to the limited availability of on-demand TV shows, those worked with by Apple have a disproportionately large voice and audience."
+   },
+   "5": {
+    "original": "Others have felt the full force, and implications, of Apple\u2019s streaming-content strategy in recent weeks.",
+    "rewrite": "In recent weeks, Apple's streaming-content strategy has been felt fully by others along with its implications."
+   },
+   "3": {
+    "original": "This has proven to be an effective way of building a library, in a pared down, straightforward fashion.",
+    "rewrite": "This has shown to be an effective method for constructing a library, in a streamlined and simple manner."
+   },
+   "1": {
+    "original": "Lowe likes his documentary as much as his interview subjects love their 808.",
+    "rewrite": "Lowe enjoys his documentary just as much as his interview subjects love their 808."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 29,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "figures behind Apple Music\u2019s menu of on-demand broadcasts. Lowe enjoys his documentary just as much as his interview subjects love their 808.\nThese relationships, beyond their clear benefits, indicate that Apple prefers to maintain a selective, invite-only approach for its streaming-media shows. This has shown to be an effective method for constructing a library, in a streamlined and simple manner. Due to the limited availability of on-demand TV shows, those worked with by Apple have a disproportionately large voice and audience.\nIn recent weeks, Apple's streaming-content strategy has been felt fully by others along with its implications. Skip Bolen, who produced the Morgan Freeman-narrated Steve McQueen documentary Blitz, recently told the New Yorker about how porous Apple\u2019s backend is, and how difficult it can be to submit",
+  "z0": 4.1012193308819755,
+  "seconds": 155.1
+ }
+}

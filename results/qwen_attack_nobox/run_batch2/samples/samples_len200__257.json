@@ -1,0 +1,80 @@
+{
+ "sample_id": "samples_len200:257",
+ "nobox": {
+  "z_final": 4.69041575982343,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "Gibbons\t- An anti-vaccination group based in California claims it has found three remote locations across Australia that are allegedly free of autism.",
+    "rewrite": "Gibbons - An anti-vaccination group in California asserts it has discovered three remote areas in Australia that are supposedly free of autism."
+   },
+   "5": {
+    "original": "Senator Mark Udall is advocating for a key swing group, and President Obama wants tribal financial support for his campaign.",
+    "rewrite": "Senator Mark Udall is advocating for a key swing group, while President Obama seeks tribal financial support for his campaign."
+   },
+   "4": {
+    "original": "Colorado's Republican Senator Ken Salazar, while serving as US Attorney General, approved President Obama's tribes policy.",
+    "rewrite": "While serving as US Attorney General, Colorado's Republican Senator Ken Salazar approved President Obama's tribes policy."
+   },
+   "2": {
+    "original": "Only a few CGC Comic Grade 8.5 and higher, signed by the main artist of the book, Humberto Ramos, are sold out.",
+    "rewrite": "Only a few CGC Comic Grade 8.5 and above, signed by the main artist of the book, Humberto Ramos, are sold out."
+   },
+   "7": {
+    "original": "The leader of the group has released a video that is making unsupported claims.",
+    "rewrite": "The group's leader has published a video containing unsupported claims."
+   },
+   "1": {
+    "original": "The child discovered an escape route and escaped from the room.",
+    "rewrite": "The child found an escape route and escaped from the room."
+   },
+   "3": {
+    "original": "It is a limited edition, for the father approaching 50.",
+    "rewrite": "It is a limited edition for the father nearing 50."
+   }
+  },
+  "sentences_rewritten": 7,
+  "eligible": 7,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 27,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 13,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 24,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "room every night for 22 months. The child found an escape route and escaped from the room.\nOnly a few CGC Comic Grade 8.5 and above, signed by the main artist of the book, Humberto Ramos, are sold out. It is a limited edition for the father nearing 50.\nWhile serving as US Attorney General, Colorado's Republican Senator Ken Salazar approved President Obama's tribes policy. Senator Mark Udall is advocating for a key swing group, while President Obama seeks tribal financial support for his campaign.\nGibbons - An anti-vaccination group in California asserts it has discovered three remote areas in Australia that are supposedly free of autism. The group's leader has published a video containing unsupported claims.\nA type of antibiotic previously believed to be safe from bacteria has been discovered susceptible",
+  "z0": 5.374011537017761,
+  "seconds": 198.2
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:240",
+ "nobox": {
+  "z_final": 2.400396792595916,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Bitcoin prices also fell as concerns built that Bitmain Ltd BTC=BTSP, the largest manufacturer of bitcoin and other \u201ccryptocurrencies\u201d was pressuring digital currency exchanges to hard-code a controversial bitcoin upgrade system - known as a \u201cfork\u201d - that would result in the simultaneous birth of two digital coins.",
+    "rewrite": "Bitcoin prices also declined as worries grew that Bitmain Ltd BTC=BTSP, the biggest maker of bitcoin and other \"cryptocurrencies,\" was pushing digital currency exchanges to integrate a contentious bitcoin upgrade system called a \"fork,\" which would lead to the concurrent creation of two digital coins."
+   },
+   "1": {
+    "original": "Almost 40 percent of bitcoin\u2019s trading volume has been speculative in nature because funds believe that bitcoin prices will only increase.",
+    "rewrite": "About 40 percent of bitcoin's trading volume is believed to be speculative as funds anticipate rising prices."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 52,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "for the course for bitcoin, which is famous for its wild price swings which have moved the cryptocurrency more than 70 percent in a day 188 times since April 2010, according to markets website CoinMarketCap.com.\nAbout 40 percent of bitcoin's trading volume is believed to be speculative as funds anticipate rising prices.\nBitcoin prices also declined as worries grew that Bitmain Ltd BTC=BTSP, the biggest maker of bitcoin and other \"cryptocurrencies,\" was pushing digital currency exchanges to integrate a contentious bitcoin upgrade system called a \"fork,\" which would lead to the concurrent creation of two digital coins.\nNo cryptocurrency exchanges have announced plans to hard-code for the \u201cbaby bitcoin\u201d plan, according to",
+  "z0": 3.2526911934581184,
+  "seconds": 108.9
+ }
+}

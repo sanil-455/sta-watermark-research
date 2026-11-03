@@ -1,0 +1,361 @@
+{
+ "sample_id": "sta16_len200:37",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.7382022471910112,
+ "needed_share": 0.8088900591387709,
+ "delta_needed": 0.03542997941308562,
+ "segmentation": {
+  "chars": 890,
+  "segments": 8,
+  "eligible": 6,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "URL, hashtag or handle": 1
+  },
+  "eligible_chars": 657,
+  "eligible_char_share": 0.7382022471910112
+ },
+ "attack": {
+  "z0": 10.465180361560902,
+  "z_final": 1.9236703496735605,
+  "status": "broken",
+  "reason": null,
+  "passes": 2,
+  "queries": 359,
+  "seconds": 277.9,
+  "seconds_by_phase": {
+   "generate": 249.7,
+   "gates": 28.2,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 180,
+    "z_before": 10.465180361560902,
+    "z_after": 9.285714285714286,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 49,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "duplicate": 10,
+      "unknown word": 1,
+      "numbers changed": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 45,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.38
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 158,
+    "z_before": 9.285714285714286,
+    "z_after": 7.2327602277982725,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 1,
+      "unknown word": 1,
+      "perplexity too high": 8
+     }
+    },
+    "queries_total": 92,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.06
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 110,
+    "z_before": 7.2327602277982725,
+    "z_after": 6.396021490668313,
+    "accepted": true,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 36,
+     "after_spelling": 36,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 22,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 125,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.27
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 90,
+    "z_before": 6.396021490668313,
+    "z_after": 4.54828194891969,
+    "accepted": true,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "duplicate": 16,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 165,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.99
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 66,
+    "z_before": 4.54828194891969,
+    "z_after": 3.3317416635391788,
+    "accepted": true,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 40,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "duplicate": 14,
+      "CJK text": 1,
+      "unknown word": 2,
+      "glued punctuation": 2,
+      "meaning too different": 1,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 198,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.43
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 53,
+    "z_before": 3.3317416635391788,
+    "z_after": 2.3393079765275084,
+    "accepted": true,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "duplicate": 29,
+      "several lines": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 226,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.04
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 180,
+    "z_before": 2.3393079765275084,
+    "z_after": 2.416274785363585,
+    "accepted": false,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 50,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 7,
+      "unknown word": 1,
+      "numbers changed": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 273,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.12
+   },
+   {
+    "pass": 2,
+    "segment": 7,
+    "chars": 158,
+    "z_before": 2.3393079765275084,
+    "z_after": 2.110792634190876,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 60,
+     "after_content": 60,
+     "after_semantic": 59,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "meaning too different": 1,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 325,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.05
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 110,
+    "z_before": 2.110792634190876,
+    "z_after": 1.9236703496735605,
+    "accepted": true,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 36,
+     "after_spelling": 36,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "duplicate": 23,
+      "CJK text": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 359,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.34
+   }
+  ],
+  "rewrites": {
+   "5": {
+    "original": "According to Farkas, he and his team began by incubating their business, The Art of Quitting, after becoming fed up with their current nine to five job in August three years prior.",
+    "rewrite": "Farkas and his team started incubating their business, The Art of Quitting, in August three years ago after they had grown fed up with their previous nine to five job."
+   },
+   "7": {
+    "original": "To establish the business, they printed some flyers and distributed them around the neighborhood where they were based to promote their newly formed business.",
+    "rewrite": "To launch the company, they produced several flyers and handed them out in the vicinity of their location to advertise their recently established business."
+   },
+   "3": {
+    "original": "It can aid those with physical limitations or other handicaps, and it can help to expand career possibilities.",
+    "rewrite": "It can assist individuals with physical limitations or other disabilities and contribute to expanding career opportunities."
+   },
+   "6": {
+    "original": "They had a simple idea for a business aimed at helping others; learn how to quit your job.",
+    "rewrite": "They proposed a straightforward concept for a business focused on assisting individuals in learning how to quit their jobs."
+   },
+   "2": {
+    "original": "It can help to replace employees in repeatable, predictable tasks.",
+    "rewrite": "Repeating and predictable tasks can be efficiently handled by replacement staff."
+   },
+   "1": {
+    "original": "But, he added, AI can help to shore up our workforce.",
+    "rewrite": "However, he stated that AI can assist in strengthening our workforce."
+   }
+  },
+  "final_span": "workforce shortage. However, he stated that AI can assist in strengthening our workforce. Repeating and predictable tasks can be efficiently handled by replacement staff. It can assist individuals with physical limitations or other disabilities and contribute to expanding career opportunities.\nIn January 2018, debut author Josh Farkas visited Medium.com to discuss his book Quitting, which he writes serves as a cautionary tale for those considering a career quit vehicle to found an online company.\nFarkas and his team started incubating their business, The Art of Quitting, in August three years ago after they had grown fed up with their previous nine to five job.\nThey proposed a straightforward concept for a business focused on assisting individuals in learning how to quit their jobs. To launch the company, they produced several flyers and handed them out in the vicinity of their location to advertise their recently established business.\n",
+  "break_point": {
+   "step": 8,
+   "sentences_rewritten": 6,
+   "queries": 359
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 6,
+   "eligible": 6,
+   "segments": 8,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 75.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 198,
+   "length_change": -3,
+   "pct_not_preserved": 33.83084577114428,
+   "pct_new": 32.82828282828283
+  },
+  "words": {
+   "original": 149,
+   "final": 147,
+   "length_change": -2,
+   "pct_not_preserved": 41.61073825503355,
+   "pct_new": 40.816326530612244
+  },
+  "characters": {
+   "original": 890,
+   "final": 950,
+   "length_change": 60,
+   "pct_not_preserved": 29.7752808988764,
+   "pct_new": 34.210526315789465
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 174,
+   "green_after": 112,
+   "pairs_before": 200,
+   "pairs_after": 197,
+   "pairs_changed_before": 97,
+   "pairs_changed_after": 94,
+   "green_fraction_of_new_pairs": 0.2553191489361702,
+   "delta_achieved": 0.2446808510638298
+  }
+ }
+}

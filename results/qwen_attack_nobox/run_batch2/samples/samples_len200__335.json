@@ -1,0 +1,26 @@
+{
+ "sample_id": "samples_len200:335",
+ "nobox": {
+  "z_final": 3.738331764050571,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "The whole experience is the sort that makes for a night\u2019s conversation to share with a friend.",
+    "rewrite": "The entire experience is the type that lends itself to sharing a night\u2019s conversation with a friend."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 33,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the pomegranates, carrots, cucumbers and house-pressed garlic-infused oil, as well as kefir and buried-underground fruits and vegetables such as their famous Martin Roemers jars of homemade horseradish, which are named for the chef; the tricky-to-find apricot paste, likened to \u201cpreserved mashed Jell-O in a different flavor\u201d; and unique debut recipes like a chickpea stew with whipped ra\u012bs and tastes like \u201ctuna melt,\u201d brought first in earthenware pots by herders during the Silk Road period, when animals were tended along the route to Asia.\nThe entire experience is the type that lends itself to sharing a night\u2019s conversation with a friend.\nBefore Nargis\u2019s opening, Mr. Bangiev had worked in food incarnations before,",
+  "z0": 3.8183766184073566,
+  "seconds": 27.0
+ }
+}

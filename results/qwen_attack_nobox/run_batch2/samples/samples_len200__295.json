@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:295",
+ "nobox": {
+  "z_final": 1.6304267715191725,
+  "status": "broken",
+  "rewrites": {
+   "5": {
+    "original": "Using that philosophy, expect to pay tax on the entire home's fair market value to the IRS if you choose to add your children to the property title using quitclaim deeds.",
+    "rewrite": "According to that philosophy, you should expect to pay tax on the entire home's fair market value to the IRS if you opt to add your children to the property title via quitclaim deeds."
+   },
+   "1": {
+    "original": "However, you also can only use CGT on filing a gift tax return if the home you're giving to your child has a value of less than or equal to that amount.",
+    "rewrite": "However, you can utilize CGT only when filing a gift tax return if the home you're giving to your child is worth less than or equal to that amount."
+   },
+   "2": {
+    "original": "It's important, for an official gift tax calculation, to look at the fair market value of the home you want to transfer to your children.",
+    "rewrite": "For an official gift tax calculation, it's essential to examine the fair market value of the home you intend to transfer to your children."
+   },
+   "4": {
+    "original": "The service wants you to look at a home's fair market value as if you were a third party to the transaction.",
+    "rewrite": "The service asks you to consider a home's fair market value as if you were an independent third party in the deal."
+   },
+   "3": {
+    "original": "The IRS gives many requirements about how, basically, to calculate fair market value on a residential home.",
+    "rewrite": "The IRS provides numerous guidelines on how to determine the fair market value of a residential home."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 10,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "gift tax exemption that protects most gift-receivers from any gift tax liability. However, you can utilize CGT only when filing a gift tax return if the home you're giving to your child is worth less than or equal to that amount.\nFor an official gift tax calculation, it's essential to examine the fair market value of the home you intend to transfer to your children. The IRS provides numerous guidelines on how to determine the fair market value of a residential home. The service asks you to consider a home's fair market value as if you were an independent third party in the deal. According to that philosophy, you should expect to pay tax on the entire home's fair market value to the IRS if you opt to add your children to the property title via quitclaim deeds.\nNo, you don't have to pay gift tax if you want to add your children to your home's property title",
+  "z0": 3.959797974644666,
+  "seconds": 170.4
+ }
+}

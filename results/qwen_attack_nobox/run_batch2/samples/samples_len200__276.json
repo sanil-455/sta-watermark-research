@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:276",
+ "nobox": {
+  "z_final": 2.6496250339459015,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "We also want to see some more of an improvement with the file system, Apple currently has a fairly archaic file system that has prevented many from switching to a Mac and also has an effect on the speed and efficiency of Mac OS X. We know that the file system hasn\u2019t had many big changes since the introduction of Mac OS X several years\u2019 ago, but its age makes it extremely slow and cumbersome to use.",
+    "rewrite": "We also want to see further enhancement in the file system. Apple\u2019s current file system is somewhat outdated, which has deterred many from switching to a Mac and adversely impacts the speed and efficiency of Mac OS X. The file system hasn\u2019t undergone significant updates since Mac OS X was introduced several years ago, and its age considerably slows down and complicates its usage."
+   },
+   "3": {
+    "original": "Why can\u2019t I disable my Mac\u2019s sleep mode just by tapping the power button.",
+    "rewrite": "How come I can't disable my Mac\u2019s sleep mode by tapping the power button?"
+   },
+   "4": {
+    "original": "Skip Mac Managerion during boot-up would also be beneficial.",
+    "rewrite": "Skipping Mac Managerion during boot-up would also be beneficial."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 12,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 12,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "solution isn\u2019t bad as it already, to let everything you create be accessible across multiple devices, would anyone turn down a faster and smoother than we have at the moment.\nWe also want to see further enhancement in the file system. Apple\u2019s current file system is somewhat outdated, which has deterred many from switching to a Mac and adversely impacts the speed and efficiency of Mac OS X. The file system hasn\u2019t undergone significant updates since Mac OS X was introduced several years ago, and its age considerably slows down and complicates its usage.\nImproving the power button. How come I can't disable my Mac\u2019s sleep mode by tapping the power button? Skipping Mac Managerion during boot-up would also be beneficial.\nOne thing we don\u2019t want to see is more iteration in OS X\u2019s UI since 2007 is not the best way",
+  "z0": 4.808326112068523,
+  "seconds": 140.2
+ }
+}

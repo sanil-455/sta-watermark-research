@@ -1,0 +1,71 @@
+{
+ "sample_id": "samples_len200:279",
+ "nobox": {
+  "z_final": 1.8857617985778612,
+  "status": "broken",
+  "rewrites": {
+   "5": {
+    "original": "The Tarboro Weekly also placed second for best regional publication for a story about local youth earning football paidfor by Quality Buick GMC, Inc.",
+    "rewrite": "The Tarboro Weekly was also runner-up for best regional publication in recognition of a story about local youth earning football paid for by Quality Buick GMC, Inc."
+   },
+   "6": {
+    "original": "The news reports of the Telegram and its sister publications often attract the attention of the nation's leading newspapers.",
+    "rewrite": "Reports from the Telegram and its sister publications frequently draw attention from leading national newspapers."
+   },
+   "3": {
+    "original": "He grew up in Rocky Mount and earned an undergraduate degree in journalism and mass communications from UNC-Chapel Hill.",
+    "rewrite": "He was raised in Rocky Mount and received an undergraduate degree in journalism and mass communications from UNC-Chapel Hill."
+   },
+   "7": {
+    "original": "Kate Martin's report on an old N.C. airfield being developed for agricultural use earned national attention.",
+    "rewrite": "Kate Martin's report about an old N.C. airfield's development for agricultural purposes gained national attention."
+   },
+   "1": {
+    "original": "The story made it to Scripps-Howard's Top 10 of the nation's best overlooked stories.",
+    "rewrite": "The narrative was among the top 10 of the nation's best overlooked stories according to Scripps-Howard."
+   },
+   "2": {
+    "original": "Kay, 38, joined the Telegram and Tarboro Weekly at 21 as a copy editor.",
+    "rewrite": "Kay, at 38, began her career with the Telegram and Tarboro Weekly as a copy editor at 21."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 13,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 27,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "went missing while canoeing on the Tar River. The narrative was among the top 10 of the nation's best overlooked stories according to Scripps-Howard.\nKay, at 38, began her career with the Telegram and Tarboro Weekly as a copy editor at 21. He was raised in Rocky Mount and received an undergraduate degree in journalism and mass communications from UNC-Chapel Hill. He lives in Rocky Mount.\nThe Tarboro Weekly was also runner-up for best regional publication in recognition of a story about local youth earning football paid for by Quality Buick GMC, Inc.\nReports from the Telegram and its sister publications frequently draw attention from leading national newspapers. Kate Martin's report about an old N.C. airfield's development for agricultural purposes gained national attention.\nAnd the Greg Childress' 2017",
+  "z0": 3.2526911934581184,
+  "seconds": 205.6
+ }
+}

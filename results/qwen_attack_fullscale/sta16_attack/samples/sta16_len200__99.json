@@ -1,0 +1,200 @@
+{
+ "sample_id": "sta16_len200:99",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.7675033025099075,
+ "needed_share": 0.7790291308792039,
+ "delta_needed": 0.004805536427157243,
+ "segmentation": {
+  "chars": 757,
+  "segments": 4,
+  "eligible": 2,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 581,
+  "eligible_char_share": 0.7675033025099075
+ },
+ "attack": {
+  "z0": 9.050966799187808,
+  "z_final": 3.115513122801543,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 2,
+  "queries": 197,
+  "seconds": 333.9,
+  "seconds_by_phase": {
+   "generate": 310.7,
+   "gates": 23.2,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 358,
+    "z_before": 9.050966799187808,
+    "z_after": 6.014062667755425,
+    "accepted": true,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "several lines": 2,
+      "CJK text": 3,
+      "unknown word": 9
+     }
+    },
+    "queries_total": 47,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 97.94
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 223,
+    "z_before": 6.014062667755425,
+    "z_after": 3.115513122801543,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "CJK text": 5,
+      "several lines": 1,
+      "unknown word": 1,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 95,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 53.16
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 358,
+    "z_before": 3.115513122801543,
+    "z_after": 3.2812124497183834,
+    "accepted": false,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "several lines": 5,
+      "unknown word": 7
+     }
+    },
+    "queries_total": 143,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 112.71
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 223,
+    "z_before": 3.115513122801543,
+    "z_after": 3.3701748623209578,
+    "accepted": false,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "CJK text": 4,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 197,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.91
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "Ben & Jerry\u2019s, which already lists pro and anti-GMOs, allergens, fair trade, animals, air quality and gender pay parity on its website, is marketing unicorn ice cream that has \u201cnatural\u201d ingredients for health-centric millennials, and new natural turmeric and cauliflower-infused protein drinks and Asian flavored soups for consumers avoiding meat for health.",
+    "rewrite": "Ben & Jerry\u2019s, known for already disclosing pro and anti-GMOs, allergens, fair trade, ethical considerations, and environmental impacts on its site, is promoting unicorn ice cream with \"natural\" ingredients targeted at health-conscious millennials. Additionally, the brand is introducing new natural turmeric and cauliflower-infused protein drinks and Asian-flavored soups aimed at those opting for meat-free options due to health concerns."
+   },
+   "1": {
+    "original": "More kids than ever are using low-calorie sweeteners in foods and beverages as they discern at a younger age; more food-makers also are using natural ingredients to highlight their offerings for consumers\u2019 health interests.",
+    "rewrite": "Children are now opting for lower-calorie sweeteners in foods and beverages at an early age, and there's an increasing trend among producers to use natural ingredients to cater to consumers' health preferences."
+   }
+  },
+  "final_span": "of the country\u2019s 6 billion-calorie foods and beverages are no longer widely available.\nChildren are now opting for lower-calorie sweeteners in foods and beverages at an early age, and there's an increasing trend among producers to use natural ingredients to cater to consumers' health preferences. Ben & Jerry\u2019s, known for already disclosing pro and anti-GMOs, allergens, fair trade, ethical considerations, and environmental impacts on its site, is promoting unicorn ice cream with \"natural\" ingredients targeted at health-conscious millennials. Additionally, the brand is introducing new natural turmeric and cauliflower-infused protein drinks and Asian-flavored soups aimed at those opting for meat-free options due to health concerns. Unlike deep-pocketed competitor Coca-Cola, Ben & Jerry\u2019s has refused to join other food",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 2,
+   "segments": 4,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 50.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 219,
+   "length_change": 18,
+   "pct_not_preserved": 27.363184079601986,
+   "pct_new": 33.333333333333336
+  },
+  "words": {
+   "original": 112,
+   "final": 117,
+   "length_change": 5,
+   "pct_not_preserved": 41.96428571428571,
+   "pct_new": 44.44444444444444
+  },
+  "characters": {
+   "original": 757,
+   "final": 826,
+   "length_change": 69,
+   "pct_not_preserved": 21.400264200792606,
+   "pct_new": 27.966101694915256
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 164,
+   "green_after": 132,
+   "pairs_before": 200,
+   "pairs_after": 218,
+   "pairs_changed_before": 81,
+   "pairs_changed_after": 99,
+   "green_fraction_of_new_pairs": 0.3939393939393939,
+   "delta_achieved": 0.10606060606060608
+  }
+ }
+}

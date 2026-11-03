@@ -1,0 +1,26 @@
+{
+ "sample_id": "sta16_len200:76",
+ "nobox": {
+  "z_final": 7.093342514033167,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "Cardinal Timothy Dolan of New York took issue with what he said is the trend toward decline in Catholic education, noting the nearly two-thirds of Americans who were baptized as infants and come from less affluent backgrounds but don&apos;t have any formal degrees in Catholic education.",
+    "rewrite": "Cardinal Timothy Dolan of New York expressed concern about the trend he perceives as a decline in Catholic education, pointing out that nearly two-thirds of Americans baptized as infants from less affluent backgrounds lack formal Catholic education degrees."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 16,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": ". Human life can live only when society holds on to Christian tradition,\" Orban said hours after religious leaders converged in Rome for the annual overnight retreat of Cardinals marking the start of their new five-year terms run by Francis, who has said the Catholic Church&apos;s future depends on the faithful remaining connected to their tradition.\n\"Hearts may harden, but they can always soften. The tide can change...I am full of confidence. It is in your power to reverse negative trends,\" Francis said during his homily for the Mass.\nCardinal Timothy Dolan of New York expressed concern about the trend he perceives as a decline in Catholic education, pointing out that nearly two-thirds of Americans baptized as infants from less affluent backgrounds lack formal Catholic education degrees.\n\"Shocked? Sorry? Not much,\"",
+  "z0": 9.192388155425117,
+  "seconds": 56.4
+ }
+}

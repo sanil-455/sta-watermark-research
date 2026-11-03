@@ -1,0 +1,184 @@
+{
+ "sample_id": "samples_len500:52",
+ "nobox": {
+  "z_final": 5.845547982139824,
+  "status": "not broken",
+  "rewrites": {
+   "18": {
+    "original": "It differs from how other countries govern themselves, but America\u2019s blending of capitalism, democracy, and individual freedoms is an unmatched winning formula.",
+    "rewrite": "While different from how other countries govern themselves, America's blend of capitalism, democracy, and individual freedoms constitutes an unmatched winning formula."
+   },
+   "17": {
+    "original": "We\u2019re the world\u2019s oldest democracy, largest economy, most stable society, most powerful military, and technological leader.",
+    "rewrite": "We are the world's oldest democracy, largest economy, most stable society, most powerful military, and technological leader."
+   },
+   "12": {
+    "original": "It is getting to a point in its development where it\u2019s losing its agricultural edge, yet it trails us in manufacturing.",
+    "rewrite": "It has reached a stage in its development where it is losing its agricultural advantage, yet it falls behind us in manufacturing."
+   },
+   "8": {
+    "original": "These pacts\u2019 success will especially help manufacturers, farmers, and service industries.",
+    "rewrite": "These agreements' success will notably assist manufacturers, farmers, and service industries."
+   },
+   "7": {
+    "original": "Any American, irrespective of which location or region he or she is from, benefits.",
+    "rewrite": "Any American, regardless of their location or region, benefits."
+   },
+   "10": {
+    "original": "As key players in Congress fail to agree, the rest of the world moves ahead.",
+    "rewrite": "With key players in Congress failing to agree, the rest of the world progresses."
+   },
+   "14": {
+    "original": "Globalization is here to stay and is evolving right before our three eyes.",
+    "rewrite": "Globalization is persisting and is changing right before our three eyes."
+   },
+   "6": {
+    "original": "Here\u2019s what matters most: leadership on trade makes us better off.",
+    "rewrite": "Leadership on trade matters most as it enhances our well-being."
+   },
+   "11": {
+    "original": "For example, India is the biggest target outside the TPP talks.",
+    "rewrite": "For instance, India serves as the largest target outside the TPP talks."
+   },
+   "21": {
+    "original": "It would be a costly mistake to miss this critical opportunity.",
+    "rewrite": "Missing this critical opportunity would be a costly mistake."
+   },
+   "3": {
+    "original": "Congress now stands at the midway point of the TPA extension.",
+    "rewrite": "Congress now is at the midpoint of the TPA extension."
+   },
+   "13": {
+    "original": "Old alignments are crumbling as new trading partners emerge.",
+    "rewrite": "Declining alignments are crumbling as new trading partners arise."
+   },
+   "19": {
+    "original": "Our competitors are trying to figure out how we do it.",
+    "rewrite": "Our competitors are attempting to understand our method."
+   },
+   "9": {
+    "original": "But all Americans do well in a two-way, free economy.",
+    "rewrite": "But all Americans thrive in a two-way, free economy."
+   },
+   "4": {
+    "original": "Let me be clear: If we fail to lead, others will.",
+    "rewrite": "Allow me to clarify: If we fail to lead, others will step in."
+   },
+   "20": {
+    "original": "It just makes no sense to sit on the sidelines.",
+    "rewrite": "Sitting on the sidelines simply makes no sense."
+   },
+   "5": {
+    "original": "It is America\u2019s last chance to do so.",
+    "rewrite": "This is America's final opportunity to do so."
+   },
+   "16": {
+    "original": "We have the obvious advantages.",
+    "rewrite": "We clearly possess several advantages."
+   }
+  },
+  "sentences_rewritten": 18,
+  "eligible": 19,
+  "per_sentence": [
+   {
+    "index": 18,
+    "survivors": 59,
+    "rewritten": true
+   },
+   {
+    "index": 17,
+    "survivors": 32,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 18,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 23,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 21,
+    "rewritten": true
+   },
+   {
+    "index": 14,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 21,
+    "survivors": 2,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 19,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 25,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 2,
+    "rewritten": true
+   },
+   {
+    "index": 20,
+    "survivors": 23,
+    "rewritten": true
+   },
+   {
+    "index": 15,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 5,
+    "survivors": 1,
+    "rewritten": true
+   },
+   {
+    "index": 16,
+    "survivors": 4,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "firms on a more level playing field.\nThe stakes are high. It\u2019s a make-or-break moment.\nCongress now is at the midpoint of the TPA extension. Allow me to clarify: If we fail to lead, others will step in. This is America's final opportunity to do so.\nLeadership on trade matters most as it enhances our well-being. Any American, regardless of their location or region, benefits. These agreements' success will notably assist manufacturers, farmers, and service industries. But all Americans thrive in a two-way, free economy.\nWith key players in Congress failing to agree, the rest of the world progresses. For instance, India serves as the largest target outside the TPP talks. It has reached a stage in its development where it is losing its agricultural advantage, yet it falls behind us in manufacturing. Declining alignments are crumbling as new trading partners arise.\nGlobalization is persisting and is changing right before our three eyes. American ought to stand at the vanguard. We clearly possess several advantages. We are the world's oldest democracy, largest economy, most stable society, most powerful military, and technological leader. While different from how other countries govern themselves, America's blend of capitalism, democracy, and individual freedoms constitutes an unmatched winning formula. Our competitors are attempting to understand our method. Sitting on the sidelines simply makes no sense. Missing this critical opportunity would be a costly mistake.\nNew Republic Party of America\nTradePreesidentJay GonzalezLead CongressTrade Promotion AuthorityTPAMassachusetts Member of CongressCheer ObamaTPANorth American ToyzCongressmanDemocratSenateElizabeth WarrenDavid DennienMark McKinnonJeff SessionsJared KushnerAmericaEmploymentDonald TrumpTrade DealsFree TradeUPJackie KucinichRand PaulElection 2016Electoral CollegeBill,Liz,David G. BowermasterFallTrumpOnTVDonald Trump Plays JudgeRobotsTrue Film CharacterKeller WilliamsJazzLegend BandBeyond BandLung Cancer",
+  "z0": 7.602631123499284,
+  "seconds": 404.9
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "sample_id": "samples_len200:136",
+ "nobox": {
+  "z_final": 2.622860458530843,
+  "status": "not broken",
+  "rewrites": {
+   "8": {
+    "original": "I am creating my small micro-farm in my backyard \u2014 so I am excited to expand on that to be more \u201cself-sustainable.\u201d",
+    "rewrite": "I am initiating my small micro-farm in my backyard \u2014 and I am thrilled to pursue making it more \"self-sustainable.\""
+   },
+   "7": {
+    "original": "I visited my uncle\u2019s organic farm in Green Lake County recently and was so inspired.",
+    "rewrite": "Recently, I visited my uncle's organic farm in Green Lake County and felt greatly inspired."
+   },
+   "9": {
+    "original": "If you could tell the rest of the world about Manitowoc County, what would you say?",
+    "rewrite": "What would you tell the rest of the world about Manitowoc County?"
+   },
+   "4": {
+    "original": "I love being a part of an amazing community that is safe and family-oriented.",
+    "rewrite": "Being a part of an amazing community that is safe and family-oriented is something I love."
+   },
+   "10": {
+    "original": "There are so many amazing people here and a great sense of community spirit.",
+    "rewrite": "There are so many amazing individuals here along with a great sense of community spirit."
+   },
+   "5": {
+    "original": "You just inherited an island from your Uncle; describe what you do with it.",
+    "rewrite": "Describe what you do with the island you just inherited from your uncle."
+   },
+   "1": {
+    "original": "If you could describe the city of Manitowoc in one word, what would it be?",
+    "rewrite": "With which single word would you describe the city of Manitowoc?"
+   },
+   "3": {
+    "original": "What do/did you love most about growing up or living in this area?",
+    "rewrite": "What is it that you loved most about growing up or living in this area?"
+   },
+   "6": {
+    "original": "I would create an organic farm and sustainable lifestyle.",
+    "rewrite": "I would establish an organic farm and lead a sustainable lifestyle."
+   },
+   "11": {
+    "original": "People really care about one another.",
+    "rewrite": "Individuals truly care for each other."
+   }
+  },
+  "sentences_rewritten": 10,
+  "eligible": 10,
+  "per_sentence": [
+   {
+    "index": 8,
+    "survivors": 12,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 38,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 14,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 20,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 13,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 1,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "wholehearted living.\nWith which single word would you describe the city of Manitowoc? Good.\nWhat is it that you loved most about growing up or living in this area? Being a part of an amazing community that is safe and family-oriented is something I love.\nDescribe what you do with the island you just inherited from your uncle. I would establish an organic farm and lead a sustainable lifestyle. Recently, I visited my uncle's organic farm in Green Lake County and felt greatly inspired. I am initiating my small micro-farm in my backyard \u2014 and I am thrilled to pursue making it more \"self-sustainable.\"\nWhat would you tell the rest of the world about Manitowoc County? There are so many amazing individuals here along with a great sense of community spirit. Individuals truly care for each other.\nAnd last but not least\u2026",
+  "z0": 4.384062043356595,
+  "seconds": 231.5
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:215",
+ "nobox": {
+  "z_final": 2.76463669953251,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "BAF released its own plan for infrastructure legislation in February, and Hale stressed at the time that an official package from the administration came before leaders and committees in the House and Senate could \u201cadminister over policy.\u201d",
+    "rewrite": "BAF released its own plan for infrastructure legislation in February, and Hale emphasized at the time that an official administration package submitted to leaders and committees in the House and Senate would \u201cadminister over policy.\u201d"
+   },
+   "6": {
+    "original": "Anticipating the political challenges, infrastructure advocates warned that transportation should not become a political football.",
+    "rewrite": "Infrastructure advocates anticipated political challenges and warned that transportation should not be turned into a political football."
+   },
+   "3": {
+    "original": "Building off that framework, she continued on Monday.",
+    "rewrite": "Building on that framework, she continued on Monday."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 6,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 12,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 17,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": ".\n\u201cThese things are hard, but let\u2019s put them in a coordinated sense,\u201d Hale said, suggesting that Trump pick a project to highlight during each of the planned events.\nBAF released its own plan for infrastructure legislation in February, and Hale emphasized at the time that an official administration package submitted to leaders and committees in the House and Senate would \u201cadminister over policy.\u201d\nBuilding on that framework, she continued on Monday.\n\u201cI\u2019m not especially optimistic. I don\u2019t sense a lot of good leadership coming from my side...I don\u2019t think Democrats or, frankly, moderate Republicans know what they want to do,\u201d she said.\nInfrastructure advocates anticipated political challenges and warned that transportation should not be turned into a political football.\n\u201cThis is not an economic issue if partisan politics are in play,\u201d Valerie Velazquez,",
+  "z0": 3.5355339059327373,
+  "seconds": 92.0
+ }
+}

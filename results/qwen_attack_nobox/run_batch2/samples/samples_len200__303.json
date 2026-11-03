@@ -1,0 +1,26 @@
+{
+ "sample_id": "samples_len200:303",
+ "nobox": {
+  "z_final": 3.579498272352342,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Unity in Health is a community-based health education center that aims to improve outcomes by addressing the social determinants of health.",
+    "rewrite": "Unity in Health is a community-focused health education center dedicated to enhancing outcomes through the tackling of social determinants of health."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 48,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "are trying to get as many people as possible to donate to Unity in Sickness and Unity in Health, two health care foundations at nearby hospitals. Unity in Health is a community-focused health education center dedicated to enhancing outcomes through the tackling of social determinants of health.\n\"This is a positive way to have students and community members engaged in football while also being involved in helping the community in a positive way,\" Burroughs said.\nJust ask Sykes.\n\"At least on this trip visiting North Canton, I asked (Burroughs) my question first, about Unity in the Community, which is great, and I know it\u2019s just the beginning,\" Sykes said after returning from the trip to the Buffalo area.\n\u201cIt\u2019s just to keep everybody involved in the community and keep everybody helping people in the community. We all have moms, dads, granddads, uncles,",
+  "z0": 3.8183766184073566,
+  "seconds": 37.2
+ }
+}

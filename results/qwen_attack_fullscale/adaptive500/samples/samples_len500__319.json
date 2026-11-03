@@ -1,0 +1,304 @@
+{
+ "sample_id": "samples_len500:319",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.7060590886329494,
+ "needed_share": 0.6144710383621053,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 1997,
+  "segments": 12,
+  "eligible": 9,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1410,
+  "eligible_char_share": 0.7060590886329494
+ },
+ "attack": {
+  "z0": 5.187677707799512,
+  "z_final": 1.6197165743970512,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 233,
+  "seconds": 339.6,
+  "seconds_by_phase": {
+   "generate": 320.0,
+   "gates": 19.5,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 237,
+    "z_before": 5.187677707799512,
+    "z_after": 3.9754347727831054,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 5,
+      "meaning too different": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 54,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.87
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 220,
+    "z_before": 3.9754347727831054,
+    "z_after": 3.4608926273113094,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 48,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 3,
+      "unknown word": 5,
+      "quotation changed": 1
+     }
+    },
+    "queries_total": 101,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 71.78
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 216,
+    "z_before": 3.4608926273113094,
+    "z_after": 3.0053607369089193,
+    "accepted": true,
+    "survivors": 3,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 3,
+     "after_semantic": 3,
+     "fluency_skipped": false,
+     "after_fluency": 3,
+     "rejected": {
+      "CJK text": 3,
+      "quotation changed": 53,
+      "numbers changed": 1
+     }
+    },
+    "queries_total": 104,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 50.72
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 202,
+    "z_before": 3.0053607369089193,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 54,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "duplicate": 4,
+      "unknown word": 2,
+      "negation count changed": 54
+     }
+    },
+    "queries_total": 104,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 49.6
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 172,
+    "z_before": 3.0053607369089193,
+    "z_after": 2.4246715773614613,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "several lines": 1,
+      "duplicate": 1,
+      "unknown word": 5,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 156,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.88
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 162,
+    "z_before": 2.4246715773614613,
+    "z_after": 2.159622099196068,
+    "accepted": true,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 34,
+     "after_content": 34,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "duplicate": 26,
+      "meaning too different": 2
+     }
+    },
+    "queries_total": 188,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.37
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 113,
+    "z_before": 2.159622099196068,
+    "z_after": 1.6197165743970512,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "duplicate": 6,
+      "unknown word": 1,
+      "perplexity too high": 8
+     }
+    },
+    "queries_total": 233,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.8
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "But instead of coming up with a new AUMF, Tillerson and Mattis have been asked to make good on an order by Trump to draft new rules of engagement to battle terrorists that, they hope, will be more permissive than the current regulations.",
+    "rewrite": "However, Tillerson and Mattis have been requested to develop new rules of engagement to combat terrorists, in the hopes that these will be more lenient than existing regulations, rather than creating a new AUMF."
+   },
+   "8": {
+    "original": "Like the initial approval for military action the next day, the next one passed with near unanimity in a 98-0 vote in the Senate and a 420-1 vote in the House with only Rep. Barbara Lee, D-Calif., voting \u201cno\u201d in protest.",
+    "rewrite": "Similar to the initial approval for military action the following day, the subsequent one also garnered near-unanimous support, passing 98-0 in the Senate and 420-1 in the House, with only Rep. Barbara Lee, D-Calif., casting a \"no\" vote in protest."
+   },
+   "1": {
+    "original": "A subsequent resolution focused solely on Iraq and Syria after President Obama took military action against ISIS \u2013 based on Congress\u2019s 2001 AUMF \u2013 has not been used to go after any other \u201cgroup affiliated\u201d with ISIS.",
+    "rewrite": "A later resolution, centered exclusively on Iraq and Syria following President Obama's military action against ISIS\u2014grounded in Congress\u2019s 2001 AUMF\u2014has not been employed to target any other \u201cgroup affiliated\u201d with ISIS."
+   },
+   "5": {
+    "original": "Kaine has also introduced an annual war powers resolution requiring presidents to seek congressional authorization if engaging in military action lasting more than 60 days.",
+    "rewrite": "Kaine has also proposed an annual resolution on war powers that mandates presidential seeking of congressional authorization for any military action exceeding 60 days."
+   },
+   "7": {
+    "original": "President George W. Bush signed a second war authorization \u2013 the Joint Resolution In Support of President Bush\u2019s Strategy to Combat Terrorism \u2013 on Sept. 14, 2001.",
+    "rewrite": "On September 14, 2001, President George W. Bush signed the Joint Resolution in Support of Bush's Strategy to Combat Terrorism, which was another war authorization."
+   },
+   "10": {
+    "original": "Elizabeth Warren, D-Mass., and Bernie Sanders, I-Vt., that calls for the military focus to be solely on al Qaeda.",
+    "rewrite": "Elizabeth Warren, D-Mass., and Bernie Sanders, I-Vt., propose a shift where the military focus should exclusively target al Qaeda."
+   }
+  },
+  "final_span": "\u201cup to and including the power to ground missiles, aircraft, and warships which have been moved by those affiliates toward the United States.\nA later resolution, centered exclusively on Iraq and Syria following President Obama's military action against ISIS\u2014grounded in Congress\u2019s 2001 AUMF\u2014has not been employed to target any other \u201cgroup affiliated\u201d with ISIS. The Iraq law also ends in 2023.\nHowever, Tillerson and Mattis have been requested to develop new rules of engagement to combat terrorists, in the hopes that these will be more lenient than existing regulations, rather than creating a new AUMF.\nFlake had differing views about what would work for ISIS.\nKaine has also proposed an annual resolution on war powers that mandates presidential seeking of congressional authorization for any military action exceeding 60 days.\nHe yielded on the time limit but said the resolution will \u201censure that any military action Congress authorizes would be three-dimensional,\u201d including a targeting plan to kill top ISIS leaders, a training plan to build up armed forces\u2019 capabilities against future versus current al Qaeda threats and it would outline options toward solving the Middle East\u2019s ongoing refugee crisis.\nOn September 14, 2001, President George W. Bush signed the Joint Resolution in Support of Bush's Strategy to Combat Terrorism, which was another war authorization. Similar to the initial approval for military action the following day, the subsequent one also garnered near-unanimous support, passing 98-0 in the Senate and 420-1 in the House, with only Rep. Barbara Lee, D-Calif., casting a \"no\" vote in protest.\nIn the coming weeks, the Senate Foreign Relations Committee will consider two versions of a new AUMF, one sponsored by Sen. McCain, R-Ariz., that lacks an expiration date, and another sponsored by Sens. Elizabeth Warren, D-Mass., and Bernie Sanders, I-Vt., propose a shift where the military focus should exclusively target al Qaeda.\nFlake\u2019s and Kaine\u2019s approach has more support among law",
+  "break_point": {
+   "step": 6,
+   "sentences_rewritten": 6,
+   "queries": 233
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 6,
+   "eligible": 9,
+   "segments": 12,
+   "pct_of_eligible": 66.66666666666667,
+   "pct_of_segments": 50.0
+  },
+  "tokens": {
+   "original": 501,
+   "final": 495,
+   "length_change": -6,
+   "pct_not_preserved": 20.958083832335326,
+   "pct_new": 19.999999999999996
+  },
+  "words": {
+   "original": 333,
+   "final": 314,
+   "length_change": -19,
+   "pct_not_preserved": 27.927927927927932,
+   "pct_new": 23.566878980891715
+  },
+  "characters": {
+   "original": 1997,
+   "final": 2016,
+   "length_change": 19,
+   "pct_not_preserved": 15.373059589384075,
+   "pct_new": 16.170634920634917
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 308,
+   "green_after": 265,
+   "pairs_before": 500,
+   "pairs_after": 494,
+   "pairs_changed_before": 148,
+   "pairs_changed_after": 142,
+   "green_fraction_of_new_pairs": 0.3732394366197183,
+   "delta_achieved": 0.1267605633802817
+  }
+ }
+}

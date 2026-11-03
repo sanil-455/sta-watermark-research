@@ -1,0 +1,161 @@
+{
+ "sample_id": "samples_len500:44",
+ "nobox": {
+  "z_final": 3.143092785468561,
+  "status": "not broken",
+  "rewrites": {
+   "16": {
+    "original": "That\u2019s not to say that neither government officials nor employees have conflicts of interests (the latter example is, of course, obvious) but rather that Uncle Sam already has his hands full making sure the existing system is fair and free.",
+    "rewrite": "That aside, it doesn't mean that neither government officials nor employees face conflicts of interest (the latter being quite evident), but rather that Uncle Sam is currently occupied ensuring the existing system is fair and free."
+   },
+   "6": {
+    "original": "There is some risk, which is why existing multiple-employer plans typically have caps of $50 to $500 on how much employees can invest, but the plan itself has unlimited capital.",
+    "rewrite": "There exists a degree of risk, hence existing multiple-employer plans generally impose limits of $50 to $500 on employee investments, yet the plan can handle unlimited capital."
+   },
+   "13": {
+    "original": "By getting more people to save, multiple-employer plans also ensure that more people pay into Social Security and Medicare as well, which helps stabilize these programs.",
+    "rewrite": "Multiple-employer plans also ensure that a larger number of people contribute to Social Security and Medicare, thus stabilizing these programs by getting more individuals to save."
+   },
+   "5": {
+    "original": "These plans typically take over key management duties such as creating and maintaining investment portfolios and making sure the administrative tasks are carried out.",
+    "rewrite": "These plans usually assume control of key management duties including the creation and maintenance of investment portfolios and ensuring that administrative tasks are fulfilled."
+   },
+   "12": {
+    "original": "And it\u2019s important to remember that these rules would preclude the cost of the plan being possible market manipulation, which is pretty common given loads and fees.",
+    "rewrite": "It\u2019s crucial to remember that these rules would prevent the plan\u2019s cost from facilitating potential market manipulation, which is quite prevalent due to various loads and fees."
+   },
+   "2": {
+    "original": "Small employers who don\u2019t have much in the way of overlapping offerings such as health insurance and meals could club together to provide additional benefits.",
+    "rewrite": "Small employers without much overlap in offerings like health insurance and meals could join forces to offer extra benefits."
+   },
+   "15": {
+    "original": "It should not craft laws or write regulations that arbitrarily raise costs or disadvantage certain funds, which is exactly what it has done in the past.",
+    "rewrite": "It must not craft laws or write regulations that unfairly increase costs or disadvantage particular funds, which is precisely what it has done in the past."
+   },
+   "4": {
+    "original": "Several multi-employer plans already exist, and they offer \u201cadministered funds,\u201d rather than each employer having to sponsor its own separate account.",
+    "rewrite": "Multiple multi-employer plans already exist, and these provide \"administered funds,\" instead of each employer sponsoring its own separate account."
+   },
+   "8": {
+    "original": "But as Kevin Kelleher discussed earlier this month, if the rules only apply to rightfully established multiple-employer plans, it\u2019s not a big deal.",
+    "rewrite": "But as Kevin Kelleher discussed earlier this month, if the rules only apply to legitimately established multiple-employer plans, it\u2019s not a big deal."
+   },
+   "9": {
+    "original": "Multiple employer plans could not only benefit members but also other employers in the area, much like the local Chamber of Commerce.",
+    "rewrite": "Multiple employer plans could benefit not only members but also other employers in the area, similar to the local Chamber of Commerce."
+   },
+   "11": {
+    "original": "To put it in perspective, the median employer cost per worker is less than $1,000 in a 401(k) plan, according to multiple sources.",
+    "rewrite": "To put it into perspective, the median employer cost per worker for a 401(k) plan is below $1,000, as reported by several sources."
+   },
+   "14": {
+    "original": "Of course, to ensure that everyone is covered by both safety nets, the government has to keep its hands off.",
+    "rewrite": "Clearly, to ensure that everyone is covered by both safety nets, the government must maintain a hands-off approach."
+   },
+   "1": {
+    "original": "That way, any employer could partner up with other local businesses who offer similar products or services.",
+    "rewrite": "That way, any employer could team up with other local businesses that provide similar products or services."
+   },
+   "7": {
+    "original": "There are some minor issues that would have to be addressed, since 401(k) is not the only window dressing.",
+    "rewrite": "There are a few minor concerns that need addressing, given that 401(k) is not the sole form of window dressing."
+   },
+   "10": {
+    "original": "Cheap and accessible investment options are much better than having no access to plans at all.",
+    "rewrite": "Inexpensive and available investment options are preferable to having no access to any plans at all."
+   },
+   "3": {
+    "original": "There is no reason why these kinds of arrangements cannot do well.",
+    "rewrite": "These kinds of arrangements have no reason to not do well."
+   }
+  },
+  "sentences_rewritten": 16,
+  "eligible": 16,
+  "per_sentence": [
+   {
+    "index": 16,
+    "survivors": 3,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 21,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 25,
+    "rewritten": true
+   },
+   {
+    "index": 15,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 14,
+    "survivors": 13,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 5,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": ". That way, any employer could team up with other local businesses that provide similar products or services. Small employers without much overlap in offerings like health insurance and meals could join forces to offer extra benefits.\nThese kinds of arrangements have no reason to not do well. Multiple multi-employer plans already exist, and these provide \"administered funds,\" instead of each employer sponsoring its own separate account. These plans usually assume control of key management duties including the creation and maintenance of investment portfolios and ensuring that administrative tasks are fulfilled. There exists a degree of risk, hence existing multiple-employer plans generally impose limits of $50 to $500 on employee investments, yet the plan can handle unlimited capital.\nThere are a few minor concerns that need addressing, given that 401(k) is not the sole form of window dressing. But as Kevin Kelleher discussed earlier this month, if the rules only apply to legitimately established multiple-employer plans, it\u2019s not a big deal. Multiple employer plans could benefit not only members but also other employers in the area, similar to the local Chamber of Commerce.\nInexpensive and available investment options are preferable to having no access to any plans at all. To put it into perspective, the median employer cost per worker for a 401(k) plan is below $1,000, as reported by several sources. It\u2019s crucial to remember that these rules would prevent the plan\u2019s cost from facilitating potential market manipulation, which is quite prevalent due to various loads and fees. Multiple-employer plans also ensure that a larger number of people contribute to Social Security and Medicare, thus stabilizing these programs by getting more individuals to save.\nClearly, to ensure that everyone is covered by both safety nets, the government must maintain a hands-off approach. It must not craft laws or write regulations that unfairly increase costs or disadvantage particular funds, which is precisely what it has done in the past. That aside, it doesn't mean that neither government officials nor employees face conflicts of interest (the latter being quite evident), but rather that Uncle Sam is currently occupied ensuring the existing system is fair and free.\nThere",
+  "z0": 6.887089370699352,
+  "seconds": 560.2
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "sample_id": "sta16_len200:146",
+ "nobox": {
+  "z_final": 6.150384144985583,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Including the additional money payroll taxes would bring in in years when taxable income reaches its cap (the Social Security tax is pro rated as your pay rises, but taxable income generally caps out at $118,500), that number jumps to 0.95%.",
+    "rewrite": "If additional payroll taxes were included in years when taxable income hits its limit (Social Security tax is prorated as earnings rise, but income normally peaks at $118,500), the figure increases to 0.95%."
+   },
+   "4": {
+    "original": "If you depend on Social Security for your income in retirement, you need to prepare for the bad news.",
+    "rewrite": "If you rely on Social Security for your retirement income, you need to prepare for potential adverse news."
+   },
+   "2": {
+    "original": "For the full 75-year period, this could fix the deficit without reducing benefits.",
+    "rewrite": "This could fix the deficit for a full 75-year period without cutting benefits."
+   },
+   "3": {
+    "original": "What should you do if you depend on Social Security?",
+    "rewrite": "What should you do if you rely on Social Security?"
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 7,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "could be fixed by increasing OASDI payroll taxes at a 0.66% rate -- an 8.3% increase on top of the current rate of 12.4% (split between the employee and the employer). If additional payroll taxes were included in years when taxable income hits its limit (Social Security tax is prorated as earnings rise, but income normally peaks at $118,500), the figure increases to 0.95%. This could fix the deficit for a full 75-year period without cutting benefits.\nWhat should you do if you rely on Social Security?\nIf you rely on Social Security for your retirement income, you need to prepare for potential adverse news. In the short term, there is likely to be a move toward benefit cuts over the next four to eight years (the longer the government",
+  "z0": 9.050966799187808,
+  "seconds": 134.1
+ }
+}

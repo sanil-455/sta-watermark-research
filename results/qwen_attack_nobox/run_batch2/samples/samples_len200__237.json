@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:237",
+ "nobox": {
+  "z_final": 3.5714285714285716,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Even the foreign minister\u2019s public visit to Tunisia, where he made no effort to hide his disdain for protesters and civil organisations, was paid more attention by the West, as Tunisia\u2019s longtime ally Egypt clashed with its neighbours during India\u2019s visit to the country.",
+    "rewrite": "Even the foreign minister\u2019s public trip to Tunisia, where he showed no concealed disapproval of protesters and civil organizations, garnered more notice from the West, as Tunisia\u2019s long-term ally Egypt clashed with neighbors during India\u2019s visit there."
+   },
+   "1": {
+    "original": "It later noted the UK armament of the coalition, but there was no detail about the relationship between America and Saudi Arabia.",
+    "rewrite": "It later noted the UK weaponry in the coalition, yet there was no detail about the relationship between America and Saudi Arabia."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 54,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the tenth paragraph. It later noted the UK weaponry in the coalition, yet there was no detail about the relationship between America and Saudi Arabia.\nIn this world, the coalition\u2019s war has involved what Martin Griffiths, the UN humanitarian coordinator for Yemen, called \u201csystemic intentional targeting\u201d; attacks on civilian infrastructure \u201cto undermine state authority\u201d and the recruitment of children in a conflict \u201cwhere tribes are being basically built.\u201d Even the foreign minister\u2019s public trip to Tunisia, where he showed no concealed disapproval of protesters and civil organizations, garnered more notice from the West, as Tunisia\u2019s long-term ally Egypt clashed with neighbors during India\u2019s visit there.\nIt is virtually unheard of for mainstream media outlets to comment on the British government\u2019s collusion in war crimes",
+  "z0": 5.232590180780451,
+  "seconds": 97.0
+ }
+}

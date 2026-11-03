@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:28",
+ "nobox": {
+  "z_final": 3.633599549383392,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Question: Have you ever had a dish at a restaurant that you said you could make better than them?",
+    "rewrite": "Have you ever tried a restaurant dish that you felt you could improve upon and make better?"
+   },
+   "1": {
+    "original": "We don't have too much space, but we just cooked this great dinner for them.",
+    "rewrite": "We don't have plenty of space, but we just cooked a great dinner for them."
+   },
+   "3": {
+    "original": "Nguyen: Yeah, in fact, last week I went to another Vietnamese restaurant.",
+    "rewrite": "Nguyen: Yeah, in fact, last week I visited another Vietnamese restaurant."
+   },
+   "4": {
+    "original": "It's across from here, and I wish I would never go there again.",
+    "rewrite": "It is close to here, yet I wish I had never gone there again."
+   },
+   "5": {
+    "original": "Soft shell crab...I don't know how.",
+    "rewrite": "Soft shell crab...I am not sure how to do it."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 25,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 12,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 13,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 6,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "our guest coming in and going to the next table, and the next table asks us if we're cooking their food, and we say 'yes' and we cook this and this and this over and over again. We don't have plenty of space, but we just cooked a great dinner for them.\nHave you ever tried a restaurant dish that you felt you could improve upon and make better?\nNguyen: Yeah, in fact, last week I visited another Vietnamese restaurant. It is close to here, yet I wish I had never gone there again. Soft shell crab...I am not sure how to do it.\n\u2022 Quang Nguyen, 42, reports he never got to really enjoy eating food during the nearly three months he was unconscious following a motorcycle accident on St. Charles Road in May, but he's happy to be back at 390 Greg Boulevard",
+  "z0": 5.374011537017761,
+  "seconds": 107.7
+ }
+}

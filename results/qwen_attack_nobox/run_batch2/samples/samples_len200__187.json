@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:187",
+ "nobox": {
+  "z_final": 1.8477395417486238,
+  "status": "broken",
+  "rewrites": {
+   "1": {
+    "original": "In 1996, Hanna-Barbera, most famous for the Looney Tunes, started an animated TV series; then, in 2005, director Tim Story and star Chris Evans unveiled the first live-action feature about Marvel's First Family.",
+    "rewrite": "In 1996, Hanna-Barbera, known primarily for the Looney Tunes, began an animated TV series; subsequently, in 2005, director Tim Story and actor Chris Evans unveiled the first live-action feature dedicated to Marvel's First Family."
+   },
+   "2": {
+    "original": "Even though the movies - particularly the Days of Future Past and Apocalypse sequels - were generally deemed disappointing, the Fantastic Four lived on.",
+    "rewrite": "While the movies, including Days of Future Past and Apocalypse sequels, were largely considered disappointing, the Fantastic Four endured."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 57,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 49,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "to let him have it easy was a challenge, but Eichinger finally succeeded in getting 20th Century Fox on board - albeit only CGI-animated films and live-action comedy features. In 1996, Hanna-Barbera, known primarily for the Looney Tunes, began an animated TV series; subsequently, in 2005, director Tim Story and actor Chris Evans unveiled the first live-action feature dedicated to Marvel's First Family. While the movies, including Days of Future Past and Apocalypse sequels, were largely considered disappointing, the Fantastic Four endured.\nAnd then came Thomas W. Perkins, the chairman of the executive committee at the board of 20th Century Fox, who didn't have a fond opinion about filmmakers such as Frank Miller (Sin City), James Cameron (Avatar), and the X-Men/",
+  "z0": 2.82842712474619,
+  "seconds": 104.1
+ }
+}

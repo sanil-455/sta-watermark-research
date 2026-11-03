@@ -1,0 +1,53 @@
+{
+ "sample_id": "sta16_len200:71",
+ "nobox": {
+  "z_final": 9.189494464367357,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Mr Ward pointed to the In My Shoes project, which is looking to put public funding for environmental schemes back into the hands of the local community by creating \u201cadministering funds\u201d.",
+    "rewrite": "Mr. Ward referenced the In My Shoes project, aimed at returning public funding for environmental schemes to the local community through \"administering funds.\""
+   },
+   "5": {
+    "original": "He feared that public funds\u2019 money for environmental improvements might go toward the farming community he said would look after that third common land category.",
+    "rewrite": "He feared that public funds for environmental improvements could be directed at the farming community he said would handle the third common land category."
+   },
+   "4": {
+    "original": "Mr Duffy said the UK was heading towards what it would potentially be termed as three levels of land \u2013 private, state and common.",
+    "rewrite": "Mr. Duffy said the UK was poised to have what might be called three levels of land\u2014private, state, and common."
+   },
+   "3": {
+    "original": "Local farmers would then be able to bid for the public funds with ideas on how they can continue their environmental work.",
+    "rewrite": "Local farmers would then bid for the public funds with proposals for continuing their environmental work."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 14,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 56,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 52,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "after a country park or protecting a wetland, should a conservation organisation have more say over what that farmer is doing?\u201d\nMr. Ward referenced the In My Shoes project, aimed at returning public funding for environmental schemes to the local community through \"administering funds.\"\nMr Ward said the public funds\u2019 money should support community and regional insights organisations, to bring \u201cconsumers\u2019 claims into being, helping them make sustainable and responsible choices\u201d.\nLocal farmers would then bid for the public funds with proposals for continuing their environmental work.\nMr. Duffy said the UK was poised to have what might be called three levels of land\u2014private, state, and common. He feared that public funds for environmental improvements could be directed at the farming community he said would handle the third common land category.\nHe agreed in a sense with Mr Ward on the idea",
+  "z0": 11.030865786510141,
+  "seconds": 144.0
+ }
+}

@@ -1,0 +1,309 @@
+{
+ "sample_id": "samples_len500:150",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8653945332645694,
+ "needed_share": 0.7239422250000259,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 1939,
+  "segments": 14,
+  "eligible": 11,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1678,
+  "eligible_char_share": 0.8653945332645694
+ },
+ "attack": {
+  "z0": 7.244860247099318,
+  "z_final": 1.9716871457721716,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 299,
+  "seconds": 347.0,
+  "seconds_by_phase": {
+   "generate": 320.9,
+   "gates": 25.9,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 206,
+    "z_before": 7.244860247099318,
+    "z_after": 6.13296229019108,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 54,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 2,
+      "unknown word": 2,
+      "numbers changed": 9
+     }
+    },
+    "queries_total": 46,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.58
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 198,
+    "z_before": 6.13296229019108,
+    "z_after": 5.3378795177934535,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "duplicate": 2,
+      "unknown word": 9,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 94,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.28
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 197,
+    "z_before": 5.3378795177934535,
+    "z_after": 4.5033674168838695,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 9,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 141,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 48.58
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 190,
+    "z_before": 4.5033674168838695,
+    "z_after": 3.960448019460865,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 14
+     }
+    },
+    "queries_total": 185,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 58.37
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 168,
+    "z_before": 3.960448019460865,
+    "z_after": 3.200790416215587,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "several lines": 3,
+      "CJK text": 1,
+      "duplicate": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 237,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 47.14
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 156,
+    "z_before": 3.200790416215587,
+    "z_after": 2.58866668752922,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 49,
+     "after_content": 46,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "duplicate": 6,
+      "CJK text": 3,
+      "unknown word": 2,
+      "negation count changed": 3,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 282,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.76
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 148,
+    "z_before": 2.58866668752922,
+    "z_after": 1.9716871457721716,
+    "accepted": true,
+    "survivors": 17,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 57,
+     "after_content": 17,
+     "after_semantic": 17,
+     "fluency_skipped": false,
+     "after_fluency": 17,
+     "rejected": {
+      "unknown word": 3,
+      "quotation changed": 40
+     }
+    },
+    "queries_total": 299,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.21
+   }
+  ],
+  "rewrites": {
+   "4": {
+    "original": "Valverde will look upon the result for the opportunity to rest key stars ahead of the crucial second leg of the Champions League last 16 and the important El Clasico with Barcelona\u2019s city three on Saturday.",
+    "rewrite": "Valverde will examine the result to consider resting key players before the decisive second leg of the Champions League last 16 and the upcoming El Clasico against Barcelona\u2019s city rivals on Saturday."
+   },
+   "12": {
+    "original": "Jackson Martinez has 20 league goals to his name since the start of the season and he accounted for half, or seven of Leganes\u2019 eight goals across all competitions, their most fruitful run this term.",
+    "rewrite": "Jackson Martinez has scored 20 league goals since the start of the season and was responsible for half, or seven of Leganes' eight goals in all competitions during their most prolific period this term."
+   },
+   "3": {
+    "original": "Barca were knocked out of the Copa del Rey fail to the hands of Atletico Madrid after Jan Oblak had saved a first-half penalty from Messi and an added-time effort to secure a 2-1 aggregate victory.",
+    "rewrite": "Barca were eliminated from the Copa del Rey by the hand of Atletico Madrid when Jan Oblak saved penalties from Messi in the first half and at the end of extra time, resulting in a 2-1 aggregate win for Atletico Madrid."
+   },
+   "2": {
+    "original": "Luis Suarez and Ousmane Dembele sit in second and third in LaLiga\u2019s highest debut scorers\u2019 table since the start of 2013-14 and both players are in good form to pick up an important victory.",
+    "rewrite": "Luis Suarez and Ousmane Dembele hold the second and third places in LaLiga\u2019s top debuts scorers since the beginning of the 2013-14 season, and both players are in good form to secure an important win."
+   },
+   "7": {
+    "original": "Barca are evenly matched across all competitions, winning six of their past seven games with their two defeats coming against former rivals Atletico Madrid in the Copa.",
+    "rewrite": "Barca have had similar outcomes in recent matches, winning six out of their last seven, with the only losses occurring against former rivals Atletico Madrid in the Copa."
+   },
+   "1": {
+    "original": "Valverde confirmed that captain Messi will be out again, having lasted the full duration of the midweek loss before being substituted because of his injury.",
+    "rewrite": "Valverde confirmed that captain Messi was omitted again, playing the entire duration of the midweek match until he was replaced due to his injury."
+   },
+   "10": {
+    "original": "In their last six clashes with the \u201coutgoing\u201d Barca of To Merino, Leganes have only experienced defeat once, coming in a 3-2 defeat at the Nou Camp.",
+    "rewrite": "Leganes lost to 'outgoing' Barca under To Merino only once in their last six matches against them, which was a 3-2 defeat at the Nou Camp."
+   }
+  },
+  "final_span": "the coat-tails of leaders Atletico Madrid after Thursday\u2019s 2-1 defeat to Los Rojiblancos in the second leg of the Copa del Rey quarterfinal tie.\nValverde confirmed that captain Messi was omitted again, playing the entire duration of the midweek match until he was replaced due to his injury.\nLuis Suarez and Ousmane Dembele hold the second and third places in LaLiga\u2019s top debuts scorers since the beginning of the 2013-14 season, and both players are in good form to secure an important win.\nBarca were eliminated from the Copa del Rey by the hand of Atletico Madrid when Jan Oblak saved penalties from Messi in the first half and at the end of extra time, resulting in a 2-1 aggregate win for Atletico Madrid.\nValverde will examine the result to consider resting key players before the decisive second leg of the Champions League last 16 and the upcoming El Clasico against Barcelona\u2019s city rivals on Saturday.\nThe 53-year-old has revealed that Messi and Andreas Christen have been ruled out of the Leganes match.\n\u201cPaco Alcacer is back with the rest of the group,\u201d Valverde said to reporters.\nBarca have had similar outcomes in recent matches, winning six out of their last seven, with the only losses occurring against former rivals Atletico Madrid in the Copa.\nThey could benefit from four teams exiting either the Copa del Rey or Champions League on the same day \u2013 the next occurring on February 27.\nBarcelona have been in mixed form this season, losing both away at Atletico Madrid and Real Madrid.\nLeganes lost to 'outgoing' Barca under To Merino only once in their last six matches against them, which was a 3-2 defeat at the Nou Camp.\nMichael Munoz\u2019s men have conceded at least once in six consecutive matches.\nJackson Martinez has scored 20 league goals since the start of the season and was responsible for half, or seven of Leganes' eight goals in all competitions during their most prolific period this term.\nThe numbers 33 and 39 will",
+  "break_point": {
+   "step": 6,
+   "sentences_rewritten": 7,
+   "queries": 299
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 7,
+   "eligible": 11,
+   "segments": 14,
+   "pct_of_eligible": 63.63636363636363,
+   "pct_of_segments": 50.0
+  },
+  "tokens": {
+   "original": 501,
+   "final": 499,
+   "length_change": -2,
+   "pct_not_preserved": 23.15369261477046,
+   "pct_new": 22.84569138276553
+  },
+  "words": {
+   "original": 336,
+   "final": 336,
+   "length_change": 0,
+   "pct_not_preserved": 27.976190476190478,
+   "pct_new": 27.976190476190478
+  },
+  "characters": {
+   "original": 1939,
+   "final": 1948,
+   "length_change": 9,
+   "pct_not_preserved": 19.546157813305832,
+   "pct_new": 19.917864476386036
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 331,
+   "green_after": 271,
+   "pairs_before": 500,
+   "pairs_after": 498,
+   "pairs_changed_before": 159,
+   "pairs_changed_after": 157,
+   "green_fraction_of_new_pairs": 0.40764331210191085,
+   "delta_achieved": 0.09235668789808915
+  }
+ }
+}

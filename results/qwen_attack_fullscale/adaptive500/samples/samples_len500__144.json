@@ -1,0 +1,375 @@
+{
+ "sample_id": "samples_len500:144",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8236703402012459,
+ "needed_share": 0.7133246182692577,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2087,
+  "segments": 26,
+  "eligible": 19,
+  "skipped": 7,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 4,
+   "too short": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1719,
+  "eligible_char_share": 0.8236703402012459
+ },
+ "attack": {
+  "z0": 6.976532089799344,
+  "z_final": 1.7708987758273493,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 326,
+  "seconds": 286.0,
+  "seconds_by_phase": {
+   "generate": 261.4,
+   "gates": 24.4,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 17,
+    "chars": 156,
+    "z_before": 6.976532089799344,
+    "z_after": 6.247585392159377,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "duplicate": 9,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 51,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.89
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 140,
+    "z_before": 6.247585392159377,
+    "z_after": 5.708225502188783,
+    "accepted": true,
+    "survivors": 29,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 29,
+     "rejected": {
+      "CJK text": 4,
+      "meaning too different": 27
+     }
+    },
+    "queries_total": 80,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.29
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 124,
+    "z_before": 5.708225502188783,
+    "z_after": 5.189877347675028,
+    "accepted": true,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 50,
+     "after_content": 5,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "duplicate": 1,
+      "CJK text": 6,
+      "several lines": 1,
+      "unknown word": 2,
+      "negation count changed": 45
+     }
+    },
+    "queries_total": 85,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.43
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 122,
+    "z_before": 5.189877347675028,
+    "z_after": 4.598515136803904,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "duplicate": 15,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 128,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.42
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 118,
+    "z_before": 4.598515136803904,
+    "z_after": 4.188509346732718,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 49,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 8,
+      "unknown word": 2,
+      "negation count changed": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 175,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.8
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 113,
+    "z_before": 4.188509346732718,
+    "z_after": 3.730572572296606,
+    "accepted": true,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "duplicate": 16,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 213,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.95
+   },
+   {
+    "pass": 1,
+    "segment": 18,
+    "chars": 108,
+    "z_before": 3.730572572296606,
+    "z_after": 3.1622776601683795,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 5,
+      "several lines": 1,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 262,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.51
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 106,
+    "z_before": 3.1622776601683795,
+    "z_after": 2.3539293971054818,
+    "accepted": true,
+    "survivors": 29,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 45,
+     "after_content": 33,
+     "after_semantic": 33,
+     "fluency_skipped": false,
+     "after_fluency": 29,
+     "rejected": {
+      "duplicate": 11,
+      "CJK text": 1,
+      "unknown word": 3,
+      "quotation changed": 12,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 291,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.77
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 96,
+    "z_before": 2.3539293971054818,
+    "z_after": 1.7708987758273493,
+    "accepted": true,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "hit length limit": 1,
+      "duplicate": 8,
+      "CJK text": 2,
+      "unknown word": 7,
+      "meaning too different": 1,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 326,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 26.29
+   }
+  ],
+  "rewrites": {
+   "17": {
+    "original": "Andersen instructs us to take her, her coworker Marie-Claude Desrochers, myself, and our escorts and all move to a dark corner of the bar to one long table.",
+    "rewrite": "Andersen tells us to move alongside Marie-Claude Desrochers, my companion, and our guides to a dark corner of the bar where we will sit at one long table."
+   },
+   "3": {
+    "original": "Andersen explains that after coming through the worst divorces, tricky breakups, and awkward methods of dating, they are still apprehensive.",
+    "rewrite": "Andersen notes that even after experiencing the toughest divorces, complicated breakups, and tricky dating methods, they remain apprehensive."
+   },
+   "9": {
+    "original": "Andersen seems to be careful not to recommend too much to her prospective clients, aligning herself with their new ventures.",
+    "rewrite": "Andersen appears careful about not recommending excess to potential clients, aligning with their new undertakings."
+   },
+   "12": {
+    "original": "The hospital will contact the Rosewood it says in red pen as she glances over the form before sliding it across the table.",
+    "rewrite": "The hospital will contact Rosewood, as stated in red pen, when she finishes checking the form and slides it across the table."
+   },
+   "10": {
+    "original": "By closely corresponds and is reluctant to share her married clients\u2019 options, she becomes part of their success team.",
+    "rewrite": "By closely matching her descriptions and hesitating to share her clients' options, she becomes part of their success team."
+   },
+   "11": {
+    "original": "Before we meet what must be her most brilliant clients, Andersen has us sign a \u201ctelemedicine authorization form.\u201d",
+    "rewrite": "Before meeting her what seems to be the most impressive clients, Andersen makes us sign a \"telemedicine authorization form.\""
+   },
+   "18": {
+    "original": "Andersen gets a high wrought-metal chair and plops down on the edge, dangling her legs with luxurious grace.",
+    "rewrite": "Andersen sits on the edge of a high-wrought metal chair, her legs hanging freely with elegant luxury."
+   },
+   "6": {
+    "original": "To prevent pressuring her clients, Andersen offers only one option: to have dinner \u201cat a nice restaurant.\u201d",
+    "rewrite": "Andersen provides just one alternative to avoid pressuring her clients: a meal at a nice restaurant."
+   },
+   "4": {
+    "original": "It seems Andersen gives them just enough of the illusion of power to overcome their trepidation.",
+    "rewrite": "Andersen provides them with a sufficient illusion of power to override their nervousness."
+   }
+  },
+  "final_span": "the technology that exists,\u201d says Andersen. She represents the alpha and bravo who did not graduate from the M.D.-MBA/M.A.-VC-program.\nMost of these men have dated and had their heart broken. Andersen notes that even after experiencing the toughest divorces, complicated breakups, and tricky dating methods, they remain apprehensive. Andersen provides them with a sufficient illusion of power to override their nervousness. Once they are in a comfortable state of confidence, they pick up the phone to ask Andersen out. Andersen provides just one alternative to avoid pressuring her clients: a meal at a nice restaurant. \u201cSome clients we screen during coffee; we just screen for professionalism,\u201d she says. \u201cI don\u2019t do personality tests.\u201d Andersen appears careful about not recommending excess to potential clients, aligning with their new undertakings. By closely matching her descriptions and hesitating to share her clients' options, she becomes part of their success team.\nBefore meeting her what seems to be the most impressive clients, Andersen makes us sign a \"telemedicine authorization form.\" The hospital will contact Rosewood, as stated in red pen, when she finishes checking the form and slides it across the table.\nThese candidates are even more intangible than her other clients. In a way, Andersen is playing God now. Our immediate conspicuous success has not even left the Rosewood. And she is orchestrating the whole affair. Andersen tells us to move alongside Marie-Claude Desrochers, my companion, and our guides to a dark corner of the bar where we will sit at one long table. Andersen sits on the edge of a high-wrought metal chair, her legs hanging freely with elegant luxury. Curious faces peer from the surrounding bar stools or peer above their iPhones. We are clearly missing the fun.\n\u201cWhat do I tell my son?\u201d he asks, passing his red wine back and forth among the full glasses.\n\u201cJust tell him that he\u2019s really lucky!\u201d Andersen says. She tells us that this is her goal: to set us up for success and happiness. She will \u201ciconize\u201d our good traits and",
+  "break_point": {
+   "step": 8,
+   "sentences_rewritten": 9,
+   "queries": 326
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 9,
+   "eligible": 19,
+   "segments": 26,
+   "pct_of_eligible": 47.36842105263158,
+   "pct_of_segments": 34.61538461538461
+  },
+  "tokens": {
+   "original": 501,
+   "final": 486,
+   "length_change": -15,
+   "pct_not_preserved": 22.554890219560875,
+   "pct_new": 20.16460905349794
+  },
+  "words": {
+   "original": 350,
+   "final": 338,
+   "length_change": -12,
+   "pct_not_preserved": 26.285714285714292,
+   "pct_new": 23.668639053254438
+  },
+  "characters": {
+   "original": 2087,
+   "final": 2074,
+   "length_change": -13,
+   "pct_not_preserved": 16.626736942980358,
+   "pct_new": 16.104146576663446
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 328,
+   "green_after": 262,
+   "pairs_before": 500,
+   "pairs_after": 485,
+   "pairs_changed_before": 162,
+   "pairs_changed_after": 147,
+   "green_fraction_of_new_pairs": 0.3197278911564626,
+   "delta_achieved": 0.1802721088435374
+  }
+ }
+}

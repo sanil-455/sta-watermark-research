@@ -1,0 +1,44 @@
+{
+ "sample_id": "sta16_len200:33",
+ "nobox": {
+  "z_final": 8.571428571428571,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "So send him down to Midgard and then another well...replace your favorite God\u2019s son with a puppet; Loki\u2019s going to have him kidnap Hel, daughter of the Frost Giants, to force Frigga to release Balder instead.",
+    "rewrite": "So send him to Midgard, and then another...substitute your favorite God's son with a puppet; Loki plans to have him kidnap Hel, the daughter of the Frost Giants, to force Frigga to release Balder instead."
+   },
+   "2": {
+    "original": "See I really suck at explaining what my Husband does, but he\u2019s probably trying to make us understand that killing Balder for him to mourn him would not be as bad as killing him would it.",
+    "rewrite": "I actually struggle to explain what my husband does, but he might be attempting to help us understand that making him mourn Balder would be less worse than killing him, wouldn't it."
+   },
+   "1": {
+    "original": "She gives him the idea after telling him in a fit of jealousy that her husband Odin could only walk on Yggdrasil (the world tree) by having one foot elevated.",
+    "rewrite": "In a fit of jealousy, she tells him that her husband Odin could only walk on Yggdrasil (the world tree) by having one foot elevated, which gives him the idea."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 53,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "him, and as it does in any household there is anyone who forgets to sign the agreements and Loki\u2019s name is there at the bottom for an approaching wedding. In a fit of jealousy, she tells him that her husband Odin could only walk on Yggdrasil (the world tree) by having one foot elevated, which gives him the idea.\nI actually struggle to explain what my husband does, but he might be attempting to help us understand that making him mourn Balder would be less worse than killing him, wouldn't it. So send him to Midgard, and then another...substitute your favorite God's son with a puppet; Loki plans to have him kidnap Hel, the daughter of the Frost Giants, to force Frigga to release Balder instead. BUT Frigga is of course so over protective she won\u2019t free Balder, but",
+  "z0": 10.465180361560902,
+  "seconds": 171.5
+ }
+}

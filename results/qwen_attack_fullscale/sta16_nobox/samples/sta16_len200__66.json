@@ -1,0 +1,53 @@
+{
+ "sample_id": "sta16_len200:66",
+ "nobox": {
+  "z_final": 6.324937226397934,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "To prove the BJP\u2019s statement in Kisan Mitra Park in Rae Bareli, its leader Prem Saran Yadav claimed the Sangam Express was paid Rs 50,000, Prime Minister Narendra Modi is paid Rs 5 lakh, during India-Australia Test series in Pune Rs 6 crore were paid, he said.",
+    "rewrite": "To prove the BJP's claim at Kisan Mitra Park in Rae Bareli, leader Prem Saran Yadav stated that the Sangam Express was paid Rs 50,000, Prime Minister Narendra Modi is paid Rs 5 lakh, and during the India-Australia Test series in Pune, Rs 6 crore were paid, he said."
+   },
+   "2": {
+    "original": "Instead, it seeks to assail Rahul and Sonia Gandhi, and their \u2018sahukari kehte he hain (co-operative) principles.\u2019",
+    "rewrite": "Instead, it aims to attack Rahul and Sonia Gandhi, and their alleged \u2018co-operative (sahukari kehte he hain) principles.\u2019"
+   },
+   "4": {
+    "original": "From 2009 to 2013, after becoming leader of Opposition, Priyanka Gandhi rightfully claimed no annual salary.",
+    "rewrite": "From 2009 to 2013, after becoming the Leader of Opposition, Priyanka Gandhi rightfully claimed no annual salary."
+   },
+   "1": {
+    "original": "It also claimed the video does not attack Priyanka Gandhi Vadra.",
+    "rewrite": "It also stated that the video does not attack Priyanka Gandhi Vadra."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 60,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 13,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": ". It also stated that the video does not attack Priyanka Gandhi Vadra. Instead, it aims to attack Rahul and Sonia Gandhi, and their alleged \u2018co-operative (sahukari kehte he hain) principles.\u2019 To prove the BJP's claim at Kisan Mitra Park in Rae Bareli, leader Prem Saran Yadav stated that the Sangam Express was paid Rs 50,000, Prime Minister Narendra Modi is paid Rs 5 lakh, and during the India-Australia Test series in Pune, Rs 6 crore were paid, he said.\nFrom 2009 to 2013, after becoming the Leader of Opposition, Priyanka Gandhi rightfully claimed no annual salary. In the video, Priyanka Gandhi Vadra\u2019s son is seen pulling down kidnap king-pin Karim",
+  "z0": 8.626702730475879,
+  "seconds": 206.8
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:119",
+ "nobox": {
+  "z_final": 3.455508723840896,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Part of the attraction of this thinking to PR people is also that, given CGD\u2019s philosophy is built around using communication and marketing to deliver more sustainable development, many of them will have, most probably, worked on at least one project that had both tangible and intangible outcomes.",
+    "rewrite": "A draw for PR professionals in this approach is that, since CGD's philosophy hinges on using communication and marketing to achieve sustainable development, most of them have likely contributed to projects that produced both visible and intangible results."
+   },
+   "3": {
+    "original": "So, basically, if they can somehow link sustainability, impact and ROI goals, they\u2019ll be able to sell pro bono advice and services to the public sector \u2013 and that\u2019s exactly what they fail to do.",
+    "rewrite": "So, essentially, if they can link sustainability, impact and ROI goals, they can sell pro bono advice and services to the public sector \u2013 but that's precisely what they fail to do."
+   },
+   "2": {
+    "original": "And because they were working in the PR sector, probably measured success against many parameters.",
+    "rewrite": "Given that they worked in the PR sector, success was likely measured against numerous parameters."
+   },
+   "4": {
+    "original": "Sustainability and impact differ greatly during the life cycle of a particular business.",
+    "rewrite": "There are significant differences between sustainability and impact throughout the life cycle of a particular business."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 38,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 20,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Return on Impact (ROI). A draw for PR professionals in this approach is that, since CGD's philosophy hinges on using communication and marketing to achieve sustainable development, most of them have likely contributed to projects that produced both visible and intangible results. Given that they worked in the PR sector, success was likely measured against numerous parameters.\nSo, essentially, if they can link sustainability, impact and ROI goals, they can sell pro bono advice and services to the public sector \u2013 but that's precisely what they fail to do.\nThere are significant differences between sustainability and impact throughout the life cycle of a particular business. For example, getting your first cash flow right is crucial, although in the long term, perhaps if part of the business\u2019 social value was donating 50% of net profits to youth community groups",
+  "z0": 3.8183766184073566,
+  "seconds": 166.3
+ }
+}

@@ -1,0 +1,265 @@
+{
+ "sample_id": "baseline_safe:0",
+ "source": "results/raw/baseline_safe.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.2881646655231561,
+ "needed_share": 0.47621719912107596,
+ "delta_needed": 0.0880992539096683,
+ "segmentation": {
+  "chars": 583,
+  "segments": 8,
+  "eligible": 2,
+  "skipped": 6,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "does not start like a sentence": 1,
+   "quotation": 2,
+   "too short": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 168,
+  "eligible_char_share": 0.2881646655231561
+ },
+ "attack": {
+  "z0": 3.8183766184073566,
+  "z_final": 2.82842712474619,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 121,
+  "seconds": 138.3,
+  "seconds_by_phase": {
+   "generate": 127.5,
+   "gates": 10.8,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 87,
+    "z_before": 3.8183766184073566,
+    "z_after": 3.0636231494801147,
+    "accepted": true,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "duplicate": 3,
+      "CJK text": 1,
+      "meaning too different": 8,
+      "perplexity too high": 12
+     }
+    },
+    "queries_total": 37,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.82
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 81,
+    "z_before": 3.0636231494801147,
+    "z_after": 2.906412940534177,
+    "accepted": true,
+    "survivors": 7,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 43,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 12,
+     "fluency_skipped": false,
+     "after_fluency": 7,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 13,
+      "unknown word": 1,
+      "meaning too different": 30,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 44,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 20.97
+   },
+   {
+    "pass": 2,
+    "segment": 6,
+    "chars": 87,
+    "z_before": 2.906412940534177,
+    "z_after": 2.906412940534177,
+    "accepted": false,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "duplicate": 5,
+      "meaning too different": 13,
+      "perplexity too high": 8
+     }
+    },
+    "queries_total": 78,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.69
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 81,
+    "z_before": 2.906412940534177,
+    "z_after": 2.82842712474619,
+    "accepted": true,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 43,
+     "after_content": 43,
+     "after_semantic": 10,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 12,
+      "unknown word": 2,
+      "meaning too different": 33,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 86,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 20.05
+   },
+   {
+    "pass": 3,
+    "segment": 6,
+    "chars": 87,
+    "z_before": 2.82842712474619,
+    "z_after": 2.8426762180748057,
+    "accepted": false,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "duplicate": 2,
+      "meaning too different": 16,
+      "perplexity too high": 11
+     }
+    },
+    "queries_total": 117,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 20.75
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 81,
+    "z_before": 2.82842712474619,
+    "z_after": 2.906412940534177,
+    "accepted": false,
+    "survivors": 6,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 46,
+     "after_spelling": 43,
+     "after_content": 43,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 6,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 11,
+      "unknown word": 3,
+      "meaning too different": 34,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 121,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.16
+   }
+  ],
+  "rewrites": {
+   "6": {
+    "original": "I'll take you to Cincinnati with me - although it looks like she might be coming to us.",
+    "rewrite": "I will bring you to Cincinnati with me, though it seems she could be joining us."
+   },
+   "2": {
+    "original": "A quick internet search shows that Clinton isn't the only one in love with Fiona.",
+    "rewrite": "A quick online search reveals that Clinton is not the sole individual who is enamored with Fiona."
+   }
+  },
+  "final_span": "crush, Fiona the hippo, w fellow @RebuildHealth co-founders Jennifer Fry & Christie Olejniczak! pic.twitter.com/uWoQM0X8bj\n\u2014 Chelsea Clinton (@ChelseaClinton) June 12, 2018\nA quick online search reveals that Clinton is not the sole individual who is enamored with Fiona.\nUSA Today reported that her first tweet on April 14, 2017, was, \"Hello Fiona! I am a proud feminist, who loves, admires, and desperately admires you. #TeamFintan #BringFionaHome.\"\nI love Fiona. I will bring you to Cincinnati with me, though it seems she could be joining us. The zoo said the plan now is to bring Fiona to",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 2,
+   "segments": 8,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 25.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 201,
+   "length_change": 0,
+   "pct_not_preserved": 9.452736318407961,
+   "pct_new": 9.452736318407961
+  },
+  "words": {
+   "original": 96,
+   "final": 96,
+   "length_change": 0,
+   "pct_not_preserved": 17.708333333333336,
+   "pct_new": 17.708333333333336
+  },
+  "characters": {
+   "original": 583,
+   "final": 592,
+   "length_change": 9,
+   "pct_not_preserved": 7.547169811320753,
+   "pct_new": 8.952702702702698
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 127,
+   "green_after": 120,
+   "pairs_before": 200,
+   "pairs_after": 200,
+   "pairs_changed_before": 28,
+   "pairs_changed_after": 28,
+   "green_fraction_of_new_pairs": 0.32142857142857145,
+   "delta_achieved": 0.17857142857142855
+  }
+ }
+}

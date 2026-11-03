@@ -1,0 +1,67 @@
+{
+ "sample_id": "samples_len200:85",
+ "nobox": {
+  "z_final": 2.8635642126552705,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "The ETF is holding up well this year as consumer staples stocks have rallied stronger than the broad market and emerging markets, where the China-US tariff dispute began.",
+    "rewrite": "This year, the ETF has performed well due to consumer staples stocks rallying more strongly than the broader market and emerging markets, starting from the China-US tariff dispute."
+   },
+   "6": {
+    "original": "Staples companies were able to supply consumers with basic necessities without much damage to profits.",
+    "rewrite": "Staples companies managed to provide consumers with essential items without significantly hurting their profitability."
+   },
+   "1": {
+    "original": "XLP is home to household-name brands like Procter & Gamble, Clorox and Coca-Cola.",
+    "rewrite": "XLP is the home to well-known brands such as Procter & Gamble, Clorox, and Coca-Cola."
+   },
+   "3": {
+    "original": "Since the tariff in September, XLP is up more than 13% according to FactSet.",
+    "rewrite": "Since the tariff in September, XLP has risen by over 13% as per FactSet."
+   },
+   "4": {
+    "original": "The S&P 500 meanwhile is up around 8%.",
+    "rewrite": "Meanwhile, the S&P 500 is up approximately 8%."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 2,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 5,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 32,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 12,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "technical standpoint,\" he said on \"Trading Nation.\"\nXLP is the home to well-known brands such as Procter & Gamble, Clorox, and Coca-Cola.\nThis year, the ETF has performed well due to consumer staples stocks rallying more strongly than the broader market and emerging markets, starting from the China-US tariff dispute. Since the tariff in September, XLP has risen by over 13% as per FactSet. Meanwhile, the S&P 500 is up approximately 8%.\nGreg Bassuk, CEO at AXS Investments, claims the \"addiction to the screens\" in the post-pandemic world during the Covid-19 pandemic drove an uptick in consumer consumption. Staples companies managed to provide consumers with essential items without significantly hurting their profitability.\n\"This was a new window of",
+  "z0": 3.959797974644666,
+  "seconds": 191.1
+ }
+}

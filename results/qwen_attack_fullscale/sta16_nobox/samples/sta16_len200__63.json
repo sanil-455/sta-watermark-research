@@ -1,0 +1,26 @@
+{
+ "sample_id": "sta16_len200:63",
+ "nobox": {
+  "z_final": 9.573549484957638,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "Looking toward next season, Purdue signed four recruits for the 2019-20 season and it should add three more players this week, signing with the Boilermakers.",
+    "rewrite": "For next season, Purdue signed four recruits for the 2019-20 season and will add three more players this week, signing them to the Boilermakers."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 53,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "trying nonconference schedule,\" and the team made great strides to close out the season in Big Ten play and came one win over Indiana away from making it to the semifinals of the Big Ten tournament.\n\"Making the WNIT decision was never an easy one for the team or the administration. However, we also feel that taking all of the physical and emotional points in to consideration, we collectively felt the most empathy and sensitivity toward the physical wellbeing of our team. We remain committed and excited for our future.\u201d said Kevin McDonald, senior associate athletics director, Purdue's senior associate athletics director for football.\nFor next season, Purdue signed four recruits for the 2019-20 season and will add three more players this week, signing them to the Boilermakers.\nCopyright 2019 KSL.com. All rights reserved.",
+  "z0": 10.383665673571777,
+  "seconds": 52.8
+ }
+}

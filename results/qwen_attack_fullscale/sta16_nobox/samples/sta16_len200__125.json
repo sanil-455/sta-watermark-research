@@ -1,0 +1,44 @@
+{
+ "sample_id": "sta16_len200:125",
+ "nobox": {
+  "z_final": 6.734371447579191,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Other featured artists in Mr. Swanson\u2019s roster of K-12, Syracuse, and North Syracuse students include tastemaker \u201cGucci Thizz\u201d (sic), who, claims Swanson, is particularly inspired by \u201cStop Snitching\u201d by East Coast rap giants Yall So Cold.",
+    "rewrite": "Other featured artists in Mr. Swanson\u2019s roster of K-12, Syracuse, and North Syracuse students include tastemaker \u201cGucci Thizz\u201d (sic), according to Swanson, who is notably inspired by \u201cStop Snitching\u201d by East Coast rap giants Yall So Cold."
+   },
+   "3": {
+    "original": "Gucci\u2019s own SoundCloud, if linked to and not totally ruined by his crude username, would not have been spotted by us in any event as it would not exactly appear to be a top player for those above age fifteen.",
+    "rewrite": "If Gucci's SoundCloud had been linked to but not overshadowed by his crude username, we likely still would not have noticed it, as it wouldn't seem to attract players above the age of fifteen."
+   },
+   "1": {
+    "original": "It is unclear if the students love Mr. Swanson\u2019s hip-hop enough to listen to, say, Kendrick Lamar, but they sure do like listening to their teacher rap.",
+    "rewrite": "It's uncertain whether the students love Mr. Swanson's hip-hop enough to follow along to, for example, Kendrick Lamar, but they clearly enjoy listening to their teacher rap."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 49,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "are trying to make learning fun and give them a visual which helps them remember their new found knowledge.\u201d It's uncertain whether the students love Mr. Swanson's hip-hop enough to follow along to, for example, Kendrick Lamar, but they clearly enjoy listening to their teacher rap.\nOther featured artists in Mr. Swanson\u2019s roster of K-12, Syracuse, and North Syracuse students include tastemaker \u201cGucci Thizz\u201d (sic), according to Swanson, who is notably inspired by \u201cStop Snitching\u201d by East Coast rap giants Yall So Cold. If Gucci's SoundCloud had been linked to but not overshadowed by his crude username, we likely still would not have noticed it, as it wouldn't seem to attract players above the age of fifteen. It is entirely possible that Mr Swanson\u2019s kidnap-themed track is far",
+  "z0": 10.606601717798213,
+  "seconds": 210.2
+ }
+}

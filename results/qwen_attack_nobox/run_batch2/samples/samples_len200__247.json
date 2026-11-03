@@ -1,0 +1,49 @@
+{
+ "sample_id": "samples_len200:247",
+ "nobox": {
+  "z_final": 1.9335101599064688,
+  "status": "broken",
+  "rewrites": {
+   "4": {
+    "original": "There is good news, of a sort: according to the Office of National Statistics, there were fewer deaths by alcohol, 4,891, in 2004 than in 1970, the peak year, when 15,219 people succumbed.",
+    "rewrite": "Of a sort, there is good news: the Office of National Statistics reports that in 2004, with 4,891 alcohol-related deaths, there were fewer than in 1970, the peak year with 15,219 deaths."
+   },
+   "1": {
+    "original": "And let\u2019s not worry too much about such health problems as alcohol-related sickness and premature death.",
+    "rewrite": "Let's not worry too much about health issues like alcohol-induced sickness and dying young."
+   },
+   "3": {
+    "original": "But according to CAMRA, there will be 2,000 fewer pubs on Britain\u2019s streets by the end of 2009.",
+    "rewrite": "But CAMRA reports that there will be 2,000 fewer pubs on Britain\u2019s streets by the end of 2009."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 32,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 0,
+    "rewritten": false
+   }
+  ],
+  "queries": 1,
+  "final_span": "the friendly crossfire of loose talk, to let down the barriers of which we heartily approve when we totter outside in the street. Let's not worry too much about health issues like alcohol-induced sickness and dying young. I am no pansy: I don\u2019t want anything inflicted on me until I\u2019m good and ready. But CAMRA reports that there will be 2,000 fewer pubs on Britain\u2019s streets by the end of 2009.\nOf a sort, there is good news: the Office of National Statistics reports that in 2004, with 4,891 alcohol-related deaths, there were fewer than in 1970, the peak year with 15,219 deaths. So perhaps if part of the Gregorian calendar could be shifted from one side of the year to",
+  "z0": 2.262741699796952,
+  "seconds": 175.2
+ }
+}

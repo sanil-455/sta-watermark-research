@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:254",
+ "nobox": {
+  "z_final": 2.596890903471307,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "Julia Vanatta, another student, said she thought at first that there was a fire drill, but then realized shooters were firing in the hallway.",
+    "rewrite": "Julia Vanatta, another student, initially believed it was a fire drill but later acknowledged that shooters were firing in the hallway."
+   },
+   "2": {
+    "original": "The Huffington Post could not independently verify the student's account.",
+    "rewrite": "The student's account could not be independently verified by The Huffington Post."
+   },
+   "5": {
+    "original": "But other students expressed confusion over why the incident occurred.",
+    "rewrite": "However, other students expressed confusion about the reasons for the incident."
+   },
+   "3": {
+    "original": "Other students said they believed the shooting was targeted.",
+    "rewrite": "Other students stated that they believed the shooting was targeted."
+   },
+   "4": {
+    "original": "Alice Nixon, 13, according to the Post.",
+    "rewrite": "Alice Nixon, 13, as stated by the Post."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 1,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 8,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "once told a girl he had a gun in his backpack.\n\"He's not very cool, likes to sit alone,\" Komertz told the AP over the phone, his voice shaky. The student's account could not be independently verified by The Huffington Post.\nOther students stated that they believed the shooting was targeted.\nAlice Nixon, 13, as stated by the Post.\nHowever, other students expressed confusion about the reasons for the incident.\nJulia Vanatta, another student, initially believed it was a fire drill but later acknowledged that shooters were firing in the hallway.\n\"We just ran, and we just thought, 'OK, we're safe because we're far from them,'\" the Huffington Post reported. \"I had no idea what was going on or why - or even what it was, I mean if it was a drill, I don't know how anyone",
+  "z0": 3.676955262170047,
+  "seconds": 112.1
+ }
+}

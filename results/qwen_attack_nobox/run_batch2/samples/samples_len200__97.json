@@ -1,0 +1,49 @@
+{
+ "sample_id": "samples_len200:97",
+ "nobox": {
+  "z_final": 2.219956109522242,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Chairman of the Singapore Press Holdings\u2019 Chinese Media Group Yeo Ban Leong, pointed out that fake news, which is a global phenomenon, needs two fundamental pressures - political institutions, and an informed, reflective, critical and analytical public to make sure differing views are respected.",
+    "rewrite": "The chairman of Singapore Press Holdings\u2019 Chinese Media Group, Yeo Ban Leong, noted that fake news, a worldwide issue, requires two key pressures\u2014political structures\u2014and an educated, reflective, critical, and analytical populace to ensure respect for diverse viewpoints."
+   },
+   "4": {
+    "original": "In the United States, the unilateral decision to impose tariffs on China and other countries has caused economic uncertainty since 2017.",
+    "rewrite": "Since 2017, the unilateral decision by the United States to impose tariffs on China and other countries has created economic uncertainty."
+   },
+   "1": {
+    "original": "Singaporeans are receptive to fake news because S'pore is a country where trust exists.",
+    "rewrite": "Singaporeans accept fake news due to the existing high level of trust in S'pore."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 3,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 34,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "develop their thinking skills.\nSingaporeans accept fake news due to the existing high level of trust in S'pore.\nDr Jessica Chen Weixuan, lecturer at the Nanyang Technological University Wee Kim Wee School of Communication and Art, stressed at the forum that Singaporeans do not have a critical-thinking training in methods to overcome self-inflicting beliefs, and think about opposing views in a different way.\nThe chairman of Singapore Press Holdings\u2019 Chinese Media Group, Yeo Ban Leong, noted that fake news, a worldwide issue, requires two key pressures\u2014political structures\u2014and an educated, reflective, critical, and analytical populace to ensure respect for diverse viewpoints.\nSince 2017, the unilateral decision by the United States to impose tariffs on China and other countries has created economic uncertainty. The North American",
+  "z0": 4.666904755831213,
+  "seconds": 186.6
+ }
+}

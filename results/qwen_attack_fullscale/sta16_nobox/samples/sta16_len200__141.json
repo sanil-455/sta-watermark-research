@@ -1,0 +1,62 @@
+{
+ "sample_id": "sta16_len200:141",
+ "nobox": {
+  "z_final": 5.79827560572969,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "I sometimes get jealous or sceptical, but since these particular dogs are small, and the majority is made up of Westies, I always get intimidated at first, but then I realize I three time their size, no need to be jealous whatsoever\u2026 now if I had a Pekingese, there you got me.",
+    "rewrite": "At times I feel jealous or skeptical, but as these particular dogs are small, and the majority consists of Westies, I invariably get intimidated initially. But then I remind myself that I am three times their size, so there's no reason to be jealous... yet if I had a Pekingese, that would be a different story."
+   },
+   "2": {
+    "original": "Anyway, after you\u2019ve overturned your bookcase this month (as H is apt to do, I must confess) take a break and flip through Very Interesting.",
+    "rewrite": "Anyway, if you've overturned your bookcase this month (as H tends to do, I must admit), take a break and flip through Very Interesting."
+   },
+   "5": {
+    "original": "He has formed binds with many canines in two of our local dog parks and is named as a dog\u2019s favourite person without exception.",
+    "rewrite": "He has formed bonds with many canines in two of our local dog parks and is named as the dog's favorite person without exception."
+   },
+   "4": {
+    "original": "On a lighter note, H is continuing to master the art of being chased by a dog.",
+    "rewrite": "On a lighter note, H is still learning to handle being chased by a dog."
+   },
+   "1": {
+    "original": "We don\u2019t have anyone\u2019s poodle.",
+    "rewrite": "We don't have anybody's poodle."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 18,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 14,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "unrelated species as pets. We don't have anybody's poodle.\nAnyway, if you've overturned your bookcase this month (as H tends to do, I must admit), take a break and flip through Very Interesting. I think you\u2019ll love it.\nOn a lighter note, H is still learning to handle being chased by a dog. He has formed bonds with many canines in two of our local dog parks and is named as the dog's favorite person without exception.\nAt times I feel jealous or skeptical, but as these particular dogs are small, and the majority consists of Westies, I invariably get intimidated initially. But then I remind myself that I am three times their size, so there's no reason to be jealous... yet if I had a Pekingese, that would be a different story.\nI am fascin",
+  "z0": 10.182337649086284,
+  "seconds": 192.8
+ }
+}

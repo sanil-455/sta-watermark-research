@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:347",
+ "nobox": {
+  "z_final": 3.733382424812238,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "British Gas Trading Limited (BGTL) was paid a total of \u00a313,000 in 2017/18, with \u00a39000 reportedly paid for consultation on sustainable energy.",
+    "rewrite": "British Gas Trading Limited (BGTL) received a total of \u00a313,000 in 2017/18, including \u00a39000 reportedly paid for consultations on sustainable energy."
+   },
+   "1": {
+    "original": "Watchdog Keep Glasgow Beautiful made \u00a3680,000 last year as part of the contract of the Love Your Neighbour campaign.",
+    "rewrite": "Watchdog Keep Glasgow Beautiful earned \u00a3680,000 last year through the Love Your Neighbour campaign contract."
+   },
+   "3": {
+    "original": "In total, \u00a32.2 million was paid out to British Gas for the clean heating scheme subsidiary.",
+    "rewrite": "A total of \u00a32.2 million was paid to British Gas for the clean heating scheme subsidiary."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 12,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "on municipal services in Qatar.\nWatchdog Keep Glasgow Beautiful earned \u00a3680,000 last year through the Love Your Neighbour campaign contract.\nBritish Gas Trading Limited (BGTL) received a total of \u00a313,000 in 2017/18, including \u00a39000 reportedly paid for consultations on sustainable energy.\nA total of \u00a32.2 million was paid to British Gas for the clean heating scheme subsidiary.\nCalum Lynch, spokesman for the Save Our Services Campaign, said the \u201cexorbitant\u201d amount spent, named as the \u201ccharade fail ed by council\u201d, could be used to employ more people during the bedroom tax scheme.\nHe added that firms such as Ernst and Young probably offer \u201cdiscounted rates\u201d to local authorities since 2017/18",
+  "z0": 4.808326112068523,
+  "seconds": 122.1
+ }
+}

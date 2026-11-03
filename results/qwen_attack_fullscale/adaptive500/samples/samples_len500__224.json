@@ -1,0 +1,532 @@
+{
+ "sample_id": "samples_len500:224",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.3970037453183521,
+ "needed_share": 0.7079959751151808,
+ "delta_needed": 0.11997233029567528,
+ "segmentation": {
+  "chars": 2136,
+  "segments": 12,
+  "eligible": 4,
+  "skipped": 8,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 5,
+   "no final punctuation": 1,
+   "does not start like a sentence": 1
+  },
+  "eligible_chars": 848,
+  "eligible_char_share": 0.3970037453183521
+ },
+ "attack": {
+  "z0": 6.849220659848432,
+  "z_final": 5.5173040393999555,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 4,
+  "queries": 286,
+  "seconds": 733.2,
+  "seconds_by_phase": {
+   "generate": 705.5,
+   "gates": 27.6,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 301,
+    "z_before": 6.849220659848432,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 42,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 16,
+      "negation count changed": 42
+     }
+    },
+    "queries_total": 1,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.1
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 259,
+    "z_before": 6.849220659848432,
+    "z_after": 6.299415427683661,
+    "accepted": true,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 41,
+     "after_spelling": 41,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "duplicate": 19,
+      "numbers changed": 5
+     }
+    },
+    "queries_total": 37,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 57.22
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 247,
+    "z_before": 6.299415427683661,
+    "z_after": 5.876153082612961,
+    "accepted": true,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 29,
+     "after_spelling": 29,
+     "after_content": 27,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "duplicate": 31,
+      "numbers changed": 2
+     }
+    },
+    "queries_total": 64,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.86
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 41,
+    "z_before": 5.876153082612961,
+    "z_after": 5.567764362830022,
+    "accepted": true,
+    "survivors": 10,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 34,
+     "after_content": 34,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 10,
+     "rejected": {
+      "duplicate": 21,
+      "CJK text": 5,
+      "meaning too different": 23,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 74,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 10.88
+   },
+   {
+    "pass": 2,
+    "segment": 7,
+    "chars": 301,
+    "z_before": 5.567764362830022,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 38,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 20,
+      "glued punctuation": 1,
+      "negation count changed": 38
+     }
+    },
+    "queries_total": 74,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.7
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 259,
+    "z_before": 5.567764362830022,
+    "z_after": 5.708225502188783,
+    "accepted": false,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 51,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "duplicate": 9,
+      "numbers changed": 4,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 120,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 57.69
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 247,
+    "z_before": 5.567764362830022,
+    "z_after": 5.556572865357938,
+    "accepted": true,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 25,
+     "after_spelling": 25,
+     "after_content": 24,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "duplicate": 35,
+      "numbers changed": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 143,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.86
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 41,
+    "z_before": 5.556572865357938,
+    "z_after": 5.595768512948065,
+    "accepted": false,
+    "survivors": 7,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 39,
+     "after_spelling": 39,
+     "after_content": 39,
+     "after_semantic": 10,
+     "fluency_skipped": false,
+     "after_fluency": 7,
+     "rejected": {
+      "duplicate": 17,
+      "CJK text": 4,
+      "meaning too different": 29,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 150,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 10.94
+   },
+   {
+    "pass": 3,
+    "segment": 7,
+    "chars": 301,
+    "z_before": 5.556572865357938,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 32,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 2,
+      "several lines": 1,
+      "unknown word": 25,
+      "negation count changed": 32
+     }
+    },
+    "queries_total": 150,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 55.42
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 259,
+    "z_before": 5.556572865357938,
+    "z_after": 5.708225502188783,
+    "accepted": false,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 47,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 12,
+      "numbers changed": 6
+     }
+    },
+    "queries_total": 191,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 57.81
+   },
+   {
+    "pass": 3,
+    "segment": 5,
+    "chars": 247,
+    "z_before": 5.556572865357938,
+    "z_after": 5.646195008347583,
+    "accepted": false,
+    "survivors": 22,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 23,
+     "after_spelling": 22,
+     "after_content": 22,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 22,
+     "rejected": {
+      "duplicate": 37,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 202,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.93
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 41,
+    "z_before": 5.556572865357938,
+    "z_after": 5.5173040393999555,
+    "accepted": true,
+    "survivors": 8,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 37,
+     "after_spelling": 37,
+     "after_content": 37,
+     "after_semantic": 12,
+     "fluency_skipped": false,
+     "after_fluency": 8,
+     "rejected": {
+      "CJK text": 5,
+      "duplicate": 18,
+      "meaning too different": 25,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 205,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 10.75
+   },
+   {
+    "pass": 4,
+    "segment": 7,
+    "chars": 301,
+    "z_before": 5.5173040393999555,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 37,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 20,
+      "negation count changed": 37
+     }
+    },
+    "queries_total": 205,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.76
+   },
+   {
+    "pass": 4,
+    "segment": 3,
+    "chars": 259,
+    "z_before": 5.5173040393999555,
+    "z_after": 5.758992264522848,
+    "accepted": false,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 47,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "duplicate": 13,
+      "numbers changed": 3
+     }
+    },
+    "queries_total": 249,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 56.88
+   },
+   {
+    "pass": 4,
+    "segment": 5,
+    "chars": 247,
+    "z_before": 5.5173040393999555,
+    "z_after": 5.5173040393999555,
+    "accepted": false,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 34,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "duplicate": 26,
+      "numbers changed": 2
+     }
+    },
+    "queries_total": 280,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.85
+   },
+   {
+    "pass": 4,
+    "segment": 4,
+    "chars": 41,
+    "z_before": 5.5173040393999555,
+    "z_after": 5.5173040393999555,
+    "accepted": false,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 41,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 15,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "duplicate": 18,
+      "CJK text": 1,
+      "meaning too different": 26,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 286,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 10.81
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "The 2018 Holte vehicle-mounted fire control sensor was integrated on an NLOS-C air-mobile launcher at White Sands Missile Range, New Mexico, before the successful execution of an integrated live-fire demo against an objective in February at Fort Bliss, Texas.",
+    "rewrite": "The Holte vehicle-mounted fire control sensor, used in the 2018 NLOS-C air-mobile launcher, was integrated at White Sands Missile Range, New Mexico, prior to a successful integrated live-fire demonstration in February against an objective at Fort Bliss, Texas."
+   },
+   "5": {
+    "original": "Eighteen Soldiers from the Illinois Army National Guard\u2019s Regional Cyber Protection Team-South have graduated from Army Logistics Basic Officer Leaders Course (LOG BOLC) Class 72 at Fort Lee, Virginia, accruing their BOLC ALC II completion badges.",
+    "rewrite": "Sixteen soldiers from the Illinois Army National Guard\u2019s Regional Cyber Protection Team-South have completed the Army Logistics Basic Officer Leaders Course (LOG BOLC) Class 72 at Fort Lee, Virginia, earning their BOLC ALC II completion badges."
+   },
+   "4": {
+    "original": "The right firing solution came down to...",
+    "rewrite": "The correct shooting solution was..."
+   }
+  },
+  "final_span": "the Human Capital Framework - programs that help managers to understand the critical aspects of their Sustainment, Transformation, and Modernization workforce - will also be overhauled to assure their intent focuses on an ambitious yet practical approach to meeting future Armed Forces requirements.\n\"While I don't have a specific timeline to announce, I do believe Ready Army Civilian aligns to the overall reform efforts identified throughout the tribes (AMC's human resource functional experts) and across the AMC enterprise. The readiness health and well-being of our civilians matters in the same way Soldier readiness and the health and well being of Soldier readiness matters,\" Wyche said.\nThe Holte vehicle-mounted fire control sensor, used in the 2018 NLOS-C air-mobile launcher, was integrated at White Sands Missile Range, New Mexico, prior to a successful integrated live-fire demonstration in February against an objective at Fort Bliss, Texas. The correct shooting solution was...\nSixteen soldiers from the Illinois Army National Guard\u2019s Regional Cyber Protection Team-South have completed the Army Logistics Basic Officer Leaders Course (LOG BOLC) Class 72 at Fort Lee, Virginia, earning their BOLC ALC II completion badges.\nArmy Materiel Command's holiday mission: Meet deadline in a conspicuous budget season\nArmy Materiel Command is no stranger to the challenges of fulfilling a preplanned program the day after Christmas, and this holiday week was no different as Sustainment commanders across the department were presented with the late-breaking priority to complete and resubmit all funding plans to the...\n\u201cI accepted this charge with great responsibility,\u201d said Keim. \u201cFrom the beginning, I realized that the responsibility to execute this mission is why each one of us is here at IAMT and I accept it wholeheartedly. So, each day we will attempt to add value\u2026\u2026and when we succeed and we do succeed, we will be proud of our success and we will share it, and be proud of the dedicated individuals that make the Film's Mission Success possible and let the world know that we are here and ready to execute.\u201d\n3",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 4,
+   "segments": 12,
+   "pct_of_eligible": 75.0,
+   "pct_of_segments": 25.0
+  },
+  "tokens": {
+   "original": 500,
+   "final": 498,
+   "length_change": -2,
+   "pct_not_preserved": 6.2000000000000055,
+   "pct_new": 5.823293172690757
+  },
+  "words": {
+   "original": 337,
+   "final": 334,
+   "length_change": -3,
+   "pct_not_preserved": 7.41839762611276,
+   "pct_new": 6.586826347305386
+  },
+  "characters": {
+   "original": 2136,
+   "final": 2129,
+   "length_change": -7,
+   "pct_not_preserved": 4.026217228464423,
+   "pct_new": 3.7106622827618563
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 326,
+   "green_after": 310,
+   "pairs_before": 499,
+   "pairs_after": 497,
+   "pairs_changed_before": 44,
+   "pairs_changed_after": 42,
+   "green_fraction_of_new_pairs": 0.35714285714285715,
+   "delta_achieved": 0.14285714285714285
+  }
+ }
+}

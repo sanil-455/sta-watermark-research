@@ -1,0 +1,317 @@
+{
+ "sample_id": "samples_len500:325",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.7994722955145118,
+ "needed_share": 0.6711664738970897,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 1516,
+  "segments": 18,
+  "eligible": 12,
+  "skipped": 6,
+  "skip_reasons": {
+   "does not start like a sentence": 5,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1212,
+  "eligible_char_share": 0.7994722955145118
+ },
+ "attack": {
+  "z0": 6.082104898799428,
+  "z_final": 1.7708987758273493,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 257,
+  "seconds": 256.0,
+  "seconds_by_phase": {
+   "generate": 236.7,
+   "gates": 19.1,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 155,
+    "z_before": 6.082104898799428,
+    "z_after": 5.327171624326558,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "duplicate": 10,
+      "unknown word": 5,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 45,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.22
+   },
+   {
+    "pass": 1,
+    "segment": 13,
+    "chars": 130,
+    "z_before": 5.327171624326558,
+    "z_after": 4.351044648957688,
+    "accepted": true,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 41,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 17,
+      "glued punctuation": 1,
+      "numbers changed": 9
+     }
+    },
+    "queries_total": 77,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 39.76
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 124,
+    "z_before": 4.351044648957688,
+    "z_after": 3.502303389522111,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 54,
+     "after_content": 53,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 3,
+      "glued punctuation": 1,
+      "unknown word": 2,
+      "negation count changed": 1,
+      "meaning too different": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 126,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.73
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 122,
+    "z_before": 3.502303389522111,
+    "z_after": 2.710523708715754,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 8,
+      "meaning too different": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 169,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.76
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 111,
+    "z_before": 2.710523708715754,
+    "z_after": 2.4821152532358832,
+    "accepted": true,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 45,
+     "after_content": 34,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "duplicate": 4,
+      "unknown word": 11,
+      "negation count changed": 11,
+      "meaning too different": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 200,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.76
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 106,
+    "z_before": 2.4821152532358832,
+    "z_after": 2.1773242158072694,
+    "accepted": true,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 52,
+     "after_content": 5,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "duplicate": 1,
+      "CJK text": 1,
+      "unknown word": 6,
+      "negation count changed": 39,
+      "numbers changed": 8,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 204,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.91
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 102,
+    "z_before": 2.1773242158072694,
+    "z_after": 1.7708987758273493,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 1,
+      "unknown word": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 257,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.6
+   }
+  ],
+  "rewrites": {
+   "9": {
+    "original": "See Nick Knight\u2019s Swimsuit Collection, Starring Alasdair Mittlerno, Dree Hemingway, and MoreThe British high fashion photographer got help from Bj\u00f6rn Borg.",
+    "rewrite": "See Nick Knight\u2019s Swimsuit Collection, Starred by Alasdair Mittlerno, Dree Hemingway, and Others, Where Bj\u00f6rn Borg Provided Assistance."
+   },
+   "13": {
+    "original": "Kourtney Kardashian Is the Del Mar \u2018Country Biebz 2\u2019 Version We Deserve, Joined By KimShe\u2019s traded Merino lamb skins for lambskin.",
+    "rewrite": "Kourtney Kardashian is the del Mar \u201cCountry Before 2\u201d version we deserve, joined by Kim; she\u2019s swapped Merino lamb skins for lambskin."
+   },
+   "6": {
+    "original": "G.O.O.D Music Stencils Blame Mountain Dew for Kanye\u2019s MediocrityAnd the Pepsi and Old Navy seals of approval sign off on it.",
+    "rewrite": "G.O.O.D Music Attributes Kanye\u2019s Shift to Mediocrity to Mountain Dew, With Seals of Approval from Pepsi and Old Navy Still Valid."
+   },
+   "2": {
+    "original": "Drake Is Suing a Woman With an Actual Song Named \u2018Still Kanye\u2019Drake claims the song was released months after their split.",
+    "rewrite": "Drake is suing a woman over a song called \u2018Still Alice,\u2019 claiming it was released months after they broke up."
+   },
+   "3": {
+    "original": "Listen to the Chris Brown Edit of Kanye\u2019s Jamaica-Inspired \u2018Champions\u2019Here\u2019s another edit you\u2019re not mad about.",
+    "rewrite": "Check out the Chris Brown Edit of Kanye\u2019s Jamaica-Inspired \u2018Champions\u2019. Here\u2019s another edit you won\u2019t regret listening to."
+   },
+   "5": {
+    "original": "Ty Dolla $ign and Childish Gambino, Arguing Mid-Air, Do Not Land in LoveThe Sk8er Boi verses the Rockstar.",
+    "rewrite": "Ty Dolla $ign and Childish Gambino argued mid-air and did not land for The Sk8er Boi verses the Rockstar."
+   },
+   "10": {
+    "original": "Kanye West Debuts First-Ever Creations From His Adidas Yeezy LineAnd they\u2019re not even really sneakers.",
+    "rewrite": "Kanye West Reveals Initial Items From His Adidas Yeezy Collection, And They Aren't Even True Sneakers."
+   }
+  },
+  "final_span": "Dad\u2019s PhoneWhich is sort of a symbolic gesture if we do say so ourselves. It's also kids this is a terrible photo to be in.\nDrake is suing a woman over a song called \u2018Still Alice,\u2019 claiming it was released months after they broke up.\nCheck out the Chris Brown Edit of Kanye\u2019s Jamaica-Inspired \u2018Champions\u2019. Here\u2019s another edit you won\u2019t regret listening to.\nfight clubs June 1, 2018\nTy Dolla $ign and Childish Gambino argued mid-air and did not land for The Sk8er Boi verses the Rockstar.\nG.O.O.D Music Attributes Kanye\u2019s Shift to Mediocrity to Mountain Dew, With Seals of Approval from Pepsi and Old Navy Still Valid.\nKanye Chops and Screws on \u2018Closed on Sundays\u2019Soul meets Automatic for the People!\njort watch Mar. 7, 2018\nSee Nick Knight\u2019s Swimsuit Collection, Starred by Alasdair Mittlerno, Dree Hemingway, and Others, Where Bj\u00f6rn Borg Provided Assistance.\nKanye West Reveals Initial Items From His Adidas Yeezy Collection, And They Aren't Even True Sneakers.\nIf Entirely Appropriate Moving Picture Will Haunt Your DreamsNo more innocents.\nurban cowboy Mar. 5, 2018\nKourtney Kardashian is the del Mar \u201cCountry Before 2\u201d version we deserve, joined by Kim; she\u2019s swapped Merino lamb skins for lambskin.\nkanye-mania Feb. 27, 2018\nEmployees Faint During Kanye Concert in Salt Lake CityIn the front row, no less.\njort watch Feb. 7, 2018\nLiam Hemsworth Channeled His Inner Kid in the Range Rover Suicide Squad Cast FilmWhich means he and wife Miley Cyrus spent plenty of time shopping and hanging out in R",
+  "break_point": {
+   "step": 6,
+   "sentences_rewritten": 7,
+   "queries": 257
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 7,
+   "eligible": 12,
+   "segments": 18,
+   "pct_of_eligible": 58.333333333333336,
+   "pct_of_segments": 38.888888888888886
+  },
+  "tokens": {
+   "original": 501,
+   "final": 486,
+   "length_change": -15,
+   "pct_not_preserved": 21.556886227544915,
+   "pct_new": 19.135802469135797
+  },
+  "words": {
+   "original": 250,
+   "final": 251,
+   "length_change": 1,
+   "pct_not_preserved": 29.600000000000005,
+   "pct_new": 29.880478087649397
+  },
+  "characters": {
+   "original": 1516,
+   "final": 1502,
+   "length_change": -14,
+   "pct_not_preserved": 15.765171503957786,
+   "pct_new": 14.980026631158461
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 318,
+   "green_after": 262,
+   "pairs_before": 500,
+   "pairs_after": 485,
+   "pairs_changed_before": 135,
+   "pairs_changed_after": 120,
+   "green_fraction_of_new_pairs": 0.3333333333333333,
+   "delta_achieved": 0.16666666666666669
+  }
+ }
+}

@@ -1,0 +1,179 @@
+{
+ "sample_id": "baseline_safe:3",
+ "source": "results/raw/baseline_safe.json",
+ "layout": "prompt+text",
+ "tokens": 170,
+ "eligible_share": 0.4759427828348505,
+ "needed_share": 0.45673313289977924,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 769,
+  "segments": 5,
+  "eligible": 3,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 366,
+  "eligible_char_share": 0.4759427828348505
+ },
+ "attack": {
+  "z0": 3.6814319464673777,
+  "z_final": 1.934558081335342,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 35,
+  "seconds": 27.3,
+  "seconds_by_phase": {
+   "generate": 24.9,
+   "gates": 2.3,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 142,
+    "z_before": 3.6814319464673777,
+    "z_after": 3.1046021028253312,
+    "accepted": true,
+    "survivors": 17,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 19,
+     "after_spelling": 18,
+     "after_content": 18,
+     "after_semantic": 18,
+     "fluency_skipped": false,
+     "after_fluency": 17,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 18,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 8.39
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 121,
+    "z_before": 3.1046021028253312,
+    "z_after": 2.3284515771189986,
+    "accepted": true,
+    "survivors": 13,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 13,
+     "after_spelling": 13,
+     "after_content": 13,
+     "after_semantic": 13,
+     "fluency_skipped": false,
+     "after_fluency": 13,
+     "rejected": {
+      "duplicate": 6,
+      "CJK text": 1
+     }
+    },
+    "queries_total": 31,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 7.95
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 103,
+    "z_before": 2.3284515771189986,
+    "z_after": 1.934558081335342,
+    "accepted": true,
+    "survivors": 4,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 4,
+     "after_spelling": 4,
+     "after_content": 4,
+     "after_semantic": 4,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "duplicate": 16
+     }
+    },
+    "queries_total": 35,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 8.57
+   }
+  ],
+  "rewrites": {
+   "1": {
+    "original": "Sustainability policies should also give room for communities who opt for different energy and climate policies over and above state mandates.",
+    "rewrite": "Sustainability policies ought to allow space for communities choosing distinct energy and climate strategies beyond state requirements."
+   },
+   "3": {
+    "original": "He has also served in the executive leadership role as SVP International and policy at the American Solar Energy Society.",
+    "rewrite": "He also held the position of SVP International and Policy in the executive leadership at the American Solar Energy Society."
+   },
+   "2": {
+    "original": "Mario Oriani-Ambrosini is Vice President of Nuclear Policy Initiatives at the Nuclear Energy Institute.",
+    "rewrite": "Mario Oriani-Ambrosini serves as Vice President of Nuclear Policy Initiatives at the Nuclear Energy Institute."
+   }
+  },
+  "final_span": "make their own decisions as it pertains to their respective energy sectors. Sustainability policies ought to allow space for communities choosing distinct energy and climate strategies beyond state requirements.\nMario Oriani-Ambrosini serves as Vice President of Nuclear Policy Initiatives at the Nuclear Energy Institute. He also held the position of SVP International and Policy in the executive leadership at the American Solar Energy Society.\nCalifornia Green New Deal advocates want a windfall tax on wholesale energy sales, yet it\u2019s already heavily taxed Next stop Hong Kong: Looming fossil fuel imports, reduced solar claims, and tax credits fail renewable assets Previous stop Brownsville, Texas: Local flooding and infrastructure an issue for solar More articles",
+  "break_point": {
+   "step": 2,
+   "sentences_rewritten": 3,
+   "queries": 35
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 3,
+   "segments": 5,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 60.0
+  },
+  "tokens": {
+   "original": 171,
+   "final": 168,
+   "length_change": -3,
+   "pct_not_preserved": 14.035087719298245,
+   "pct_new": 12.5
+  },
+  "words": {
+   "original": 116,
+   "final": 113,
+   "length_change": -3,
+   "pct_not_preserved": 18.965517241379317,
+   "pct_new": 16.814159292035402
+  },
+  "characters": {
+   "original": 769,
+   "final": 771,
+   "length_change": 2,
+   "pct_not_preserved": 11.833550065019505,
+   "pct_new": 12.062256809338523
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 109,
+   "green_after": 96,
+   "pairs_before": 170,
+   "pairs_after": 167,
+   "pairs_changed_before": 32,
+   "pairs_changed_after": 29,
+   "green_fraction_of_new_pairs": 0.27586206896551724,
+   "delta_achieved": 0.22413793103448276
+  }
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "sample_id": "samples_len200:301",
+ "nobox": {
+  "z_final": 3.633599549383392,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "If the maker comes in with a bid of $5.14 and the taker is willing to sell at that price, Knight pro rates the two transactions to bring in $5.15.",
+    "rewrite": "If the bid from the maker is $5.14 and the taker is willing to sell at that price, Knight pro rates the transactions to result in $5.15."
+   },
+   "5": {
+    "original": "Here's how it works: The maker is the institution that places a bid and the taker is the institution that takes the bid.",
+    "rewrite": "Here\u2019s how it works: The maker is the institution that places a bid, and the taker is the institution that accepts the bid."
+   },
+   "4": {
+    "original": "It is most important to understand that Knight sells \"makers\" and \"takers.\"",
+    "rewrite": "It is essential to understand that Knight sells \"makers\" and \"takers.\""
+   },
+   "0": {
+    "original": "They didn't make it through, but let's put it in perspective.",
+    "rewrite": "They didn't make it through, but let's place it in perspective."
+   },
+   "8": {
+    "original": "And that is the difference between a maker and a taker.",
+    "rewrite": "That difference lies between a maker and a taker."
+   },
+   "1": {
+    "original": "This isn't a case of CGI kids this is real life.",
+    "rewrite": "This isn't a case of CGI kids; this is real life."
+   },
+   "9": {
+    "original": "Makes are the supply-side of the market.",
+    "rewrite": "Manufacturers are the supply side of the market."
+   },
+   "3": {
+    "original": "What Knight markets prices down to.",
+    "rewrite": "What prices are lowered to by Knight."
+   },
+   "7": {
+    "original": "It comes out of Knight's assets.",
+    "rewrite": "It emerges from Knight's assets."
+   }
+  },
+  "sentences_rewritten": 9,
+  "eligible": 9,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 20,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 10,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 4,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 8,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 11,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 12,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "They didn't make it through, but let's place it in perspective. This isn't a case of CGI kids; this is real life.\nBreaking down the Knight Capita\nWhat prices are lowered to by Knight. It is essential to understand that Knight sells \"makers\" and \"takers.\" Here\u2019s how it works: The maker is the institution that places a bid, and the taker is the institution that accepts the bid. If the bid from the maker is $5.14 and the taker is willing to sell at that price, Knight pro rates the transactions to result in $5.15. It emerges from Knight's assets. That difference lies between a maker and a taker. Manufacturers are the supply side of the market. They place orders with Knight and Knight places it on the public platforms, if for some reason the price is too high or too",
+  "z0": 5.174832796560852,
+  "seconds": 200.0
+ }
+}

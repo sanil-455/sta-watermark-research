@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:264",
+ "nobox": {
+  "z_final": 2.1094396056145928,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Earlier this year, Ian Begley of ESPN reported that San Antonio offered first-round picks along with a veteran player as an offer for the Memphis guard, but the Grizzlies allegedly wanted to wait for the draft, as they may be able to find Conley\u2019s successor than to part ways with the guy.",
+    "rewrite": "Earlier this year, Ian Begley of ESPN reported that San Antonio presented an offer including first-round picks and a vet player for the Memphis guard, but the Grizzlies were reportedly inclined to wait for the draft, as they might find a successor for Conley instead of trading him."
+   },
+   "2": {
+    "original": "Mike Conley will be a free agent after this season and it remains to be seen if the Spurs will be able to convince the Memphis Grizzlies to trade away their veteran point guard.",
+    "rewrite": "Mike Conley will become a free agent after this season, and it remains to be seen if the Spurs can convince the Memphis Grizzlies to trade their veteran point guard."
+   },
+   "1": {
+    "original": "He reported that the team is listening to offers for Marc Gasol, Mike Conley, and their kids this season and could even deal off veteran Jaren Jackson Jr.",
+    "rewrite": "He reported that the team is considering offers for Marc Gasol, Mike Conley, and their families this season and may even deal veteran Jaren Jackson Jr."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 24,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "already \u201cset themselves up for a major rebuild.\u201d He reported that the team is considering offers for Marc Gasol, Mike Conley, and their families this season and may even deal veteran Jaren Jackson Jr.\nMike Conley will become a free agent after this season, and it remains to be seen if the Spurs can convince the Memphis Grizzlies to trade their veteran point guard. Earlier this year, Ian Begley of ESPN reported that San Antonio presented an offer including first-round picks and a vet player for the Memphis guard, but the Grizzlies were reportedly inclined to wait for the draft, as they might find a successor for Conley instead of trading him.\nAccording to an earlier report from Christian Clougher of News42, Mike Conley admitted last year that he\u2019s part of the Memphis G",
+  "z0": 4.242640687119285,
+  "seconds": 156.0
+ }
+}

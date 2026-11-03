@@ -1,0 +1,35 @@
+{
+ "sample_id": "sta16_len200:50",
+ "nobox": {
+  "z_final": 10.040916292848975,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "HaShem has opened the way to us- The \u201cvoucher program\u201d was a policy approved by the community\u2019s Rabbanim and is according to all.",
+    "rewrite": "The \"voucher program\" has been opened for us by HaShem - it was approved by the community\u2019s Rabbanim and conforms to all."
+   },
+   "3": {
+    "original": "I learned from the BoimelYeshiva in Renueila, should have merit to be a refuel to my ancestors on the other side.",
+    "rewrite": "I gained knowledge from the BoimelYeshiva in Renueila and hope it merits to be a refuel for my ancestors on the other side."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 4,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the opportunity to have it reinstituted, to let the recipients be proud who wont be ashamed to show the tomchei boxes on kos this is the credit system that Rabbi Hershkowitz zt\u201dl and his partners put up.\nThe \"voucher program\" has been opened for us by HaShem - it was approved by the community\u2019s Rabbanim and conforms to all.\nI don\u2019t represent my community- I don\u2019t even know anyone at the office there, but l know that Rabbi Hershkowitz zt\u201dl left a will in type for us -\u201cLeave my boxes out- no delivery requests\u201d. I gained knowledge from the BoimelYeshiva in Renueila and hope it merits to be a refuel for my ancestors on the other side.\nI am only responding to a question that Hashem has let me see, Rabbi Hers",
+  "z0": 12.162236636408617,
+  "seconds": 77.3
+ }
+}

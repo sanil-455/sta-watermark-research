@@ -1,0 +1,153 @@
+{
+ "sample_id": "baseline_extra:20",
+ "source": "results/raw/baseline_extra.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.3194444444444444,
+ "needed_share": 0.4107443490112104,
+ "delta_needed": 0.034297007628559036,
+ "segmentation": {
+  "chars": 720,
+  "segments": 6,
+  "eligible": 2,
+  "skipped": 4,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 3
+  },
+  "eligible_chars": 230,
+  "eligible_char_share": 0.3194444444444444
+ },
+ "attack": {
+  "z0": 3.394112549695428,
+  "z_final": 1.8384776310850235,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 46,
+  "seconds": 63.4,
+  "seconds_by_phase": {
+   "generate": 60.1,
+   "gates": 3.4,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 155,
+    "z_before": 3.394112549695428,
+    "z_after": 2.3393079765275084,
+    "accepted": true,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 34,
+     "after_content": 34,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 8,
+      "unknown word": 17,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 32,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.7
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 75,
+    "z_before": 2.3393079765275084,
+    "z_after": 1.8384776310850235,
+    "accepted": true,
+    "survivors": 14,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 35,
+     "after_spelling": 33,
+     "after_content": 16,
+     "after_semantic": 16,
+     "fluency_skipped": false,
+     "after_fluency": 14,
+     "rejected": {
+      "duplicate": 25,
+      "unknown word": 2,
+      "numbers changed": 17,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 46,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.36
+   }
+  ],
+  "rewrites": {
+   "5": {
+    "original": "Health care's disastrous performance since March, fueled by criticism from the president and lackluster earnings reports, could ruin the market's momentum.",
+    "rewrite": "The health care sector\u2019s poor performance since March, spurred by presidential criticism and poor earnings reports, risks undermining the market\u2019s momentum."
+   },
+   "3": {
+    "original": "But reason No. 5 is the one that keeps the host of \"Mad Money\" up at night.",
+    "rewrite": "Yet reason No. 5 is the one that keeps the \"Mad Money\" host awake at night."
+   }
+  },
+  "final_span": "is that technology stocks have gone bananas, and a correction is inevitable, if not overdue, Cramer contended.\n\"But let me tell you this. In every correction I've ever had in my 47 years as an investor, technology stocks are the worst offenders, because they're the ones you've got to buy,\" according to Cramer.\nYet reason No. 5 is the one that keeps the \"Mad Money\" host awake at night.\n\"It's all my fault,\" Cramer said, \"because I've been so bearish on health care, and so I'm not sure what to make of the fact that pharmaceutical stocks appear to be bottoming.\"\nThe health care sector\u2019s poor performance since March, spurred by presidential criticism and poor earnings reports, risks undermining the market\u2019s momentum.",
+  "break_point": {
+   "step": 1,
+   "sentences_rewritten": 2,
+   "queries": 46
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 2,
+   "segments": 6,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 33.333333333333336
+  },
+  "tokens": {
+   "original": 201,
+   "final": 201,
+   "length_change": 0,
+   "pct_not_preserved": 10.945273631840791,
+   "pct_new": 10.945273631840791
+  },
+  "words": {
+   "original": 123,
+   "final": 122,
+   "length_change": -1,
+   "pct_not_preserved": 12.195121951219512,
+   "pct_new": 11.475409836065575
+  },
+  "characters": {
+   "original": 720,
+   "final": 721,
+   "length_change": 1,
+   "pct_not_preserved": 8.333333333333337,
+   "pct_new": 8.46047156726768
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 124,
+   "green_after": 113,
+   "pairs_before": 200,
+   "pairs_after": 200,
+   "pairs_changed_before": 34,
+   "pairs_changed_after": 34,
+   "green_fraction_of_new_pairs": 0.3235294117647059,
+   "delta_achieved": 0.1764705882352941
+  }
+ }
+}

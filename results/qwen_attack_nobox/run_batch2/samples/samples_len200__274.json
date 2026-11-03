@@ -1,0 +1,80 @@
+{
+ "sample_id": "samples_len200:274",
+ "nobox": {
+  "z_final": 2.0102828441296667,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "As A.I. evolves, it will penetrate into small, medium and large businesses, penetrate into different industries, and transform traditional businesses by displacing human labor.",
+    "rewrite": "As A.I. evolves, it will affect small, medium, and large businesses, impact various industries, and transform traditional businesses by replacing human labor."
+   },
+   "2": {
+    "original": "A.I. will act as a higher leveraged form of SAS that can be deployed in a fraction of the time it would take to set up a predictive application for an average company.",
+    "rewrite": "A.I. will serve as a more leveraged variant of SAS that can be deployed in a tiny fraction of the time needed to establish a predictive application in an average firm."
+   },
+   "1": {
+    "original": "Historically, an effective way to grow revenue is through SAS (self-service analytics) applications.",
+    "rewrite": "Historically, SAS (self-service analytics) applications have been an effective method for revenue growth."
+   },
+   "7": {
+    "original": "But during the next decade, global dissemination will be rapid and virtually unstoppable.",
+    "rewrite": "However, in the coming decade, the global dissemination will be swift and nearly unstoppable."
+   },
+   "3": {
+    "original": "As machine learning becomes more broadly adopted, the possibilities continue to expand.",
+    "rewrite": "With the broader adoption of machine learning, its possibilities continue to expand."
+   },
+   "6": {
+    "original": "The majority of these companies will be based in larger cities and the United States.",
+    "rewrite": "The majority of these companies will be headquartered in larger cities and the United States."
+   },
+   "4": {
+    "original": "Growth in companies will be largely location agnostic.",
+    "rewrite": "Growth in companies will largely depend on location."
+   }
+  },
+  "sentences_rewritten": 7,
+  "eligible": 7,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 14,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 24,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "revenue. Historically, SAS (self-service analytics) applications have been an effective method for revenue growth. A.I. will serve as a more leveraged variant of SAS that can be deployed in a tiny fraction of the time needed to establish a predictive application in an average firm. With the broader adoption of machine learning, its possibilities continue to expand.\nGrowth in companies will largely depend on location. As A.I. evolves, it will affect small, medium, and large businesses, impact various industries, and transform traditional businesses by replacing human labor. The majority of these companies will be headquartered in larger cities and the United States. However, in the coming decade, the global dissemination will be swift and nearly unstoppable. A.I. will continue to evolve, be ubiquitous in some cities and displaced in others,",
+  "z0": 3.8183766184073566,
+  "seconds": 207.4
+ }
+}

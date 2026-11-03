@@ -1,0 +1,76 @@
+{
+ "sample_id": "samples_len200:161",
+ "nobox": {
+  "z_final": 4.666904755831213,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "Justin Baldoni, executive producer and star of the hit inspirational television series, Journey of Man, became the first person to ever say \"Yes!\" at the new Wedding Chapel at the North Shore Beach Inn on Friday.",
+    "rewrite": "Justin Baldoni, the executive producer and star of the hit inspirational television series Journey of Man, was the first individual to say \"Yes!\" at the new Wedding Chapel at the North Shore Beach Inn on Friday."
+   },
+   "1": {
+    "original": "People reports that Roberts spent the weekend apart from the \u2018American Horror Story\u2019 actor who kicked her out after a blowout over the weekend.",
+    "rewrite": "Reports state that Roberts spent the weekend apart from the 'American Horror Story' actor, who kicked her out following a weekend blowout."
+   },
+   "2": {
+    "original": "The pair were spotted together last weekend in Beverly Hills, before breaking up on Sunday.",
+    "rewrite": "Last weekend, the pair was seen together in Beverly Hills, although they later broke up on Sunday."
+   },
+   "5": {
+    "original": "Justin Baldoni is first person to say 'Yes!' at North Shore Beach Inn wedding chapel event.",
+    "rewrite": "Justin Baldoni was the first to say 'Yes!' at the North Shore Beach Inn wedding chapel event."
+   },
+   "3": {
+    "original": "The breakage came after a heated exchange between the actors.",
+    "rewrite": "The breakage resulted from a heated exchange between the actors."
+   },
+   "0": {
+    "original": "Evan Peters have called time on their relationship.",
+    "rewrite": "Evan Peters have ended their relationship."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 7,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 2,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 2,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Evan Peters have ended their relationship. Reports state that Roberts spent the weekend apart from the 'American Horror Story' actor, who kicked her out following a weekend blowout. Last weekend, the pair was seen together in Beverly Hills, although they later broke up on Sunday.\nThe breakage resulted from a heated exchange between the actors. The actress\u2019 mother was present and reportedly \u201cadministered some motherly advice\u201d which made no impact on the situation.\nJustin Baldoni was the first to say 'Yes!' at the North Shore Beach Inn wedding chapel event.\nJustin Baldoni, the executive producer and star of the hit inspirational television series Journey of Man, was the first individual to say \"Yes!\" at the new Wedding Chapel at the North Shore Beach Inn on Friday. The filmmaker and actor, who also hosts the \"My Last Days\" documentary series and is executive",
+  "z0": 6.081118318204308,
+  "seconds": 206.7
+ }
+}

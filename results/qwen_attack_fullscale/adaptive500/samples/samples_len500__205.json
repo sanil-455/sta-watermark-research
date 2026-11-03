@@ -1,0 +1,345 @@
+{
+ "sample_id": "samples_len500:205",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8773666092943201,
+ "needed_share": 0.7369331791176718,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2324,
+  "segments": 19,
+  "eligible": 16,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "too short": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 2039,
+  "eligible_char_share": 0.8773666092943201
+ },
+ "attack": {
+  "z0": 7.602631123499284,
+  "z_final": 1.6500572946507803,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 353,
+  "seconds": 272.3,
+  "seconds_by_phase": {
+   "generate": 246.5,
+   "gates": 25.6,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 205,
+    "z_before": 7.602631123499284,
+    "z_after": 6.670156067434094,
+    "accepted": true,
+    "survivors": 37,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 55,
+     "after_content": 45,
+     "after_semantic": 39,
+     "fluency_skipped": false,
+     "after_fluency": 37,
+     "rejected": {
+      "unknown word": 5,
+      "negation count changed": 10,
+      "meaning too different": 6,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 38,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.85
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 183,
+    "z_before": 6.670156067434094,
+    "z_after": 5.891448323342363,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "duplicate": 7,
+      "hit length limit": 1,
+      "CJK text": 5,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 83,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 35.28
+   },
+   {
+    "pass": 1,
+    "segment": 15,
+    "chars": 172,
+    "z_before": 5.891448323342363,
+    "z_after": 5.355862112129421,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 1,
+      "numbers changed": 2,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 136,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.86
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 147,
+    "z_before": 5.355862112129421,
+    "z_after": 4.409228452525306,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 10,
+      "meaning too different": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 181,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.58
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 143,
+    "z_before": 4.409228452525306,
+    "z_after": 3.606678538669729,
+    "accepted": true,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 36,
+     "after_spelling": 36,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "duplicate": 21,
+      "CJK text": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 216,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.56
+   },
+   {
+    "pass": 1,
+    "segment": 13,
+    "chars": 143,
+    "z_before": 3.606678538669729,
+    "z_after": 3.036059804677273,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 2,
+      "duplicate": 1,
+      "unknown word": 11,
+      "meaning too different": 4
+     }
+    },
+    "queries_total": 257,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 28.67
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 139,
+    "z_before": 3.036059804677273,
+    "z_after": 2.6098507150250914,
+    "accepted": true,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 7,
+      "unknown word": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 303,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.63
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 135,
+    "z_before": 2.6098507150250914,
+    "z_after": 1.6500572946507803,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 5,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 353,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.06
+   }
+  ],
+  "rewrites": {
+   "11": {
+    "original": "The small family can make a difference by recycling, making sure their lighting and appliances are efficient, and caring for a product when it is finished with it or even prior to sending it to a landfill.",
+    "rewrite": "The modest household can bring about changes through recycling, ensuring that their lighting and appliances are energy-efficient, and properly maintaining items until their final use or before disposal at a landfill."
+   },
+   "5": {
+    "original": "A large element of our job with Quality Built Michigan is working with building material suppliers and contractors to identify opportunities to be constructive in their green efforts.",
+    "rewrite": "A significant part of our role with Quality Built Michigan involves collaborating with building material suppliers and contractors to uncover opportunities for meaningful contributions to greener initiatives."
+   },
+   "15": {
+    "original": "Weaver: The ability to access somebody on the phone or on line at any time of day or night has been extremely important to us and we have communicated that to our carriers.",
+    "rewrite": "Weaver: Being reachable via telephone or online anytime during the day or evening has proven crucial to us, and we've emphasized this to our service providers."
+   },
+   "9": {
+    "original": "Environmental sustainability - using less energy, less water, cleaner air, and being a less unsustainable - is more beneficial to the stakeholders.",
+    "rewrite": "Using less energy, less water, and cleaner air leads to better outcomes for stakeholders compared to being unsustainable."
+   },
+   "4": {
+    "original": "Being able to work on environmental projects expands our thinking about how we can help society make good economic and environmental decisions.",
+    "rewrite": "Expanding our focus to environmental projects broadens our understanding of how to assist society in making effective economic and environmental choices."
+   },
+   "13": {
+    "original": "We recently donated our unwanted gypsum to a large home remodeling supplier and resale company who really appreciates these kinds of donations.",
+    "rewrite": "We recently contributed our unused gypsum to a significant home renovation supplier and resale firm that greatly values such donations."
+   },
+   "8": {
+    "original": "I believe the biggest misconception amongst business partners is that simply replacing common products with \"green products\" is sufficient.",
+    "rewrite": "Business partners often misunderstand that switching to green products alone is enough."
+   },
+   "2": {
+    "original": "Weaver: USA Gypsum is committed to creating sound environmental and economic principles in a way that benefits all of our stakeholders.",
+    "rewrite": "Weaver: USA Gypsum is dedicated to establishing environmentally and economically sound principles that advantage all our stakeholders."
+   }
+  },
+  "final_span": "are now experiencing through QED, Celtic Bank and Horizon Lending is what anyone would want: It is readily available and it is simple to administer.\nWhat overarching principles aid your firm in its growth?\nWeaver: USA Gypsum is dedicated to establishing environmentally and economically sound principles that advantage all our stakeholders. We also are committed to the Three Pillars, the triple bottom line of social prosperity, environmental friendliness and profitability.\nExpanding our focus to environmental projects broadens our understanding of how to assist society in making effective economic and environmental choices. A significant part of our role with Quality Built Michigan involves collaborating with building material suppliers and contractors to uncover opportunities for meaningful contributions to greener initiatives.\nWhat is the biggest misconception you think your business partners have about or related to us being \"green\"?\nWeaver: Some organizations believe that sustainability means the same thing as \"green,\" and it does not. Business partners often misunderstand that switching to green products alone is enough. Using less energy, less water, and cleaner air leads to better outcomes for stakeholders compared to being unsustainable.\nWeaver: There are some simple things that everyone can do to have better environmental sustainability. The modest household can bring about changes through recycling, ensuring that their lighting and appliances are energy-efficient, and properly maintaining items until their final use or before disposal at a landfill. Our firm can do our share by trying to recycle or use products that have been used or are leftovers.\nWe recently contributed our unused gypsum to a significant home renovation supplier and resale firm that greatly values such donations.\nWhat \"tech-based\" innovation/technology or product is the most critical to your firm today?\nWeaver: Being reachable via telephone or online anytime during the day or evening has proven crucial to us, and we've emphasized this to our service providers. We appreciate good service!\nWhat user, staff or business challenge or problem really got your attention?\nIf the challenge focuses on the reducing pollution surrounding drywall especially in the big",
+  "break_point": {
+   "step": 7,
+   "sentences_rewritten": 8,
+   "queries": 353
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 8,
+   "eligible": 16,
+   "segments": 19,
+   "pct_of_eligible": 50.0,
+   "pct_of_segments": 42.10526315789474
+  },
+  "tokens": {
+   "original": 501,
+   "final": 477,
+   "length_change": -24,
+   "pct_not_preserved": 29.141716566866272,
+   "pct_new": 25.57651991614256
+  },
+  "words": {
+   "original": 369,
+   "final": 337,
+   "length_change": -32,
+   "pct_not_preserved": 34.68834688346883,
+   "pct_new": 28.486646884272993
+  },
+  "characters": {
+   "original": 2324,
+   "final": 2270,
+   "length_change": -54,
+   "pct_not_preserved": 21.342512908777966,
+   "pct_new": 19.471365638766525
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 335,
+   "green_after": 256,
+   "pairs_before": 500,
+   "pairs_after": 476,
+   "pairs_changed_before": 193,
+   "pairs_changed_after": 169,
+   "green_fraction_of_new_pairs": 0.33136094674556216,
+   "delta_achieved": 0.16863905325443784
+  }
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:169",
+ "nobox": {
+  "z_final": 6.222539674441618,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "He explains, basically, you could use the drug as a method of penis-to-vagina protection, since Truvada is taken as a prophylactic: To prevent something bad.",
+    "rewrite": "He explains that, essentially, you could use the drug as a form of penis-to-vagina protection because Truvada is taken as a prophylactic: to prevent something bad."
+   },
+   "2": {
+    "original": "CGTN filmed the scene this fall and the conversation was edited for length and clarity.",
+    "rewrite": "This fall, CGTN captured the scene and the conversation was edited for length and clarity."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 20,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 38,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "gay?\" or other assumptions about sexual orientation.\n\"It's a biological benefit to prevent HIV,\" Canty says. This fall, CGTN captured the scene and the conversation was edited for length and clarity.\nMuch of the prevailing myth, Canty says, is that \"you couldn't be on it and not be infected. And also, you could use it pretty much however you want to, and think about it as protection for you.\"\nHe explains that, essentially, you could use the drug as a form of penis-to-vagina protection because Truvada is taken as a prophylactic: to prevent something bad.\n\"But then that leads into another type of stigma, where people don't want to put their hands on people who take the drug,\" Canty says.\n\"Our study has to date found a type of stigma, where people will say, 'Well,",
+  "z0": 6.929646455628165,
+  "seconds": 83.1
+ }
+}

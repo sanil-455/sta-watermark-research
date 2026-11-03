@@ -1,0 +1,339 @@
+{
+ "sample_id": "samples_len500:323",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 495,
+ "eligible_share": 0.9063475546305931,
+ "needed_share": 0.6752029859666133,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 1922,
+  "segments": 23,
+  "eligible": 15,
+  "skipped": 8,
+  "skip_reasons": {
+   "quotation": 5,
+   "too short": 3
+  },
+  "eligible_chars": 1742,
+  "eligible_char_share": 0.9063475546305931
+ },
+ "attack": {
+  "z0": 6.157692077164278,
+  "z_final": 1.8617140976646493,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 216,
+  "seconds": 357.8,
+  "seconds_by_phase": {
+   "generate": 340.1,
+   "gates": 17.6,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 341,
+    "z_before": 6.157692077164278,
+    "z_after": 5.562252269247455,
+    "accepted": true,
+    "survivors": 10,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 43,
+     "after_content": 10,
+     "after_semantic": 10,
+     "fluency_skipped": false,
+     "after_fluency": 10,
+     "rejected": {
+      "CJK text": 8,
+      "several lines": 3,
+      "unknown word": 6,
+      "negation count changed": 33
+     }
+    },
+    "queries_total": 11,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 78.0
+   },
+   {
+    "pass": 1,
+    "segment": 22,
+    "chars": 282,
+    "z_before": 5.562252269247455,
+    "z_after": 4.6603514354614965,
+    "accepted": true,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 53,
+     "after_content": 51,
+     "after_semantic": 40,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "CJK text": 5,
+      "several lines": 1,
+      "unknown word": 1,
+      "negation count changed": 2,
+      "meaning too different": 11
+     }
+    },
+    "queries_total": 51,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 76.07
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 157,
+    "z_before": 4.6603514354614965,
+    "z_after": 3.902483344941432,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 52,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "duplicate": 5,
+      "CJK text": 1,
+      "unknown word": 2,
+      "quotation changed": 2
+     }
+    },
+    "queries_total": 101,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.73
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 147,
+    "z_before": 3.902483344941432,
+    "z_after": 3.2877546485106284,
+    "accepted": true,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "unknown word": 4,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 155,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.52
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 144,
+    "z_before": 3.2877546485106284,
+    "z_after": 3.0298447320291015,
+    "accepted": true,
+    "survivors": 15,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 16,
+     "after_spelling": 16,
+     "after_content": 16,
+     "after_semantic": 16,
+     "fluency_skipped": false,
+     "after_fluency": 15,
+     "rejected": {
+      "preamble": 35,
+      "duplicate": 9,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 170,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.79
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 135,
+    "z_before": 3.0298447320291015,
+    "z_after": 2.5829165502478295,
+    "accepted": true,
+    "survivors": 6,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 8,
+     "after_content": 8,
+     "after_semantic": 7,
+     "fluency_skipped": false,
+     "after_fluency": 6,
+     "rejected": {
+      "CJK text": 5,
+      "several lines": 3,
+      "duplicate": 1,
+      "unknown word": 43,
+      "meaning too different": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 176,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.4
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 126,
+    "z_before": 2.5829165502478295,
+    "z_after": 2.872552741301585,
+    "accepted": false,
+    "survivors": 6,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 6,
+     "rejected": {
+      "CJK text": 6,
+      "duplicate": 1,
+      "unknown word": 9,
+      "meaning too different": 38
+     }
+    },
+    "queries_total": 182,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.02
+   },
+   {
+    "pass": 1,
+    "segment": 20,
+    "chars": 96,
+    "z_before": 2.5829165502478295,
+    "z_after": 1.8617140976646493,
+    "accepted": true,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 40,
+     "after_spelling": 40,
+     "after_content": 40,
+     "after_semantic": 40,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "duplicate": 20,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 216,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.58
+   }
+  ],
+  "rewrites": {
+   "4": {
+    "original": "Besides the overwhelming feeling of being on the brink of cracking, being stressed all the time, and the physical and mental exhaustion that occupational stress brings, you may actually see the signs: you might gain ten pounds, become depressed, lose interest, spend money you can\u2019t afford to, and drink or smoke more often than you used to.",
+    "rewrite": "In addition to the intense sensation of impending collapse, constant stress, and the physical and mental fatigue it induces, you might also observe these warning signs: weight gain of about ten pounds, developing depression, loss of interest, reckless spending you cannot afford, and increased alcohol consumption or smoking compared to your usual habits."
+   },
+   "22": {
+    "original": "It needs a day or two (or years) off from its duties, and you can remind it that you love it when you pluck a dead bit, buy a cute new top, eat healthy food, check out a new movie, go into the surrounding countryside and let your senses follow an uncontrolled scent into Wonderland.",
+    "rewrite": "It deserves a day or two (or years) off from its responsibilities, and you can recall how much you cherish it when you remove a worn piece of clothing, acquire a charming new blouse, enjoy nutritious fare, watch a fresh film, venture into the vicinity's rural areas, and permit your senses to wander into Wonderland unguarded."
+   },
+   "9": {
+    "original": "To kidnap the intent of the original Harvard Business Review article, \u201cHumor in the Workplace\u201d \u2014 learn to keep a sense of humor even in stressful situations.",
+    "rewrite": "To capture the essence of the original Harvard Business Review article, \u201cHumor in the Workplace\u201d \u2014 acquire the ability to maintain humor in spite of stress."
+   },
+   "7": {
+    "original": "When you recognize that you\u2019re headed for a meltdown, increase time out\u2013replace \u201cfire inspections\u201d on your list with meditation, and/or journaling.",
+    "rewrite": "If you notice you're approaching a breakdown, boost your time out\u2014swap \u201cfire inspections\u201d on your schedule for meditation and/or journaling."
+   },
+   "5": {
+    "original": "Here is a list of symptoms and a description of burnout, as laid out by the American Psychological Association for trauma and emergency workers.",
+    "rewrite": "This list outlines symptoms and describes burnout, as defined by the American Psychological Association for trauma and emergency workers."
+   },
+   "3": {
+    "original": "Other than getting tired, feeling overwhelmed, and getting hurt, how can you tell that you\u2019re burning out and what can you do about it?",
+    "rewrite": "Besides feeling tired, overwhelmed, and hurt, what other signs indicate you might be burning out, and what actions can you take?"
+   },
+   "20": {
+    "original": "If you spent a day with a luxury car rental, you\u2019d have to worry about its physical maintenance.",
+    "rewrite": "During a day of renting a luxury car, you would need to focus on its physical upkeep."
+   }
+  },
+  "final_span": "\u201cDo this! Fix that!\u201d I let the critical inner voice harangue me for a while until I realize what it\u2019s trying to do and tell it to shut its piehole.\nBesides feeling tired, overwhelmed, and hurt, what other signs indicate you might be burning out, and what actions can you take?\nIn addition to the intense sensation of impending collapse, constant stress, and the physical and mental fatigue it induces, you might also observe these warning signs: weight gain of about ten pounds, developing depression, loss of interest, reckless spending you cannot afford, and increased alcohol consumption or smoking compared to your usual habits.\nThis list outlines symptoms and describes burnout, as defined by the American Psychological Association for trauma and emergency workers. I don\u2019t know if one necessarily precedes the other.\nIf you notice you're approaching a breakdown, boost your time out\u2014swap \u201cfire inspections\u201d on your schedule for meditation and/or journaling.\nCognitive behavioral humor. To capture the essence of the original Harvard Business Review article, \u201cHumor in the Workplace\u201d \u2014 acquire the ability to maintain humor in spite of stress. I believe that\u2019s likely to make you so physically happy that your body heals. Our brains are wired to make us laugh. I learned this when I was a psychotherapist. It takes preplanning.\nTalk to me, or a therapist, or both.\nTreat yourself to something nice.\nLose your guilt. Say, \u201cI\u2019m OK. I\u2019m available. I just need to process or recover a little bit.\u201d During a day of renting a luxury car, you would need to focus on its physical upkeep. It is the same with one\u2019s own body. It deserves a day or two (or years) off from its responsibilities, and you can recall how much you cherish it when you remove a worn piece of clothing, acquire a charming new blouse, enjoy nutritious fare, watch a fresh film, venture into the vicinity's rural areas, and permit your senses to wander into Wonderland unguarded.",
+  "break_point": {
+   "step": 7,
+   "sentences_rewritten": 7,
+   "queries": 216
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 7,
+   "eligible": 15,
+   "segments": 23,
+   "pct_of_eligible": 46.666666666666664,
+   "pct_of_segments": 30.434782608695652
+  },
+  "tokens": {
+   "original": 496,
+   "final": 486,
+   "length_change": -10,
+   "pct_not_preserved": 31.653225806451612,
+   "pct_new": 30.246913580246915
+  },
+  "words": {
+   "original": 340,
+   "final": 326,
+   "length_change": -14,
+   "pct_not_preserved": 38.23529411764706,
+   "pct_new": 35.582822085889575
+  },
+  "characters": {
+   "original": 1922,
+   "final": 1947,
+   "length_change": 25,
+   "pct_not_preserved": 25.754422476586893,
+   "pct_new": 26.707755521314848
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 316,
+   "green_after": 263,
+   "pairs_before": 495,
+   "pairs_after": 485,
+   "pairs_changed_before": 221,
+   "pairs_changed_after": 211,
+   "green_fraction_of_new_pairs": 0.4028436018957346,
+   "delta_achieved": 0.0971563981042654
+  }
+ }
+}

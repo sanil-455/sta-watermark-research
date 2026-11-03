@@ -1,0 +1,84 @@
+{
+ "sample_id": "sta16_len200:140",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.0,
+ "needed_share": 0.8232233047033631,
+ "delta_needed": null,
+ "segmentation": {
+  "chars": 858,
+  "segments": 5,
+  "eligible": 0,
+  "skipped": 5,
+  "skip_reasons": {
+   "quotation": 3,
+   "no final punctuation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 0,
+  "eligible_char_share": 0.0
+ },
+ "attack": {
+  "z0": 11.31370849898476,
+  "z_final": 11.31370849898476,
+  "status": "no eligible text",
+  "reason": "no eligible text",
+  "passes": 0,
+  "queries": 1,
+  "seconds": 0.0,
+  "seconds_by_phase": {
+   "generate": 0.0,
+   "gates": 0.0,
+   "detector": 0.0
+  },
+  "steps": [],
+  "rewrites": {},
+  "final_span": "Mayor, we have got to discuss it,\" Crs Light and Maddern said hours after.\n\"It's going to have ramifications that affect this council for a long period of time if the motion was passed, and the way this council has gone in meetings about CEO, basically giving her a character assassination - it's very defamatory.\n\"Our press release went about CEO issues that named names but the press release is still there, we still put it on the site, and I had a call with a journalist last week because since 2017 and the new government we have been getting a lot of phone calls from newspapers asking about CEO, asking about what three councillors did in bringing a CEO into council what were they charged for and nobody is answering any of these questions.\"\nCrs Light and Maddern said their decision to leave the chamber was a move of conscience,\n\"Reluctantly, honest",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 0,
+   "eligible": 0,
+   "segments": 5,
+   "pct_of_eligible": 0.0,
+   "pct_of_segments": 0.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 201,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "words": {
+   "original": 153,
+   "final": 153,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "characters": {
+   "original": 858,
+   "final": 858,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 180,
+   "green_after": 180,
+   "pairs_before": 200,
+   "pairs_after": 200,
+   "pairs_changed_before": 0,
+   "pairs_changed_after": 0,
+   "green_fraction_of_new_pairs": null,
+   "delta_achieved": null
+  }
+ }
+}

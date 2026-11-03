@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:355",
+ "nobox": {
+  "z_final": 2.468709655505094,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Judy Hodges of IDC said the deal is just one example of the new technology direction in the enterprise software industry.",
+    "rewrite": "Judy Hodges from IDC stated that the deal is just one instance of the new technological path in the enterprise software sector."
+   },
+   "1": {
+    "original": "PeopleSoft 7.5 will be a new product planned to be released toward the end of 1998, PeopleSoft executives said.",
+    "rewrite": "PeopleSoft 7.5 will be a new product scheduled for release towards the end of 1998, said PeopleSoft executives."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 48,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "executives said. PeopleSoft 7.5 will be a new product scheduled for release towards the end of 1998, said PeopleSoft executives.\nJudy Hodges from IDC stated that the deal is just one instance of the new technological path in the enterprise software sector.\n\"We're seeing a major shift in the overall industry in the last 18 to 24 months,\" she said. \"A few years ago, most vendors were focused on developing systems around fixed assets, and then manufacturers would integrate [financial, accounting, and manufacturing software] to bring things together...But, now, it's just the opposite\" with vendors becoming more horizontal.\nDavid Miller, senior vice president of product management for PeopleSoft, said his company's objective is to provide offerings for the entire enterprise--from manufacturing, to accounting, to customer services and support",
+  "z0": 3.2526911934581184,
+  "seconds": 75.3
+ }
+}

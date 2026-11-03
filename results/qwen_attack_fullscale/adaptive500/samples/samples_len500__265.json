@@ -1,0 +1,990 @@
+{
+ "sample_id": "samples_len500:265",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.44825819672131145,
+ "needed_share": 0.6936893181507138,
+ "delta_needed": 0.07993817846675223,
+ "segmentation": {
+  "chars": 1952,
+  "segments": 23,
+  "eligible": 11,
+  "skipped": 12,
+  "skip_reasons": {
+   "quotation": 10,
+   "too short": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 875,
+  "eligible_char_share": 0.44825819672131145
+ },
+ "attack": {
+  "z0": 6.529318494299385,
+  "z_final": 1.9521843207154503,
+  "status": "broken",
+  "reason": null,
+  "passes": 3,
+  "queries": 636,
+  "seconds": 704.0,
+  "seconds_by_phase": {
+   "generate": 656.5,
+   "gates": 47.2,
+   "detector": 0.4
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 20,
+    "chars": 186,
+    "z_before": 6.529318494299385,
+    "z_after": 6.273550009275092,
+    "accepted": true,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 2,
+     "after_content": 2,
+     "after_semantic": 2,
+     "fluency_skipped": true,
+     "after_fluency": 2,
+     "rejected": {
+      "duplicate": 6,
+      "CJK text": 1,
+      "unknown word": 51
+     }
+    },
+    "queries_total": 3,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.82
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 107,
+    "z_before": 6.273550009275092,
+    "z_after": 5.646195008347583,
+    "accepted": true,
+    "survivors": 37,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 46,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 37,
+     "rejected": {
+      "duplicate": 14,
+      "glued punctuation": 1,
+      "meaning too different": 4,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 40,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.02
+   },
+   {
+    "pass": 1,
+    "segment": 16,
+    "chars": 100,
+    "z_before": 5.646195008347583,
+    "z_after": 5.237639328119389,
+    "accepted": true,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 31,
+     "after_content": 31,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "duplicate": 12,
+      "unknown word": 17,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 68,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.36
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 96,
+    "z_before": 5.237639328119389,
+    "z_after": 4.641747163845499,
+    "accepted": true,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "duplicate": 10,
+      "unknown word": 5,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 106,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.98
+   },
+   {
+    "pass": 1,
+    "segment": 17,
+    "chars": 83,
+    "z_before": 4.641747163845499,
+    "z_after": 4.365266951236265,
+    "accepted": true,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "CJK text": 8,
+      "duplicate": 22,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 133,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.72
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 76,
+    "z_before": 4.365266951236265,
+    "z_after": 3.812771084138181,
+    "accepted": true,
+    "survivors": 6,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 13,
+     "after_spelling": 6,
+     "after_content": 6,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 6,
+     "rejected": {
+      "duplicate": 46,
+      "CJK text": 1,
+      "unknown word": 7
+     }
+    },
+    "queries_total": 139,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.14
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 65,
+    "z_before": 3.812771084138181,
+    "z_after": 3.633346562531678,
+    "accepted": true,
+    "survivors": 21,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 31,
+     "after_spelling": 24,
+     "after_content": 24,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 21,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 26,
+      "unknown word": 7,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 160,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.03
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 47,
+    "z_before": 3.633346562531678,
+    "z_after": 3.22639714762719,
+    "accepted": true,
+    "survivors": 17,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 29,
+     "after_spelling": 23,
+     "after_content": 23,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 17,
+     "rejected": {
+      "duplicate": 31,
+      "unknown word": 6,
+      "meaning too different": 1,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 177,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 13.27
+   },
+   {
+    "pass": 1,
+    "segment": 18,
+    "chars": 42,
+    "z_before": 3.22639714762719,
+    "z_after": 2.909799626732994,
+    "accepted": true,
+    "survivors": 25,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 29,
+     "after_spelling": 29,
+     "after_content": 29,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 25,
+     "rejected": {
+      "duplicate": 31,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 202,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.42
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 41,
+    "z_before": 2.909799626732994,
+    "z_after": 2.8679085756686136,
+    "accepted": true,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 14,
+     "after_spelling": 13,
+     "after_content": 13,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "duplicate": 45,
+      "hit length limit": 1,
+      "unknown word": 1,
+      "meaning too different": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 211,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 13.3
+   },
+   {
+    "pass": 1,
+    "segment": 19,
+    "chars": 32,
+    "z_before": 2.8679085756686136,
+    "z_after": 2.725279014813499,
+    "accepted": true,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 26,
+     "after_spelling": 25,
+     "after_content": 25,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "duplicate": 33,
+      "CJK text": 1,
+      "unknown word": 1,
+      "meaning too different": 14
+     }
+    },
+    "queries_total": 222,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 13.56
+   },
+   {
+    "pass": 2,
+    "segment": 20,
+    "chars": 186,
+    "z_before": 2.725279014813499,
+    "z_after": 2.862167011199731,
+    "accepted": false,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 2,
+     "after_content": 1,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 5,
+      "unknown word": 49,
+      "quotation changed": 1
+     }
+    },
+    "queries_total": 223,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 47.49
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 107,
+    "z_before": 2.725279014813499,
+    "z_after": 2.725279014813499,
+    "accepted": false,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "duplicate": 9,
+      "glued punctuation": 1,
+      "unknown word": 3,
+      "meaning too different": 1,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 264,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.03
+   },
+   {
+    "pass": 2,
+    "segment": 16,
+    "chars": 100,
+    "z_before": 2.725279014813499,
+    "z_after": 2.862167011199731,
+    "accepted": false,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 43,
+     "after_spelling": 33,
+     "after_content": 33,
+     "after_semantic": 33,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "duplicate": 14,
+      "CJK text": 3,
+      "unknown word": 10,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 295,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.03
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 96,
+    "z_before": 2.725279014813499,
+    "z_after": 2.6359256044917445,
+    "accepted": true,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 42,
+     "after_spelling": 36,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "duplicate": 17,
+      "CJK text": 1,
+      "unknown word": 6,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 325,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.04
+   },
+   {
+    "pass": 2,
+    "segment": 17,
+    "chars": 83,
+    "z_before": 2.6359256044917445,
+    "z_after": 2.725279014813499,
+    "accepted": false,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 29,
+     "after_spelling": 29,
+     "after_content": 29,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "duplicate": 22,
+      "CJK text": 8,
+      "several lines": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 353,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.51
+   },
+   {
+    "pass": 2,
+    "segment": 8,
+    "chars": 76,
+    "z_before": 2.6359256044917445,
+    "z_after": 2.6359256044917445,
+    "accepted": false,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 12,
+     "after_spelling": 3,
+     "after_content": 3,
+     "after_semantic": 3,
+     "fluency_skipped": false,
+     "after_fluency": 2,
+     "rejected": {
+      "duplicate": 48,
+      "unknown word": 9,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 354,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.01
+   },
+   {
+    "pass": 2,
+    "segment": 11,
+    "chars": 65,
+    "z_before": 2.6359256044917445,
+    "z_after": 2.7616994997617184,
+    "accepted": false,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 21,
+     "after_content": 21,
+     "after_semantic": 21,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "duplicate": 26,
+      "CJK text": 4,
+      "unknown word": 9,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 373,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.15
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 47,
+    "z_before": 2.6359256044917445,
+    "z_after": 2.5043961347997645,
+    "accepted": true,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 29,
+     "after_spelling": 23,
+     "after_content": 23,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "duplicate": 31,
+      "unknown word": 6,
+      "meaning too different": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 390,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 13.28
+   },
+   {
+    "pass": 2,
+    "segment": 18,
+    "chars": 42,
+    "z_before": 2.5043961347997645,
+    "z_after": 2.5043961347997645,
+    "accepted": false,
+    "survivors": 21,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 26,
+     "after_spelling": 26,
+     "after_content": 26,
+     "after_semantic": 26,
+     "fluency_skipped": false,
+     "after_fluency": 21,
+     "rejected": {
+      "duplicate": 34,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 411,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.92
+   },
+   {
+    "pass": 2,
+    "segment": 9,
+    "chars": 41,
+    "z_before": 2.5043961347997645,
+    "z_after": 2.5465721941699906,
+    "accepted": false,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 11,
+     "after_spelling": 11,
+     "after_content": 11,
+     "after_semantic": 10,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "duplicate": 49,
+      "meaning too different": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 420,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 10.75
+   },
+   {
+    "pass": 2,
+    "segment": 19,
+    "chars": 32,
+    "z_before": 2.5043961347997645,
+    "z_after": 2.5043961347997645,
+    "accepted": false,
+    "survivors": 15,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 31,
+     "after_spelling": 31,
+     "after_content": 31,
+     "after_semantic": 15,
+     "fluency_skipped": false,
+     "after_fluency": 15,
+     "rejected": {
+      "duplicate": 29,
+      "meaning too different": 16
+     }
+    },
+    "queries_total": 435,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 13.19
+   },
+   {
+    "pass": 3,
+    "segment": 20,
+    "chars": 186,
+    "z_before": 2.5043961347997645,
+    "z_after": 2.1848020141317783,
+    "accepted": true,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 4,
+     "after_content": 4,
+     "after_semantic": 4,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 1,
+      "unknown word": 53
+     }
+    },
+    "queries_total": 439,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 48.73
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 107,
+    "z_before": 2.1848020141317783,
+    "z_after": 2.1423448448517686,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "duplicate": 7,
+      "glued punctuation": 1,
+      "meaning too different": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 486,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.22
+   },
+   {
+    "pass": 3,
+    "segment": 16,
+    "chars": 100,
+    "z_before": 2.1423448448517686,
+    "z_after": 2.1848020141317783,
+    "accepted": false,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 29,
+     "after_content": 29,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "duplicate": 15,
+      "CJK text": 1,
+      "unknown word": 15,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 514,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.07
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 96,
+    "z_before": 2.1423448448517686,
+    "z_after": 2.04900285466192,
+    "accepted": true,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 39,
+     "after_content": 39,
+     "after_semantic": 38,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 12,
+      "unknown word": 8,
+      "meaning too different": 1,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 547,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.04
+   },
+   {
+    "pass": 3,
+    "segment": 17,
+    "chars": 83,
+    "z_before": 2.04900285466192,
+    "z_after": 2.138089935299395,
+    "accepted": false,
+    "survivors": 24,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 27,
+     "after_content": 27,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 24,
+     "rejected": {
+      "CJK text": 9,
+      "duplicate": 24,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 571,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.46
+   },
+   {
+    "pass": 3,
+    "segment": 8,
+    "chars": 76,
+    "z_before": 2.04900285466192,
+    "z_after": 2.04900285466192,
+    "accepted": false,
+    "survivors": 3,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 14,
+     "after_spelling": 3,
+     "after_content": 3,
+     "after_semantic": 3,
+     "fluency_skipped": false,
+     "after_fluency": 3,
+     "rejected": {
+      "duplicate": 45,
+      "CJK text": 1,
+      "unknown word": 11
+     }
+    },
+    "queries_total": 573,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.14
+   },
+   {
+    "pass": 3,
+    "segment": 11,
+    "chars": 65,
+    "z_before": 2.04900285466192,
+    "z_after": 2.1891585528829745,
+    "accepted": false,
+    "survivors": 21,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 28,
+     "after_spelling": 24,
+     "after_content": 24,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 21,
+     "rejected": {
+      "duplicate": 28,
+      "CJK text": 3,
+      "hit length limit": 1,
+      "unknown word": 3,
+      "glued punctuation": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 594,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 21.16
+   },
+   {
+    "pass": 3,
+    "segment": 5,
+    "chars": 47,
+    "z_before": 2.04900285466192,
+    "z_after": 2.095626421718236,
+    "accepted": false,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 25,
+     "after_content": 25,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "duplicate": 32,
+      "CJK text": 1,
+      "unknown word": 2,
+      "meaning too different": 3,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 612,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 13.27
+   },
+   {
+    "pass": 3,
+    "segment": 18,
+    "chars": 42,
+    "z_before": 2.04900285466192,
+    "z_after": 1.9521843207154503,
+    "accepted": true,
+    "survivors": 25,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 32,
+     "after_spelling": 32,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 25,
+     "rejected": {
+      "duplicate": 28,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 636,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.36
+   }
+  ],
+  "rewrites": {
+   "20": {
+    "original": "In July, after CNN and MSNBC announced DeSantis' victory in the primary, Fox News Channel used its poll-numbers ticker to refer to DeSantis as \"Ron DESGUTHIS\" in two different instances.",
+    "rewrite": "In July, following the announcement of DeSantis' victory in the primary by CNN and MSNBC, Fox News Channel\u2019s poll-numbers ticker mistakenly referred to him as \"Ron DESGUTHIS\" on two occasions."
+   },
+   "4": {
+    "original": "However, votes in one large Florida county are being repeatedly excluded according to the Associated Press.",
+    "rewrite": "According to the Associated Press, votes in a large Florida county are continuously being rejected."
+   },
+   "16": {
+    "original": "Congratulations to Ron DeSantis on having easily won the Republican Primary for Governor of Florida.",
+    "rewrite": "Ron DeSantis received congratulations for decisively winning the Republican Primary for Governor of Florida."
+   },
+   "3": {
+    "original": "Gillum reportedly won the Democratic primary according to unofficial results by about 3 percent.",
+    "rewrite": "According to unofficial results, Gillum reportedly secured a win in the Democratic primary by approximately 3 percentage points."
+   },
+   "17": {
+    "original": "He has worked well with me in fixing the horrible voting irregularities in Florida.",
+    "rewrite": "He has cooperated well with me in addressing the significant voting irregularities in Florida."
+   },
+   "8": {
+    "original": "Trump's tweet seems to be alluding to an ad purchased on behalf of Loeffler.",
+    "rewrite": "Trump's tweet appears to reference an ad bought for Loeffler."
+   },
+   "11": {
+    "original": "Trump also three times congratulated DeSantis on his primary win.",
+    "rewrite": "Also, Trump congratulated DeSantis three times on his primary victory."
+   },
+   "5": {
+    "original": "The small county is home to a lot of Democrats.",
+    "rewrite": "A significant number of Democrats inhabit the small county."
+   },
+   "18": {
+    "original": "Running against Askan Gillum, he will win!",
+    "rewrite": "Competing with Askan Gillum, he will emerge as the winner!"
+   },
+   "9": {
+    "original": "The ad is not directly attacking Griffin.",
+    "rewrite": "The ad does not directly assault Griffin."
+   },
+   "19": {
+    "original": "Big blow to the BIG RIGAD crowd.",
+    "rewrite": "Significant setback for the BIG RIGAD crowd."
+   }
+  },
+  "final_span": "Andrew Gillum, the failed Socialist Mayor of Tallahassee, SHOCKINGLY win the Democrat nomination for Governor of Florida, but his win was so big that the Fake News said he actually won by 7%!\" Trump tweeted. \"His opponent for the General Election won by a lot less!\"\nAccording to unofficial results, Gillum reportedly secured a win in the Democratic primary by approximately 3 percentage points. According to the Associated Press, votes in a large Florida county are continuously being rejected. A significant number of Democrats inhabit the small county.\n\"RIGGED! Loeffler paid her partner who then bought named companies to spend money against fail candidate BRYAN GRIFFIN to help Loeffler during the primary\u2014total rigging,\" Trump tweeted.\nTrump's tweet appears to reference an ad bought for Loeffler. The ad does not directly assault Griffin. It says Loeffler \"helped make Georgia a leader in education, healthcare and defense.\"\nAlso, Trump congratulated DeSantis three times on his primary victory.\n\"Congratulations to Ron DeSantis on having easily won the Republican Primary for Governor of Florida,\" Trump said. \"He has worked well with me in fixing the horrible voting irregularities in Florida. Running against Askan Gillum, he will win! Big blow to the BIG RIGAD crowd.\"\nRon DeSantis received congratulations for decisively winning the Republican Primary for Governor of Florida. He has cooperated well with me in addressing the significant voting irregularities in Florida. Competing with Askan Gillum, he will emerge as the winner! Significant setback for the BIG RIGAD crowd.\nIn July, following the announcement of DeSantis' victory in the primary by CNN and MSNBC, Fox News Channel\u2019s poll-numbers ticker mistakenly referred to him as \"Ron DESGUTHIS\" on two occasions.\nTrump tweeted on Tuesday before polls closed in Florida: \"In 2010, Florida Democrats committed voter fraud which cost Rick Scott the Governorship. This year the Dems are trying to run the same FRAUDULENT SCHEME, but too many Board of Elections people",
+  "break_point": {
+   "step": 30,
+   "sentences_rewritten": 11,
+   "queries": 636
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 11,
+   "eligible": 11,
+   "segments": 23,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 47.82608695652174
+  },
+  "tokens": {
+   "original": 501,
+   "final": 509,
+   "length_change": 8,
+   "pct_not_preserved": 18.36327345309381,
+   "pct_new": 19.646365422396862
+  },
+  "words": {
+   "original": 316,
+   "final": 316,
+   "length_change": 0,
+   "pct_not_preserved": 21.835443037974688,
+   "pct_new": 21.835443037974688
+  },
+  "characters": {
+   "original": 1952,
+   "final": 2031,
+   "length_change": 79,
+   "pct_not_preserved": 15.881147540983608,
+   "pct_new": 19.15312653865091
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 323,
+   "green_after": 276,
+   "pairs_before": 500,
+   "pairs_after": 508,
+   "pairs_changed_before": 123,
+   "pairs_changed_after": 131,
+   "green_fraction_of_new_pairs": 0.3511450381679389,
+   "delta_achieved": 0.1488549618320611
+  }
+ }
+}

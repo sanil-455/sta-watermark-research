@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:235",
+ "nobox": {
+  "z_final": 4.6077278325541835,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "There are also internal tensions between Hamas security squads, which are perceived as monopolizing power at the expense of other groups aligned with the Muslim Brotherhood.",
+    "rewrite": "There are also internal tensions between Hamas security squads, seen as monopolizing power at the expense of other Muslim Brotherhood-aligned groups."
+   },
+   "2": {
+    "original": "Given the Egyptian geographical problem according to the plan, Gaza will be connected in a different direction through a land path, basically a tunnel.",
+    "rewrite": "According to the plan, given Egypt's geographical challenges, Gaza will be connected via a land path, essentially a tunnel, in a different direction."
+   },
+   "3": {
+    "original": "These tunnels, which disappeared during the Egyptian-Israeli War of Attrition in the sixties, have been used since the signing of the Oslo accords.",
+    "rewrite": "These tunnels, gone during the Egyptian-Israeli War of Attrition in the sixties, have been utilized since the signing of the Oslo accords."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 22,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "building deep below it to plots against it by the radicals of the Salafi movement who are allied with radical Islamist groups such as al-Qaeda. There are also internal tensions between Hamas security squads, seen as monopolizing power at the expense of other Muslim Brotherhood-aligned groups.\nAccording to the plan, given Egypt's geographical challenges, Gaza will be connected via a land path, essentially a tunnel, in a different direction. These tunnels, gone during the Egyptian-Israeli War of Attrition in the sixties, have been utilized since the signing of the Oslo accords. The tension between Egypt and the Palestinian resistance is connected to the siege during the elections in Gaza, and the elections themselves had led to tensions between the Egyptians and Hamas in Gaza, as Hamas refused for too long to nominate the Egyptian",
+  "z0": 5.374011537017761,
+  "seconds": 116.5
+ }
+}

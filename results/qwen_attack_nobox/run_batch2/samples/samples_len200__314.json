@@ -1,0 +1,26 @@
+{
+ "sample_id": "samples_len200:314",
+ "nobox": {
+  "z_final": 3.315124394535412,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "After knocking out Adelaide United in the semi-finals, Sydney will now face Perth Glory for the chance to go back-to-back in the league.",
+    "rewrite": "Following their victory over Adelaide United in the semi-finals, Sydney will next play Perth Glory to secure a back-to-back win in the league."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 46,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "are coming off their best W League campaign, topping the table and qualifying for the finals for the first time since their championship success in the 2012/13 season.\nFollowing their victory over Adelaide United in the semi-finals, Sydney will next play Perth Glory to secure a back-to-back win in the league.\n\"This is a fantastic occasion for Australian women's football as we return to our highest debut level for our grand final on free-to-air TV,\" FFA chairman Christopher Zeidler said.\n\"We saw in last year's successful broadcast of the W-League final how enthusiastic audiences nationwide were to tune in and we hope to continue this growth and excitement as we aim to unify our fans behind the W-League - Australia's premier football competition for women since 2008.\u201d\nGametime Sport is the official",
+  "z0": 3.111269837220809,
+  "seconds": 36.0
+ }
+}

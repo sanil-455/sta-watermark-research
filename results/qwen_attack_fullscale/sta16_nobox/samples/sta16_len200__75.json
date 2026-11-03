@@ -1,0 +1,35 @@
+{
+ "sample_id": "sta16_len200:75",
+ "nobox": {
+  "z_final": 9.477047693754143,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Jourdan Wood and Chad Harris each scored a pair of major\u2019s, but could only respond with an extra point in the loss.",
+    "rewrite": "Jourdan Wood and Chad Harris each scored two majors, but managed only an extra point in the loss."
+   },
+   "2": {
+    "original": "Brownfie and Saxon Talbot added a convert and an extra point, respectively, to pad the score.",
+    "rewrite": "Brownfie and Saxon Talbot increased the score by adding a convert and an extra point, respectively."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 37,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "was in the \u201cC\u201d semifinals where the T.H. Titans/Laurier Chevrolet Invasion defeated their club partner Trent Halls Saints/Whetung Lumber Rage 8-0.\nIn the \u201cHawks Pack It In Jamaica Bowl\u201d sponsored by Smith Enterprises, Tyler Brownfie and Josh Pelover scored a pair of touchdowns to lead the \u201cStars and Stripes\u201d South Shore Payday Titanintos to a 28-15 win over the \u201cBlack Sea\u201d ICB Crude Masters. Brownfie and Saxon Talbot increased the score by adding a convert and an extra point, respectively.\nJourdan Wood and Chad Harris each scored two majors, but managed only an extra point in the loss. Mikey Schad completed both major\u2019s, scoring the other point in the loss",
+  "z0": 9.758073580374356,
+  "seconds": 67.7
+ }
+}

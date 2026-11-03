@@ -1,0 +1,71 @@
+{
+ "sample_id": "sta16_len200:37",
+ "nobox": {
+  "z_final": 7.001400420140048,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "According to Farkas, he and his team began by incubating their business, The Art of Quitting, after becoming fed up with their current nine to five job in August three years prior.",
+    "rewrite": "According to Farkas, he and his team started incubating their business, The Art of Quitting, after becoming fed up with their previous nine to five job in August three years earlier."
+   },
+   "7": {
+    "original": "To establish the business, they printed some flyers and distributed them around the neighborhood where they were based to promote their newly formed business.",
+    "rewrite": "To establish the business, they printed some flyers and distributed them in the neighborhood where they were located to advertise their newly formed company."
+   },
+   "3": {
+    "original": "It can aid those with physical limitations or other handicaps, and it can help to expand career possibilities.",
+    "rewrite": "It can assist individuals with physical limitations or other disabilities, and it can contribute to widening career opportunities."
+   },
+   "6": {
+    "original": "They had a simple idea for a business aimed at helping others; learn how to quit your job.",
+    "rewrite": "They had a straightforward idea for a business intended to assist others in learning how to quit their jobs."
+   },
+   "2": {
+    "original": "It can help to replace employees in repeatable, predictable tasks.",
+    "rewrite": "It can be beneficial to replace employees in tasks that are repetitive and predictable."
+   },
+   "1": {
+    "original": "But, he added, AI can help to shore up our workforce.",
+    "rewrite": "But, he added, AI can help bolster our workforce."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 30,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "workforce shortage. But, he added, AI can help bolster our workforce. It can be beneficial to replace employees in tasks that are repetitive and predictable. It can assist individuals with physical limitations or other disabilities, and it can contribute to widening career opportunities.\nIn January 2018, debut author Josh Farkas visited Medium.com to discuss his book Quitting, which he writes serves as a cautionary tale for those considering a career quit vehicle to found an online company.\nAccording to Farkas, he and his team started incubating their business, The Art of Quitting, after becoming fed up with their previous nine to five job in August three years earlier.\nThey had a straightforward idea for a business intended to assist others in learning how to quit their jobs. To establish the business, they printed some flyers and distributed them in the neighborhood where they were located to advertise their newly formed company.\n",
+  "z0": 10.465180361560902,
+  "seconds": 182.8
+ }
+}

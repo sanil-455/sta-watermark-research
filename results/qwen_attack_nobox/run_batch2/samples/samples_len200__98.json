@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:98",
+ "nobox": {
+  "z_final": 1.2236867762727808,
+  "status": "broken",
+  "rewrites": {
+   "2": {
+    "original": "Receiving the Committee at the state capital, Governor Akeredolu, expressed immense gladness at the quick rehabilitation of the federal roads, noting that the decision was made necessary by the state government in order to ameliorate the suffering of the people and boost commercial activities of the citizens.",
+    "rewrite": "Receiving the Committee at the state capital, Governor Akeredolu expressed profound joy at the rapid rehabilitation of the federal roads, noting that the state government took this decision to alleviate the people's suffering and enhance the commercial activities of the citizens."
+   },
+   "3": {
+    "original": "The governor inspected the on-going reconstruction of Ondo, Araromi, Irun Akoko, Irele -Iwaro road particularly, citing 40 kilometers section of the roads as an important Federal Road that connects the commerce of the state.",
+    "rewrite": "The governor inspected the ongoing reconstruction of the Ondo, Araromi, Irun Akoko, Irele-Iwaro road, highlighting 40 kilometers of the road as a crucial federal route connecting the state's commerce."
+   },
+   "1": {
+    "original": "On the second leg of the visit to the state, the Senate committee visited some markets and sites of on-going road projects.",
+    "rewrite": "During the second part of the visit to the state, the Senate committee toured some markets and sites of ongoing road projects."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 59,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 20,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "starting with the roads in Moshood Abiola stadium Ondo City which he noted was an inter-state border.\nDuring the second part of the visit to the state, the Senate committee toured some markets and sites of ongoing road projects.\nReceiving the Committee at the state capital, Governor Akeredolu expressed profound joy at the rapid rehabilitation of the federal roads, noting that the state government took this decision to alleviate the people's suffering and enhance the commercial activities of the citizens.\nThe governor inspected the ongoing reconstruction of the Ondo, Araromi, Irun Akoko, Irele-Iwaro road, highlighting 40 kilometers of the road as a crucial federal route connecting the state's commerce.\nSenator Gaya led the Committee team to inspect several ongoing projects in the state particularly, City",
+  "z0": 2.545584412271571,
+  "seconds": 157.1
+ }
+}

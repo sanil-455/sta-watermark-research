@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:352",
+ "nobox": {
+  "z_final": 3.095207728219387,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Aiding her point, according to nutrition experts, junk foods, smoking, alcoholism, sedentary lifestyle, and lack of physical activity, all these together contribute to increased BMI and result in obesity.",
+    "rewrite": "As per nutrition experts, junk foods, smoking, alcoholism, a sedentary lifestyle, and a lack of physical activity, together they contribute to an increased BMI and lead to obesity."
+   },
+   "2": {
+    "original": "Obesity, in turn, has been contributing heavily to diseases such as diabetes, hypertension, and heart diseases, increasing the health risks further.",
+    "rewrite": "Obesity has significantly contributed to the rise of diseases including diabetes, hypertension, and heart diseases, thus elevating health risks."
+   },
+   "3": {
+    "original": "International Women's Day 2019: Quit smoking, be moderate with alcohol intake and exercise regularly.",
+    "rewrite": "International Women's Day 2019: Stop smoking, consume alcohol moderately, and engage in regular exercise."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 32,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "able to control your weight and it can be done to a great extent by modifying the lifestyle, habits and diet,\" said Dr. Juneja. As per nutrition experts, junk foods, smoking, alcoholism, a sedentary lifestyle, and a lack of physical activity, together they contribute to an increased BMI and lead to obesity. Obesity has significantly contributed to the rise of diseases including diabetes, hypertension, and heart diseases, thus elevating health risks.\nInternational Women's Day 2019: Stop smoking, consume alcohol moderately, and engage in regular exercise.\n\"Some facts from a research paper are worth mentioning here. By the age of 50, on an average a type 2 diabetic may have seven times the damage if compared to a healthy person and the",
+  "z0": 4.384062043356595,
+  "seconds": 112.0
+ }
+}

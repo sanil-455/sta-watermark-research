@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:183",
+ "nobox": {
+  "z_final": 2.984810028978546,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "What is clear is that not all violent people are mentally ill and not all mentally ill people are capable of violence, Arroja said, leading the APA report to state that mental illnesses alone are not to blame for school, workplace or military mass shootings.",
+    "rewrite": "It is evident that all violent people are not mentally ill and all mentally ill people are not capable of violence, Arroja said, resulting in the APA report stating that mental illnesses alone cannot be blamed for school, workplace, or military mass shootings."
+   },
+   "4": {
+    "original": "Still, the mental health crisis is real, Arroja said, noting that suicide is the leading cause of death for young people, ahead of car accidents.",
+    "rewrite": "Still, the mental health crisis is real, Arroja said, highlighting that suicide is the leading cause of death for young people, preceding car accidents."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 46,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the report highlighted the role of \"operational models\" and an administration's approach to how violent extremism is defined as reasons why mass attacks happen.\nIt is evident that all violent people are not mentally ill and all mentally ill people are not capable of violence, Arroja said, resulting in the APA report stating that mental illnesses alone cannot be blamed for school, workplace, or military mass shootings.\n\"Making tribes out of otherwise disparate human experiences is another example of why mental health politics and mental health policy are important to health overall, and politics overall,\" said Metzl. \"There is a political division and concept of character being tied to mental failings that is scintillating.\"\nStill, the mental health crisis is real, Arroja said, highlighting that suicide is the leading cause of death for young people, preceding car accidents. He said that is because incidents of mental",
+  "z0": 3.5355339059327373,
+  "seconds": 110.0
+ }
+}

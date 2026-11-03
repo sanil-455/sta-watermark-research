@@ -1,0 +1,80 @@
+{
+ "sample_id": "samples_len200:89",
+ "nobox": {
+  "z_final": 5.600161519565853,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "I left Sarkozy, anyone who complained about my filing of the credit card bills, and any friend who had told me that Christopher Hitchens had gone soft.",
+    "rewrite": "I left Sarkozy, anyone who objected to my handling of the credit card bills, and any associate who mentioned that Christopher Hitchens had become softer."
+   },
+   "2": {
+    "original": "I added President Arroba, anyone who reminded me of my new principles, and former-lover-turned-Swiss-lawyer Emile Duvalerond.",
+    "rewrite": "I included President Arroba, anyone who reminded me of my new principles, and former lover-turned-Swiss-lawyer Emile Duvalerond."
+   },
+   "6": {
+    "original": "Using a proverbial razor blade and a lot of glue, I carefully transferred the survivors to a clear page book.",
+    "rewrite": "With a proverbial razor blade and generous amounts of glue, I carefully transferred the survivors to a clear page book."
+   },
+   "7": {
+    "original": "I really enjoy reading from it, getting emotionally lathered up over the good times and virtues.",
+    "rewrite": "I really enjoy reading from it, getting emotionally stimulated by the good times and virtues."
+   },
+   "4": {
+    "original": "I don't know exactly how many pages are in my old friend.",
+    "rewrite": "I'm not sure about the exact number of pages in my old friend."
+   },
+   "3": {
+    "original": "And in a major clean-up I finally divorced God.",
+    "rewrite": "And during a significant clean-up, I ultimately ended my relationship with God."
+   },
+   "5": {
+    "original": "I didn't count, but I kept every page.",
+    "rewrite": "I did not count, yet I retained every page."
+   }
+  },
+  "sentences_rewritten": 7,
+  "eligible": 7,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 32,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 13,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 18,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "to ask if I got the menu pocket with the fortune cookie message.\nI left Sarkozy, anyone who objected to my handling of the credit card bills, and any associate who mentioned that Christopher Hitchens had become softer. I included President Arroba, anyone who reminded me of my new principles, and former lover-turned-Swiss-lawyer Emile Duvalerond. And during a significant clean-up, I ultimately ended my relationship with God.\nI'm not sure about the exact number of pages in my old friend. I did not count, yet I retained every page. With a proverbial razor blade and generous amounts of glue, I carefully transferred the survivors to a clear page book. I really enjoy reading from it, getting emotionally stimulated by the good times and virtues. I especially like remembering all the good times I've had with the",
+  "z0": 7.212489168102785,
+  "seconds": 206.9
+ }
+}

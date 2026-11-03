@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:73",
+ "nobox": {
+  "z_final": 2.76463669953251,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "From Rajinikanth-starrer Thalapathy 60 to Rajini-starrer Enthiran, there are so many superheroes\u2019 films that we fans wish to watch in the tinsel town.",
+    "rewrite": "From Rajinikanth-starrer Thalapathy 60 to Rajini-starrer Enthiran, there are numerous superhero films that we fans wish to watch in the tinsel town."
+   },
+   "1": {
+    "original": "Amala Paul\u2019s biopic is planned for a release on 7 December, as she mentions in a recent Instagram photo, reports suggest.",
+    "rewrite": "Reports indicate that Amala Paul's biopic is scheduled for a release on 7 December, as she mentioned recently in an Instagram photo."
+   },
+   "3": {
+    "original": "And one such superhero movie was revealed by Amala Paul recently, named as Thalaivii, according reports.",
+    "rewrite": "According to reports, one such superhero movie was recently revealed by Amala Paul and named Thalaivii."
+   },
+   "4": {
+    "original": "And luckily the makers had chosen the Children Day to announce the release plans.",
+    "rewrite": "And luckily, the makers had selected Children's Day to announce the release plans."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 10,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 26,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the box office with its biggest opening collection, the Thalapathy 60 has now succeeded in achieving the responsibility to reach CGC kids this Children Day. Reports indicate that Amala Paul's biopic is scheduled for a release on 7 December, as she mentioned recently in an Instagram photo.\nFrom Rajinikanth-starrer Thalapathy 60 to Rajini-starrer Enthiran, there are numerous superhero films that we fans wish to watch in the tinsel town. According to reports, one such superhero movie was recently revealed by Amala Paul and named Thalaivii. And luckily, the makers had selected Children's Day to announce the release plans.\nAmala Paul has done a biopic of legendary Tamil actress, Nayanki porusenhan and is expected to release on 7 December, as she",
+  "z0": 3.959797974644666,
+  "seconds": 138.5
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "sample_id": "baseline_safe:3",
+ "nobox": {
+  "z_final": 2.8461538461538463,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Sustainability policies should also give room for communities who opt for different energy and climate policies over and above state mandates.",
+    "rewrite": "Sustainability policies should also accommodate communities that choose different energy and climate policies in addition to state mandates."
+   },
+   "3": {
+    "original": "He has also served in the executive leadership role as SVP International and policy at the American Solar Energy Society.",
+    "rewrite": "He has also held the position of executive leadership as SVP International and policy at the American Solar Energy Society."
+   },
+   "2": {
+    "original": "Mario Oriani-Ambrosini is Vice President of Nuclear Policy Initiatives at the Nuclear Energy Institute.",
+    "rewrite": "Mario Oriani-Ambrosini serves as Vice President of Nuclear Policy Initiatives at the Nuclear Energy Institute."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 6,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "make their own decisions as it pertains to their respective energy sectors. Sustainability policies should also accommodate communities that choose different energy and climate policies in addition to state mandates.\nMario Oriani-Ambrosini serves as Vice President of Nuclear Policy Initiatives at the Nuclear Energy Institute. He has also held the position of executive leadership as SVP International and policy at the American Solar Energy Society.\nCalifornia Green New Deal advocates want a windfall tax on wholesale energy sales, yet it\u2019s already heavily taxed Next stop Hong Kong: Looming fossil fuel imports, reduced solar claims, and tax credits fail renewable assets Previous stop Brownsville, Texas: Local flooding and infrastructure an issue for solar More articles",
+  "z0": 3.6814319464673777,
+  "seconds": 89.5
+ }
+}

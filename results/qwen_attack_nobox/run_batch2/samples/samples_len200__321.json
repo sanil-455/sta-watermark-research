@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:321",
+ "nobox": {
+  "z_final": 3.6084391824351614,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Whether your sectional goes with an all-out contemporary or transitional-style theme or has just the right rustic feel to it, the sectional's frame determines how you add soft furnishings and accessories to enhance its design.",
+    "rewrite": "The sectional's frame determines how you add soft furnishings and accessories to enhance its design, whether its style aligns with a contemporary, transitional, or rustic decor theme."
+   },
+   "4": {
+    "original": "A whimsical, tribal tapestry, an area rug with a prowling tiger or a brightly colored throw quickly turn a basic sectional into a warm, lively and complete room.",
+    "rewrite": "A whimsical, tribal tapestry, an area rug featuring a prowling tiger or a brightly colored throw swiftly transforms a basic sectional into a warm, lively, and completed room."
+   },
+   "2": {
+    "original": "Decorating with this approach keeps interest flowing throughout the room and helps soften harsh lines that might compete with the sectional's shape.",
+    "rewrite": "This approach to decorating keeps interest flowing through the room and helps to soften harsh lines that could compete with the sectional's shape."
+   },
+   "1": {
+    "original": "Add coordinating table lamps on each end table.",
+    "rewrite": "Add coordinating table lamps to each end table."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 12,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "to express other occasions such as a birth, passing or a graduation. Add coordinating table lamps to each end table. This approach to decorating keeps interest flowing through the room and helps to soften harsh lines that could compete with the sectional's shape.\nThe sectional's frame determines how you add soft furnishings and accessories to enhance its design, whether its style aligns with a contemporary, transitional, or rustic decor theme. A whimsical, tribal tapestry, an area rug featuring a prowling tiger or a brightly colored throw swiftly transforms a basic sectional into a warm, lively, and completed room. Browse the book sections of furniture emporiums, area rug stores or eclectic shops to find anything from a type of antique bowl to a hand-painted plate to an attractive ind",
+  "z0": 5.091168824543142,
+  "seconds": 148.0
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "sample_id": "sta16_len200:116",
+ "nobox": {
+  "z_final": 6.174440164112548,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "Green is the only player in camp who has broken away from defenseman Dennis Cholowski to make a successful breakout at the North Farm Credit Union Center.",
+    "rewrite": "Green is the only player in camp breaking away from defenseman Dennis Cholowski to achieve a successful breakout at the North Farm Credit Union Center."
+   },
+   "2": {
+    "original": "He has three points (goal and two assists) in two games and showed in Sunday\u2019s victory over the Stars he looks solid on defense as well.",
+    "rewrite": "In two games, he earned three points (one goal and two assists) and demonstrated on Sunday against the Stars that he is solid on defense as well."
+   },
+   "4": {
+    "original": "Blashill said Green doesn\u2019t have any limitations on how long he can stay in a game once he\u2019s back into shape.",
+    "rewrite": "Blashill stated that Green has no restrictions on how long he can play once he regains his fitness."
+   },
+   "1": {
+    "original": "Mike Green is happy with his early return to the Wings after coming back from a groin injury.",
+    "rewrite": "Mike Green is delighted to be back with the Wings after recovering from a groin injury."
+   },
+   "5": {
+    "original": "Blashill has also found an old NHL sourvenir in Green: losing a stick in transition.",
+    "rewrite": "Blashill has discovered an old NHL keepsake in Green: a lost stick during a transition."
+   },
+   "3": {
+    "original": "His speed has looked particularly good in transition game.",
+    "rewrite": "His speed has been especially noticeable in the transition game."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 38,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 35,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "broadcast on Fox Sports Detroit-plus, and the next three home games \u2013 against Columbus, Los Angeles and Anaheim \u2013 are being broadcast on FSD-plus over the next four days.\nMike Green is delighted to be back with the Wings after recovering from a groin injury. In two games, he earned three points (one goal and two assists) and demonstrated on Sunday against the Stars that he is solid on defense as well. His speed has been especially noticeable in the transition game.\nBlashill stated that Green has no restrictions on how long he can play once he regains his fitness.\nBlashill has discovered an old NHL keepsake in Green: a lost stick during a transition. Green is the only player in camp breaking away from defenseman Dennis Cholowski to achieve a successful breakout at the North Farm Credit Union Center. The right-handed Green is taking left-",
+  "z0": 10.465180361560902,
+  "seconds": 182.4
+ }
+}

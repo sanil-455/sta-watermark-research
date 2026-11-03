@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:69",
+ "nobox": {
+  "z_final": 2.274140974459845,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Yet, the U.S. failed repeatedly to ratify a protocol that would penalize parents who send their children on perilous journeys to the U.S. To prevent further suffering, we must, at a minimum, be in compliance with the original convention.",
+    "rewrite": "Yet, the U.S. repeatedly failed to ratify a protocol to penalize parents sending children on perilous journeys to the U.S. To prevent further suffering, we must, at the very least, comply with the original convention."
+   },
+   "1": {
+    "original": "Detention deters little, harms youth and is inconsistent with children\u2019s rights as described in the UN Convention on the Rights of the Child, which governs the U.S. The United States was an early adopter of the treaty in 1995.",
+    "rewrite": "Detention has little deterrent effect, hurts youth and contravenes children\u2019s rights as outlined in the UN Convention on the Rights of the Child, which influences the U.S. laws. The U.S. became an early adopter of the treaty in 1995."
+   },
+   "3": {
+    "original": "And we must make sure we release kids who are eligible for reunification with their families.",
+    "rewrite": "We must ensure that we release kids who qualify for reunification with their families."
+   },
+   "4": {
+    "original": "Juvenile justice reform is in many ways a mirror of the immigration tragedy.",
+    "rewrite": "Juvenile justice reform reflects in many ways the immigration tragedy."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 13,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 16,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "aren\u2019t coming to court, Detention Watch Network reported that child protection teams in states like California can help children without interfering with their ability to work with sponsors.\nDetention has little deterrent effect, hurts youth and contravenes children\u2019s rights as outlined in the UN Convention on the Rights of the Child, which influences the U.S. laws. The U.S. became an early adopter of the treaty in 1995. Yet, the U.S. repeatedly failed to ratify a protocol to penalize parents sending children on perilous journeys to the U.S. To prevent further suffering, we must, at the very least, comply with the original convention. We must ensure that we release kids who qualify for reunification with their families.\nJuvenile justice reform reflects in many ways the immigration tragedy. Mass incarceration",
+  "z0": 3.111269837220809,
+  "seconds": 169.0
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "sample_id": "samples_len200:277",
+ "nobox": {
+  "z_final": 4.06108184931085,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "The U.S. has been tough and kept getting points on offense and in the goals column to put itself in a game against Russia, Fischer said.",
+    "rewrite": "Fischer noted that the U.S. has remained tough and accumulated points offensively and in goals to face Russia in the game."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 0,
+    "rewritten": false
+   }
+  ],
+  "queries": 1,
+  "final_span": ".\n\"It's going great, fantastic,\" Fischer said of the summer. \"It's an amazing experience coming in my rookie year and playing with so many great, experienced girls.\n\"I think that's what's so fantastic about water polo is that everyone goes way back and everyone's always so supportive and everyone's just so much fun to play with and it's so unrealistic that in a game situation you're basically playing on your own for the whole match.\"\nFischer noted that the U.S. has remained tough and accumulated points offensively and in goals to face Russia in the game.\n\"We just really got to work the ball and getting good looks and taking advantage of those chances we had,\" she said. \"We really just have to continue to get good shots off and not stop and not be afraid of the pace, pace it up,",
+  "z0": 4.242640687119285,
+  "seconds": 52.4
+ }
+}

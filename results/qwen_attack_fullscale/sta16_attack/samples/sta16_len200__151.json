@@ -1,0 +1,369 @@
+{
+ "sample_id": "sta16_len200:151",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.9812108559498957,
+ "needed_share": 0.8114381916835873,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 958,
+  "segments": 10,
+  "eligible": 9,
+  "skipped": 1,
+  "skip_reasons": {
+   "starts mid-sentence": 1
+  },
+  "eligible_chars": 940,
+  "eligible_char_share": 0.9812108559498957
+ },
+ "attack": {
+  "z0": 10.606601717798213,
+  "z_final": 1.5109662034355793,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 273,
+  "seconds": 237.0,
+  "seconds_by_phase": {
+   "generate": 217.3,
+   "gates": 19.6,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 166,
+    "z_before": 10.606601717798213,
+    "z_after": 8.909545442950499,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "duplicate": 5
+     }
+    },
+    "queries_total": 56,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.88
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 153,
+    "z_before": 8.909545442950499,
+    "z_after": 7.79067271041392,
+    "accepted": true,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 53,
+     "after_content": 11,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "duplicate": 7,
+      "negation count changed": 42,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 65,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.2
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 133,
+    "z_before": 7.79067271041392,
+    "z_after": 6.332377902572627,
+    "accepted": true,
+    "survivors": 29,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 49,
+     "after_content": 37,
+     "after_semantic": 37,
+     "fluency_skipped": false,
+     "after_fluency": 29,
+     "rejected": {
+      "duplicate": 5,
+      "CJK text": 5,
+      "unknown word": 1,
+      "negation count changed": 12,
+      "perplexity too high": 8
+     }
+    },
+    "queries_total": 94,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.14
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 119,
+    "z_before": 6.332377902572627,
+    "z_after": 5.96583045392057,
+    "accepted": true,
+    "survivors": 24,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 29,
+     "after_spelling": 27,
+     "after_content": 27,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 24,
+     "rejected": {
+      "duplicate": 30,
+      "CJK text": 1,
+      "unknown word": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 118,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.17
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 100,
+    "z_before": 5.96583045392057,
+    "z_after": 4.554432691659538,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 2,
+      "unknown word": 2,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 166,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.09
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 88,
+    "z_before": 4.554432691659538,
+    "z_after": 3.924041827682631,
+    "accepted": true,
+    "survivors": 26,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 33,
+     "after_spelling": 31,
+     "after_content": 31,
+     "after_semantic": 26,
+     "fluency_skipped": false,
+     "after_fluency": 26,
+     "rejected": {
+      "duplicate": 24,
+      "CJK text": 3,
+      "unknown word": 2,
+      "meaning too different": 5
+     }
+    },
+    "queries_total": 192,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.19
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 64,
+    "z_before": 3.924041827682631,
+    "z_after": 2.974372194624121,
+    "accepted": true,
+    "survivors": 22,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 22,
+     "after_spelling": 22,
+     "after_content": 22,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 22,
+     "rejected": {
+      "duplicate": 38
+     }
+    },
+    "queries_total": 214,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.23
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 60,
+    "z_before": 2.974372194624121,
+    "z_after": 2.271813689710997,
+    "accepted": true,
+    "survivors": 29,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 37,
+     "after_spelling": 34,
+     "after_content": 34,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 29,
+     "rejected": {
+      "duplicate": 23,
+      "unknown word": 3,
+      "meaning too different": 3,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 243,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.63
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 57,
+    "z_before": 2.271813689710997,
+    "z_after": 1.5109662034355793,
+    "accepted": true,
+    "survivors": 30,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 31,
+     "after_spelling": 31,
+     "after_content": 31,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 30,
+     "rejected": {
+      "duplicate": 28,
+      "CJK text": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 273,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.81
+   }
+  ],
+  "rewrites": {
+   "6": {
+    "original": "Audio, Video, and Animation Support Integrated into Office are tools to work with presentations, audio, and video, and perhaps you already have used these separately.",
+    "rewrite": "Audio, Video, and Animation Integration in Office offer tools for handling presentations, audio, and video, and you may already be familiar with using them separately."
+   },
+   "7": {
+    "original": "Word now supports video embedding without the need to upload and host it elsewhere, and PowerPoint's options have been updated with more sharing options.",
+    "rewrite": "Now, Word allows embedding videos directly without the need to upload or host them elsewhere, and PowerPoint's sharing options have been updated to include more features."
+   },
+   "2": {
+    "original": "Whether you prefer to work this way or not, you\u2019ll find it useful that these styles create an easy method of transferring formatting.",
+    "rewrite": "Even if you don't prefer working this way, you'll discover that these styles offer an easy method for transferring formatting."
+   },
+   "9": {
+    "original": "The Windows-8 flavor of Office supports touch gestures to control audio, slide shows, and videos during a presentation.",
+    "rewrite": "The Office version for Windows 8 includes support for touch gestures to manage audio, slides, and videos in a presentation."
+   },
+   "8": {
+    "original": "PowerPoint imports audio for use within slide shows and presents it in a new panel on the top right.",
+    "rewrite": "PowerPoint enables the import of audio to be utilized in slide shows, showcased via a new panel atop the right edge."
+   },
+   "4": {
+    "original": "Move the cursor through the built-in available type styles until you find what you need.",
+    "rewrite": "Navigate through the available pre-set type styles until you locate the one you need."
+   },
+   "5": {
+    "original": "Then assign the style to the selected text and you can apply it.",
+    "rewrite": "First select the text, then apply the style to it."
+   },
+   "1": {
+    "original": "Text Formatting Word now lets you create custom type styles.",
+    "rewrite": "Word Text Formatting now allows you to develop personalized type styles."
+   },
+   "3": {
+    "original": "Select text and you\u2019ll see an Edit font style dialog box.",
+    "rewrite": "Choose text and you will notice an Edit font style dialog box appear."
+   }
+  },
+  "final_span": "you work.\nWord Text Formatting now allows you to develop personalized type styles. Even if you don't prefer working this way, you'll discover that these styles offer an easy method for transferring formatting. Choose text and you will notice an Edit font style dialog box appear. Navigate through the available pre-set type styles until you locate the one you need. First select the text, then apply the style to it.\nAudio, Video, and Animation Integration in Office offer tools for handling presentations, audio, and video, and you may already be familiar with using them separately. Now, Word allows embedding videos directly without the need to upload or host them elsewhere, and PowerPoint's sharing options have been updated to include more features. PowerPoint enables the import of audio to be utilized in slide shows, showcased via a new panel atop the right edge. The Office version for Windows 8 includes support for touch gestures to manage audio, slides, and videos in a presentation.",
+  "break_point": {
+   "step": 8,
+   "sentences_rewritten": 9,
+   "queries": 273
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 9,
+   "eligible": 9,
+   "segments": 10,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 90.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 213,
+   "length_change": 12,
+   "pct_not_preserved": 37.810945273631845,
+   "pct_new": 41.31455399061033
+  },
+  "words": {
+   "original": 160,
+   "final": 162,
+   "length_change": 2,
+   "pct_not_preserved": 46.25,
+   "pct_new": 46.913580246913575
+  },
+  "characters": {
+   "original": 958,
+   "final": 996,
+   "length_change": 38,
+   "pct_not_preserved": 27.13987473903967,
+   "pct_new": 29.919678714859433
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 175,
+   "green_after": 117,
+   "pairs_before": 200,
+   "pairs_after": 212,
+   "pairs_changed_before": 124,
+   "pairs_changed_after": 136,
+   "green_fraction_of_new_pairs": 0.3897058823529412,
+   "delta_achieved": 0.11029411764705882
+  }
+ }
+}

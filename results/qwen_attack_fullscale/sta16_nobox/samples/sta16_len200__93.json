@@ -1,0 +1,44 @@
+{
+ "sample_id": "sta16_len200:93",
+ "nobox": {
+  "z_final": 7.399857751122119,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Though the president would not be running campaigns from Dagbon, he could resort to reminding the people about those he has performed to show the policy credibility in Kufuor Administration according to the Yamani MP especially as he has never visited any north to campaign before the dawn of the \u201cYear of the North\u201d.",
+    "rewrite": "Although the president would not run campaigns from Dagbon, he could turn to reminding people of his actions to demonstrate the policy's credibility from the Kufuor Administration, according to the Yamani MP, especially since he has never campaigned in the north before the \u201cYear of the North\u201d dawned."
+   },
+   "3": {
+    "original": "According to the Yamani MP the presence of the president would afford him the opportunity to reflect on the enormity of the benefits or peace, reconstruction and agricultural developments porlolozing the area.",
+    "rewrite": "According to the Yamani MP, the presence of the president would allow him to reflect on the significant benefits or peace, reconstruction, and agricultural developments envisaged for the area."
+   },
+   "1": {
+    "original": "He added that he was relying on the administration of the Sarki for a positive turnaround as far as buried feelings of anger were concerned.",
+    "rewrite": "He noted that he was depending on the Sarki administration for a positive shift regarding repressed feelings of anger."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 10,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": ". He noted that he was depending on the Sarki administration for a positive shift regarding repressed feelings of anger.\nAlthough the president would not run campaigns from Dagbon, he could turn to reminding people of his actions to demonstrate the policy's credibility from the Kufuor Administration, according to the Yamani MP, especially since he has never campaigned in the north before the \u201cYear of the North\u201d dawned.\nAccording to the Yamani MP, the presence of the president would allow him to reflect on the significant benefits or peace, reconstruction, and agricultural developments envisaged for the area. He is hopeful that in similar fashion as it three time happened in Yendi \u201cPresident Kufuor will restore the peace\u201d in Dagbon following the removal of the kidnap king-pins it transformed in earlier times to business men acclaimed to have been",
+  "z0": 10.465180361560902,
+  "seconds": 146.8
+ }
+}

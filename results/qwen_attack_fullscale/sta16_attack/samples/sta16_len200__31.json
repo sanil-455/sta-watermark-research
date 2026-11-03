@@ -1,0 +1,474 @@
+{
+ "sample_id": "sta16_len200:31",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.9159192825112108,
+ "needed_share": 0.7950415126995515,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 892,
+  "segments": 8,
+  "eligible": 6,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 817,
+  "eligible_char_share": 0.9159192825112108
+ },
+ "attack": {
+  "z0": 9.758073580374356,
+  "z_final": 0.4962168435058351,
+  "status": "broken",
+  "reason": null,
+  "passes": 3,
+  "queries": 297,
+  "seconds": 491.0,
+  "seconds_by_phase": {
+   "generate": 470.6,
+   "gates": 20.3,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 205,
+    "z_before": 9.758073580374356,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 49,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 10,
+      "several lines": 1,
+      "negation count changed": 49
+     }
+    },
+    "queries_total": 1,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 52.49
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 168,
+    "z_before": 9.758073580374356,
+    "z_after": 7.612890223888402,
+    "accepted": true,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 40,
+     "after_spelling": 34,
+     "after_content": 2,
+     "after_semantic": 2,
+     "fluency_skipped": true,
+     "after_fluency": 2,
+     "rejected": {
+      "CJK text": 18,
+      "several lines": 2,
+      "unknown word": 4,
+      "glued punctuation": 2,
+      "negation count changed": 32
+     }
+    },
+    "queries_total": 3,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 45.96
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 154,
+    "z_before": 7.612890223888402,
+    "z_after": 6.10170215847752,
+    "accepted": true,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 57,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.85
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 101,
+    "z_before": 6.10170215847752,
+    "z_after": 5.163212931161357,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "duplicate": 15
+     }
+    },
+    "queries_total": 102,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.5
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 97,
+    "z_before": 5.163212931161357,
+    "z_after": 3.9427724440366254,
+    "accepted": true,
+    "survivors": 22,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 26,
+     "after_spelling": 24,
+     "after_content": 24,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 22,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 30,
+      "several lines": 1,
+      "unknown word": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 124,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.37
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 92,
+    "z_before": 3.9427724440366254,
+    "z_after": 2.760262237369417,
+    "accepted": true,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 31,
+     "after_spelling": 31,
+     "after_content": 31,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "hit length limit": 1,
+      "duplicate": 26,
+      "CJK text": 1,
+      "several lines": 1
+     }
+    },
+    "queries_total": 155,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 23.87
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 205,
+    "z_before": 2.760262237369417,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 54,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "several lines": 2,
+      "CJK text": 3,
+      "unknown word": 1,
+      "negation count changed": 54
+     }
+    },
+    "queries_total": 155,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 50.4
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 168,
+    "z_before": 2.760262237369417,
+    "z_after": 3.2826223901170173,
+    "accepted": false,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 42,
+     "after_spelling": 36,
+     "after_content": 2,
+     "after_semantic": 2,
+     "fluency_skipped": true,
+     "after_fluency": 2,
+     "rejected": {
+      "CJK text": 14,
+      "several lines": 3,
+      "hit length limit": 1,
+      "unknown word": 6,
+      "negation count changed": 34
+     }
+    },
+    "queries_total": 157,
+    "hit_limit": 2,
+    "oom_events": [],
+    "seconds_generate": 56.08
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 154,
+    "z_before": 2.760262237369417,
+    "z_after": 2.697686409077691,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "duplicate": 4,
+      "CJK text": 5,
+      "unknown word": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 204,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.0
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 101,
+    "z_before": 2.697686409077691,
+    "z_after": 2.697686409077691,
+    "accepted": false,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 41,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "duplicate": 18,
+      "CJK text": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 242,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.68
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 97,
+    "z_before": 2.697686409077691,
+    "z_after": 2.836029301850906,
+    "accepted": false,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 33,
+     "after_spelling": 31,
+     "after_content": 31,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 19,
+      "several lines": 4,
+      "unknown word": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 270,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.71
+   },
+   {
+    "pass": 2,
+    "segment": 6,
+    "chars": 92,
+    "z_before": 2.697686409077691,
+    "z_after": 2.697686409077691,
+    "accepted": false,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 27,
+     "after_content": 27,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "duplicate": 30,
+      "several lines": 2,
+      "CJK text": 1
+     }
+    },
+    "queries_total": 296,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.0
+   },
+   {
+    "pass": 3,
+    "segment": 5,
+    "chars": 205,
+    "z_before": 2.697686409077691,
+    "z_after": 0.4962168435058351,
+    "accepted": true,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 42,
+     "after_content": 1,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "CJK text": 8,
+      "several lines": 4,
+      "unknown word": 6,
+      "negation count changed": 41
+     }
+    },
+    "queries_total": 297,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 57.68
+   }
+  ],
+  "rewrites": {
+   "4": {
+    "original": "She said she finally asked God for help, and said she feels God brought her out of that time period with her, forgiving her and helping her in ways she cannot describe.",
+    "rewrite": "She said she ultimately begged God for assistance, and stated that she believes God led her through that phase, pardoned her, and supported her in ways she can't articulate."
+   },
+   "2": {
+    "original": "Johnson described herself as feeling extremely depressed following the life-changing experience, approaching alcohol, food and exercising to deal with it.",
+    "rewrite": "Johnson characterized her feelings after the life-altering event as intensely depressed, using alcohol, food, and exercise as coping mechanisms."
+   },
+   "1": {
+    "original": "Johnson, now a pro-life speaker, discussed her journey on the panel at the Belo Center for New Media.",
+    "rewrite": "Johnson, who is now a pro-life speaker, shared her journey in the panel discussion at the Belo Center for New Media."
+   },
+   "3": {
+    "original": "The experience, she said, prompted in her a feeling of being disconnected from God\u2019s forgiveness.",
+    "rewrite": "She said that the experience prompted a feeling of disconnection from God's forgiveness in her."
+   },
+   "6": {
+    "original": "He added that he felt film was a different form of communication from a written documentary.",
+    "rewrite": "He stated that he believed films constituted a distinct mode of communication compared to written documentaries."
+   },
+   "5": {
+    "original": "Konzelman responded to the criticism by saying that people do not remember that in order to portray a part of Johnson\u2019s story, they changed her name, and it would not be illegal, if they showed it on film.",
+    "rewrite": "Konzelman replied to the criticism by explaining that individuals may not recall altering Johnson's name to tell her story, and that making the film would not necessarily be unlawful."
+   }
+  },
+  "final_span": ". Johnson, who is now a pro-life speaker, shared her journey in the panel discussion at the Belo Center for New Media.\nJohnson characterized her feelings after the life-altering event as intensely depressed, using alcohol, food, and exercise as coping mechanisms. She said that the experience prompted a feeling of disconnection from God's forgiveness in her. She said she ultimately begged God for assistance, and stated that she believes God led her through that phase, pardoned her, and supported her in ways she can't articulate.\nKonzelman replied to the criticism by explaining that individuals may not recall altering Johnson's name to tell her story, and that making the film would not necessarily be unlawful. He stated that he believed films constituted a distinct mode of communication compared to written documentaries.\nJohnson, speaking to the Argus, described how important it was that",
+  "break_point": {
+   "step": 12,
+   "sentences_rewritten": 6,
+   "queries": 297
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 6,
+   "eligible": 6,
+   "segments": 8,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 75.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 200,
+   "length_change": -1,
+   "pct_not_preserved": 43.28358208955224,
+   "pct_new": 43.00000000000001
+  },
+  "words": {
+   "original": 151,
+   "final": 141,
+   "length_change": -10,
+   "pct_not_preserved": 53.642384105960275,
+   "pct_new": 50.35460992907801
+  },
+  "characters": {
+   "original": 892,
+   "final": 898,
+   "length_change": 6,
+   "pct_not_preserved": 32.959641255605376,
+   "pct_new": 33.40757238307349
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 169,
+   "green_after": 103,
+   "pairs_before": 200,
+   "pairs_after": 199,
+   "pairs_changed_before": 128,
+   "pairs_changed_after": 127,
+   "green_fraction_of_new_pairs": 0.36220472440944884,
+   "delta_achieved": 0.13779527559055116
+  }
+ }
+}

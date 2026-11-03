@@ -1,0 +1,474 @@
+{
+ "sample_id": "sta16_len200:80",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.8394919168591224,
+ "needed_share": 0.8374467169686097,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 866,
+  "segments": 9,
+  "eligible": 7,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 727,
+  "eligible_char_share": 0.8394919168591224
+ },
+ "attack": {
+  "z0": 12.303657992645926,
+  "z_final": 1.9744355451432527,
+  "status": "broken",
+  "reason": null,
+  "passes": 2,
+  "queries": 425,
+  "seconds": 360.4,
+  "seconds_by_phase": {
+   "generate": 329.6,
+   "gates": 30.7,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 193,
+    "z_before": 12.303657992645926,
+    "z_after": 10.0,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 5,
+      "several lines": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 52,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 39.28
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 139,
+    "z_before": 10.0,
+    "z_after": 8.378544026261364,
+    "accepted": true,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 40,
+     "after_content": 40,
+     "after_semantic": 40,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "duplicate": 14,
+      "CJK text": 2,
+      "unknown word": 4
+     }
+    },
+    "queries_total": 92,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.51
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 130,
+    "z_before": 8.378544026261364,
+    "z_after": 6.639528095680697,
+    "accepted": true,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 58,
+     "after_content": 20,
+     "after_semantic": 20,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "unknown word": 2,
+      "negation count changed": 38,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 110,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.39
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 78,
+    "z_before": 6.639528095680697,
+    "z_after": 5.338288696128053,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "duplicate": 4,
+      "unknown word": 1,
+      "meaning too different": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 161,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.25
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 70,
+    "z_before": 5.338288696128053,
+    "z_after": 3.7527767497325675,
+    "accepted": true,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 43,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 16,
+      "unknown word": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 200,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 20.06
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 68,
+    "z_before": 3.7527767497325675,
+    "z_after": 3.127789760049224,
+    "accepted": true,
+    "survivors": 16,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 17,
+     "after_spelling": 17,
+     "after_content": 17,
+     "after_semantic": 17,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "duplicate": 41,
+      "CJK text": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 216,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 20.25
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 49,
+    "z_before": 3.127789760049224,
+    "z_after": 2.7714348384599967,
+    "accepted": true,
+    "survivors": 3,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 24,
+     "after_spelling": 24,
+     "after_content": 24,
+     "after_semantic": 4,
+     "fluency_skipped": false,
+     "after_fluency": 3,
+     "rejected": {
+      "duplicate": 36,
+      "meaning too different": 20,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 219,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 12.67
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 193,
+    "z_before": 2.7714348384599967,
+    "z_after": 3.1444714237466616,
+    "accepted": false,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "duplicate": 4,
+      "several lines": 2,
+      "CJK text": 3,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 267,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.4
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 139,
+    "z_before": 2.7714348384599967,
+    "z_after": 2.46661925037404,
+    "accepted": true,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "duplicate": 14,
+      "CJK text": 2,
+      "unknown word": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 307,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.09
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 130,
+    "z_before": 2.46661925037404,
+    "z_after": 2.1997067253202993,
+    "accepted": true,
+    "survivors": 15,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 58,
+     "after_content": 18,
+     "after_semantic": 16,
+     "fluency_skipped": false,
+     "after_fluency": 15,
+     "rejected": {
+      "unknown word": 2,
+      "negation count changed": 40,
+      "meaning too different": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 322,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 31.07
+   },
+   {
+    "pass": 2,
+    "segment": 6,
+    "chars": 78,
+    "z_before": 2.1997067253202993,
+    "z_after": 2.333839863966313,
+    "accepted": false,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "duplicate": 4,
+      "meaning too different": 1,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 371,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.25
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 70,
+    "z_before": 2.1997067253202993,
+    "z_after": 2.346353840341653,
+    "accepted": false,
+    "survivors": 37,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 42,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 37,
+     "rejected": {
+      "duplicate": 18,
+      "unknown word": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 408,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.87
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 68,
+    "z_before": 2.1997067253202993,
+    "z_after": 1.9744355451432527,
+    "accepted": true,
+    "survivors": 17,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 18,
+     "after_spelling": 18,
+     "after_content": 18,
+     "after_semantic": 18,
+     "fluency_skipped": false,
+     "after_fluency": 17,
+     "rejected": {
+      "duplicate": 40,
+      "CJK text": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 425,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.52
+   }
+  ],
+  "rewrites": {
+   "1": {
+    "original": "We want to let the communities do the responsibility for generating the data in their countries and the regions over and above any governments that want to provide their own public health data.",
+    "rewrite": "We aim to allow communities to take charge of generating data for their countries and regions, in addition to any governments willing to share their public health data."
+   },
+   "2": {
+    "original": "In the short-run, I think there are very different challenges according to the stage each country faces in their response to air pollution.",
+    "rewrite": "Within a short time frame, it appears that each country encounters distinct challenges based on their respective stages of addressing air pollution."
+   },
+   "4": {
+    "original": "In the Philippines, we had only just the flood, and an enormous blow - infant mortality, which is asthma porlated to small babies.",
+    "rewrite": "In the Philippines, we faced both floods and a significant impact\u2014infant mortality related to asthma in young babies."
+   },
+   "6": {
+    "original": "It wasn\u2019t even on the map and obvious it\u2019s going to have air pollution issues.",
+    "rewrite": "Not even mapped out, it\u2019s bound to face air pollution problems."
+   },
+   "3": {
+    "original": "Hong Kong is in full, advanced stage, like NGOs helping them clean up.",
+    "rewrite": "Hong Kong is at an advanced stage of recovery, akin to NGOs assisting in the cleanup."
+   },
+   "5": {
+    "original": "But it\u2019s still a new country and is just starting learning about it.",
+    "rewrite": "Yet it remains a new country, just beginning to learn about itself."
+   },
+   "7": {
+    "original": "I think it\u2019s a different stage for every country.",
+    "rewrite": "Every country is at a different stage, I believe."
+   }
+  },
+  "final_span": "data that isn\u2019t available in other ways. We aim to allow communities to take charge of generating data for their countries and regions, in addition to any governments willing to share their public health data.\nWithin a short time frame, it appears that each country encounters distinct challenges based on their respective stages of addressing air pollution. Hong Kong is at an advanced stage of recovery, akin to NGOs assisting in the cleanup. In the Philippines, we faced both floods and a significant impact\u2014infant mortality related to asthma in young babies. Yet it remains a new country, just beginning to learn about itself. Not even mapped out, it\u2019s bound to face air pollution problems. Every country is at a different stage, I believe.\nFor countries that aren\u2019t yet in a stage, we expect the government to make a data portal so",
+  "break_point": {
+   "step": 12,
+   "sentences_rewritten": 7,
+   "queries": 425
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 7,
+   "eligible": 7,
+   "segments": 9,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 77.77777777777777
+  },
+  "tokens": {
+   "original": 201,
+   "final": 188,
+   "length_change": -13,
+   "pct_not_preserved": 50.74626865671642,
+   "pct_new": 47.340425531914896
+  },
+  "words": {
+   "original": 154,
+   "final": 141,
+   "length_change": -13,
+   "pct_not_preserved": 57.14285714285714,
+   "pct_new": 53.191489361702125
+  },
+  "characters": {
+   "original": 866,
+   "final": 836,
+   "length_change": -30,
+   "pct_not_preserved": 31.755196304849886,
+   "pct_new": 29.30622009569378
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 187,
+   "green_after": 107,
+   "pairs_before": 200,
+   "pairs_after": 187,
+   "pairs_changed_before": 132,
+   "pairs_changed_after": 119,
+   "green_fraction_of_new_pairs": 0.37815126050420167,
+   "delta_achieved": 0.12184873949579833
+  }
+ }
+}

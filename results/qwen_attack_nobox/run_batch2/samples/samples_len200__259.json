@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:259",
+ "nobox": {
+  "z_final": 4.966728680165993,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "The likes of Ireland, Scotland and Wales won\u2019t mind too much having to go through pot one as these nations benefit from the so-called fair draw concept - you\u2019re fixed in a group consisting of small clubs, well tutored, and then you can crash through qualifying in four two-legged encounters.",
+    "rewrite": "Countries such as Ireland, Scotland, and Wales won't fuss about being in pot one since the fair draw advantages them \u2014 it places them in a group with smaller clubs, well-prepared teams, and offers an easier path through qualifying with up to four two-legged matches."
+   },
+   "1": {
+    "original": "Participants will be divided into eight pots for the group stage draw, as opposed to the current format where the nations are separated according to region.",
+    "rewrite": "Participants will be placed into eight pots for the group stage draw, differing from the current format that separates nations by region."
+   },
+   "5": {
+    "original": "But there are two other groups of nations lurking in pot one that will enjoy the fair draw during qualifying but lament the unfair draw at the finals.",
+    "rewrite": "However, there are two other groups of nations in pot one that will celebrate a fair draw during qualifying yet despair over an unfair draw at the finals."
+   },
+   "2": {
+    "original": "These groups will be seeded too, with the top eight ranked teams placed in group A and so on down to group H.",
+    "rewrite": "These groups will also be seeded, with the top-eight ranked teams positioned in group A and continuing down to group H."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 49,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "comes with other downsides however. Participants will be placed into eight pots for the group stage draw, differing from the current format that separates nations by region.\nThese groups will also be seeded, with the top-eight ranked teams positioned in group A and continuing down to group H.\nThis is where the fun starts. Countries such as Ireland, Scotland, and Wales won't fuss about being in pot one since the fair draw advantages them \u2014 it places them in a group with smaller clubs, well-prepared teams, and offers an easier path through qualifying with up to four two-legged matches.\nHowever, there are two other groups of nations in pot one that will celebrate a fair draw during qualifying yet despair over an unfair draw at the finals.\nOn a personal note, I don\u2019t have time to speak about the damage this will have",
+  "z0": 6.929646455628165,
+  "seconds": 183.0
+ }
+}

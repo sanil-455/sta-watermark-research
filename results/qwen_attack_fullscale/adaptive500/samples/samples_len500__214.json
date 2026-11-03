@@ -1,0 +1,930 @@
+{
+ "sample_id": "samples_len500:214",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.3863312766967252,
+ "needed_share": 0.7133246182692577,
+ "delta_needed": 0.13203942927292245,
+ "segmentation": {
+  "chars": 2107,
+  "segments": 13,
+  "eligible": 6,
+  "skipped": 7,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 5,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 814,
+  "eligible_char_share": 0.3863312766967252
+ },
+ "attack": {
+  "z0": 6.976532089799344,
+  "z_final": 2.296924480466329,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 5,
+  "queries": 726,
+  "seconds": 1017.8,
+  "seconds_by_phase": {
+   "generate": 957.7,
+   "gates": 59.6,
+   "detector": 0.5
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 335,
+    "z_before": 6.976532089799344,
+    "z_after": 5.460653557118943,
+    "accepted": true,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 51,
+     "after_content": 19,
+     "after_semantic": 19,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "CJK text": 5,
+      "several lines": 1,
+      "unknown word": 3,
+      "numbers changed": 11,
+      "negation count changed": 21
+     }
+    },
+    "queries_total": 20,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 76.1
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 172,
+    "z_before": 5.460653557118943,
+    "z_after": 4.458735756199345,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "several lines": 2,
+      "CJK text": 11,
+      "unknown word": 1,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 61,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 41.86
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 128,
+    "z_before": 4.458735756199345,
+    "z_after": 3.802501333785778,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "duplicate": 6,
+      "unknown word": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 111,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.59
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 66,
+    "z_before": 3.802501333785778,
+    "z_after": 3.4055745688987487,
+    "accepted": true,
+    "survivors": 14,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 15,
+     "after_spelling": 14,
+     "after_content": 14,
+     "after_semantic": 14,
+     "fluency_skipped": false,
+     "after_fluency": 14,
+     "rejected": {
+      "duplicate": 45,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 125,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.04
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 64,
+    "z_before": 3.4055745688987487,
+    "z_after": 3.217317106449051,
+    "accepted": true,
+    "survivors": 16,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 16,
+     "after_spelling": 16,
+     "after_content": 16,
+     "after_semantic": 16,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "duplicate": 44
+     }
+    },
+    "queries_total": 141,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.01
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 49,
+    "z_before": 3.217317106449051,
+    "z_after": 2.8489584793706477,
+    "accepted": true,
+    "survivors": 8,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 24,
+     "after_spelling": 21,
+     "after_content": 21,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 8,
+     "rejected": {
+      "duplicate": 36,
+      "unknown word": 3,
+      "meaning too different": 12,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 149,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 12.66
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 335,
+    "z_before": 2.8489584793706477,
+    "z_after": 2.945838777274635,
+    "accepted": false,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 55,
+     "after_content": 19,
+     "after_semantic": 19,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "CJK text": 2,
+      "several lines": 1,
+      "unknown word": 2,
+      "negation count changed": 22,
+      "numbers changed": 14
+     }
+    },
+    "queries_total": 168,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 69.77
+   },
+   {
+    "pass": 2,
+    "segment": 6,
+    "chars": 172,
+    "z_before": 2.8489584793706477,
+    "z_after": 2.705008904002297,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 48,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "CJK text": 9,
+      "several lines": 2,
+      "unknown word": 1,
+      "negation count changed": 1,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 209,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.48
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 128,
+    "z_before": 2.705008904002297,
+    "z_after": 2.651852792355419,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "duplicate": 5,
+      "CJK text": 1,
+      "unknown word": 3,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 258,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.85
+   },
+   {
+    "pass": 2,
+    "segment": 8,
+    "chars": 66,
+    "z_before": 2.651852792355419,
+    "z_after": 2.6832815729997477,
+    "accepted": false,
+    "survivors": 12,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 13,
+     "after_spelling": 12,
+     "after_content": 12,
+     "after_semantic": 12,
+     "fluency_skipped": false,
+     "after_fluency": 12,
+     "rejected": {
+      "duplicate": 47,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 270,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.1
+   },
+   {
+    "pass": 2,
+    "segment": 11,
+    "chars": 64,
+    "z_before": 2.651852792355419,
+    "z_after": 2.4197978607203927,
+    "accepted": true,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 31,
+     "after_spelling": 31,
+     "after_content": 31,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 27
+     }
+    },
+    "queries_total": 300,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.64
+   },
+   {
+    "pass": 2,
+    "segment": 7,
+    "chars": 49,
+    "z_before": 2.4197978607203927,
+    "z_after": 2.5094200037100367,
+    "accepted": false,
+    "survivors": 10,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 25,
+     "after_content": 25,
+     "after_semantic": 13,
+     "fluency_skipped": false,
+     "after_fluency": 10,
+     "rejected": {
+      "duplicate": 33,
+      "unknown word": 2,
+      "meaning too different": 12,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 310,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 13.29
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 335,
+    "z_before": 2.4197978607203927,
+    "z_after": 2.4922878993619406,
+    "accepted": false,
+    "survivors": 20,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 52,
+     "after_content": 20,
+     "after_semantic": 20,
+     "fluency_skipped": false,
+     "after_fluency": 20,
+     "rejected": {
+      "CJK text": 7,
+      "unknown word": 1,
+      "numbers changed": 13,
+      "negation count changed": 19
+     }
+    },
+    "queries_total": 330,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 68.75
+   },
+   {
+    "pass": 3,
+    "segment": 6,
+    "chars": 172,
+    "z_before": 2.4197978607203927,
+    "z_after": 2.4572187838482367,
+    "accepted": false,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 53,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 4,
+      "glued punctuation": 1,
+      "negation count changed": 2,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 376,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.87
+   },
+   {
+    "pass": 3,
+    "segment": 5,
+    "chars": 128,
+    "z_before": 2.4197978607203927,
+    "z_after": 2.5990421466996807,
+    "accepted": false,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "duplicate": 6,
+      "unknown word": 2,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 423,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.82
+   },
+   {
+    "pass": 3,
+    "segment": 8,
+    "chars": 66,
+    "z_before": 2.4197978607203927,
+    "z_after": 2.3678653735264823,
+    "accepted": true,
+    "survivors": 12,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 14,
+     "after_spelling": 14,
+     "after_content": 14,
+     "after_semantic": 14,
+     "fluency_skipped": false,
+     "after_fluency": 12,
+     "rejected": {
+      "duplicate": 46,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 435,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.1
+   },
+   {
+    "pass": 3,
+    "segment": 11,
+    "chars": 64,
+    "z_before": 2.3678653735264823,
+    "z_after": 2.414953415699773,
+    "accepted": false,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 18,
+     "after_spelling": 18,
+     "after_content": 18,
+     "after_semantic": 18,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "duplicate": 41,
+      "hit length limit": 1
+     }
+    },
+    "queries_total": 453,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 20.89
+   },
+   {
+    "pass": 3,
+    "segment": 7,
+    "chars": 49,
+    "z_before": 2.3678653735264823,
+    "z_after": 2.4572187838482367,
+    "accepted": false,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 23,
+     "after_spelling": 22,
+     "after_content": 22,
+     "after_semantic": 13,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "duplicate": 37,
+      "unknown word": 1,
+      "meaning too different": 9,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 464,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 13.04
+   },
+   {
+    "pass": 4,
+    "segment": 4,
+    "chars": 335,
+    "z_before": 2.3678653735264823,
+    "z_after": 2.296924480466329,
+    "accepted": true,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 23,
+     "after_semantic": 23,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "CJK text": 1,
+      "several lines": 1,
+      "unknown word": 2,
+      "numbers changed": 13,
+      "negation count changed": 20
+     }
+    },
+    "queries_total": 487,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 72.37
+   },
+   {
+    "pass": 4,
+    "segment": 6,
+    "chars": 172,
+    "z_before": 2.296924480466329,
+    "z_after": 2.296924480466329,
+    "accepted": false,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 49,
+     "after_content": 48,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "several lines": 2,
+      "CJK text": 8,
+      "unknown word": 1,
+      "negation count changed": 1,
+      "meaning too different": 1,
+      "perplexity too high": 9
+     }
+    },
+    "queries_total": 525,
+    "hit_limit": 2,
+    "oom_events": [],
+    "seconds_generate": 45.63
+   },
+   {
+    "pass": 4,
+    "segment": 5,
+    "chars": 128,
+    "z_before": 2.296924480466329,
+    "z_after": 2.429574861595577,
+    "accepted": false,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 5,
+      "unknown word": 2,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 570,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.5
+   },
+   {
+    "pass": 4,
+    "segment": 8,
+    "chars": 66,
+    "z_before": 2.296924480466329,
+    "z_after": 2.3821728473701222,
+    "accepted": false,
+    "survivors": 12,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 14,
+     "after_spelling": 12,
+     "after_content": 12,
+     "after_semantic": 12,
+     "fluency_skipped": false,
+     "after_fluency": 12,
+     "rejected": {
+      "duplicate": 46,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 582,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.98
+   },
+   {
+    "pass": 4,
+    "segment": 11,
+    "chars": 64,
+    "z_before": 2.296924480466329,
+    "z_after": 2.3869999502885384,
+    "accepted": false,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 19,
+     "after_spelling": 19,
+     "after_content": 19,
+     "after_semantic": 19,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "duplicate": 40,
+      "CJK text": 1
+     }
+    },
+    "queries_total": 601,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.58
+   },
+   {
+    "pass": 4,
+    "segment": 7,
+    "chars": 49,
+    "z_before": 2.296924480466329,
+    "z_after": 2.296924480466329,
+    "accepted": false,
+    "survivors": 10,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 22,
+     "after_spelling": 22,
+     "after_content": 22,
+     "after_semantic": 12,
+     "fluency_skipped": false,
+     "after_fluency": 10,
+     "rejected": {
+      "duplicate": 38,
+      "meaning too different": 10,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 611,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 12.98
+   },
+   {
+    "pass": 5,
+    "segment": 4,
+    "chars": 335,
+    "z_before": 2.296924480466329,
+    "z_after": 2.3395906074624073,
+    "accepted": false,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 20,
+     "after_semantic": 20,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "CJK text": 3,
+      "numbers changed": 12,
+      "negation count changed": 25,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 630,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 69.43
+   },
+   {
+    "pass": 5,
+    "segment": 6,
+    "chars": 172,
+    "z_before": 2.296924480466329,
+    "z_after": 2.3918565167545784,
+    "accepted": false,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "CJK text": 6,
+      "unknown word": 2,
+      "perplexity too high": 10
+     }
+    },
+    "queries_total": 672,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 39.1
+   },
+   {
+    "pass": 5,
+    "segment": 5,
+    "chars": 128,
+    "z_before": 2.296924480466329,
+    "z_after": 2.4394713378441786,
+    "accepted": false,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "duplicate": 13,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 709,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.52
+   },
+   {
+    "pass": 5,
+    "segment": 8,
+    "chars": 66,
+    "z_before": 2.296924480466329,
+    "z_after": 2.349120547553653,
+    "accepted": false,
+    "survivors": 12,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 14,
+     "after_spelling": 14,
+     "after_content": 14,
+     "after_semantic": 14,
+     "fluency_skipped": false,
+     "after_fluency": 12,
+     "rejected": {
+      "duplicate": 46,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 712,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.97
+   },
+   {
+    "pass": 5,
+    "segment": 11,
+    "chars": 64,
+    "z_before": 2.296924480466329,
+    "z_after": 2.3869999502885384,
+    "accepted": false,
+    "survivors": 21,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 21,
+     "after_spelling": 21,
+     "after_content": 21,
+     "after_semantic": 21,
+     "fluency_skipped": false,
+     "after_fluency": 21,
+     "rejected": {
+      "duplicate": 38,
+      "CJK text": 1
+     }
+    },
+    "queries_total": 721,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.77
+   },
+   {
+    "pass": 5,
+    "segment": 7,
+    "chars": 49,
+    "z_before": 2.296924480466329,
+    "z_after": 2.296924480466329,
+    "accepted": false,
+    "survivors": 8,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 23,
+     "after_spelling": 21,
+     "after_content": 21,
+     "after_semantic": 10,
+     "fluency_skipped": false,
+     "after_fluency": 8,
+     "rejected": {
+      "duplicate": 37,
+      "unknown word": 2,
+      "meaning too different": 11,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 726,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 13.04
+   }
+  ],
+  "rewrites": {
+   "4": {
+    "original": "The big part of the FCC report that gets away from the usual tussle over \"distributed\" and \"local\" and is the finding that big ISPs are missing a chance to three-and-a-half percent to five percent of high-speed Internet customers in urban areas; that's where cable and DSL services can't provide speeds that qualify as it's own speeds.",
+    "rewrite": "A significant portion of the FCC report steers clear of the usual debates over \"distributed\" and \"local\" and instead highlights that major ISPs are overlooking opportunities for up to five percent of urban high-speed Internet users; these are areas where cable and DSL cannot offer qualifying speeds on their own."
+   },
+   "6": {
+    "original": "In Atlanta, Comcast continues to deploy faster Internet service but in a few cases keeps customers with slower services even when faster is available just four houses away.",
+    "rewrite": "In Atlanta, Comcast implements quicker Internet service in some areas, yet in rare instances, retains customers on slower services even when comparable speeds are available next door."
+   },
+   "5": {
+    "original": "Faster fiber technology is available in much of San Francisco and Seattle, but Verizon hasn't upgraded its systems to handle it.",
+    "rewrite": "Many areas in San Francisco and Seattle have access to faster fiber technology, though Verizon has not updated its systems to support it."
+   },
+   "8": {
+    "original": "David Young is the FCC's chief of the Wireline Competition Bureau.",
+    "rewrite": "David Young leads the FCC's Wireline Competition Bureau as its chief."
+   },
+   "11": {
+    "original": "NCTA executives had already said they'd contest FCC conclusions.",
+    "rewrite": "Executives of NCTA had previously indicated their intention to challenge the FCC's findings."
+   },
+   "7": {
+    "original": "The biggest missed service markets are for cable.",
+    "rewrite": "The largest unattended service markets are in cable."
+   }
+  },
+  "final_span": "the latest FCC report validates the company's own research, and said there's no need for more FCC regulation.\n\"With the FCC and parties relying on different data, we\u2019re pleased that AT&T\u2019s 2016 report strongly backs up our quantitative research that shows more than 90 percent of our broadband customers in America can get AT&T\u2019s fastest internet speed today in major metro areas and regional centers,\" AT&T said in a statement. \"We wholly agree with FCC Chairman Wheeler, who points out that voluntary solutions are the most effective means to meeting people\u2019s ever growing access to broadband needs. We are confident our work to provide affordable internet access\u2014teaming up with DIRECTV\u2014will help resolve the lack of availability in rural markets.\"\nA significant portion of the FCC report steers clear of the usual debates over \"distributed\" and \"local\" and instead highlights that major ISPs are overlooking opportunities for up to five percent of urban high-speed Internet users; these are areas where cable and DSL cannot offer qualifying speeds on their own. Many areas in San Francisco and Seattle have access to faster fiber technology, though Verizon has not updated its systems to support it. In Atlanta, Comcast implements quicker Internet service in some areas, yet in rare instances, retains customers on slower services even when comparable speeds are available next door.\nThe largest unattended service markets are in cable.\nDavid Young leads the FCC's Wireline Competition Bureau as its chief.\n\"[N]early 15 percent of U.S. homes do not have any broadband option available, and the average U.S. household lacks availability of two or three broadband services,\" Reutzner wrote. \"We are troubled by the FCC\u2019s finding that cable operators are leaving these households and consumers behind, and believe that information and data from the internal audits support the belief that cable operators are not offering service to all of the households, businesses, non-profit organizations, and municipalities their networks reach.\"\nExecutives of NCTA had previously indicated their intention to challenge the FCC's findings. An FCC sp",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 6,
+   "eligible": 6,
+   "segments": 13,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 46.15384615384615
+  },
+  "tokens": {
+   "original": 501,
+   "final": 494,
+   "length_change": -7,
+   "pct_not_preserved": 19.36127744510978,
+   "pct_new": 18.218623481781382
+  },
+  "words": {
+   "original": 334,
+   "final": 332,
+   "length_change": -2,
+   "pct_not_preserved": 22.455089820359287,
+   "pct_new": 21.98795180722891
+  },
+  "characters": {
+   "original": 2107,
+   "final": 2139,
+   "length_change": 32,
+   "pct_not_preserved": 13.85856668248695,
+   "pct_new": 15.147265077138849
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 328,
+   "green_after": 272,
+   "pairs_before": 500,
+   "pairs_after": 493,
+   "pairs_changed_before": 130,
+   "pairs_changed_after": 123,
+   "green_fraction_of_new_pairs": 0.3252032520325203,
+   "delta_achieved": 0.17479674796747968
+  }
+ }
+}

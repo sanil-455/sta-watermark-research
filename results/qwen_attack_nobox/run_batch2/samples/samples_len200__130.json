@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:130",
+ "nobox": {
+  "z_final": 5.628780357842335,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Division 13 are backed by Israel, which a military source has told Agence France-Presse routinely sends planes laden with weapons to an airfield in the Turk border province of Hatay.",
+    "rewrite": "Division 13 is supported by Israel, according to a military source who informed Agence France-Presse that routinely sends airplanes loaded with weapons to an airfield in the Turkish border province of Hatay."
+   },
+   "3": {
+    "original": "Division 13 expelled Al-Nusra Front from Maarat al-Numan on Friday after pro-Assad forces attacked it.",
+    "rewrite": "Division 13 expelled Al-Nusra Front from Maarat al-Numan on Friday following an attack by pro-Assad forces."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 28,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "victory that he got through Qatar,\" said the sarcastic tweet.\n\"We now know that al-Nusra Front was able to achieve victory after the Qatari and Turkish aid and the Israeli intelligence support that they received from Qatar overnight,\" said the tweet.\nDivision 13 is supported by Israel, according to a military source who informed Agence France-Presse that routinely sends airplanes loaded with weapons to an airfield in the Turkish border province of Hatay.\nDivision 13 expelled Al-Nusra Front from Maarat al-Numan on Friday following an attack by pro-Assad forces.\nThe group -- along with jihadists Jund al-Aqsa and Central Corps and the Turkmen National Front -- also seized the key vehicle-repair workshop in Tel Rez Yanzeh near Maarat al-Numan, which had been under Al-",
+  "z0": 6.222539674441618,
+  "seconds": 86.4
+ }
+}

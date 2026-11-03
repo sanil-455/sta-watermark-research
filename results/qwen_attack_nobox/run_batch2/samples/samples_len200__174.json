@@ -1,0 +1,71 @@
+{
+ "sample_id": "samples_len200:174",
+ "nobox": {
+  "z_final": 3.111269837220809,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "Using projections of ancient city-states and Roman frescoes, they showed off their bejeweled faille ball gowns to a cocooned audience of New York\u2019s wealthiest men.",
+    "rewrite": "With projections of ancient city-states and Roman frescoes, they displayed their bejeweled faille ball gowns to a seated audience of New York\u2019s wealthiest men."
+   },
+   "3": {
+    "original": "Naturally there is already a pickling convention in Brooklyn, but wouldn\u2019t we all look fantastic in a tailored suit and fedora?",
+    "rewrite": "Clearly, a pickling convention exists in Brooklyn, but wouldn't we all appear spectacular in tailored suits and fedoras?"
+   },
+   "5": {
+    "original": "A few years back, Syrian debutantes from Bay Ridge fixed their blue wholesale raks at the tony Plaza event space.",
+    "rewrite": "A few years ago, Syrian debutantes from Bay Ridge showcased their blue wholesale raks at the fancy Plaza event space."
+   },
+   "1": {
+    "original": "We think the annual Brooklyn Makers market would be a perfect fit for the Expo Center.",
+    "rewrite": "We believe the annual Brooklyn Makers market would be an ideal fit for the Expo Center."
+   },
+   "2": {
+    "original": "What is the Brooklyn Expo Center but a big venue for brine-lovers?",
+    "rewrite": "What is the Brooklyn Expo Center other than a large venue for brine-lovers?"
+   },
+   "4": {
+    "original": "Come on, Brooklyn, we know we can do better.",
+    "rewrite": "Come on, Brooklyn, we believe you can do better."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 23,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 27,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "to expect this kind of stuff from the borough. We believe the annual Brooklyn Makers market would be an ideal fit for the Expo Center.\nWhat is the Brooklyn Expo Center other than a large venue for brine-lovers? Clearly, a pickling convention exists in Brooklyn, but wouldn't we all appear spectacular in tailored suits and fedoras? Come on, Brooklyn, we believe you can do better.\nA few years ago, Syrian debutantes from Bay Ridge showcased their blue wholesale raks at the fancy Plaza event space. With projections of ancient city-states and Roman frescoes, they displayed their bejeweled faille ball gowns to a seated audience of New York\u2019s wealthiest men. Now we know that old boys\u2019 clubs can be extremely diverse, but we don\u2019t have to go anywhere to mingle with the Rus",
+  "z0": 4.525483399593904,
+  "seconds": 191.3
+ }
+}

@@ -1,0 +1,282 @@
+{
+ "sample_id": "samples_len500:336",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.7567171470444553,
+ "needed_share": 0.6662585108209269,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2047,
+  "segments": 15,
+  "eligible": 11,
+  "skipped": 4,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 2,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1549,
+  "eligible_char_share": 0.7567171470444553
+ },
+ "attack": {
+  "z0": 5.992662179699436,
+  "z_final": 1.8503040978667493,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 254,
+  "seconds": 246.6,
+  "seconds_by_phase": {
+   "generate": 226.2,
+   "gates": 20.3,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 197,
+    "z_before": 5.992662179699436,
+    "z_after": 5.673941555431383,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 46,
+     "after_spelling": 43,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "duplicate": 14,
+      "unknown word": 3
+     }
+    },
+    "queries_total": 44,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.53
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 178,
+    "z_before": 5.673941555431383,
+    "z_after": 4.310527248642598,
+    "accepted": true,
+    "survivors": 56,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 56,
+     "rejected": {
+      "CJK text": 1,
+      "glued punctuation": 1,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 100,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.12
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 174,
+    "z_before": 4.310527248642598,
+    "z_after": 3.4608926273113094,
+    "accepted": true,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "CJK text": 9,
+      "several lines": 1,
+      "unknown word": 8,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 136,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 45.18
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 171,
+    "z_before": 3.4608926273113094,
+    "z_after": 2.56195947736032,
+    "accepted": true,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 37,
+     "after_content": 37,
+     "after_semantic": 37,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 1,
+      "several lines": 2,
+      "unknown word": 16,
+      "glued punctuation": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 172,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.79
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 164,
+    "z_before": 2.56195947736032,
+    "z_after": 2.112492902384825,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "duplicate": 1,
+      "CJK text": 2,
+      "negation count changed": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 224,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.38
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 163,
+    "z_before": 2.112492902384825,
+    "z_after": 1.8503040978667493,
+    "accepted": true,
+    "survivors": 30,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 38,
+     "after_content": 38,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 30,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 18,
+      "meaning too different": 7,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 254,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.16
+   }
+  ],
+  "rewrites": {
+   "4": {
+    "original": "He expects guidelines for both small businesses and big corporations to be published later in May by the State Bank of Vietnam (SBV), after receiving input from the country\u2019s industry associations.",
+    "rewrite": "He anticipates that the State Bank of Vietnam (SBV) will issue guidelines for both small businesses and large corporations later in May, following input received from the country\u2019s industry associations."
+   },
+   "1": {
+    "original": "Under Vietnam\u2019s data security laws, approved last year, enterprises that fall victim to a cyber-attack must report the breach by the latest 24 hours after detecting the incident.",
+    "rewrite": "According to Vietnam\u2019s data security regulations, enacted last year, businesses required to notify the incident within 24 hours of discovering a cyber breach."
+   },
+   "11": {
+    "original": "In the case of publisher Vu Minh Tri, a key official of the National Assembly used spam to lure her to a spoof site, where they tricked her into purchasing fake certificates.",
+    "rewrite": "In the instance of Vu Minh Tri, a major figure in the National Assembly employed spam to steer her to a fake site, leading them to persuade her into buying phony certificates."
+   },
+   "3": {
+    "original": "Vietnam\u2019s cyber-security framework is still relatively new and evolving, but it gives some guidance, said Nguyen Minh Duc, VP Payment System Security Solution at FPT Bank.",
+    "rewrite": "Vietnam\u2019s cyber-security framework, though still young and developing, offers certain directives, noted Nguyen Minh Duc, VP of Payment System Security Solutions at FPT Bank."
+   },
+   "9": {
+    "original": "Not yet fully recognized as a source of national pride, technology represents one of Vietnam\u2019s new possible future drivers, along with shipping and fishery exports.",
+    "rewrite": "While not yet fully recognized as a source of national pride, technology stands among Vietnam\u2019s emerging potential drivers along with shipping and fishery exports."
+   },
+   "5": {
+    "original": "One sector of the Vietnamese economy that has learned to care about potentially embarrassing data breaches and other cyber risks before it\u2019s too late is insurance.",
+    "rewrite": "One portion of the Vietnamese economy that has begun to address potentially humiliating data breaches and other cyber risks proactively is insurance."
+   }
+  },
+  "final_span": "than 50 percent of the data breaches are caused by internal personnel, there should be a sense of urgency to improve online security,\u201d he said.\nAccording to Vietnam\u2019s data security regulations, enacted last year, businesses required to notify the incident within 24 hours of discovering a cyber breach. Those who do not suffer punishments that range from fines of 30 million dong ($1,280) to three years in prison.\nVietnam\u2019s cyber-security framework, though still young and developing, offers certain directives, noted Nguyen Minh Duc, VP of Payment System Security Solutions at FPT Bank. He anticipates that the State Bank of Vietnam (SBV) will issue guidelines for both small businesses and large corporations later in May, following input received from the country\u2019s industry associations.\nOne portion of the Vietnamese economy that has begun to address potentially humiliating data breaches and other cyber risks proactively is insurance.\n\u201cThreats nowadays have increased; not only malicious software but also human risks,\u201d Duy told KrASIA.\nBut as the insurance industry in Vietnam grows, these businesses face a new set of risks. To raise awareness, Techinsurance recently conducted a \u201csoft hack\u201d exercise to help in a conspicuous way what should be done.\nWhile not yet fully recognized as a source of national pride, technology stands among Vietnam\u2019s emerging potential drivers along with shipping and fishery exports. And hackers from abroad could also see it as an attractive target.\nIn the instance of Vu Minh Tri, a major figure in the National Assembly employed spam to steer her to a fake site, leading them to persuade her into buying phony certificates.\nThose involved in the public sector, where there are numerous scandals and other issues, should be very careful, Tri noted: \u201cI don\u2019t know what, but it\u2019s very easy to lose trust in your leadership,\u201d she warned.\nNevertheless, Uncle Ho's rage has been exposed at a time when government inspections and audits are very tight.\n\"Several hackers join my team\"\n",
+  "break_point": {
+   "step": 5,
+   "sentences_rewritten": 6,
+   "queries": 254
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 6,
+   "eligible": 11,
+   "segments": 15,
+   "pct_of_eligible": 54.54545454545455,
+   "pct_of_segments": 40.0
+  },
+  "tokens": {
+   "original": 501,
+   "final": 492,
+   "length_change": -9,
+   "pct_not_preserved": 18.762475049900196,
+   "pct_new": 17.27642276422764
+  },
+  "words": {
+   "original": 335,
+   "final": 322,
+   "length_change": -13,
+   "pct_not_preserved": 22.686567164179106,
+   "pct_new": 19.565217391304344
+  },
+  "characters": {
+   "original": 2047,
+   "final": 2021,
+   "length_change": -26,
+   "pct_not_preserved": 15.974596971177334,
+   "pct_new": 14.893617021276595
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 317,
+   "green_after": 266,
+   "pairs_before": 500,
+   "pairs_after": 491,
+   "pairs_changed_before": 131,
+   "pairs_changed_after": 122,
+   "green_fraction_of_new_pairs": 0.30327868852459017,
+   "delta_achieved": 0.19672131147540983
+  }
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "sample_id": "sta16_len200:54",
+ "nobox": {
+  "z_final": 8.211790154220079,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "With no access to the remote control, I looked to my wife during an awkward pause in \u201cthose people\u201d on the part of the cable networks on the Russiagate investigation on the eve of the election.",
+    "rewrite": "Without access to the remote control, I glanced at my wife during an awkward pause in \u201cthose people\u201d on the cable networks' coverage of the Russiagate investigation on the eve of the election."
+   },
+   "7": {
+    "original": "In her glasses, close her three-piece burgundy - what else? - Olive Garden Halloween - there was a smile.",
+    "rewrite": "In her glasses, with her three-piece burgundy ensemble - what else? - dressed as an Olive Garden character for Halloween, there was a smile."
+   },
+   "4": {
+    "original": "President Trump has run on an agenda; you either support what he has done or you don\u2019t.",
+    "rewrite": "President Trump ran on an agenda, and you either support his actions or you do not."
+   },
+   "1": {
+    "original": "These letters of Trump hatred are not unique to The Daily Advance.",
+    "rewrite": "These letters expressing Trump's hatred are not unique to The Daily Advance."
+   },
+   "5": {
+    "original": "Using the children in a political smear tactic, is dispicable.",
+    "rewrite": "Using children in a political smear tactic is dispicable."
+   },
+   "2": {
+    "original": "CG Cardin has received these over and over.",
+    "rewrite": "CG Cardin has received these repeatedly."
+   },
+   "3": {
+    "original": "In this day and age, Hate Trumps Harmony.",
+    "rewrite": "In today's world, Hate surpasses Harmony."
+   }
+  },
+  "sentences_rewritten": 7,
+  "eligible": 7,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 25,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 10,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 4,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "States.\nThese letters expressing Trump's hatred are not unique to The Daily Advance. CG Cardin has received these repeatedly. In today's world, Hate surpasses Harmony. President Trump ran on an agenda, and you either support his actions or you do not. Using children in a political smear tactic is dispicable.\nWithout access to the remote control, I glanced at my wife during an awkward pause in \u201cthose people\u201d on the cable networks' coverage of the Russiagate investigation on the eve of the election.\nIn her glasses, with her three-piece burgundy ensemble - what else? - dressed as an Olive Garden character for Halloween, there was a smile. I knew I had her ear. And it happens more often than not these days \u2014 same glasshouse, but of course the lefty overturning \u2014 to the sound in a live ball game on the",
+  "z0": 10.889444430272832,
+  "seconds": 174.6
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:357",
+ "nobox": {
+  "z_final": 3.4911054494075726,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "The dead are believed to be his former in-laws and their neighbour, although there are said to be as many as eight victims in total, including children.",
+    "rewrite": "It is believed that the dead include his former in-laws and their neighbour, with reports suggesting up to eight victims in total, among them children."
+   },
+   "5": {
+    "original": "He shot dead a woman, named as Meishayla Moore, 23, and her boyfriend before killing Moore's 4-year-old daughter, Faith, at her home in Harleysville.",
+    "rewrite": "He killed a woman identified as Meishayla Moore, 23, and her boyfriend before fatally shooting Moore's 4-year-old daughter, Faith, at her home in Harleysville."
+   },
+   "4": {
+    "original": "Stone is believed to have arrived north of Philadelphia around 1:15 am.",
+    "rewrite": "Stone is thought to have arrived north of Philadelphia around 1:15 am."
+   },
+   "2": {
+    "original": "Hill's father, John Lamar, confirmed his daughter's involvement.",
+    "rewrite": "John Lamar, Hill's father, confirmed his daughter's involvement."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 56,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 4,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "me and said \u2018You guys are safe, I\u2019ve made my house safe.\u2019 \u201d\nIt is believed that the dead include his former in-laws and their neighbour, with reports suggesting up to eight victims in total, among them children.\nJohn Lamar, Hill's father, confirmed his daughter's involvement. \"My son\u2011in\u2011law reportedly killed my daughter,\" according to The Philadelphia Inquirer which added that Hill's husband, Mark, and five-month-old baby were unharmed.\nStone is thought to have arrived north of Philadelphia around 1:15 am. He killed a woman identified as Meishayla Moore, 23, and her boyfriend before fatally shooting Moore's 4-year-old daughter, Faith, at her home in Harleysville. Moore's husband, Andre, 22, and porn star August Ames,",
+  "z0": 4.384062043356595,
+  "seconds": 134.9
+ }
+}

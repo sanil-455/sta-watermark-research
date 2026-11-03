@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:31",
+ "nobox": {
+  "z_final": 4.1012193308819755,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "In the advertisement, Johnson described the image of the unborn baby as it emerges from its mother\u2019s womb, which she according to the film said she will never forget.",
+    "rewrite": "In the advertisement, Johnson depicted the image of the unborn baby as it emerges from its mother\u2019s womb, an image that she stated in the film she will never forget."
+   },
+   "1": {
+    "original": "Johnson, who identifies as pro-choice to the audience, made the controversial transformation to pro-life activist after she witnessed the procedure of an abortion.",
+    "rewrite": "Johnson, who appeared pro-choice to her audience, later transformed into a controversial pro-life activist following her witnessing of an abortion procedure."
+   },
+   "4": {
+    "original": "Johnson described the scene in her debut memoir according to The New York Times.",
+    "rewrite": "According to The New York Times, Johnson described the scene in her debut memoir."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 38,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 14,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": ". Johnson, who appeared pro-choice to her audience, later transformed into a controversial pro-life activist following her witnessing of an abortion procedure.\n\u201cOne woman\u2019s story has the power to transform a nation,\u201d read an advertisement for the upcoming film. In the advertisement, Johnson depicted the image of the unborn baby as it emerges from its mother\u2019s womb, an image that she stated in the film she will never forget.\nAccording to The New York Times, Johnson described the scene in her debut memoir.\n\u201cIt\u2019s the tiniest, most precious human being you will ever see. And it felt like God was, like, pulling at my heartstrings, and tapping me on the shoulder and saying, \u2018You belong to the truth now,\u2019\u201d an excerpt from the book cited by the Times reads.\nThe panel, which lasted about one hour, was followed",
+  "z0": 5.091168824543142,
+  "seconds": 100.4
+ }
+}

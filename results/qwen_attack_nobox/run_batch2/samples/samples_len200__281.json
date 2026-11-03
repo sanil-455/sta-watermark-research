@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:281",
+ "nobox": {
+  "z_final": 2.243081276406507,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "He says that giving these young people an alternative source of income, as well as providing them with a way to pay for education, is tricky.",
+    "rewrite": "He says that offering these young people an alternative source of income, along with helping them pay for education, is challenging."
+   },
+   "4": {
+    "original": "According to Kisiangani, another major challenge for the government is preventing Kenyans from fighting on al-Shabab's side in Somalia.",
+    "rewrite": "Kisiangani stated that preventing Kenyans from fighting with al-Shabab in Somalia is another significant challenge for the government."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 26,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "every area that is prone to attract recruits,\" he said. \"As soon as policing begins to become too coercive, kids stop going there and the perpetual cycle keeps repeating itself.\"\nHe says that offering these young people an alternative source of income, along with helping them pay for education, is challenging.\n\"You are trying to convince them that it's not in their interest to go [to Somalia,] but at the same time you want to create an opportunity for them at home.\"\nKisiangani stated that preventing Kenyans from fighting with al-Shabab in Somalia is another significant challenge for the government.\n\"They make sure we join them so the next time they can attack us from where we are coming from,\" he says. \"I think they continue losing people in Somalia, if for nothing else than to show the world... that Somalia is",
+  "z0": 2.6870057685088806,
+  "seconds": 64.7
+ }
+}

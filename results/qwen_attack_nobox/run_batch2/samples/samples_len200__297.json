@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:297",
+ "nobox": {
+  "z_final": 1.4509525002200234,
+  "status": "broken",
+  "rewrites": {
+   "5": {
+    "original": "Depending on how long it takes to bring him in, it could also hurt the Browns or Chargers the most, both of whom would likely prefer to sign him to a short-term offer to make contract negotiations easier.",
+    "rewrite": "Based on the time it takes to bring him in, it might significantly benefit either the Browns or Chargers the least, both of whom would probably opt for a short-term deal to simplify contract negotiations."
+   },
+   "4": {
+    "original": "Slauson is also about $3 million on the wrong side of what the cap projected at last week, which means the Bills would need to quickly use a restructure in order to bring him into Buffalo.",
+    "rewrite": "Slauson is nearly $3 million under what the cap projected at last week, which means the Bills would need to act quickly with a restructure to bring him to Buffalo."
+   },
+   "3": {
+    "original": "It is not out of the realm of possibility that Slauson's numbers start to drop the more physical play he sees on the field each week.",
+    "rewrite": "It is not beyond the realm of possibility that Slauson's numbers could start declining as he faces more physical play each week."
+   },
+   "2": {
+    "original": "While there are players who excel well into their thirties, that is hardly the case for guards.",
+    "rewrite": "Even though some players perform outstandingly in their thirties, it is rarely the situation for guards."
+   },
+   "1": {
+    "original": "He will turn 30 by the start of the 2016 NFL season this fall.",
+    "rewrite": "By the start of the 2016 NFL season this fall, he will be 30."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 17,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the starting tackle position in the league, is his age. By the start of the 2016 NFL season this fall, he will be 30. Even though some players perform outstandingly in their thirties, it is rarely the situation for guards. It is not beyond the realm of possibility that Slauson's numbers could start declining as he faces more physical play each week.\nSlauson is nearly $3 million under what the cap projected at last week, which means the Bills would need to act quickly with a restructure to bring him to Buffalo. Based on the time it takes to bring him in, it might significantly benefit either the Browns or Chargers the least, both of whom would probably opt for a short-term deal to simplify contract negotiations.\nIf the Bills have their eye on offensive linemen in the 20",
+  "z0": 2.82842712474619,
+  "seconds": 216.3
+ }
+}

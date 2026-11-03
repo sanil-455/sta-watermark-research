@@ -1,0 +1,766 @@
+{
+ "sample_id": "samples_len500:122",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.26898047722342733,
+ "needed_share": 0.8055593063043661,
+ "delta_needed": 0.4588181713504188,
+ "segmentation": {
+  "chars": 1844,
+  "segments": 30,
+  "eligible": 8,
+  "skipped": 22,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 5,
+   "does not start like a sentence": 14,
+   "too short": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 496,
+  "eligible_char_share": 0.26898047722342733
+ },
+ "attack": {
+  "z0": 10.285912696499032,
+  "z_final": 7.92360821433446,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 250,
+  "seconds": 481.6,
+  "seconds_by_phase": {
+   "generate": 461.9,
+   "gates": 19.5,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 26,
+    "chars": 87,
+    "z_before": 10.285912696499032,
+    "z_after": 9.698686309445845,
+    "accepted": true,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 46,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "duplicate": 14,
+      "unknown word": 1,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 41,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.66
+   },
+   {
+    "pass": 1,
+    "segment": 27,
+    "chars": 72,
+    "z_before": 9.698686309445845,
+    "z_after": 9.303958101992741,
+    "accepted": true,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 35,
+     "after_spelling": 34,
+     "after_content": 2,
+     "after_semantic": 2,
+     "fluency_skipped": true,
+     "after_fluency": 2,
+     "rejected": {
+      "duplicate": 24,
+      "CJK text": 1,
+      "unknown word": 1,
+      "numbers changed": 32
+     }
+    },
+    "queries_total": 43,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.48
+   },
+   {
+    "pass": 1,
+    "segment": 23,
+    "chars": 66,
+    "z_before": 9.303958101992741,
+    "z_after": 8.980265101338746,
+    "accepted": true,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 12,
+     "after_spelling": 10,
+     "after_content": 10,
+     "after_semantic": 10,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "duplicate": 48,
+      "unknown word": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 52,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.94
+   },
+   {
+    "pass": 1,
+    "segment": 17,
+    "chars": 60,
+    "z_before": 8.980265101338746,
+    "z_after": 8.693347869995485,
+    "accepted": true,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 21,
+     "after_spelling": 20,
+     "after_content": 20,
+     "after_semantic": 20,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "duplicate": 39,
+      "unknown word": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 70,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.1
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 59,
+    "z_before": 8.693347869995485,
+    "z_after": 8.477808645907249,
+    "accepted": true,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 4,
+     "after_spelling": 4,
+     "after_content": 4,
+     "after_semantic": 2,
+     "fluency_skipped": true,
+     "after_fluency": 2,
+     "rejected": {
+      "duplicate": 56,
+      "meaning too different": 2
+     }
+    },
+    "queries_total": 72,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.07
+   },
+   {
+    "pass": 1,
+    "segment": 19,
+    "chars": 59,
+    "z_before": 8.477808645907249,
+    "z_after": 8.337917890666173,
+    "accepted": true,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 13,
+     "after_spelling": 11,
+     "after_content": 11,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "duplicate": 47,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 83,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.9
+   },
+   {
+    "pass": 1,
+    "segment": 21,
+    "chars": 48,
+    "z_before": 8.337917890666173,
+    "z_after": 8.106924338010206,
+    "accepted": true,
+    "survivors": 6,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 6,
+     "after_spelling": 6,
+     "after_content": 6,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 6,
+     "rejected": {
+      "duplicate": 40,
+      "identical to original": 14
+     }
+    },
+    "queries_total": 89,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.3
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 45,
+    "z_before": 8.106924338010206,
+    "z_after": 8.017837257372731,
+    "accepted": true,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 8,
+     "after_spelling": 7,
+     "after_content": 7,
+     "after_semantic": 7,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "duplicate": 51,
+      "identical to original": 1,
+      "unknown word": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 94,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 10.82
+   },
+   {
+    "pass": 2,
+    "segment": 26,
+    "chars": 87,
+    "z_before": 8.017837257372731,
+    "z_after": 8.19601141864768,
+    "accepted": false,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "duplicate": 12,
+      "hit length limit": 1,
+      "CJK text": 2,
+      "unknown word": 4,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 130,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 25.22
+   },
+   {
+    "pass": 2,
+    "segment": 27,
+    "chars": 72,
+    "z_before": 8.017837257372731,
+    "z_after": 8.074944235686637,
+    "accepted": false,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 38,
+     "after_spelling": 38,
+     "after_content": 2,
+     "after_semantic": 2,
+     "fluency_skipped": true,
+     "after_fluency": 2,
+     "rejected": {
+      "duplicate": 21,
+      "CJK text": 1,
+      "numbers changed": 36
+     }
+    },
+    "queries_total": 132,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.34
+   },
+   {
+    "pass": 2,
+    "segment": 23,
+    "chars": 66,
+    "z_before": 8.017837257372731,
+    "z_after": 8.017837257372731,
+    "accepted": false,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 12,
+     "after_spelling": 12,
+     "after_content": 12,
+     "after_semantic": 12,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "duplicate": 48,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 142,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.87
+   },
+   {
+    "pass": 2,
+    "segment": 17,
+    "chars": 60,
+    "z_before": 8.017837257372731,
+    "z_after": 8.017837257372731,
+    "accepted": false,
+    "survivors": 21,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 23,
+     "after_spelling": 23,
+     "after_content": 23,
+     "after_semantic": 23,
+     "fluency_skipped": false,
+     "after_fluency": 21,
+     "rejected": {
+      "duplicate": 37,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 162,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.72
+   },
+   {
+    "pass": 2,
+    "segment": 8,
+    "chars": 59,
+    "z_before": 8.017837257372731,
+    "z_after": 8.106924338010206,
+    "accepted": false,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 3,
+     "after_spelling": 3,
+     "after_content": 3,
+     "after_semantic": 2,
+     "fluency_skipped": true,
+     "after_fluency": 2,
+     "rejected": {
+      "duplicate": 57,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 164,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.07
+   },
+   {
+    "pass": 2,
+    "segment": 19,
+    "chars": 59,
+    "z_before": 8.017837257372731,
+    "z_after": 7.92360821433446,
+    "accepted": true,
+    "survivors": 13,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 14,
+     "after_spelling": 13,
+     "after_content": 13,
+     "after_semantic": 13,
+     "fluency_skipped": false,
+     "after_fluency": 13,
+     "rejected": {
+      "duplicate": 46,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 177,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.71
+   },
+   {
+    "pass": 2,
+    "segment": 21,
+    "chars": 48,
+    "z_before": 7.92360821433446,
+    "z_after": 7.92360821433446,
+    "accepted": false,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 6,
+     "after_spelling": 6,
+     "after_content": 6,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "duplicate": 45,
+      "identical to original": 9,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 181,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.24
+   },
+   {
+    "pass": 2,
+    "segment": 12,
+    "chars": 45,
+    "z_before": 7.92360821433446,
+    "z_after": 7.92360821433446,
+    "accepted": false,
+    "survivors": 8,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 10,
+     "after_spelling": 9,
+     "after_content": 9,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 8,
+     "rejected": {
+      "duplicate": 50,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 188,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 11.07
+   },
+   {
+    "pass": 3,
+    "segment": 26,
+    "chars": 87,
+    "z_before": 7.92360821433446,
+    "z_after": 7.944528799658642,
+    "accepted": false,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "duplicate": 13,
+      "unknown word": 1,
+      "meaning too different": 1,
+      "perplexity too high": 9
+     }
+    },
+    "queries_total": 224,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.72
+   },
+   {
+    "pass": 3,
+    "segment": 27,
+    "chars": 72,
+    "z_before": 7.92360821433446,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 33,
+     "after_spelling": 33,
+     "after_content": 1,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "duplicate": 27,
+      "numbers changed": 32,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 224,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.23
+   },
+   {
+    "pass": 3,
+    "segment": 23,
+    "chars": 66,
+    "z_before": 7.92360821433446,
+    "z_after": 7.92360821433446,
+    "accepted": false,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 11,
+     "after_spelling": 9,
+     "after_content": 9,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "duplicate": 49,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 232,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.94
+   },
+   {
+    "pass": 3,
+    "segment": 17,
+    "chars": 60,
+    "z_before": 7.92360821433446,
+    "z_after": 7.960401999899251,
+    "accepted": false,
+    "survivors": 13,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 15,
+     "after_spelling": 15,
+     "after_content": 15,
+     "after_semantic": 15,
+     "fluency_skipped": false,
+     "after_fluency": 13,
+     "rejected": {
+      "duplicate": 45,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 245,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.78
+   },
+   {
+    "pass": 3,
+    "segment": 8,
+    "chars": 59,
+    "z_before": 7.92360821433446,
+    "z_after": 7.92360821433446,
+    "accepted": false,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 4,
+     "after_spelling": 4,
+     "after_content": 4,
+     "after_semantic": 2,
+     "fluency_skipped": true,
+     "after_fluency": 2,
+     "rejected": {
+      "duplicate": 56,
+      "meaning too different": 2
+     }
+    },
+    "queries_total": 246,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.08
+   },
+   {
+    "pass": 3,
+    "segment": 19,
+    "chars": 59,
+    "z_before": 7.92360821433446,
+    "z_after": 7.92360821433446,
+    "accepted": false,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 14,
+     "after_spelling": 10,
+     "after_content": 10,
+     "after_semantic": 10,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "duplicate": 46,
+      "unknown word": 4,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 247,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.65
+   },
+   {
+    "pass": 3,
+    "segment": 21,
+    "chars": 48,
+    "z_before": 7.92360821433446,
+    "z_after": 7.92360821433446,
+    "accepted": false,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 6,
+     "after_spelling": 6,
+     "after_content": 6,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "duplicate": 42,
+      "identical to original": 12,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 248,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.43
+   },
+   {
+    "pass": 3,
+    "segment": 12,
+    "chars": 45,
+    "z_before": 7.92360821433446,
+    "z_after": 7.92360821433446,
+    "accepted": false,
+    "survivors": 8,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 14,
+     "after_spelling": 11,
+     "after_content": 11,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 8,
+     "rejected": {
+      "duplicate": 43,
+      "identical to original": 2,
+      "CJK text": 1,
+      "unknown word": 3,
+      "meaning too different": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 250,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 10.56
+   }
+  ],
+  "rewrites": {
+   "26": {
+    "original": "It is THE Geunine Freedom Speech Freedom of the Fools for the Jews and the Melting Pot.",
+    "rewrite": "It is genuine freedom speech, freedom for fools, for Jews, and the melting pot."
+   },
+   "27": {
+    "original": "Twenty-four-hour curfew in Toledo due to the Jewish Murders in Toulouse!",
+    "rewrite": "Toledo faces a curfew starting at midnight because of the Jewish murders in Toulouse!"
+   },
+   "23": {
+    "original": "Bangladesh, has died after 199 days in a coma at a Paris hospital.",
+    "rewrite": "Bangladesh passed away after being in a coma for 199 days at a Paris hospital."
+   },
+   "17": {
+    "original": "Philippe Karsenty is President and Founder of Media-Ratings.",
+    "rewrite": "Philippe Karsenty founded and currently serves as the President of Media-Ratings."
+   },
+   "8": {
+    "original": "The incident occurred at about 08:00 local time (06:00GMT).",
+    "rewrite": "The incident happened around 08:00 local time (06:00 GMT)."
+   },
+   "19": {
+    "original": "Goldstone's mission or even Britagne is sending commission.",
+    "rewrite": "Goldstone's mission or Britagne is dispatching a commission."
+   },
+   "21": {
+    "original": "Chief of Staff, and Major General Ido Nehushtan.",
+    "rewrite": "Chief of Staff, along with Major General Ido Nehushtan."
+   },
+   "12": {
+    "original": "The request is being translated into English.",
+    "rewrite": "The request is being rendered in English."
+   }
+  },
+  "final_span": "aged 5 and 8.\nForeign Minister Avigdor Liberman (Ichud Leumi) also reacted to the reports on Twitter, writing this morning: \"I am in shock over the horror in Toulouse. The news reported four dead \u2013 three children, I pray there is no fifth victim: students. The victims were shot at a school. This is just the latest result of the state of Israel abandoning its educational emissaries [shaliachim] throughout the world. I call for the return of the children to the country.\"\nfighting for my life, I was in shock and couldn't believe what was happening,\" he said.\nfor people who, until yesterday, were part of the life of the school.\"\nThe incident happened around 08:00 local time (06:00 GMT).\nand was believed to be heading for another jewish school, reports said.\nparents is suspected, reports said, although one may be incorrect.\nschool. The request is being rendered in English.\nposted on Twitter as he traveled for a television appearance in Paris.\njournalist what he hoped would be \"a peaceful visit.\"\ncommunities have reacted with horror and sadness at the news.\npicture carried by the Gazeta Dela Gazetna Romania.\nPhilippe Karsenty founded and currently serves as the President of Media-Ratings.\nhave their own needs to meet and cannot be ashamed to defend them.\nGoldstone's mission or Britagne is dispatching a commission.\nworld, maybe they can feel empathy.\nChief of Staff, along with Major General Ido Nehushtan.\narmed Swat corpses found in the area.\nBangladesh passed away after being in a coma for 199 days at a Paris hospital.\ngave to the Nazis and to the Communists is the freedom of Jewish Reparation.\nAnd that is its real name. It is genuine freedom speech, freedom for fools, for Jews, and the melting pot.\nToledo faces a curfew starting at midnight because of the Jewish murders in Toulouse!\nrant of a soul but he's really gotten something done here.\nMr. Vidal's words",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 8,
+   "eligible": 8,
+   "segments": 30,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 26.666666666666668
+  },
+  "tokens": {
+   "original": 501,
+   "final": 500,
+   "length_change": -1,
+   "pct_not_preserved": 9.58083832335329,
+   "pct_new": 9.399999999999997
+  },
+  "words": {
+   "original": 314,
+   "final": 320,
+   "length_change": 6,
+   "pct_not_preserved": 12.101910828025474,
+   "pct_new": 13.749999999999996
+  },
+  "characters": {
+   "original": 1844,
+   "final": 1885,
+   "length_change": 41,
+   "pct_not_preserved": 5.368763557483735,
+   "pct_new": 7.427055702917773
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 365,
+   "green_after": 338,
+   "pairs_before": 500,
+   "pairs_after": 499,
+   "pairs_changed_before": 69,
+   "pairs_changed_after": 68,
+   "green_fraction_of_new_pairs": 0.36764705882352944,
+   "delta_achieved": 0.13235294117647056
+  }
+ }
+}

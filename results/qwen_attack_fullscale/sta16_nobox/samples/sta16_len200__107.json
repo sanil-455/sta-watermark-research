@@ -1,0 +1,53 @@
+{
+ "sample_id": "sta16_len200:107",
+ "nobox": {
+  "z_final": 5.326201371768775,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "An unidentified \u201cofficial\u201d at the finance ministry said the departure would not affect policy-making as fewer policy decisions are to be made prior to the government losing its majority in upper house elections in late summer.",
+    "rewrite": "An unidentified \"official\" from the finance ministry stated that the departure would not impact policy-making, given that few policy decisions will be made before the government loses its majority in upper house elections later this summer."
+   },
+   "2": {
+    "original": "NHK said the resignation would come at a key meeting of Group of 20 finance officials at a time when Fukuda faces pressure from the government to resolve tax code issues with the United States.",
+    "rewrite": "NHK stated that the resignation would occur during a crucial meeting of Group of 20 finance officials, a time when Fukuda is under government pressure to address tax code issues with the United States."
+   },
+   "1": {
+    "original": "Abe appointed Fukuda in May last year to replace an official caught accepting cash from a contractor for an official family Christmas party.",
+    "rewrite": "Abe appointed Fukuda in May of the previous year to replace an official who was found to have accepted cash from a contractor at an official family Christmas party."
+   },
+   "4": {
+    "original": "The ministry official said the ministry would name another administrator at deputy vice minister level on April 1.",
+    "rewrite": "The ministry official said the ministry would name another administrator of deputy vice minister level on April 1."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 10,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 21,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "intent\u201d to violate anyone\u2019s rights as described by the women.\nAbe appointed Fukuda in May of the previous year to replace an official who was found to have accepted cash from a contractor at an official family Christmas party.\nNHK stated that the resignation would occur during a crucial meeting of Group of 20 finance officials, a time when Fukuda is under government pressure to address tax code issues with the United States.\nAn unidentified \"official\" from the finance ministry stated that the departure would not impact policy-making, given that few policy decisions will be made before the government loses its majority in upper house elections later this summer. The ministry official said the ministry would name another administrator of deputy vice minister level on April 1.\nShincho reported last week that Fukuda sexually harassed several women members of the press party of the humor magazine Shinchonma, which is published by the ministry",
+  "z0": 8.76812408671319,
+  "seconds": 176.7
+ }
+}

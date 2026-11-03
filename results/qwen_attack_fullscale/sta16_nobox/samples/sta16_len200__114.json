@@ -1,0 +1,62 @@
+{
+ "sample_id": "sta16_len200:114",
+ "nobox": {
+  "z_final": 6.191658393626568,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "A discussion over Highland County Jobs and Family Services\u2019 (JFS) request for Fiscal Year 2023 (FY23) Coronavirus Response Funds was brought forward.",
+    "rewrite": "A discussion on Highland County Jobs and Family Services' (JFS) request for Fiscal Year 2023 (FY23) Coronavirus Response Funds was brought forward."
+   },
+   "0": {
+    "original": "Growth; Representative Sarah Bowman, Representative Colleen Landrum; Representative Jess Ferguson; and Greenfield Mayor Roxanne Hemmingway Hathaway.",
+    "rewrite": "Growth; Representatives Sarah Bowman and Colleen Landrum; Representative Jess Ferguson; and Greenfield Mayor Roxanne Hemmingway Hathaway."
+   },
+   "3": {
+    "original": "The FY23 allocation from the American Rescue Plan Act (ARPA) went to the county\u2019s JFS program for a total of $1.823 million.",
+    "rewrite": "The FY23 allocation from the American Rescue Plan Act (ARPA) was directed to the county\u2019s JFS program in the amount of $1.823 million."
+   },
+   "4": {
+    "original": "From that fund, commissioners previously approved $640,000 in request and approved another $1,057,000 three weeks later.",
+    "rewrite": "From that fund, commissioners approved $640,000 in a previous request and another $1,057,000 three weeks later."
+   },
+   "1": {
+    "original": "For most of the public session, commissioners focused on items concerning COVID-19 relief funds.",
+    "rewrite": "During the majority of the public session, commissioners concentrating on items related to COVID-19 relief funds."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 27,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Growth; Representatives Sarah Bowman and Colleen Landrum; Representative Jess Ferguson; and Greenfield Mayor Roxanne Hemmingway Hathaway.\nDuring the majority of the public session, commissioners concentrating on items related to COVID-19 relief funds.\nA discussion on Highland County Jobs and Family Services' (JFS) request for Fiscal Year 2023 (FY23) Coronavirus Response Funds was brought forward. The FY23 allocation from the American Rescue Plan Act (ARPA) was directed to the county\u2019s JFS program in the amount of $1.823 million.\nFrom that fund, commissioners approved $640,000 in a previous request and another $1,057,000 three weeks later.\nEarlier this session, Wilkin brought the final $675,000",
+  "z0": 9.050966799187808,
+  "seconds": 208.1
+ }
+}

@@ -1,0 +1,407 @@
+{
+ "sample_id": "samples_len500:272",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.6968085106382979,
+ "needed_share": 0.7204915028125263,
+ "delta_needed": 0.005438048890082372,
+ "segmentation": {
+  "chars": 2256,
+  "segments": 31,
+  "eligible": 11,
+  "skipped": 20,
+  "skip_reasons": {
+   "no final punctuation": 19,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1572,
+  "eligible_char_share": 0.6968085106382979
+ },
+ "attack": {
+  "z0": 7.155417527999327,
+  "z_final": 1.9521843207154503,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 445,
+  "seconds": 368.9,
+  "seconds_by_phase": {
+   "generate": 335.6,
+   "gates": 33.1,
+   "detector": 0.3
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 177,
+    "z_before": 7.155417527999327,
+    "z_after": 6.286185570937122,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 5,
+      "unknown word": 2,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 50,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.14
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 169,
+    "z_before": 6.286185570937122,
+    "z_after": 5.798118817183882,
+    "accepted": true,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "CJK text": 1,
+      "several lines": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 104,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.75
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 161,
+    "z_before": 5.798118817183882,
+    "z_after": 5.269414984599226,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "duplicate": 3,
+      "CJK text": 1,
+      "unknown word": 4
+     }
+    },
+    "queries_total": 156,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.8
+   },
+   {
+    "pass": 1,
+    "segment": 18,
+    "chars": 161,
+    "z_before": 5.269414984599226,
+    "z_after": 4.539612407252497,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "duplicate": 2,
+      "CJK text": 4,
+      "unknown word": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 206,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.79
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 159,
+    "z_before": 4.539612407252497,
+    "z_after": 4.171620127351186,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 44,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "CJK text": 9,
+      "several lines": 1,
+      "duplicate": 3,
+      "unknown word": 3,
+      "numbers changed": 3
+     }
+    },
+    "queries_total": 247,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.56
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 157,
+    "z_before": 4.171620127351186,
+    "z_after": 3.5085131743061875,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 1,
+      "unknown word": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 302,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.82
+   },
+   {
+    "pass": 1,
+    "segment": 20,
+    "chars": 153,
+    "z_before": 3.5085131743061875,
+    "z_after": 3.604452691868877,
+    "accepted": false,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 52,
+     "after_content": 35,
+     "after_semantic": 35,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "CJK text": 2,
+      "several lines": 3,
+      "duplicate": 2,
+      "unknown word": 1,
+      "negation count changed": 17,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 336,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 39.08
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 140,
+    "z_before": 3.5085131743061875,
+    "z_after": 3.017012132014787,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 46,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "duplicate": 9,
+      "hit length limit": 1,
+      "CJK text": 2,
+      "several lines": 2,
+      "unknown word": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 379,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 35.32
+   },
+   {
+    "pass": 1,
+    "segment": 0,
+    "chars": 136,
+    "z_before": 3.017012132014787,
+    "z_after": 2.5733338773067302,
+    "accepted": true,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 34,
+     "after_content": 34,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "duplicate": 22,
+      "CJK text": 3,
+      "hit length limit": 1
+     }
+    },
+    "queries_total": 413,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 29.6
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 89,
+    "z_before": 2.5733338773067302,
+    "z_after": 1.9521843207154503,
+    "accepted": true,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "CJK text": 7,
+      "duplicate": 5,
+      "unknown word": 2,
+      "meaning too different": 10,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 445,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.71
+   }
+  ],
+  "rewrites": {
+   "6": {
+    "original": "Animal handler training manuals and programs provide training on handling the most common breeds of dogs and responding to incidents involving aggression and bites or scratches.",
+    "rewrite": "Training resources for animal handlers cover the management of frequent dog breeds and reactions to aggressive encounters or bites or scratches."
+   },
+   "4": {
+    "original": "A police department\u2019s expansive use of neighborhood watches proved successful in combating criminal activity in proactive, low-intensity interactions with the community.",
+    "rewrite": "An extensive deployment of neighborhood watches by a police department demonstrated effectiveness in tackling crime through proactive and low-intensity engagements with the community."
+   },
+   "10": {
+    "original": "A classic early college-based program was developed at Mesa Community College in Arizona as part of a project to establish police career education programs in...",
+    "rewrite": "An early college-based program at Mesa Community College in Arizona served as a model for establishing police career education initiatives in..."
+   },
+   "18": {
+    "original": "Law enforcement officers must strive to reduce firearms-related use-of-force deaths because they have fatal consequences for officers and the communities they...",
+    "rewrite": "Law enforcement officials must work to decrease firearm-associated use-of-force fatalities as they carry grave implications for both officers and the communities they serve..."
+   },
+   "1": {
+    "original": "Detectives James Neal and Michael Reed pursued a high-profile Martin Luther King Jr. Day murder suspect through a night of heavy rainfall at 30 miles per hour.",
+    "rewrite": "Detective James Neal and Michael Reed chased a prominent Martin Luther King Jr. Day homicide suspect through a night of intense rain at a speed of 30 miles per hour."
+   },
+   "8": {
+    "original": "From 2003 to 2009, various youth mediation programs developed throughout the country were adopted and modified to implement a consistent Children\u2019s Police...",
+    "rewrite": "From 2003 to 2009, several youth mediation programs that developed across the country were adapted and fine-tuned to ensure the implementation of a coherent Children's Police..."
+   },
+   "2": {
+    "original": "Cooperation between the U.S. government and various Swedish agencies foiled a criminal scheme to transport child pornography through Sweden.",
+    "rewrite": "The collaboration between the U.S. government and several Swedish authorities thwarted a criminal plot to transit child pornography via Sweden."
+   },
+   "0": {
+    "original": "Murray and Christopher Stevens showed extraordinary selflessness to save the life of an unconscious man they found along the interstate.",
+    "rewrite": "Murray and Christopher Stevens displayed exceptional selflessness in efforts to rescue an unconscious man they discovered on the interstate."
+   },
+   "12": {
+    "original": "College campuses are generally viewed as places to learn, study, and meet other students.",
+    "rewrite": "Colleges are typically seen as environments for learning, studying, and connecting with peers."
+   }
+  },
+  "final_span": "Murray and Christopher Stevens displayed exceptional selflessness in efforts to rescue an unconscious man they discovered on the interstate.\nDetective James Neal and Michael Reed chased a prominent Martin Luther King Jr. Day homicide suspect through a night of intense rain at a speed of 30 miles per hour.\nThe collaboration between the U.S. government and several Swedish authorities thwarted a criminal plot to transit child pornography via Sweden.\nJustice on Other Side\nAn extensive deployment of neighborhood watches by a police department demonstrated effectiveness in tackling crime through proactive and low-intensity engagements with the community.\nAnimal Training Handbook\nTraining resources for animal handlers cover the management of frequent dog breeds and reactions to aggressive encounters or bites or scratches.\nChildren\u2019s Police Mediated Conference Program\nFrom 2003 to 2009, several youth mediation programs that developed across the country were adapted and fine-tuned to ensure the implementation of a coherent Children's Police...\nEarly College Based Program\nAn early college-based program at Mesa Community College in Arizona served as a model for establishing police career education initiatives in...\nEmerging Trends in Campus Sexual Assault\nColleges are typically seen as environments for learning, studying, and connecting with peers. However, colleges and universities are not immune to violent crime,...\nFinding the \u201cInner Guide\u201d\nSwiss Police Entrainment\nLead Coordinator: Amish Shah\nFirearm Training Standards Project\nLaw enforcement officials must work to decrease firearm-associated use-of-force fatalities as they carry grave implications for both officers and the communities they serve...\nForensic Mobile Phone Investigation\nSuspects or witnesses using a cell phone at the time of a crime often cannot avoid leaving evidence on the phone, and that evidence is collected as is...\nSpecializing in Investigations\nEmployment Specialization I\nInvestigations Career Specializations\nEmployment and Career Success for Criminal Investigators\nNetworking for Success: An Overview of the Basic Networking Process\nDigital Intelligence Officer\nAn Illuminating Range\nSpecial Report: Closing the Net on Child Abductions\nJuvenile Development\nAn Overview of",
+  "break_point": {
+   "step": 9,
+   "sentences_rewritten": 9,
+   "queries": 445
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 9,
+   "eligible": 11,
+   "segments": 31,
+   "pct_of_eligible": 81.81818181818181,
+   "pct_of_segments": 29.032258064516128
+  },
+  "tokens": {
+   "original": 501,
+   "final": 509,
+   "length_change": 8,
+   "pct_not_preserved": 22.15568862275449,
+   "pct_new": 23.379174852652262
+  },
+  "words": {
+   "original": 319,
+   "final": 320,
+   "length_change": 1,
+   "pct_not_preserved": 29.15360501567398,
+   "pct_new": 29.374999999999996
+  },
+  "characters": {
+   "original": 2256,
+   "final": 2272,
+   "length_change": 16,
+   "pct_not_preserved": 16.976950354609933,
+   "pct_new": 17.561619718309863
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 330,
+   "green_after": 276,
+   "pairs_before": 500,
+   "pairs_after": 508,
+   "pairs_changed_before": 167,
+   "pairs_changed_after": 175,
+   "green_fraction_of_new_pairs": 0.35428571428571426,
+   "delta_achieved": 0.14571428571428574
+  }
+ }
+}

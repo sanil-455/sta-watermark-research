@@ -1,0 +1,71 @@
+{
+ "sample_id": "samples_len200:56",
+ "nobox": {
+  "z_final": 2.165063509461097,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Water is not only natural, safe and healthy but drinking a glass of water can curb your appetite because water fills you up sooner than any other food source in your diet.",
+    "rewrite": "Water is not just natural, safe, and healthy; drinking a glass of water can also reduce your appetite by filling you up faster than most food sources in your diet."
+   },
+   "4": {
+    "original": "Moreover, adequate consumption of water can also help you lose weight because liquids do not contain calories and water intake does not add to your daily calorie intake.",
+    "rewrite": "Furthermore, drinking enough water can aid in weight loss as it contains no calories and does not increase your daily caloric intake."
+   },
+   "5": {
+    "original": "If you are craving for carbs, you must fail to rev up your metabolism.",
+    "rewrite": "If you crave carbs, you are likely to struggle with revving up your metabolism."
+   },
+   "1": {
+    "original": "Drinking a calorie-laden soda will not stop you from being hungry.",
+    "rewrite": "Consuming a calorie-rich soda will not satisfy your hunger."
+   },
+   "6": {
+    "original": "What you must focus on during such situations is green vegetables.",
+    "rewrite": "During such situations, what you should focus on are green vegetables."
+   },
+   "2": {
+    "original": "Instead, you must drink water.",
+    "rewrite": "Instead, you must have water to drink."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 8,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 10,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "carbohydrates (quinoa, brown rice, beans, lentils), combined with a healthy fat.\nConsuming a calorie-rich soda will not satisfy your hunger. Instead, you must have water to drink. Water is not just natural, safe, and healthy; drinking a glass of water can also reduce your appetite by filling you up faster than most food sources in your diet. Furthermore, drinking enough water can aid in weight loss as it contains no calories and does not increase your daily caloric intake.\nIf you crave carbs, you are likely to struggle with revving up your metabolism. During such situations, what you should focus on are green vegetables. Instead of eating toaster waffles, swerve for bok choy since nutrient-rich leafy greens are well recognized for their met",
+  "z0": 3.5355339059327373,
+  "seconds": 146.8
+ }
+}

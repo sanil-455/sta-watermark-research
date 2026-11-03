@@ -1,0 +1,172 @@
+{
+ "sample_id": "sta16_len200:32",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.18592297476759628,
+ "needed_share": 0.8008149912150571,
+ "delta_needed": null,
+ "segmentation": {
+  "chars": 753,
+  "segments": 9,
+  "eligible": 1,
+  "skipped": 8,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 6,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 140,
+  "eligible_char_share": 0.18592297476759628
+ },
+ "attack": {
+  "z0": 10.040916292848975,
+  "z_final": 8.29391009859753,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 128,
+  "seconds": 110.3,
+  "seconds_by_phase": {
+   "generate": 101.1,
+   "gates": 9.2,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 140,
+    "z_before": 10.040916292848975,
+    "z_after": 8.492535116757518,
+    "accepted": true,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "CJK text": 6,
+      "unknown word": 1,
+      "meaning too different": 7
+     }
+    },
+    "queries_total": 47,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.17
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 140,
+    "z_before": 8.492535116757518,
+    "z_after": 8.29391009859753,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 3,
+      "meaning too different": 12
+     }
+    },
+    "queries_total": 89,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.31
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 140,
+    "z_before": 8.29391009859753,
+    "z_after": 8.571428571428571,
+    "accepted": false,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 4,
+      "meaning too different": 12,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 128,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.64
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "Cattermole may be overjoyed by what has unfolded but he has insists that points on the board can not be squandered in similar fashion again.",
+    "rewrite": "Cattermole might be exceedingly pleased with how events have progressed, yet he has stressed that points should not be wasted in the same manner again."
+   }
+  },
+  "final_span": "the country already. He's a quality finisher, keeps going forward and giving a 100 per cent run-a-thon, he's just brilliant.\"\nCattermole might be exceedingly pleased with how events have progressed, yet he has stressed that points should not be wasted in the same manner again.\n\"We're going to have ups and downs but the aim is to be getting to the top end of the table and not away,\" said Cattermole.\n\"We have got to play at games and not just turn up, have three or four players out of position but come away with results.\n\"We have got to be more consistent but there have been signs of improvement. I think the manager has adapted well, he's not just some guy who said he was here.\n\"He's a rapport with the rest of the team. We know what to do but when it comes",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 1,
+   "eligible": 1,
+   "segments": 9,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 11.11111111111111
+  },
+  "tokens": {
+   "original": 201,
+   "final": 200,
+   "length_change": -1,
+   "pct_not_preserved": 9.950248756218905,
+   "pct_new": 9.499999999999996
+  },
+  "words": {
+   "original": 145,
+   "final": 145,
+   "length_change": 0,
+   "pct_not_preserved": 10.344827586206895,
+   "pct_new": 10.344827586206895
+  },
+  "characters": {
+   "original": 753,
+   "final": 764,
+   "length_change": 11,
+   "pct_not_preserved": 7.436918990703855,
+   "pct_new": 8.769633507853403
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 171,
+   "green_after": 158,
+   "pairs_before": 200,
+   "pairs_after": 199,
+   "pairs_changed_before": 27,
+   "pairs_changed_after": 26,
+   "green_fraction_of_new_pairs": 0.34615384615384615,
+   "delta_achieved": 0.15384615384615385
+  }
+ }
+}

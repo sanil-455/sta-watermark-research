@@ -1,0 +1,71 @@
+{
+ "sample_id": "baseline_extra:27",
+ "nobox": {
+  "z_final": 4.718142596956708,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "To get started, head over to the Rivercentre Shops, an official Riverwalk shopping area, to peruse stores like Marc's, the Little Store, McKenna's, and the Jimmy Bryan location of Kendra Scott Jewelry.",
+    "rewrite": "To begin, visit the Rivercentre Shops, an official Riverwalk shopping area, to browse through stores such as Marc's, the Little Store, McKenna's, and the Jimmy Bryan location of Kendra Scott Jewelry."
+   },
+   "4": {
+    "original": "Other notable shopping options include the Yamani Museum Shops, where you can purchase souvenirs, and the many boutiques located in the surrounding King William and Southtown districts.",
+    "rewrite": "Other notable shopping options are the Yamani Museum Shops for souvenirs, and various boutiques in the nearby King William and Southtown areas."
+   },
+   "5": {
+    "original": "If you're looking for a lively night out complete with live music, head over to the Twilite Alley Bar for a night of cheap beers and cheap tequila shots.",
+    "rewrite": "If you want a lively night out with live music, go to the Twilite Alley Bar for a night of affordable beers and tequila shots."
+   },
+   "2": {
+    "original": "Whether you're looking for Texan Tex-Mex or American barbecue, you can find it along the Riverwalk.",
+    "rewrite": "If you seek Texan Tex-Mex or American barbecue, you will find it along the Riverwalk."
+   },
+   "1": {
+    "original": "One of the key features of the Riverwalk is the shops and restaurants.",
+    "rewrite": "One of the key features of the Riverwalk are the shops and restaurants."
+   },
+   "0": {
+    "original": "Harry Horn that can be seen from the boat.",
+    "rewrite": "Harry Horn can be seen from the boat."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 27,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 4,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Harry Horn can be seen from the boat.\nOne of the key features of the Riverwalk are the shops and restaurants. If you seek Texan Tex-Mex or American barbecue, you will find it along the Riverwalk. To begin, visit the Rivercentre Shops, an official Riverwalk shopping area, to browse through stores such as Marc's, the Little Store, McKenna's, and the Jimmy Bryan location of Kendra Scott Jewelry. Other notable shopping options are the Yamani Museum Shops for souvenirs, and various boutiques in the nearby King William and Southtown areas.\nIf you want a lively night out with live music, go to the Twilite Alley Bar for a night of affordable beers and tequila shots. The Casa Rio River Walk Restaurant is part of",
+  "z0": 6.222539674441618,
+  "seconds": 194.1
+ }
+}

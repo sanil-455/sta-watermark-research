@@ -1,0 +1,256 @@
+{
+ "sample_id": "sta16_len200:89",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.7702380952380953,
+ "needed_share": 0.7719010383269201,
+ "delta_needed": 0.000669289614111294,
+ "segmentation": {
+  "chars": 840,
+  "segments": 9,
+  "eligible": 6,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "too short": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 647,
+  "eligible_char_share": 0.7702380952380953
+ },
+ "attack": {
+  "z0": 8.76812408671319,
+  "z_final": 1.1547005383792517,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 152,
+  "seconds": 169.4,
+  "seconds_by_phase": {
+   "generate": 157.2,
+   "gates": 12.1,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 232,
+    "z_before": 8.76812408671319,
+    "z_after": 6.396021490668313,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 53,
+     "after_content": 52,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "several lines": 4,
+      "CJK text": 2,
+      "unknown word": 1,
+      "negation count changed": 1,
+      "meaning too different": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 50,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 57.96
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 135,
+    "z_before": 6.396021490668313,
+    "z_after": 4.763139720814412,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 47,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "CJK text": 6,
+      "several lines": 2,
+      "unknown word": 5,
+      "negation count changed": 2,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 91,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 39.71
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 124,
+    "z_before": 4.763139720814412,
+    "z_after": 2.67722603958196,
+    "accepted": true,
+    "survivors": 30,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 46,
+     "after_content": 34,
+     "after_semantic": 33,
+     "fluency_skipped": false,
+     "after_fluency": 30,
+     "rejected": {
+      "several lines": 2,
+      "CJK text": 2,
+      "unknown word": 10,
+      "negation count changed": 12,
+      "meaning too different": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 121,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.34
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 56,
+    "z_before": 2.67722603958196,
+    "z_after": 2.176428750330035,
+    "accepted": true,
+    "survivors": 22,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 43,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 25,
+     "fluency_skipped": false,
+     "after_fluency": 22,
+     "rejected": {
+      "duplicate": 13,
+      "CJK text": 4,
+      "unknown word": 1,
+      "meaning too different": 17,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 143,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.8
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 56,
+    "z_before": 2.176428750330035,
+    "z_after": 1.1547005383792517,
+    "accepted": true,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 23,
+     "after_spelling": 23,
+     "after_content": 23,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "duplicate": 34,
+      "CJK text": 3,
+      "meaning too different": 12,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 152,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 12.38
+   }
+  ],
+  "rewrites": {
+   "5": {
+    "original": "I looked over the new address book and saw the names and addresses of an amazing number of incredible people - many people closer to the core of my heart than anyone who had made their laugh three rows down at our wedding reception.",
+    "rewrite": "I went through the new address book and found the names and addresses of a remarkable number of amazing individuals\u2014many whom held a special place closer to my heart than those who joked three rows over at our wedding reception."
+   },
+   "3": {
+    "original": "I realized it had only taken me thirty-odd years to return to the highest level of identity I'd always wanted, yet never dared ask for.",
+    "rewrite": "I recognized it took me nearly thirty years to reach the top level of identity I had always sought but never dared to request."
+   },
+   "1": {
+    "original": "I added new friends who were amazingly attractive and talented, but were also loyal and wouldn't mind my mistakes in public.",
+    "rewrite": "I made new friends who not only were impressively attractive and talented but also loyal and willing to overlook my public mistakes."
+   },
+   "2": {
+    "original": "Starting my new address book was a cleansing experience.",
+    "rewrite": "Beginning my fresh address book was a purifying experience."
+   },
+   "6": {
+    "original": "I remembered wonderful gatherings of friends and family.",
+    "rewrite": "I recalled delightful reunions with friends and relatives."
+   }
+  },
+  "final_span": "to ask whether it was a to-go order or if I was dining in. I made new friends who not only were impressively attractive and talented but also loyal and willing to overlook my public mistakes.\nBeginning my fresh address book was a purifying experience. I recognized it took me nearly thirty years to reach the top level of identity I had always sought but never dared to request.\nRIGHT, I WAS being haughty. I went through the new address book and found the names and addresses of a remarkable number of amazing individuals\u2014many whom held a special place closer to my heart than those who joked three rows over at our wedding reception. I recalled delightful reunions with friends and relatives. I remembered my son's deep compassion humor. I remembered kidnap attempts, car accidents, moving itineraries, diffusing temper tantrums, mad cats",
+  "break_point": {
+   "step": 4,
+   "sentences_rewritten": 5,
+   "queries": 152
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 5,
+   "eligible": 6,
+   "segments": 9,
+   "pct_of_eligible": 83.33333333333333,
+   "pct_of_segments": 55.55555555555556
+  },
+  "tokens": {
+   "original": 201,
+   "final": 193,
+   "length_change": -8,
+   "pct_not_preserved": 29.850746268656714,
+   "pct_new": 26.943005181347147
+  },
+  "words": {
+   "original": 146,
+   "final": 142,
+   "length_change": -4,
+   "pct_not_preserved": 33.56164383561644,
+   "pct_new": 31.690140845070424
+  },
+  "characters": {
+   "original": 840,
+   "final": 840,
+   "length_change": 0,
+   "pct_not_preserved": 22.499999999999996,
+   "pct_new": 22.499999999999996
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 162,
+   "green_after": 104,
+   "pairs_before": 200,
+   "pairs_after": 192,
+   "pairs_changed_before": 90,
+   "pairs_changed_after": 82,
+   "green_fraction_of_new_pairs": 0.2682926829268293,
+   "delta_achieved": 0.23170731707317072
+  }
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "sample_id": "sta16_len200:52",
+ "nobox": {
+  "z_final": 6.222539674441618,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "By closely aligning North American economies, trade agreements three time our population do much to insure that Texas and the nation remain strongly and securely connected to deep and lucrative markets around the world.",
+    "rewrite": "By tightly aligning North American economies, trade agreements three times our population can significantly ensure that Texas and the nation remain strongly and securely connected to deep and lucrative markets worldwide."
+   },
+   "3": {
+    "original": "And because trade deals involve provisions on the protection of labor rights, environmental policy, and so on, they also create a public mandate for our moral goals on the international stage.",
+    "rewrite": "And because trade deals include provisions for labor rights protection, environmental policy, and other areas, they also establish a public demand for our moral objectives on the global stage."
+   },
+   "4": {
+    "original": "As many in foreign press who support American claims like trade warranty protections for imported foods and an end to forced labor in manufacturing.",
+    "rewrite": "As many in the foreign press who support American claims back trade warranty protections for imported foods and advocate for an end to forced labor in manufacturing."
+   },
+   "2": {
+    "original": "In most of the world, at least an official government has opened its market to the American economy.",
+    "rewrite": "In much of the world, at least one official government has opened its market to the American economy."
+   },
+   "1": {
+    "original": "Breaking down obstacles to trade has also increased U.S. influence.",
+    "rewrite": "Reducing trade barriers has also heightened U.S. influence."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 18,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 0,
+    "rewritten": false
+   }
+  ],
+  "queries": 1,
+  "final_span": "firms on a global footing rather than a country-by-country basis \u2013 something deeply disruptive to American competitiveness.\nReducing trade barriers has also heightened U.S. influence. In much of the world, at least one official government has opened its market to the American economy. And because trade deals include provisions for labor rights protection, environmental policy, and other areas, they also establish a public demand for our moral objectives on the global stage. As many in the foreign press who support American claims back trade warranty protections for imported foods and advocate for an end to forced labor in manufacturing.\nAnd the benefits are not just on the foreign side of the world. By tightly aligning North American economies, trade agreements three times our population can significantly ensure that Texas and the nation remain strongly and securely connected to deep and lucrative markets worldwide.\nIran, Venezuela and the Middle",
+  "z0": 9.475230867899736,
+  "seconds": 183.7
+ }
+}

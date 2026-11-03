@@ -1,0 +1,26 @@
+{
+ "sample_id": "samples_len200:339",
+ "nobox": {
+  "z_final": 3.9797467053047284,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Mansoor is reportedly a close confidante of Pakistan's military and intelligence agencies as well as of the Afghan government and the Pakistanis and Afghans together are trying to engage him in an amnesty program for the insurgency.",
+    "rewrite": "Mansoor is said to be closely associated with Pakistan's military and intelligence agencies, as well as the Afghan government, and both Pakistanis and Afghans are attempting to engage him in an amnesty program for the insurgency."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 56,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Omar's death.\nMansoor is said to be closely associated with Pakistan's military and intelligence agencies, as well as the Afghan government, and both Pakistanis and Afghans are attempting to engage him in an amnesty program for the insurgency.\n\"This an attempt to break up the Taliban. The leadership is self-inflicting this injury on the group,\" said Yousafzai.\n\"Just when they were close to coming to the table, this injury has torn a hole in the tape and kept the peace process at bay.\"\n\"This news will not bring peace, it will only keep us in war long enough for the rest of my generation and the generations to come suffer the wrath of terrorism.\n\"Our government is trying to reach out to Taliban leadership. If the news is true for Mansoor, then it means the Taliban leadership is further divided",
+  "z0": 4.525483399593904,
+  "seconds": 62.2
+ }
+}

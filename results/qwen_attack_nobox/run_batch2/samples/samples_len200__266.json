@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:266",
+ "nobox": {
+  "z_final": 5.137379697576193,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "In the past, this fan has splurged; a Super Bowl ring AND an autographed jersey by \u201cGibbs and the Hogs\u201d, which included many fan favorites like, Mark Rypien.",
+    "rewrite": "In the past, this fan has indulged with a Super Bowl ring and an autographed jersey by \u201cGibbs and the Hogs\u201d, featuring such favorites as Mark Rypien."
+   },
+   "5": {
+    "original": "At first, as you might well imagine with any great game franchise, being a fan of the failures seems less enjoyable.",
+    "rewrite": "At first, being a fan of the failures in any great game franchise seems less enjoyable, as you might well imagine."
+   },
+   "1": {
+    "original": "With kids this age, interest is not usually necessarily translated into dollars.",
+    "rewrite": "With kids this age, interest typically doesn't always translate to dollars."
+   },
+   "4": {
+    "original": "If he\u2019s ever visiting friend\u2019s, well, this fan picks up the tab.",
+    "rewrite": "If he visits a friend, this fan will pay for the tab."
+   },
+   "2": {
+    "original": "So what fan prices are we talking about here, I ask?",
+    "rewrite": "So what fan prices are we discussing here, I wonder?"
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 3,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 25,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "reputation soured with it under the QBing of Heath Shuler, and then controversial/excellent Shane Matthews.\nWith kids this age, interest typically doesn't always translate to dollars. So what fan prices are we discussing here, I wonder? In the past, this fan has indulged with a Super Bowl ring and an autographed jersey by \u201cGibbs and the Hogs\u201d, featuring such favorites as Mark Rypien.\nIf he visits a friend, this fan will pay for the tab.\nAt first, being a fan of the failures in any great game franchise seems less enjoyable, as you might well imagine.\nbut he has a very clear preference.\nJunior does not get unlimited access to the NFL like some of us, so he uses streaming platforms to get games, if for no other reasons than because he can",
+  "z0": 5.374011537017761,
+  "seconds": 143.7
+ }
+}

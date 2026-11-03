@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:229",
+ "nobox": {
+  "z_final": 3.174055271363692,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "Yet some whfle China is increasingly a manufacturing and export powerhouse, the persecution of things like people displaced by development remains extensive.",
+    "rewrite": "Despite China's growing status as a manufacturing and export powerhouse, the persecution of those displaced by development remains widespread."
+   },
+   "8": {
+    "original": "Instead, the Communist Party's official newspaper People's Daily or Radio People's Daily pretend the moves are peaceful.",
+    "rewrite": "Instead, the Communist Party's official newspaper People's Daily and Radio People's Daily pretend that the moves are peaceful."
+   },
+   "5": {
+    "original": "Nathan attributes China's largely suppression of human-rights activism to its economy and development.",
+    "rewrite": "Nathan links China's significant suppression of human-rights activism to its economy and development."
+   },
+   "7": {
+    "original": "Payoffs to villagers are often few, and the facts of displacements are not announced.",
+    "rewrite": "Villagers often receive few payoffs, and the details of displacements are not disclosed."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 13,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 14,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "in prison.\"\n\"The truth is,\" he continues, \"if there were another crackdown, anyone distressed about it would be kicked out and the perpetrator shielded from criticism. So criticism would be an empty gesture.\"\n\"But I'm not saying things are at 1989 levels. I'm saying they're not at those reported in Geneva last week.\"\nNathan links China's significant suppression of human-rights activism to its economy and development.\nDespite China's growing status as a manufacturing and export powerhouse, the persecution of those displaced by development remains widespread. Villagers often receive few payoffs, and the details of displacements are not disclosed. Instead, the Communist Party's official newspaper People's Daily and Radio People's Daily pretend that the moves are peaceful.\nFrom 1995 to 2",
+  "z0": 4.666904755831213,
+  "seconds": 122.0
+ }
+}

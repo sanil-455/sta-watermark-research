@@ -1,0 +1,26 @@
+{
+ "sample_id": "samples_len200:300",
+ "nobox": {
+  "z_final": 3.9185877493350305,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Republican contenders must be asking how they\u2019ll deal with the situation.",
+    "rewrite": "Republican candidates must be wondering how they will handle the situation."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 20,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "and Iraq got attention as it announced an offensive against the Iraqi city of Saddam Hussein\u2019s hometown. Republican candidates must be wondering how they will handle the situation.\nBolton said Hagel will have to make a keystroke change at the Department of Defense if confirmed, because it shows any policy \u201creflecting the self-inflicted American weakness,\u201d rather than robust military strength.\n\"He's already basically giving Syrian President Bashar al-Assad a green light to whack down my friends [opposition leaders fighting ISIS], pro-Israel leaders,\" Bolton said. \"The signal is being sent to Iran that the ayatollahs can make believe they're fighting ISIS without really doing it. So the signal from the Middle East to the rest of the world is, don't take the United States seriously, since 2012 is not the new normal",
+  "z0": 3.959797974644666,
+  "seconds": 17.8
+ }
+}

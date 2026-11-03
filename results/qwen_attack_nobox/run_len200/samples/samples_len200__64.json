@@ -1,0 +1,67 @@
+{
+ "sample_id": "samples_len200:64",
+ "nobox": {
+  "z_final": 3.95898662911782,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "And when I first heard about a key hire that wasn\u2019t a gender diverse one, I asked the person my immediate boss what that was all about.",
+    "rewrite": "And when I first heard about a key hire that wasn't gender diverse, I asked my immediate boss what was going on."
+   },
+   "3": {
+    "original": "Who doesn\u2019t feel relaxed after an office jester makes fun of their mistake?",
+    "rewrite": "Who does not feel relaxed after an office jester makes fun of their mistake?"
+   },
+   "2": {
+    "original": "It can immediately disarm an awkward, overly-signaling situation.",
+    "rewrite": "It can instantly defuse an awkward, overly-signaling situation."
+   },
+   "8": {
+    "original": "Working on Wall Street, I learned about humor from the very top.",
+    "rewrite": "Working at Wall Street, I learned about humor right at the top."
+   },
+   "1": {
+    "original": "A well-placed zinger is a powerful tool.",
+    "rewrite": "An effectively delivered zinger is a potent tool."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 5,
+    "survivors": 14,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 2,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "tense if I had instead expressed an offense taken.\nAn effectively delivered zinger is a potent tool. It can instantly defuse an awkward, overly-signaling situation. Who does not feel relaxed after an office jester makes fun of their mistake? In a meeting with a group that\u2019s approaching my territory, I once used humor to let the group know that I intended to be \u201cadministering policy\u201d rather than in a \u201cselling\u201d role. And when I first heard about a key hire that wasn't gender diverse, I asked my immediate boss what was going on. He said, \u201cYou\u2019ll like him.\u201d Without even a moment to breathe I had responded: \u201cYou know me too well,\u201d an awkward moment avoided.\nWorking at Wall Street, I learned about humor right at the top. I had the privilege to sit across from the legendary leader",
+  "z0": 4.1012193308819755,
+  "seconds": 150.8
+ }
+}

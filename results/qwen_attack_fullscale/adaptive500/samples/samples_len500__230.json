@@ -1,0 +1,273 @@
+{
+ "sample_id": "samples_len500:230",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8160194174757281,
+ "needed_share": 0.6393438745968081,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2060,
+  "segments": 11,
+  "eligible": 9,
+  "skipped": 2,
+  "skip_reasons": {
+   "does not start like a sentence": 2
+  },
+  "eligible_chars": 1681,
+  "eligible_char_share": 0.8160194174757281
+ },
+ "attack": {
+  "z0": 5.5454485841994785,
+  "z_final": 1.9366226011774934,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 283,
+  "seconds": 349.9,
+  "seconds_by_phase": {
+   "generate": 322.1,
+   "gates": 27.6,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 375,
+    "z_before": 5.5454485841994785,
+    "z_after": 4.709893692170694,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 8,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 49,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 93.42
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 245,
+    "z_before": 4.709893692170694,
+    "z_after": 4.409228452525306,
+    "accepted": true,
+    "survivors": 56,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 56,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 1,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 105,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 56.49
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 234,
+    "z_before": 4.409228452525306,
+    "z_after": 3.843832868992144,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "CJK text": 2,
+      "negation count changed": 16
+     }
+    },
+    "queries_total": 147,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.65
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 218,
+    "z_before": 3.843832868992144,
+    "z_after": 3.113926408605017,
+    "accepted": true,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 2,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 201,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 49.8
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 188,
+    "z_before": 3.113926408605017,
+    "z_after": 2.301597780273273,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 58,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 1,
+      "negation count changed": 1,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 252,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.38
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 178,
+    "z_before": 2.301597780273273,
+    "z_after": 1.9366226011774934,
+    "accepted": true,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 31,
+     "after_spelling": 31,
+     "after_content": 31,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "duplicate": 28,
+      "CJK text": 1
+     }
+    },
+    "queries_total": 283,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.37
+   }
+  ],
+  "rewrites": {
+   "9": {
+    "original": "Kim Dae Jung, the visiting leader of the South's largest opposition party, had spent a few hours on Geunmaejae Islet, a rocky cliff jutting into the Sea of Japan, when gunfire suddenly erupted: His motorcade and platoons of youths waving both the North and South Korean flags were getting the stink eye from a small group surrounding a barricade of big stones and scrap wood.",
+    "rewrite": "Kim Dae Jung, the leader of the South's main opposition party on a visit, had been at Geunmaejae Islet for several hours, a rocky cliff facing the Sea of Japan, when he was hit by sudden gunshots: His convoy and young supporters brandishing both North and South Korean flags were receiving hostile looks from a small crowd guarding a barrier made of large stones and debris."
+   },
+   "6": {
+    "original": "Cross-Dressing Men Search for Love, Report South Korean media reported today (Thursday)that Kim Dae Jung, the left leaning former president of South Korea with a 60 percent approval in a recent poll, is the country's most fabulous cross-dresser.",
+    "rewrite": "South Korean media reported today that Cross-Dressing Men Seek Love, and the left-leaning former president of South Korea, Kim Dae Jung, with a recent 60 percent approval rating, is identified as the nation's most fabulous cross-dresser."
+   },
+   "5": {
+    "original": "It is encouraging to hear you send Kim Dae Jung and other opposition leaders to Pyongyang for humanitarian purposes rather than using their trip to Pyongyang as a personal sales tool to deepen your own friendship with the DPRK leader.",
+    "rewrite": "It is reassuring to see you transport Kim Dae Jung and other opposition figures to Pyongyang for humanitarian reasons instead of leveraging their trip for personal gains to enhance your relationship with the DPRK leader."
+   },
+   "2": {
+    "original": "He is holding out hopes, as did Kim Dae Jung, South Korea's leading opposition figure; the elections were held before the North Korean decision to stop all nuclear testing and abandon the remaining reactors at Taechon.",
+    "rewrite": "He is holding out hopes, similar to those of Kim Dae Jung, South Korea's top opposition leader; the elections took place before North Korea decided to halt all nuclear tests and shut down the remaining reactors at Taechon."
+   },
+   "8": {
+    "original": "The apparently last-minute decision came after Song Paik Lee, who would have led a delegation to North Korea, hinted that ''nothing would be improved'' by Kim Dae Jung's official presence.",
+    "rewrite": "The seemingly rushed decision followed Song Paik Lee's suggestion that \"nothing would improve\" with Kim Dae Jung's attendance, as the latter was meant to lead the delegation to North Korea."
+   },
+   "1": {
+    "original": "Kim Tae Jik, secretary general of the North Korean People's Revolutionary Party, told the Assembly this week that North Korea wants political and security talks with South Korea.",
+    "rewrite": "Kim Tae Jik, secretary general of the North Korean People's Revolutionary Party, told this week's Assembly that North Korea desires political and security discussions with South Korea."
+   }
+  },
+  "final_span": "Korea's leading opposition figure.\nKim Tae Jik, secretary general of the North Korean People's Revolutionary Party, told this week's Assembly that North Korea desires political and security discussions with South Korea.\nHe is holding out hopes, similar to those of Kim Dae Jung, South Korea's top opposition leader; the elections took place before North Korea decided to halt all nuclear tests and shut down the remaining reactors at Taechon.\nKim Dae Jung, who holds a public visit to Mount Geumgang, is well familiarized with the Yonbun inspection probe in Gangwon Province.\nfor people displaced by North Korean bombshelts, but he is also a fierce nemesis of the North Korean regime; Kim Dae Jung, the opposition leader who participated in negotiations in May, also has a personal history of losing a number of family members to partisan purges and political repression in North Korea.\nIt is reassuring to see you transport Kim Dae Jung and other opposition figures to Pyongyang for humanitarian reasons instead of leveraging their trip for personal gains to enhance your relationship with the DPRK leader.\nSouth Korean media reported today that Cross-Dressing Men Seek Love, and the left-leaning former president of South Korea, Kim Dae Jung, with a recent 60 percent approval rating, is identified as the nation's most fabulous cross-dresser.\nSouth Korea approving Kim Dae Jung to be possible future President next year.\nThe seemingly rushed decision followed Song Paik Lee's suggestion that \"nothing would improve\" with Kim Dae Jung's attendance, as the latter was meant to lead the delegation to North Korea.\nKim Dae Jung, the leader of the South's main opposition party on a visit, had been at Geunmaejae Islet for several hours, a rocky cliff facing the Sea of Japan, when he was hit by sudden gunshots: His convoy and young supporters brandishing both North and South Korean flags were receiving hostile looks from a small crowd guarding a barrier made of large stones and debris.\n''Leftwing political power'' or ''opposition leader's power",
+  "break_point": {
+   "step": 5,
+   "sentences_rewritten": 6,
+   "queries": 283
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 6,
+   "eligible": 9,
+   "segments": 11,
+   "pct_of_eligible": 66.66666666666667,
+   "pct_of_segments": 54.54545454545455
+  },
+  "tokens": {
+   "original": 501,
+   "final": 494,
+   "length_change": -7,
+   "pct_not_preserved": 27.145708582834327,
+   "pct_new": 26.113360323886635
+  },
+  "words": {
+   "original": 335,
+   "final": 330,
+   "length_change": -5,
+   "pct_not_preserved": 31.343283582089555,
+   "pct_new": 30.303030303030297
+  },
+  "characters": {
+   "original": 2060,
+   "final": 2048,
+   "length_change": -12,
+   "pct_not_preserved": 20.67961165048544,
+   "pct_new": 20.21484375
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 312,
+   "green_after": 268,
+   "pairs_before": 500,
+   "pairs_after": 493,
+   "pairs_changed_before": 188,
+   "pairs_changed_after": 181,
+   "green_fraction_of_new_pairs": 0.425414364640884,
+   "delta_achieved": 0.074585635359116
+  }
+ }
+}

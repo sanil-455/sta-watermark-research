@@ -1,0 +1,26 @@
+{
+ "sample_id": "sta16_len200:90",
+ "nobox": {
+  "z_final": 9.428120026610868,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Kanye is reportedly playing his tracks to Dua but he hasn't yet whittled down what he's got to make a duet.",
+    "rewrite": "Reports suggest that Kanye is playing his tracks to Dua, but he has not yet narrowed down his selections to create a duet."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 51,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "on but he's let her producer and teams who he usually deals with to reach out to her to ask about getting involved.\n\"He's pretty sure it will work because she is so hot right now. She just became the biggest new solo female pop star in the UK.\"\nReports suggest that Kanye is playing his tracks to Dua, but he has not yet narrowed down his selections to create a duet.\nAccording to the insider, he said: \"He's put together a few verses he thinks could work. So, he's asked for her to mash them together to make what feels like a potentially big record.\n\"They've really come away from this meeting feeling what they've done there is so good it could become a duet.\n\"He thinks Dua could potentially help cement his record as even more likely to be one of the biggest albums of the year when it eventually",
+  "z0": 10.465180361560902,
+  "seconds": 37.2
+ }
+}

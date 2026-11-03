@@ -1,0 +1,248 @@
+{
+ "sample_id": "samples_len500:304",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8385791366906474,
+ "needed_share": 0.5436595964286144,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2224,
+  "segments": 17,
+  "eligible": 14,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1865,
+  "eligible_char_share": 0.8385791366906474
+ },
+ "attack": {
+  "z0": 4.382693235899588,
+  "z_final": 1.8144368465060579,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 217,
+  "seconds": 237.4,
+  "seconds_by_phase": {
+   "generate": 219.1,
+   "gates": 18.1,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 279,
+    "z_before": 4.382693235899588,
+    "z_after": 4.319244198392136,
+    "accepted": true,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 37,
+     "after_content": 9,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "CJK text": 2,
+      "several lines": 2,
+      "unknown word": 19,
+      "negation count changed": 28
+     }
+    },
+    "queries_total": 10,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 59.03
+   },
+   {
+    "pass": 1,
+    "segment": 15,
+    "chars": 228,
+    "z_before": 4.319244198392136,
+    "z_after": 3.06567675786927,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 8,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 59,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 53.13
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 210,
+    "z_before": 3.06567675786927,
+    "z_after": 2.8912252892968042,
+    "accepted": true,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 58,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "unknown word": 2,
+      "negation count changed": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 113,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.75
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 166,
+    "z_before": 2.8912252892968042,
+    "z_after": 2.4821152532358832,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 2,
+      "unknown word": 5,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 162,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.37
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 151,
+    "z_before": 2.4821152532358832,
+    "z_after": 1.8144368465060579,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 217,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.85
+   }
+  ],
+  "rewrites": {
+   "10": {
+    "original": "As of this summer, any foreign-born person wanting to get married in Louisiana must produce both an unexpired visa (even though a federal court has ruled that marriage licenses cannot be denied based on immigration status), as well as, somewhat inexplicably, a birth certificate.",
+    "rewrite": "This summer, individuals born abroad seeking to marry in Louisiana are required to show both an unexpired visa (although a federal court has declared that marriage licenses should not be denied due to immigration status) and, rather strangely, a birth certificate."
+   },
+   "15": {
+    "original": "In Louisiana, which like many states was effectively remaking the family tree in the aftermath of the Holocaust nearly a century ago, there are few records of refugees and few organizations that help them document their origins.",
+    "rewrite": "In Louisiana, similar to many states, the process of remaking family records following the Holocaust almost a century ago led to scant records of refugees and limited assistance from organizations in tracing their origins."
+   },
+   "3": {
+    "original": "Xanamane and Cheng had heard in the past about a foreign-born person having to first obtain a birth certificate in order to get a marriage license, but had never known anyone to have actually faced the problem.",
+    "rewrite": "Xanamane and Cheng were aware from previous experiences of a foreign-born individual needing a birth certificate for a marriage license, yet they had no firsthand knowledge of someone encountering such an issue."
+   },
+   "7": {
+    "original": "There are thousands of them in Baton Rouge, said Pat Xayachack, a community organizer in town who spends his days helping recent immigrants three generations removed.",
+    "rewrite": "Pat Xayachack, a community organizer in Baton Rouge who dedicates his days to assisting recent immigrants, said there are thousands of such cases among multiple generations."
+   },
+   "12": {
+    "original": "It appeared to have the widespread effect that supporters of the policy had hoped for: it has effectively made it illegal for thousands to get married.",
+    "rewrite": "It seemed to achieve the broad impact that the policy supporters had anticipated: it has de facto banned marriage for thousands."
+   }
+  },
+  "final_span": "refugees, other immigrant families \u2014 anyone to let them know this was not just a problem anyone could fix, but a sign of the depth of the state\u2019s cruelty toward immigration.\n\u201cOur belief is we are victims of law discrimination,\u201d Xanamane says.\nMost were sympathetic but said the couple needed birth certificates.\nXanamane and Cheng were aware from previous experiences of a foreign-born individual needing a birth certificate for a marriage license, yet they had no firsthand knowledge of someone encountering such an issue. There is no place in the law for them to have obtained such a document before they sought it.\nSo they had only their green card, both for the original marriage and for getting a marriage license.\nThey reached out to other refugees, who explained the predicament. Pat Xayachack, a community organizer in Baton Rouge who dedicates his days to assisting recent immigrants, said there are thousands of such cases among multiple generations.\nXayachack was married in what he describes as the Louisiana legal system, which requires both a marriage license and a birth certificate.\nTwo years ago, during the courthouse visit for his sister\u2019s marriage, he was turned away, too, because he was missing a birth certificate.\nThis summer, individuals born abroad seeking to marry in Louisiana are required to show both an unexpired visa (although a federal court has declared that marriage licenses should not be denied due to immigration status) and, rather strangely, a birth certificate.\nNo birth certificate, no marriage, no excuses. It seemed to achieve the broad impact that the policy supporters had anticipated: it has de facto banned marriage for thousands.\nThose with legal status in the United States have few sources for birth certificates. Even those who never lived in or near a refugee camp say it\u2019s nearly impossible to get documents. In Louisiana, similar to many states, the process of remaking family records following the Holocaust almost a century ago led to scant records of refugees and limited assistance from organizations in tracing their origins.\nLouisiana Board of Health Secretary Rebekah Gee, who wrote the new rule, said she sees it as warranted",
+  "break_point": {
+   "step": 4,
+   "sentences_rewritten": 5,
+   "queries": 217
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 5,
+   "eligible": 14,
+   "segments": 17,
+   "pct_of_eligible": 35.714285714285715,
+   "pct_of_segments": 29.41176470588235
+  },
+  "tokens": {
+   "original": 501,
+   "final": 487,
+   "length_change": -14,
+   "pct_not_preserved": 22.15568862275449,
+   "pct_new": 19.917864476386036
+  },
+  "words": {
+   "original": 371,
+   "final": 355,
+   "length_change": -16,
+   "pct_not_preserved": 27.223719676549862,
+   "pct_new": 23.943661971830988
+  },
+  "characters": {
+   "original": 2224,
+   "final": 2188,
+   "length_change": -36,
+   "pct_not_preserved": 17.580935251798557,
+   "pct_new": 16.224862888482626
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 299,
+   "green_after": 263,
+   "pairs_before": 500,
+   "pairs_after": 486,
+   "pairs_changed_before": 148,
+   "pairs_changed_after": 134,
+   "green_fraction_of_new_pairs": 0.35074626865671643,
+   "delta_achieved": 0.14925373134328357
+  }
+ }
+}

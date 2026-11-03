@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:350",
+ "nobox": {
+  "z_final": 3.0481891815358444,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Organisers had earlier expressed fears that the pageant's 34-year absence from the country over a dispute with the government may have affected fan participation, and their fears were proved correct when only 2,000 turned up for the final press conference.",
+    "rewrite": "Organisers had previously voiced concerns that the pageant's 34-year absence from the country due to a government dispute might have dissuaded fans, and their fears were confirmed when only 2,000 attended the final press conference."
+   },
+   "4": {
+    "original": "Her mother, Datin Josephine, also shared her enthusiasm for the revival of the pageant after its sudden disappearance during India-Pakistan relations in the country.",
+    "rewrite": "Her mother, Datin Josephine, also expressed her enthusiasm for the pageant's revival following its unexpected disappearance due to India-Pakistan relations in the country."
+   },
+   "2": {
+    "original": "They also said the pageant was no longer a priority according to the International Pageant Promoters Association\u0092s (IPPA) regional chairman Syed Aziz Syed Zakaria.",
+    "rewrite": "They also stated that the pageant was no longer a priority as per the International Pageant Promoters Association's (IPPA) regional chairman Syed Aziz Syed Zakaria."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 12,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "definitely something that I want to do,\u0094 she added.\nOrganisers had previously voiced concerns that the pageant's 34-year absence from the country due to a government dispute might have dissuaded fans, and their fears were confirmed when only 2,000 attended the final press conference.\nThey also stated that the pageant was no longer a priority as per the International Pageant Promoters Association's (IPPA) regional chairman Syed Aziz Syed Zakaria.\nfighting my way to the top?\u0094 she asked defiantly.\nHer mother, Datin Josephine, also expressed her enthusiasm for the pageant's revival following its unexpected disappearance due to India-Pakistan relations in the country.\n\u0093There are times when I feel like flying off with the birds in search of a new home since 1970, but I didn't. There",
+  "z0": 4.384062043356595,
+  "seconds": 151.5
+ }
+}

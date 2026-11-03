@@ -1,0 +1,71 @@
+{
+ "sample_id": "samples_len200:334",
+ "nobox": {
+  "z_final": 3.500700210070024,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "In order to carry your lawfully purchased gun, you must have a state permit to carry a handgun, and an official notice from the police indicating you have passed an extensive mental health and criminal record screening.",
+    "rewrite": "To carry your lawfully purchased gun, you need a state permit to carry a handgun, along with an official police notice confirming you have successfully passed an extensive mental health and criminal record screening."
+   },
+   "4": {
+    "original": "The officers then conduct a training class with the requirements of the state as well as ongoing reviews of the permit\u2019s expiration and other state requirements.",
+    "rewrite": "The officers then lead a training class that includes the state's requirements along with continuous reviews of the permit\u2019s expiration and other relevant state standards."
+   },
+   "2": {
+    "original": "License to own a handgun are even more difficult to obtain than a license to carry.",
+    "rewrite": "Licenses to own a handgun are even more difficult to obtain than licenses to carry."
+   },
+   "5": {
+    "original": "There are 833,664 licensed handgun owners in New York, according to the NRA.",
+    "rewrite": "According to the NRA, there are 833,664 licensed handgun owners in New York."
+   },
+   "1": {
+    "original": "Keeping a loaded handgun in your home requires a license.",
+    "rewrite": "Obtaining a license is required for keeping a loaded handgun at home."
+   },
+   "6": {
+    "original": "That\u2019s a lot of pistols to monitor.",
+    "rewrite": "It's a significant number of pistols to monitor."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 5,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 17,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "strictest gun control laws in the country. Obtaining a license is required for keeping a loaded handgun at home. Licenses to own a handgun are even more difficult to obtain than licenses to carry. To carry your lawfully purchased gun, you need a state permit to carry a handgun, along with an official police notice confirming you have successfully passed an extensive mental health and criminal record screening. The officers then lead a training class that includes the state's requirements along with continuous reviews of the permit\u2019s expiration and other relevant state standards.\nAccording to the NRA, there are 833,664 licensed handgun owners in New York. It's a significant number of pistols to monitor. But during the Mayor\u2019s disastrous tenure, we\u2019ve seen a massive rise in street violence in New York city, and if part of the problem is guns, the city\u2019s gun control policies may be part of",
+  "z0": 4.242640687119285,
+  "seconds": 175.8
+ }
+}

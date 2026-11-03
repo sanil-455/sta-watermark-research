@@ -1,0 +1,436 @@
+{
+ "sample_id": "samples_len500:294",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.7475786924939467,
+ "needed_share": 0.7057805292763435,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 1652,
+  "segments": 17,
+  "eligible": 11,
+  "skipped": 6,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "no final punctuation": 3,
+   "does not start like a sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1235,
+  "eligible_char_share": 0.7475786924939467
+ },
+ "attack": {
+  "z0": 6.7976466515993605,
+  "z_final": 1.5860013905030532,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 380,
+  "seconds": 356.2,
+  "seconds_by_phase": {
+   "generate": 327.5,
+   "gates": 28.5,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 13,
+    "chars": 157,
+    "z_before": 6.7976466515993605,
+    "z_after": 6.757224212010684,
+    "accepted": true,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 1,
+     "after_content": 1,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 2,
+      "unknown word": 55
+     }
+    },
+    "queries_total": 2,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 45.24
+   },
+   {
+    "pass": 1,
+    "segment": 15,
+    "chars": 143,
+    "z_before": 6.757224212010684,
+    "z_after": 6.019352487914083,
+    "accepted": true,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "duplicate": 2,
+      "unknown word": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 56,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 31.63
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 137,
+    "z_before": 6.019352487914083,
+    "z_after": 5.829423489318801,
+    "accepted": true,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 39,
+     "after_content": 39,
+     "after_semantic": 39,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "duplicate": 1,
+      "CJK text": 1,
+      "unknown word": 19,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 94,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.65
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 136,
+    "z_before": 5.829423489318801,
+    "z_after": 5.573474525846373,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "duplicate": 5,
+      "CJK text": 1,
+      "unknown word": 3,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 138,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.65
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 123,
+    "z_before": 5.573474525846373,
+    "z_after": 5.068742735383699,
+    "accepted": true,
+    "survivors": 21,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 25,
+     "after_content": 25,
+     "after_semantic": 25,
+     "fluency_skipped": false,
+     "after_fluency": 21,
+     "rejected": {
+      "duplicate": 7,
+      "CJK text": 1,
+      "unknown word": 27,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 159,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.37
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 115,
+    "z_before": 5.068742735383699,
+    "z_after": 4.163251773633361,
+    "accepted": true,
+    "survivors": 58,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 58,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 217,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 47.26
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 111,
+    "z_before": 4.163251773633361,
+    "z_after": 3.7230588233349295,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 41,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "duplicate": 19
+     }
+    },
+    "queries_total": 258,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.17
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 109,
+    "z_before": 3.7230588233349295,
+    "z_after": 3.0298447320291015,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 57,
+     "after_content": 55,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 1,
+      "unknown word": 1,
+      "numbers changed": 2,
+      "meaning too different": 7,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 301,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.1
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 78,
+    "z_before": 3.0298447320291015,
+    "z_after": 2.3967428477245134,
+    "accepted": true,
+    "survivors": 30,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 38,
+     "after_spelling": 37,
+     "after_content": 37,
+     "after_semantic": 35,
+     "fluency_skipped": false,
+     "after_fluency": 30,
+     "rejected": {
+      "duplicate": 21,
+      "CJK text": 1,
+      "unknown word": 1,
+      "meaning too different": 2,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 331,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.0
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 73,
+    "z_before": 2.3967428477245134,
+    "z_after": 2.0349703424076053,
+    "accepted": true,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 23,
+     "after_spelling": 23,
+     "after_content": 23,
+     "after_semantic": 23,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "duplicate": 37
+     }
+    },
+    "queries_total": 354,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.37
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 53,
+    "z_before": 2.0349703424076053,
+    "z_after": 1.5860013905030532,
+    "accepted": true,
+    "survivors": 26,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 36,
+     "after_spelling": 35,
+     "after_content": 35,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 26,
+     "rejected": {
+      "duplicate": 24,
+      "unknown word": 1,
+      "meaning too different": 5,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 380,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.09
+   }
+  ],
+  "rewrites": {
+   "13": {
+    "original": "Shares of Amgen were off 0.3% early Friday after the drugmaker swung to a fiscal fourth-quarter loss because Repatha's 2017 sales fell short of expectations.",
+    "rewrite": "Amgen's shares declined by 0.3% on Friday morning due to the biotech company's fourth-quarter loss for the fiscal year, following a shortfall in Repatha's 2017 sales."
+   },
+   "15": {
+    "original": "One of these stocks could provide investors with a 2:1 reward-to-risk ratio, but the other two are notoriously difficult to put your finger on.",
+    "rewrite": "One stock among them might offer an enticing 2:1 reward-to-risk ratio, whereas the other two are known for being particularly hard to pinpoint."
+   },
+   "9": {
+    "original": "Two biosimilar makers reported their earnings Thursday morning, followed this afternoon by Astellas with its own set of biologic results.",
+    "rewrite": "On Thursday morning, two biosimilar manufacturers disclosed their earnings, while Astellas followed later this afternoon with its biologic results."
+   },
+   "1": {
+    "original": "As part of the arrangement, Galapagos also received $80 million in milestone payments from Gilead if certain regulatory approvals occur.",
+    "rewrite": "Galapagos also garnered $80 million in milestone payments from Gilead conditional on specific regulatory approvals being achieved."
+   },
+   "3": {
+    "original": "Since JAK inhibitor supplier AbbVie agreed to buy the biotech's arthritis drug filgotinib, the stock has jumped nearly 50%.",
+    "rewrite": "After AbbVie agreed to acquire the biotech firm's arthritis drug filgotinib, the stock price rose almost 50%."
+   },
+   "11": {
+    "original": "Cigna's stock was down 0.7% Friday morning; it's off 7.3% for the week and the shares are up 0.9% so far this year.",
+    "rewrite": "Cigna's stock fell 0.7% on Friday morning. For the week, the stock has declined by 7.3%. Year to date, the shares have risen 0.9%."
+   },
+   "4": {
+    "original": "Over the last year, Galapagos' shares, which are mainly being held in foreign portfolios, have fallen about 5%.",
+    "rewrite": "In the past year, Galapagos' shares, primarily kept in foreign investments, have declined by roughly 5%."
+   },
+   "5": {
+    "original": "Gilead is making a vehicle-to-vehicle (CV to CV) partnership offer to carry us closer to a driverless future.",
+    "rewrite": "Gilead is proposing a partnership between vehicles to propel us nearer to a driverless future."
+   },
+   "7": {
+    "original": "Just a few weeks ago, we learned that Gilead is working three collaborative...",
+    "rewrite": "Only a few weeks ago, we discovered that Gilead was collaborating on three..."
+   },
+   "6": {
+    "original": "And I'm not necessarily referring to the ride-sharing services from Uber.",
+    "rewrite": "Nor am I exclusively talking about the ride-sharing services like Uber."
+   },
+   "2": {
+    "original": "Galapagos has seen a slow drip of investment pay off.",
+    "rewrite": "Investment in Galapagos has yielded gradual returns."
+   }
+  },
+  "final_span": "million up front and it retains an option to buy the biotech's SAR-160709 polyclonal B/C component program. Galapagos also garnered $80 million in milestone payments from Gilead conditional on specific regulatory approvals being achieved.\nInvestment in Galapagos has yielded gradual returns. After AbbVie agreed to acquire the biotech firm's arthritis drug filgotinib, the stock price rose almost 50%. In the past year, Galapagos' shares, primarily kept in foreign investments, have declined by roughly 5%.\nGilead is proposing a partnership between vehicles to propel us nearer to a driverless future.\nNor am I exclusively talking about the ride-sharing services like Uber.\nOnly a few weeks ago, we discovered that Gilead was collaborating on three...\nEarnings at a Glance: Aurinia, Atara, Celgene, Sunesis, VCAN, Gilead Sciences\nOn Thursday morning, two biosimilar manufacturers disclosed their earnings, while Astellas followed later this afternoon with its biologic results.\nCigna Pins Centene's Earnings to Healthcare Changes\nCigna's stock fell 0.7% on Friday morning. For the week, the stock has declined by 7.3%. Year to date, the shares have risen 0.9%.\nAmgen Swings to Loss, Sales Miss Forecast; Boosts Earnings View\nAmgen's shares declined by 0.3% on Friday morning due to the biotech company's fourth-quarter loss for the fiscal year, following a shortfall in Repatha's 2017 sales.\n3 Speculative Biotechs I'd Rather Forget About\nOne stock among them might offer an enticing 2:1 reward-to-risk ratio, whereas the other two are known for being particularly hard to pinpoint.\nCelgene Buys into Jasper's Gut Disease Candidates for $57",
+  "break_point": {
+   "step": 10,
+   "sentences_rewritten": 11,
+   "queries": 380
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 11,
+   "eligible": 11,
+   "segments": 17,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 64.70588235294117
+  },
+  "tokens": {
+   "original": 501,
+   "final": 488,
+   "length_change": -13,
+   "pct_not_preserved": 30.938123752495006,
+   "pct_new": 29.09836065573771
+  },
+  "words": {
+   "original": 262,
+   "final": 249,
+   "length_change": -13,
+   "pct_not_preserved": 45.038167938931295,
+   "pct_new": 42.168674698795186
+  },
+  "characters": {
+   "original": 1652,
+   "final": 1640,
+   "length_change": -12,
+   "pct_not_preserved": 30.750605326876514,
+   "pct_new": 30.243902439024396
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 326,
+   "green_after": 261,
+   "pairs_before": 500,
+   "pairs_after": 487,
+   "pairs_changed_before": 204,
+   "pairs_changed_after": 191,
+   "green_fraction_of_new_pairs": 0.3507853403141361,
+   "delta_achieved": 0.1492146596858639
+  }
+ }
+}

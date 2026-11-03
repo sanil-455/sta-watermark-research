@@ -1,0 +1,53 @@
+{
+ "sample_id": "sta16_len200:74",
+ "nobox": {
+  "z_final": 6.788225099390856,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Armstrong, like Martin Luther King Jr. a Kentuckian and a United Methodist, would come to love an ancestral Southern Christian tradition.",
+    "rewrite": "Armstrong, just like Martin Luther King Jr., who was a Kentuckian and a United Methodist, would come to love an ancestral Southern Christian tradition."
+   },
+   "1": {
+    "original": "Michael Cottman, news director for Rev. Al Sharpton's radio network, has found a photo online of Armstrong inside the spacecraft.",
+    "rewrite": "Michael Cottman, news director for Rev. Al Sharpton's radio network, discovered a photo online showing Armstrong inside the spacecraft."
+   },
+   "4": {
+    "original": "He and Mrs. Armstrong, too, would mourn Dr. King's assassination on April 4, 1968, at the Lorraine Hotel in Memphis.",
+    "rewrite": "He and Mrs. Armstrong also would mourn Dr. King's assassination on April 4, 1968, at the Lorraine Hotel in Memphis."
+   },
+   "2": {
+    "original": "And Cottman is holding an interview on Sunday evening with the astronaut's daughter, Karen, to discuss it.",
+    "rewrite": "And Cottman will conduct an interview on Sunday evening with the astronaut's daughter, Karen, to discuss it."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 28,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "'s Apollo 11 mission commander wore with pride the red silk scarf tied around his neck of the Mother Jonathan, which not long earlier saved Martin Luther King Jr.'s life.\nMichael Cottman, news director for Rev. Al Sharpton's radio network, discovered a photo online showing Armstrong inside the spacecraft. And Cottman will conduct an interview on Sunday evening with the astronaut's daughter, Karen, to discuss it.\nArmstrong, just like Martin Luther King Jr., who was a Kentuckian and a United Methodist, would come to love an ancestral Southern Christian tradition. He and Mrs. Armstrong also would mourn Dr. King's assassination on April 4, 1968, at the Lorraine Hotel in Memphis.\n\"We - both of us - felt a part of the tragedy in that moment,\" said Neil Armstrong, according to news accounts.",
+  "z0": 7.495331880577403,
+  "seconds": 148.4
+ }
+}

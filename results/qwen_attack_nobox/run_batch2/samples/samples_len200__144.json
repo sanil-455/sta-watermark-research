@@ -1,0 +1,71 @@
+{
+ "sample_id": "samples_len200:144",
+ "nobox": {
+  "z_final": 2.4565184222025875,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Andersen explains that after coming through the worst divorces, tricky breakups, and awkward methods of dating, they are still apprehensive.",
+    "rewrite": "Andersen explains that despite experiencing the toughest divorces, complicated breakups, and uncomfortable dating methods, they remain apprehensive."
+   },
+   "6": {
+    "original": "To prevent pressuring her clients, Andersen offers only one option: to have dinner \u201cat a nice restaurant.\u201d",
+    "rewrite": "To avoid pressuring her clients, Andersen provides only the option of having dinner \u201cat a nice restaurant.\u201d"
+   },
+   "4": {
+    "original": "It seems Andersen gives them just enough of the illusion of power to overcome their trepidation.",
+    "rewrite": "Andersen provides them with enough of an illusion of power to overcome their trepidation."
+   },
+   "5": {
+    "original": "Once they are in a comfortable state of confidence, they pick up the phone to ask Andersen out.",
+    "rewrite": "When they are in a comfortable state of confidence, they then call Andersen to ask out."
+   },
+   "1": {
+    "original": "She represents the alpha and bravo who did not graduate from the M.D.-MBA/M.A.-VC-program.",
+    "rewrite": "She represents those who were labeled as alpha and bravo but did not graduate from the M.D.-MBA/M.A.-VC program."
+   },
+   "2": {
+    "original": "Most of these men have dated and had their heart broken.",
+    "rewrite": "A majority of these men have been in relationships that ended with broken hearts."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 32,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 36,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 36,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 23,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 29,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the technology that exists,\u201d says Andersen. She represents those who were labeled as alpha and bravo but did not graduate from the M.D.-MBA/M.A.-VC program.\nA majority of these men have been in relationships that ended with broken hearts. Andersen explains that despite experiencing the toughest divorces, complicated breakups, and uncomfortable dating methods, they remain apprehensive. Andersen provides them with enough of an illusion of power to overcome their trepidation. When they are in a comfortable state of confidence, they then call Andersen to ask out. To avoid pressuring her clients, Andersen provides only the option of having dinner \u201cat a nice restaurant.\u201d \u201cSome clients we screen during coffee; we just screen for professionalism,\u201d she says. \u201cI don\u2019t do personality tests.\u201d Andersen seems to be careful not to recommend too much to her prospective clients, aligning herself with their new vent",
+  "z0": 3.5355339059327373,
+  "seconds": 168.9
+ }
+}

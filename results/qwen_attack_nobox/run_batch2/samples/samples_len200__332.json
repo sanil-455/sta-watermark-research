@@ -1,0 +1,89 @@
+{
+ "sample_id": "samples_len200:332",
+ "nobox": {
+  "z_final": 3.411211461689767,
+  "status": "not broken",
+  "rewrites": {
+   "12": {
+    "original": "Immigrants should NOT be counted - it means things like people coming in with namediseases,addiction failures,make screners and the rest of it.",
+    "rewrite": "Immigrants should NOT be counted, as it includes those with namediseases, addiction failures, and those who fail initial screners and the like."
+   },
+   "9": {
+    "original": "Let\u2019s make America great again according to the words of Jimmy Carter.",
+    "rewrite": "According to Jimmy Carter, let\u2019s make America great again."
+   },
+   "10": {
+    "original": "And by the way, KSH tribes are so cute when they pull on our leg\u2019s.",
+    "rewrite": "By the way, KSH tribes are so cute when they tug at our legs."
+   },
+   "3": {
+    "original": "We don't kid around with those cool people from Brooklyn up there!",
+    "rewrite": "We don't play around with those cool Brooklyn folks up there!"
+   },
+   "7": {
+    "original": "President Trump Is putting America first, last and only.",
+    "rewrite": "President Trump is placing America first, last, and exclusively."
+   },
+   "4": {
+    "original": "Come on kids this is just the start of things to come.",
+    "rewrite": "Come on kids, this is just the beginning of what's to come."
+   },
+   "11": {
+    "original": "Is this whfat raving about tribal tattoos and bindis?",
+    "rewrite": "Is this raving about tribal tattoos and bindis?"
+   },
+   "8": {
+    "original": "I agree with the previous poster.",
+    "rewrite": "I concur with the preceding poster."
+   }
+  },
+  "sentences_rewritten": 8,
+  "eligible": 8,
+  "per_sentence": [
+   {
+    "index": 12,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 7,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 3,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 11,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 18,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 1,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "get every other benefit!\nWhat?!? Never! We don't play around with those cool Brooklyn folks up there!\nCome on kids, this is just the beginning of what's to come. Who is Martin Luther King? He will be a distant memory. President Trump is placing America first, last, and exclusively. I concur with the preceding poster. According to Jimmy Carter, let\u2019s make America great again. By the way, KSH tribes are so cute when they tug at our legs.\nIs this raving about tribal tattoos and bindis?\nImmigrants should NOT be counted, as it includes those with namediseases, addiction failures, and those who fail initial screners and the like. Between natural disasters,mass shoilling and transport to unknown places and a whole new population, - it us einsured that immigrants do not vote, nor do",
+  "z0": 5.232590180780451,
+  "seconds": 160.9
+ }
+}

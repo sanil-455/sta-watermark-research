@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:192",
+ "nobox": {
+  "z_final": 4.738523846877071,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "Assani was born in Mauritius, and over the last few years, Khan has enlisted his services as both musical director and sitar virtuoso on a number of small-ensemble projects.",
+    "rewrite": "Assani was born in Mauritius, and over recent years, Khan has enlisted Assani's services as both musical director and sitar virtuoso for several small-ensemble projects."
+   },
+   "5": {
+    "original": "The tunes on Yaman come from a repertoire first assembled as Love Songs of the North, an album that Khan released with another vocalist, Karuna Tuserint.",
+    "rewrite": "Tunes on Yaman are from a repertoire initially called Love Songs of the North, which Khan released alongside another vocalist named Karuna Tuserint."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 56,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 53,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "on that day, and he was asked if he wanted some accompaniment. He said, \u2018Of course!\u2019 And then we\u2019re playing for someone else at the festival\u2014I think Amika\u2019s relatives, and maybe a sitar player as well. So it\u2019s going to be a fun day, a day full of sitar, tabla and singing; a day dedicated to music.\u201d\nAssani was born in Mauritius, and over recent years, Khan has enlisted Assani's services as both musical director and sitar virtuoso for several small-ensemble projects. Tunes on Yaman are from a repertoire initially called Love Songs of the North, which Khan released alongside another vocalist named Karuna Tuserint.\n\u201cThis music we had recorded the previous summer, and we had got an offer from someone to put it out,\u201d says Khan. \u201cAnd it\u2019s a very good part of",
+  "z0": 6.081118318204308,
+  "seconds": 93.9
+ }
+}

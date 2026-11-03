@@ -1,0 +1,35 @@
+{
+ "sample_id": "baseline_extra:25",
+ "nobox": {
+  "z_final": 3.5179877236514594,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Bright Orange Lights (1970), an avant-garde painting with sharp, bulbous, bright orange and green lights, is the latest addition to the permanent collection at The College of the Holy Cross.",
+    "rewrite": "Bright Orange Lights (1970), an avant-garde painting featuring sharp, bulbous, bright orange and green lights, has become the latest addition to The College of the Holy Cross's permanent collection."
+   },
+   "1": {
+    "original": "In 1993, they gave Sara Roby Memorial Art Gallery at CGU College of the Arts this Leon Polk Smith painting.",
+    "rewrite": "In 1993, they presented Sara Roby Memorial Art Gallery at CGU College of the Arts with this Leon Polk Smith painting."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 8,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "art, have contributed significantly before. In 1993, they presented Sara Roby Memorial Art Gallery at CGU College of the Arts with this Leon Polk Smith painting.\nBright Orange Lights (1970), an avant-garde painting featuring sharp, bulbous, bright orange and green lights, has become the latest addition to The College of the Holy Cross's permanent collection.\nCOLLEGE OF THE HOLY CROSS in Worcester, Mass., on April 7 acquired Bright Orange Lights (1970), an avant-garde painting with sharp, bulbous, bright orange and green lights, sculpted from polyester, named after Carl Perkins song, by Leon Polk Smith, the late painter, printmaker, and sculptor, whose work was featured in \u201cthirteen,\u201d an exhibition at the Institute of Contemporary Art Boston in February for which he was described as \"a giant of American",
+  "z0": 3.8183766184073566,
+  "seconds": 85.6
+ }
+}

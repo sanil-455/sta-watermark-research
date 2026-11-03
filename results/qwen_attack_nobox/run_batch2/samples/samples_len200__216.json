@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:216",
+ "nobox": {
+  "z_final": 2.1879748724684185,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "Using brain bank testing, two of the group were diagnosed with CTE, and three had other memory problems of the kind associated with dementia, 48% of the group had an identical pattern in their brains to that seen in CTE, and five per cent were classified as having normal brains.",
+    "rewrite": "Through brain bank testing, two individuals from the group were diagnosed with CTE, three had other memory issues related to dementia, 48% of the group showed the same pattern in their brains as those with CTE, and five percent had brains classified as normal."
+   },
+   "2": {
+    "original": "It has previously been reported that some ex-league footballers develop dementia before the age at which they would be expected to; while a previous study also found a link between professional football and dementia, the results had not been confirmed with a larger study.",
+    "rewrite": "Previously, it was reported that some former league footballers develop dementia earlier than expected. Although an earlier study found a connection between professional football and dementia, the findings were not supported by a larger study."
+   },
+   "4": {
+    "original": "The players in this study were all aged between 58 and 65.",
+    "rewrite": "The players in this study all fell within the age range of 58 to 65."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 17,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 7,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "of tau protein in the brain.\nWatch: Report: A \u2018disturbing\u2019 amount of ex-footballers will develop dementia at 45 and younger, study finds\nPreviously, it was reported that some former league footballers develop dementia earlier than expected. Although an earlier study found a connection between professional football and dementia, the findings were not supported by a larger study.\nJustin Hardy/PA Media\nThe players in this study all fell within the age range of 58 to 65. Through brain bank testing, two individuals from the group were diagnosed with CTE, three had other memory issues related to dementia, 48% of the group showed the same pattern in their brains as those with CTE, and five percent had brains classified as normal.\nTwo of the three diagnosed with CTE had played at",
+  "z0": 3.111269837220809,
+  "seconds": 135.4
+ }
+}

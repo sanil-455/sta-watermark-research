@@ -1,0 +1,112 @@
+{
+ "sample_id": "sta16_len200:127",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.06295399515738499,
+ "needed_share": 0.8062721147434116,
+ "delta_needed": null,
+ "segmentation": {
+  "chars": 826,
+  "segments": 7,
+  "eligible": 1,
+  "skipped": 6,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 4,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 52,
+  "eligible_char_share": 0.06295399515738499
+ },
+ "attack": {
+  "z0": 10.323759005323593,
+  "z_final": 10.323759005323593,
+  "status": "stalled",
+  "reason": "candidates passed but none lowered z",
+  "passes": 1,
+  "queries": 2,
+  "seconds": 14.9,
+  "seconds_by_phase": {
+   "generate": 14.9,
+   "gates": 0.0,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 52,
+    "z_before": 10.323759005323593,
+    "z_after": 10.323759005323593,
+    "accepted": false,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 31,
+     "after_spelling": 11,
+     "after_content": 11,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "duplicate": 29,
+      "unknown word": 20,
+      "meaning too different": 10
+     }
+    },
+    "queries_total": 2,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.91
+   }
+  ],
+  "rewrites": {},
+  "final_span": "innings-eating arm at the back end of the bullpen? I think they need someone at the back end like that.\n\"Dominguez could still fill in in a multitude of spots, I think; I also think you could see them continue to look around, and sooner or later Bryce Harper, basically the highest debut of the public services at all kinds of positions in my eyes...I think that\u2019s something to be kept an eye, mainly because, again, Payroll is the biggest vehicle in getting to Bud Norris. I think they need to bolster the starting part of the team.\n\"But sign Bryce Harper, you free up potentially Dominguez, if I were them three or four pitchers at a time. It makes a whole lot of humor much shorter it gives them a podium of greatest achievements and there are several candidates.\"\nBritton visited with the Phillies Wednesday night after in",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 0,
+   "eligible": 1,
+   "segments": 7,
+   "pct_of_eligible": 0.0,
+   "pct_of_segments": 0.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 201,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "words": {
+   "original": 149,
+   "final": 149,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "characters": {
+   "original": 826,
+   "final": 826,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 173,
+   "green_after": 173,
+   "pairs_before": 200,
+   "pairs_after": 200,
+   "pairs_changed_before": 0,
+   "pairs_changed_after": 0,
+   "green_fraction_of_new_pairs": null,
+   "delta_achieved": null
+  }
+ }
+}

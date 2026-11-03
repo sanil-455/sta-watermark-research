@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:282",
+ "nobox": {
+  "z_final": 3.8988466275458475,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "He is a frequently-cited expert, an official Fellow of the Strategic Management Society (SMS), and an invited member of the editorial boards of Strategic Management Journal, Journal of Management, Organization Science, and several other key strategy management journals.",
+    "rewrite": "He is a regularly-cited expert, an official Fellow of the Strategic Management Society (SMS), and an invited member of the editorial boards of the Strategic Management Journal, Journal of Management, Organization Science, and other key strategy management journals."
+   },
+   "4": {
+    "original": "He has appeared on the Bloomberg Business Network several times to discuss proactive corporate governance and how strategic issues can come up in any type of organization.",
+    "rewrite": "He has appeared on the Bloomberg Business Network multiple times to discuss proactive corporate governance and how strategic issues can arise in any type of organization."
+   },
+   "5": {
+    "original": "Lamar is also a sought-after public speaker, having given the keynote address at the 50thth anniversary of the ICIS conference, hosted by the University of Sydney.",
+    "rewrite": "Lamar is also a highly sought-after public speaker, having delivered the keynote address at the 50th anniversary of the ICIS conference, hosted by the University of Sydney."
+   },
+   "1": {
+    "original": "His research is widely conducted with large datasets from the worlds of business, politics, and governance.",
+    "rewrite": "His research extensively utilizes large datasets from the worlds of business, politics, and governance."
+   },
+   "2": {
+    "original": "He has released six books, edited two, and published 70+ papers.",
+    "rewrite": "He has released six books, edited two, and published over 70 papers."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 58,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 25,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 7,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "teaches strategy at the undergraduate and graduate level at Washington University in St. Louis. His research extensively utilizes large datasets from the worlds of business, politics, and governance. He has released six books, edited two, and published over 70 papers. He is a regularly-cited expert, an official Fellow of the Strategic Management Society (SMS), and an invited member of the editorial boards of the Strategic Management Journal, Journal of Management, Organization Science, and other key strategy management journals. He has appeared on the Bloomberg Business Network multiple times to discuss proactive corporate governance and how strategic issues can arise in any type of organization. Lamar is also a highly sought-after public speaker, having delivered the keynote address at the 50th anniversary of the ICIS conference, hosted by the University of Sydney.\nLamar is the research faculty incumbent",
+  "z0": 5.091168824543142,
+  "seconds": 190.7
+ }
+}

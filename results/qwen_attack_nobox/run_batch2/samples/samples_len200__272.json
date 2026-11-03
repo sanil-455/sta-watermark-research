@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:272",
+ "nobox": {
+  "z_final": 1.1815816796567569,
+  "status": "broken",
+  "rewrites": {
+   "6": {
+    "original": "Animal handler training manuals and programs provide training on handling the most common breeds of dogs and responding to incidents involving aggression and bites or scratches.",
+    "rewrite": "Animal handler training manuals and programs offer instruction for managing the most common dog breeds and addressing incidents related to aggression and bites or scratches."
+   },
+   "4": {
+    "original": "A police department\u2019s expansive use of neighborhood watches proved successful in combating criminal activity in proactive, low-intensity interactions with the community.",
+    "rewrite": "The expansive utilization of neighborhood watches by a police department demonstrated effectiveness in addressing criminal activity through proactive, low-intensity engagements with the community."
+   },
+   "1": {
+    "original": "Detectives James Neal and Michael Reed pursued a high-profile Martin Luther King Jr. Day murder suspect through a night of heavy rainfall at 30 miles per hour.",
+    "rewrite": "Detectives James Neal and Michael Reed chased a high-profile Martin Luther King Jr. Day murder suspect throughout a night of intense rainfall at 30 miles per hour."
+   },
+   "2": {
+    "original": "Cooperation between the U.S. government and various Swedish agencies foiled a criminal scheme to transport child pornography through Sweden.",
+    "rewrite": "The U.S. government collaborated with several Swedish agencies to thwart a criminal plot aimed at transporting child pornography via Sweden."
+   },
+   "0": {
+    "original": "Murray and Christopher Stevens showed extraordinary selflessness to save the life of an unconscious man they found along the interstate.",
+    "rewrite": "Murray and Christopher Stevens demonstrated remarkable selflessness in saving the life of an unconscious man they encountered on the interstate."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 35,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Murray and Christopher Stevens demonstrated remarkable selflessness in saving the life of an unconscious man they encountered on the interstate.\nDetectives James Neal and Michael Reed chased a high-profile Martin Luther King Jr. Day murder suspect throughout a night of intense rainfall at 30 miles per hour.\nThe U.S. government collaborated with several Swedish agencies to thwart a criminal plot aimed at transporting child pornography via Sweden.\nJustice on Other Side\nThe expansive utilization of neighborhood watches by a police department demonstrated effectiveness in addressing criminal activity through proactive, low-intensity engagements with the community.\nAnimal Training Handbook\nAnimal handler training manuals and programs offer instruction for managing the most common dog breeds and addressing incidents related to aggression and bites or scratches.\nChildren\u2019s Police Mediated Conference Program\nFrom 2003 to 200",
+  "z0": 2.82842712474619,
+  "seconds": 195.2
+ }
+}

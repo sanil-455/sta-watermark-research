@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:30",
+ "nobox": {
+  "z_final": 2.468709655505094,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "According to court documents, investigators looked for data from the phones of 4-year- vehicle-crime detective Matthew Harrity and a neighboring officer, nearly a week after the July 15 shooting.",
+    "rewrite": "According to court documents, investigators sought data from the phones of 4-year-vehicle-crime detective Matthew Harrity and a nearby officer, about a week after the July 15 shooting."
+   },
+   "2": {
+    "original": "While Frey has said he didn't want anything to \"prematurely undermine\" the investigation by Chief Medaria Arradondo, Frey visited with the family again Friday.",
+    "rewrite": "Although Frey stated he didn't want anything to \"prematurely undermine\" the investigation led by Chief Medaria Arradondo, Frey met with the family again on Friday."
+   },
+   "1": {
+    "original": "He said after meeting with the family over the past two days that he initially planned to divulge everything he knew to their grieving family.",
+    "rewrite": "After meeting with the family for two days, he said that he initially planned to reveal all the information he had to their grieving family."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 3,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 49,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "approved hours after Mayor Jacob Frey apologized to Damond's family for not being transparent enough about what has become a deeply controversial case. After meeting with the family for two days, he said that he initially planned to reveal all the information he had to their grieving family.\nAlthough Frey stated he didn't want anything to \"prematurely undermine\" the investigation led by Chief Medaria Arradondo, Frey met with the family again on Friday.\n\"I offered our apology on behalf of the city to whomever they would choose to accept it from,\" Frey said outside City Hall in his two-hour meeting with the family.\nAccording to court documents, investigators sought data from the phones of 4-year-vehicle-crime detective Matthew Harrity and a nearby officer, about a week after the July 15 shooting.\nAndy Stoute, executive director of the",
+  "z0": 4.1012193308819755,
+  "seconds": 134.7
+ }
+}

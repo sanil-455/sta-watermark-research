@@ -1,0 +1,26 @@
+{
+ "sample_id": "samples_len200:206",
+ "nobox": {
+  "z_final": 3.5355339059327373,
+  "status": "not broken",
+  "rewrites": {
+   "7": {
+    "original": "Thomas whipped up a Twitter storm on February 9 when he released a personal probe into allegations he pressured her family to modify their expectations of Meghan's life.",
+    "rewrite": "Thomas sparked a Twitter storm on February 9 by releasing a personal probe into allegations of pressuring her family to alter their expectations of Meghan's life."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 7,
+    "survivors": 49,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "told the Mail on Sunday that \"My letter made my heart stop. I was terrified. But I had to defend myself.\"\nShe added: \"I wrote that over two years earlier, as a private and heartfelt letter. I had no idea that it would be leaked or published, and it\u2019s deeply saddening that he has chosen to misrepresent the facts.\n\u201cIt\u2019s hurtful to think that he could be so divisive and so cruel. These are his choices.\u201d\nThomas sparked a Twitter storm on February 9 by releasing a personal probe into allegations of pressuring her family to alter their expectations of Meghan's life.\nIn the scathing post he commented: \"I only wanted what would make my beautiful daughter happy. This past week has been incredibly difficult but what keeps us together is our love for Meghan, and the commitment to upholding the values and",
+  "z0": 3.5355339059327373,
+  "seconds": 41.8
+ }
+}

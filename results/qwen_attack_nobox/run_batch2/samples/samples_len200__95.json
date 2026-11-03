@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:95",
+ "nobox": {
+  "z_final": 1.374791750055601,
+  "status": "broken",
+  "rewrites": {
+   "3": {
+    "original": "However, according to Sony producer Matt Tolmach, all three of the crew members and members of the studio are working together in an effort to make Jumanji 3 conceptualise and come to life.",
+    "rewrite": "According to Sony producer Matt Tolmach, all three crew members and studio members are working together to conceptualize and bring Jumanji 3 to life."
+   },
+   "1": {
+    "original": "The responsibility for coming up with Jumanji 3 is currently on the Kasdan's shoulders, but that's only because the director is most familiar with the property at the moment.",
+    "rewrite": "At the moment, the Kasdan's have the responsibility of coming up with Jumanji 3, although that\u2019s solely due to the director\u2019s current familiarity with the property."
+   },
+   "2": {
+    "original": "As it has been confirmed, Scott Rosenberg and Jeff Pinkner are joining Jake Kasdan in writing the story, but there is no word on when they may begin the process.",
+    "rewrite": "It has been confirmed that Scott Rosenberg and Jeff Pinkner are joining Jake Kasdan in writing the story, but there is no information on when they will start the process."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 11,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 45,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "likely like to start production earlier than the beginning of the year, it's not going to happen. At the moment, the Kasdan's have the responsibility of coming up with Jumanji 3, although that\u2019s solely due to the director\u2019s current familiarity with the property. It has been confirmed that Scott Rosenberg and Jeff Pinkner are joining Jake Kasdan in writing the story, but there is no information on when they will start the process. According to Sony producer Matt Tolmach, all three crew members and studio members are working together to conceptualize and bring Jumanji 3 to life.\nThe crew will be busy after their production of 20th Century Fox's Alita: Battle Angel, which will be filming from May - July 2018. 20th Century Fox is said to be looking to be announced the sequel to Alita",
+  "z0": 2.4041630560342613,
+  "seconds": 124.3
+ }
+}

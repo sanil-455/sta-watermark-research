@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:358",
+ "nobox": {
+  "z_final": 2.7714348384599967,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Blackstone International was hired by the Pentagon to aid in this \u201creconstruction\u201d effort, but their work took most of the money and run with it, even ending up approaching the cost of the NFL\u2019s Super Bowl commercials.",
+    "rewrite": "Blackstone International was tasked by the Pentagon to support the reconstruction effort, yet much of the funds went toward their work, ultimately coming close in expense to the NFL\u2019s Super Bowl commercials."
+   },
+   "2": {
+    "original": "According to The Bureau of Investigative Journalism in the UK, tribesmen who were basically forced to work for Prince according to the report say that Prince \u201cfleeced\u201d the government and \u201ctore off\u201d US taxpayers.",
+    "rewrite": "According to the UK's Bureau of Investigative Journalism, tribesmen report being forced to work for Prince and allege that he \"fleeced\" the government and \"tore off\" US taxpayers."
+   },
+   "4": {
+    "original": "No one was able to determine just how much of the money for the conference and weddings went to personal enjoyment.",
+    "rewrite": "No one could determine how much of the money for the conference and weddings was spent on personal enjoyment."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 1,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 37,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": ", which then subcontracted the task out to a separate outfit owned by former Blackwater CEO Erik Prince.\nBlackstone International was tasked by the Pentagon to support the reconstruction effort, yet much of the funds went toward their work, ultimately coming close in expense to the NFL\u2019s Super Bowl commercials.\nAccording to the UK's Bureau of Investigative Journalism, tribesmen report being forced to work for Prince and allege that he \"fleeced\" the government and \"tore off\" US taxpayers.\nTriple Canopy was found to be spending tens of millions of dollars \u201cat villas in Kabul and remote cities, during lavish weddings and on an elaborate conference in Dubai,\u201d the report continues.\nNo one could determine how much of the money for the conference and weddings was spent on personal enjoyment.",
+  "z0": 4.949747468305833,
+  "seconds": 141.2
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "sample_id": "baseline_extra:23",
+ "nobox": {
+  "z_final": 4.459091291466353,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Half of Hispanics and a quarter of Anglos said Cruz is honest, and just under a quarter of Hispanics said O\u2019Rourke was honest, according to the poll.",
+    "rewrite": "According to the poll, half of Hispanics and a quarter of Anglos stated that Cruz is honest, with just under a quarter of Hispanics also stating that O\u2019Rourke was honest."
+   },
+   "2": {
+    "original": "Seventy-three percent of Republicans said they found their preferred candidate trustworthy.",
+    "rewrite": "Seventy-three percent of Republicans stated that they deemed their preferred candidate trustworthy."
+   },
+   "6": {
+    "original": "The small sample size is typical of Ipsos online polls, Jackson said.",
+    "rewrite": "The small sample size is characteristic of Ipsos online polls, Jackson noted."
+   },
+   "5": {
+    "original": "The poll was conducted between Sept. 11 and 12.",
+    "rewrite": "The poll was carried out between Sept. 11 and 12."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 4,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 14,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 8,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "honest or not. The answers were mixed. Seventy-three percent of Republicans stated that they deemed their preferred candidate trustworthy. According to the poll, half of Hispanics and a quarter of Anglos stated that Cruz is honest, with just under a quarter of Hispanics also stating that O\u2019Rourke was honest. Ipsos used a convenience sample of 1,005 self-identified \u201cadministered in English and Spanish\u201d in Texas, according to the poll. The poll was carried out between Sept. 11 and 12. The small sample size is characteristic of Ipsos online polls, Jackson noted. But that\u2019s not to say \u201cthere won\u2019t be any error.\u201d The margin of error \u201ccould be plus or minus than margin of error,\u201d he said. While most online polls have larger-than-threshold margins of error, Ipsos\u2019 polls don\u2019t since 2017",
+  "z0": 5.232590180780451,
+  "seconds": 121.4
+ }
+}

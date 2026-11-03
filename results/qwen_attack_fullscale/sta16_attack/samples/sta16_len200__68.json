@@ -1,0 +1,144 @@
+{
+ "sample_id": "sta16_len200:68",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.0958904109589041,
+ "needed_share": 0.8114381916835873,
+ "delta_needed": null,
+ "segmentation": {
+  "chars": 657,
+  "segments": 10,
+  "eligible": 1,
+  "skipped": 9,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "no final punctuation": 7,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 63,
+  "eligible_char_share": 0.0958904109589041
+ },
+ "attack": {
+  "z0": 10.606601717798213,
+  "z_final": 9.616652224137045,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 2,
+  "queries": 50,
+  "seconds": 41.8,
+  "seconds_by_phase": {
+   "generate": 37.4,
+   "gates": 4.4,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 63,
+    "z_before": 10.606601717798213,
+    "z_after": 9.616652224137045,
+    "accepted": true,
+    "survivors": 29,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 33,
+     "after_spelling": 33,
+     "after_content": 33,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 29,
+     "rejected": {
+      "duplicate": 27,
+      "meaning too different": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 30,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.77
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 63,
+    "z_before": 9.616652224137045,
+    "z_after": 9.758073580374356,
+    "accepted": false,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 37,
+     "after_spelling": 37,
+     "after_content": 37,
+     "after_semantic": 35,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "duplicate": 23,
+      "meaning too different": 2,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 50,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.65
+   }
+  ],
+  "rewrites": {
+   "1": {
+    "original": "The paper was beaten only by CGU College of the Arts this year.",
+    "rewrite": "The paper faced its only competition this year from CGU College of the Arts."
+   }
+  },
+  "final_span": "the Society: Feature Documentary. The paper faced its only competition this year from CGU College of the Arts.\nBreaking News Story: Todd Martin (first), Jonathan Bechtol (second)\n\"UCF Students Brace for COVID-19\" by Jonathan Bechtol and Chelsea tribes (first)\n\"Knightlies Raises Record Amount of Funds\" by Jonathan Bechtol (first)\nFeature Story: non-profile: Bryce Thomas (first), Jonathan Bechtol (second)\n\"Scott Browne Survives Twists in Election Nights\" by Jonathan Bechtol (first)\nSocial Documentary: \"Hidden Perspective\" by Bryce Thomas (second)\n\"Whom to send to the GPHC (and why)?\" by Cristofer Gentry (first)\n\"Two men missing, car's wrecked\" by Jonathan Bechtol,",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 1,
+   "eligible": 1,
+   "segments": 10,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 10.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 201,
+   "length_change": 0,
+   "pct_not_preserved": 2.985074626865669,
+   "pct_new": 2.985074626865669
+  },
+  "words": {
+   "original": 96,
+   "final": 97,
+   "length_change": 1,
+   "pct_not_preserved": 6.25,
+   "pct_new": 7.216494845360821
+  },
+  "characters": {
+   "original": 657,
+   "final": 670,
+   "length_change": 13,
+   "pct_not_preserved": 2.8919330289193357,
+   "pct_new": 4.7761194029850795
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 175,
+   "green_after": 168,
+   "pairs_before": 200,
+   "pairs_after": 200,
+   "pairs_changed_before": 9,
+   "pairs_changed_after": 9,
+   "green_fraction_of_new_pairs": 0.1111111111111111,
+   "delta_achieved": 0.3888888888888889
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:207",
+ "nobox": {
+  "z_final": 5.174832796560852,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "In a 1975 Open House appearance, Beno\u00eet introduced a tribesman, newly arrived from southern Africa, as \"an old friend.\"",
+    "rewrite": "In an appearance at the 1975 Open House, Beno\u00eet introduced a tribesman recently arrived from southern Africa as \"an old friend.\""
+   },
+   "3": {
+    "original": "The man presented her with a tasting spoon and a necklace made of orange-red seeds.",
+    "rewrite": "The man gave her a tasting spoon and a necklace fashioned from orange-red seeds."
+   },
+   "4": {
+    "original": "She was quickly, forgivingly, befriending failures.",
+    "rewrite": "She quickly, forgivingly, befriended failures."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 23,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "chef or other guest in the kitchen, but more often she was discovered by guests wandering through a nearby garden.\nCo-host George Costanza introduced each appearance and his interest in Chef Beno\u00eet bordered on hero-worship: \"We have with us, as always, a lady who's known throughout the English-speaking press as Canada's Czarina of Cuisine.\"\nIn an appearance at the 1975 Open House, Beno\u00eet introduced a tribesman recently arrived from southern Africa as \"an old friend.\" The man gave her a tasting spoon and a necklace fashioned from orange-red seeds.\nShe quickly, forgivingly, befriended failures. She looked beyond buttons to find their zippered contents\u2014tea, an orange, a bottle of vinegar, or a bowl of fruit\u2014and she spread them porcelain-like before her, turning",
+  "z0": 5.79827560572969,
+  "seconds": 76.6
+ }
+}

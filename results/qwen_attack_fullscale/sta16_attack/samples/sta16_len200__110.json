@@ -1,0 +1,243 @@
+{
+ "sample_id": "sta16_len200:110",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.9315230224321134,
+ "needed_share": 0.8163359009905071,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 847,
+  "segments": 8,
+  "eligible": 6,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 789,
+  "eligible_char_share": 0.9315230224321134
+ },
+ "attack": {
+  "z0": 10.889444430272832,
+  "z_final": 1.1147728228665883,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 234,
+  "seconds": 188.4,
+  "seconds_by_phase": {
+   "generate": 170.0,
+   "gates": 18.3,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 214,
+    "z_before": 10.889444430272832,
+    "z_after": 8.161731518871386,
+    "accepted": true,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "CJK text": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 58,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.95
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 198,
+    "z_before": 8.161731518871386,
+    "z_after": 6.253887679764573,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "CJK text": 12
+     }
+    },
+    "queries_total": 106,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.1
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 114,
+    "z_before": 6.253887679764573,
+    "z_after": 4.260424804194427,
+    "accepted": true,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 41,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "CJK text": 9,
+      "duplicate": 9,
+      "several lines": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 144,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.05
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 109,
+    "z_before": 4.260424804194427,
+    "z_after": 2.3922316520829923,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "CJK text": 5,
+      "duplicate": 2,
+      "meaning too different": 10,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 185,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.37
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 98,
+    "z_before": 2.3922316520829923,
+    "z_after": 1.1147728228665883,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 7,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 234,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.57
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "In an attempt to show support for school safety in Olympia, KSH tribes are doing a Green Light/Slow Down campaign, since the public bus service stops near neighborhoods where children often wait for the school bus.",
+    "rewrite": "The KSH tribes are spearheading a Green Light/Slow Down campaign to demonstrate their backing for school safety in Olympia, as the public bus route frequently passes by areas where kids wait for their school buses."
+   },
+   "1": {
+    "original": "But the outlook for Snoqualmie, Crystal Mountain and Stevens Pass is beginning to look grim for a second winter in a row, leading most ski resorts to run on artificial snow and approaching capacity.",
+    "rewrite": "However, the future appears ominous for Snoqualmie, Crystal Mountain, and Stevens Pass yet again this winter, causing most ski resorts to operate with artificial snow and reaching capacity."
+   },
+   "5": {
+    "original": "City Center Market will have Irish food, beer and merchandise Saturday for a day long celebration with live music.",
+    "rewrite": "The City Center Market will offer Irish cuisine, beer, and souvenirs on Saturday, alongside live entertainment for a full-day celebration."
+   },
+   "3": {
+    "original": "All it takes is people letting up, pulling down, and signaling with their arms to make drivers aware we care.",
+    "rewrite": "People only need to relax, lower themselves, and gesture with their arms to alert drivers that they care."
+   },
+   "4": {
+    "original": "Local restaurants and brewers join in offering St. Paddy\u2019s part food, beverages and tunes in Yelm.",
+    "rewrite": "Local eateries and breweries collaborate to serve St. Paddy\u2019s day\u2019s fare, drinks, and music in Yelm."
+   }
+  },
+  "final_span": "the area has no snow; there\u2019s still plenty. However, the future appears ominous for Snoqualmie, Crystal Mountain, and Stevens Pass yet again this winter, causing most ski resorts to operate with artificial snow and reaching capacity.\nThe KSH tribes are spearheading a Green Light/Slow Down campaign to demonstrate their backing for school safety in Olympia, as the public bus route frequently passes by areas where kids wait for their school buses. People only need to relax, lower themselves, and gesture with their arms to alert drivers that they care.\nLocal eateries and breweries collaborate to serve St. Paddy\u2019s day\u2019s fare, drinks, and music in Yelm. The City Center Market will offer Irish cuisine, beer, and souvenirs on Saturday, alongside live entertainment for a full-day celebration. It is the kidnap capital of the world; Harvard it\u2019s not. Yet this",
+  "break_point": {
+   "step": 4,
+   "sentences_rewritten": 5,
+   "queries": 234
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 5,
+   "eligible": 6,
+   "segments": 8,
+   "pct_of_eligible": 83.33333333333333,
+   "pct_of_segments": 62.5
+  },
+  "tokens": {
+   "original": 201,
+   "final": 207,
+   "length_change": 6,
+   "pct_not_preserved": 39.80099502487562,
+   "pct_new": 41.545893719806756
+  },
+  "words": {
+   "original": 146,
+   "final": 138,
+   "length_change": -8,
+   "pct_not_preserved": 51.369863013698634,
+   "pct_new": 48.550724637681164
+  },
+  "characters": {
+   "original": 847,
+   "final": 860,
+   "length_change": 13,
+   "pct_not_preserved": 33.53010625737899,
+   "pct_new": 34.53488372093023
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 177,
+   "green_after": 111,
+   "pairs_before": 200,
+   "pairs_after": 206,
+   "pairs_changed_before": 114,
+   "pairs_changed_after": 120,
+   "green_fraction_of_new_pairs": 0.35,
+   "delta_achieved": 0.15000000000000002
+  }
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:157",
+ "nobox": {
+  "z_final": 2.055755494524174,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Only two issues closed higher on the Big Board after the credit-default swaps, which had their greatest penetration of the 772 most actively traded corporate bonds that an official of the bonddesk of the Mizuho Securities America unit of the Mizuho Group, a Japanese banking and financial services conglomerate, surveys.",
+    "rewrite": "After the credit-default swaps, only two issues closed higher on the Big Board, as noted by an official from the bonddesk at the Mizuho Securities America unit of the Mizuho Group, a Japanese banking and financial services conglomerate, who examines the 772 most actively traded corporate bonds."
+   },
+   "2": {
+    "original": "That highest debut came for Federal Express yesterday as fixed expenses are coming down, Peter Friedland, the company's chief financial officer, said on a conference call with analysts.",
+    "rewrite": "Federal Express witnessed its highest debut yesterday, as fixed expenses are declining, Peter Friedland, the company's chief financial officer, stated during a conference call with analysts."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 53,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the 2,000 to 2,050 area,'' he said.\nAfter the credit-default swaps, only two issues closed higher on the Big Board, as noted by an official from the bonddesk at the Mizuho Securities America unit of the Mizuho Group, a Japanese banking and financial services conglomerate, who examines the 772 most actively traded corporate bonds.\nFederal Express witnessed its highest debut yesterday, as fixed expenses are declining, Peter Friedland, the company's chief financial officer, stated during a conference call with analysts.\n''There is no reason for us not to regain volume to rates before the year is out,'' Mr. Friedland said.\nEchoing a recent statement by the airline's chairman, Frederick B. Smith, Mr. Friedland said the trucking decline",
+  "z0": 2.9698484809834995,
+  "seconds": 125.3
+ }
+}

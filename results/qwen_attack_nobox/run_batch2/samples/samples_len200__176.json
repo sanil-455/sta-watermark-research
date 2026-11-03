@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:176",
+ "nobox": {
+  "z_final": 2.636140849552657,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "To prevent desert locals from collecting the spurting water for cleaning clothes and watering crops, the project had only the best interest of area residents in mind.",
+    "rewrite": "While desert locals might use the spurting water for cleaning clothes and irrigating crops, the project solely considered the best interests of the area residents."
+   },
+   "2": {
+    "original": "Massive amounts of water and fans -- rain or shine -- run at 3:03 p.m. every day along the Las Vegas Strip, and the overseer of the liquid location is Hunter Kean.",
+    "rewrite": "Large quantities of water and fans -- rain or shine -- operate at 3:03 p.m. daily along the Las Vegas Strip, and the administrator of the watery site is Hunter Kean."
+   },
+   "3": {
+    "original": "The Syrian native first heard about a water spout project by reading a local Las Vegas newspaper in Yemen in 2012.",
+    "rewrite": "The Syrian native first learned about a water spout project by reading a local Las Vegas newspaper in Yemen in 2012."
+   },
+   "1": {
+    "original": "Kid Rock kicked off the show with his band Travis Tritt and more.",
+    "rewrite": "Kid Rock kicked off the show with his band including Travis Tritt and others."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 36,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 36,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 25,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "winner Dierks Bentley showed off an interactive stage set for a performance of \"Black,\" from \"Only You\" by Bentley. Kid Rock kicked off the show with his band including Travis Tritt and others.\nLarge quantities of water and fans -- rain or shine -- operate at 3:03 p.m. daily along the Las Vegas Strip, and the administrator of the watery site is Hunter Kean. The Syrian native first learned about a water spout project by reading a local Las Vegas newspaper in Yemen in 2012. While desert locals might use the spurting water for cleaning clothes and irrigating crops, the project solely considered the best interests of the area residents.\nCoincidentally, Kean also happens to be an avid Bond fan, and traveled to North America for the first time to work at the new Treasure Bay Resort",
+  "z0": 2.82842712474619,
+  "seconds": 153.0
+ }
+}

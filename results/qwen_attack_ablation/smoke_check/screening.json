@@ -1,0 +1,1580 @@
+[
+ {
+  "sample_id": "baseline_safe:0",
+  "z0": 3.8183766184073566,
+  "flagged": true,
+  "source": "results/raw/baseline_safe.json"
+ },
+ {
+  "sample_id": "baseline_safe:1",
+  "z0": 6.505382386916237,
+  "flagged": true,
+  "source": "results/raw/baseline_safe.json"
+ },
+ {
+  "sample_id": "baseline_safe:2",
+  "z0": 5.374011537017761,
+  "flagged": true,
+  "source": "results/raw/baseline_safe.json"
+ },
+ {
+  "sample_id": "baseline_safe:3",
+  "z0": 3.6814319464673777,
+  "flagged": true,
+  "source": "results/raw/baseline_safe.json"
+ },
+ {
+  "sample_id": "baseline_safe:4",
+  "z0": 3.5355339059327373,
+  "flagged": true,
+  "source": "results/raw/baseline_safe.json"
+ },
+ {
+  "sample_id": "baseline_extra:20",
+  "z0": 3.394112549695428,
+  "flagged": true,
+  "source": "results/raw/baseline_extra.json"
+ },
+ {
+  "sample_id": "baseline_extra:21",
+  "z0": 0.4242640687119285,
+  "flagged": false,
+  "source": "results/raw/baseline_extra.json"
+ },
+ {
+  "sample_id": "baseline_extra:22",
+  "z0": 4.666904755831213,
+  "flagged": true,
+  "source": "results/raw/baseline_extra.json"
+ },
+ {
+  "sample_id": "baseline_extra:23",
+  "z0": 5.232590180780451,
+  "flagged": true,
+  "source": "results/raw/baseline_extra.json"
+ },
+ {
+  "sample_id": "baseline_extra:24",
+  "z0": 5.091168824543142,
+  "flagged": true,
+  "source": "results/raw/baseline_extra.json"
+ },
+ {
+  "sample_id": "baseline_extra:25",
+  "z0": 3.8183766184073566,
+  "flagged": true,
+  "source": "results/raw/baseline_extra.json"
+ },
+ {
+  "sample_id": "baseline_extra:26",
+  "z0": 2.82842712474619,
+  "flagged": true,
+  "source": "results/raw/baseline_extra.json"
+ },
+ {
+  "sample_id": "baseline_extra:27",
+  "z0": 6.222539674441618,
+  "flagged": true,
+  "source": "results/raw/baseline_extra.json"
+ },
+ {
+  "sample_id": "samples_len200:28",
+  "z0": 5.374011537017761,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:29",
+  "z0": 4.808326112068523,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:30",
+  "z0": 4.1012193308819755,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:31",
+  "z0": 5.091168824543142,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:34",
+  "z0": 3.2526911934581184,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:35",
+  "z0": 5.939696961966999,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:36",
+  "z0": 5.091168824543142,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:40",
+  "z0": 4.1012193308819755,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:42",
+  "z0": 3.676955262170047,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:43",
+  "z0": 6.788225099390856,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:44",
+  "z0": 5.091168824543142,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:45",
+  "z0": 0.7071067811865475,
+  "flagged": false,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:46",
+  "z0": 2.1213203435596424,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:47",
+  "z0": 5.5154328932550705,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:51",
+  "z0": 3.394112549695428,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:52",
+  "z0": 5.232590180780451,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:55",
+  "z0": 1.8384776310850235,
+  "flagged": false,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:56",
+  "z0": 3.5355339059327373,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:60",
+  "z0": 5.5154328932550705,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:61",
+  "z0": 5.091168824543142,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:62",
+  "z0": 1.5556349186104046,
+  "flagged": false,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:63",
+  "z0": 6.646803743153546,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:64",
+  "z0": 4.1012193308819755,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:65",
+  "z0": 2.262741699796952,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:66",
+  "z0": 5.79827560572969,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:69",
+  "z0": 3.111269837220809,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:70",
+  "z0": 4.666904755831213,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:71",
+  "z0": 4.949747468305833,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:72",
+  "z0": 5.232590180780451,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:73",
+  "z0": 3.959797974644666,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:74",
+  "z0": 2.9698484809834995,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:78",
+  "z0": 4.949747468305833,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:81",
+  "z0": 5.232590180780451,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:84",
+  "z0": 2.545584412271571,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:85",
+  "z0": 3.959797974644666,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:86",
+  "z0": 3.394112549695428,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:87",
+  "z0": 4.808326112068523,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:89",
+  "z0": 7.212489168102785,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:90",
+  "z0": 5.091168824543142,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:91",
+  "z0": 3.3317416635391788,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:94",
+  "z0": 3.959797974644666,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:95",
+  "z0": 2.4041630560342613,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:97",
+  "z0": 4.666904755831213,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:98",
+  "z0": 2.545584412271571,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:99",
+  "z0": 2.262741699796952,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:101",
+  "z0": 3.2526911934581184,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:104",
+  "z0": 5.5154328932550705,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:105",
+  "z0": 4.666904755831213,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:106",
+  "z0": 3.8183766184073566,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:107",
+  "z0": 1.2727922061357855,
+  "flagged": false,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:108",
+  "z0": 5.374011537017761,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:109",
+  "z0": 5.5154328932550705,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:110",
+  "z0": 4.384062043356595,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:112",
+  "z0": 5.091168824543142,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:113",
+  "z0": 5.232590180780451,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:115",
+  "z0": 2.1213203435596424,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:116",
+  "z0": 3.394112549695428,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:117",
+  "z0": 5.939696961966999,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:118",
+  "z0": 5.65685424949238,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:119",
+  "z0": 3.8183766184073566,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:120",
+  "z0": 0.9899494936611665,
+  "flagged": false,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:122",
+  "z0": 5.374011537017761,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:123",
+  "z0": 4.1012193308819755,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:124",
+  "z0": 5.854368611626366,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:126",
+  "z0": 3.394112549695428,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:127",
+  "z0": 3.676955262170047,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:128",
+  "z0": 3.959797974644666,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:129",
+  "z0": 4.242640687119285,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:130",
+  "z0": 6.222539674441618,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:131",
+  "z0": 3.959797974644666,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:134",
+  "z0": 4.808326112068523,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:135",
+  "z0": 4.808326112068523,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:136",
+  "z0": 4.384062043356595,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:137",
+  "z0": 4.666904755831213,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:138",
+  "z0": 3.2526911934581184,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:139",
+  "z0": 5.374011537017761,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:140",
+  "z0": 5.374011537017761,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:141",
+  "z0": 4.525483399593904,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:142",
+  "z0": 4.525483399593904,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:143",
+  "z0": 3.959797974644666,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:144",
+  "z0": 3.5355339059327373,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:146",
+  "z0": 4.74950407355585,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:148",
+  "z0": 4.949747468305833,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:150",
+  "z0": 5.091168824543142,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:151",
+  "z0": 5.79827560572969,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:152",
+  "z0": 4.443677379909169,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:153",
+  "z0": 3.676955262170047,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:154",
+  "z0": 2.9698484809834995,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:155",
+  "z0": 4.949747468305833,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:157",
+  "z0": 2.9698484809834995,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:158",
+  "z0": 4.1012193308819755,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:160",
+  "z0": 3.111269837220809,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:161",
+  "z0": 6.081118318204308,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:162",
+  "z0": 2.82842712474619,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:164",
+  "z0": 4.666904755831213,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:167",
+  "z0": 4.242640687119285,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:168",
+  "z0": 5.5154328932550705,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:169",
+  "z0": 6.929646455628165,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:170",
+  "z0": 2.545584412271571,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:171",
+  "z0": 2.262741699796952,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:172",
+  "z0": 4.384062043356595,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:173",
+  "z0": 5.091168824543142,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:174",
+  "z0": 4.525483399593904,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:176",
+  "z0": 2.82842712474619,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:178",
+  "z0": 1.8384776310850235,
+  "flagged": false,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:179",
+  "z0": 4.949747468305833,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:180",
+  "z0": 4.525483399593904,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:183",
+  "z0": 3.5355339059327373,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:185",
+  "z0": 3.5355339059327373,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:186",
+  "z0": 4.666904755831213,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:187",
+  "z0": 2.82842712474619,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:188",
+  "z0": 4.525483399593904,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:189",
+  "z0": 3.676955262170047,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:191",
+  "z0": 4.242640687119285,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:192",
+  "z0": 6.081118318204308,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:194",
+  "z0": 5.374011537017761,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:197",
+  "z0": 2.545584412271571,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:198",
+  "z0": 4.384062043356595,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:199",
+  "z0": 6.222539674441618,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:200",
+  "z0": 4.808326112068523,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:201",
+  "z0": 5.091168824543142,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:202",
+  "z0": 3.111269837220809,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:204",
+  "z0": 6.505382386916237,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:205",
+  "z0": 5.374011537017761,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:206",
+  "z0": 3.5355339059327373,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:207",
+  "z0": 5.79827560572969,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:209",
+  "z0": 6.222539674441618,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:210",
+  "z0": 2.9698484809834995,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:211",
+  "z0": 4.666904755831213,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:212",
+  "z0": 3.676955262170047,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:213",
+  "z0": 4.949747468305833,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:214",
+  "z0": 3.394112549695428,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:215",
+  "z0": 3.5355339059327373,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:216",
+  "z0": 3.111269837220809,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:217",
+  "z0": 5.5154328932550705,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:219",
+  "z0": 4.1012193308819755,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:220",
+  "z0": 4.242640687119285,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:224",
+  "z0": 3.615294145542513,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:225",
+  "z0": 4.808326112068523,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:228",
+  "z0": 4.384062043356595,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:229",
+  "z0": 4.666904755831213,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:230",
+  "z0": 4.384062043356595,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:231",
+  "z0": 5.232590180780451,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:233",
+  "z0": 6.222539674441618,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:234",
+  "z0": 3.5355339059327373,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:235",
+  "z0": 5.374011537017761,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:236",
+  "z0": 5.374011537017761,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:237",
+  "z0": 5.232590180780451,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:238",
+  "z0": 3.2526911934581184,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:239",
+  "z0": 7.353910524340094,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:240",
+  "z0": 3.2526911934581184,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:241",
+  "z0": 3.959797974644666,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:242",
+  "z0": 5.232590180780451,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:244",
+  "z0": 5.374011537017761,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:245",
+  "z0": 5.091168824543142,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:246",
+  "z0": 5.374011537017761,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:247",
+  "z0": 2.262741699796952,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:248",
+  "z0": 4.1012193308819755,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:249",
+  "z0": 3.2526911934581184,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:250",
+  "z0": 4.525483399593904,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:252",
+  "z0": 4.666904755831213,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:253",
+  "z0": 3.2526911934581184,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:254",
+  "z0": 3.676955262170047,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:256",
+  "z0": 4.949747468305833,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:257",
+  "z0": 5.374011537017761,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:259",
+  "z0": 6.929646455628165,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:261",
+  "z0": 5.79827560572969,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:262",
+  "z0": 5.374011537017761,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:264",
+  "z0": 4.242640687119285,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:265",
+  "z0": 6.222539674441618,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:266",
+  "z0": 5.374011537017761,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:268",
+  "z0": 5.374011537017761,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:269",
+  "z0": 5.65685424949238,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:270",
+  "z0": 3.676955262170047,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:271",
+  "z0": 4.525483399593904,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:272",
+  "z0": 2.82842712474619,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:273",
+  "z0": 5.65685424949238,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:274",
+  "z0": 3.8183766184073566,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:275",
+  "z0": 4.1012193308819755,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:276",
+  "z0": 4.808326112068523,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:277",
+  "z0": 4.242640687119285,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:278",
+  "z0": 5.79827560572969,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:279",
+  "z0": 3.2526911934581184,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:280",
+  "z0": 2.82842712474619,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:281",
+  "z0": 2.6870057685088806,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:282",
+  "z0": 5.091168824543142,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:285",
+  "z0": 5.149022995767767,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:286",
+  "z0": 3.394112549695428,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:288",
+  "z0": 4.525483399593904,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:289",
+  "z0": 2.82842712474619,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:291",
+  "z0": 4.949747468305833,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:292",
+  "z0": 2.82842712474619,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:294",
+  "z0": 3.394112549695428,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:295",
+  "z0": 3.959797974644666,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:296",
+  "z0": 4.384062043356595,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:297",
+  "z0": 2.82842712474619,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:298",
+  "z0": 4.666904755831213,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:299",
+  "z0": 1.414213562373095,
+  "flagged": false,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:300",
+  "z0": 3.959797974644666,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:301",
+  "z0": 5.174832796560852,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:302",
+  "z0": 4.242640687119285,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:303",
+  "z0": 3.8183766184073566,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:304",
+  "z0": 2.6870057685088806,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:307",
+  "z0": 4.242640687119285,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:308",
+  "z0": 5.232590180780451,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:310",
+  "z0": 5.091168824543142,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:311",
+  "z0": 4.808326112068523,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:314",
+  "z0": 3.111269837220809,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:316",
+  "z0": 5.65685424949238,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:317",
+  "z0": 3.959797974644666,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:318",
+  "z0": 3.959797974644666,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:319",
+  "z0": 4.808326112068523,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:321",
+  "z0": 5.091168824543142,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:322",
+  "z0": 4.525483399593904,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:323",
+  "z0": 2.6870057685088806,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:324",
+  "z0": 2.4041630560342613,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:325",
+  "z0": 2.82842712474619,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:326",
+  "z0": 4.1012193308819755,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:327",
+  "z0": 4.808326112068523,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:328",
+  "z0": 3.8183766184073566,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:329",
+  "z0": 3.8183766184073566,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:331",
+  "z0": 0.282842712474619,
+  "flagged": false,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:332",
+  "z0": 5.232590180780451,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:333",
+  "z0": 4.525483399593904,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:334",
+  "z0": 4.242640687119285,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:335",
+  "z0": 3.8183766184073566,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:336",
+  "z0": 3.8183766184073566,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:337",
+  "z0": 5.79827560572969,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:339",
+  "z0": 4.525483399593904,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:340",
+  "z0": 2.4041630560342613,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:341",
+  "z0": 5.5154328932550705,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:342",
+  "z0": 5.374011537017761,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:343",
+  "z0": 4.525483399593904,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:344",
+  "z0": 4.808326112068523,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:345",
+  "z0": 4.1012193308819755,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:347",
+  "z0": 4.808326112068523,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:348",
+  "z0": 4.666904755831213,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:349",
+  "z0": 4.242640687119285,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:350",
+  "z0": 4.384062043356595,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:351",
+  "z0": 3.959797974644666,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:352",
+  "z0": 4.384062043356595,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:353",
+  "z0": 1.131370849898476,
+  "flagged": false,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:355",
+  "z0": 3.2526911934581184,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:356",
+  "z0": 3.111269837220809,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:357",
+  "z0": 4.384062043356595,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:358",
+  "z0": 4.949747468305833,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:359",
+  "z0": 2.262741699796952,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:360",
+  "z0": 4.666904755831213,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:361",
+  "z0": 4.808326112068523,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ },
+ {
+  "sample_id": "samples_len200:362",
+  "z0": 3.676955262170047,
+  "flagged": true,
+  "source": "results/raw/samples_len200.json"
+ }
+]

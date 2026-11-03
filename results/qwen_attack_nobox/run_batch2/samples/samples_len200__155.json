@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:155",
+ "nobox": {
+  "z_final": 3.3486113494317533,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "Using prototypes, they tested the space for comfort and ergonomics and came upon a compromise that gives a lot of counter space to work with while creating attractive versatile cabinetry that fits the large space.",
+    "rewrite": "By employing prototypes, they assessed the space for comfort and ergonomics, leading to a compromise that offers ample counter space along with attractive and versatile cabinetry suitable for a large space."
+   },
+   "3": {
+    "original": "In the bathrooms, she said, it was Mushlin who had input, and the result is showy while according to Achbar, remaining subtle.",
+    "rewrite": "In the bathrooms, she mentioned that Mushlin provided input, and the outcome is showy, according to Achbar, yet still subtle."
+   },
+   "4": {
+    "original": "In the Kitchen/Breakfast Room, Geisdorf and J&K replaced cupboards with small white-metal tiles on the wall and cabinets.",
+    "rewrite": "In the Kitchen/Breakfast Room, Geisdorf and J&K replaced the cupboards with small white metal tiles on the walls and cabinets."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 56,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 30,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "color scheme. Abstract art by Achbar hangs throughout the house. Geisdorf did not force a cohesive decorating style on the owners of the Promenade home and said, \u201dEach of them has a different personality, and their personalities shine through.\u201d In the bathrooms, she mentioned that Mushlin provided input, and the outcome is showy, according to Achbar, yet still subtle.\nIn the Kitchen/Breakfast Room, Geisdorf and J&K replaced the cupboards with small white metal tiles on the walls and cabinets. By employing prototypes, they assessed the space for comfort and ergonomics, leading to a compromise that offers ample counter space along with attractive and versatile cabinetry suitable for a large space.\n\"Our kitchen is an old design type with a breakfast bar in the middle,\" said Achbar. \"Now we feel like we",
+  "z0": 4.949747468305833,
+  "seconds": 123.9
+ }
+}

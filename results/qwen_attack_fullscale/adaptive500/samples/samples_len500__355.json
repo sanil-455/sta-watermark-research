@@ -1,0 +1,456 @@
+{
+ "sample_id": "samples_len500:355",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.5184352517985612,
+ "needed_share": 0.7204915028125263,
+ "delta_needed": 0.06235879996600981,
+ "segmentation": {
+  "chars": 2224,
+  "segments": 13,
+  "eligible": 6,
+  "skipped": 7,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 5,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1153,
+  "eligible_char_share": 0.5184352517985612
+ },
+ "attack": {
+  "z0": 7.155417527999327,
+  "z_final": 1.9638161077807879,
+  "status": "broken",
+  "reason": null,
+  "passes": 3,
+  "queries": 569,
+  "seconds": 588.0,
+  "seconds_by_phase": {
+   "generate": 541.8,
+   "gates": 45.9,
+   "detector": 0.4
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 259,
+    "z_before": 7.155417527999327,
+    "z_after": 6.427372022149575,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 1,
+      "duplicate": 2,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 56,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 52.13
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 246,
+    "z_before": 6.427372022149575,
+    "z_after": 4.90911310531039,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "CJK text": 15,
+      "several lines": 1
+     }
+    },
+    "queries_total": 100,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.33
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 234,
+    "z_before": 4.90911310531039,
+    "z_after": 4.0984338769105095,
+    "accepted": true,
+    "survivors": 59,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 60,
+     "after_content": 60,
+     "after_semantic": 60,
+     "fluency_skipped": false,
+     "after_fluency": 59,
+     "rejected": {
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 159,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.53
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 182,
+    "z_before": 4.0984338769105095,
+    "z_after": 3.3709993123162105,
+    "accepted": true,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 54,
+     "after_content": 5,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 5,
+      "negation count changed": 49
+     }
+    },
+    "queries_total": 164,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.77
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 121,
+    "z_before": 3.3709993123162105,
+    "z_after": 2.604276879388236,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "duplicate": 3,
+      "CJK text": 1,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 219,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.97
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 111,
+    "z_before": 2.604276879388236,
+    "z_after": 2.108238128876406,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "duplicate": 9
+     }
+    },
+    "queries_total": 270,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.56
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 259,
+    "z_before": 2.108238128876406,
+    "z_after": 2.146625258399798,
+    "accepted": false,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "duplicate": 3
+     }
+    },
+    "queries_total": 327,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 47.42
+   },
+   {
+    "pass": 2,
+    "segment": 7,
+    "chars": 246,
+    "z_before": 2.108238128876406,
+    "z_after": 2.292279532375023,
+    "accepted": false,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 38,
+     "after_spelling": 32,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "CJK text": 18,
+      "several lines": 2,
+      "duplicate": 2,
+      "unknown word": 6
+     }
+    },
+    "queries_total": 359,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 51.8
+   },
+   {
+    "pass": 2,
+    "segment": 10,
+    "chars": 234,
+    "z_before": 2.108238128876406,
+    "z_after": 2.155263624321299,
+    "accepted": false,
+    "survivors": 58,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 58,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 417,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.73
+   },
+   {
+    "pass": 2,
+    "segment": 11,
+    "chars": 182,
+    "z_before": 2.108238128876406,
+    "z_after": 2.2541740866685807,
+    "accepted": false,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 53,
+     "after_content": 2,
+     "after_semantic": 2,
+     "fluency_skipped": true,
+     "after_fluency": 2,
+     "rejected": {
+      "CJK text": 7,
+      "negation count changed": 51
+     }
+    },
+    "queries_total": 419,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.88
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 121,
+    "z_before": 2.108238128876406,
+    "z_after": 2.010451732239466,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "duplicate": 4,
+      "CJK text": 1
+     }
+    },
+    "queries_total": 474,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.97
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 111,
+    "z_before": 2.010451732239466,
+    "z_after": 2.061309288761816,
+    "accepted": false,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "duplicate": 10,
+      "CJK text": 1,
+      "glued punctuation": 1,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 520,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.33
+   },
+   {
+    "pass": 3,
+    "segment": 5,
+    "chars": 259,
+    "z_before": 2.010451732239466,
+    "z_after": 1.9638161077807879,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "duplicate": 11
+     }
+    },
+    "queries_total": 569,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 47.37
+   }
+  ],
+  "rewrites": {
+   "5": {
+    "original": "David Miller, senior vice president of product management for PeopleSoft, said his company's objective is to provide offerings for the entire enterprise--from manufacturing, to accounting, to customer services and support--all made available via the Internet.",
+    "rewrite": "David Miller, senior vice president of product management at PeopleSoft, stated that the company aims to offer solutions covering the entire enterprise\u2014all accessible through the Internet, including manufacturing, accounting, customer service, and support."
+   },
+   "7": {
+    "original": "IDC's Hodges said customers have been seeking this kind of business integration from vendors, and some have already been turning to open architecture environments provided from companies such as IBM, Sun Microsystems, and Microsoft to achieve it.",
+    "rewrite": "IDC's Hodges noted that customers have increasingly requested this level of business integration from suppliers, with some already adopting open architecture setups offered by firms like IBM, Sun Microsystems, and Microsoft."
+   },
+   "10": {
+    "original": "Nancy Hughes, vice president of Industry Marketing for SAP Americas, said the complexity of connecting each component of an enterprise across the Internet, or extranet, has essentially opened the door to solutions provider developers.",
+    "rewrite": "Nancy Hughes, vice president of Industry Marketing at SAP Americas, stated that the complexity of integrating various enterprise components over the Internet or extranet has effectively created opportunities for solution providers and developers."
+   },
+   "11": {
+    "original": "She said traditional software makers don't have the resources to build this kind of comprehensive front office and back office, and are looking for the solution providers to step in.",
+    "rewrite": "She noted that traditional software providers do not possess the necessary resources to develop this type of extensive front office and back office solutions, and they are expecting solution providers to take this role instead."
+   },
+   "2": {
+    "original": "Judy Hodges of IDC said the deal is just one example of the new technology direction in the enterprise software industry.",
+    "rewrite": "Judy Hodges from IDC stated that the deal is merely an illustration of the evolving technological trends in the enterprise software sector."
+   },
+   "1": {
+    "original": "PeopleSoft 7.5 will be a new product planned to be released toward the end of 1998, PeopleSoft executives said.",
+    "rewrite": "PeopleSoft 7.5, a new product slated for release by the end of 1998, was announced by PeopleSoft executives."
+   }
+  },
+  "final_span": "executives said. PeopleSoft 7.5, a new product slated for release by the end of 1998, was announced by PeopleSoft executives.\nJudy Hodges from IDC stated that the deal is merely an illustration of the evolving technological trends in the enterprise software sector.\n\"We're seeing a major shift in the overall industry in the last 18 to 24 months,\" she said. \"A few years ago, most vendors were focused on developing systems around fixed assets, and then manufacturers would integrate [financial, accounting, and manufacturing software] to bring things together...But, now, it's just the opposite\" with vendors becoming more horizontal.\nDavid Miller, senior vice president of product management at PeopleSoft, stated that the company aims to offer solutions covering the entire enterprise\u2014all accessible through the Internet, including manufacturing, accounting, customer service, and support.\n\"Our goals are to be [a solutions provider] across the whole enterprise, as well as three levels down in...manufacturing, to deliver both flexibility and cost-effectiveness,\" Miller said.\nIDC's Hodges noted that customers have increasingly requested this level of business integration from suppliers, with some already adopting open architecture setups offered by firms like IBM, Sun Microsystems, and Microsoft.\n\"Relieving the pressure to integrate and bringing the business forward is playing a key role in getting the [vertical industries] together as well,\" Hodges said, referring to vertical industries such as retail, financial services, and shipping. \"Traditionally, these [verticals] didn't work together or share information, but now, they've started to join up,\" she said, emphasizing that horizontal customer relationship management is the new frontier.\nNancy Hughes, vice president of Industry Marketing at SAP Americas, stated that the complexity of integrating various enterprise components over the Internet or extranet has effectively created opportunities for solution providers and developers. She noted that traditional software providers do not possess the necessary resources to develop this type of extensive front office and back office solutions, and they are expecting solution providers to take this role instead.\n\"It's not easy to manage the Internet,",
+  "break_point": {
+   "step": 12,
+   "sentences_rewritten": 6,
+   "queries": 569
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 6,
+   "eligible": 6,
+   "segments": 13,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 46.15384615384615
+  },
+  "tokens": {
+   "original": 501,
+   "final": 503,
+   "length_change": 2,
+   "pct_not_preserved": 18.36327345309381,
+   "pct_new": 18.687872763419488
+  },
+  "words": {
+   "original": 332,
+   "final": 328,
+   "length_change": -4,
+   "pct_not_preserved": 26.506024096385538,
+   "pct_new": 25.609756097560975
+  },
+  "characters": {
+   "original": 2224,
+   "final": 2271,
+   "length_change": 47,
+   "pct_not_preserved": 13.579136690647486,
+   "pct_new": 15.36767943637164
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 330,
+   "green_after": 273,
+   "pairs_before": 500,
+   "pairs_after": 502,
+   "pairs_changed_before": 137,
+   "pairs_changed_after": 139,
+   "green_fraction_of_new_pairs": 0.302158273381295,
+   "delta_achieved": 0.19784172661870503
+  }
+ }
+}

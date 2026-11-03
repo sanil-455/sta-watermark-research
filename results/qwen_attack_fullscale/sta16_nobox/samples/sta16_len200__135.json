@@ -1,0 +1,53 @@
+{
+ "sample_id": "sta16_len200:135",
+ "nobox": {
+  "z_final": 9.237604307034013,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "It also tends to be process-oriented at the higher level - the refactor menu in Visual Studio includes features for renaming code sections, extracting code into classes, and optimizing conditionals and loops.",
+    "rewrite": "At the higher level, it also tends to focus on processes - the refactor menu in Visual Studio offers features for renaming code sections, extracting code into classes, and optimizing conditionals and loops."
+   },
+   "3": {
+    "original": "Extracting a simple method into a new class seems straightforward enough at the programming level, but would we even want to?",
+    "rewrite": "Splitting a straightforward method into a new class appears simple enough in programming, but should we even do it?"
+   },
+   "4": {
+    "original": "There doesn't seem to be much need to be able to perform such a refactoring operation in a UML class diagram.",
+    "rewrite": "It doesn't appear necessary to be able to perform such a refactoring operation in a UML class diagram."
+   },
+   "2": {
+    "original": "So let's take these levels and consider what each would need to look like for UML.",
+    "rewrite": "Let's consider what each of these levels would need to look like for UML."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 20,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 8,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 25,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "its intent (or \"operational\" level semantics). At the higher level, it also tends to focus on processes - the refactor menu in Visual Studio offers features for renaming code sections, extracting code into classes, and optimizing conditionals and loops.\nLet's consider what each of these levels would need to look like for UML.\nSplitting a straightforward method into a new class appears simple enough in programming, but should we even do it? It doesn't appear necessary to be able to perform such a refactoring operation in a UML class diagram.\nThere is, however, such a need to be able to perform \"preverbs\" at the requirements level - particularly \"distill requirements into preconditions\", \"optimize constraints on preconditions\" and so on right through to three levels of refinement; from adding tables ('Observe') to establishing elements ('Preorder') it seems to",
+  "z0": 11.59655121145938,
+  "seconds": 128.2
+ }
+}

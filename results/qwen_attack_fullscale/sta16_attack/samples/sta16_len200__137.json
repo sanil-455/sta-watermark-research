@@ -1,0 +1,220 @@
+{
+ "sample_id": "sta16_len200:137",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.7562814070351759,
+ "needed_share": 0.7790291308792039,
+ "delta_needed": 0.009625083417858492,
+ "segmentation": {
+  "chars": 796,
+  "segments": 6,
+  "eligible": 4,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 602,
+  "eligible_char_share": 0.7562814070351759
+ },
+ "attack": {
+  "z0": 9.050966799187808,
+  "z_final": 1.5356720906669743,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 98,
+  "seconds": 144.2,
+  "seconds_by_phase": {
+   "generate": 136.8,
+   "gates": 7.3,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 204,
+    "z_before": 9.050966799187808,
+    "z_after": 6.363961030678928,
+    "accepted": true,
+    "survivors": 16,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 53,
+     "after_content": 17,
+     "after_semantic": 17,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 3,
+      "unknown word": 2,
+      "glued punctuation": 1,
+      "quotation changed": 28,
+      "negation count changed": 8,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 17,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 54.68
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 142,
+    "z_before": 6.363961030678928,
+    "z_after": 5.025707110324166,
+    "accepted": true,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 33,
+     "after_content": 4,
+     "after_semantic": 4,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "duplicate": 23,
+      "several lines": 1,
+      "CJK text": 2,
+      "unknown word": 1,
+      "negation count changed": 29
+     }
+    },
+    "queries_total": 21,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.96
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 139,
+    "z_before": 5.025707110324166,
+    "z_after": 3.3728836454911257,
+    "accepted": true,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 35,
+     "after_spelling": 35,
+     "after_content": 35,
+     "after_semantic": 35,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "duplicate": 25,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 54,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.6
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 117,
+    "z_before": 3.3728836454911257,
+    "z_after": 1.5356720906669743,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 48,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "duplicate": 10,
+      "CJK text": 1,
+      "unknown word": 1,
+      "quotation changed": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 98,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.61
+   }
+  ],
+  "rewrites": {
+   "1": {
+    "original": "However, there is no clear-cut way of identifying a cyberterrorist - what anyone describes as \"identity theft\" may be judged a cybercrime, and a minority may be out to cause \"significant public disorder\".",
+    "rewrite": "There is no definite method for identifying a cyberterrorist; what is called \"identity theft\" by one person might be viewed as a cybercrime, and even a small number of individuals could aim to create \"significant public disorder.\""
+   },
+   "3": {
+    "original": "Other penalties for cybercrime have been tightened by the Terrorism Act, which fail to make distinctions between targeted or systemic hacking.",
+    "rewrite": "The Terrorism Act has strengthened other penalties for cybercrime, failing to distinguish between targeted and systemic hacking."
+   },
+   "2": {
+    "original": "Unlike terrorists, there is no requirement for cyberterrorists to incite violence or disorder for identity theft to be judged a cybercrime.",
+    "rewrite": "While terrorists must incite violence for identity theft to be considered a crime, no such requirement exists for cyberterrorists."
+   },
+   "4": {
+    "original": "The aim is to crack down on teenage hackers or \"mischief-makers\" for trawling personal data from government websites.",
+    "rewrite": "The goal is to curb the activities of teenagers who steal personal data from government websites or what some call \"mischief-makers.\""
+   }
+  },
+  "final_span": ". There is no definite method for identifying a cyberterrorist; what is called \"identity theft\" by one person might be viewed as a cybercrime, and even a small number of individuals could aim to create \"significant public disorder.\" While terrorists must incite violence for identity theft to be considered a crime, no such requirement exists for cyberterrorists.\nThe Terrorism Act has strengthened other penalties for cybercrime, failing to distinguish between targeted and systemic hacking. The goal is to curb the activities of teenagers who steal personal data from government websites or what some call \"mischief-makers.\" But the Act allows potentially severe penalties for more well-intentioned - albeit illegal - actions, such as downloading data from research bodies by those wishing to analyse the data for",
+  "break_point": {
+   "step": 3,
+   "sentences_rewritten": 4,
+   "queries": 98
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 4,
+   "eligible": 4,
+   "segments": 6,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 66.66666666666667
+  },
+  "tokens": {
+   "original": 201,
+   "final": 188,
+   "length_change": -13,
+   "pct_not_preserved": 40.79601990049751,
+   "pct_new": 36.702127659574465
+  },
+  "words": {
+   "original": 124,
+   "final": 125,
+   "length_change": 1,
+   "pct_not_preserved": 45.16129032258065,
+   "pct_new": 45.599999999999994
+  },
+  "characters": {
+   "original": 796,
+   "final": 815,
+   "length_change": 19,
+   "pct_not_preserved": 28.768844221105528,
+   "pct_new": 30.429447852760738
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 164,
+   "green_after": 104,
+   "pairs_before": 200,
+   "pairs_after": 187,
+   "pairs_changed_before": 107,
+   "pairs_changed_after": 94,
+   "green_fraction_of_new_pairs": 0.3829787234042553,
+   "delta_achieved": 0.11702127659574468
+  }
+ }
+}

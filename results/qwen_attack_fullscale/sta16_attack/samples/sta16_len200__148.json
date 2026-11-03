@@ -1,0 +1,279 @@
+{
+ "sample_id": "sta16_len200:148",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.9048128342245989,
+ "needed_share": 0.788923348899538,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 935,
+  "segments": 10,
+  "eligible": 9,
+  "skipped": 1,
+  "skip_reasons": {
+   "starts mid-sentence": 1
+  },
+  "eligible_chars": 846,
+  "eligible_char_share": 0.9048128342245989
+ },
+ "attack": {
+  "z0": 9.475230867899736,
+  "z_final": 1.638682149721922,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 211,
+  "seconds": 162.7,
+  "seconds_by_phase": {
+   "generate": 146.5,
+   "gates": 16.2,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 227,
+    "z_before": 9.475230867899736,
+    "z_after": 6.929646455628165,
+    "accepted": true,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 1,
+      "unknown word": 4,
+      "meaning too different": 12,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 41,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.86
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 107,
+    "z_before": 6.929646455628165,
+    "z_after": 5.969620057957092,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "duplicate": 4,
+      "CJK text": 1,
+      "perplexity too high": 10
+     }
+    },
+    "queries_total": 86,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.37
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 107,
+    "z_before": 5.969620057957092,
+    "z_after": 4.346070049262488,
+    "accepted": true,
+    "survivors": 25,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 46,
+     "after_content": 42,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 25,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 13,
+      "negation count changed": 4,
+      "meaning too different": 15,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 111,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.08
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 92,
+    "z_before": 4.346070049262488,
+    "z_after": 3.1269438398822866,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "duplicate": 13,
+      "meaning too different": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 154,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.86
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 90,
+    "z_before": 3.1269438398822866,
+    "z_after": 2.0661644496493796,
+    "accepted": true,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "duplicate": 7,
+      "CJK text": 3,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 200,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 20.9
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 69,
+    "z_before": 2.0661644496493796,
+    "z_after": 1.638682149721922,
+    "accepted": true,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 21,
+     "after_spelling": 14,
+     "after_content": 14,
+     "after_semantic": 13,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "duplicate": 39,
+      "unknown word": 7,
+      "meaning too different": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 211,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.38
+   }
+  ],
+  "rewrites": {
+   "5": {
+    "original": "The winner is announced as soon as fewer than 4 remaining players decide - or sooner if a number of killing traps and special conditions are triggered during the game.All player accounts and their personal statistics are saved.",
+    "rewrite": "As soon as the number of remaining players drops below 4, the winner is announced, or earlier if certain killing traps or specific conditions are activated. All player accounts and their stats are then saved."
+   },
+   "1": {
+    "original": "It is of the utmost importance that the Town players stick together to succeed in getting rid of the Mafia.",
+    "rewrite": "It is incredibly important that the Town players remain united to achieve success in removing the Mafia."
+   },
+   "3": {
+    "original": "It is usually more fun when players repeatedly join, die, and join again in order to play the game nonstop.",
+    "rewrite": "Repeatedly joining and dying allows players to experience the game nonstop and typically enhances their enjoyment."
+   },
+   "2": {
+    "original": "The success of the Town is reflected by the number of players amongst those they get rid of.",
+    "rewrite": "The Town's success is evident in the number of players from their roster who move on."
+   },
+   "8": {
+    "original": "During the game you may create mailboxes, which are saved for each individual participant.",
+    "rewrite": "In the game, participants can establish mailboxes that are preserved for each person individually."
+   },
+   "6": {
+    "original": "Individual accounts include nicknames, avatars and a unique password.",
+    "rewrite": "Personal profiles feature nicknames, avatars, and a distinct password."
+   }
+  },
+  "final_span": "time, the Mafia secretly tries to eliminate the Town players by voting them off. It is incredibly important that the Town players remain united to achieve success in removing the Mafia. The Town's success is evident in the number of players from their roster who move on. Repeatedly joining and dying allows players to experience the game nonstop and typically enhances their enjoyment. Mafia Boss, like any other version, allows up to 23 players. As soon as the number of remaining players drops below 4, the winner is announced, or earlier if certain killing traps or specific conditions are activated. All player accounts and their stats are then saved. Personal profiles feature nicknames, avatars, and a distinct password. Multiple player profiles are possible. In the game, participants can establish mailboxes that are preserved for each person individually. These feature attachments such as avatars and documents.",
+  "break_point": {
+   "step": 5,
+   "sentences_rewritten": 6,
+   "queries": 211
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 6,
+   "eligible": 9,
+   "segments": 10,
+   "pct_of_eligible": 66.66666666666667,
+   "pct_of_segments": 60.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 198,
+   "length_change": -3,
+   "pct_not_preserved": 39.30348258706468,
+   "pct_new": 38.38383838383839
+  },
+  "words": {
+   "original": 157,
+   "final": 145,
+   "length_change": -12,
+   "pct_not_preserved": 48.40764331210191,
+   "pct_new": 44.13793103448276
+  },
+  "characters": {
+   "original": 935,
+   "final": 922,
+   "length_change": -13,
+   "pct_not_preserved": 32.513368983957214,
+   "pct_new": 31.561822125813443
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 167,
+   "green_after": 110,
+   "pairs_before": 200,
+   "pairs_after": 197,
+   "pairs_changed_before": 108,
+   "pairs_changed_after": 105,
+   "green_fraction_of_new_pairs": 0.3619047619047619,
+   "delta_achieved": 0.1380952380952381
+  }
+ }
+}

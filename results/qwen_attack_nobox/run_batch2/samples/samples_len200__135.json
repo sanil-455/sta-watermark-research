@@ -1,0 +1,71 @@
+{
+ "sample_id": "samples_len200:135",
+ "nobox": {
+  "z_final": 3.8988466275458475,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "It's just that you want to extract one bundle of functionality and refactor the other - so that method A has all of its functionality in one method, and method B has all of its functionality in one method.",
+    "rewrite": "It's just that you want to move one bundle of functionality into a single method, and extract the other - so that method A encompasses all its functionality in one method, and method B does the same."
+   },
+   "1": {
+    "original": "The typical \"operations refactorings\" are things like Splitting, Extract Field, Extract Variable, Unbundle Condition, Replace Condition, Invert condition.",
+    "rewrite": "Typical \"operations refactorings\" include activities such as Splitting, Extract Field, Extract Variable, Unbundle Condition, Replace Condition, and Invert Condition."
+   },
+   "7": {
+    "original": "All of the things you do under named operations are exactly the same, you just do them in two different places after splitting or rebundling the methods.",
+    "rewrite": "Everything you do under named operations remains identical; you simply execute them in two separate locations after splitting or rebundling the methods."
+   },
+   "4": {
+    "original": "You don't want to change the behavior of the class when you extract those methods.",
+    "rewrite": "You shouldn't alter the behavior of the class when you extract those methods."
+   },
+   "3": {
+    "original": "What about repeating the old \"dependence inversion\"?",
+    "rewrite": "What about revisiting the old \"dependence inversion\"?"
+   },
+   "5": {
+    "original": "You want the class to behave exactly the same.",
+    "rewrite": "You want the class to behave precisely the same."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 8,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 6,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 15,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 21,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the behavior of that code. Typical \"operations refactorings\" include activities such as Splitting, Extract Field, Extract Variable, Unbundle Condition, Replace Condition, and Invert Condition.\nBut what about these? What about revisiting the old \"dependence inversion\"?\nYou shouldn't alter the behavior of the class when you extract those methods. You want the class to behave precisely the same. It's just that you want to move one bundle of functionality into a single method, and extract the other - so that method A encompasses all its functionality in one method, and method B does the same. Everything you do under named operations remains identical; you simply execute them in two separate locations after splitting or rebundling the methods.\nIn the version control context, \"splitting\" may mean a type of refactor - adding new functionality to a class since the last revision (you commit the entire class, not individual",
+  "z0": 4.808326112068523,
+  "seconds": 183.8
+ }
+}

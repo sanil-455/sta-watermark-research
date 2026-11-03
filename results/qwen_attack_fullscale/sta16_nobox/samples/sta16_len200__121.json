@@ -1,0 +1,44 @@
+{
+ "sample_id": "sta16_len200:121",
+ "nobox": {
+  "z_final": 8.850810251342143,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Each flag is made up of 8,000 fibres and is the largest flag created by Premier Flag using state-of-the-art dye sublimation technology, which results in a supple polyester soft bundle - rather than a rough material.",
+    "rewrite": "Each flag consists of 8,000 fibers and is the largest made by Premier Flag using cutting-edge dye sublimation technology, resulting in a soft, supple polyester bundle instead of a rough material."
+   },
+   "6": {
+    "original": "With City top of the table and Sheffield Wednesday just below it in second right in time...",
+    "rewrite": "With City at the top of the table and Sheffield Wednesday just behind in second place..."
+   },
+   "8": {
+    "original": "Treat yourself ahead of our game at Sheffield Wednesday courtesy of the latest...",
+    "rewrite": "Treat yourself before our game against Sheffield Wednesday courtesy of the latest..."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 34,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Terrace collection point before the game to let the team know just how proud they are as they chase gold.#\nEach flag consists of 8,000 fibers and is the largest made by Premier Flag using cutting-edge dye sublimation technology, resulting in a soft, supple polyester bundle instead of a rough material.\nPhoto-Realistic Print\n4-Sided Case, Within Nylon Covering\nPolyester Fibres Recommended Twice the Duration of Other Fabric\nMindful Recycling, Saxon Crown Use Partner\nWith City at the top of the table and Sheffield Wednesday just behind in second place...\nGolden ticket for Watford trip\nTreat yourself before our game against Sheffield Wednesday courtesy of the latest...\nCovering all the pitch, there is no better place",
+  "z0": 9.616652224137045,
+  "seconds": 104.9
+ }
+}

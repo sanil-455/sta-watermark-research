@@ -1,0 +1,258 @@
+{
+ "sample_id": "sta16_len200:60",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.3302540415704388,
+ "needed_share": 0.788923348899538,
+ "delta_needed": 0.46526067394840903,
+ "segmentation": {
+  "chars": 866,
+  "segments": 7,
+  "eligible": 2,
+  "skipped": 5,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 3,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 286,
+  "eligible_char_share": 0.3302540415704388
+ },
+ "attack": {
+  "z0": 9.475230867899736,
+  "z_final": 7.159700170584192,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 133,
+  "seconds": 199.0,
+  "seconds_by_phase": {
+   "generate": 185.0,
+   "gates": 14.0,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 198,
+    "z_before": 9.475230867899736,
+    "z_after": 8.010357616594195,
+    "accepted": true,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 45,
+     "after_content": 34,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "duplicate": 13,
+      "CJK text": 2,
+      "negation count changed": 11
+     }
+    },
+    "queries_total": 35,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.6
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 88,
+    "z_before": 8.010357616594195,
+    "z_after": 7.353910524340094,
+    "accepted": true,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 33,
+     "after_spelling": 31,
+     "after_content": 31,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "duplicate": 27,
+      "glued punctuation": 2,
+      "perplexity too high": 12
+     }
+    },
+    "queries_total": 54,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.74
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 198,
+    "z_before": 7.353910524340094,
+    "z_after": 7.533091977898236,
+    "accepted": false,
+    "survivors": 29,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 35,
+     "after_spelling": 34,
+     "after_content": 29,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 29,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 22,
+      "unknown word": 1,
+      "negation count changed": 5
+     }
+    },
+    "queries_total": 83,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.72
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 88,
+    "z_before": 7.353910524340094,
+    "z_after": 7.159700170584192,
+    "accepted": true,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "duplicate": 30,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 96,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.48
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 198,
+    "z_before": 7.159700170584192,
+    "z_after": 7.369555266607763,
+    "accepted": false,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 33,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "duplicate": 21,
+      "hit length limit": 1,
+      "CJK text": 4,
+      "unknown word": 1,
+      "negation count changed": 1
+     }
+    },
+    "queries_total": 128,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 46.14
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 88,
+    "z_before": 7.159700170584192,
+    "z_after": 7.495331880577403,
+    "accepted": false,
+    "survivors": 16,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 25,
+     "after_content": 25,
+     "after_semantic": 25,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "duplicate": 33,
+      "glued punctuation": 2,
+      "perplexity too high": 9
+     }
+    },
+    "queries_total": 133,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.35
+   }
+  ],
+  "rewrites": {
+   "4": {
+    "original": "As well as providing communications support, Truphone gives paid access to its products and services to Caterham\u2019s employees, according to David Powers, global director of partnerships for Truphone.",
+    "rewrite": "In addition to offering communications assistance, Truphone supplies financial access to its offerings to Caterham\u2019s workers, as stated by David Powers, global partnerships director at Truphone."
+   },
+   "3": {
+    "original": "Truphone\u2019s sponsorship agreement with Caterham is different from that of other sponsors.",
+    "rewrite": "Truphone\u2019s sponsorship deal with Caterham differs from others\u2019 sponsorships."
+   }
+  },
+  "final_span": "to the other 500 global Caterham teams who are competing with Caterham karts in races around the world.\n\"It\u2019s not about prices; it\u2019s not even about anything tangible. It\u2019s just about everyone being connected online, and enabling location independence,\" says Peters.\nTruphone\u2019s sponsorship deal with Caterham differs from others\u2019 sponsorships. In addition to offering communications assistance, Truphone supplies financial access to its offerings to Caterham\u2019s workers, as stated by David Powers, global partnerships director at Truphone.\n\"It\u2019s to enable staff anywhere in the world to have complete cost-effective access to their personal communications and data services solutions, and if they get charged right in a country... they\u2019re still going to pay less,\" says Powers.\n\"Caterham is the only hospitality organisation that is fully global and it",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 2,
+   "segments": 7,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 28.571428571428573
+  },
+  "tokens": {
+   "original": 201,
+   "final": 200,
+   "length_change": -1,
+   "pct_not_preserved": 11.442786069651746,
+   "pct_new": 10.999999999999998
+  },
+  "words": {
+   "original": 131,
+   "final": 126,
+   "length_change": -5,
+   "pct_not_preserved": 17.557251908396942,
+   "pct_new": 14.28571428571429
+  },
+  "characters": {
+   "original": 866,
+   "final": 850,
+   "length_change": -16,
+   "pct_not_preserved": 10.277136258660512,
+   "pct_new": 8.588235294117652
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 167,
+   "green_after": 150,
+   "pairs_before": 200,
+   "pairs_after": 199,
+   "pairs_changed_before": 35,
+   "pairs_changed_after": 34,
+   "green_fraction_of_new_pairs": 0.38235294117647056,
+   "delta_achieved": 0.11764705882352944
+  }
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "sample_id": "samples_len200:217",
+ "nobox": {
+  "z_final": 1.9335101599064688,
+  "status": "broken",
+  "rewrites": {
+   "1": {
+    "original": "The two democracies are locked in a love-hate relationship not because of shared values but because of distinct interests that may be aligned from time to time but are often not.",
+    "rewrite": "The two democracies have a love-hate relationship not due to shared values, but because of their distinct interests that align occasionally but often do not coincide."
+   },
+   "2": {
+    "original": "Before Obama\u2019s visit, there was a perception that the two countries needed to overcome self-inflicted obstacles to a deeper relationship.",
+    "rewrite": "Before Obama's visit, it was perceived that the two countries had self-imposed obstacles that needed to be overcome for a deeper relationship."
+   },
+   "7": {
+    "original": "Yet as India attracts greater attention\u2014and more investment and business\u2014it is unavoidably disconnected from some of its neighbors.",
+    "rewrite": "As India gains more attention and invests and engages in more business, it inevitably distances itself from some of its neighbors."
+   },
+   "3": {
+    "original": "Some of those obstacles still exist, but, ironically, they flow from India\u2019s success, not its failure.",
+    "rewrite": "Ironically, those obstacles persist despite India\u2019s success, not due to its failure."
+   },
+   "6": {
+    "original": "Nor can the United States afford to exclude it from regional debates and economic development.",
+    "rewrite": "The United States cannot afford to exclude it from regional debates and economic development either."
+   },
+   "4": {
+    "original": "India occupies a larger space on the global stage than before.",
+    "rewrite": "India now occupies a bigger space on the global stage compared to before."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 3,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 1,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 14,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 18,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "political and economic trajectories of the United States and India are unlikely to form an enduring partnership. The two democracies have a love-hate relationship not due to shared values, but because of their distinct interests that align occasionally but often do not coincide.\nBefore Obama's visit, it was perceived that the two countries had self-imposed obstacles that needed to be overcome for a deeper relationship. Ironically, those obstacles persist despite India\u2019s success, not due to its failure.\nIndia now occupies a bigger space on the global stage compared to before. It can no longer be ignored. The United States cannot afford to exclude it from regional debates and economic development either. As India gains more attention and invests and engages in more business, it inevitably distances itself from some of its neighbors. As Burns points out, India views its relationship with Pakistan in strictly instrument",
+  "z0": 5.5154328932550705,
+  "seconds": 182.6
+ }
+}

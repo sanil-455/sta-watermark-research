@@ -1,0 +1,80 @@
+{
+ "sample_id": "sta16_len200:120",
+ "nobox": {
+  "z_final": 5.824352060364906,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "Northeastern punt returner Mack Chimani and defensive back Josh Monila were integral to NHS football program.",
+    "rewrite": "Mack Chimani, the Northeastern punt returner, and Josh Monila, a defensive back, were crucial to the NHS football program."
+   },
+   "7": {
+    "original": "Earlier this week, both players committed to play college football for Louisburg College this season.",
+    "rewrite": "Recently, both players committed to play college football at Louisburg College this season."
+   },
+   "5": {
+    "original": "With 57 or so fans in attendance, Hodge and his teammates had some team support on the sidelines.",
+    "rewrite": "With about 57 fans in attendance, Hodge and his teammates had some team support on the sidelines."
+   },
+   "3": {
+    "original": "His interception at North Topsail was key defensive play in that victory two years.",
+    "rewrite": "His interception at North Topsail was a crucial defensive play in that two-year victory."
+   },
+   "1": {
+    "original": "On defense, Hodge was a major bright spot for the Eagles.",
+    "rewrite": "In defense, Hodge stood out as a significant highlight for the Eagles."
+   },
+   "4": {
+    "original": "And then of course Hodge\u2019s play at the end of the game.",
+    "rewrite": "Then of course Hodge\u2019s play at the end of the game."
+   },
+   "2": {
+    "original": "The defensive back recorded 13 tackles (five solo).",
+    "rewrite": "The defensive back logged 13 tackles (five solo)."
+   }
+  },
+  "sentences_rewritten": 7,
+  "eligible": 7,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 20,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 12,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "observed that to have success defensively his team had to force their opponent to be patient and throw the ball.\nIn defense, Hodge stood out as a significant highlight for the Eagles. The defensive back logged 13 tackles (five solo). His interception at North Topsail was a crucial defensive play in that two-year victory.\nThen of course Hodge\u2019s play at the end of the game.\nWith about 57 fans in attendance, Hodge and his teammates had some team support on the sidelines.\nMack Chimani, the Northeastern punt returner, and Josh Monila, a defensive back, were crucial to the NHS football program.\nRecently, both players committed to play college football at Louisburg College this season.\nOn Thursday night during a podcast on the local classic rock radio station B105.3, Monila and Chimani said that",
+  "z0": 8.76812408671319,
+  "seconds": 173.5
+ }
+}

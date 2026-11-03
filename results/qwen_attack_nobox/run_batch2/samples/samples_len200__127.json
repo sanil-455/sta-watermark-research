@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:127",
+ "nobox": {
+  "z_final": 3.3317416635391788,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "And, entering Thursday\u2019s trade deadline, the team had acquired a grand total of one starting pitcher (Yu Darvish) for the season.",
+    "rewrite": "As of Thursday's trade deadline, the team had acquired a total of one starting pitcher (Yu Darvish) for the season."
+   },
+   "3": {
+    "original": "But after an 84-win season and a first-round playoff exit last year, Hoyer is advocating for improvement.",
+    "rewrite": "But following an 84-win season and a first-round playoff exit last year, Hoyer is advocating for improvement."
+   },
+   "2": {
+    "original": "Chicago Cubs GM Jed Hoyer called an 85-win season with a playoff run in 2019 a \"success\" for the team.",
+    "rewrite": "Chicago Cubs GM Jed Hoyer termed an 85-win season with a playoff run in 2019 a \"success\" for the team."
+   },
+   "1": {
+    "original": "Rosenthal noted the group also has interest in Tommy Hunter, Adam Warren, and Austin Romine.",
+    "rewrite": "Rosenthal noted that the group also has interest in Tommy Hunter, Adam Warren, and Austin Romine."
+   },
+   "4": {
+    "original": "Chicago has whiffed on its biggest addition since Mookie Betts defected to the Dodgers.",
+    "rewrite": "Chicago missed out on its most significant addition since Mookie Betts jumped to the Dodgers."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 13,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 26,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "innings-eating arm at the back end of the 'pen.\"\nRosenthal noted that the group also has interest in Tommy Hunter, Adam Warren, and Austin Romine.\nChicago Cubs GM Jed Hoyer termed an 85-win season with a playoff run in 2019 a \"success\" for the team.\nBut following an 84-win season and a first-round playoff exit last year, Hoyer is advocating for improvement.\nChicago missed out on its most significant addition since Mookie Betts jumped to the Dodgers.\nAs of Thursday's trade deadline, the team had acquired a total of one starting pitcher (Yu Darvish) for the season.\nEven worse? Sox President Theo Epstein took jabs at the Brewers\u2019 part in the Greg Maddux-Erstwhile-Sox",
+  "z0": 3.676955262170047,
+  "seconds": 176.0
+ }
+}

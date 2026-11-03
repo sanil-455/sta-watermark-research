@@ -1,0 +1,359 @@
+{
+ "sample_id": "samples_len500:335",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.6865271068169619,
+ "needed_share": 0.7459013661932057,
+ "delta_needed": 0.015221350397465059,
+ "segmentation": {
+  "chars": 1863,
+  "segments": 9,
+  "eligible": 7,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1279,
+  "eligible_char_share": 0.6865271068169619
+ },
+ "attack": {
+  "z0": 7.870959280799259,
+  "z_final": 1.998520162579474,
+  "status": "broken",
+  "reason": null,
+  "passes": 2,
+  "queries": 427,
+  "seconds": 518.7,
+  "seconds_by_phase": {
+   "generate": 477.2,
+   "gates": 41.3,
+   "detector": 0.3
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 259,
+    "z_before": 7.870959280799259,
+    "z_after": 6.976532089799344,
+    "accepted": true,
+    "survivors": 58,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 58,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 59,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 67.33
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 259,
+    "z_before": 6.976532089799344,
+    "z_after": 5.708225502188783,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 5
+     }
+    },
+    "queries_total": 112,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 70.01
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 180,
+    "z_before": 5.708225502188783,
+    "z_after": 4.780407452213842,
+    "accepted": true,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "CJK text": 6,
+      "several lines": 2,
+      "unknown word": 1,
+      "meaning too different": 40
+     }
+    },
+    "queries_total": 123,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.55
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 168,
+    "z_before": 4.780407452213842,
+    "z_after": 4.316443347052853,
+    "accepted": true,
+    "survivors": 58,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 58,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 181,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.74
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 162,
+    "z_before": 4.316443347052853,
+    "z_after": 3.6598391099551044,
+    "accepted": true,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 47,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "CJK text": 2,
+      "several lines": 1,
+      "duplicate": 1,
+      "unknown word": 9,
+      "quotation changed": 6,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 221,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.03
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 157,
+    "z_before": 3.6598391099551044,
+    "z_after": 2.803463204786904,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "duplicate": 5,
+      "unknown word": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 273,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.47
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 94,
+    "z_before": 2.803463204786904,
+    "z_after": 2.363153198958862,
+    "accepted": true,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "several lines": 1,
+      "unknown word": 1,
+      "meaning too different": 12,
+      "perplexity too high": 8
+     }
+    },
+    "queries_total": 311,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.58
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 259,
+    "z_before": 2.363153198958862,
+    "z_after": 2.138089935299395,
+    "accepted": true,
+    "survivors": 59,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 60,
+     "after_content": 60,
+     "after_semantic": 59,
+     "fluency_skipped": false,
+     "after_fluency": 59,
+     "rejected": {
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 370,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 68.31
+   },
+   {
+    "pass": 2,
+    "segment": 7,
+    "chars": 259,
+    "z_before": 2.138089935299395,
+    "z_after": 1.998520162579474,
+    "accepted": true,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "unknown word": 2,
+      "glued punctuation": 1
+     }
+    },
+    "queries_total": 427,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 70.21
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "Before Nargis\u2019s opening, Mr. Bangiev had worked in food incarnations before, from a chef at the Hillside Market in Greenwich Village to spits at Renzo Ciano right in Sheepshead Bay (and later, as a prep chef at Rao\u2019s, where he was familiar with many patrons).",
+    "rewrite": "Before the opening of Nargis, Mr. Bangiev had experience in various culinary roles, including work as a chef at the Hillside Market in Greenwich Village, at spits at Renzo Ciano in Sheepshead Bay (and subsequently, as a prep chef at Rao\u2019s, a place where he recognized many regulars)."
+   },
+   "7": {
+    "original": "Their Nargis Board Lunch is for the adventurous soul; it features a meat plate of veal sausages with spices and onions, cornmeat kish, a nearly cottage-cheese consistency with its fatty skin and rich meat, and ground beef with herbs, raisins and tomato sauce.",
+    "rewrite": "For those seeking an adventurous dining experience, their Nargis Board Lunch presents a meat platter with veal sausages spiced with onions and herbs, cornmeat kish boasting a creamy texture and a layer of fatty skin, alongside ground beef mixed with raisins and tomato sauce."
+   },
+   "5": {
+    "original": "He has a quiet joie de vivre matched only by his love for the Kabul, a cowboy ice cream treat of loads of ice cream served from the top of a stick at the core of a handmade pastry.",
+    "rewrite": "He possesses a tranquil joie de vivre paralleled solely by his affection for the Kabul, an ice cream delight featuring a generous scoop of ice cream presented atop a cone encased in a homemade pastry."
+   },
+   "4": {
+    "original": "Born Boris Bangiev, he shortened his name to Baris while working in Manhattan and continues to sign his name thus, though it remains commonly spelled Boris at the cafe.",
+    "rewrite": "Born as Boris Bangiev, he simplified his name to Baris during his time in Manhattan and still signs his name that way, even though his name is generally spelled as Boris at the cafe."
+   },
+   "6": {
+    "original": "Nargis\u2019s menu is built around three \u201ccourses\u201d that parcel out entr\u00e9es, starters, hot and cold salads, and side dishes, each easily transformed into a main course.",
+    "rewrite": "Nargis\u2019s menu structures its offerings into three main categories that include entr\u00e9es, starters, hot and cold salads, and side dishes, each readily converted into primary courses."
+   },
+   "3": {
+    "original": "Originally from Uzbekistan, he was raised among 22 extended family members in Moscow, where his relatives were generations-deep in restaurant business there.",
+    "rewrite": "He came from Uzbekistan and grew up with 22 extended family members in Moscow, a place where his relatives had been involved in the restaurant business for many generations."
+   },
+   "1": {
+    "original": "The whole experience is the sort that makes for a night\u2019s conversation to share with a friend.",
+    "rewrite": "Such an experience warrants a discussion to share with a friend in the evening."
+   }
+  },
+  "final_span": "the pomegranates, carrots, cucumbers and house-pressed garlic-infused oil, as well as kefir and buried-underground fruits and vegetables such as their famous Martin Roemers jars of homemade horseradish, which are named for the chef; the tricky-to-find apricot paste, likened to \u201cpreserved mashed Jell-O in a different flavor\u201d; and unique debut recipes like a chickpea stew with whipped ra\u012bs and tastes like \u201ctuna melt,\u201d brought first in earthenware pots by herders during the Silk Road period, when animals were tended along the route to Asia.\nSuch an experience warrants a discussion to share with a friend in the evening.\nBefore the opening of Nargis, Mr. Bangiev had experience in various culinary roles, including work as a chef at the Hillside Market in Greenwich Village, at spits at Renzo Ciano in Sheepshead Bay (and subsequently, as a prep chef at Rao\u2019s, a place where he recognized many regulars). He came from Uzbekistan and grew up with 22 extended family members in Moscow, a place where his relatives had been involved in the restaurant business for many generations. Born as Boris Bangiev, he simplified his name to Baris during his time in Manhattan and still signs his name that way, even though his name is generally spelled as Boris at the cafe. He possesses a tranquil joie de vivre paralleled solely by his affection for the Kabul, an ice cream delight featuring a generous scoop of ice cream presented atop a cone encased in a homemade pastry.\nNargis\u2019s menu structures its offerings into three main categories that include entr\u00e9es, starters, hot and cold salads, and side dishes, each readily converted into primary courses. For those seeking an adventurous dining experience, their Nargis Board Lunch presents a meat platter with veal sausages spiced with onions and herbs, cornmeat kish boasting a creamy texture and a layer of fatty skin, alongside ground beef mixed with raisins and tomato sauce. An assortment of hot and cold sal",
+  "break_point": {
+   "step": 8,
+   "sentences_rewritten": 7,
+   "queries": 427
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 7,
+   "eligible": 7,
+   "segments": 9,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 77.77777777777777
+  },
+  "tokens": {
+   "original": 501,
+   "final": 508,
+   "length_change": 7,
+   "pct_not_preserved": 25.54890219560878,
+   "pct_new": 26.574803149606296
+  },
+  "words": {
+   "original": 311,
+   "final": 320,
+   "length_change": 9,
+   "pct_not_preserved": 32.79742765273313,
+   "pct_new": 34.68750000000001
+  },
+  "characters": {
+   "original": 1863,
+   "final": 1956,
+   "length_change": 93,
+   "pct_not_preserved": 21.202361782071932,
+   "pct_new": 24.948875255623726
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 338,
+   "green_after": 276,
+   "pairs_before": 500,
+   "pairs_after": 507,
+   "pairs_changed_before": 182,
+   "pairs_changed_after": 189,
+   "green_fraction_of_new_pairs": 0.3333333333333333,
+   "delta_achieved": 0.16666666666666669
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:90",
+ "nobox": {
+  "z_final": 4.041451884327381,
+  "status": "not broken",
+  "rewrites": {
+   "7": {
+    "original": "The 'Du Thomas' rapper's recent work included lending his vocals to Skrillex during the DJ's 13-minute set at Coachella.",
+    "rewrite": "The rapper featured vocals for Skrillex on a track during the DJ's 13-minute performance at Coachella."
+   },
+   "1": {
+    "original": "Kanye has also previously revealed that he has collaborated with Kid Cudi, 37, on the project.",
+    "rewrite": "Kanye has also previously noted his collaboration with Kid Cudi, who is 37, on the project."
+   },
+   "6": {
+    "original": "Representatives for Kanye and Dua have been contacted about the collaboration.",
+    "rewrite": "Kanye's and Dua's representatives have been contacted regarding the collaboration."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 7,
+    "survivors": 1,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 33,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "on and can't wait to work on the project.\"\nKanye has also previously noted his collaboration with Kid Cudi, who is 37, on the project.\nHe wrote on Twitter : \"#Yandhi on HSVSVD. It took me 7 nights to make 7 songs with @KidCudi because everything I'm doing is based on seven.\n\"Watch out, Saturday Night Live. And thank you to K tribes around the world for the energy. #KANYE2SEPT22 (sic)\"\nKanye's and Dua's representatives have been contacted regarding the collaboration.\nThe rapper featured vocals for Skrillex on a track during the DJ's 13-minute performance at Coachella.\nKanye, meanwhile, returned to songwriting earlier this month after he parted ways with The",
+  "z0": 5.091168824543142,
+  "seconds": 81.7
+ }
+}

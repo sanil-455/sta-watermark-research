@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:333",
+ "nobox": {
+  "z_final": 1.2365680446706235,
+  "status": "broken",
+  "rewrites": {
+   "2": {
+    "original": "Mass protests of the kind we've recently seen in London and Newcastle have at least one critical element approaching commonality; a sense of collective outrage at a government perceived to be acting in the interests of a greedy and venal upper class over those of the majority.",
+    "rewrite": "Mass protests lately observed in London and Newcastle share at least one crucial element in common: a sense of collective outrage directed at a perceived government that acts in the interests of a greedy and corrupt elite rather than the majority."
+   },
+   "3": {
+    "original": "Other than that, there is a shocking expanse of political and economic disconnect, which in historical terms points to another protest movement in an entirely different tax bracket.",
+    "rewrite": "Apart from that, there exists a striking gap between politics and economics, hinting at yet another protest movement set within a disparate tax bracket in historical context."
+   },
+   "1": {
+    "original": "The punishment does not fit the crime -- if it does, then the punishment of the financial world is currently perpetual and cost-free.",
+    "rewrite": "If the punishment fits the crime, then the current punishment in the financial world is eternal and without cost."
+   },
+   "4": {
+    "original": "And, forgive me, but I fail to share the Tory pessimism about these people getting their own back.",
+    "rewrite": "And, forgive me, but I fail to share the Tory pessimism that these people will get their own back."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 20,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 2,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "blinks when it happens to an entire economy. If the punishment fits the crime, then the current punishment in the financial world is eternal and without cost.\nMass protests lately observed in London and Newcastle share at least one crucial element in common: a sense of collective outrage directed at a perceived government that acts in the interests of a greedy and corrupt elite rather than the majority. Apart from that, there exists a striking gap between politics and economics, hinting at yet another protest movement set within a disparate tax bracket in historical context.\nAnd, forgive me, but I fail to share the Tory pessimism that these people will get their own back. Student politics is an increasingly popular game in which the politicians themselves offer up a variety of socialist-sounding platforms, if for no better reason than because incumbent power",
+  "z0": 4.525483399593904,
+  "seconds": 155.0
+ }
+}

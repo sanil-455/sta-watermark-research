@@ -1,0 +1,44 @@
+{
+ "sample_id": "sta16_len200:119",
+ "nobox": {
+  "z_final": 5.571428571428571,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "If a social enterprise fails, its wholesale collapse may prove a healthy and rewarding experience for the entrepreneurs involved, but the social assets built up over the vehicle\u2019s lifespan would remain intact, if indeed they are in any way transferable.",
+    "rewrite": "If a social enterprise collapses, it might offer a healthy and rewarding experience to the entrepreneurs involved, yet the social assets accumulated during the enterprise\u2019s lifetime could still exist, provided they can be transferred in some form."
+   },
+   "1": {
+    "original": "Part of the challenge for CG Nepi this is buried not just in finding a way of measuring Return on Social Investment, but actually using that to show successes according to the expectations of the many tribes on which we depend.",
+    "rewrite": "For CG Nepi, part of the challenge lies in not only finding a method to measure Return on Social Investment but also in utilizing it to demonstrate successes aligned with the expectations of the various tribes they rely on."
+   },
+   "3": {
+    "original": "The asset here lies in the intellectual capital and common sense of good three or four year old business.",
+    "rewrite": "The key asset here resides in the intellectual capital and common sense of solid three to four year old businesses."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 29,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Return on Social Investment. For CG Nepi, part of the challenge lies in not only finding a method to measure Return on Social Investment but also in utilizing it to demonstrate successes aligned with the expectations of the various tribes they rely on.\nIf a social enterprise collapses, it might offer a healthy and rewarding experience to the entrepreneurs involved, yet the social assets accumulated during the enterprise\u2019s lifetime could still exist, provided they can be transferred in some form. The key asset here resides in the intellectual capital and common sense of solid three to four year old businesses.\nI\u2019ve written about what my impression of the \u201cpublic sector versus private sector\u201d view is, and it\u2019s one that\u2019s both simplistic and arrogant. The Plain English Campaign, where the new business is located, is proud of that and it\u2019s a key part of its business plan",
+  "z0": 10.040916292848975,
+  "seconds": 140.7
+ }
+}

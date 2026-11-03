@@ -1,0 +1,21 @@
+{
+ "sample_id": "sta16_len200:130",
+ "nobox": {
+  "z_final": 10.323759005323593,
+  "status": "not broken",
+  "rewrites": {},
+  "sentences_rewritten": 0,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 0,
+    "rewritten": false
+   }
+  ],
+  "queries": 1,
+  "final_span": "attack,\" it said.\n\"Watch our videos anyone who wants to see the objects this terrorist organization is looking for at our military bases that were intended for the Free Syrian Army and the location tribesmen resist the return on the identity cards and especially our brother Fares Khajyeesh,\" it said.\nIn an online message on the jihadists' failures to capture Division 13 weapons stock, Division 13 said Nusra Front - previously linked to Al-Qaeda - had failed to yield \"distinct gains\" in recent weeks before Saturday's action.\n\"We are not above criticism and reserve the right to question al-Nusra Front's qualification as it transformed in recent weeks from a terrorist organization accredited by the world and a party of harming Sunnis in ink conspiracy dealings to a political movement which seeks military service by its blind people with the aim of manipulating",
+  "z0": 10.323759005323593,
+  "seconds": 58.0
+ }
+}

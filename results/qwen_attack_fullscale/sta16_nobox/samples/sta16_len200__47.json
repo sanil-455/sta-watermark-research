@@ -1,0 +1,49 @@
+{
+ "sample_id": "sta16_len200:47",
+ "nobox": {
+  "z_final": 7.739572992033211,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "In the boot the cube shape is highlighted by the prominent tribes on the carpet and there\u2019s a wide range of small storage options, and space to house a wheelchair in two of the full size, split seats.",
+    "rewrite": "In the boot, the cube shape is emphasized by the distinct tribal patterns on the carpet, and it offers various small storage options along with room for a wheelchair in two of the full-size, separate seats."
+   },
+   "5": {
+    "original": "This will probably suit many buyers although personal music players and Blackberrys will probably not be able to be used simply throughuetooth three or through a plug socket.",
+    "rewrite": "This will likely suit many buyers, although personal music players and Blackberrys may not be capable of being used via Bluetooth or through a plug socket."
+   },
+   "4": {
+    "original": "Skoda seems to have chosen buttons and dials over the latest technology for the Yeti.",
+    "rewrite": "Skoda appears to have opted for buttons and dials instead of the latest technology for the Yeti."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 4,
+    "survivors": 34,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "tilted or rotated or folded out of the way to provide more cargo carrying space.\nThere\u2019s certainly no lack of leg room for the driver and their passenger but space is very tight behind the front seats.\nSkoda Yeti goes for an off-roading feel\nIn the boot, the cube shape is emphasized by the distinct tribal patterns on the carpet, and it offers various small storage options along with room for a wheelchair in two of the full-size, separate seats.\nSkoda appears to have opted for buttons and dials instead of the latest technology for the Yeti. This will likely suit many buyers, although personal music players and Blackberrys may not be capable of being used via Bluetooth or through a plug socket.\nThere is plenty of passenger ergonomics - you\u2019ll struggle to find much fault as to the Yeti\u2019s interior, particularly with the B&O sound system displaying good quality bass",
+  "z0": 10.889444430272832,
+  "seconds": 149.7
+ }
+}

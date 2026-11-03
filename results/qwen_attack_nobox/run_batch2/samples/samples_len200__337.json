@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:337",
+ "nobox": {
+  "z_final": 4.882115478600619,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Dr. Benzinger, Dr. Johnson, and postdocs Yue Dai and Joseph Cheriyath are identifying biomarkers for the elusive wheat yellow stripe virus (WYSV) to aid in its mitigation during wheat production.",
+    "rewrite": "Dr. Benzinger, Dr. Johnson, along with postdocs Yue Dai and Joseph Cheriyath, are recognizing biomarkers for the mysterious wheat yellow stripe virus (WYSV) to help control it during wheat cultivation."
+   },
+   "1": {
+    "original": "Dr. Bjorndal is currently overseeing 4 students as part of the NSF-funded Plant Ontology Project, most of whom are collaborating at the USDA Plant Gene Expression Center.",
+    "rewrite": "Dr. Bjorndal is currently overseeing 4 students in the NSF-funded Plant Ontology Project, with most collaborating at the USDA Plant Gene Expression Center."
+   },
+   "2": {
+    "original": "Dr. Cristie and former doc student Jesse Nusinow are involved in a project to identify new molecular biology tribes (MBTs) among plant flowering genes.",
+    "rewrite": "Dr. Cristie and former student Jesse Nusinow are involved in a project to identify new molecular biology tribes (MBTs) among plant flowering genes."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 40,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "able to identify genetic loci that contribute to the environmentally sensitive germination of high-temperature-sensitive germination type.\nDr. Bjorndal is currently overseeing 4 students in the NSF-funded Plant Ontology Project, with most collaborating at the USDA Plant Gene Expression Center.\nDr. Cristie and former student Jesse Nusinow are involved in a project to identify new molecular biology tribes (MBTs) among plant flowering genes.\nDr. Benzinger, Dr. Johnson, along with postdocs Yue Dai and Joseph Cheriyath, are recognizing biomarkers for the mysterious wheat yellow stripe virus (WYSV) to help control it during wheat cultivation.\nDr. Bugel and former postdoc Jesse Nusinow are identifying or adding to a previously identified MYB transcription factor",
+  "z0": 5.79827560572969,
+  "seconds": 147.1
+ }
+}

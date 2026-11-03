@@ -1,0 +1,139 @@
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   1%|          | 2/339 [00:00<00:33, 10.17it/s]Loading weights:   5%|▌         | 17/339 [00:00<00:04, 67.07it/s]Loading weights:  12%|█▏        | 42/339 [00:00<00:02, 128.77it/s]Loading weights:  19%|█▉        | 66/339 [00:00<00:01, 166.02it/s]Loading weights:  28%|██▊       | 94/339 [00:00<00:01, 201.76it/s]Loading weights:  35%|███▍      | 118/339 [00:00<00:01, 212.32it/s]Loading weights:  42%|████▏     | 142/339 [00:00<00:00, 220.70it/s]Loading weights:  49%|████▉     | 166/339 [00:00<00:00, 226.33it/s]Loading weights:  56%|█████▌    | 190/339 [00:01<00:00, 229.37it/s]Loading weights:  63%|██████▎   | 214/339 [00:01<00:00, 232.11it/s]Loading weights:  71%|███████   | 240/339 [00:01<00:00, 238.57it/s]Loading weights:  79%|███████▉  | 268/339 [00:01<00:00, 241.12it/s]Loading weights:  86%|████████▋ | 293/339 [00:01<00:00, 235.27it/s]Loading weights:  94%|█████████▍| 318/339 [00:01<00:00, 231.03it/s]Loading weights: 100%|██████████| 339/339 [00:01<00:00, 209.02it/s]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 10094.71it/s]
+[2/135] samples_len500:30      z0 7.33 -> 1.99 | broken | 10 rewrites, 325 queries | 5.9 min | about 788 min left
+[3/135] samples_len500:34      z0 6.89 -> 1.62 | broken | 10 rewrites, 377 queries | 5.8 min | about 773 min left
+[4/135] samples_len500:43      z0 7.60 -> 1.84 | broken | 10 rewrites, 217 queries | 6.8 min | about 809 min left
+[5/135] samples_len500:44      z0 6.89 -> 1.75 | broken | 7 rewrites, 246 queries | 4.4 min | about 746 min left
+[6/135] samples_len500:46      z0 6.17 -> 1.96 | broken | 8 rewrites, 577 queries | 14.1 min | about 957 min left
+[7/135] samples_len500:47      z0 8.77 -> 1.48 | broken | 7 rewrites, 275 queries | 6.6 min | about 933 min left
+[8/135] samples_len500:51      z0 6.26 -> 1.97 | broken | 6 rewrites, 857 queries | 17.2 min | about 1106 min left
+[9/135] samples_len500:52      z0 7.60 -> 1.70 | broken | 14 rewrites, 360 queries | 5.0 min | about 1039 min left
+[10/135] samples_len500:56      z0 7.69 -> 1.72 | broken | 14 rewrites, 405 queries | 7.1 min | about 1015 min left
+[11/135] samples_len500:62      z0 4.20 -> 1.80 | broken | 2 rewrites, 107 queries | 1.9 min | about 929 min left
+[12/135] samples_len500:64      z0 6.71 -> 1.65 | broken | 8 rewrites, 263 queries | 5.9 min | about 904 min left
+[13/135] samples_len500:65      z0 6.44 -> 5.36 | stalled | 2 rewrites, 36 queries | 3.7 min | about 859 min left
+[14/135] samples_len500:66      z0 7.51 -> 1.91 | broken | 8 rewrites, 291 queries | 5.3 min | about 836 min left
+[15/135] samples_len500:69      z0 6.53 -> 1.44 | broken | 6 rewrites, 271 queries | 5.1 min | about 814 min left
+[16/135] samples_len500:71      z0 7.51 -> 7.16 | stalled | 1 rewrites, 160 queries | 1.6 min | about 766 min left
+[17/135] samples_len500:72      z0 7.92 -> 1.80 | broken | 11 rewrites, 558 queries | 10.1 min | about 786 min left
+[18/135] samples_len500:74      z0 6.08 -> 1.43 | broken | 7 rewrites, 311 queries | 4.3 min | about 763 min left
+[19/135] samples_len500:78      z0 8.68 -> 1.66 | broken | 7 rewrites, 218 queries | 5.4 min | about 750 min left
+[20/135] samples_len500:81      z0 7.78 -> 1.92 | broken | 10 rewrites, 393 queries | 6.3 min | about 742 min left
+[21/135] samples_len500:86      z0 6.80 -> 1.97 | broken | 10 rewrites, 304 queries | 4.2 min | about 723 min left
+[22/135] samples_len500:90      z0 8.94 -> 5.61 | stalled | 5 rewrites, 475 queries | 11.4 min | about 744 min left
+[23/135] samples_len500:94      z0 6.17 -> 1.97 | broken | 13 rewrites, 408 queries | 5.9 min | about 734 min left
+[24/135] samples_len500:97      z0 8.85 -> 1.59 | broken | 8 rewrites, 277 queries | 7.5 min | about 732 min left
+[25/135] samples_len500:98      z0 5.72 -> 1.85 | broken | 4 rewrites, 223 queries | 4.2 min | about 714 min left
+[26/135] samples_len500:104     z0 8.68 -> 1.99 | broken | 11 rewrites, 2422 queries | 34.9 min | about 832 min left
+[27/135] samples_len500:108     z0 8.94 -> 1.20 | broken | 7 rewrites, 264 queries | 6.9 min | about 821 min left
+[28/135] samples_len500:116     z0 5.63 -> 1.72 | broken | 5 rewrites, 206 queries | 4.5 min | about 801 min left
+[29/135] samples_len500:118     z0 6.89 -> 1.67 | broken | 5 rewrites, 141 queries | 4.9 min | about 784 min left
+[30/135] samples_len500:120     z0 3.22 -> 1.64 | broken | 2 rewrites, 96 queries | 1.4 min | about 755 min left
+[31/135] samples_len500:122     z0 10.29 -> 7.92 | stalled | 8 rewrites, 250 queries | 8.0 min | about 751 min left
+[32/135] samples_len500:126     z0 5.99 -> 1.98 | broken | 9 rewrites, 361 queries | 5.9 min | about 739 min left
+[33/135] samples_len500:127     z0 5.72 -> 1.73 | broken | 6 rewrites, 260 queries | 3.7 min | about 721 min left
+[34/135] samples_len500:129     z0 7.87 -> 2.66 | stalled | 7 rewrites, 1516 queries | 34.4 min | about 797 min left
+[35/135] samples_len500:134     z0 8.85 -> 2.62 | stalled | 8 rewrites, 2194 queries | 45.3 min | about 899 min left
+[36/135] samples_len500:135     z0 8.68 -> 1.74 | broken | 14 rewrites, 384 queries | 8.1 min | about 888 min left
+[37/135] samples_len500:139     z0 8.41 -> 5.92 | stalled | 3 rewrites, 426 queries | 6.7 min | about 873 min left
+[38/135] samples_len500:140     z0 8.05 -> 6.75 | stalled | 3 rewrites, 282 queries | 11.0 min | about 869 min left
+[39/135] samples_len500:143     z0 5.72 -> 1.75 | broken | 9 rewrites, 292 queries | 6.0 min | about 853 min left
+[40/135] samples_len500:144     z0 6.98 -> 1.77 | broken | 9 rewrites, 326 queries | 4.8 min | about 834 min left
+[41/135] samples_len500:148     z0 8.85 -> 1.98 | broken | 13 rewrites, 561 queries | 10.6 min | about 829 min left
+[42/135] samples_len500:150     z0 7.24 -> 1.97 | broken | 7 rewrites, 299 queries | 5.8 min | about 814 min left
+[43/135] samples_len500:151     z0 8.05 -> 1.65 | broken | 7 rewrites, 340 queries | 5.5 min | about 798 min left
+[44/135] samples_len500:153     z0 6.44 -> 1.55 | broken | 7 rewrites, 310 queries | 4.5 min | about 780 min left
+[45/135] samples_len500:154     z0 8.14 -> 2.19 | stalled | 6 rewrites, 1102 queries | 29.8 min | about 815 min left
+[46/135] samples_len500:157     z0 6.80 -> 1.72 | broken | 8 rewrites, 337 queries | 5.7 min | about 799 min left
+[47/135] samples_len500:169     z0 8.77 -> 3.76 | stalled | 7 rewrites, 1296 queries | 28.8 min | about 828 min left
+[48/135] samples_len500:172     z0 7.33 -> 1.75 | broken | 9 rewrites, 317 queries | 6.1 min | about 813 min left
+[49/135] samples_len500:173     z0 6.17 -> 1.96 | broken | 8 rewrites, 303 queries | 6.0 min | about 797 min left
+[50/135] samples_len500:174     z0 6.53 -> 1.77 | broken | 9 rewrites, 261 queries | 5.5 min | about 782 min left
+[51/135] samples_len500:176     z0 6.35 -> 1.91 | broken | 8 rewrites, 369 queries | 6.0 min | about 767 min left
+[52/135] samples_len500:179     z0 8.94 -> 1.60 | broken | 11 rewrites, 322 queries | 8.2 min | about 756 min left
+[53/135] samples_len500:180     z0 8.23 -> 1.52 | broken | 12 rewrites, 437 queries | 6.8 min | about 743 min left
+[54/135] samples_len500:185     z0 6.08 -> 1.95 | broken | 6 rewrites, 235 queries | 5.0 min | about 728 min left
+[55/135] samples_len500:187     z0 4.56 -> 1.55 | broken | 3 rewrites, 96 queries | 5.3 min | about 714 min left
+[56/135] samples_len500:188     z0 6.98 -> 1.87 | broken | 7 rewrites, 210 queries | 5.2 min | about 699 min left
+[57/135] samples_len500:189     z0 6.44 -> 2.59 | stalled | 7 rewrites, 1582 queries | 28.6 min | about 718 min left
+[58/135] samples_len500:191     z0 6.08 -> 1.48 | broken | 7 rewrites, 282 queries | 4.6 min | about 703 min left
+[59/135] samples_len500:192     z0 8.68 -> 4.64 | stalled | 5 rewrites, 803 queries | 19.0 min | about 707 min left
+[60/135] samples_len500:194     z0 9.39 -> 2.00 | broken | 14 rewrites, 878 queries | 20.3 min | about 711 min left
+[61/135] samples_len500:197     z0 6.35 -> 1.77 | broken | 8 rewrites, 360 queries | 4.8 min | about 696 min left
+[62/135] samples_len500:198     z0 7.33 -> 1.86 | broken | 8 rewrites, 654 queries | 13.9 min | about 692 min left
+[63/135] samples_len500:199     z0 9.12 -> 1.94 | broken | 10 rewrites, 414 queries | 7.2 min | about 680 min left
+[64/135] samples_len500:200     z0 7.96 -> 3.24 | stalled | 6 rewrites, 1224 queries | 22.2 min | about 685 min left
+[65/135] samples_len500:201     z0 7.33 -> 1.94 | broken | 6 rewrites, 509 queries | 10.5 min | about 676 min left
+[66/135] samples_len500:202     z0 6.53 -> 2.30 | stalled | 8 rewrites, 1081 queries | 31.6 min | about 690 min left
+[67/135] samples_len500:205     z0 7.60 -> 1.65 | broken | 8 rewrites, 353 queries | 4.5 min | about 674 min left
+[68/135] samples_len500:206     z0 7.60 -> 6.35 | stalled | 2 rewrites, 369 queries | 5.8 min | about 660 min left
+[69/135] samples_len500:209     z0 9.03 -> 1.90 | broken | 11 rewrites, 453 queries | 7.2 min | about 648 min left
+[70/135] samples_len500:212     z0 6.26 -> 1.93 | broken | 5 rewrites, 196 queries | 4.7 min | about 633 min left
+[71/135] samples_len500:213     z0 8.41 -> 1.63 | broken | 8 rewrites, 365 queries | 5.6 min | about 620 min left
+[72/135] samples_len500:214     z0 6.98 -> 2.30 | stalled | 6 rewrites, 726 queries | 17.0 min | about 616 min left
+[73/135] samples_len500:216     z0 6.17 -> 1.46 | broken | 5 rewrites, 209 queries | 5.0 min | about 602 min left
+[74/135] samples_len500:217     z0 7.24 -> 1.79 | broken | 8 rewrites, 257 queries | 5.6 min | about 589 min left
+[75/135] samples_len500:219     z0 4.65 -> 1.89 | broken | 4 rewrites, 208 queries | 3.9 min | about 575 min left
+[76/135] samples_len500:224     z0 6.85 -> 5.52 | stalled | 3 rewrites, 286 queries | 12.2 min | about 567 min left
+[77/135] samples_len500:225     z0 8.41 -> 2.79 | stalled | 6 rewrites, 1463 queries | 20.1 min | about 566 min left
+[78/135] samples_len500:228     z0 6.44 -> 1.47 | broken | 6 rewrites, 265 queries | 6.5 min | about 554 min left
+[79/135] samples_len500:230     z0 5.55 -> 1.94 | broken | 6 rewrites, 283 queries | 5.8 min | about 541 min left
+[80/135] samples_len500:234     z0 6.44 -> 1.99 | broken | 5 rewrites, 240 queries | 4.0 min | about 528 min left
+[81/135] samples_len500:236     z0 6.94 -> 1.92 | broken | 10 rewrites, 428 queries | 5.5 min | about 515 min left
+[82/135] samples_len500:238     z0 5.63 -> 1.90 | broken | 4 rewrites, 116 queries | 3.5 min | about 502 min left
+[83/135] samples_len500:239     z0 9.84 -> 1.98 | broken | 11 rewrites, 359 queries | 6.4 min | about 490 min left
+[84/135] samples_len500:242     z0 9.57 -> 1.74 | broken | 12 rewrites, 424 queries | 12.1 min | about 483 min left
+[85/135] samples_len500:244     z0 8.32 -> 3.08 | stalled | 9 rewrites, 1032 queries | 19.2 min | about 479 min left
+[86/135] samples_len500:245     z0 8.59 -> 1.80 | broken | 12 rewrites, 378 queries | 5.7 min | about 467 min left
+[87/135] samples_len500:246     z0 7.78 -> 2.24 | stalled | 10 rewrites, 1659 queries | 36.9 min | about 473 min left
+[88/135] samples_len500:250     z0 6.17 -> 3.11 | stalled | 5 rewrites, 500 queries | 9.6 min | about 463 min left
+[89/135] samples_len500:254     z0 6.62 -> 3.28 | stalled | 7 rewrites, 1211 queries | 24.6 min | about 461 min left
+[90/135] samples_len500:256     z0 7.60 -> 1.96 | broken | 11 rewrites, 359 queries | 5.8 min | about 448 min left
+[91/135] samples_len500:259     z0 9.57 -> 2.75 | stalled | 9 rewrites, 904 queries | 17.0 min | about 442 min left
+[92/135] samples_len500:262     z0 7.83 -> 1.96 | broken | 9 rewrites, 273 queries | 5.3 min | about 430 min left
+[93/135] samples_len500:264     z0 5.63 -> 1.95 | broken | 4 rewrites, 178 queries | 3.3 min | about 417 min left
+[94/135] samples_len500:265     z0 6.53 -> 1.95 | broken | 11 rewrites, 636 queries | 11.7 min | about 407 min left
+[95/135] samples_len500:268     z0 8.85 -> 1.93 | broken | 9 rewrites, 340 queries | 6.1 min | about 396 min left
+[96/135] samples_len500:269     z0 8.50 -> 1.90 | broken | 7 rewrites, 2196 queries | 33.1 min | about 396 min left
+[97/135] samples_len500:270     z0 6.71 -> 1.92 | broken | 7 rewrites, 1116 queries | 15.1 min | about 387 min left
+[98/135] samples_len500:271     z0 7.24 -> 1.98 | broken | 5 rewrites, 369 queries | 8.1 min | about 376 min left
+[99/135] samples_len500:272     z0 7.16 -> 1.95 | broken | 9 rewrites, 445 queries | 6.1 min | about 365 min left
+[100/135] samples_len500:273     z0 8.94 -> 1.48 | broken | 14 rewrites, 447 queries | 6.6 min | about 353 min left
+[101/135] samples_len500:275     z0 7.16 -> 3.61 | stalled | 5 rewrites, 754 queries | 12.8 min | about 344 min left
+[102/135] samples_len500:277     z0 6.35 -> 4.66 | stalled | 3 rewrites, 232 queries | 6.1 min | about 333 min left
+[103/135] samples_len500:278     z0 9.21 -> 1.99 | broken | 7 rewrites, 392 queries | 8.9 min | about 322 min left
+[104/135] samples_len500:282     z0 6.09 -> 1.72 | broken | 9 rewrites, 338 queries | 6.9 min | about 311 min left
+[105/135] samples_len500:286     z0 5.99 -> 1.90 | broken | 6 rewrites, 234 queries | 5.7 min | about 300 min left
+[106/135] samples_len500:294     z0 6.80 -> 1.59 | broken | 11 rewrites, 380 queries | 5.9 min | about 289 min left
+[107/135] samples_len500:300     z0 5.90 -> 1.96 | broken | 6 rewrites, 327 queries | 6.6 min | about 278 min left
+[108/135] samples_len500:301     z0 6.67 -> 1.80 | broken | 5 rewrites, 210 queries | 4.1 min | about 267 min left
+[109/135] samples_len500:303     z0 7.16 -> 3.35 | stalled | 8 rewrites, 1770 queries | 24.8 min | about 260 min left
+[110/135] samples_len500:304     z0 4.38 -> 1.81 | broken | 5 rewrites, 217 queries | 4.0 min | about 249 min left
+[111/135] samples_len500:307     z0 7.69 -> 1.78 | broken | 6 rewrites, 266 queries | 5.6 min | about 238 min left
+[112/135] samples_len500:310     z0 8.85 -> 3.94 | stalled | 6 rewrites, 1068 queries | 18.3 min | about 230 min left
+[113/135] samples_len500:317     z0 6.98 -> 2.22 | stalled | 8 rewrites, 1412 queries | 26.6 min | about 223 min left
+[114/135] samples_len500:318     z0 7.33 -> 1.76 | broken | 11 rewrites, 391 queries | 5.1 min | about 212 min left
+[115/135] samples_len500:319     z0 5.19 -> 1.62 | broken | 6 rewrites, 233 queries | 5.7 min | about 201 min left
+[116/135] samples_len500:322     z0 7.07 -> 2.56 | stalled | 8 rewrites, 1835 queries | 33.8 min | about 195 min left
+[117/135] samples_len500:323     z0 6.16 -> 1.86 | broken | 7 rewrites, 216 queries | 6.0 min | about 184 min left
+[118/135] samples_len500:325     z0 6.08 -> 1.77 | broken | 7 rewrites, 257 queries | 4.3 min | about 173 min left
+[119/135] samples_len500:332     z0 7.51 -> 1.86 | broken | 8 rewrites, 256 queries | 6.4 min | about 162 min left
+[120/135] samples_len500:333     z0 6.89 -> 1.27 | broken | 4 rewrites, 116 queries | 4.6 min | about 151 min left
+[121/135] samples_len500:334     z0 7.07 -> 1.99 | broken | 6 rewrites, 299 queries | 5.9 min | about 141 min left
+[122/135] samples_len500:335     z0 7.87 -> 2.00 | broken | 7 rewrites, 427 queries | 8.6 min | about 131 min left
+[123/135] samples_len500:336     z0 5.99 -> 1.85 | broken | 6 rewrites, 254 queries | 4.1 min | about 120 min left
+[124/135] samples_len500:337     z0 9.30 -> 3.13 | stalled | 8 rewrites, 1644 queries | 31.6 min | about 112 min left
+[125/135] samples_len500:339     z0 6.80 -> 2.69 | stalled | 5 rewrites, 1688 queries | 33.5 min | about 104 min left
+[126/135] samples_len500:341     z0 10.38 -> 3.52 | stalled | 9 rewrites, 1410 queries | 34.7 min | about 95 min left
+[127/135] samples_len500:343     z0 7.60 -> 1.80 | broken | 7 rewrites, 265 queries | 4.8 min | about 84 min left
+[128/135] samples_len500:345     z0 8.50 -> 1.96 | broken | 8 rewrites, 355 queries | 5.9 min | about 73 min left
+[129/135] samples_len500:349     z0 8.50 -> 1.95 | broken | 6 rewrites, 239 queries | 4.7 min | about 63 min left
+[130/135] samples_len500:351     z0 7.51 -> ERROR | see error in the sample file |  | 0.0 min | about 52 min left
+[131/135] samples_len500:355     z0 7.16 -> 1.96 | broken | 6 rewrites, 569 queries | 9.8 min | about 41 min left
+[132/135] samples_len500:357     z0 6.89 -> 1.52 | broken | 8 rewrites, 311 queries | 5.6 min | about 31 min left
+[133/135] samples_len500:358     z0 8.23 -> 1.76 | broken | 8 rewrites, 262 queries | 6.8 min | about 21 min left
+[134/135] samples_len500:360     z0 7.96 -> 1.77 | broken | 12 rewrites, 397 queries | 6.5 min | about 10 min left
+[135/135] samples_len500:361     z0 7.51 -> 3.07 | stalled | 10 rewrites, 1671 queries | 24.6 min | about 0 min left
+
+report: results/qwen_attack_fullscale/adaptive500/REPORT.md
+to save the result to your repo, after reading it:  cat results/qwen_attack_fullscale/adaptive500/STATUS_entry.md >> research/STATUS.md

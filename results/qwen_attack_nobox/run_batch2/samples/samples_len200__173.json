@@ -1,0 +1,58 @@
+{
+ "sample_id": "samples_len200:173",
+ "nobox": {
+  "z_final": 3.2365487057593425,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "EPA spokeswoman Dale Kemery said the decision to suspend the emergency approval was made after lawyers reviewed the evidence that an emergency no longer existed.",
+    "rewrite": "EPA spokeswoman Dale Kemery stated that the decision to suspend the emergency approval was made following a review by lawyers who determined an emergency no longer existed."
+   },
+   "4": {
+    "original": "The court challenge drew public interests groups and North Coast activists into the controversy, many of them proponents of organic agriculture.",
+    "rewrite": "The court challenge attracted public interest groups and North Coast activists to the controversy, with many being proponents of organic agriculture."
+   },
+   "1": {
+    "original": "The request to dismiss the lawsuit does not presume the administration's plan to release sterile insects will be successful, he said.",
+    "rewrite": "He said that the request to dismiss the lawsuit does not presume the administration's plan to release sterile insects will be successful."
+   },
+   "3": {
+    "original": "The emergency approvals remain under legal challenge, and the agencies have argued they may resume spraying as soon as next year.",
+    "rewrite": "The emergency approvals remain subject to legal challenges, and the agencies argue they could restart spraying as early as next year."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 2,
+    "survivors": 32,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 20,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 54,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "appeal is decided. He said that the request to dismiss the lawsuit does not presume the administration's plan to release sterile insects will be successful.\nEPA spokeswoman Dale Kemery stated that the decision to suspend the emergency approval was made following a review by lawyers who determined an emergency no longer existed.\nThe emergency approvals remain subject to legal challenges, and the agencies argue they could restart spraying as early as next year.\nThe court challenge attracted public interest groups and North Coast activists to the controversy, with many being proponents of organic agriculture.\nThe group sought to include named plaintiffs in the case but was prevented because the Browns lived in a Los Angeles bedroom community and the Kochans didn't have legal representation.\nOn Monday, District Judge William Alsup took the unusual step of asking if part of the case could be moved to Marin",
+  "z0": 5.091168824543142,
+  "seconds": 170.8
+ }
+}

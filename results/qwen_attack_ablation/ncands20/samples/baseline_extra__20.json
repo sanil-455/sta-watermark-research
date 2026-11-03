@@ -1,0 +1,203 @@
+{
+ "sample_id": "baseline_extra:20",
+ "source": "results/raw/baseline_extra.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.3194444444444444,
+ "needed_share": 0.4107443490112104,
+ "delta_needed": 0.034297007628559036,
+ "segmentation": {
+  "chars": 720,
+  "segments": 6,
+  "eligible": 2,
+  "skipped": 4,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 3
+  },
+  "eligible_chars": 230,
+  "eligible_char_share": 0.3194444444444444
+ },
+ "attack": {
+  "z0": 3.394112549695428,
+  "z_final": 1.9700731252448171,
+  "status": "broken",
+  "reason": null,
+  "passes": 2,
+  "queries": 34,
+  "seconds": 37.9,
+  "seconds_by_phase": {
+   "generate": 35.5,
+   "gates": 2.4,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 155,
+    "z_before": 3.394112549695428,
+    "z_after": 2.4041630560342613,
+    "accepted": true,
+    "survivors": 14,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 20,
+     "after_spelling": 14,
+     "after_content": 14,
+     "after_semantic": 14,
+     "fluency_skipped": false,
+     "after_fluency": 14,
+     "rejected": {
+      "unknown word": 6
+     }
+    },
+    "queries_total": 15,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 9.6
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 75,
+    "z_before": 2.4041630560342613,
+    "z_after": 2.2404481344448155,
+    "accepted": true,
+    "survivors": 4,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 17,
+     "after_spelling": 17,
+     "after_content": 6,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "duplicate": 3,
+      "numbers changed": 11,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 19,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 8.15
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 155,
+    "z_before": 2.2404481344448155,
+    "z_after": 2.175773459665149,
+    "accepted": true,
+    "survivors": 10,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 18,
+     "after_spelling": 11,
+     "after_content": 11,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 10,
+     "rejected": {
+      "CJK text": 2,
+      "glued punctuation": 1,
+      "unknown word": 6,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 29,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 9.92
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 75,
+    "z_before": 2.175773459665149,
+    "z_after": 1.9700731252448171,
+    "accepted": true,
+    "survivors": 5,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 13,
+     "after_spelling": 13,
+     "after_content": 5,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "duplicate": 7,
+      "numbers changed": 8
+     }
+    },
+    "queries_total": 34,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 7.83
+   }
+  ],
+  "rewrites": {
+   "5": {
+    "original": "Health care's disastrous performance since March, fueled by criticism from the president and lackluster earnings reports, could ruin the market's momentum.",
+    "rewrite": "Since March, health care's performance has been disastrous, driven by presidential criticism and poor earnings reports, which could scupper the market's progress."
+   },
+   "3": {
+    "original": "But reason No. 5 is the one that keeps the host of \"Mad Money\" up at night.",
+    "rewrite": "Yet reason No. 5 is the one that prevents the host of \"Mad Money\" from sleeping soundly."
+   }
+  },
+  "final_span": "is that technology stocks have gone bananas, and a correction is inevitable, if not overdue, Cramer contended.\n\"But let me tell you this. In every correction I've ever had in my 47 years as an investor, technology stocks are the worst offenders, because they're the ones you've got to buy,\" according to Cramer.\nYet reason No. 5 is the one that prevents the host of \"Mad Money\" from sleeping soundly.\n\"It's all my fault,\" Cramer said, \"because I've been so bearish on health care, and so I'm not sure what to make of the fact that pharmaceutical stocks appear to be bottoming.\"\nSince March, health care's performance has been disastrous, driven by presidential criticism and poor earnings reports, which could scupper the market's progress.",
+  "break_point": {
+   "step": 3,
+   "sentences_rewritten": 2,
+   "queries": 34
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 2,
+   "segments": 6,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 33.333333333333336
+  },
+  "tokens": {
+   "original": 201,
+   "final": 203,
+   "length_change": 2,
+   "pct_not_preserved": 10.447761194029848,
+   "pct_new": 11.33004926108374
+  },
+  "words": {
+   "original": 123,
+   "final": 124,
+   "length_change": 1,
+   "pct_not_preserved": 13.008130081300816,
+   "pct_new": 13.709677419354838
+  },
+  "characters": {
+   "original": 720,
+   "final": 740,
+   "length_change": 20,
+   "pct_not_preserved": 10.277777777777775,
+   "pct_new": 12.702702702702705
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 124,
+   "green_after": 115,
+   "pairs_before": 200,
+   "pairs_after": 202,
+   "pairs_changed_before": 34,
+   "pairs_changed_after": 36,
+   "green_fraction_of_new_pairs": 0.3611111111111111,
+   "delta_achieved": 0.1388888888888889
+  }
+ }
+}

@@ -1,0 +1,62 @@
+{
+ "sample_id": "sta16_len200:157",
+ "nobox": {
+  "z_final": 5.4010848143421315,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "Textron declined 50 cents, to $64.375, after saying second-quarter profit would come in well below expectations because of the continued downturn in its business aircraft operations and the weakening commercial aviation market.",
+    "rewrite": "Textron fell by 50 cents to $64.375 after stating that second-quarter profit would likely be substantially lower than expected due to the persistent decline in its business aircraft operations and the weakening commercial aviation market."
+   },
+   "1": {
+    "original": "Stocks fell early in the session after chip maker Amkor Technology, which is in bankruptcy, issued a profit warning.",
+    "rewrite": "After a profit warning from chip maker Amkor Technology, in bankruptcy, stocks fell early in the session."
+   },
+   "3": {
+    "original": "Philip Morris, which last week reached its high of the year, and General Motors were among the day's laggards.",
+    "rewrite": "Philip Morris, reaching its yearly high last week, and General Motors were among the day's laggards."
+   },
+   "2": {
+    "original": "But the selling soon turned to buyers and Amkor shares surged $1.33, to $5.6975.",
+    "rewrite": "But the selling quickly switched to buyers, causing Amkor shares to surge $1.33, reaching $5.6975."
+   },
+   "5": {
+    "original": "Fellow plane maker McDonnell Douglas retreated 60 cents, to $57.75.",
+    "rewrite": "Fellow aircraft manufacturer McDonnell Douglas withdrew 60 cents, to $57.75."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 27,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 34,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "positive territory,'' he said.\nAfter a profit warning from chip maker Amkor Technology, in bankruptcy, stocks fell early in the session. But the selling quickly switched to buyers, causing Amkor shares to surge $1.33, reaching $5.6975.\nPhilip Morris, reaching its yearly high last week, and General Motors were among the day's laggards.\nTextron fell by 50 cents to $64.375 after stating that second-quarter profit would likely be substantially lower than expected due to the persistent decline in its business aircraft operations and the weakening commercial aviation market. Fellow aircraft manufacturer McDonnell Douglas withdrew 60 cents, to $57.75.\nKellogg dropped $1.375, to $58.625, after Sanford",
+  "z0": 8.202438661763951,
+  "seconds": 213.0
+ }
+}

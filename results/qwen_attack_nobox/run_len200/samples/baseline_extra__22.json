@@ -1,0 +1,71 @@
+{
+ "sample_id": "baseline_extra:22",
+ "nobox": {
+  "z_final": 3.897114317029974,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Ultimately, her number overestimated how long she could go without a change in her antibiotics, leading to a severe infection in her lungs that nearly put her in the hospital.",
+    "rewrite": "Ultimately, her number overestimated her ability to withstand antibiotic therapy without a change, resulting in a severe lung infection that nearly required hospitalization."
+   },
+   "4": {
+    "original": "Treat the person, not the problem\u0097watch closely for the changes in the patient's life that might suggest a change in treatment.",
+    "rewrite": "Approach the individual, not the issue; closely observe any changes in the patient's life that might indicate a need to alter treatment."
+   },
+   "1": {
+    "original": "It had to do with the way she felt about the new boyfriend and the sense of freedom her responsibility-free job gave her.",
+    "rewrite": "It was related to how she felt about her new boyfriend and the sense of freedom from having a responsibility-free job."
+   },
+   "7": {
+    "original": "What's so compelling is the systematic, predictable, and methodical way the doctor worked with the student.",
+    "rewrite": "The systematic, predictable, and methodical manner in which the doctor worked with the student is what makes it so compelling."
+   },
+   "8": {
+    "original": "It reminded me of a film I watched with a group of teachers the other night\u0097Ranking Films.",
+    "rewrite": "It reminded me of a movie I saw with some teachers last night\u0097Ranking Films."
+   },
+   "3": {
+    "original": "So what can you do with that information?",
+    "rewrite": "So what can you do with that data?"
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 21,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 20,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 1,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "her medicine. It was related to how she felt about her new boyfriend and the sense of freedom from having a responsibility-free job. Ultimately, her number overestimated her ability to withstand antibiotic therapy without a change, resulting in a severe lung infection that nearly required hospitalization.\nSo what can you do with that data? Approach the individual, not the issue; closely observe any changes in the patient's life that might indicate a need to alter treatment. \"To my mind, that's an education. Using proactive treatment as education\u0097that is the great game revolution.\"\nThe systematic, predictable, and methodical manner in which the doctor worked with the student is what makes it so compelling. It reminded me of a movie I saw with some teachers last night\u0097Ranking Films. The instructors Greg Whitwell and Brett Kilbourn are both social",
+  "z0": 4.666904755831213,
+  "seconds": 166.5
+ }
+}

@@ -1,0 +1,312 @@
+{
+ "sample_id": "samples_len500:188",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8265536723163842,
+ "needed_share": 0.7133246182692577,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 1770,
+  "segments": 13,
+  "eligible": 11,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1463,
+  "eligible_char_share": 0.8265536723163842
+ },
+ "attack": {
+  "z0": 6.976532089799344,
+  "z_final": 1.8655645962924892,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 210,
+  "seconds": 312.9,
+  "seconds_by_phase": {
+   "generate": 296.0,
+   "gates": 16.8,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 288,
+    "z_before": 6.976532089799344,
+    "z_after": 6.543758394894601,
+    "accepted": true,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 59,
+     "after_content": 1,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "unknown word": 1,
+      "negation count changed": 57,
+      "numbers changed": 1
+     }
+    },
+    "queries_total": 2,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 65.81
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 196,
+    "z_before": 6.543758394894601,
+    "z_after": 5.8608526253383095,
+    "accepted": true,
+    "survivors": 30,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 30,
+     "rejected": {
+      "CJK text": 10,
+      "hit length limit": 2,
+      "several lines": 2,
+      "duplicate": 2,
+      "meaning too different": 10,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 32,
+    "hit_limit": 2,
+    "oom_events": [],
+    "seconds_generate": 51.23
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 155,
+    "z_before": 5.8608526253383095,
+    "z_after": 5.601748998012558,
+    "accepted": true,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 46,
+     "after_content": 33,
+     "after_semantic": 33,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "CJK text": 5,
+      "unknown word": 9,
+      "negation count changed": 13,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 64,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.46
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 153,
+    "z_before": 5.601748998012558,
+    "z_after": 5.080423170216962,
+    "accepted": true,
+    "survivors": 37,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 43,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 37,
+     "rejected": {
+      "duplicate": 16,
+      "unknown word": 1,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 101,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.61
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 149,
+    "z_before": 5.080423170216962,
+    "z_after": 4.190485171803348,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 6,
+      "duplicate": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 151,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.41
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 135,
+    "z_before": 4.190485171803348,
+    "z_after": 2.9454311537913846,
+    "accepted": true,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 38,
+     "after_spelling": 36,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "duplicate": 21,
+      "CJK text": 1,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 187,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.13
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 130,
+    "z_before": 2.9454311537913846,
+    "z_after": 1.8655645962924892,
+    "accepted": true,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "CJK text": 3,
+      "several lines": 1,
+      "unknown word": 7,
+      "meaning too different": 18,
+      "perplexity too high": 8
+     }
+    },
+    "queries_total": 210,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.36
+   }
+  ],
+  "rewrites": {
+   "6": {
+    "original": "On a broader measure, in the Thomson Reuters data, since 2010 there have been 75 IPOs of companies with healthcare classifications, and more than half \u2013 42, if we don\u2019t count the Facebook IPO as Facebook is in no sense a healthcare concern \u2013 are biotech and medical diagnostics companies.",
+    "rewrite": "In a broader analysis of Thomson Reuters data since 2010, there have been 75 IPOs for companies classified under healthcare, with more than half, 42 not counting the Facebook IPO as it is not a healthcare firm, being biotech and medical diagnostics companies."
+   },
+   "3": {
+    "original": "In markets prices, there was a brief upbraid about the limited distribution of shares, an issue revisited months after Facebook and also an issue in the researched-based pharmaceuticals companies.",
+    "rewrite": "There was a short period of price decline in markets due to concerns about the limited share distribution, an issue revisited months later by Facebook, alongside an issue seen in research-based pharmaceutical companies."
+   },
+   "9": {
+    "original": "Shares of biotech, maybe with the exception of AmarinPharma, whose possible future doesn\u2019t hinge on an FDA decision as Zoetis\u2019 does, have fallen this year.",
+    "rewrite": "Biotech shares, with the exception of AmarinPharma, which doesn't rely solely on an FDA decision for its future unlike Zoetis, have declined this year."
+   },
+   "4": {
+    "original": "And Zoetis is also the largest U.S. IPO according to the latest public tracking at IPOScoop, which aggregates financial data, deals and listings filings.",
+    "rewrite": "Zoetis is also the largest U.S. IPO as per the most recent data from IPOScoop, which collates financial details and listings filings."
+   },
+   "8": {
+    "original": "Theranos, which BMO raised to Buy on Friday with the stock\u2019s pricing, has blown up the whole market for blood testing, via its futuristic technology.",
+    "rewrite": "Theranos, raising BMO to a Buy rating on Friday with the stock\u2019s valuation, has transformed the entire blood testing sector through its innovative technology."
+   },
+   "5": {
+    "original": "Others to watch have been Questcor Pharmaceuticals, according to Thomson Reuters IPO Insider; 484ToPay, according to an IPOScoop tally.",
+    "rewrite": "According to Thomson Reuters IPO Insider, Questcor Pharmaceuticals is among those to watch; as per an IPOScoop tally, 484ToPay is another one to monitor."
+   },
+   "7": {
+    "original": "In this timeframe there have been successes, albeit with the caveat that the healthcare stock podium may be overcrowded this year.",
+    "rewrite": "While successes have occurred within this period, it should be noted that the healthcare stock podium could be crowded this year."
+   }
+  },
+  "final_span": ". It was the largest biotech IPO since the GLORY Biotech IPO in 2010. It also happened to be the biggest U.S. IPO since Facebook.\nThere was a short period of price decline in markets due to concerns about the limited share distribution, an issue revisited months later by Facebook, alongside an issue seen in research-based pharmaceutical companies. Zoetis is also the largest U.S. IPO as per the most recent data from IPOScoop, which collates financial details and listings filings.\nAccording to Thomson Reuters IPO Insider, Questcor Pharmaceuticals is among those to watch; as per an IPOScoop tally, 484ToPay is another one to monitor.\nIn a broader analysis of Thomson Reuters data since 2010, there have been 75 IPOs for companies classified under healthcare, with more than half, 42 not counting the Facebook IPO as it is not a healthcare firm, being biotech and medical diagnostics companies.\nWhile successes have occurred within this period, it should be noted that the healthcare stock podium could be crowded this year. Theranos, raising BMO to a Buy rating on Friday with the stock\u2019s valuation, has transformed the entire blood testing sector through its innovative technology.\nBiotech shares, with the exception of AmarinPharma, which doesn't rely solely on an FDA decision for its future unlike Zoetis, have declined this year. Since April 1, Biogen shares are off 3.7%, and Gilead is off 2.7%. Questcor and Amgen are off 18.5% and 8.2%; Dendreon is off 15.3%.\nThere isn\u2019t a rule book to these public IPO dealings; unlike years before, conditions aren\u2019t the same for everyone, and the 2:1 over-subscription, which, we\u2019d presume, was in effect at the highest, bid price for the Zoetis shares, is another bar that is raised and lowered along the IPO circuit",
+  "break_point": {
+   "step": 6,
+   "sentences_rewritten": 7,
+   "queries": 210
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 7,
+   "eligible": 11,
+   "segments": 13,
+   "pct_of_eligible": 63.63636363636363,
+   "pct_of_segments": 53.84615384615385
+  },
+  "tokens": {
+   "original": 501,
+   "final": 484,
+   "length_change": -17,
+   "pct_not_preserved": 25.74850299401198,
+   "pct_new": 23.140495867768596
+  },
+  "words": {
+   "original": 293,
+   "final": 291,
+   "length_change": -2,
+   "pct_not_preserved": 33.44709897610921,
+   "pct_new": 32.98969072164949
+  },
+  "characters": {
+   "original": 1770,
+   "final": 1766,
+   "length_change": -4,
+   "pct_not_preserved": 21.638418079096045,
+   "pct_new": 21.46092865232163
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 328,
+   "green_after": 262,
+   "pairs_before": 500,
+   "pairs_after": 483,
+   "pairs_changed_before": 184,
+   "pairs_changed_after": 167,
+   "green_fraction_of_new_pairs": 0.38922155688622756,
+   "delta_achieved": 0.11077844311377244
+  }
+ }
+}

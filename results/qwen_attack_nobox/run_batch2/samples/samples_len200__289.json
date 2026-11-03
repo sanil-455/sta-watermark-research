@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:289",
+ "nobox": {
+  "z_final": 2.271813689710997,
+  "status": "not broken",
+  "rewrites": {
+   "0": {
+    "original": "Nicole Ryan won the 100 breaststroke (1:05.80), while her teammate Seward placed second (1:05.88) and New Canaan\u2019s Maddie Burns was third (1:05.89).",
+    "rewrite": "Nicole Ryan won the 100 breaststroke with a time of 1:05.80, followed by her teammate Seward in second place at 1:05.88 and New Canaan\u2019s Maddie Burns in third at 1:05.89."
+   },
+   "3": {
+    "original": "Ridgefield was the team winner in the 1-meter diving competition, totaling 232.50 points.",
+    "rewrite": "Ridgefield emerged as the team winner in the 1-meter diving competition with a total of 232.50 points."
+   },
+   "1": {
+    "original": "Trumbull\u2019s Sreya Varkey won the 1-meter diving championship, totaling a score of 403.25.",
+    "rewrite": "Sreya Varkey from Trumbull won the 1-meter diving championship with a total score of 403.25."
+   },
+   "2": {
+    "original": "She outpaced Neuqua Valley\u2019s Yamani Hernandez (Calhoun), who finished second (393.60).",
+    "rewrite": "Neuqua Valley's Yamani Hernandez (Calhoun), who placed second (393.60), was outpaced by her."
+   },
+   "4": {
+    "original": "Trumbull finished second (213) and Norwalk (McMahon) was third (212).",
+    "rewrite": "Trumbull placed second (213) and Norwalk (McMahon) was third (212)."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 0,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 17,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 35,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Nicole Ryan won the 100 breaststroke with a time of 1:05.80, followed by her teammate Seward in second place at 1:05.88 and New Canaan\u2019s Maddie Burns in third at 1:05.89.\nSreya Varkey from Trumbull won the 1-meter diving championship with a total score of 403.25. Neuqua Valley's Yamani Hernandez (Calhoun), who placed second (393.60), was outpaced by her.\nRidgefield emerged as the team winner in the 1-meter diving competition with a total of 232.50 points. Trumbull placed second (213) and Norwalk (McMahon) was third (212).\nWilton placed first in the 400 freestyle relay, beating Dar",
+  "z0": 2.82842712474619,
+  "seconds": 216.2
+ }
+}

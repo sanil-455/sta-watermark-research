@@ -1,0 +1,26 @@
+{
+ "sample_id": "samples_len200:42",
+ "nobox": {
+  "z_final": 2.031333500308033,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Besides their problem with giving homebuyer an amped up role, most developers are also not in favour of Rera being treated as the apex regulator to redress their grievances according to them, the only regulator which gives powers to tribesmen as well as built buyers.",
+    "rewrite": "Besides issues with enhancing homebuyers' roles, most developers also do not support seeing Rera as the primary regulator for resolving grievances. In their view, only regulators empower tribal members along with buyers."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 23,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the former then it would have been better to let the NCLT function whereas if it's the latter, then it should be okay with Rera\", Deshpande said.\nBesides issues with enhancing homebuyers' roles, most developers also do not support seeing Rera as the primary regulator for resolving grievances. In their view, only regulators empower tribal members along with buyers.\nDevraj Sharan of the project monitoring and consultancy firm Total Consultants and Builders said, \"RERA as such was not well structured and conceptualise to determine builder failures. Some of the orders that the authority has issued is vague and most of our members are not satisfied with them.\"\nthiru May 2, 2019 at 2:23 PM\nFrom the above quote it\u2019s clear the MGP member has very",
+  "z0": 3.676955262170047,
+  "seconds": 62.4
+ }
+}

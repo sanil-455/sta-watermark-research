@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:302",
+ "nobox": {
+  "z_final": 3.7623582771747355,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "AT&T Florida President Bill O'Connor said the foundation needs two more years of partner schools that recruit men as teachers, helping them earn college scholarships -intended to mitigate teacher shortfalls.",
+    "rewrite": "AT&T Florida President Bill O'Connor said the foundation requires an additional two years of partner schools that recruit men as teachers, aiding their path to college scholarships, aimed at addressing teacher shortages."
+   },
+   "2": {
+    "original": "Boone works part time as a probation officer while preparing for his January graduation.",
+    "rewrite": "Boone currently works part time as a probation officer and is preparing for his graduation in January."
+   },
+   "1": {
+    "original": "Mario Boone, 27, is the first to participate.",
+    "rewrite": "Mario Boone, at 27, is the first to participate."
+   },
+   "3": {
+    "original": "He plans to teach in Jacksonville.",
+    "rewrite": "He intends to teach in Jacksonville."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 14,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 2,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the right person in the right environment, to let the child know you do want to be like me, it will give them a lot more power of self-esteem and self-worth over time,\" Hill said.\nMario Boone, at 27, is the first to participate. Boone currently works part time as a probation officer and is preparing for his graduation in January. He intends to teach in Jacksonville.\n\"Children need to see somebody that looks like them ... not on TV. It would make a big difference,\" Boone said.\nAT&T Florida President Bill O'Connor said the foundation requires an additional two years of partner schools that recruit men as teachers, aiding their path to college scholarships, aimed at addressing teacher shortages.\nteach for five years.\nCoincidentally, St. Petersburg College President Bill Law, who also is president of the Florida Association of Colleges for Teacher Education, said T",
+  "z0": 4.242640687119285,
+  "seconds": 102.0
+ }
+}

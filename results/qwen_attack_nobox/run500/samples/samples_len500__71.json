@@ -1,0 +1,26 @@
+{
+ "sample_id": "samples_len500:71",
+ "nobox": {
+  "z_final": 7.49820695698119,
+  "status": "not broken",
+  "rewrites": {
+   "7": {
+    "original": "Mr Ward also said BT\u2019s move to increase information sharing within its business could provide new opportunities for engaging with the countryside.",
+    "rewrite": "Mr. Ward also noted that BT's efforts to boost information sharing across its organization might offer new chances for interacting with the countryside."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 7,
+    "survivors": 54,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "after a country park or protecting a wetland habitat, should a conservation charity which specialises in that also have responsibility for monitoring and reviewing the process of the farmer doing that and judging him?\u201d\nMr Duffy said: \u201cAs landowners and farmers, I think there is a lot at stake here and we do want to be kind to the countryside.\n\u201cNinety per cent of the country in agricultural land which is farmed privately so, basically, we are paid for looking after it.\n\u201cWe are small businesses and I think it is fair to say we have a proud record of doing it, but we do need to come up with new ways of working.\u201d\nMr Ward said farmers \u201cdon\u2019t necessarily have the skills\u201d in making environmental improvements on an estate-wide base to match the scientific expertise of environmental groups.\n\u201cThere is a balance, if part of the fund is conditionally attached on delivering public goods and an element of the fund has to be paid to the scientific expert, if we don\u2019t laugh then I think it will mean our country will become a kind of less flourishing, lower quality and less sustainable country.\n\u201cI think there is a need to establish the links much more carefully, and it has to be participatory, both ends have to be involved.\u201d\nMr. Ward also noted that BT's efforts to boost information sharing across its organization might offer new chances for interacting with the countryside.\nHe added: \u201cI think Brits will like the idea of being more involved with their farms, because I don\u2019t know many of my farmers, I think my dad would struggle to remember their names.\u201d\nHe said he also believed that shooting estates, which have big populations of game birds, would play \u201can increasingly important role, it is the area with the greatest capacity to deliver habitat improvements, to improve agricultural methods and taking farming more into 21st century food production\u201d.\nMr Duffy said: \u201cIn the farming community, we have obviously been hit by flooding and other issues, and this is the opportunity to learn from the schemes in North Yorkshire, Mont, etc, but the environmental schemes that are absolutely vital are getting the increase in funding to match what it needs.\u201d\nMr Punchard said \u201ciconic",
+  "z0": 7.513188404399293,
+  "seconds": 37.5
+ }
+}

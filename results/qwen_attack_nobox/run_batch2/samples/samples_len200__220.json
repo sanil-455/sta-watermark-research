@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:220",
+ "nobox": {
+  "z_final": 3.0636231494801147,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Phil Jurkovec, Temple's walk-on quarterback, added a 12-yard TD run after Worth became the third quarterback in as many games for Navy to be lost in the game.",
+    "rewrite": "Phil Jurkovec, Temple's walk-on quarterback, added a 12-yard TD run after Worth became the third quarterback in as many games to lose the game for Navy."
+   },
+   "6": {
+    "original": "But Temple connected on passes of 50 and 71 yards and had an 18-play drive in the fourth quarter that ended in a field goal.",
+    "rewrite": "But Temple succeeded with passes of 50 and 71 yards and had an 18-play drive in the fourth quarter that led to a field goal."
+   },
+   "4": {
+    "original": "Phillippi had a 21-yard field goal on the final play to whittle Temple's margin to 13 points.",
+    "rewrite": "Phillippi made a 21-yard field goal on the final play, reducing Temple's lead to 13 points."
+   },
+   "5": {
+    "original": "Niami's defense, which ranks among the nation's best, yielded 442 total yards.",
+    "rewrite": "Niami's defense, regarded as one of the best in the nation, allowed 442 total yards."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 58,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 39,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "touchdown that stretched the lead to 21-0.\n\"We've been doing this all year,\" Walker said. \"Everybody's going to have games like that and we've been getting over that hump.\"\nPhil Jurkovec, Temple's walk-on quarterback, added a 12-yard TD run after Worth became the third quarterback in as many games to lose the game for Navy.\nPhillippi made a 21-yard field goal on the final play, reducing Temple's lead to 13 points.\nNiami's defense, regarded as one of the best in the nation, allowed 442 total yards. But Temple succeeded with passes of 50 and 71 yards and had an 18-play drive in the fourth quarter that led to a field goal.\n\"The big part about this win is not the Xs",
+  "z0": 4.242640687119285,
+  "seconds": 160.5
+ }
+}

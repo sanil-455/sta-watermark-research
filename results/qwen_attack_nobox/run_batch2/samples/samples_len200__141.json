@@ -1,0 +1,89 @@
+{
+ "sample_id": "samples_len200:141",
+ "nobox": {
+  "z_final": 3.508962882793221,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "We can probably trace humanity\u2019s existence back to the days when we were all walkers and probably had to be to survive in an unforgiving world.",
+    "rewrite": "We might trace humanity's existence back to times when we were all walkers and likely needed to be to survive in a harsh world."
+   },
+   "2": {
+    "original": "It is therefore only natural that humans find dogs attractive and cats overwhelmingly irresistible.",
+    "rewrite": "Thus, it is only natural that humans find dogs attractive and cats overwhelmingly irresistible."
+   },
+   "3": {
+    "original": "Another intriguing article in Very Interesting explored the difference between runners and walkers.",
+    "rewrite": "Another fascinating article in Very Interesting explored the differences between runners and walkers."
+   },
+   "8": {
+    "original": "Skinny, ultra distance-covering types, they are the chilling descendants of our teenage years.",
+    "rewrite": "Skinny, extreme distance-covering types, they are the chilling descendants from our teenage years."
+   },
+   "4": {
+    "original": "We all know that a runner and a walker are two completely different animals, literally.",
+    "rewrite": "We all know that a runner and a walker are two entirely distinct animals, literally."
+   },
+   "7": {
+    "original": "Runners, on the other hand, are graceful predators of the highest order.",
+    "rewrite": "On the other hand, runners are graceful predators of the highest order."
+   },
+   "5": {
+    "original": "Walkers are slower, but more robust and less likely to be tribespeople.",
+    "rewrite": "Walkers are slower, but more robust and less likely to belong to tribes."
+   },
+   "1": {
+    "original": "Cats rely on teamwork whereas dogs rely on humans.",
+    "rewrite": "Cats depend on teamwork while dogs rely on humans."
+   }
+  },
+  "sentences_rewritten": 8,
+  "eligible": 8,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 14,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 36,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 7,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 25,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 22,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "completely different types of animals for pets. Cats depend on teamwork while dogs rely on humans. Thus, it is only natural that humans find dogs attractive and cats overwhelmingly irresistible.\nAnother fascinating article in Very Interesting explored the differences between runners and walkers.\nWe all know that a runner and a walker are two entirely distinct animals, literally.\nWalkers are slower, but more robust and less likely to belong to tribes. We might trace humanity's existence back to times when we were all walkers and likely needed to be to survive in a harsh world.\nOn the other hand, runners are graceful predators of the highest order. Skinny, extreme distance-covering types, they are the chilling descendants from our teenage years. We don\u2019t have to be really, really fit if we want to run",
+  "z0": 4.525483399593904,
+  "seconds": 203.0
+ }
+}

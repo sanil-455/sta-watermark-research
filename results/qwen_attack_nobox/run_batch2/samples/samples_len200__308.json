@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:308",
+ "nobox": {
+  "z_final": 3.2826223901170173,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "In Union Square, on the east side of Manhattan, a quartet of men in assorted safari gear and silly hats strutted up and down, strumming ukuleles for an audience approaching no higher than five.",
+    "rewrite": "In the eastern part of Manhattan, Union Square hosted a quartet of men wearing various safari outfits and humorous hats, strutting back and forth while playing ukuleles for an audience that never grew much larger than five people."
+   },
+   "4": {
+    "original": "John Gasparini, a photographer from the New Jersey suburbs, was shopping with his girlfriend in the city, and he stopped to listen to a group of musicians for about an hour.",
+    "rewrite": "John Gasparini, a photographer hailing from the New Jersey suburbs, was out shopping with his girlfriend in the city when he paused to hear a group of musicians for nearly an hour."
+   },
+   "1": {
+    "original": "\"Wag the Dog\" reenactment teams have sprouted up around the country.",
+    "rewrite": "Reenactment teams for \"Wag the Dog\" have sprung up across the country."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 24,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "your poll numbers.\"\nReenactment teams for \"Wag the Dog\" have sprung up across the country. In the eastern part of Manhattan, Union Square hosted a quartet of men wearing various safari outfits and humorous hats, strutting back and forth while playing ukuleles for an audience that never grew much larger than five people.\nA woman in a boom-box belting out the words to \"Insha&apos;Allah, We Shall Overcome\" was joined on stage by a group buskers raving about the Taliban, the Islamic religious faction in Afghanistan, and by a man with a sign reading, \"Allah, Will You Vote for Bush?\"\nJohn Gasparini, a photographer hailing from the New Jersey suburbs, was out shopping with his girlfriend in the city when he paused to hear a group of musicians for nearly an hour. \"I don",
+  "z0": 5.232590180780451,
+  "seconds": 124.1
+ }
+}

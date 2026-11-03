@@ -1,0 +1,35 @@
+{
+ "sample_id": "sta16_len200:112",
+ "nobox": {
+  "z_final": 5.123595566308254,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "United Natural Foods' quarterly revenue totaled $4.32 billion and adjusted operating income jumped above $50.8 million from sales.",
+    "rewrite": "United Natural Foods' quarterly revenue amounted to $4.32 billion, with adjusted operating income rising above $50.8 million from sales."
+   },
+   "2": {
+    "original": "United Natural Foods, based in Rhode Island, also revised its operating income guidance to a margin of between 4% and 5%.",
+    "rewrite": "United Natural Foods, headquartered in Rhode Island, updated its operating income guidance to a range of 4% to 5% margin."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 26,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "acquisition has led to increased consumer demand at the grocery chain.\n\"We now expect revenue totals in fiscal 2018 to range between $15.825 billion and $15.875 billion, which represents year-over-year revenue growth rate of between 6.6% and 6.7%,\" David J. Cook, its chief executive, said on an earnings call Thursday.\nUnited Natural Foods, headquartered in Rhode Island, updated its operating income guidance to a range of 4% to 5% margin. Cook added that \"the majority of the higher guidance ... is attributable to an extra week in sales.\"\nUnited Natural Foods' quarterly revenue amounted to $4.32 billion, with adjusted operating income rising above $50.8 million from sales.\nIn Amazon's first major acquisition, it agreed to",
+  "z0": 5.939696961966999,
+  "seconds": 69.8
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:234",
+ "nobox": {
+  "z_final": 0.21374114996372895,
+  "status": "broken",
+  "rewrites": {
+   "1": {
+    "original": "On the open road, the Stelvio is such a beautiful thing to behold, with that silly, overinflated, rabbit-ears rear windscreen giving it a cute appearance; press the key fob button and the screen self-levelises itself, like a mischievous little Cheshire cat.",
+    "rewrite": "On the open road, the Stelvio is strikingly beautiful, adorned with its overly bulging, rabbit-eared rear windscreen lending it a charming look; press the key fob, and the screen automatically levels itself, akin to a cheeky Cheshire cat."
+   },
+   "2": {
+    "original": "Just remember not to press the button too suddenly \u2014 the pennyfed, flick-screen tailgate smashes down crashingly onto the bumper, almost toppling your full shopping, child or two bears.",
+    "rewrite": "Just remember not to press the button too quickly \u2014 the pennyfed, flick-screen tailgate crashes down almost onto the bumper, toppling your full shopping, child, or two bears."
+   },
+   "3": {
+    "original": "Old Italian hands recall the Stelvio had differing guises over the years, both for road and track.",
+    "rewrite": "Experienced Italian hands remember that the Stelvio presented various forms over the years, suitable for both road and track."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 34,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "\u2014 feels sluggish through quick transitions, to the point you\u2019ll want to SLS it if you\u2019re a keen driver.\nOn the open road, the Stelvio is strikingly beautiful, adorned with its overly bulging, rabbit-eared rear windscreen lending it a charming look; press the key fob, and the screen automatically levels itself, akin to a cheeky Cheshire cat.\nJust remember not to press the button too quickly \u2014 the pennyfed, flick-screen tailgate crashes down almost onto the bumper, toppling your full shopping, child, or two bears.\nExperienced Italian hands remember that the Stelvio presented various forms over the years, suitable for both road and track. This one wears Stelvio on the bonnet, which suggests the car is porpoising off the road, not on",
+  "z0": 3.5355339059327373,
+  "seconds": 153.2
+ }
+}

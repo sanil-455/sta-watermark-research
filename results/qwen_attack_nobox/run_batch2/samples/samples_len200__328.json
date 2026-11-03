@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:328",
+ "nobox": {
+  "z_final": 2.2791653284908038,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Beyond those big changes to the game, Mega Millions moved from five numbers plus a Mega Ball number to six numbers plus a Mega Ball number over the years, and changed its starting jackpots from a fixed $8 million to a growth jackpot that now is worth about $22 million.",
+    "rewrite": "Over time, Mega Millions underwent significant changes, switching from five numbers plus a Mega Ball to six numbers plus a Mega Ball, and modified its initial jackpots from a set $8 million to a growing jackpot currently worth around $22 million."
+   },
+   "2": {
+    "original": "The new formula, which Mega Millions adopted to make its game more competitive with Powerball, will mean that second-prize winning tickets will be available more often \u2014 every other draw instead of every fourth draw.",
+    "rewrite": "The new formula adopted by Mega Millions to become more competitive with Powerball means that second-prize winning tickets will be available more frequently \u2014 in every other draw instead of every fourth draw."
+   },
+   "3": {
+    "original": "But the tougher odds will leave even more money sitting on the table.",
+    "rewrite": "But the harder odds will leave even more money on the table."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 27,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the new format.\nOver time, Mega Millions underwent significant changes, switching from five numbers plus a Mega Ball to six numbers plus a Mega Ball, and modified its initial jackpots from a set $8 million to a growing jackpot currently worth around $22 million.\nThe new formula adopted by Mega Millions to become more competitive with Powerball means that second-prize winning tickets will be available more frequently \u2014 in every other draw instead of every fourth draw.\nBut the harder odds will leave even more money on the table. After about $50,000,000 in total winnings to the top two prizes during the current format, the odds of winning will be so tough that the annual jackpot rollover will continue to yield about 39% of total winnings, instead of",
+  "z0": 3.8183766184073566,
+  "seconds": 146.1
+ }
+}

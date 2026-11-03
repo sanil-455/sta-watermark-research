@@ -1,0 +1,35 @@
+{
+ "sample_id": "sta16_len200:92",
+ "nobox": {
+  "z_final": 8.443170536763503,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "This conference will be based, like the other ones listed below during an unprecedented fall offering in publications ethics, on part of the research described above, and the identification of additional potential participants would contribute to the editors meeting their current constraints on the number of invited participants.",
+    "rewrite": "This conference, following the structure of the other ones listed below during an unprecedented fall offering in publications ethics, will be based on part of the research mentioned above, and identifying additional potential participants would aid the editors in meeting their current constraints on the number of invited participants."
+   },
+   "2": {
+    "original": "The time-frame will be after March 2014 (we may be able to move this date), and the proceedings may be published open-access.",
+    "rewrite": "The time frame will be after March 2014 (we might be able to adjust this date), and the proceedings could potentially be published as open access."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 8,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "vehicle through which we explore the ethical and regulatory implications of how misconduct is generating questions at the core of the credit-building (and credit-control) function of publication, which in turn depend on an understanding of the tricky mixture of elements that has contributed to the epic problem of editorial overwork: which in turn creates endemic overwork conditions on peer reviewing \u2014 a situation whfat raises serious occupational and labor-regulatory concerns. This conference, following the structure of the other ones listed below during an unprecedented fall offering in publications ethics, will be based on part of the research mentioned above, and identifying additional potential participants would aid the editors in meeting their current constraints on the number of invited participants. The time frame will be after March 2014 (we might be able to adjust this date), and the proceedings could potentially be published as open access.\nPhase 6: Assessment and likely",
+  "z0": 10.040916292848975,
+  "seconds": 98.3
+ }
+}

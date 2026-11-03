@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:87",
+ "nobox": {
+  "z_final": 4.0,
+  "status": "not broken",
+  "rewrites": {
+   "7": {
+    "original": "And, as far as being called out for his language by the Internet&apos;s moms during the POPSICLE CHALLENGE, Bretman says he doesn&apos;t mind it at all.",
+    "rewrite": "Bretman acknowledges being called out for his language during the POPSICLE CHALLENGE by the Internet&apos;s moms but doesn&apos;t mind it at all."
+   },
+   "3": {
+    "original": "It&apos;s a ride this kid and his family never thought would happen.",
+    "rewrite": "This was never a ride that kid and his family imagined they would experience."
+   },
+   "2": {
+    "original": "For now he&apos;s just going to enjoy the ride.",
+    "rewrite": "Currently, he&apos;s just going to relish the journey."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 7,
+    "survivors": 6,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 2,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 1,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": ". That&apos;s what everyone does.\"\nCurrently, he&apos;s just going to relish the journey. This was never a ride that kid and his family imagined they would experience.\n\"It&apos;s pretty silly that everyone thinks I&apos;m okay with all of this,\" said Bretman.\n\"It&apos;s just the whole entire thing right now is just getting used to the fame and location and meet tribes and all that stuff,\" said Bretman.\n\"I don&apos;t mean to say that I was in the poor part of town...I was definitely not,\" said Adam.\nBretman acknowledges being called out for his language during the POPSICLE CHALLENGE by the Internet&apos;s moms but doesn&apos;t mind it at all.\n\"It&apos;s really not",
+  "z0": 4.808326112068523,
+  "seconds": 69.7
+ }
+}

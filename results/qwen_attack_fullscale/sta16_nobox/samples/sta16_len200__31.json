@@ -1,0 +1,67 @@
+{
+ "sample_id": "sta16_len200:31",
+ "nobox": {
+  "z_final": 7.688267212858721,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "She said she finally asked God for help, and said she feels God brought her out of that time period with her, forgiving her and helping her in ways she cannot describe.",
+    "rewrite": "She said she ultimately prayed to God for help, and stated she feels God led her out of that time period, forgiving her and supporting her in ways she cannot articulate."
+   },
+   "2": {
+    "original": "Johnson described herself as feeling extremely depressed following the life-changing experience, approaching alcohol, food and exercising to deal with it.",
+    "rewrite": "Johnson described herself as feeling very depressed following the life-changing experience, using alcohol, food, and exercise to cope with it."
+   },
+   "1": {
+    "original": "Johnson, now a pro-life speaker, discussed her journey on the panel at the Belo Center for New Media.",
+    "rewrite": "Now a pro-life speaker, Johnson discussed her journey on the panel at the Belo Center for New Media."
+   },
+   "3": {
+    "original": "The experience, she said, prompted in her a feeling of being disconnected from God\u2019s forgiveness.",
+    "rewrite": "She said that the experience prompted in her a feeling of disconnection from God\u2019s forgiveness."
+   },
+   "6": {
+    "original": "He added that he felt film was a different form of communication from a written documentary.",
+    "rewrite": "He stated that he considered film to be a distinct form of communication compared to a written documentary."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 4,
+    "survivors": 2,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 27,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": ". Now a pro-life speaker, Johnson discussed her journey on the panel at the Belo Center for New Media.\nJohnson described herself as feeling very depressed following the life-changing experience, using alcohol, food, and exercise to cope with it. She said that the experience prompted in her a feeling of disconnection from God\u2019s forgiveness. She said she ultimately prayed to God for help, and stated she feels God led her out of that time period, forgiving her and supporting her in ways she cannot articulate.\nKonzelman responded to the criticism by saying that people do not remember that in order to portray a part of Johnson\u2019s story, they changed her name, and it would not be illegal, if they showed it on film. He stated that he considered film to be a distinct form of communication compared to a written documentary.\nJohnson, speaking to the Argus, described how important it was that",
+  "z0": 9.758073580374356,
+  "seconds": 223.4
+ }
+}

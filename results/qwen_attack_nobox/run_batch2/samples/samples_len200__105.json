@@ -1,0 +1,26 @@
+{
+ "sample_id": "samples_len200:105",
+ "nobox": {
+  "z_final": 4.060812243681228,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "What is the biggest advice you would give to those wanting to achieve their health and fitness goals?",
+    "rewrite": "What would be the most significant advice you could offer to those aiming to reach their health and fitness objectives?"
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 52,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "of their lives,\" says Ho.\n\"Watching my program and listening to my advice, they know that someone is there for them,\" says Ho.\nWhat would be the most significant advice you could offer to those aiming to reach their health and fitness objectives?\n\"Going to the gym alone can be intimidating, approaching something new alone can be tricky. But when you start meeting those people they become your friends and it just becomes another story. I had a subscriber who just turned 40 and she lost so much weight. She had a bachelorette party and all of her girlfriends were like &apos;when are we going to the gym? There&apos;s no way we&apos;re going to go to the gym.&apos; And now they go to the gym together. It&apos;s all about finding people to motivate you and help you. I hope that&",
+  "z0": 4.666904755831213,
+  "seconds": 31.5
+ }
+}

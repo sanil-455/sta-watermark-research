@@ -1,0 +1,80 @@
+{
+ "sample_id": "sta16_len200:156",
+ "nobox": {
+  "z_final": 5.9611417754995255,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "I\u2019m visiting North County San Diego tribal neighborhoods and I asked US Representative Mike Levin to partner with the federal effort to protect Ivy, Azalea and Morgan Territories from the anarchy that has overrun Iraq.",
+    "rewrite": "I'm visiting tribal neighborhoods in North County San Diego and asked US Representative Mike Levin to partner with the federal effort to protect Ivy, Azalea, and Morgan Territories from the chaos that has overtaken Iraq."
+   },
+   "1": {
+    "original": "President Obama also released an updated fact sheet reflecting the plan to degrade and ultimately defeat ISIL.",
+    "rewrite": "President Obama also released an updated fact sheet highlighting the plan to degrade and ultimately defeat ISIL."
+   },
+   "3": {
+    "original": "Congressional Democrats offered many suggestions last week, on capitol hill.",
+    "rewrite": "Last week, Congressional Democrats proposed numerous suggestions on Capitol Hill."
+   },
+   "6": {
+    "original": "Cal to Baghdad, we can help if partisan warfare ends in D.C.",
+    "rewrite": "Cal to Baghdad, we can assist if partisan warfare stops in D.C."
+   },
+   "7": {
+    "original": "For various versions and the translated article, CLICK HERE.",
+    "rewrite": "FOR DIFFERENT VERSIONS AND THE TRANSLATED ARTICLE, CLICK HERE."
+   },
+   "2": {
+    "original": "Congressional Democrats also welcomed the announcement.",
+    "rewrite": "Congressional Democrats likewise expressed welcome for the announcement."
+   },
+   "8": {
+    "original": "I\u2019m close to three beach retreats\u2013 what freedom.",
+    "rewrite": "I\u2019m near three beach retreats\u2014what freedom."
+   }
+  },
+  "sentences_rewritten": 7,
+  "eligible": 7,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 57,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 38,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 11,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 23,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 17,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 17,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "and Pakistan; bringing an end to the war in Iraq; and decimating al Qaeda\u2019s operatives in Yemen and Somalia.\nPresident Obama also released an updated fact sheet highlighting the plan to degrade and ultimately defeat ISIL.\nCongressional Democrats likewise expressed welcome for the announcement.\nLast week, Congressional Democrats proposed numerous suggestions on Capitol Hill.\nI'm visiting tribal neighborhoods in North County San Diego and asked US Representative Mike Levin to partner with the federal effort to protect Ivy, Azalea, and Morgan Territories from the chaos that has overtaken Iraq.\nFrom So. Cal to Baghdad, we can assist if partisan warfare stops in D.C.\nFOR DIFFERENT VERSIONS AND THE TRANSLATED ARTICLE, CLICK HERE.\nI\u2019m near three beach retreats\u2014what freedom. We saw the whales",
+  "z0": 9.475230867899736,
+  "seconds": 173.1
+ }
+}

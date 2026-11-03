@@ -1,0 +1,71 @@
+{
+ "sample_id": "sta16_len200:142",
+ "nobox": {
+  "z_final": 4.571428571428571,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "With part-time grad school, you also may be unable to participate in job-related activities, study abroad or internships that only full-time grad school students experience.",
+    "rewrite": "With part-time grad school, you might also find it impossible to join job-related activities, participate in study abroad programs, or internships that full-time grad school students typically enjoy."
+   },
+   "1": {
+    "original": "If you wish to attend grad school without disrupting your busy work schedule, you could opt to attend grad school part time.",
+    "rewrite": "To attend grad school without disrupting your busy work schedule, you might consider enrolling part time."
+   },
+   "5": {
+    "original": "Part-time grad school also may be more costly than attending part time because part-time grad school requires fewer courses.",
+    "rewrite": "Attending part-time may be less cost-effective compared to part-time grad school since it requires fewer courses."
+   },
+   "3": {
+    "original": "Part-time grad school allows you to advance sooner in a career rather than in a major career path.",
+    "rewrite": "Part-time grad school enables you to advance in your career faster compared to following a traditional major career path."
+   },
+   "4": {
+    "original": "If you choose to go to grad school as a part-time student, you generally study less in two years.",
+    "rewrite": "If you opt for part-time grad school, you typically study less over the course of two years."
+   },
+   "2": {
+    "original": "This method allows you to devote more time to a job.",
+    "rewrite": "This method enables you to allocate more time to a job."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 1,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "work during breaks.\nTo attend grad school without disrupting your busy work schedule, you might consider enrolling part time. This method enables you to allocate more time to a job. Part-time grad school enables you to advance in your career faster compared to following a traditional major career path.\nIf you opt for part-time grad school, you typically study less over the course of two years. Attending part-time may be less cost-effective compared to part-time grad school since it requires fewer courses. With part-time grad school, you might also find it impossible to join job-related activities, participate in study abroad programs, or internships that full-time grad school students typically enjoy.\nHome-Education Resources for Students With Mild Aspergers syndrome: Advantages and Disadvantages of Full-time versus Part-time Graduate Study\nPhiladelphia College of Osteopathic Medicine",
+  "z0": 6.788225099390856,
+  "seconds": 176.0
+ }
+}

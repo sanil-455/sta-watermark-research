@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:199",
+ "nobox": {
+  "z_final": 5.368524250814087,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "In addition to in-home furniture, she\u2019s designing prototypes for a number of other public services, all of which have been prototye\u2026d on SketchUp and uploaded to an online platform.",
+    "rewrite": "In addition to in-home furniture, she is designing prototypes for several other public services, all of which have been prototype-d on SketchUp and uploaded to an online platform."
+   },
+   "3": {
+    "original": "Much of the furniture you\u2019ll find in Arrojado Lecuona\u2019s new digital guide to DIY design has you scrolling through Pinterest rather than working with a fabric pen.",
+    "rewrite": "Many pieces of furniture in Arrojado Lecuona\u2019s new digital guide to DIY design require you to browse Pinterest instead of using a fabric pen."
+   },
+   "1": {
+    "original": "The GLORF storage units are SLS 3-D printed, available as boxes, kids/furniture, and stool/chairs.",
+    "rewrite": "The GLORF storage units are SLS 3-D printed, offering options as boxes, kids' furniture, and stool/chairs."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 23,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 55,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "with every other Lego brick ever created. The GLORF storage units are SLS 3-D printed, offering options as boxes, kids' furniture, and stool/chairs. Whoa.\nMany pieces of furniture in Arrojado Lecuona\u2019s new digital guide to DIY design require you to browse Pinterest instead of using a fabric pen.\nIn addition to in-home furniture, she is designing prototypes for several other public services, all of which have been prototype-d on SketchUp and uploaded to an online platform.\nfor \u201cthe great game,\u201d claims to be the \u201caddictive fun game\u2026whereintense strategy comes together with hot brain powers,\u201d and is available on an increasing number of web sites.\nOn a personal note, I lost nearly an entire Saturday last year to 3D Mahjongg, and",
+  "z0": 6.222539674441618,
+  "seconds": 128.5
+ }
+}

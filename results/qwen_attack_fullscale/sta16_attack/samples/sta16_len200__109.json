@@ -1,0 +1,83 @@
+{
+ "sample_id": "sta16_len200:109",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.0,
+ "needed_share": 0.8088900591387709,
+ "delta_needed": null,
+ "segmentation": {
+  "chars": 947,
+  "segments": 5,
+  "eligible": 0,
+  "skipped": 5,
+  "skip_reasons": {
+   "quotation": 4,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 0,
+  "eligible_char_share": 0.0
+ },
+ "attack": {
+  "z0": 10.465180361560902,
+  "z_final": 10.465180361560902,
+  "status": "no eligible text",
+  "reason": "no eligible text",
+  "passes": 0,
+  "queries": 1,
+  "seconds": 0.0,
+  "seconds_by_phase": {
+   "generate": 0.0,
+   "gates": 0.0,
+   "detector": 0.0
+  },
+  "steps": [],
+  "rewrites": {},
+  "final_span": "Kohler, who coordinated defense system development for America's European allies during the Obama administration, described the current setup as \"frozen in time because our overall military budget was so constrained.\"\n\"You can fix the sensors but there is no longer the capability, basically due to the missile penetration radar, to pick up missiles coming in... unless you expose large quantities of interceptors that might not be needed to begin with,\" Kohler said during a recent panel discussion on nuclear defense policy at the Kennedy School of Government at Harvard University.\n\"You don't know if part of the incoming ballistic missile attack was made of cruise missiles, guided by North Korean missile technology right in your face. So your interceptor would not have any way of detecting the incoming threat and responding to it,\" he added.\nOne particularly concerning advanced Russian cruise missile's range far exceeds anything the Pent",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 0,
+   "eligible": 0,
+   "segments": 5,
+   "pct_of_eligible": 0.0,
+   "pct_of_segments": 0.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 201,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "words": {
+   "original": 148,
+   "final": 148,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "characters": {
+   "original": 947,
+   "final": 947,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 174,
+   "green_after": 174,
+   "pairs_before": 200,
+   "pairs_after": 200,
+   "pairs_changed_before": 0,
+   "pairs_changed_after": 0,
+   "green_fraction_of_new_pairs": null,
+   "delta_achieved": null
+  }
+ }
+}

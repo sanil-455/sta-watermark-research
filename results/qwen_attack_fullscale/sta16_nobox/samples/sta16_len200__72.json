@@ -1,0 +1,26 @@
+{
+ "sample_id": "sta16_len200:72",
+ "nobox": {
+  "z_final": 9.475230867899736,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "More to the point, everyone from Johnny Depp to Bill Clinton, has gone to Tito\u2019s and not returned disappointed.",
+    "rewrite": "In point of fact, everyone from Johnny Depp to Bill Clinton has gone to Tito\u2019s and left without being disappointed."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 41,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "never rang more true. Stories which have been passed down between generations, border kids going from El Segundo to Santa Monica Pier and their first Tito\u2019s taco will begin to make sense once tasters put their hands on anything; be it the warm \u201chorchata,\u201d the freshly made soft, hard shells and debut a flavor palette especially conducive to taco-eating, which in turn conducts to a proverbial sensation which Gold, claims is, \u201clike taking a cold plunge or getting stung by a thousand bees!\u201d In point of fact, everyone from Johnny Depp to Bill Clinton has gone to Tito\u2019s and left without being disappointed. And at right under three dollars each - after thirty years, and being featured in over forty movies - let us kidnap the legend that is John Belushi and give the Tito\u2019s taco business to the original Bever",
+  "z0": 10.040916292848975,
+  "seconds": 32.8
+ }
+}

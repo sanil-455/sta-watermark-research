@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:322",
+ "nobox": {
+  "z_final": 4.285714285714286,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Minnie Mullins, executive director of the Montgomery County Developmental Disabilities Board, which is made up of about 30 individuals appointed by the county commissioners, could not be reached for comment.",
+    "rewrite": "Minnie Mullins, executive director of the Montgomery County Developmental Disabilities Board, composed of around 30 individuals appointed by the county commissioners, could not be reached for comment."
+   },
+   "3": {
+    "original": "According to a 2012 news release, about two-thirds of the individuals, ages 21 to 58, at the Montgomery Center live outside the facility 40 days a month and return to the center for the remaining 70 days.",
+    "rewrite": "As per a 2012 news release, approximately two-thirds of the individuals aged 21 to 58 at the Montgomery Center live outside the facility for about 40 days a month and return to the center for the other 70 days."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 17,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 48,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "city, Mayor Tom Loftus said, but the city does not have any say over the decision.\n\"It's my understanding the state of Ohio and the county went through a lot of options to try to save these services,\" Loftus said, \"but were unable to run these particular facilities for an economic reason.\"\nMinnie Mullins, executive director of the Montgomery County Developmental Disabilities Board, composed of around 30 individuals appointed by the county commissioners, could not be reached for comment.\nAs per a 2012 news release, approximately two-thirds of the individuals aged 21 to 58 at the Montgomery Center live outside the facility for about 40 days a month and return to the center for the other 70 days.\nMontgomery County contracted with the Ohio Department of Developmental Disabilities to administer services to Montgomery County residents with",
+  "z0": 4.525483399593904,
+  "seconds": 116.1
+ }
+}

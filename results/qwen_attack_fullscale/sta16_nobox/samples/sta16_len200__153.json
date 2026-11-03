@@ -1,0 +1,62 @@
+{
+ "sample_id": "sta16_len200:153",
+ "nobox": {
+  "z_final": 7.375983202606159,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "He has an attorney, and his confinement, on an outlying island of Maui\u2019s public bus line, is tighter than in California penal institutions, prosecutor Steve Rhoads said Tuesday.",
+    "rewrite": "His confinement on an outlying island of Maui\u2019s public bus line is tighter than in California penal institutions, prosecutor Steve Rhoads stated Tuesday, noting he has an attorney."
+   },
+   "4": {
+    "original": "If convicted, he could face probation until age 18, if Hawaii state laws differ from those of California, spokeswoman Rosenfeld said.",
+    "rewrite": "If convicted, he might face probation until age 18, assuming Hawaii's laws differ from California's, according to spokeswoman Rosenfeld."
+   },
+   "1": {
+    "original": "He is being held in a juvenile facility run by the county\u2019s Department of Youth Services.",
+    "rewrite": "He is being held in a juvenile facility managed by the county\u2019s Department of Youth Services."
+   },
+   "6": {
+    "original": "CNN\u2019s Tina Burnside, Steve Almasy and Mike M. Ahlers contributed to this report.",
+    "rewrite": "Tina Burnside from CNN, Steve Almasy, and Mike M. Ahlers contributed to this report."
+   },
+   "3": {
+    "original": "He is charged as a juvenile with first-degree attempted murder.",
+    "rewrite": "He is charged as a juvenile for first-degree attempted murder."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 6,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 18,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "of the FBI and the county Department of Youth Services and is being questioned about his background and why he climbed into the wheel well, spokeswoman Tina Hong said Tuesday.\nHe is being held in a juvenile facility managed by the county\u2019s Department of Youth Services. His confinement on an outlying island of Maui\u2019s public bus line is tighter than in California penal institutions, prosecutor Steve Rhoads stated Tuesday, noting he has an attorney.\nHe is charged as a juvenile for first-degree attempted murder.\nIf convicted, he might face probation until age 18, assuming Hawaii's laws differ from California's, according to spokeswoman Rosenfeld.\nHome burglars sought\nTina Burnside from CNN, Steve Almasy, and Mike M. Ahlers contributed to this report.",
+  "z0": 7.662429152221932,
+  "seconds": 154.5
+ }
+}

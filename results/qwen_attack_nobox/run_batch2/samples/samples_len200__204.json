@@ -1,0 +1,35 @@
+{
+ "sample_id": "samples_len200:204",
+ "nobox": {
+  "z_final": 4.873532881937163,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "So, CGM took a bit of a beating from the notably stricter consumer watchdog Consumer Reports in their latest ranking, dropping to an overall score of 3 out of 5 stars thanks to some quality issues with tricky-to-use entertainment and infotainment systems, according to the editorial overseer at the source.",
+    "rewrite": "CGM received some criticism from Consumer Reports' notably more stringent consumer watchdog in the latest rankings, scoring 3 out of 5 stars due to quality problems with hard-to-navigate entertainment and infotainment systems, as noted by the source's editorial manager."
+   },
+   "1": {
+    "original": "Learn more about Cadillac\u2019s Super Cruise here.",
+    "rewrite": "Explore more about Cadillac\u2019s Super Cruise here."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 6,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "every model in their lineup.\nExplore more about Cadillac\u2019s Super Cruise here.\nCGM received some criticism from Consumer Reports' notably more stringent consumer watchdog in the latest rankings, scoring 3 out of 5 stars due to quality problems with hard-to-navigate entertainment and infotainment systems, as noted by the source's editorial manager.\nThe less-than-flattering review debut came hot on the heels of the company\u2019s announcement that they\u2019d be discontinuing the BRZ and 86 two-seater sports cars, and that\u2019s not to mention the failures of reports of the scandal-plagued Takata airbag defects\u2014te vehicle recall disasterbug that has now forced the Japanese marque to recall every vehicle made by nearly all of the world\u2019s manufact",
+  "z0": 6.505382386916237,
+  "seconds": 79.8
+ }
+}

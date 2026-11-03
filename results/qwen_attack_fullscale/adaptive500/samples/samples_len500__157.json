@@ -1,0 +1,336 @@
+{
+ "sample_id": "samples_len500:157",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.6693961105424769,
+ "needed_share": 0.7057805292763435,
+ "delta_needed": 0.00826182220130598,
+ "segmentation": {
+  "chars": 1954,
+  "segments": 12,
+  "eligible": 8,
+  "skipped": 4,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "does not start like a sentence": 3
+  },
+  "eligible_chars": 1308,
+  "eligible_char_share": 0.6693961105424769
+ },
+ "attack": {
+  "z0": 6.7976466515993605,
+  "z_final": 1.7166650155199774,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 337,
+  "seconds": 343.5,
+  "seconds_by_phase": {
+   "generate": 313.9,
+   "gates": 29.4,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 320,
+    "z_before": 6.7976466515993605,
+    "z_after": 5.911947239525467,
+    "accepted": true,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 58,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 66.08
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 239,
+    "z_before": 5.911947239525467,
+    "z_after": 4.878942675688357,
+    "accepted": true,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "CJK text": 3
+     }
+    },
+    "queries_total": 115,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 55.66
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 192,
+    "z_before": 4.878942675688357,
+    "z_after": 4.08248290463863,
+    "accepted": true,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 1,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 172,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.76
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 185,
+    "z_before": 4.08248290463863,
+    "z_after": 3.5236808213304798,
+    "accepted": true,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 1,
+      "unknown word": 1,
+      "meaning too different": 3
+     }
+    },
+    "queries_total": 226,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.58
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 173,
+    "z_before": 3.5236808213304798,
+    "z_after": 2.604276879388236,
+    "accepted": true,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "CJK text": 6
+     }
+    },
+    "queries_total": 280,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 45.06
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 94,
+    "z_before": 2.604276879388236,
+    "z_after": 2.197950389679657,
+    "accepted": true,
+    "survivors": 24,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 26,
+     "after_spelling": 24,
+     "after_content": 24,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 24,
+     "rejected": {
+      "duplicate": 30,
+      "CJK text": 3,
+      "several lines": 1,
+      "glued punctuation": 2
+     }
+    },
+    "queries_total": 304,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.62
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 57,
+    "z_before": 2.197950389679657,
+    "z_after": 2.159622099196068,
+    "accepted": true,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 19,
+     "after_spelling": 19,
+     "after_content": 19,
+     "after_semantic": 15,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "CJK text": 22,
+      "duplicate": 18,
+      "several lines": 1,
+      "meaning too different": 4,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 315,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.64
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 48,
+    "z_before": 2.159622099196068,
+    "z_after": 1.7166650155199774,
+    "accepted": true,
+    "survivors": 22,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 34,
+     "after_content": 34,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 22,
+     "rejected": {
+      "duplicate": 26,
+      "meaning too different": 7,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 337,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 11.5
+   }
+  ],
+  "rewrites": {
+   "1": {
+    "original": "Only two issues closed higher on the Big Board after the credit-default swaps, which had their greatest penetration of the 772 most actively traded corporate bonds that an official of the bonddesk of the Mizuho Securities America unit of the Mizuho Group, a Japanese banking and financial services conglomerate, surveys.",
+    "rewrite": "After the credit-default swaps, only two issues showed gains on the Big Board among the 772 most actively traded corporate bonds surveyed by an official from the bond desk at Mizuho Securities America, a part of the Mizuho Group, a Japanese banking and financial services company."
+   },
+   "4": {
+    "original": "Echoing a recent statement by the airline's chairman, Frederick B. Smith, Mr. Friedland said the trucking decline may be yielding to a slowdown in domestic package shipments, which account for more than 70 percent of the carrier's revenue.",
+    "rewrite": "Reflecting similar comments made by the airline's chairman, Frederick B. Smith, Mr. Friedland stated that the decrease in trucking might be paralleling a slowing down in domestic package shipments, constituting over 70 percent of the company's income."
+   },
+   "8": {
+    "original": "The fourth quarter is the company's slowest sales season of the year, with the holiday quarter''s customary seasonal bounce, but causes ''no changes in market perception,'' said Mr. Shawiecki.",
+    "rewrite": "The fourth quarter is the leanest sales period for the company annually; although the holiday quarter traditionally sees increased sales activity, it doesn't alter the market perception, Mr. Shawiecki noted."
+   },
+   "2": {
+    "original": "That highest debut came for Federal Express yesterday as fixed expenses are coming down, Peter Friedland, the company's chief financial officer, said on a conference call with analysts.",
+    "rewrite": "That top debut was seen at Federal Express yesterday, with decreasing fixed expenses, according to Peter Friedland, the company's chief financial officer, who spoke during a conference call with analysts."
+   },
+   "5": {
+    "original": "Even so, he said, ''In the fourth quarter, sales are expected to be down 7 to 9 percent, much improved from the previous quarter, and profits are going to be hurt even more.",
+    "rewrite": "Nevertheless, he stated, \"In the fourth quarter, sales are projected to decline by 7 to 9 percent, showing a significant improvement from the preceding quarter, while profits are anticipated to worsen even further.\""
+   },
+   "9": {
+    "original": "He maintained his hold rating and set his target price, excluding one-time items, at 39 cents.",
+    "rewrite": "He kept his hold rating unchanged and assigned a target price, ex one-time items, of 39 cents."
+   },
+   "7": {
+    "original": "We still need to restructure that business quite a bit.''",
+    "rewrite": "We still have to restructure that business significantly."
+   },
+   "6": {
+    "original": "But it's going to be a pretty blunt improvement.",
+    "rewrite": "Yet it will be a rather straightforward improvement."
+   }
+  },
+  "final_span": "the 2,000 to 2,050 area,'' he said.\nAfter the credit-default swaps, only two issues showed gains on the Big Board among the 772 most actively traded corporate bonds surveyed by an official from the bond desk at Mizuho Securities America, a part of the Mizuho Group, a Japanese banking and financial services company.\nThat top debut was seen at Federal Express yesterday, with decreasing fixed expenses, according to Peter Friedland, the company's chief financial officer, who spoke during a conference call with analysts.\n''There is no reason for us not to regain volume to rates before the year is out,'' Mr. Friedland said.\nReflecting similar comments made by the airline's chairman, Frederick B. Smith, Mr. Friedland stated that the decrease in trucking might be paralleling a slowing down in domestic package shipments, constituting over 70 percent of the company's income.\nNevertheless, he stated, \"In the fourth quarter, sales are projected to decline by 7 to 9 percent, showing a significant improvement from the preceding quarter, while profits are anticipated to worsen even further.\" Yet it will be a rather straightforward improvement. We still have to restructure that business significantly. The fourth quarter is the leanest sales period for the company annually; although the holiday quarter traditionally sees increased sales activity, it doesn't alter the market perception, Mr. Shawiecki noted.\nHe kept his hold rating unchanged and assigned a target price, ex one-time items, of 39 cents.\n''Merck's strategic clarity could improve with the sale of its animal-health business, which would create more focus on the core prescription pharmaceutical business,'' said Mr. Erlanger, which he estimated could add $4 a share in earnings per share.\n''However, Merck's premium status -- in terms of share-price appreciation and credit-default swap valuations -- compared to its pharmaceutical peers points to a narrowing of that opportunity gap as we move into summer and the follow-through on the",
+  "break_point": {
+   "step": 7,
+   "sentences_rewritten": 8,
+   "queries": 337
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 8,
+   "eligible": 8,
+   "segments": 12,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 66.66666666666667
+  },
+  "tokens": {
+   "original": 501,
+   "final": 491,
+   "length_change": -10,
+   "pct_not_preserved": 24.35129740518962,
+   "pct_new": 22.81059063136456
+  },
+  "words": {
+   "original": 316,
+   "final": 312,
+   "length_change": -4,
+   "pct_not_preserved": 31.0126582278481,
+   "pct_new": 30.12820512820513
+  },
+  "characters": {
+   "original": 1954,
+   "final": 2006,
+   "length_change": 52,
+   "pct_not_preserved": 18.065506653019447,
+   "pct_new": 20.18943170488534
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 326,
+   "green_after": 264,
+   "pairs_before": 500,
+   "pairs_after": 490,
+   "pairs_changed_before": 174,
+   "pairs_changed_after": 164,
+   "green_fraction_of_new_pairs": 0.35365853658536583,
+   "delta_achieved": 0.14634146341463417
+  }
+ }
+}

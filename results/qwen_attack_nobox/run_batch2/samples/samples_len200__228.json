@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:228",
+ "nobox": {
+  "z_final": 3.2667258202275047,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "That game ended an unbeaten run of four out of five for the CG Cardinals in the league this season and this midweek clash saw another defeat as Liversedge suffered a heavy loss at Albion Sports, as they were beaten 5-1, ending another run of good Premier Division home form.",
+    "rewrite": "That game ended an unbeaten streak of four out of five for the CG Cardinals in the league this season, and this midweek match saw another defeat, with Liversedge losing heavily to Albion Sports, suffering a 5-1 loss that ended their recent good run of home form in the Premier Division."
+   },
+   "3": {
+    "original": "Therefore this season\u2019s visit saw the tide turn and the Albion Sports fans could celebrate as they powered to a 5-1 win with Thomas Graham grabbing a hat-trick for the Skelmersdale side.",
+    "rewrite": "Thus, this season's visit marked the turning of the tide, allowing the Albion Sports fans to celebrate as they secured a 5-1 victory, with Thomas Graham scoring a hat-trick for the Skelmersdale side."
+   },
+   "2": {
+    "original": "They had only lost one game in five away from home prior to Saturday's defeat and in fact Liversedge had not lost at Albion Park for several seasons.",
+    "rewrite": "Prior to Saturday's defeat, they had lost only one game in five away from home, and in fact, Liversedge hadn't lost at Albion Park for several seasons."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 54,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the 25th of September.\nThat game ended an unbeaten streak of four out of five for the CG Cardinals in the league this season, and this midweek match saw another defeat, with Liversedge losing heavily to Albion Sports, suffering a 5-1 loss that ended their recent good run of home form in the Premier Division.\nPrior to Saturday's defeat, they had lost only one game in five away from home, and in fact, Liversedge hadn't lost at Albion Park for several seasons.\nThus, this season's visit marked the turning of the tide, allowing the Albion Sports fans to celebrate as they secured a 5-1 victory, with Thomas Graham scoring a hat-trick for the Skelmersdale side.\nThey are one of the form sides in the league and currently third on the table and a victory or even a draw would have extended their unbeaten home record for the season to 1",
+  "z0": 4.384062043356595,
+  "seconds": 193.0
+ }
+}

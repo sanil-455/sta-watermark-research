@@ -1,0 +1,49 @@
+{
+ "sample_id": "samples_len200:134",
+ "nobox": {
+  "z_final": 3.7016805675787645,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "This combined win on two government CG tests was a milestone of immense importance for SpaceX, and a significant step toward its ultimate goal of winning an even more lucrative CRTS(2) run at ISS for an official monopoly.",
+    "rewrite": "This dual win on two government CG tests represented a crucial milestone of great significance for SpaceX, marking a substantial step toward its ultimate goal of securing an even more lucrative CRTS(2) contract for an official monopoly at ISS."
+   },
+   "7": {
+    "original": "Pay close attention to the scare quotes around \"quality control\" right there; SpaceX's version of \"bug-silk webbing\" seems a little unconventional.",
+    "rewrite": "Pay close attention to the scare quotes around \"quality control\" right there; SpaceX's version of \"bug-silk webbing\" appears a bit unconventional."
+   },
+   "6": {
+    "original": "That doesn't sound very convincing, does it?",
+    "rewrite": "That doesn't seem very convincing, does it?"
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 10,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 0,
+    "rewritten": false
+   }
+  ],
+  "queries": 1,
+  "final_span": "military's two approved suppliers of launch services for national-defense missions. This dual win on two government CG tests represented a crucial milestone of great significance for SpaceX, marking a substantial step toward its ultimate goal of securing an even more lucrative CRTS(2) contract for an official monopoly at ISS.\nHere's where things start to get tricky. You could say, \"Aha! SpaceX must have identified a quality-control glitch on its Falcon 9 rockets that caused its recent failure. So its quality-control measures worked, and it will learn from this and continue on its way to success.\" That doesn't seem very convincing, does it? Pay close attention to the scare quotes around \"quality control\" right there; SpaceX's version of \"bug-silk webbing\" appears a bit unconventional.\nBut losing a multimillion-dollar Falcon",
+  "z0": 4.808326112068523,
+  "seconds": 120.3
+ }
+}

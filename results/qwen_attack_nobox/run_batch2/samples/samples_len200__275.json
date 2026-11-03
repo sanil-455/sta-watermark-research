@@ -1,0 +1,44 @@
+{
+ "sample_id": "samples_len200:275",
+ "nobox": {
+  "z_final": 3.158380828546184,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Sources of the drug shortages vary across CG Nephew, Inc/Mallinckrodt, IPPC., Inc, Akorn Inc, Onyx Pharmaceuticals, Kroenke Pharmaceuticals, Sanofi and Amneal Pharmaceuticals, Inc.",
+    "rewrite": "The sources of drug shortages vary across CG Nephew, Inc/Mallinckrodt, IPPC., Inc, Akorn Inc, Onyx Pharmaceuticals, Kroenke Pharmaceuticals, Sanofi, and Amneal Pharmaceuticals, Inc."
+   },
+   "2": {
+    "original": "Different drugs were in shortage throughout the country depending on the regional, state and institutional level of activity.",
+    "rewrite": "Various drugs were in shortage across the country depending on the regional, state, and institutional activities levels."
+   },
+   "3": {
+    "original": "Locally anesthetics represent the largest portion of shortages followed by binders and pre-treatments and then opioids.",
+    "rewrite": "Locally anesthetics account for the largest share of shortages, followed by binders and pre-treatments, and then opioids."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 20,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the Society's nearly 53,000 members) provided responses. The sources of drug shortages vary across CG Nephew, Inc/Mallinckrodt, IPPC., Inc, Akorn Inc, Onyx Pharmaceuticals, Kroenke Pharmaceuticals, Sanofi, and Amneal Pharmaceuticals, Inc.\nVarious drugs were in shortage across the country depending on the regional, state, and institutional activities levels. Locally anesthetics account for the largest share of shortages, followed by binders and pre-treatments, and then opioids.\n\u2022 Quip, named as being in shortage 89 times in response to the question, had differing reports across the country\u201450 percent of anesthesia providers found no shortage of or issues with Quip (ethyl bromide porous polyethylene",
+  "z0": 4.1012193308819755,
+  "seconds": 120.2
+ }
+}

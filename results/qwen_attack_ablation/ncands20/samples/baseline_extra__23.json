@@ -1,0 +1,310 @@
+{
+ "sample_id": "baseline_extra:23",
+ "source": "results/raw/baseline_extra.json",
+ "layout": "prompt+text",
+ "tokens": 200,
+ "eligible_share": 0.474034620505992,
+ "needed_share": 0.6177801182775418,
+ "delta_needed": 0.056099103182276074,
+ "segmentation": {
+  "chars": 751,
+  "segments": 10,
+  "eligible": 4,
+  "skipped": 6,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "too short": 1,
+   "quotation": 3,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 356,
+  "eligible_char_share": 0.474034620505992
+ },
+ "attack": {
+  "z0": 5.232590180780451,
+  "z_final": 3.0180083472774646,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 2,
+  "queries": 53,
+  "seconds": 79.8,
+  "seconds_by_phase": {
+   "generate": 75.5,
+   "gates": 4.2,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 149,
+    "z_before": 5.232590180780451,
+    "z_after": 4.525483399593904,
+    "accepted": true,
+    "survivors": 12,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 14,
+     "after_spelling": 14,
+     "after_content": 12,
+     "after_semantic": 12,
+     "fluency_skipped": false,
+     "after_fluency": 12,
+     "rejected": {
+      "several lines": 3,
+      "CJK text": 3,
+      "numbers changed": 2
+     }
+    },
+    "queries_total": 13,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.79
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 91,
+    "z_before": 4.525483399593904,
+    "z_after": 3.9401462504896343,
+    "accepted": true,
+    "survivors": 1,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 14,
+     "after_spelling": 14,
+     "after_content": 1,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "duplicate": 6,
+      "numbers changed": 13
+     }
+    },
+    "queries_total": 14,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 5.8
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 69,
+    "z_before": 3.9401462504896343,
+    "z_after": 3.298753309814903,
+    "accepted": true,
+    "survivors": 8,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 9,
+     "after_spelling": 9,
+     "after_content": 9,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 8,
+     "rejected": {
+      "duplicate": 11,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 22,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 6.06
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 47,
+    "z_before": 3.298753309814903,
+    "z_after": 3.0180083472774646,
+    "accepted": true,
+    "survivors": 3,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 3,
+     "after_spelling": 3,
+     "after_content": 3,
+     "after_semantic": 3,
+     "fluency_skipped": false,
+     "after_fluency": 3,
+     "rejected": {
+      "duplicate": 17
+     }
+    },
+    "queries_total": 25,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 6.05
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 149,
+    "z_before": 3.0180083472774646,
+    "z_after": 3.2667258202275047,
+    "accepted": false,
+    "survivors": 18,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 19,
+     "after_spelling": 18,
+     "after_content": 18,
+     "after_semantic": 18,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "several lines": 1,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 43,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.97
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 91,
+    "z_before": 3.0180083472774646,
+    "z_after": 3.780756226875626,
+    "accepted": false,
+    "survivors": 1,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 14,
+     "after_spelling": 14,
+     "after_content": 1,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "duplicate": 6,
+      "numbers changed": 13
+     }
+    },
+    "queries_total": 44,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 5.93
+   },
+   {
+    "pass": 2,
+    "segment": 6,
+    "chars": 69,
+    "z_before": 3.0180083472774646,
+    "z_after": 3.095829196813284,
+    "accepted": false,
+    "survivors": 6,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 8,
+     "after_spelling": 8,
+     "after_content": 8,
+     "after_semantic": 8,
+     "fluency_skipped": false,
+     "after_fluency": 6,
+     "rejected": {
+      "duplicate": 12,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 50,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 5.86
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 47,
+    "z_before": 3.0180083472774646,
+    "z_after": 3.0180083472774646,
+    "accepted": false,
+    "survivors": 5,
+    "funnel": {
+     "generated": 20,
+     "after_clean": 5,
+     "after_spelling": 5,
+     "after_content": 5,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "duplicate": 15
+     }
+    },
+    "queries_total": 53,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 6.06
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "Half of Hispanics and a quarter of Anglos said Cruz is honest, and just under a quarter of Hispanics said O\u2019Rourke was honest, according to the poll.",
+    "rewrite": "According to the poll, half of Hispanics and a quarter of Anglos felt Cruz was honest, while just under a quarter of Hispanics believed O\u2019Rourke was honest."
+   },
+   "2": {
+    "original": "Seventy-three percent of Republicans said they found their preferred candidate trustworthy.",
+    "rewrite": "Ninety-seven percent of Republicans stated that they perceived their chosen candidate as credible."
+   },
+   "6": {
+    "original": "The small sample size is typical of Ipsos online polls, Jackson said.",
+    "rewrite": "The modest sample size is characteristic of Ipsos online polls, Jackson said."
+   },
+   "5": {
+    "original": "The poll was conducted between Sept. 11 and 12.",
+    "rewrite": "The survey was carried out from September 11 to 12."
+   }
+  },
+  "final_span": "honest or not. The answers were mixed. Ninety-seven percent of Republicans stated that they perceived their chosen candidate as credible. According to the poll, half of Hispanics and a quarter of Anglos felt Cruz was honest, while just under a quarter of Hispanics believed O\u2019Rourke was honest. Ipsos used a convenience sample of 1,005 self-identified \u201cadministered in English and Spanish\u201d in Texas, according to the poll. The survey was carried out from September 11 to 12. The modest sample size is characteristic of Ipsos online polls, Jackson said. But that\u2019s not to say \u201cthere won\u2019t be any error.\u201d The margin of error \u201ccould be plus or minus than margin of error,\u201d he said. While most online polls have larger-than-threshold margins of error, Ipsos\u2019 polls don\u2019t since 2017",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 4,
+   "eligible": 4,
+   "segments": 10,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 40.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 204,
+   "length_change": 3,
+   "pct_not_preserved": 13.93034825870647,
+   "pct_new": 15.19607843137255
+  },
+  "words": {
+   "original": 124,
+   "final": 127,
+   "length_change": 3,
+   "pct_not_preserved": 17.741935483870964,
+   "pct_new": 19.685039370078737
+  },
+  "characters": {
+   "original": 751,
+   "final": 777,
+   "length_change": 26,
+   "pct_not_preserved": 12.117177097203724,
+   "pct_new": 15.05791505791506
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 137,
+   "green_after": 123,
+   "pairs_before": 200,
+   "pairs_after": 203,
+   "pairs_changed_before": 45,
+   "pairs_changed_after": 48,
+   "green_fraction_of_new_pairs": 0.3541666666666667,
+   "delta_achieved": 0.14583333333333331
+  }
+ }
+}

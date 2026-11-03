@@ -1,0 +1,375 @@
+{
+ "sample_id": "sta16_len200:126",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.4309327036599764,
+ "needed_share": 0.7331672523824349,
+ "delta_needed": 0.18585768666712169,
+ "segmentation": {
+  "chars": 847,
+  "segments": 4,
+  "eligible": 2,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 365,
+  "eligible_char_share": 0.4309327036599764
+ },
+ "attack": {
+  "z0": 7.495331880577403,
+  "z_final": 3.298753309814903,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 5,
+  "queries": 447,
+  "seconds": 458.2,
+  "seconds_by_phase": {
+   "generate": 421.9,
+   "gates": 36.2,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 211,
+    "z_before": 7.495331880577403,
+    "z_after": 5.316609037562519,
+    "accepted": true,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 39,
+     "after_content": 39,
+     "after_semantic": 39,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "CJK text": 7,
+      "glued punctuation": 13,
+      "unknown word": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 36,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 49.25
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 154,
+    "z_before": 5.316609037562519,
+    "z_after": 3.394112549695428,
+    "accepted": true,
+    "survivors": 56,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 56,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 92,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.36
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 211,
+    "z_before": 3.394112549695428,
+    "z_after": 3.377268214705401,
+    "accepted": true,
+    "survivors": 37,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 40,
+     "after_content": 40,
+     "after_semantic": 37,
+     "fluency_skipped": false,
+     "after_fluency": 37,
+     "rejected": {
+      "CJK text": 8,
+      "several lines": 1,
+      "glued punctuation": 10,
+      "unknown word": 1,
+      "meaning too different": 3
+     }
+    },
+    "queries_total": 129,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 51.76
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 154,
+    "z_before": 3.377268214705401,
+    "z_after": 3.5179877236514594,
+    "accepted": false,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 55,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 3,
+      "numbers changed": 1
+     }
+    },
+    "queries_total": 183,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.52
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 211,
+    "z_before": 3.377268214705401,
+    "z_after": 3.315124394535412,
+    "accepted": true,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 40,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 1,
+      "glued punctuation": 14,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 223,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 48.99
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 154,
+    "z_before": 3.315124394535412,
+    "z_after": 3.3486113494317533,
+    "accepted": false,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 56,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 3,
+      "numbers changed": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 275,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.11
+   },
+   {
+    "pass": 4,
+    "segment": 2,
+    "chars": 211,
+    "z_before": 3.315124394535412,
+    "z_after": 3.579498272352342,
+    "accepted": false,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 37,
+     "after_content": 37,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "CJK text": 6,
+      "glued punctuation": 13,
+      "unknown word": 4,
+      "meaning too different": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 310,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 48.85
+   },
+   {
+    "pass": 4,
+    "segment": 1,
+    "chars": 154,
+    "z_before": 3.315124394535412,
+    "z_after": 3.298753309814903,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 1,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 363,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.61
+   },
+   {
+    "pass": 5,
+    "segment": 2,
+    "chars": 211,
+    "z_before": 3.298753309814903,
+    "z_after": 3.4561935177071317,
+    "accepted": false,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 40,
+     "after_content": 40,
+     "after_semantic": 37,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "CJK text": 7,
+      "several lines": 1,
+      "glued punctuation": 11,
+      "unknown word": 1,
+      "meaning too different": 3,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 398,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 50.49
+   },
+   {
+    "pass": 5,
+    "segment": 1,
+    "chars": 154,
+    "z_before": 3.298753309814903,
+    "z_after": 3.394112549695428,
+    "accepted": false,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 54,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 1,
+      "unknown word": 4,
+      "numbers changed": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 447,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.92
+   }
+  ],
+  "rewrites": {
+   "2": {
+    "original": "Anticipation for the start of the peak third-quarter season also boosted sentiment last week since 83.7 percent of S&P 500 companies have reported positive EPS surprises, according to Thomson Reuters datastream.",
+    "rewrite": "Hope for the beginning of the busy third-quarter period also lifted mood last week as data from Thomson Reuters show that 83.7 percent of S&P 500 firms have had positive earnings surprises thus far."
+   },
+   "1": {
+    "original": "Just a day before the start of its earnings season, Apple unveiled a cheaper version of its iPhone with a reduced LCD screen to cater to a wider audience.",
+    "rewrite": "Right before the beginning of its earnings season, Apple revealed a more affordable edition of its iPhone featuring a lesser-priced LCD screen, aimed at an broader customer base."
+   }
+  },
+  "final_span": "the country\u2019s biggest banks are expected to provide reassurance over the impact on the economy of an escalating trade war between the United States and China and their planned tariffs on each other\u2019s goods, but a slowdown in China\u2019s third quarter economic growth and rising interest rates remain a source of major concerns.\nRight before the beginning of its earnings season, Apple revealed a more affordable edition of its iPhone featuring a lesser-priced LCD screen, aimed at an broader customer base.\nHope for the beginning of the busy third-quarter period also lifted mood last week as data from Thomson Reuters show that 83.7 percent of S&P 500 firms have had positive earnings surprises thus far.\nAmong the S&P 500 companies reporting after the close, Amazon is expected to exceed Wall Street forecasts as it forecast third-quarter revenue above analyst",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 2,
+   "segments": 4,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 50.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 204,
+   "length_change": 3,
+   "pct_not_preserved": 21.890547263681594,
+   "pct_new": 23.039215686274506
+  },
+  "words": {
+   "original": 137,
+   "final": 139,
+   "length_change": 2,
+   "pct_not_preserved": 23.357664233576646,
+   "pct_new": 24.460431654676263
+  },
+  "characters": {
+   "original": 847,
+   "final": 858,
+   "length_change": 11,
+   "pct_not_preserved": 15.820543093270366,
+   "pct_new": 16.8997668997669
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 153,
+   "green_after": 125,
+   "pairs_before": 200,
+   "pairs_after": 203,
+   "pairs_changed_before": 61,
+   "pairs_changed_after": 64,
+   "green_fraction_of_new_pairs": 0.359375,
+   "delta_achieved": 0.140625
+  }
+ }
+}

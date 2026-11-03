@@ -1,0 +1,44 @@
+{
+ "sample_id": "sta16_len200:30",
+ "nobox": {
+  "z_final": 7.265059843343562,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "It seeks access to text messages, photos, videos and internet browsing history on the two iPhone 6 Plus phones of Officer Mohamed Noor, according to the documents.",
+    "rewrite": "According to the documents, it seeks access to text messages, photos, videos, and internet browsing history on the two iPhone 6 Plus phones of Officer Mohamed Noor."
+   },
+   "2": {
+    "original": "It also seeks access to GPS location logs; emails and photos synced with the devices; and photos and videos location tagged by the devices.",
+    "rewrite": "It also aims to access GPS location logs, emails, and synced photos; as well as photos and videos location-tagged by the devices."
+   },
+   "3": {
+    "original": "Noor was a rookie on the force at the time of the shooting, and the names of the other officers weren't disclosed.",
+    "rewrite": "At the time of the shooting, Noor was a rookie on the force, and the names of the other officers were not disclosed."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 24,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "approved during a sealed hearing Friday in Hennepin County District Court. According to the documents, it seeks access to text messages, photos, videos, and internet browsing history on the two iPhone 6 Plus phones of Officer Mohamed Noor. It also aims to access GPS location logs, emails, and synced photos; as well as photos and videos location-tagged by the devices.\nAt the time of the shooting, Noor was a rookie on the force, and the names of the other officers were not disclosed.\nAccording to the search warrant, during a court hearing for the police body camera policy on Aug. 4, incidents of the use of force were discussed, and the following is quoted from the file: \"After August three officers...were observed to be looking at their cell phones while having force incidents; their conversations and attitudes changed after that time period.\"\nCourt filings show",
+  "z0": 9.333809511662427,
+  "seconds": 113.0
+ }
+}

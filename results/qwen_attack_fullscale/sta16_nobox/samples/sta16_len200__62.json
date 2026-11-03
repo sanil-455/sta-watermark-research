@@ -1,0 +1,44 @@
+{
+ "sample_id": "sta16_len200:62",
+ "nobox": {
+  "z_final": 6.505382386916237,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "The bill would also reinstate the Foreign Intelligence Surveillance Act\u2019s (FISA\u2019s) 70-day period for federal agents to surveil somebody without approaching a court; previous iterations allowed NSA to surveil someone without approaching a court for up to a year.",
+    "rewrite": "The bill would similarly restore the Foreign Intelligence Surveillance Act\u2019s (FISA\u2019s) 70-day period for federal agents to surveil someone without going to court; prior versions permitted the NSA to conduct surveillance for up to a year without court involvement."
+   },
+   "2": {
+    "original": "And finally, the bill would ban retaliation against federal national security whistleblowers and grant them greater protections than civil servants under the Whistleblower Protection Act.",
+    "rewrite": "Finally, the bill would prohibit retaliation against federal national security whistleblowers and provide them with more protections than civil servants under the Whistleblower Protection Act."
+   },
+   "3": {
+    "original": "Congress is dragging its heels during a global pandemic.",
+    "rewrite": "Congress is hesitating during a global pandemic."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 10,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "investigation \u201cupon receiving an order requiring an appearance.\u201d The bill would similarly restore the Foreign Intelligence Surveillance Act\u2019s (FISA\u2019s) 70-day period for federal agents to surveil someone without going to court; prior versions permitted the NSA to conduct surveillance for up to a year without court involvement.\nFinally, the bill would prohibit retaliation against federal national security whistleblowers and provide them with more protections than civil servants under the Whistleblower Protection Act.\nCongress is hesitating during a global pandemic.\nSign your name to demand a new Congress by supporting @Outsider2020 for Congress.\nhttps://t.co/BJ4fbnLu38\nEarlier this month, CNN reported what has widely been termed as \u2018good news\u2019; according to the outlet, National Security Agency (NSA) and",
+  "z0": 7.636753236814713,
+  "seconds": 122.1
+ }
+}

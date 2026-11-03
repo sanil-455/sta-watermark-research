@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:162",
+ "nobox": {
+  "z_final": 1.0051414220648334,
+  "status": "broken",
+  "rewrites": {
+   "4": {
+    "original": "The small contribution SLCPs make to current warming means we cannot dispense with them: two-thirds of global energy, and key sectors such as aviation and refrigeration, continue to use these chemicals because the alternatives are costlier.",
+    "rewrite": "Although SLCPs contribute minimally to current warming, we cannot ignore them: two-thirds of global energy use, and crucial sectors like aviation and refrigeration, still rely on these chemicals due to more expensive alternatives."
+   },
+   "2": {
+    "original": "While these substances are largely under control in developed countries, they are also poisoning the developing world because Western companies have shipped overseas machines that produce them.",
+    "rewrite": "Though these substances are mostly under control in developed countries, they are also poisoning the developing world due to Western companies exporting overseas production machines that generate them."
+   },
+   "1": {
+    "original": "This cooling black substance coats the surface of the sea, making it darker and so impermeable to sunlight penetrating the water and warming it up.",
+    "rewrite": "This cooling black substance covers the sea's surface, making it darker and thus preventing sunlight from penetrating and warming the water."
+   },
+   "3": {
+    "original": "Kigali is, at least, one first step towards preventing this from happening.",
+    "rewrite": "At minimum, Kigali represents a first step towards preventing this from happening."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 56,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 25,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "from the engines of machinery and the towers and chimneys of industry. This cooling black substance covers the sea's surface, making it darker and thus preventing sunlight from penetrating and warming the water.\nThough these substances are mostly under control in developed countries, they are also poisoning the developing world due to Western companies exporting overseas production machines that generate them. At minimum, Kigali represents a first step towards preventing this from happening. Although SLCPs contribute minimally to current warming, we cannot ignore them: two-thirds of global energy use, and crucial sectors like aviation and refrigeration, still rely on these chemicals due to more expensive alternatives.\nBut scientists estimate that halting use of these substances within a decade could cut agricultural yields, if for no other reasons than because the black carbon coating the surface",
+  "z0": 2.82842712474619,
+  "seconds": 158.5
+ }
+}

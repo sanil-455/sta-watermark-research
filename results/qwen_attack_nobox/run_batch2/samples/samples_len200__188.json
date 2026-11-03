@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:188",
+ "nobox": {
+  "z_final": 3.1590158979180476,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "In markets prices, there was a brief upbraid about the limited distribution of shares, an issue revisited months after Facebook and also an issue in the researched-based pharmaceuticals companies.",
+    "rewrite": "In markets, there was a brief reaction to the limited distribution of shares, an issue revisited months after Facebook and also concerning pharmaceuticals companies based on research."
+   },
+   "4": {
+    "original": "And Zoetis is also the largest U.S. IPO according to the latest public tracking at IPOScoop, which aggregates financial data, deals and listings filings.",
+    "rewrite": "And Zoetis is also the largest U.S. IPO as per the latest public tracking by IPOScoop, which aggregates financial data, deals, and listing filings."
+   },
+   "5": {
+    "original": "Others to watch have been Questcor Pharmaceuticals, according to Thomson Reuters IPO Insider; 484ToPay, according to an IPOScoop tally.",
+    "rewrite": "According to Thomson Reuters IPO Insider, others to watch include Questcor Pharmaceuticals; 484ToPay, as noted by an IPOScoop tally."
+   },
+   "1": {
+    "original": "It was the largest biotech IPO since the GLORY Biotech IPO in 2010.",
+    "rewrite": "It was the largest biotech IPO since GLORY Biotech's IPO in 2010."
+   },
+   "2": {
+    "original": "It also happened to be the biggest U.S. IPO since Facebook.",
+    "rewrite": "It also happened to be the largest U.S. IPO since Facebook."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 14,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 10,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": ". It was the largest biotech IPO since GLORY Biotech's IPO in 2010. It also happened to be the largest U.S. IPO since Facebook.\nIn markets, there was a brief reaction to the limited distribution of shares, an issue revisited months after Facebook and also concerning pharmaceuticals companies based on research. And Zoetis is also the largest U.S. IPO as per the latest public tracking by IPOScoop, which aggregates financial data, deals, and listing filings.\nAccording to Thomson Reuters IPO Insider, others to watch include Questcor Pharmaceuticals; 484ToPay, as noted by an IPOScoop tally.\nOn a broader measure, in the Thomson Reuters data, since 2010 there have been 7",
+  "z0": 4.525483399593904,
+  "seconds": 177.6
+ }
+}

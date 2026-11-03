@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:137",
+ "nobox": {
+  "z_final": 2.9512445780696477,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "However, there is no clear-cut definition of a hack, and the law holds that whoever gains unauthorised access to someone's computer/telecommunications network is not committing a crime.",
+    "rewrite": "However, there is no definitive definition of a hack, and the law states that whoever gains unauthorised access to someone's computer or telecommunications network is not breaking a criminal law."
+   },
+   "5": {
+    "original": "There is a lot of talk, at the moment, about how fail-safe regulation -introduced particularly by the ISPs, but also large businesses - will be virtually impossible to achieve.",
+    "rewrite": "At the moment, there is much discussion about how virtually impossible it will be to achieve fail-safe regulation, introduced notably by ISPs and larger businesses."
+   },
+   "2": {
+    "original": "Whoever has that information deleted, amended or added, most probably is committing a crime, for which they may be liable to a five-year sentence.",
+    "rewrite": "Whoever alters that information, whether by deleting, amending, or adding to it, is most likely committing a crime and could face up to a five-year sentence."
+   },
+   "3": {
+    "original": "The word 'is' is pretty problematic, and may be overturned at the appropriate times.",
+    "rewrite": "The term 'is' can be quite problematic and might be revised at appropriate times."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 27,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 30,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": ". However, there is no definitive definition of a hack, and the law states that whoever gains unauthorised access to someone's computer or telecommunications network is not breaking a criminal law. Whoever alters that information, whether by deleting, amending, or adding to it, is most likely committing a crime and could face up to a five-year sentence. The term 'is' can be quite problematic and might be revised at appropriate times.\n\"Extortion, basically, is the first activity that suddenly disappeared from the penal code when computers were involved,\" was how one of my friends described the first possible alteration. At the moment, there is much discussion about how virtually impossible it will be to achieve fail-safe regulation, introduced notably by ISPs and larger businesses. However, some sceptics point to the fact that since 1997 most of",
+  "z0": 4.666904755831213,
+  "seconds": 148.5
+ }
+}

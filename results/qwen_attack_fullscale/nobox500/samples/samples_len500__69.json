@@ -1,0 +1,134 @@
+{
+ "sample_id": "samples_len500:69",
+ "nobox": {
+  "z_final": 5.690294073272154,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Yet, the U.S. failed repeatedly to ratify a protocol that would penalize parents who send their children on perilous journeys to the U.S. To prevent further suffering, we must, at a minimum, be in compliance with the original convention.",
+    "rewrite": "Yet, the U.S. repeatedly failed to ratify a protocol to penalize parents sending children on perilous journeys to the U.S. To prevent further suffering, we must, at the very least, comply with the original convention."
+   },
+   "1": {
+    "original": "Detention deters little, harms youth and is inconsistent with children\u2019s rights as described in the UN Convention on the Rights of the Child, which governs the U.S. The United States was an early adopter of the treaty in 1995.",
+    "rewrite": "Detention has little deterrent effect, hurts youth and contravenes children\u2019s rights as outlined in the UN Convention on the Rights of the Child, which influences the U.S. laws. The U.S. became an early adopter of the treaty in 1995."
+   },
+   "5": {
+    "original": "Mass incarceration is racialized, yielding the largest Black youth prison population and the highest rate of children in detention contrary to their best interest in modern three-strikes-and-you\u2019re-out laws.",
+    "rewrite": "Mass incarceration is racialized, resulting in the largest Black youth prison population and the highest rate of children in detention contrary to their best interest due to modern three-strikes-and-you\u2019re-out laws."
+   },
+   "6": {
+    "original": "In immigration, youth from El Salvador, Guatemala and Honduras have been kidnaped, raped, beaten and tortured by gangs, forced to live in fear and witness family members executed or otherwise maimed.",
+    "rewrite": "In immigration, youth from El Salvador, Guatemala, and Honduras have been kidnapped, raped, beaten, and tortured by gangs, forced to live in fear and witness family members executed or otherwise maimed."
+   },
+   "8": {
+    "original": "Mass incarceration is arbitrary, depriving a whole class of young people of educational opportunity and sending them down a path more likely to be criminalized.",
+    "rewrite": "Mass incarceration is arbitrary, taking away educational opportunities from a whole class of young people and steering them toward a path more likely to be criminalized."
+   },
+   "13": {
+    "original": "In other words, the older a prisoner, the more he or she is assumed to be worthy of punishment; the younger a child, the more innocent, not deserving of jail.",
+    "rewrite": "In other words, the older a prisoner, the more assumed they are to be worthy of punishment; the younger a child, the more perceived as innocent and not deserving of jail."
+   },
+   "12": {
+    "original": "Mass incarceration is based in punishment and deterrence, its physical setting reflecting the moral truth of the individual being punished.",
+    "rewrite": "Mass incarceration is grounded in punishment and deterrence, with its physical setting mirroring the moral truth of the individual punishment."
+   },
+   "11": {
+    "original": "The arbitrary remedy is to make sure that no child who legitimately qualifies as a child is subjected to detention.",
+    "rewrite": "An arbitrary remedy involves ensuring that no child who genuinely qualifies as one is placed in detention."
+   },
+   "3": {
+    "original": "And we must make sure we release kids who are eligible for reunification with their families.",
+    "rewrite": "We must ensure that we release kids who qualify for reunification with their families."
+   },
+   "4": {
+    "original": "Juvenile justice reform is in many ways a mirror of the immigration tragedy.",
+    "rewrite": "Juvenile justice reform reflects in many ways the immigration tragedy."
+   },
+   "9": {
+    "original": "In immigration, the arbitrary use of the term \u201cchild\u201d cannot be justified.",
+    "rewrite": "In immigration, the arbitrary usage of the term \u201cchild\u201d cannot be justified."
+   },
+   "7": {
+    "original": "Children cannot move across borders in harm\u2019s way.",
+    "rewrite": "Children are not able to move across borders into harm's way."
+   },
+   "10": {
+    "original": "Too many children, including babies, are detained.",
+    "rewrite": "An excessive number of children, including infants, are detained."
+   }
+  },
+  "sentences_rewritten": 13,
+  "eligible": 13,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 17,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 13,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 13,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 11,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "aren\u2019t coming to court, Detention Watch Network reported that child protection teams in states like California can help children without interfering with their ability to work with sponsors.\nDetention has little deterrent effect, hurts youth and contravenes children\u2019s rights as outlined in the UN Convention on the Rights of the Child, which influences the U.S. laws. The U.S. became an early adopter of the treaty in 1995. Yet, the U.S. repeatedly failed to ratify a protocol to penalize parents sending children on perilous journeys to the U.S. To prevent further suffering, we must, at the very least, comply with the original convention. We must ensure that we release kids who qualify for reunification with their families.\nJuvenile justice reform reflects in many ways the immigration tragedy. Mass incarceration is racialized, resulting in the largest Black youth prison population and the highest rate of children in detention contrary to their best interest due to modern three-strikes-and-you\u2019re-out laws. In immigration, youth from El Salvador, Guatemala, and Honduras have been kidnapped, raped, beaten, and tortured by gangs, forced to live in fear and witness family members executed or otherwise maimed. Children are not able to move across borders into harm's way.\nMass incarceration is arbitrary, taking away educational opportunities from a whole class of young people and steering them toward a path more likely to be criminalized. In immigration, the arbitrary usage of the term \u201cchild\u201d cannot be justified. An excessive number of children, including infants, are detained. An arbitrary remedy involves ensuring that no child who genuinely qualifies as one is placed in detention.\nMass incarceration is grounded in punishment and deterrence, with its physical setting mirroring the moral truth of the individual punishment. In other words, the older a prisoner, the more assumed they are to be worthy of punishment; the younger a child, the more perceived as innocent and not deserving of jail.\nThere\u2019s a new bill in the Senate called the Dignity for Detained Children Act, which seeks to reform holding conditions for children",
+  "z0": 6.529318494299385,
+  "seconds": 485.2
+ }
+}

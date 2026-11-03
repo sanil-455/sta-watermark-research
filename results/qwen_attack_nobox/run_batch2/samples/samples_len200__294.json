@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:294",
+ "nobox": {
+  "z_final": 3.1277162108561214,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "As part of the arrangement, Galapagos also received $80 million in milestone payments from Gilead if certain regulatory approvals occur.",
+    "rewrite": "As part of the agreement, Galapagos also collected $80 million in milestone payments from Gilead if specific regulatory approvals are granted."
+   },
+   "3": {
+    "original": "Since JAK inhibitor supplier AbbVie agreed to buy the biotech's arthritis drug filgotinib, the stock has jumped nearly 50%.",
+    "rewrite": "As JAK inhibitor supplier AbbVie agreed to buy the biotech company's arthritis drug filgotinib, the stock has risen by almost 50%."
+   },
+   "4": {
+    "original": "Over the last year, Galapagos' shares, which are mainly being held in foreign portfolios, have fallen about 5%.",
+    "rewrite": "Over the past year, Galapagos' shares, largely held in foreign portfolios, have dropped around 5%."
+   },
+   "5": {
+    "original": "Gilead is making a vehicle-to-vehicle (CV to CV) partnership offer to carry us closer to a driverless future.",
+    "rewrite": "Gilead is presenting an offer for a vehicle-to-vehicle (CV to CV) partnership aimed at facilitating our progress toward a driverless future."
+   },
+   "2": {
+    "original": "Galapagos has seen a slow drip of investment pay off.",
+    "rewrite": "Investment in Galapagos has resulted in a gradual payoff."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 21,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 25,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "million up front and it retains an option to buy the biotech's SAR-160709 polyclonal B/C component program. As part of the agreement, Galapagos also collected $80 million in milestone payments from Gilead if specific regulatory approvals are granted.\nInvestment in Galapagos has resulted in a gradual payoff. As JAK inhibitor supplier AbbVie agreed to buy the biotech company's arthritis drug filgotinib, the stock has risen by almost 50%. Over the past year, Galapagos' shares, largely held in foreign portfolios, have dropped around 5%.\nGilead is presenting an offer for a vehicle-to-vehicle (CV to CV) partnership aimed at facilitating our progress toward a driverless future.\nAnd I'm not necessarily referring to the ride-",
+  "z0": 3.394112549695428,
+  "seconds": 166.4
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:179",
+ "nobox": {
+  "z_final": 3.473517904540846,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "He said claims of the Punjab Chief Minister about performing the complete national duty were baseless as India would not be disinterested if the Pakistan Democratic Movement (PDM) defeated his party in Lok Sabha\u2019s elections.",
+    "rewrite": "He stated that the Punjab Chief Minister's claims of fully discharging the national duty were unfounded, as India would not remain untouched if the Pakistan Democratic Movement (PDM) defeated his party in the Lok Sabha elections."
+   },
+   "2": {
+    "original": "People\u2019s National Party senior leader Sikandar Sherpao said that it was unfortunate that police officials came to the house of an ordinary citizen and laid siege, apprehending that some bomb would be placed in the house.",
+    "rewrite": "Senior leader Sikandar Sherpao of the People\u2019s National Party found it unfortunate that police officials surrounded the home of an ordinary citizen, apprehending that a bomb might be placed there."
+   },
+   "3": {
+    "original": "He said that on humanitarian grounds the police officials\u2019 children should visit Afghanistan as they were tribals and their children should know the customs and traditions of Afghans.",
+    "rewrite": "He said that on humanitarian grounds, the police officials' children should visit Afghanistan because they are tribals and their children should understand Afghan customs and traditions."
+   },
+   "1": {
+    "original": "He demanded action against the officials involved in Sahiwal killings and release of arrested farmers, who were detained at different cities and sold animals over a disputed land.",
+    "rewrite": "He demanded actions against the officials involved in the Sahiwal killings and the release of arrested farmers, who were detained in various cities and whose sold animals related to a disputed land."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 44,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the wounds of the dead people.\nHe demanded actions against the officials involved in the Sahiwal killings and the release of arrested farmers, who were detained in various cities and whose sold animals related to a disputed land.\nSenior leader Sikandar Sherpao of the People\u2019s National Party found it unfortunate that police officials surrounded the home of an ordinary citizen, apprehending that a bomb might be placed there. He said that on humanitarian grounds, the police officials' children should visit Afghanistan because they are tribals and their children should understand Afghan customs and traditions.\nHe stated that the Punjab Chief Minister's claims of fully discharging the national duty were unfounded, as India would not remain untouched if the Pakistan Democratic Movement (PDM) defeated his party in the Lok Sabha elections.\nHe questioned the claims of the Punjab Law Minister",
+  "z0": 4.949747468305833,
+  "seconds": 221.9
+ }
+}

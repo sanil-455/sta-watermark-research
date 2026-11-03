@@ -1,0 +1,44 @@
+{
+ "sample_id": "baseline_safe:2",
+ "nobox": {
+  "z_final": 4.631852119190989,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "In the past, this abuse has served as the headline of Caveney\u2019s stories online and in print, and over time, he\u2019s come to tribes with his pain on debut documentaries for the BBC\u2019s Radio Days project, which are presented on the companion audio-CD to \u201cGibberish.\u201d",
+    "rewrite": "In the past, such abuse has been the focal point of Caveney\u2019s online and print pieces, and throughout time, he has introduced tribes to his pain through debut documentaries for BBC\u2019s Radio Days project, featured on the accompanying audio-CD of \u201cGibberish.\u201d"
+   },
+   "3": {
+    "original": "But as he reaches two critical milestones, entering his 50s and 60s, he\u2019s moved away from the spectacle of the abuse and started to look at the context in which it happened.",
+    "rewrite": "As he approaches his 50s and 60s, he has shifted away from the spectacle of the abuse to examine the context in which it occurred."
+   },
+   "1": {
+    "original": "However, after the buried soul of his father\u2019s abuse is revealed, these painful anecdotes begin to make more sense.",
+    "rewrite": "However, once the buried soul of his father\u2019s abuse was revealed, these painful anecdotes started to make more sense."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 28,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "times when it can feel like a stretch to find Caveney\u2019s purpose in going into such painful detail about his early abuse. However, once the buried soul of his father\u2019s abuse was revealed, these painful anecdotes started to make more sense. In the past, such abuse has been the focal point of Caveney\u2019s online and print pieces, and throughout time, he has introduced tribes to his pain through debut documentaries for BBC\u2019s Radio Days project, featured on the accompanying audio-CD of \u201cGibberish.\u201d As he approaches his 50s and 60s, he has shifted away from the spectacle of the abuse to examine the context in which it occurred. So, with \u201cGibberish\u201d he\u2019s moved from pornography to an exploration of what incest, trauma",
+  "z0": 5.374011537017761,
+  "seconds": 149.5
+ }
+}

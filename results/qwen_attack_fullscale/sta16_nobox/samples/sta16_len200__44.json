@@ -1,0 +1,44 @@
+{
+ "sample_id": "sta16_len200:44",
+ "nobox": {
+  "z_final": 7.97040545920216,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "These rule changes are essentially an extension to the current regulatory framework which now treats anyone who co-sponsors a defined contribution (DC) retirement plan, like a 401(k), as sharing in its fiduciary responsibility.",
+    "rewrite": "These rule changes are essentially an expansion of the current regulatory framework, which now considers anyone who co-sponsors a defined contribution (DC) retirement plan, such as a 401(k), to be sharing in its fiduciary responsibility."
+   },
+   "4": {
+    "original": "The rule change would allow sponsors to align administration with the benefits employees received, meeting conditions spelled out in a separate notice right before the increase in plan-level contributions.",
+    "rewrite": "The rule change would permit sponsors to align administration with the benefits employees received, as detailed in an additional notice that preceded the rise in plan-level contributions."
+   },
+   "2": {
+    "original": "For most small employers, according to the plan, requirements about contributing money for administrative costs would prevent them from offering a DC plan, unless an administrative fee was waived.",
+    "rewrite": "For the majority of small employers, the plan's requirement of contributing for administrative costs would prevent them from offering a DC plan, unless an administrative fee was waived."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 43,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": ".\nThese rule changes are essentially an expansion of the current regulatory framework, which now considers anyone who co-sponsors a defined contribution (DC) retirement plan, such as a 401(k), to be sharing in its fiduciary responsibility.\nFor the majority of small employers, the plan's requirement of contributing for administrative costs would prevent them from offering a DC plan, unless an administrative fee was waived. Ditto things like complying with statutory notice requirements, which fail to \u201creflect the reality that many employers receive only minimal, if any, financial benefit from participating in multiple-employer plans or adding individual employees.\u201d The rule change would permit sponsors to align administration with the benefits employees received, as detailed in an additional notice that preceded the rise in plan-level contributions.\nThese elements may make a difference \u2014 there is no easy answer to the question of how small businesses can co",
+  "z0": 10.182337649086284,
+  "seconds": 151.2
+ }
+}

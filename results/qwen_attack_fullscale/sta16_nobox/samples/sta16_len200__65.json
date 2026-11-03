@@ -1,0 +1,53 @@
+{
+ "sample_id": "sta16_len200:65",
+ "nobox": {
+  "z_final": 4.7979696560642004,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "Amid injuries, Zimmer and the coaching staff leaned on Cook to carry more of the workload on the ground (22 carries to eight for Latavius Murray) and the two backs, mainly, earned mixed results.",
+    "rewrite": "Due to injuries, Zimmer and the coaching staff depended on Cook to handle a larger ground workload (22 carries compared to eight for Latavius Murray), and the outcomes for the two backs were mixed."
+   },
+   "5": {
+    "original": "Cook scintillated on the versatile left side and rushed for a career-high 22 yards, but trailed off and fumbled the rock late in the final frame.",
+    "rewrite": "Cook shone on the flexible left side and rushed for a personal best 22 yards, but faded late in the final frame and fumbled the ball."
+   },
+   "3": {
+    "original": "View photos from the Minnesota Vikings-New Orleans Saints season opener at the Mercedes-Benz Superdome in New Orleans on Sept. 11, 2017.",
+    "rewrite": "View photos from the Minnesota Vikings-New Orleans Saints season opener at the Mercedes-Benz Superdome in New Orleans on September 11, 2017."
+   },
+   "6": {
+    "original": "Murray struggled on the inside (three rushes for five yards).",
+    "rewrite": "Murray had difficulties on the inside (made three rushes for just five yards)."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 6,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 38,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "played tough, they protected me. I think made my job a lot easier.\"\nGallery: Vikings Season Opener at Saints\nView photos from the Minnesota Vikings-New Orleans Saints season opener at the Mercedes-Benz Superdome in New Orleans on September 11, 2017.\nDue to injuries, Zimmer and the coaching staff depended on Cook to handle a larger ground workload (22 carries compared to eight for Latavius Murray), and the outcomes for the two backs were mixed. Cook shone on the flexible left side and rushed for a personal best 22 yards, but faded late in the final frame and fumbled the ball. Murray had difficulties on the inside (made three rushes for just five yards).\nThese were concerns. Combine that with the lowly success of the much-maligned passing game'",
+  "z0": 7.212489168102785,
+  "seconds": 163.3
+ }
+}

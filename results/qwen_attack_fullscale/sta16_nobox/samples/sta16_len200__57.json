@@ -1,0 +1,35 @@
+{
+ "sample_id": "sta16_len200:57",
+ "nobox": {
+  "z_final": 8.05091664863379,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "The Tribunal will be able to ensure accountability, especially in Myanmar, which is still struggling to put the horror of genocide on trial.",
+    "rewrite": "The Tribunal will ensure accountability, particularly in Myanmar, which is still working to put the horror of genocide on trial."
+   },
+   "1": {
+    "original": "The international community at large must respond and this is where the Myanmar Tribunal will have a critical role to play.",
+    "rewrite": "At large, the international community must respond, and this is where the Myanmar Tribunal will play a critical role."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 27,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "evidenced by the recent speech given by the country\u2019s SAC Commander, Min Aung Hlaing. At large, the international community must respond, and this is where the Myanmar Tribunal will play a critical role. As noted by Special Rapporteur on the situation of human rights in Myanmar, Yang Jiechi in the UN\u2019s report, there is increasing concern over the \u201ctendency of the civilian dispensation...to modify, amend or even nullify failures reports of the UN Human Rights Council.\u201d The Tribunal will ensure accountability, particularly in Myanmar, which is still working to put the horror of genocide on trial.\nIn April, right before the UN Report on Myanmar was due out, Henri Tiphagne, executive director of the Serious Organized Crime Research Centre (SOCRCRE) and member of the UN Sanctions Committee Panel of Experts on",
+  "z0": 9.050966799187808,
+  "seconds": 61.3
+ }
+}

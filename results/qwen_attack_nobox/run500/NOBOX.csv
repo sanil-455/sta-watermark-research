@@ -1,0 +1,22 @@
+sample,z0,z_final,status,sentences_rewritten,eligible
+samples_len500:28,7.8710,5.5678,not broken,9,9
+samples_len500:30,7.3343,5.3241,not broken,12,12
+samples_len500:34,6.8871,5.2877,not broken,16,16
+samples_len500:43,7.6026,6.3117,not broken,8,11
+samples_len500:44,6.8871,3.1431,not broken,16,16
+samples_len500:46,6.1715,4.7004,not broken,8,8
+samples_len500:47,8.7654,3.7688,not broken,10,10
+samples_len500:51,6.2610,5.2588,not broken,6,6
+samples_len500:52,7.6026,5.8455,not broken,18,19
+samples_len500:56,7.6921,4.0836,not broken,16,16
+samples_len500:62,4.2038,1.3443,broken,9,9
+samples_len500:64,6.7082,4.7804,not broken,14,16
+samples_len500:65,6.4399,6.5293,not broken,1,2
+samples_len500:66,7.5132,5.5344,not broken,8,9
+samples_len500:69,6.5293,5.6903,not broken,13,13
+samples_len500:71,7.5132,7.4982,not broken,1,1
+samples_len500:72,7.9236,5.1877,not broken,11,11
+samples_len500:74,6.0821,4.6364,not broken,11,11
+samples_len500:78,8.6759,3.8930,not broken,15,15
+samples_len500:81,7.7815,5.0780,not broken,15,15
+samples_len500:86,6.7976,5.3595,not broken,14,14

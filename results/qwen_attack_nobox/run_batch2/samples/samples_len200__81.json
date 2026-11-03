@@ -1,0 +1,71 @@
+{
+ "sample_id": "samples_len200:81",
+ "nobox": {
+  "z_final": 3.5897907930886905,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Miller said at the November ASB Executive Council meeting that he hoped to generate enough sponsorship funds for Everybody\u2019s Formal \u201cadministered funds,\u201d which he\u2019s defined as the cash on hand reserved for ASB sponsored events.",
+    "rewrite": "Miller said at the November ASB Executive Council meeting that he hoped to generate enough sponsorship funds for Everybody\u2019s Formal \u201cadministered funds,\u201d which he has defined as the cash on hand set aside for ASB sponsored events."
+   },
+   "5": {
+    "original": "If ASB can generate enough administered funds for the coming events, Miller said, they can fail fast.",
+    "rewrite": "If ASB generates sufficient funds for upcoming events, Miller said they can fail fast."
+   },
+   "4": {
+    "original": "ASB allocates budgets of different types for student organizations to host events.",
+    "rewrite": "ASB allocates various types of budgets for student organizations to host events."
+   },
+   "6": {
+    "original": "ASB\u2019s target for fundraising was the goal Morgan left for the organization.",
+    "rewrite": "The fundraising target set by ASB was the goal Morgan left for the organization."
+   },
+   "1": {
+    "original": "The sponsoring entities spent a collective $18,000 on Everybody\u2019s Formal.",
+    "rewrite": "The sponsoring entities collectively spent $18,000 on Everybody\u2019s Formal."
+   },
+   "2": {
+    "original": "Sistrunk said she\u2019s attended Everybody\u2019s Formal for the last two years.",
+    "rewrite": "Sistrunk stated that she has attended Everybody's Formal for the past two years."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 32,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 21,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 32,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 20,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "sponsorships for the event started in September. The sponsoring entities collectively spent $18,000 on Everybody\u2019s Formal.\nSistrunk stated that she has attended Everybody's Formal for the past two years.\nMiller said at the November ASB Executive Council meeting that he hoped to generate enough sponsorship funds for Everybody\u2019s Formal \u201cadministered funds,\u201d which he has defined as the cash on hand set aside for ASB sponsored events. ASB allocates various types of budgets for student organizations to host events. If ASB generates sufficient funds for upcoming events, Miller said they can fail fast.\nThe fundraising target set by ASB was the goal Morgan left for the organization. Morgan left in August.\nASB President Elam Miller\u2019s objective last year was 30 formal commitments, and he said he\u2019d be OK with",
+  "z0": 5.232590180780451,
+  "seconds": 178.1
+ }
+}

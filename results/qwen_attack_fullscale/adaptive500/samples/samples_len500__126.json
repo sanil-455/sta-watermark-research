@@ -1,0 +1,369 @@
+{
+ "sample_id": "samples_len500:126",
+ "source": "results/raw/samples_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8205285802089736,
+ "needed_share": 0.6662585108209269,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 1627,
+  "segments": 15,
+  "eligible": 13,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1335,
+  "eligible_char_share": 0.8205285802089736
+ },
+ "attack": {
+  "z0": 5.992662179699436,
+  "z_final": 1.979097737100941,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 361,
+  "seconds": 352.9,
+  "seconds_by_phase": {
+   "generate": 324.1,
+   "gates": 28.7,
+   "detector": 0.2
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 167,
+    "z_before": 5.992662179699436,
+    "z_after": 5.434311918885962,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "duplicate": 7,
+      "hit length limit": 1,
+      "CJK text": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 49,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 41.44
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 166,
+    "z_before": 5.434311918885962,
+    "z_after": 4.8997894350611135,
+    "accepted": true,
+    "survivors": 30,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 30,
+     "rejected": {
+      "duplicate": 30
+     }
+    },
+    "queries_total": 79,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.03
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 115,
+    "z_before": 4.8997894350611135,
+    "z_after": 4.65404317536833,
+    "accepted": true,
+    "survivors": 59,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 59,
+     "fluency_skipped": false,
+     "after_fluency": 59,
+     "rejected": {
+      "duplicate": 1
+     }
+    },
+    "queries_total": 138,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 60.88
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 113,
+    "z_before": 4.65404317536833,
+    "z_after": 4.1542523394709665,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 41,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "duplicate": 17,
+      "CJK text": 2
+     }
+    },
+    "queries_total": 179,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.89
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 111,
+    "z_before": 4.1542523394709665,
+    "z_after": 3.833678048381316,
+    "accepted": true,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 42,
+     "after_spelling": 39,
+     "after_content": 39,
+     "after_semantic": 39,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "duplicate": 17,
+      "CJK text": 1,
+      "unknown word": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 217,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.18
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 102,
+    "z_before": 3.833678048381316,
+    "z_after": 3.643295634841021,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 44,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "duplicate": 14,
+      "CJK text": 2,
+      "numbers changed": 1
+     }
+    },
+    "queries_total": 260,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.65
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 99,
+    "z_before": 3.643295634841021,
+    "z_after": 3.21053632907486,
+    "accepted": true,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 39,
+     "after_spelling": 38,
+     "after_content": 38,
+     "after_semantic": 37,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "duplicate": 21,
+      "unknown word": 1,
+      "meaning too different": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 296,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.47
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 91,
+    "z_before": 3.21053632907486,
+    "z_after": 2.330937334807775,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 43,
+     "after_spelling": 43,
+     "after_content": 43,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 14,
+      "meaning too different": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 337,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.11
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 86,
+    "z_before": 2.330937334807775,
+    "z_after": 1.979097737100941,
+    "accepted": true,
+    "survivors": 24,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 49,
+     "after_content": 48,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 24,
+     "rejected": {
+      "CJK text": 10,
+      "several lines": 1,
+      "negation count changed": 1,
+      "meaning too different": 19,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 361,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.45
+   }
+  ],
+  "rewrites": {
+   "10": {
+    "original": "Gaining the most premarket were the industrial and consumer discretionary sectors, up 0.22 percent each, followed by the utility, materials and the technology indexes.",
+    "rewrite": "The industrial and consumer discretionary sectors led the gainers in premarket trading, increasing by 0.22 percent each, with the utility, materials, and technology indexes trailing behind."
+   },
+   "8": {
+    "original": "Among the 22 companies in the S&P index that have reported actual quarterly results, 85 percent have come in above expectations, according to Thomson Reuters I/B/E/S.",
+    "rewrite": "Out of the 22 companies in the S&P index that have reported actual quarterly results, 85 percent have surpassed expectations, as per Thomson Reuters I/B/E/S."
+   },
+   "5": {
+    "original": "S&P 500 e-minis were up 6.75 points, or 0.23 percent, and Nasdaq 100 e-minis were up 27.25 points, or 0.32 percent.",
+    "rewrite": "S&P 500 e-minis gained 6.75 points, representing a 0.23 percent increase, while Nasdaq 100 e-minis climbed 27.25 points, equating to a 0.32 percent rise."
+   },
+   "12": {
+    "original": "Crude oil futures fell with U.S. West Texas Intermediate (WTI) slipping 0.32 percent or $0.13 to $40.81 a barrel.",
+    "rewrite": "Crude oil futures declined, with U.S. West Texas Intermediate (WTI) dropping 0.32 percent to $40.81 a barrel or $0.13 lower."
+   },
+   "6": {
+    "original": "With earnings season entering its final stretch, nearly 70 percent of S&P 500 companies have reported thus far.",
+    "rewrite": "As earnings season moves towards its conclusion, about 70 percent of S&P 500 firms have provided their reports so far."
+   },
+   "9": {
+    "original": "The S&P index recorded eight new 52-week intraday highs on Monday, bringing the total this year to 53.",
+    "rewrite": "The S&P index hit eight fresh 52-week intra-day highs on Monday, pushing the year-to-date total to 53."
+   },
+   "1": {
+    "original": "Hopes of a possible agreement between Washington and Beijing had also boosted the market last week.",
+    "rewrite": "Last week, the market also gained from hopes of a potential agreement between Washington and Beijing."
+   },
+   "2": {
+    "original": "The S&P 500 shot up 2.6 percent on Friday alone in its biggest one-day gain since March 23.",
+    "rewrite": "On Friday, the S&P 500 gained 2.6 percent, recording its largest single-day increase since March 23."
+   },
+   "3": {
+    "original": "On Monday, all three major U.S. indexes erased initial losses to close little changed.",
+    "rewrite": "On Monday, all three major U.S. indexes reclaimed their losses but ended nearly flat."
+   }
+  },
+  "final_span": "the banking sector had also eased concerns over the impact of the intensifying Sino-U.S. trade war as President Donald Trump announced this week that he would raise tariffs on $200 billion of Chinese imports starting next week.\nLast week, the market also gained from hopes of a potential agreement between Washington and Beijing. On Friday, the S&P 500 gained 2.6 percent, recording its largest single-day increase since March 23.\nOn Monday, all three major U.S. indexes reclaimed their losses but ended nearly flat.\nAt 8:23 a.m. ET, Dow e-minis were up 46 points, or 0.18 percent. S&P 500 e-minis gained 6.75 points, representing a 0.23 percent increase, while Nasdaq 100 e-minis climbed 27.25 points, equating to a 0.32 percent rise.\nAs earnings season moves towards its conclusion, about 70 percent of S&P 500 firms have provided their reports so far. So far what has stood out were earnings beats from banking and industrial sectors.\nOut of the 22 companies in the S&P index that have reported actual quarterly results, 85 percent have surpassed expectations, as per Thomson Reuters I/B/E/S.\nThe S&P index hit eight fresh 52-week intra-day highs on Monday, pushing the year-to-date total to 53.\nThe industrial and consumer discretionary sectors led the gainers in premarket trading, increasing by 0.22 percent each, with the utility, materials, and technology indexes trailing behind. Down the most were the energy and the financials, both off 0.14 percent.\nCrude oil futures declined, with U.S. West Texas Intermediate (WTI) dropping 0.32 percent to $40.81 a barrel or $0.13 lower. Brent crude lost 0.40 percent or 27 cents to $68.8, a session high.\nU.S. gold futures settled down 0.06 percent at $1,2",
+  "break_point": {
+   "step": 8,
+   "sentences_rewritten": 9,
+   "queries": 361
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 9,
+   "eligible": 13,
+   "segments": 15,
+   "pct_of_eligible": 69.23076923076923,
+   "pct_of_segments": 60.0
+  },
+  "tokens": {
+   "original": 501,
+   "final": 518,
+   "length_change": 17,
+   "pct_not_preserved": 15.76846307385229,
+   "pct_new": 18.532818532818528
+  },
+  "words": {
+   "original": 273,
+   "final": 277,
+   "length_change": 4,
+   "pct_not_preserved": 26.739926739926744,
+   "pct_new": 27.797833935018048
+  },
+  "characters": {
+   "original": 1627,
+   "final": 1706,
+   "length_change": 79,
+   "pct_not_preserved": 16.04179471419791,
+   "pct_new": 19.92966002344666
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 317,
+   "green_after": 281,
+   "pairs_before": 500,
+   "pairs_after": 517,
+   "pairs_changed_before": 122,
+   "pairs_changed_after": 139,
+   "green_fraction_of_new_pairs": 0.2949640287769784,
+   "delta_achieved": 0.20503597122302158
+  }
+ }
+}

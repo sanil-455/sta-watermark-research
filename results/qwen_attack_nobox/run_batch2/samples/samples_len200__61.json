@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:61",
+ "nobox": {
+  "z_final": 3.8988466275458475,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Things got worse for TFC five minutes before halftime, as Giovinco and Altidore were denied by the approaching referee; a goal kick was awarded, and Montreal immediately scored again.",
+    "rewrite": "Before halftime, TFC faced a worsening situation when Giovinco and Altidore were both denied by the incoming referee; a goal kick was awarded, and Montreal scored again almost instantly."
+   },
+   "4": {
+    "original": "TFC midfielder Benoit Cheyrou fouled Piatti, giving Impact super-sub Romualdo a chance to whack a free kick high into the upper reaches of the north end goal.",
+    "rewrite": "TFC midfielder Benoit Cheyrou fouled Piatti, allowing Impact's substitute Romualdo a chance to shoot a free kick high into the upper part of the north end goal."
+   },
+   "6": {
+    "original": "In the scintilla of time remaining before intermission, Giovinco floated a free kick over the wall and onto the left post.",
+    "rewrite": "In the brief moment left before intermission, Giovinco executed a floating free kick over the wall and it hit the left post."
+   },
+   "1": {
+    "original": "It sounded as ominous as the Impact's Sigi Schmid anyone-but-Toronto soccer chant.",
+    "rewrite": "It sounded as ominously as anyone-but-Toronto soccer during the Impact's Sigi Schmid chant."
+   },
+   "5": {
+    "original": "On the next kick, Piatti sent a game-sealing volley sailing just wide.",
+    "rewrite": "In the following kick, Piatti's game-sealing volley just sailed wide."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 39,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the ball home. It sounded as ominously as anyone-but-Toronto soccer during the Impact's Sigi Schmid chant.\nWhat did the MLS notebook contain\nBefore halftime, TFC faced a worsening situation when Giovinco and Altidore were both denied by the incoming referee; a goal kick was awarded, and Montreal scored again almost instantly.\nTFC midfielder Benoit Cheyrou fouled Piatti, allowing Impact's substitute Romualdo a chance to shoot a free kick high into the upper part of the north end goal.\nIn the following kick, Piatti's game-sealing volley just sailed wide.\nIn the brief moment left before intermission, Giovinco executed a floating free kick over the wall and it hit the left post. Soon thereafter, he took a hand in the damage he'd helped prevent in the Old",
+  "z0": 5.091168824543142,
+  "seconds": 205.7
+ }
+}

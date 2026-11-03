@@ -1,0 +1,216 @@
+{
+ "sample_id": "sta16_len200:65",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.7243243243243244,
+ "needed_share": 0.7227032230640991,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 740,
+  "segments": 9,
+  "eligible": 4,
+  "skipped": 5,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 1,
+   "no final punctuation": 1,
+   "too short": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 536,
+  "eligible_char_share": 0.7243243243243244
+ },
+ "attack": {
+  "z0": 7.212489168102785,
+  "z_final": 1.811505837158206,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 124,
+  "seconds": 151.0,
+  "seconds_by_phase": {
+   "generate": 140.5,
+   "gates": 10.6,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 194,
+    "z_before": 7.212489168102785,
+    "z_after": 5.263968047576974,
+    "accepted": true,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 60,
+     "after_content": 23,
+     "after_semantic": 23,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "numbers changed": 37
+     }
+    },
+    "queries_total": 24,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 45.4
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 145,
+    "z_before": 5.263968047576974,
+    "z_after": 3.315124394535412,
+    "accepted": true,
+    "survivors": 10,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 10,
+     "fluency_skipped": false,
+     "after_fluency": 10,
+     "rejected": {
+      "CJK text": 3,
+      "several lines": 1,
+      "glued punctuation": 1,
+      "unknown word": 1,
+      "meaning too different": 44
+     }
+    },
+    "queries_total": 34,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.83
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 136,
+    "z_before": 3.315124394535412,
+    "z_after": 2.5082388514498235,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 46,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "duplicate": 14,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 78,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.57
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 61,
+    "z_before": 2.5082388514498235,
+    "z_after": 1.811505837158206,
+    "accepted": true,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 1,
+      "perplexity too high": 12
+     }
+    },
+    "queries_total": 124,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.66
+   }
+  ],
+  "rewrites": {
+   "4": {
+    "original": "Amid injuries, Zimmer and the coaching staff leaned on Cook to carry more of the workload on the ground (22 carries to eight for Latavius Murray) and the two backs, mainly, earned mixed results.",
+    "rewrite": "Despite injuries, Zimmer and the coaching staff counted on Cook to bear a heavier ground workload (with 22 carries compared to eight for Latavius Murray), and the performances of both backs largely yielded mixed outcomes."
+   },
+   "5": {
+    "original": "Cook scintillated on the versatile left side and rushed for a career-high 22 yards, but trailed off and fumbled the rock late in the final frame.",
+    "rewrite": "Cook excelled on the flexible left side, rushing for a career-high 22 yards, yet faltered later, fumbling near the end of the final quarter."
+   },
+   "3": {
+    "original": "View photos from the Minnesota Vikings-New Orleans Saints season opener at the Mercedes-Benz Superdome in New Orleans on Sept. 11, 2017.",
+    "rewrite": "See photos from the Minnesota Vikings' clash against the New Orleans Saints during their season opener at the Mercedes-Benz Superdome in New Orleans on September 11, 2017."
+   },
+   "6": {
+    "original": "Murray struggled on the inside (three rushes for five yards).",
+    "rewrite": "Murray had difficulty on the interior (registered three runs for five yards)."
+   }
+  },
+  "final_span": "played tough, they protected me. I think made my job a lot easier.\"\nGallery: Vikings Season Opener at Saints\nSee photos from the Minnesota Vikings' clash against the New Orleans Saints during their season opener at the Mercedes-Benz Superdome in New Orleans on September 11, 2017.\nDespite injuries, Zimmer and the coaching staff counted on Cook to bear a heavier ground workload (with 22 carries compared to eight for Latavius Murray), and the performances of both backs largely yielded mixed outcomes. Cook excelled on the flexible left side, rushing for a career-high 22 yards, yet faltered later, fumbling near the end of the final quarter. Murray had difficulty on the interior (registered three runs for five yards).\nThese were concerns. Combine that with the lowly success of the much-maligned passing game'",
+  "break_point": {
+   "step": 3,
+   "sentences_rewritten": 4,
+   "queries": 124
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 4,
+   "eligible": 4,
+   "segments": 9,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 44.44444444444444
+  },
+  "tokens": {
+   "original": 201,
+   "final": 207,
+   "length_change": 6,
+   "pct_not_preserved": 23.880597014925375,
+   "pct_new": 26.086956521739136
+  },
+  "words": {
+   "original": 124,
+   "final": 131,
+   "length_change": 7,
+   "pct_not_preserved": 29.838709677419352,
+   "pct_new": 33.587786259541986
+  },
+  "characters": {
+   "original": 740,
+   "final": 813,
+   "length_change": 73,
+   "pct_not_preserved": 14.459459459459456,
+   "pct_new": 22.14022140221402
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 151,
+   "green_after": 116,
+   "pairs_before": 200,
+   "pairs_after": 206,
+   "pairs_changed_before": 73,
+   "pairs_changed_after": 79,
+   "green_fraction_of_new_pairs": 0.34177215189873417,
+   "delta_achieved": 0.15822784810126583
+  }
+ }
+}

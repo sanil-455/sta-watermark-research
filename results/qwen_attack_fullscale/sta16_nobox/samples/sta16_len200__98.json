@@ -1,0 +1,44 @@
+{
+ "sample_id": "sta16_len200:98",
+ "nobox": {
+  "z_final": 4.703234934400741,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Akeredolu, therefore, paid commendations to the federal lawmakers, especially Senator Gaya for the courage and vision in bringing a type of development objective, which since 2017 is beginning to ring the wellbeing of the masses contrary to what had before dominated federal\u2013 state relations.",
+    "rewrite": "Akeredolu, hence, commended the federal lawmakers, particularly Senator Gaya, for their courage and vision in advancing a development objective since 2017 that is enhancing the well-being of the masses, shifting from previous dynamics in federal-state relations."
+   },
+   "1": {
+    "original": "In his remarks, Governor Akeredolu, described the approaching 2019 elections as critical to the progress and continuity of development projects, especially on the roads, which have been the whine of the citizens of Ondo State.",
+    "rewrite": "In his remarks, Governor Akeredolu described the upcoming 2019 elections as crucial for the progress and continuity of development projects, especially on the roads, which have been a complaint of Ondo State citizens."
+   },
+   "3": {
+    "original": "He tasked the federal lawmakers to look in deep details, during the budgeting process and approval thereof to federal capital road infrastructural developments across the country.",
+    "rewrite": "He assigned federal lawmakers to thoroughly examine the details during the budgeting process and approval of federal capital road infrastructural developments across the country."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 56,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 35,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "especially Owo-Ifon-Ise- Akure Road.\nIn his remarks, Governor Akeredolu described the upcoming 2019 elections as crucial for the progress and continuity of development projects, especially on the roads, which have been a complaint of Ondo State citizens.\nAkeredolu, hence, commended the federal lawmakers, particularly Senator Gaya, for their courage and vision in advancing a development objective since 2017 that is enhancing the well-being of the masses, shifting from previous dynamics in federal-state relations.\nHe assigned federal lawmakers to thoroughly examine the details during the budgeting process and approval of federal capital road infrastructural developments across the country.\nGovernor Akeredolu, lauded Senator Gaya for his leadership skill and ability in harnessing the simple causes and dist",
+  "z0": 9.192388155425117,
+  "seconds": 165.8
+ }
+}

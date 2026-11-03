@@ -1,0 +1,261 @@
+{
+ "sample_id": "sta16_len200:50",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.3408450704225352,
+ "needed_share": 0.8355565625147564,
+ "delta_needed": null,
+ "segmentation": {
+  "chars": 710,
+  "segments": 5,
+  "eligible": 2,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 242,
+  "eligible_char_share": 0.3408450704225352
+ },
+ "attack": {
+  "z0": 12.162236636408617,
+  "z_final": 8.743040563433231,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 168,
+  "seconds": 223.7,
+  "seconds_by_phase": {
+   "generate": 210.7,
+   "gates": 12.9,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 129,
+    "z_before": 12.162236636408617,
+    "z_after": 9.845928482997817,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "duplicate": 2,
+      "CJK text": 3,
+      "unknown word": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 51,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.08
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 113,
+    "z_before": 9.845928482997817,
+    "z_after": 8.784773691099147,
+    "accepted": true,
+    "survivors": 6,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 9,
+     "after_content": 9,
+     "after_semantic": 8,
+     "fluency_skipped": false,
+     "after_fluency": 6,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 50,
+      "meaning too different": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 57,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.75
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 129,
+    "z_before": 8.784773691099147,
+    "z_after": 9.334770004369833,
+    "accepted": false,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 3,
+      "unknown word": 1,
+      "meaning too different": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 106,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.94
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 113,
+    "z_before": 8.784773691099147,
+    "z_after": 8.743040563433231,
+    "accepted": true,
+    "survivors": 7,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 8,
+     "after_content": 8,
+     "after_semantic": 7,
+     "fluency_skipped": false,
+     "after_fluency": 7,
+     "rejected": {
+      "unknown word": 52,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 113,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.62
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 129,
+    "z_before": 8.743040563433231,
+    "z_after": 9.194397523101113,
+    "accepted": false,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "hit length limit": 1,
+      "duplicate": 1,
+      "CJK text": 2,
+      "unknown word": 2,
+      "meaning too different": 1,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 161,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 38.91
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 113,
+    "z_before": 8.743040563433231,
+    "z_after": 8.870064756273644,
+    "accepted": false,
+    "survivors": 7,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 11,
+     "after_content": 11,
+     "after_semantic": 7,
+     "fluency_skipped": false,
+     "after_fluency": 7,
+     "rejected": {
+      "unknown word": 49,
+      "meaning too different": 4
+     }
+    },
+    "queries_total": 168,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.43
+   }
+  ],
+  "rewrites": {
+   "1": {
+    "original": "HaShem has opened the way to us- The \u201cvoucher program\u201d was a policy approved by the community\u2019s Rabbanim and is according to all.",
+    "rewrite": "The \"voucher program\" has been opened up for us by HaShem- and it was enacted as policy by the community's Rabbanim, conforming to all guidelines."
+   },
+   "3": {
+    "original": "I learned from the BoimelYeshiva in Renueila, should have merit to be a refuel to my ancestors on the other side.",
+    "rewrite": "I was educated at the BoimelYeshiva in Renueila and hope it merits to serve as a refueling for my ancestors on the other side."
+   }
+  },
+  "final_span": "the opportunity to have it reinstituted, to let the recipients be proud who wont be ashamed to show the tomchei boxes on kos this is the credit system that Rabbi Hershkowitz zt\u201dl and his partners put up.\nThe \"voucher program\" has been opened up for us by HaShem- and it was enacted as policy by the community's Rabbanim, conforming to all guidelines.\nI don\u2019t represent my community- I don\u2019t even know anyone at the office there, but l know that Rabbi Hershkowitz zt\u201dl left a will in type for us -\u201cLeave my boxes out- no delivery requests\u201d. I was educated at the BoimelYeshiva in Renueila and hope it merits to serve as a refueling for my ancestors on the other side.\nI am only responding to a question that Hashem has let me see, Rabbi Hers",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 2,
+   "segments": 5,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 40.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 212,
+   "length_change": 11,
+   "pct_not_preserved": 13.432835820895528,
+   "pct_new": 17.924528301886788
+  },
+  "words": {
+   "original": 131,
+   "final": 136,
+   "length_change": 5,
+   "pct_not_preserved": 19.083969465648853,
+   "pct_new": 22.058823529411764
+  },
+  "characters": {
+   "original": 710,
+   "final": 740,
+   "length_change": 30,
+   "pct_not_preserved": 10.140845070422532,
+   "pct_new": 13.783783783783788
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 186,
+   "green_after": 169,
+   "pairs_before": 200,
+   "pairs_after": 211,
+   "pairs_changed_before": 39,
+   "pairs_changed_after": 50,
+   "green_fraction_of_new_pairs": 0.42,
+   "delta_achieved": 0.08000000000000002
+  }
+ }
+}

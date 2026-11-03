@@ -1,0 +1,375 @@
+{
+ "sample_id": "sta16_len200:75",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.3076923076923077,
+ "needed_share": 0.7950415126995515,
+ "delta_needed": null,
+ "segmentation": {
+  "chars": 676,
+  "segments": 5,
+  "eligible": 2,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 208,
+  "eligible_char_share": 0.3076923076923077
+ },
+ "attack": {
+  "z0": 9.758073580374356,
+  "z_final": 7.650300229145201,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 5,
+  "queries": 409,
+  "seconds": 314.2,
+  "seconds_by_phase": {
+   "generate": 284.2,
+   "gates": 29.8,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 115,
+    "z_before": 9.758073580374356,
+    "z_after": 9.098958444575917,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "duplicate": 2,
+      "CJK text": 1,
+      "unknown word": 4,
+      "glued punctuation": 1
+     }
+    },
+    "queries_total": 53,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.44
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 93,
+    "z_before": 9.098958444575917,
+    "z_after": 8.171634460504064,
+    "accepted": true,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "duplicate": 6,
+      "CJK text": 2,
+      "unknown word": 11,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 92,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.44
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 115,
+    "z_before": 8.171634460504064,
+    "z_after": 8.11147458237388,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 3,
+      "unknown word": 5,
+      "glued punctuation": 2,
+      "meaning too different": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 134,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.76
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 93,
+    "z_before": 8.11147458237388,
+    "z_after": 8.11147458237388,
+    "accepted": false,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 4,
+      "unknown word": 12,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 173,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.58
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 115,
+    "z_before": 8.11147458237388,
+    "z_after": 7.981596478959656,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 1,
+      "several lines": 1,
+      "duplicate": 4,
+      "unknown word": 3,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 220,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.95
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 93,
+    "z_before": 7.981596478959656,
+    "z_after": 7.919595949289332,
+    "accepted": true,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 34,
+     "after_content": 34,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "CJK text": 7,
+      "duplicate": 8,
+      "unknown word": 11
+     }
+    },
+    "queries_total": 253,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.83
+   },
+   {
+    "pass": 4,
+    "segment": 3,
+    "chars": 115,
+    "z_before": 7.919595949289332,
+    "z_after": 8.010357616594195,
+    "accepted": false,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "several lines": 1,
+      "duplicate": 1,
+      "CJK text": 1,
+      "unknown word": 5,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 304,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.0
+   },
+   {
+    "pass": 4,
+    "segment": 2,
+    "chars": 93,
+    "z_before": 7.919595949289332,
+    "z_after": 7.650300229145201,
+    "accepted": true,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 40,
+     "after_content": 40,
+     "after_semantic": 40,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "duplicate": 7,
+      "CJK text": 1,
+      "unknown word": 12,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 335,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.13
+   },
+   {
+    "pass": 5,
+    "segment": 3,
+    "chars": 115,
+    "z_before": 7.650300229145201,
+    "z_after": 7.7781745930520225,
+    "accepted": false,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 3,
+      "unknown word": 5
+     }
+    },
+    "queries_total": 385,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.16
+   },
+   {
+    "pass": 5,
+    "segment": 2,
+    "chars": 93,
+    "z_before": 7.650300229145201,
+    "z_after": 7.892262342196234,
+    "accepted": false,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 34,
+     "after_content": 34,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "duplicate": 9,
+      "CJK text": 2,
+      "unknown word": 15
+     }
+    },
+    "queries_total": 409,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.94
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "Jourdan Wood and Chad Harris each scored a pair of major\u2019s, but could only respond with an extra point in the loss.",
+    "rewrite": "Jourdan Wood and Chad Harris each tallied a pair of majors, yet they could only contribute an extra point in the defeat."
+   },
+   "2": {
+    "original": "Brownfie and Saxon Talbot added a convert and an extra point, respectively, to pad the score.",
+    "rewrite": "Brownfie and Saxon Talbot each added points to increase the lead; specifically, one convert and one extra point respectively."
+   }
+  },
+  "final_span": "was in the \u201cC\u201d semifinals where the T.H. Titans/Laurier Chevrolet Invasion defeated their club partner Trent Halls Saints/Whetung Lumber Rage 8-0.\nIn the \u201cHawks Pack It In Jamaica Bowl\u201d sponsored by Smith Enterprises, Tyler Brownfie and Josh Pelover scored a pair of touchdowns to lead the \u201cStars and Stripes\u201d South Shore Payday Titanintos to a 28-15 win over the \u201cBlack Sea\u201d ICB Crude Masters. Brownfie and Saxon Talbot each added points to increase the lead; specifically, one convert and one extra point respectively.\nJourdan Wood and Chad Harris each tallied a pair of majors, yet they could only contribute an extra point in the defeat. Mikey Schad completed both major\u2019s, scoring the other point in the loss",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 2,
+   "segments": 5,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 40.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 204,
+   "length_change": 3,
+   "pct_not_preserved": 7.960199004975122,
+   "pct_new": 9.313725490196079
+  },
+  "words": {
+   "original": 114,
+   "final": 117,
+   "length_change": 3,
+   "pct_not_preserved": 12.28070175438597,
+   "pct_new": 14.529914529914533
+  },
+  "characters": {
+   "original": 676,
+   "final": 713,
+   "length_change": 37,
+   "pct_not_preserved": 5.769230769230771,
+   "pct_new": 10.659186535764375
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 169,
+   "green_after": 156,
+   "pairs_before": 200,
+   "pairs_after": 203,
+   "pairs_changed_before": 26,
+   "pairs_changed_after": 29,
+   "green_fraction_of_new_pairs": 0.3448275862068966,
+   "delta_achieved": 0.15517241379310343
+  }
+ }
+}

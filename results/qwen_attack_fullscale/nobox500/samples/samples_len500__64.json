@@ -1,0 +1,153 @@
+{
+ "sample_id": "samples_len500:64",
+ "nobox": {
+  "z_final": 4.780407452213842,
+  "status": "not broken",
+  "rewrites": {
+   "15": {
+    "original": "I\u2019d talk to him about spam incoming from abroad, and he\u2019d dispense advice like that from a former skeet shooting great one night involved taking random hunks of missing wood from a gunsmith\u2019s drawer.",
+    "rewrite": "I'd discuss the spam coming from abroad with him, and he'd offer advice akin to that of a former skeet shooting great one evening when he took random bits of missing wood from a gunsmith's drawer."
+   },
+   "9": {
+    "original": "I had the privilege to sit across from the legendary leader Jack Welch, who was always ready and willing to laugh \u2014 at us and laughter would ripple right out of the room as a result.",
+    "rewrite": "Having the privilege to sit across from the legendary leader Jack Welch, who was always ready and willing to laugh, whether at us or the absurdity around us, and laughter would ripple right out of the room as a result."
+   },
+   "12": {
+    "original": "But with grace instead, he agreed to participate and let the joke go so far as to put an assistant manager with a hangover in line for promotion in a conspiracy deal gone wrong.",
+    "rewrite": "But with grace instead, he agreed to participate and let the joke go as far as to put an assistant manager with a hangover on a promotion track in a conspiracy deal gone wrong."
+   },
+   "10": {
+    "original": "I remember a special meeting when the staff came in from sales, dressed up, feeling \u201ctelephone humor\u201d was OK, and told Jack an old chestnut about it.",
+    "rewrite": "I recall a unique meeting where the sales staff participated, getting dressed up, and sharing that they believed \"telephone humor\" was acceptable, and then related an old anecdote to Jack."
+   },
+   "5": {
+    "original": "And when I first heard about a key hire that wasn\u2019t a gender diverse one, I asked the person my immediate boss what that was all about.",
+    "rewrite": "And when I first heard about a key hire that wasn't gender diverse, I asked my immediate boss what was going on."
+   },
+   "18": {
+    "original": "There was some focus on the differences between men and women in the Film Character Project\u2019s report.",
+    "rewrite": "The Film Character Project\u2019s report highlighted some differences between men and women."
+   },
+   "13": {
+    "original": "When Britney lost a tussle with a waiter, Jack simply acknowledged the simple causes.",
+    "rewrite": "When Britney had an encounter with a waiter that she lost, Jack merely recognized the straightforward reasons."
+   },
+   "3": {
+    "original": "Who doesn\u2019t feel relaxed after an office jester makes fun of their mistake?",
+    "rewrite": "Who does not feel relaxed after an office jester makes fun of their mistake?"
+   },
+   "2": {
+    "original": "It can immediately disarm an awkward, overly-signaling situation.",
+    "rewrite": "It can instantly defuse an awkward, overly-signaling situation."
+   },
+   "16": {
+    "original": "Success, in the end, wasn\u2019t about technical mastery of functions.",
+    "rewrite": "At the end, success didn't lie in the technical mastery of functions."
+   },
+   "8": {
+    "original": "Working on Wall Street, I learned about humor from the very top.",
+    "rewrite": "Working at Wall Street, I learned about humor right at the top."
+   },
+   "1": {
+    "original": "A well-placed zinger is a powerful tool.",
+    "rewrite": "An effectively delivered zinger is a potent tool."
+   },
+   "11": {
+    "original": "He refused to be the butt of the joke.",
+    "rewrite": "He refused to be the subject of the joke."
+   },
+   "17": {
+    "original": "It was about making some folks laugh.",
+    "rewrite": "It was about making some people laugh."
+   }
+  },
+  "sentences_rewritten": 14,
+  "eligible": 16,
+  "per_sentence": [
+   {
+    "index": 15,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 14,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 9,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 10,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 14,
+    "rewritten": true
+   },
+   {
+    "index": 18,
+    "survivors": 17,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 16,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 2,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 5,
+    "rewritten": true
+   },
+   {
+    "index": 17,
+    "survivors": 18,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "tense if I had instead expressed an offense taken.\nAn effectively delivered zinger is a potent tool. It can instantly defuse an awkward, overly-signaling situation. Who does not feel relaxed after an office jester makes fun of their mistake? In a meeting with a group that\u2019s approaching my territory, I once used humor to let the group know that I intended to be \u201cadministering policy\u201d rather than in a \u201cselling\u201d role. And when I first heard about a key hire that wasn't gender diverse, I asked my immediate boss what was going on. He said, \u201cYou\u2019ll like him.\u201d Without even a moment to breathe I had responded: \u201cYou know me too well,\u201d an awkward moment avoided.\nWorking at Wall Street, I learned about humor right at the top. Having the privilege to sit across from the legendary leader Jack Welch, who was always ready and willing to laugh, whether at us or the absurdity around us, and laughter would ripple right out of the room as a result. I recall a unique meeting where the sales staff participated, getting dressed up, and sharing that they believed \"telephone humor\" was acceptable, and then related an old anecdote to Jack. He refused to be the subject of the joke. But with grace instead, he agreed to participate and let the joke go as far as to put an assistant manager with a hangover on a promotion track in a conspiracy deal gone wrong. When Britney had an encounter with a waiter that she lost, Jack merely recognized the straightforward reasons. He would often recount nervous meetings when apparently an \u201cofficer caught with hookers\u201d had broken all the security guards\u2019 cellphones, and Nixon and Kissinger had come to a political retreat. I'd discuss the spam coming from abroad with him, and he'd offer advice akin to that of a former skeet shooting great one evening when he took random bits of missing wood from a gunsmith's drawer. At the end, success didn't lie in the technical mastery of functions. It was about making some people laugh.\nThe Film Character Project\u2019s report highlighted some differences between men and women.\nAnthony F. Roberts, professor emeritus, Rutgers",
+  "z0": 6.7082039324993685,
+  "seconds": 508.1
+ }
+}

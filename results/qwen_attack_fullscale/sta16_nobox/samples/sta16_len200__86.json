@@ -1,0 +1,62 @@
+{
+ "sample_id": "sta16_len200:86",
+ "nobox": {
+  "z_final": 5.600925849390471,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Backed up by research from Forrester, according to Forbes, digital consumers have been exposed to a healthy dose of personalized experiences that can be accessed on any platform, any time they need to find information or conduct transactions.",
+    "rewrite": "According to Forbes, backed by research from Forrester, digital consumers have encountered a substantial amount of personalized experiences available on various platforms, anytime they seek information or carry out transactions."
+   },
+   "5": {
+    "original": "For healthcare institutions, rightfully so three of the top things consumers need from a provider\u2019s digital channel are access to a patient portal, links to an online form to schedule appointments and e-prescription reminders.",
+    "rewrite": "For healthcare institutions, it is right that access to a patient portal, links to an online appointment scheduling form, and e-prescription reminders are among the top three things consumers need from a provider\u2019s digital channel."
+   },
+   "1": {
+    "original": "It\u2019s what anyone watching healthcare in recent years has seen: industries like healthcare adopting technology meant to deliver a quality experience, not run more efficiently.",
+    "rewrite": "What anyone watching healthcare over the past years has noted is industries like healthcare implementing technology aimed at improving the quality experience, not just running more efficiently."
+   },
+   "4": {
+    "original": "And an assumption that virtually every business or product available must be easily pored over anywhere, and at virtually any time.",
+    "rewrite": "And an assumption that nearly every business or product available must be easily perused anywhere, and at nearly any time."
+   },
+   "2": {
+    "original": "Start with the headline: Digital Consumers Demand Digital Healthcare Treatment.",
+    "rewrite": "Headline: Digital Healthcare Treatment Is Demanded by Consumers."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 7,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 24,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "isn\u2019t as readily recognizable as others. What anyone watching healthcare over the past years has noted is industries like healthcare implementing technology aimed at improving the quality experience, not just running more efficiently.\nHeadline: Digital Healthcare Treatment Is Demanded by Consumers.\nAccording to Forbes, backed by research from Forrester, digital consumers have encountered a substantial amount of personalized experiences available on various platforms, anytime they seek information or carry out transactions. And an assumption that nearly every business or product available must be easily perused anywhere, and at nearly any time.\nFor healthcare institutions, it is right that access to a patient portal, links to an online appointment scheduling form, and e-prescription reminders are among the top three things consumers need from a provider\u2019s digital channel.\nGolden Rule is here to help employ",
+  "z0": 9.192388155425117,
+  "seconds": 176.2
+ }
+}

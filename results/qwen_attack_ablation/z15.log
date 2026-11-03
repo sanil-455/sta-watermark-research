@@ -1,0 +1,17 @@
+Loading weights:   0%|          | 0/339 [00:00<?, ?it/s]Loading weights:   1%|          | 2/339 [00:00<00:33, 10.17it/s]Loading weights:   5%|▍         | 16/339 [00:00<00:05, 63.76it/s]Loading weights:  12%|█▏        | 41/339 [00:00<00:02, 126.77it/s]Loading weights:  19%|█▉        | 66/339 [00:00<00:01, 161.43it/s]Loading weights:  28%|██▊       | 94/339 [00:00<00:01, 197.96it/s]Loading weights:  35%|███▌      | 120/339 [00:00<00:01, 216.58it/s]Loading weights:  44%|████▎     | 148/339 [00:00<00:00, 227.72it/s]Loading weights:  51%|█████     | 173/339 [00:00<00:00, 224.86it/s]Loading weights:  58%|█████▊    | 197/339 [00:01<00:00, 228.07it/s]Loading weights:  65%|██████▌   | 222/339 [00:01<00:00, 226.06it/s]Loading weights:  74%|███████▎  | 250/339 [00:01<00:00, 239.80it/s]Loading weights:  81%|████████▏ | 276/339 [00:01<00:00, 244.61it/s]Loading weights:  90%|████████▉ | 304/339 [00:01<00:00, 245.73it/s]Loading weights:  97%|█████████▋| 329/339 [00:01<00:00, 238.24it/s]Loading weights: 100%|██████████| 339/339 [00:01<00:00, 209.21it/s]
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 14023.67it/s]
+[1/12] baseline_safe:0        z0 3.82 -> 2.56 | stalled | 2 rewrites, 167 queries | 1.6 min | about 18 min left
+[2/12] baseline_safe:1        z0 6.51 -> 3.41 | stalled | 3 rewrites, 205 queries | 5.8 min | about 37 min left
+[3/12] baseline_safe:2        z0 5.37 -> 1.48 | broken | 3 rewrites, 195 queries | 3.4 min | about 33 min left
+[4/12] baseline_safe:3        z0 3.68 -> 1.32 | broken | 3 rewrites, 115 queries | 1.8 min | about 25 min left
+[5/12] baseline_safe:4        z0 3.54 -> 1.31 | broken | 3 rewrites, 90 queries | 2.3 min | about 21 min left
+[6/12] baseline_extra:20      z0 3.39 -> 1.61 | stalled | 2 rewrites, 171 queries | 4.4 min | about 19 min left
+[7/12] baseline_extra:22      z0 4.67 -> 1.35 | broken | 4 rewrites, 97 queries | 2.1 min | about 15 min left
+[8/12] baseline_extra:23      z0 5.23 -> 2.78 | stalled | 4 rewrites, 203 queries | 5.6 min | about 14 min left
+[9/12] baseline_extra:24      z0 5.09 -> 0.46 | broken | 4 rewrites, 189 queries | 2.3 min | about 10 min left
+[10/12] baseline_extra:25      z0 3.82 -> 2.60 | stalled | 2 rewrites, 95 queries | 2.7 min | about 6 min left
+[11/12] baseline_extra:26      z0 2.83 -> 1.13 | broken | 1 rewrites, 54 queries | 0.5 min | about 3 min left
+[12/12] baseline_extra:27      z0 6.22 -> 1.15 | broken | 6 rewrites, 322 queries | 5.1 min | about 0 min left
+
+report: results/qwen_attack_ablation/z15/REPORT.md
+to save the result to your repo, after reading it:  cat results/qwen_attack_ablation/z15/STATUS_entry.md >> research/STATUS.md

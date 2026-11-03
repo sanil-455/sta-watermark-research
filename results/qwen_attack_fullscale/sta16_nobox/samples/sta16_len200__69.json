@@ -1,0 +1,35 @@
+{
+ "sample_id": "sta16_len200:69",
+ "nobox": {
+  "z_final": 7.212489168102785,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "Moral outrage is the only thing that has led to progress in overcrowded detention centers and long court proceedings, which have been particularly insidious as they can strip minors of liberty without access to court-appointed counsel.",
+    "rewrite": "Moral outrage is the only factor driving progress in overcrowded detention centers and prolonged court proceedings, which can be especially insidious by stripping minors of their liberty without access to court-appointed counsel."
+   },
+   "3": {
+    "original": "The Trump administration has no shame and is willing to play politics with children, but the public will not be silenced.",
+    "rewrite": "The Trump administration shows no shame and is ready to manipulate matters involving children for political gain, yet the public cannot be silenced."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 12,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "aren\u2019t coming to court, Detention Watch Network reported that most of the children in kennel-style cages went to their day court appointments most days, and those at resort-style facilities did too.\nMoral outrage is the only factor driving progress in overcrowded detention centers and prolonged court proceedings, which can be especially insidious by stripping minors of their liberty without access to court-appointed counsel. Indeed, after Trump issued the \u201czero-tolerance\u201d policy with Mexico, losing guardianship of one\u2019s child was considered \u201ccollateral damage of the policy.\u201d The Trump administration shows no shame and is ready to manipulate matters involving children for political gain, yet the public cannot be silenced. We saw with the trauma suffered by Central American migrant children held by the Bush administration during its pod program that politicians will be forced to reckon with the public \u2014 if the public in",
+  "z0": 9.050966799187808,
+  "seconds": 91.0
+ }
+}

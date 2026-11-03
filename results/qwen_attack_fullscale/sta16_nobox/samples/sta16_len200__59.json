@@ -1,0 +1,44 @@
+{
+ "sample_id": "sta16_len200:59",
+ "nobox": {
+  "z_final": 7.216878364870323,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "That breaks your heart to be confronted with that type of suffering of children, but there was very, very little to show who had run these camps that did the murdering of the children, and we had nothing to prosecute - nothing to show at all.",
+    "rewrite": "It breaks your heart to see such suffering in children, yet there was virtually nothing that pointed to who operated those camps and murdered the children, and we had no evidence whatsoever to prosecute."
+   },
+   "5": {
+    "original": "Det Sgt Horn even received a medal for his role in finding a man whose identity lay buried for decades.",
+    "rewrite": "Det Sgt Horn even received a medal for his part in identifying a man whose identity had been buried for decades."
+   },
+   "3": {
+    "original": "Det Sgt Horn took time off after receiving death threats and is still the only person on the case.",
+    "rewrite": "After receiving death threats, Det Sgt Horn took time off but remains the sole investigator on the case."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 18,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 29,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the area? It breaks your heart to see such suffering in children, yet there was virtually nothing that pointed to who operated those camps and murdered the children, and we had no evidence whatsoever to prosecute.\n\"Any opportunity to shed light and help other countries - you do things for that and I think every man and woman in war crimes is there to make sure people don&apos;t repeat those atrocities.\"\nAfter receiving death threats, Det Sgt Horn took time off but remains the sole investigator on the case.\n\"It&apos;s not been easy at time - at times I wasn&apos;t sure if I could go on or not - it happens over a number of years and you do pay a heavy price.\"\nDet Sgt Horn even received a medal for his part in identifying a man whose identity had been buried for decades.\nIn",
+  "z0": 10.323759005323593,
+  "seconds": 130.6
+ }
+}

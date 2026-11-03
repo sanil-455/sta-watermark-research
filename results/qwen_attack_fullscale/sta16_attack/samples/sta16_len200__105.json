@@ -1,0 +1,142 @@
+{
+ "sample_id": "sta16_len200:105",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.09181141439205956,
+ "needed_share": 0.8139192681088032,
+ "delta_needed": null,
+ "segmentation": {
+  "chars": 806,
+  "segments": 7,
+  "eligible": 1,
+  "skipped": 6,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 4,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 74,
+  "eligible_char_share": 0.09181141439205956
+ },
+ "attack": {
+  "z0": 10.748023074035522,
+  "z_final": 9.899494936611665,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 2,
+  "queries": 43,
+  "seconds": 40.4,
+  "seconds_by_phase": {
+   "generate": 36.6,
+   "gates": 3.8,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 74,
+    "z_before": 10.748023074035522,
+    "z_after": 9.899494936611665,
+    "accepted": true,
+    "survivors": 25,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 25,
+     "rejected": {
+      "duplicate": 30,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 26,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.16
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 74,
+    "z_before": 9.899494936611665,
+    "z_after": 9.899494936611665,
+    "accepted": false,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 29,
+     "after_spelling": 29,
+     "after_content": 29,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "duplicate": 31,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 43,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.42
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "Just being a part of Sundance this year has taught Ho many things as well.",
+    "rewrite": "Participating in Sundance this year has taught Ho many lessons as well."
+   }
+  },
+  "final_span": "of their lives,\" says Ho.\n\"Watching my YouTube journey has taught me that being humble and grateful keeps your sense of humbleness. It is so easy to lose track of that and at the end of the day I believe it&apos;s important to show respect by acknowledging someone helped you and think about where they may be coming from,\" she says.\nParticipating in Sundance this year has taught Ho many lessons as well.\n\"It&apos;s so cool, I feel like such a part of the Internet community to be able to be part of an event like this and help filmmakers with their well-being. So, I think since coming here and being a part of Sundance, I feel like it&apos;s really giving me another sense of humbleness and I feel like a part of humanity as opposed to just YouTube and the Internet community,\" she says.\n\"And that is",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 1,
+   "eligible": 1,
+   "segments": 7,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 14.285714285714286
+  },
+  "tokens": {
+   "original": 201,
+   "final": 201,
+   "length_change": 0,
+   "pct_not_preserved": 2.985074626865669,
+   "pct_new": 2.985074626865669
+  },
+  "words": {
+   "original": 151,
+   "final": 148,
+   "length_change": -3,
+   "pct_not_preserved": 3.9735099337748325,
+   "pct_new": 2.0270270270270285
+  },
+  "characters": {
+   "original": 806,
+   "final": 803,
+   "length_change": -3,
+   "pct_not_preserved": 2.3573200992555776,
+   "pct_new": 1.992528019925277
+  },
+  "entities": {
+   "before": 3,
+   "after": 3
+  },
+  "pairs": {
+   "green_before": 176,
+   "green_after": 170,
+   "pairs_before": 200,
+   "pairs_after": 200,
+   "pairs_changed_before": 8,
+   "pairs_changed_after": 8,
+   "green_fraction_of_new_pairs": 0.25,
+   "delta_achieved": 0.25
+  }
+ }
+}

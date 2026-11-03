@@ -1,0 +1,89 @@
+{
+ "sample_id": "samples_len500:46",
+ "nobox": {
+  "z_final": 4.700445550876375,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "The heat intensified again earlier this week when Hall of Famer Michael Irvin said Cleveland\u2019s receivers had unlocked his phone during a recent film session to show him some of the criticism they\u2019ve received, including some from Greg Popovich, the head coach of the NBA\u2019s San Antonio Spurs.",
+    "rewrite": "The heat rose once more this week when Hall of Famer Michael Irvin stated that Cleveland's receivers showed him via his unlocked phone some of the criticism they\u2019ve faced, which included comments from Greg Popovich, the head coach of the NBA\u2019s San Antonio Spurs."
+   },
+   "3": {
+    "original": "It came on the heels of an offseason during which the head coach and offensive coordinator reportedly made comments that were \u201cbelittling,\u201d Jimmyond Mathews, a former Browns second-round draft pick, said publicly on social media.",
+    "rewrite": "Following an offseason where the head coach and offensive coordinator allegedly made remarks described as \u201cbelittling,\u201d Jimmyond Mathews, a former Browns second-round draft pick, publicly stated on social media."
+   },
+   "6": {
+    "original": "Josh Gordon hasn\u2019t played in nearly two years, but the Browns three-time Pro Bowl wide receiver will be reinstated into what has become a thin receiving group on Monday.",
+    "rewrite": "Josh Gordon hasn't played in almost two years, yet the Browns' three-time Pro Bowl wide receiver will be reinstated into a noticeably thinner receiving group on Monday."
+   },
+   "7": {
+    "original": "Hall of Famer Terrell Owens agreed to join the Browns as a guest coach last week, but the team has not said whether he\u2019ll accrue toward the regular 46-man roster.",
+    "rewrite": "Hall of Fame player Terrell Owens accepted an invitation last week to join the Browns as a guest coach; however, the team has not clarified if he will be included in the standard 46-man roster."
+   },
+   "8": {
+    "original": "Coleman\u2019s return Sunday could see him and Gordon working together in tandem as in a 3-receiver formation.",
+    "rewrite": "Coleman\u2019s return on Sunday might allow for him and Gordon to operate in tandem, similar to a 3-receiver formation."
+   },
+   "1": {
+    "original": "The heat kicked up during the offseason over Browns\u2019 receivers.",
+    "rewrite": "The heat emerged during the offseason concerning the Browns' receivers."
+   },
+   "23": {
+    "original": "Injuries, not talent, have held Coleman back.",
+    "rewrite": "It is not talent, but injuries, that have held Coleman back."
+   },
+   "2": {
+    "original": "Much of that was because of the coaches.",
+    "rewrite": "A significant part of that was due to the coaches."
+   }
+  },
+  "sentences_rewritten": 8,
+  "eligible": 8,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 1,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 18,
+    "rewritten": true
+   },
+   {
+    "index": 23,
+    "survivors": 12,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 6,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "He\u2019s got to get an opportunity to show his worth and give our offense another weapon, which he brings.\u201d\nThe heat emerged during the offseason concerning the Browns' receivers.\nA significant part of that was due to the coaches. Following an offseason where the head coach and offensive coordinator allegedly made remarks described as \u201cbelittling,\u201d Jimmyond Mathews, a former Browns second-round draft pick, publicly stated on social media.\n\u201cThere\u2019s a difference between getting pushed and someone being demeaning or degrading about your performance or game,\u201d Bitonio said.\nThe heat rose once more this week when Hall of Famer Michael Irvin stated that Cleveland's receivers showed him via his unlocked phone some of the criticism they\u2019ve faced, which included comments from Greg Popovich, the head coach of the NBA\u2019s San Antonio Spurs.\nJosh Gordon hasn't played in almost two years, yet the Browns' three-time Pro Bowl wide receiver will be reinstated into a noticeably thinner receiving group on Monday. Hall of Fame player Terrell Owens accepted an invitation last week to join the Browns as a guest coach; however, the team has not clarified if he will be included in the standard 46-man roster.\nColeman\u2019s return on Sunday might allow for him and Gordon to operate in tandem, similar to a 3-receiver formation.\n\u201cIt is tough. He is a great competitor and he has a lot of the things that you want in a receiver,\u201d Gordon said of Coleman. \u201cYou want guys to play fast and all the different things like that.\u201d\nColeman has done that.\n\u201cIt\u2019s really hard to just focus on watching him or reading about him,\u201d Jacksonville cornerback Jalen Ramsey said. \u201cHe is a burner. He is a physical guy. He is big. He is tall. He is shifty. He is real slippery. He can catch any ball in the air. He can run every route. He just does it all.\u201d\nIt is not talent, but injuries, that have held Coleman back.\nFallout from him and Curtis Samuel throwing haymakers at the Film School Fall football game \u2014 a gimic during the",
+  "z0": 6.171547617899419,
+  "seconds": 314.3
+ }
+}

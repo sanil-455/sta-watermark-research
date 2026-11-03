@@ -1,0 +1,26 @@
+{
+ "sample_id": "samples_len200:122",
+ "nobox": {
+  "z_final": 5.033056555559185,
+  "status": "not broken",
+  "rewrites": {
+   "8": {
+    "original": "The incident occurred at about 08:00 local time (06:00GMT).",
+    "rewrite": "The incident happened around 08:00 local time (06:00 GMT)."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 8,
+    "survivors": 3,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "aged 5 and 8.\nForeign Minister Avigdor Liberman (Ichud Leumi) also reacted to the reports on Twitter, writing this morning: \"I am in shock over the horror in Toulouse. The news reported four dead \u2013 three children, I pray there is no fifth victim: students. The victims were shot at a school. This is just the latest result of the state of Israel abandoning its educational emissaries [shaliachim] throughout the world. I call for the return of the children to the country.\"\nfighting for my life, I was in shock and couldn't believe what was happening,\" he said.\nfor people who, until yesterday, were part of the life of the school.\"\nThe incident happened around 08:00 local time (06:00 GMT).\nand was believed to be heading for another jewish school, reports said.\nparents is",
+  "z0": 5.374011537017761,
+  "seconds": 23.5
+ }
+}

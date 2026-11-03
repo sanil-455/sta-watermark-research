@@ -1,0 +1,265 @@
+{
+ "sample_id": "sta16_len200:44",
+ "source": "results/raw/sta16_len200.json",
+ "layout": "span",
+ "tokens": 200,
+ "eligible_share": 0.6356275303643725,
+ "needed_share": 0.8035814496704035,
+ "delta_needed": 0.09512396499803996,
+ "segmentation": {
+  "chars": 988,
+  "segments": 6,
+  "eligible": 3,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 628,
+  "eligible_char_share": 0.6356275303643725
+ },
+ "attack": {
+  "z0": 10.182337649086284,
+  "z_final": 2.750847901848533,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 2,
+  "queries": 277,
+  "seconds": 291.9,
+  "seconds_by_phase": {
+   "generate": 269.1,
+   "gates": 22.7,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 227,
+    "z_before": 10.182337649086284,
+    "z_after": 7.636753236814713,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "several lines": 3,
+      "CJK text": 7,
+      "unknown word": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 48,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 57.38
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 205,
+    "z_before": 7.636753236814713,
+    "z_after": 5.20662183100416,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "CJK text": 3,
+      "several lines": 2,
+      "unknown word": 4,
+      "meaning too different": 5,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 89,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.75
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 196,
+    "z_before": 5.20662183100416,
+    "z_after": 2.750847901848533,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "CJK text": 1,
+      "several lines": 1,
+      "unknown word": 11,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 133,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.05
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 227,
+    "z_before": 2.750847901848533,
+    "z_after": 3.174055271363692,
+    "accepted": false,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "several lines": 4,
+      "CJK text": 5,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 182,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 58.46
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 205,
+    "z_before": 2.750847901848533,
+    "z_after": 2.857142857142857,
+    "accepted": false,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "several lines": 2,
+      "CJK text": 4,
+      "unknown word": 7,
+      "meaning too different": 3,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 224,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.9
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 196,
+    "z_before": 2.750847901848533,
+    "z_after": 2.9262786600247943,
+    "accepted": false,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 6
+     }
+    },
+    "queries_total": 277,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.51
+   }
+  ],
+  "rewrites": {
+   "1": {
+    "original": "These rule changes are essentially an extension to the current regulatory framework which now treats anyone who co-sponsors a defined contribution (DC) retirement plan, like a 401(k), as sharing in its fiduciary responsibility.",
+    "rewrite": "These rule adjustments fundamentally extend the existing regulatory framework, now categorizing any individual who cosponsors a defined contribution retirement plan, such as a 401(k), as jointly responsible for its fiduciary duties."
+   },
+   "4": {
+    "original": "The rule change would allow sponsors to align administration with the benefits employees received, meeting conditions spelled out in a separate notice right before the increase in plan-level contributions.",
+    "rewrite": "The new rule would permit sponsors to adjust the administration to match employees' benefits, aligning with criteria detailed in an accompanying notification just prior to the rise in plan contributions."
+   },
+   "2": {
+    "original": "For most small employers, according to the plan, requirements about contributing money for administrative costs would prevent them from offering a DC plan, unless an administrative fee was waived.",
+    "rewrite": "Under the plan, for the majority of small employers, the need to cover administrative costs with contributions would bar them from providing a DC plan, absent an exemption fee."
+   }
+  },
+  "final_span": ".\nThese rule adjustments fundamentally extend the existing regulatory framework, now categorizing any individual who cosponsors a defined contribution retirement plan, such as a 401(k), as jointly responsible for its fiduciary duties.\nUnder the plan, for the majority of small employers, the need to cover administrative costs with contributions would bar them from providing a DC plan, absent an exemption fee. Ditto things like complying with statutory notice requirements, which fail to \u201creflect the reality that many employers receive only minimal, if any, financial benefit from participating in multiple-employer plans or adding individual employees.\u201d The new rule would permit sponsors to adjust the administration to match employees' benefits, aligning with criteria detailed in an accompanying notification just prior to the rise in plan contributions.\nThese elements may make a difference \u2014 there is no easy answer to the question of how small businesses can co",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 3,
+   "segments": 6,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 50.0
+  },
+  "tokens": {
+   "original": 201,
+   "final": 202,
+   "length_change": 1,
+   "pct_not_preserved": 30.84577114427861,
+   "pct_new": 31.188118811881193
+  },
+  "words": {
+   "original": 146,
+   "final": 145,
+   "length_change": -1,
+   "pct_not_preserved": 36.3013698630137,
+   "pct_new": 35.862068965517246
+  },
+  "characters": {
+   "original": 988,
+   "final": 971,
+   "length_change": -17,
+   "pct_not_preserved": 24.797570850202433,
+   "pct_new": 23.480947476828007
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 172,
+   "green_after": 120,
+   "pairs_before": 200,
+   "pairs_after": 201,
+   "pairs_changed_before": 88,
+   "pairs_changed_after": 89,
+   "green_fraction_of_new_pairs": 0.3595505617977528,
+   "delta_achieved": 0.1404494382022472
+  }
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "sample_id": "samples_len200:101",
+ "nobox": {
+  "z_final": 3.2826223901170173,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "McMurry hosts the winner of second semifinal between Johnson and Hardin-Simmons in the WBI championship game at 5:30 p.m. Friday in Irving, Texas.",
+    "rewrite": "McMurry faces the winner of the second semifinal between Johnson and Hardin-Simmons in the WBI championship game at 5:30 p.m. on Friday in Irving, Texas."
+   },
+   "2": {
+    "original": "Tierra Alexander helped the War Hawks (8-4) score the first eight points of the game.",
+    "rewrite": "Tierra Alexander contributed to the War Hawks (8-4), who scored the first eight points of the game."
+   },
+   "0": {
+    "original": "Oklahoma Christian at 3 p.m. Saturday at the Eagles' Nest in Oklahoma City.",
+    "rewrite": "Oklahoma Christian at 3 p.m. on Saturday at the Eagles' Nest in Oklahoma City."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 3,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 12,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Oklahoma Christian at 3 p.m. on Saturday at the Eagles' Nest in Oklahoma City.\nDALLAS \u2014 Belinda Lord went 3-of-4 from the floor and knocked down both of her 3s, leading McMurry to a 52-39 Women's Basketball Invitational semifinal victory over Randolph-Macon.\nTierra Alexander contributed to the War Hawks (8-4), who scored the first eight points of the game.\nMcMurry faces the winner of the second semifinal between Johnson and Hardin-Simmons in the WBI championship game at 5:30 p.m. on Friday in Irving, Texas.\nLAIE, Hawaii \u2014 Cole Schuessler scored the go-ahead goal in overtime, leading to No. 15 Lubbock Christian men's soccer team to a 2-1 overtime victory in the L",
+  "z0": 3.2526911934581184,
+  "seconds": 167.7
+ }
+}

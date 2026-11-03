@@ -1,0 +1,62 @@
+{
+ "sample_id": "samples_len200:325",
+ "nobox": {
+  "z_final": 1.4886505305175053,
+  "status": "broken",
+  "rewrites": {
+   "2": {
+    "original": "Drake Is Suing a Woman With an Actual Song Named \u2018Still Kanye\u2019Drake claims the song was released months after their split.",
+    "rewrite": "Drake is suing a woman over a song called \u2018Still Kanye,\u2019 claiming it was released months after their split."
+   },
+   "3": {
+    "original": "Listen to the Chris Brown Edit of Kanye\u2019s Jamaica-Inspired \u2018Champions\u2019Here\u2019s another edit you\u2019re not mad about.",
+    "rewrite": "Listen to the Chris Brown Edit of Kanye\u2019s Jamaica- Inspired \u2018Champions\u2019. Here\u2019s another edit you won\u2019t regret hearing."
+   },
+   "5": {
+    "original": "Ty Dolla $ign and Childish Gambino, Arguing Mid-Air, Do Not Land in LoveThe Sk8er Boi verses the Rockstar.",
+    "rewrite": "Ty Dolla $ign and Childish Gambino, in a Musical Clash, Do Not Land in Love\"The Sk8er Boi\" versus \"The Rockstar.\""
+   },
+   "0": {
+    "original": "Dad\u2019s PhoneWhich is sort of a symbolic gesture if we do say so ourselves.",
+    "rewrite": "Dad's PhoneWhich, in a way, serves as a symbolic gesture if we are to say so ourselves."
+   },
+   "1": {
+    "original": "It's also kids this is a terrible photo to be in.",
+    "rewrite": "This is also a terrible photo for kids to be in."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 2,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 17,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Dad's PhoneWhich, in a way, serves as a symbolic gesture if we are to say so ourselves. This is also a terrible photo for kids to be in.\nDrake is suing a woman over a song called \u2018Still Kanye,\u2019 claiming it was released months after their split.\nListen to the Chris Brown Edit of Kanye\u2019s Jamaica- Inspired \u2018Champions\u2019. Here\u2019s another edit you won\u2019t regret hearing.\nfight clubs June 1, 2018\nTy Dolla $ign and Childish Gambino, in a Musical Clash, Do Not Land in Love\"The Sk8er Boi\" versus \"The Rockstar.\"\nG.O.O.D Music Stencils Blame Mountain Dew for Kanye\u2019s MediocrityAnd the Pepsi and Old Navy seals of approval sign off on",
+  "z0": 2.82842712474619,
+  "seconds": 150.5
+ }
+}

@@ -1,0 +1,161 @@
+{
+ "sample_id": "samples_len500:34",
+ "nobox": {
+  "z_final": 5.287706436389006,
+  "status": "not broken",
+  "rewrites": {
+   "14": {
+    "original": "It can be time consuming and sometimes overwhelming for kids and families to just get the right application for a professional to evaluate the child and decide what treatment options are available, and sometimes those are perceived as lacking.",
+    "rewrite": "Getting the appropriate application for a professional to evaluate the child and determine suitable treatment options can be time-consuming and, at times, overwhelming for children and their families. Sometimes, these options may be seen as lacking."
+   },
+   "5": {
+    "original": "In the fall of 2017 during the Eagle County Peak Parenting class, Kate Eastwood, executive director of the Vail Health Mental Health Institute, talked about what constitutes a healthy community and the wide net of the Mental Health Alliance.",
+    "rewrite": "In the autumn of 2017 at the Eagle County Peak Parenting class, Kate Eastwood, executive director of the Vail Health Mental Health Institute, discussed what constitutes a healthy community and the broad reach of the Mental Health Alliance."
+   },
+   "3": {
+    "original": "And, Martin added, the regional psychiatric clinic for children \u2014 Child and Family services \u2014 has received its state-license and is up and running.",
+    "rewrite": "And, Martin added, the regional psychiatric clinic for children\u2014Child and Family services\u2014has obtained its state license and is now operational."
+   },
+   "10": {
+    "original": "Betsy Ward and Gwen Lachelt joined commissioner Jeanne McQueeney to spend 95 percent of the in a meeting to discuss the implementation of services.",
+    "rewrite": "Betsy Ward and Gwen Lachelt joined commissioner Jeanne McQueeney to spend 95 percent of the time in a meeting to discuss the implementation of services."
+   },
+   "6": {
+    "original": "While the community discussed youth mental health at length, she reminded the class of what her three-year plan for the Alliance had entailed.",
+    "rewrite": "Although the community extensively discussed youth mental health, she reminded the class about her three-year plan for the Alliance."
+   },
+   "16": {
+    "original": "Or, they can be settled for the status quo when it\u2019s not always what, or nearly what, is best for the care of the child.",
+    "rewrite": "Or, they can settle for the status quo when it isn't always what, or nearly what, is best for the child's care."
+   },
+   "15": {
+    "original": "The process or is intimidating or uncomfortable, which may prevent kids or families from advocating for what they need.",
+    "rewrite": "The process can be intimidating or uncomfortable, which may hinder kids or families from advocating for their needs."
+   },
+   "13": {
+    "original": "It takes the family, teacher, counselor to recognize that a child is struggling and to arrange access to help.",
+    "rewrite": "It requires the family, teacher, and counselor to recognize that a child is struggling and to organize access to help."
+   },
+   "7": {
+    "original": "She had divided her game plan into four sections and what she deemed to be \u201cEarly Warning Indicators.\u201d",
+    "rewrite": "She had divided her game plan into four sections and what she considered to be \u201cEarly Warning Indicators.\u201d"
+   },
+   "17": {
+    "original": "The new school counselors plan to be outreach and educational experts for the school staff.",
+    "rewrite": "The new school counselors aim to become outreach and educational experts for the school staff."
+   },
+   "4": {
+    "original": "The Next Step in Mental Health: Supports, Case Management, Community Services, Treatment.",
+    "rewrite": "Steps Forward in Mental Health: Supports, Case Management, Community Services, Treatment."
+   },
+   "0": {
+    "original": "Valley and Roaring Fork schools, to rebalance the mental health marijuana tax funds.",
+    "rewrite": "Valley and Roaring Fork schools aim to rebalance the mental health marijuana tax funds."
+   },
+   "1": {
+    "original": "Coincidentally, kids this fall will have more options to get aid.",
+    "rewrite": "Interestingly, children this fall will have more choices for getting aid."
+   },
+   "11": {
+    "original": "Kids have many barriers to accessing mental health service.",
+    "rewrite": "Many barriers exist that prevent kids from accessing mental health services."
+   },
+   "8": {
+    "original": "The first part is School-based counseling services.",
+    "rewrite": "The initial part involves school-based counseling services."
+   },
+   "9": {
+    "original": "This week, the County Commissioner got there first.",
+    "rewrite": "This week, the County Commissioner was the first to get there."
+   }
+  },
+  "sentences_rewritten": 16,
+  "eligible": 16,
+  "per_sentence": [
+   {
+    "index": 14,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 16,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 15,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 17,
+    "survivors": 11,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 32,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 36,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 11,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 3,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Valley and Roaring Fork schools aim to rebalance the mental health marijuana tax funds.\nInterestingly, children this fall will have more choices for getting aid.\nIn addition to what Martin described as a \u201cleveled up mental health system\u201d run by Eagle County\u2019s Total Health Alliance, Colorado Crisis Service has announced a brand-new Trevor Project Crisis Line for teens. And, Martin added, the regional psychiatric clinic for children\u2014Child and Family services\u2014has obtained its state license and is now operational.\nSteps Forward in Mental Health: Supports, Case Management, Community Services, Treatment.\nIn the autumn of 2017 at the Eagle County Peak Parenting class, Kate Eastwood, executive director of the Vail Health Mental Health Institute, discussed what constitutes a healthy community and the broad reach of the Mental Health Alliance.\nAlthough the community extensively discussed youth mental health, she reminded the class about her three-year plan for the Alliance. She had divided her game plan into four sections and what she considered to be \u201cEarly Warning Indicators.\u201d The initial part involves school-based counseling services.\nThis week, the County Commissioner was the first to get there. Betsy Ward and Gwen Lachelt joined commissioner Jeanne McQueeney to spend 95 percent of the time in a meeting to discuss the implementation of services.\nMany barriers exist that prevent kids from accessing mental health services. It takes preplanning. It requires the family, teacher, and counselor to recognize that a child is struggling and to organize access to help. Getting the appropriate application for a professional to evaluate the child and determine suitable treatment options can be time-consuming and, at times, overwhelming for children and their families. Sometimes, these options may be seen as lacking. The process can be intimidating or uncomfortable, which may hinder kids or families from advocating for their needs. Or, they can settle for the status quo when it isn't always what, or nearly what, is best for the child's care.\nThe new school counselors aim to become outreach and educational experts for the school staff. Many of them will use tra",
+  "z0": 6.887089370699352,
+  "seconds": 492.1
+ }
+}

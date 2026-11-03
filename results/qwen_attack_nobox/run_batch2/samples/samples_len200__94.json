@@ -1,0 +1,58 @@
+{
+ "sample_id": "samples_len200:94",
+ "nobox": {
+  "z_final": 3.473517904540846,
+  "status": "not broken",
+  "rewrites": {
+   "11": {
+    "original": "Shahrukh Khan topped the trends when he posted this picture of him locking lips with Madhuri Dixit.",
+    "rewrite": "Shahrukh Khan hit the trends after posting this picture showing him locking lips with Madhuri Dixit."
+   },
+   "3": {
+    "original": "Who's going to have more fun at the IPL this season?",
+    "rewrite": "Who is going to have more fun at the IPL this season?"
+   },
+   "2": {
+    "original": "It seems like Harry is out to give you competition.",
+    "rewrite": "It appears that Harry intends to give you some competition."
+   },
+   "9": {
+    "original": "Find out how you fail the Spot the Difference test?",
+    "rewrite": "Find out how you perform on the Spot the Difference test?"
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 11,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 23,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 12,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 0,
+    "rewritten": false
+   }
+  ],
+  "queries": 1,
+  "final_span": "workout isn't too difficult.\nWatch out Karan Johar. It appears that Harry intends to give you some competition.\nWho is going to have more fun at the IPL this season?\nMaking Horses out of Asses?\nWhile Priyanka Chopra does it for fun, Shekhar Kapur has just the opposite in mind. He tweeted, 'You will not believe what this K tribesman is doing to Syrian horses. It is sickening. Days of Afghan whips raining on desert tents and bindings of my ancestors...I am about to press START...on my revolution.\"\nFind out how you perform on the Spot the Difference test?\nThe Expressions Between Them...\nShahrukh Khan hit the trends after posting this picture showing him locking lips with Madhuri Dixit. Need we say more?\nNo one's ever",
+  "z0": 3.959797974644666,
+  "seconds": 91.8
+ }
+}

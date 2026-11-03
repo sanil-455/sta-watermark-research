@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:211",
+ "nobox": {
+  "z_final": 3.3317416635391788,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "The Virgin bid for GW could involve close co-operation with the mainnames Group, which last year bought British Rail's former coach-building division Armark and its Lloyds Operatic and Dramatic Rights.",
+    "rewrite": "The Virgin bid for GW might entail a close partnership with the mainnames Group, which purchased British Rail's previous coach-building unit Armark and Lloyds' Operatic and Dramatic Rights last year."
+   },
+   "4": {
+    "original": "It is now owned by the French public transport giant Veolia and makes small, low-cost coaches designed to operate as part of a local train or bus service.",
+    "rewrite": "Currently owned by the French public transport giant Veolia, it produces small, low-cost coaches meant to operate as part of a local train or bus service."
+   },
+   "1": {
+    "original": "However, British Rail's successors, to the outcry of train operators, have moved to reclaim the InterCity title.",
+    "rewrite": "Nevertheless, British Rail's successors, amid train operators' outcries, have sought to reclaim the InterCity title."
+   },
+   "3": {
+    "original": "The mainmines coaches brand, which dates back to the early 19th century, made up part of the package.",
+    "rewrite": "The mainmines brand of coaches, originating from the early 19th century, comprised part of the package."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 23,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 38,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 39,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": ". Nevertheless, British Rail's successors, amid train operators' outcries, have sought to reclaim the InterCity title.\nThe Virgin bid for GW might entail a close partnership with the mainnames Group, which purchased British Rail's previous coach-building unit Armark and Lloyds' Operatic and Dramatic Rights last year. The mainmines brand of coaches, originating from the early 19th century, comprised part of the package. Currently owned by the French public transport giant Veolia, it produces small, low-cost coaches meant to operate as part of a local train or bus service.\nThe group is undergoing an organisational overhaul under the leadership of Sir Timothy Berners-Lee, the inventor of the internet, as it seeks to capitalise on the emerging \"smart cities\" concept, which suggests public transport, housing and job distribution networks should be linked",
+  "z0": 4.666904755831213,
+  "seconds": 157.7
+ }
+}

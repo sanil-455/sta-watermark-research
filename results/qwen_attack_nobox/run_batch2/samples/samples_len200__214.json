@@ -1,0 +1,15 @@
+{
+ "sample_id": "samples_len200:214",
+ "nobox": {
+  "z_final": 3.394112549695428,
+  "status": "not broken",
+  "rewrites": {},
+  "sentences_rewritten": 0,
+  "eligible": 0,
+  "per_sentence": [],
+  "queries": 1,
+  "final_span": "the latest FCC report validates the company's own research, and said there's no need for more FCC regulation.\n\"With the FCC and parties relying on different data, we\u2019re pleased that AT&T\u2019s 2016 report strongly backs up our quantitative research that shows more than 90 percent of our broadband customers in America can get AT&T\u2019s fastest internet speed today in major metro areas and regional centers,\" AT&T said in a statement. \"We wholly agree with FCC Chairman Wheeler, who points out that voluntary solutions are the most effective means to meeting people\u2019s ever growing access to broadband needs. We are confident our work to provide affordable internet access\u2014teaming up with DIRECTV\u2014will help resolve the lack of availability in rural markets.\"\nThe big part of the FCC report that gets away from the usual tussle",
+  "z0": 3.394112549695428,
+  "seconds": 0.0
+ }
+}

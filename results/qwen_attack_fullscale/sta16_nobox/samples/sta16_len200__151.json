@@ -1,0 +1,98 @@
+{
+ "sample_id": "sta16_len200:151",
+ "nobox": {
+  "z_final": 7.333518105580571,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "Audio, Video, and Animation Support Integrated into Office are tools to work with presentations, audio, and video, and perhaps you already have used these separately.",
+    "rewrite": "Audio, Video, and Animation Support Integrated into Office are tools for working with presentations, audio, and video, and you might have already used these separately."
+   },
+   "7": {
+    "original": "Word now supports video embedding without the need to upload and host it elsewhere, and PowerPoint's options have been updated with more sharing options.",
+    "rewrite": "Word now allows video embedding directly without needing to upload and host it elsewhere, and PowerPoint has been updated to include more sharing options."
+   },
+   "2": {
+    "original": "Whether you prefer to work this way or not, you\u2019ll find it useful that these styles create an easy method of transferring formatting.",
+    "rewrite": "Whether you prefer working this way or not, you'll find it useful that these styles provide an easy method for transferring formatting."
+   },
+   "9": {
+    "original": "The Windows-8 flavor of Office supports touch gestures to control audio, slide shows, and videos during a presentation.",
+    "rewrite": "The Office Windows-8 version supports touch gestures for controlling audio, slide shows, and videos during a presentation."
+   },
+   "8": {
+    "original": "PowerPoint imports audio for use within slide shows and presents it in a new panel on the top right.",
+    "rewrite": "PowerPoint allows importing audio to be used in slide shows, displayed in a new panel at the top right."
+   },
+   "4": {
+    "original": "Move the cursor through the built-in available type styles until you find what you need.",
+    "rewrite": "Explore the available built-in type styles by moving the cursor until you find the one you need."
+   },
+   "5": {
+    "original": "Then assign the style to the selected text and you can apply it.",
+    "rewrite": "First assign the style to the selected text, and then you can apply it."
+   },
+   "1": {
+    "original": "Text Formatting Word now lets you create custom type styles.",
+    "rewrite": "Text Formatting Word now allows you to make custom type styles."
+   },
+   "3": {
+    "original": "Select text and you\u2019ll see an Edit font style dialog box.",
+    "rewrite": "Choose text and you will see an Edit font style dialog box."
+   }
+  },
+  "sentences_rewritten": 9,
+  "eligible": 9,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 56,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 5,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 23,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 33,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "you work.\nText Formatting Word now allows you to make custom type styles. Whether you prefer working this way or not, you'll find it useful that these styles provide an easy method for transferring formatting. Choose text and you will see an Edit font style dialog box. Explore the available built-in type styles by moving the cursor until you find the one you need. First assign the style to the selected text, and then you can apply it.\nAudio, Video, and Animation Support Integrated into Office are tools for working with presentations, audio, and video, and you might have already used these separately. Word now allows video embedding directly without needing to upload and host it elsewhere, and PowerPoint has been updated to include more sharing options. PowerPoint allows importing audio to be used in slide shows, displayed in a new panel at the top right. The Office Windows-8 version supports touch gestures for controlling audio, slide shows, and videos during a presentation.",
+  "z0": 10.606601717798213,
+  "seconds": 255.0
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "sample_id": "samples_len200:209",
+ "nobox": {
+  "z_final": 4.737784497183,
+  "status": "not broken",
+  "rewrites": {
+   "0": {
+    "original": "\u201cTears of Gaza\u201d screening indicate that a sizeable portion SJP supporters use hate speech to dehumanize Jews in their own community and silence students who raise important issues regarding Israeli human rights and security.",
+    "rewrite": "\"Tears of Gaza\" screening shows that a significant number of SJP supporters use hate speech to dehumanize Jews within their own community and silence students who address important issues regarding Israeli human rights and security."
+   },
+   "2": {
+    "original": "However, after attending this screening and the Q&A that followed, which included many hateful references, I now feel silenced by a group that publicly advocates for a cause, but yet disregards human and civil conduct.",
+    "rewrite": "However, after attending this screening and the Q&A that followed, which included numerous hateful references, I now feel silenced by a group that publicly advocates for a cause, yet disregards proper human and civil conduct."
+   },
+   "3": {
+    "original": "As a pro-Israel student at Stanford who loves, admires and desires to have a lively debate with Palestinians and their allies, I feel emotionally disembodied.",
+    "rewrite": "As a pro-Israel student at Stanford who loves, admires, and desires to engage in a lively debate with Palestinians and their allies, I feel emotionally disembodied."
+   },
+   "1": {
+    "original": "I appreciate the beauty of Stanford\u2019s free speech culture, an environment that has opened my mind to alternate and foreign points of view.",
+    "rewrite": "I admire the beauty of Stanford\u2019s free speech culture, an atmosphere that has broadened my perspective to include alternative and foreign viewpoints."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 0,
+    "survivors": 59,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 56,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 56,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 38,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "\"Tears of Gaza\" screening shows that a significant number of SJP supporters use hate speech to dehumanize Jews within their own community and silence students who address important issues regarding Israeli human rights and security.\nI admire the beauty of Stanford\u2019s free speech culture, an atmosphere that has broadened my perspective to include alternative and foreign viewpoints. However, after attending this screening and the Q&A that followed, which included numerous hateful references, I now feel silenced by a group that publicly advocates for a cause, yet disregards proper human and civil conduct. As a pro-Israel student at Stanford who loves, admires, and desires to engage in a lively debate with Palestinians and their allies, I feel emotionally disembodied.\nI am left with a question that has been unanswered since my visit to the \u201cTears of Gaza\u201d conference and lecture in",
+  "z0": 6.222539674441618,
+  "seconds": 189.0
+ }
+}

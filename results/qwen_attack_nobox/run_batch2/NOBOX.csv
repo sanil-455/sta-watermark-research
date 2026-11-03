@@ -1,0 +1,242 @@
+sample,z0,z_final,status,sentences_rewritten,eligible
+samples_len200:28,5.3740,3.6336,not broken,5,5
+samples_len200:29,4.8083,3.6860,not broken,4,5
+samples_len200:30,4.1012,2.4687,not broken,3,3
+samples_len200:31,5.0912,4.1012,not broken,3,3
+samples_len200:34,3.2527,3.4911,not broken,5,5
+samples_len200:35,5.9397,3.3198,not broken,8,8
+samples_len200:36,5.0912,5.0844,not broken,3,3
+samples_len200:40,4.1012,4.1012,not broken,0,1
+samples_len200:42,3.6770,2.0313,not broken,1,1
+samples_len200:43,6.7882,5.1693,not broken,4,5
+samples_len200:44,5.0912,1.8962,broken,6,6
+samples_len200:46,2.1213,2.0103,not broken,3,3
+samples_len200:47,5.5154,2.6737,not broken,4,4
+samples_len200:51,3.3941,3.4286,not broken,1,1
+samples_len200:52,5.2326,3.2225,not broken,10,10
+samples_len200:56,3.5355,2.1651,not broken,6,6
+samples_len200:60,5.5154,4.2368,not broken,3,3
+samples_len200:61,5.0912,3.8988,not broken,5,5
+samples_len200:63,6.6468,5.6857,not broken,4,4
+samples_len200:64,4.1012,3.9590,not broken,5,6
+samples_len200:65,2.2627,2.4042,not broken,1,2
+samples_len200:66,5.7983,3.8376,not broken,4,4
+samples_len200:69,3.1113,2.2741,not broken,4,4
+samples_len200:70,4.6669,4.0819,not broken,2,2
+samples_len200:71,4.9497,4.9497,not broken,0,0
+samples_len200:72,5.2326,4.7845,not broken,3,3
+samples_len200:73,3.9598,2.7646,not broken,4,4
+samples_len200:74,2.9698,1.9537,broken,4,4
+samples_len200:78,4.9497,2.9848,not broken,6,6
+samples_len200:81,5.2326,3.5898,not broken,6,6
+samples_len200:84,2.5456,1.2923,broken,8,8
+samples_len200:85,3.9598,2.8636,not broken,5,6
+samples_len200:86,3.3941,2.9667,not broken,5,5
+samples_len200:87,4.8083,4.0000,not broken,3,3
+samples_len200:89,7.2125,5.6002,not broken,7,7
+samples_len200:90,5.0912,4.0415,not broken,3,3
+samples_len200:91,3.3317,3.3317,not broken,0,0
+samples_len200:94,3.9598,3.4735,not broken,4,5
+samples_len200:95,2.4042,1.3748,broken,3,3
+samples_len200:97,4.6669,2.2200,not broken,3,4
+samples_len200:98,2.5456,1.2237,broken,3,3
+samples_len200:99,2.2627,0.9850,broken,3,3
+samples_len200:101,3.2527,3.2826,not broken,3,4
+samples_len200:104,5.5154,4.0411,not broken,5,5
+samples_len200:105,4.6669,4.0608,not broken,1,1
+samples_len200:106,3.8184,2.9211,not broken,4,5
+samples_len200:108,5.3740,2.1207,not broken,2,2
+samples_len200:109,5.5154,3.8571,not broken,2,2
+samples_len200:110,4.3841,2.3878,not broken,5,5
+samples_len200:112,5.0912,4.1219,not broken,1,1
+samples_len200:113,5.2326,0.7877,broken,8,8
+samples_len200:115,2.1213,2.4687,not broken,4,4
+samples_len200:116,3.3941,2.0902,not broken,4,4
+samples_len200:117,5.9397,5.0585,not broken,5,5
+samples_len200:118,5.6569,3.5777,not broken,2,2
+samples_len200:119,3.8184,3.4555,not broken,4,4
+samples_len200:122,5.3740,5.0331,not broken,1,1
+samples_len200:123,4.1012,4.1615,not broken,6,6
+samples_len200:124,5.8544,4.6437,not broken,5,5
+samples_len200:126,3.3941,2.0254,not broken,4,4
+samples_len200:127,3.6770,3.3317,not broken,5,5
+samples_len200:128,3.9598,3.6056,not broken,3,3
+samples_len200:129,4.2426,2.7928,not broken,2,2
+samples_len200:130,6.2225,5.6288,not broken,2,2
+samples_len200:131,3.9598,3.8988,not broken,3,4
+samples_len200:134,4.8083,3.7017,not broken,3,4
+samples_len200:135,4.8083,3.8988,not broken,6,6
+samples_len200:136,4.3841,2.6229,not broken,10,10
+samples_len200:137,4.6669,2.9512,not broken,4,4
+samples_len200:138,3.2527,2.1866,not broken,1,1
+samples_len200:139,5.3740,4.6437,not broken,2,2
+samples_len200:140,5.3740,5.3740,not broken,0,2
+samples_len200:141,4.5255,3.5090,not broken,8,8
+samples_len200:142,4.5255,2.8073,not broken,8,8
+samples_len200:143,3.9598,3.8794,not broken,1,1
+samples_len200:144,3.5355,2.4565,not broken,6,6
+samples_len200:146,4.7495,4.1029,not broken,4,4
+samples_len200:148,4.9497,4.9667,not broken,4,4
+samples_len200:150,5.0912,4.5030,not broken,3,3
+samples_len200:151,5.7983,3.5090,not broken,5,5
+samples_len200:152,4.4437,3.1113,not broken,4,4
+samples_len200:153,3.6770,2.4962,not broken,4,4
+samples_len200:154,2.9698,3.1113,not broken,2,2
+samples_len200:155,4.9497,3.3486,not broken,3,3
+samples_len200:157,2.9698,2.0558,not broken,2,2
+samples_len200:158,4.1012,2.2975,not broken,5,5
+samples_len200:160,3.1113,3.1895,not broken,6,6
+samples_len200:161,6.0811,4.6669,not broken,6,7
+samples_len200:162,2.8284,1.0051,broken,4,4
+samples_len200:164,4.6669,2.2087,not broken,6,6
+samples_len200:167,4.2426,3.8988,not broken,4,4
+samples_len200:168,5.5154,4.9589,not broken,4,4
+samples_len200:169,6.9296,6.2225,not broken,2,2
+samples_len200:170,2.5456,1.3606,broken,3,4
+samples_len200:171,2.2627,1.5116,broken,1,1
+samples_len200:172,4.3841,3.5180,not broken,3,3
+samples_len200:173,5.0912,3.2365,not broken,4,5
+samples_len200:174,4.5255,3.1113,not broken,6,6
+samples_len200:176,2.8284,2.6361,not broken,4,4
+samples_len200:179,4.9497,3.4735,not broken,4,4
+samples_len200:180,4.5255,2.3754,not broken,7,7
+samples_len200:183,3.5355,2.9848,not broken,2,2
+samples_len200:185,3.5355,2.1320,not broken,4,4
+samples_len200:186,4.6669,4.1219,not broken,3,3
+samples_len200:187,2.8284,1.8477,broken,2,2
+samples_len200:188,4.5255,3.1590,not broken,5,5
+samples_len200:189,3.6770,2.1975,not broken,4,4
+samples_len200:191,4.2426,3.0000,not broken,3,3
+samples_len200:192,6.0811,4.7385,not broken,2,2
+samples_len200:194,5.3740,4.4217,not broken,5,5
+samples_len200:197,2.5456,2.1108,not broken,3,3
+samples_len200:198,4.3841,4.2078,not broken,2,2
+samples_len200:199,6.2225,5.3685,not broken,3,3
+samples_len200:200,4.8083,3.0180,not broken,4,4
+samples_len200:201,5.0912,3.9386,not broken,2,2
+samples_len200:202,3.1113,1.7321,broken,3,3
+samples_len200:204,6.5054,4.8735,not broken,2,2
+samples_len200:205,5.3740,2.6361,not broken,6,6
+samples_len200:206,3.5355,3.5355,not broken,1,1
+samples_len200:207,5.7983,5.1748,not broken,3,3
+samples_len200:209,6.2225,4.7378,not broken,4,4
+samples_len200:210,2.9698,2.6870,not broken,2,3
+samples_len200:211,4.6669,3.3317,not broken,4,4
+samples_len200:212,3.6770,2.8284,not broken,1,1
+samples_len200:213,4.9497,4.3841,not broken,6,6
+samples_len200:214,3.3941,3.3941,not broken,0,0
+samples_len200:215,3.5355,2.7646,not broken,3,3
+samples_len200:216,3.1113,2.1880,not broken,3,3
+samples_len200:217,5.5154,1.9335,broken,6,6
+samples_len200:219,4.1012,3.3486,not broken,3,3
+samples_len200:220,4.2426,3.0636,not broken,4,4
+samples_len200:224,3.6153,3.6153,not broken,0,0
+samples_len200:225,4.8083,3.7143,not broken,3,3
+samples_len200:228,4.3841,3.2667,not broken,3,3
+samples_len200:229,4.6669,3.1741,not broken,4,4
+samples_len200:230,4.3841,2.6098,not broken,4,4
+samples_len200:231,5.2326,3.0144,not broken,3,3
+samples_len200:233,6.2225,5.8837,not broken,2,2
+samples_len200:234,3.5355,0.2137,broken,3,3
+samples_len200:235,5.3740,4.6077,not broken,3,3
+samples_len200:236,5.3740,3.9598,not broken,6,6
+samples_len200:237,5.2326,3.5714,not broken,2,2
+samples_len200:238,3.2527,1.6045,broken,5,5
+samples_len200:239,7.3539,5.8275,not broken,5,5
+samples_len200:240,3.2527,2.4004,not broken,2,2
+samples_len200:241,3.9598,3.3317,not broken,10,11
+samples_len200:242,5.2326,3.4112,not broken,5,6
+samples_len200:244,5.3740,5.0659,not broken,2,2
+samples_len200:245,5.0912,3.2061,not broken,3,3
+samples_len200:246,5.3740,4.3841,not broken,3,3
+samples_len200:247,2.2627,1.9335,broken,3,4
+samples_len200:248,4.1012,4.1012,not broken,0,0
+samples_len200:249,3.2527,3.2561,not broken,3,3
+samples_len200:250,4.5255,4.0809,not broken,1,1
+samples_len200:252,4.6669,3.1429,not broken,5,5
+samples_len200:253,3.2527,2.4687,not broken,5,5
+samples_len200:254,3.6770,2.5969,not broken,5,5
+samples_len200:256,4.9497,3.4286,not broken,6,6
+samples_len200:257,5.3740,4.6904,not broken,7,7
+samples_len200:259,6.9296,4.9667,not broken,4,4
+samples_len200:261,5.7983,5.3435,not broken,5,5
+samples_len200:262,5.3740,2.9744,not broken,6,6
+samples_len200:264,4.2426,2.1094,not broken,3,3
+samples_len200:265,6.2225,3.5090,not broken,4,4
+samples_len200:266,5.3740,5.1374,not broken,5,5
+samples_len200:268,5.3740,4.3461,not broken,5,5
+samples_len200:269,5.6569,4.1615,not broken,3,3
+samples_len200:270,3.6770,1.9237,broken,3,3
+samples_len200:271,4.5255,2.9698,not broken,4,4
+samples_len200:272,2.8284,1.1816,broken,5,5
+samples_len200:273,5.6569,4.0205,not broken,9,9
+samples_len200:274,3.8184,2.0103,not broken,7,7
+samples_len200:275,4.1012,3.1584,not broken,3,3
+samples_len200:276,4.8083,2.6496,not broken,3,3
+samples_len200:277,4.2426,4.0611,not broken,1,2
+samples_len200:278,5.7983,4.3461,not broken,3,3
+samples_len200:279,3.2527,1.8858,broken,6,6
+samples_len200:280,2.8284,2.6229,not broken,1,2
+samples_len200:281,2.6870,2.2431,not broken,2,2
+samples_len200:282,5.0912,3.8988,not broken,5,5
+samples_len200:285,5.1490,1.8414,broken,6,6
+samples_len200:286,3.3941,1.6471,broken,3,3
+samples_len200:288,4.5255,3.2561,not broken,3,3
+samples_len200:289,2.8284,2.2718,not broken,5,5
+samples_len200:291,4.9497,2.8868,not broken,8,8
+samples_len200:292,2.8284,3.0636,not broken,4,4
+samples_len200:294,3.3941,3.1277,not broken,5,5
+samples_len200:295,3.9598,1.6304,broken,5,5
+samples_len200:296,4.3841,4.3841,not broken,0,0
+samples_len200:297,2.8284,1.4510,broken,5,5
+samples_len200:298,4.6669,3.0311,not broken,3,3
+samples_len200:300,3.9598,3.9186,not broken,1,1
+samples_len200:301,5.1748,3.6336,not broken,9,9
+samples_len200:302,4.2426,3.7624,not broken,4,4
+samples_len200:303,3.8184,3.5795,not broken,1,1
+samples_len200:304,2.6870,1.0000,broken,5,5
+samples_len200:307,4.2426,2.8219,not broken,5,5
+samples_len200:308,5.2326,3.2826,not broken,3,3
+samples_len200:310,5.0912,4.1824,not broken,2,2
+samples_len200:311,4.8083,2.2741,not broken,5,5
+samples_len200:314,3.1113,3.3151,not broken,1,1
+samples_len200:316,5.6569,3.5546,not broken,4,4
+samples_len200:317,3.9598,3.2561,not broken,5,5
+samples_len200:318,3.9598,3.4340,not broken,10,10
+samples_len200:319,4.8083,2.8006,not broken,4,4
+samples_len200:321,5.0912,3.6084,not broken,4,4
+samples_len200:322,4.5255,4.2857,not broken,2,2
+samples_len200:323,2.6870,3.5129,not broken,5,5
+samples_len200:324,2.4042,1.8385,broken,5,5
+samples_len200:325,2.8284,1.4887,broken,5,5
+samples_len200:326,4.1012,3.5795,not broken,5,5
+samples_len200:327,4.8083,4.4980,not broken,4,4
+samples_len200:328,3.8184,2.2792,not broken,3,3
+samples_len200:329,3.8184,1.8667,broken,5,5
+samples_len200:332,5.2326,3.4112,not broken,8,8
+samples_len200:333,4.5255,1.2366,broken,4,4
+samples_len200:334,4.2426,3.5007,not broken,6,6
+samples_len200:335,3.8184,3.7383,not broken,1,1
+samples_len200:336,3.8184,3.0793,not broken,3,4
+samples_len200:337,5.7983,4.8821,not broken,3,3
+samples_len200:339,4.5255,3.9797,not broken,1,1
+samples_len200:340,2.4042,1.4072,broken,3,3
+samples_len200:341,5.5154,3.9386,not broken,4,4
+samples_len200:342,5.3740,4.6904,not broken,2,2
+samples_len200:343,4.5255,2.9512,not broken,5,6
+samples_len200:344,4.8083,4.2008,not broken,4,4
+samples_len200:345,4.1012,2.8284,not broken,2,2
+samples_len200:347,4.8083,3.7334,not broken,3,3
+samples_len200:348,4.6669,3.3486,not broken,4,4
+samples_len200:349,4.2426,4.1244,not broken,6,6
+samples_len200:350,4.3841,3.0482,not broken,3,3
+samples_len200:351,3.9598,4.1824,not broken,2,2
+samples_len200:352,4.3841,3.0952,not broken,3,3
+samples_len200:355,3.2527,2.4687,not broken,2,2
+samples_len200:356,3.1113,3.2527,not broken,1,1
+samples_len200:357,4.3841,3.4911,not broken,4,4
+samples_len200:358,4.9497,2.7714,not broken,3,3
+samples_len200:359,2.2627,1.4003,broken,5,5
+samples_len200:360,4.6669,3.8349,not broken,6,6
+samples_len200:361,4.8083,3.4735,not broken,5,5
+samples_len200:362,3.6770,2.2515,not broken,6,6
