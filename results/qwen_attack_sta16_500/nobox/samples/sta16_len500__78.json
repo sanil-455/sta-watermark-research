@@ -1,0 +1,170 @@
+{
+ "sample_id": "sta16_len500:78",
+ "nobox": {
+  "z_final": 12.229218489362179,
+  "status": "not broken",
+  "rewrites": {
+   "15": {
+    "original": "God wants us to party honestly and openly, to deal with the dark places of our lives honestly and openly, to be truthful about sin honestly and openly to be ourselves with God.",
+    "rewrite": "God desires us to party honestly and openly, to address the dark spots in our lives honestly and openly, to remain truthful about sin honestly and openly, and to be authentic before God."
+   },
+   "24": {
+    "original": "We don\u2019t have to be afraid to party, and we don\u2019t have to be afraid to weep because both our weeping and our laughing has touched the Man of the Tribe.",
+    "rewrite": "We don\u2019t need to shy away from parties, and we don\u2019t need to fear crying as our tears and laughter have connected with the Man of the Tribe."
+   },
+   "2": {
+    "original": "He has touched our humanity first as man\u2019s maker and partner, and finally, and predominantly, as our Redeemer by bearing our sins to the Cross.",
+    "rewrite": "First as man's maker and partner, and finally and predominantly as our Redeemer by bearing our sins to the Cross, he has touched our humanity."
+   },
+   "18": {
+    "original": "To stand at times with God shoulder to shoulder and crying out to the Judge of Heaven on behalf of the lost and broken and sick.",
+    "rewrite": "To stand at times with God side by side and pleading to the Judge of Heaven on behalf of the lost, broken, and sick."
+   },
+   "1": {
+    "original": "He is no stranger in heaven approaching us; He has knit us together by His Spirit inside the wombs of our mothers in utero.",
+    "rewrite": "He is not unfamiliar in heaven approaching us; He has woven us together with His Spirit within the wombs of our mothers in utero."
+   },
+   "21": {
+    "original": "In the Film they are physically touched by the physical presence of love or brought into a dark time as they face death.",
+    "rewrite": "In the film, they are physically touched by love's presence or enter a dark period as they confront death."
+   },
+   "25": {
+    "original": "We sit now at the table with the Man of the Tribe, leaning on the shoulders of our Holy Father, and all is well.",
+    "rewrite": "Now we sit at the table beside the Man of the Tribe, resting against the shoulders of our Holy Father, and everything is well."
+   },
+   "22": {
+    "original": "But we now know that\u2019s just the two feet of Jesus the Immanuel, after a supernatural touch.",
+    "rewrite": "But we now know that\u2019s just the two feet of Jesus the Immanuel, following a supernatural touch."
+   },
+   "20": {
+    "original": "We want to remind you: don\u2019t be afraid of the laughter and weeping of the Film Character.",
+    "rewrite": "We want to remind you: do not fear the laughter and weeping of the film character."
+   },
+   "6": {
+    "original": "God who has touched you and I, we don\u2019t laugh three time like doves at a wedding.",
+    "rewrite": "God who has touched you and me, we don't laugh three times like doves at a wedding."
+   },
+   "3": {
+    "original": "This God we sing so emphatically is the God we now get to carry us in prayer.",
+    "rewrite": "This God we sing about so fervently is the God who now carries us in prayer."
+   },
+   "23": {
+    "original": "It is no different than a living, breathing man and woman holding hands.",
+    "rewrite": "It is no different from a living, breathing man and woman holding hands."
+   },
+   "19": {
+    "original": "And for the repentant soul that has found life.",
+    "rewrite": "And for the soul that has found life through repentance."
+   },
+   "12": {
+    "original": "We wait on the verdict of laughter?",
+    "rewrite": "We wait for the verdict of laughter?"
+   },
+   "4": {
+    "original": "He is looking at me and you now.",
+    "rewrite": "He is looking at both me and you now."
+   },
+   "8": {
+    "original": "Laugh\u2026 We agree with laughter?",
+    "rewrite": "Laugh\u2026 Do we agree with laughter?"
+   },
+   "13": {
+    "original": "Is the verdict a court of law?",
+    "rewrite": "Does the verdict come from a court of law?"
+   }
+  },
+  "sentences_rewritten": 17,
+  "eligible": 17,
+  "per_sentence": [
+   {
+    "index": 15,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 24,
+    "survivors": 1,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 18,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 21,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 25,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 22,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 20,
+    "survivors": 15,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 23,
+    "survivors": 5,
+    "rewritten": true
+   },
+   {
+    "index": 19,
+    "survivors": 20,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 8,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 4,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "days to come we are invited to journey through Scripture and see the God of the Bible as intimately invested in creation, and humankind. He is not unfamiliar in heaven approaching us; He has woven us together with His Spirit within the wombs of our mothers in utero. First as man's maker and partner, and finally and predominantly as our Redeemer by bearing our sins to the Cross, he has touched our humanity. This God we sing about so fervently is the God who now carries us in prayer. He is looking at both me and you now. He is touching us now.\nGod who has touched you and me, we don't laugh three times like doves at a wedding. We what? Laugh\u2026 Do we agree with laughter? We party with laughter? We sing with laughter? We talk through laughter? We wait for the verdict of laughter? Does the verdict come from a court of law? No!\nGod desires us to party honestly and openly, to address the dark spots in our lives honestly and openly, to remain truthful about sin honestly and openly, and to be authentic before God. To cry if we have tears. To laugh if we have laughter. To stand at times with God side by side and pleading to the Judge of Heaven on behalf of the lost, broken, and sick. And for the soul that has found life through repentance. We want to remind you: do not fear the laughter and weeping of the film character. In the film, they are physically touched by love's presence or enter a dark period as they confront death. But we now know that\u2019s just the two feet of Jesus the Immanuel, following a supernatural touch. It is no different from a living, breathing man and woman holding hands. We don\u2019t need to shy away from parties, and we don\u2019t need to fear crying as our tears and laughter have connected with the Man of the Tribe. Now we sit at the table beside the Man of the Tribe, resting against the shoulders of our Holy Father, and everything is well.\nJesus told his disciples that though \u201c\u2026the world hates him, because it has hated me before it hated",
+  "z0": 16.636345752598434,
+  "seconds": 494.2
+ }
+}

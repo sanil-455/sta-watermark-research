@@ -1,0 +1,161 @@
+{
+ "sample_id": "sta16_len500:61",
+ "nobox": {
+  "z_final": 10.265294838367254,
+  "status": "not broken",
+  "rewrites": {
+   "18": {
+    "original": "You can trace Montreal's seasonal lows with the goal to draw Giivinco from the straightaway toward the inside of the penalty box, harassing the Italian attacker relentlessly.",
+    "rewrite": "One can trace Montreal's seasonal lows by enticing Giivinco from the straightaway towards the inside of the penalty box, constantly harassing the Italian striker."
+   },
+   "17": {
+    "original": "But TFC was too far behind to make a difference, losing to an Impact team on song and displaying flair in large measures of creative expression.",
+    "rewrite": "But TFC was too far behind to make a difference, losing to an Impact team that was lively and showing significant creative flair."
+   },
+   "19": {
+    "original": "The main culprit was midfielder Patrice Bernier, who blocked the space, and sometimes the path forward, prior to touching the ball only rarely.",
+    "rewrite": "Midfielder Patrice Bernier primarily prevented space, and occasionally the path forward, before touching the ball infrequently."
+   },
+   "13": {
+    "original": "In the sixth minute, Bernier crafted the final pass from Piatti's pass, which drew a Canadian MLS playoff-record penalty.",
+    "rewrite": "In the sixth minute, Bernier crafted the final pass from Piatti's feed, which secured a Canadian MLS playoff-record penalty."
+   },
+   "11": {
+    "original": "Never before had a game at Saputo Stadium looked more like a snowball fight at a stadium built in winter.",
+    "rewrite": "Never before did a game at Saputo Stadium seem more like a snowball fight in a stadium constructed for winter."
+   },
+   "14": {
+    "original": "Andover Jordan staggered the Impact goal, and big Belgian defender Hasain El-Khdred's shot soared wide.",
+    "rewrite": "Andover Jordan disrupted the Impact's goal, and the big Belgian defender Hasain El-Khdred's shot went wide."
+   },
+   "2": {
+    "original": "The big 6-7 Drogba worked his way at the front of the pack to head the ball down hard and clear.",
+    "rewrite": "The 6-7 tall Drogba made his way to the front of the pack to heading the ball down firmly and clearly."
+   },
+   "16": {
+    "original": "A flustered Vanney decided to bring Bradley off after a while, replacing him with Will Johnson.",
+    "rewrite": "After a while, the flustered Vanney substituted Bradley for Will Johnson."
+   },
+   "5": {
+    "original": "Bernier crashed in two more hard, booming headers as Montreal pressed the case.",
+    "rewrite": "Bernier added two more hard, booming headers as Montreal continued to press the case."
+   },
+   "10": {
+    "original": "Nearby street-hockey players looked on from the sinews like gypsies.",
+    "rewrite": "Nearby street-hockey players had looks of gypsies in their sinews."
+   },
+   "3": {
+    "original": "The diminutive Bernier was on the floor, but he got up on one leg.",
+    "rewrite": "Bernier, though small in stature, was on the floor and managed to get up on one leg."
+   },
+   "12": {
+    "original": "A sand-less field gives the incoming ball the freedom to carom.",
+    "rewrite": "A field devoid of sand allows the incoming ball full freedom to carom."
+   },
+   "9": {
+    "original": "Cheering diffused the goal, but the pitch was intolerable.",
+    "rewrite": "The cheering reflected the goal, yet the pitch was unbearable."
+   },
+   "6": {
+    "original": "He got to a second right before the halftime break.",
+    "rewrite": "He reached the second right before the halftime break."
+   },
+   "1": {
+    "original": "With 33 minutes gone Montreal won a corner.",
+    "rewrite": "After 33 minutes, Montreal won a corner."
+   },
+   "4": {
+    "original": "The small crowd erupted in delight.",
+    "rewrite": "The tiny crowd burst into delight."
+   }
+  },
+  "sentences_rewritten": 16,
+  "eligible": 16,
+  "per_sentence": [
+   {
+    "index": 18,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 17,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 19,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 14,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 14,
+    "rewritten": true
+   },
+   {
+    "index": 16,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 3,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 6,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the table with a toffee hammer.\nAfter 33 minutes, Montreal won a corner. The 6-7 tall Drogba made his way to the front of the pack to heading the ball down firmly and clearly. Bernier, though small in stature, was on the floor and managed to get up on one leg. The tiny crowd burst into delight.\nBernier added two more hard, booming headers as Montreal continued to press the case. He reached the second right before the halftime break.\n\"Our pattern of play changed a little bit,\" Biello conceded. \"I don't know if I instructed guys to go away from the centre, but guys on the bench went away from the centre so right before the whistle Bernier was kind of isolated out front\u2026 We made a change right before the whistle hoping somebody would slide away from the centre.\"\nThe cheering reflected the goal, yet the pitch was unbearable. Nearby street-hockey players had looks of gypsies in their sinews.\nNever before did a game at Saputo Stadium seem more like a snowball fight in a stadium constructed for winter.\nA field devoid of sand allows the incoming ball full freedom to carom. In the sixth minute, Bernier crafted the final pass from Piatti's feed, which secured a Canadian MLS playoff-record penalty.\nAndover Jordan disrupted the Impact's goal, and the big Belgian defender Hasain El-Khdred's shot went wide. Didier missed.\nAfter a while, the flustered Vanney substituted Bradley for Will Johnson. But TFC was too far behind to make a difference, losing to an Impact team that was lively and showing significant creative flair.\nOne can trace Montreal's seasonal lows by enticing Giivinco from the straightaway towards the inside of the penalty box, constantly harassing the Italian striker. Midfielder Patrice Bernier primarily prevented space, and occasionally the path forward, before touching the ball infrequently.\nToronto's front-runners, Giovinco and Altidore, commenced to channel the power of heavy marksmen",
+  "z0": 16.42917635401552,
+  "seconds": 476.6
+ }
+}

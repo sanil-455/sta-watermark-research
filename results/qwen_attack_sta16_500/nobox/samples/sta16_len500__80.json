@@ -1,0 +1,188 @@
+{
+ "sample_id": "sta16_len500:80",
+ "nobox": {
+  "z_final": 8.094659806465808,
+  "status": "not broken",
+  "rewrites": {
+   "12": {
+    "original": "I think the really important thing is getting everyone to release their public health data, which is very valuable and valuable for lives, because much of the public health data has to be as good as it can be to protect lives.",
+    "rewrite": "I believe the crucial point is to get everyone to share their public health data, which is incredibly beneficial and vital for saving lives, as much of the public health data needs to be of the best quality to safeguard lives."
+   },
+   "10": {
+    "original": "I think it\u2019s really important to wrere a data sharing platform, and I think that\u2019d be best because taking data collection out of the hands of its providers has proved incredibly successful everywhere.",
+    "rewrite": "I believe it\u2019s really important to develop a data sharing platform, and I think that would be best since separating data collection from its providers has demonstrated incredible success universally."
+   },
+   "1": {
+    "original": "We want to let the communities do the responsibility for generating the data in their countries and the regions over and above any governments that want to provide their own public health data.",
+    "rewrite": "We aim to let communities take on the responsibility of generating data in their countries and regions, allowing governments that wish to provide their own public health data to do so as well."
+   },
+   "13": {
+    "original": "It would help if everyone had a situation where they were entirely dependent on shared public health data, but known someone at their top who had a different source.",
+    "rewrite": "It would benefit everyone to have a scenario of complete dependence on shared public health data, yet know someone important who had an alternative source."
+   },
+   "8": {
+    "original": "For countries that aren\u2019t yet in a stage, we expect the government to make a data portal so that everyone can see is easy to find, and can feel empathy.",
+    "rewrite": "For countries not yet at that stage, we expect the government to create a data portal to make it easy to find, ensuring that everyone can see and feel empathy."
+   },
+   "14": {
+    "original": "Then that person at the top had more reason to put their version of the data online, which would ultimately drive it in a direction that is incredible.",
+    "rewrite": "Then the individual at the top had greater reason to upload their interpretation of the data, which would eventually steer it in an incredible direction."
+   },
+   "2": {
+    "original": "In the short-run, I think there are very different challenges according to the stage each country faces in their response to air pollution.",
+    "rewrite": "In the short run, I believe there are very distinct challenges depending on the stage each country is at in addressing air pollution."
+   },
+   "4": {
+    "original": "In the Philippines, we had only just the flood, and an enormous blow - infant mortality, which is asthma porlated to small babies.",
+    "rewrite": "In the Philippines, we faced a flood and an immense storm, leading to high infant mortality often associated with asthma in small babies."
+   },
+   "16": {
+    "original": "There are so many cities with incredibly challenging level of pollution-related issues.",
+    "rewrite": "So many cities face incredibly challenging pollution-related issues."
+   },
+   "9": {
+    "original": "What do you want to convey to those working in similar issues in other countries?",
+    "rewrite": "To what message would you like to communicate to those who are working on similar issues in other countries?"
+   },
+   "6": {
+    "original": "It wasn\u2019t even on the map and obvious it\u2019s going to have air pollution issues.",
+    "rewrite": "It wasn't even marked on the map and it's clearly going to face air pollution issues."
+   },
+   "3": {
+    "original": "Hong Kong is in full, advanced stage, like NGOs helping them clean up.",
+    "rewrite": "Hong Kong is in an advanced, full stage, much like NGOs assisting in the cleanup."
+   },
+   "5": {
+    "original": "But it\u2019s still a new country and is just starting learning about it.",
+    "rewrite": "But it's still a new country and is just beginning to learn about it."
+   },
+   "19": {
+    "original": "We can do things on the local-level which would benefit many cities.",
+    "rewrite": "On the local level, we can do things that would benefit many cities."
+   },
+   "17": {
+    "original": "But we can go level by level, city by city to make these changes.",
+    "rewrite": "We can make these changes by going level by level, city by city."
+   },
+   "11": {
+    "original": "So, I don\u2019t know what it\u2019d be like in China and Kazakhstan.",
+    "rewrite": "So, I'm not sure what it would be like in China and Kazakhstan."
+   },
+   "15": {
+    "original": "What can Ulaanbaatar benefit from Shenzhen\u2019s expieriences?",
+    "rewrite": "What benefits can Ulaanbaatar gain from Shenzhen\u2019s experiences?"
+   },
+   "7": {
+    "original": "I think it\u2019s a different stage for every country.",
+    "rewrite": "Every country seems to be at a different stage."
+   },
+   "18": {
+    "original": "Other cities can benefit from similar platforms.",
+    "rewrite": "Similar platforms can also benefit other cities."
+   }
+  },
+  "sentences_rewritten": 19,
+  "eligible": 19,
+  "per_sentence": [
+   {
+    "index": 12,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 57,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 59,
+    "rewritten": true
+   },
+   {
+    "index": 14,
+    "survivors": 25,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 16,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 19,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 17,
+    "survivors": 20,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 11,
+    "rewritten": true
+   },
+   {
+    "index": 15,
+    "survivors": 8,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 4,
+    "rewritten": true
+   },
+   {
+    "index": 18,
+    "survivors": 10,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "data that isn\u2019t available in other ways. We aim to let communities take on the responsibility of generating data in their countries and regions, allowing governments that wish to provide their own public health data to do so as well.\nIn the short run, I believe there are very distinct challenges depending on the stage each country is at in addressing air pollution. Hong Kong is in an advanced, full stage, much like NGOs assisting in the cleanup. In the Philippines, we faced a flood and an immense storm, leading to high infant mortality often associated with asthma in small babies. But it's still a new country and is just beginning to learn about it. It wasn't even marked on the map and it's clearly going to face air pollution issues. Every country seems to be at a different stage.\nFor countries not yet at that stage, we expect the government to create a data portal to make it easy to find, ensuring that everyone can see and feel empathy.\nTo what message would you like to communicate to those who are working on similar issues in other countries?\nI believe it\u2019s really important to develop a data sharing platform, and I think that would be best since separating data collection from its providers has demonstrated incredible success universally. So, I'm not sure what it would be like in China and Kazakhstan.\nI believe the crucial point is to get everyone to share their public health data, which is incredibly beneficial and vital for saving lives, as much of the public health data needs to be of the best quality to safeguard lives. It would benefit everyone to have a scenario of complete dependence on shared public health data, yet know someone important who had an alternative source. Then the individual at the top had greater reason to upload their interpretation of the data, which would eventually steer it in an incredible direction.\nWhat benefits can Ulaanbaatar gain from Shenzhen\u2019s experiences?\nSo many cities face incredibly challenging pollution-related issues. We can make these changes by going level by level, city by city. Similar platforms can also benefit other cities. On the local level, we can do things that would benefit many cities. We can do the networked movement from the bottom, and at different points work changes will",
+  "z0": 18.78297101099823,
+  "seconds": 551.9
+ }
+}

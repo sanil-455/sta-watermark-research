@@ -1,0 +1,143 @@
+{
+ "sample_id": "sta16_len500:148",
+ "nobox": {
+  "z_final": 13.684736022298713,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "The winner is announced as soon as fewer than 4 remaining players decide - or sooner if a number of killing traps and special conditions are triggered during the game.All player accounts and their personal statistics are saved.",
+    "rewrite": "As soon as fewer than 4 remaining players decide, the winner is announced - or sooner if killing traps or special conditions are triggered during the game. All player accounts and their personal statistics are saved."
+   },
+   "11": {
+    "original": "Note: Mafia Boss uses Macros to store customized usage information files, required by some game customizations; this may reduce free storage space.",
+    "rewrite": "Note: Mafia Boss utilizes Macros for storing personalized usage data files, needed for certain game customizations; this might decrease available storage space."
+   },
+   "1": {
+    "original": "It is of the utmost importance that the Town players stick together to succeed in getting rid of the Mafia.",
+    "rewrite": "It is extremely important that the Town players work together to succeed in removing the Mafia."
+   },
+   "3": {
+    "original": "It is usually more fun when players repeatedly join, die, and join again in order to play the game nonstop.",
+    "rewrite": "Players often find it more enjoyable when they repeatedly join, die, and join again to play the game nonstop."
+   },
+   "2": {
+    "original": "The success of the Town is reflected by the number of players amongst those they get rid of.",
+    "rewrite": "The success of the Town is shown by the number of players among those they let go."
+   },
+   "10": {
+    "original": "Additional \"macros\" of standard welcome messages allow easy communication with participants.",
+    "rewrite": "Additional \"macros\" for standard welcome messages enable easy communication with participants."
+   },
+   "8": {
+    "original": "During the game you may create mailboxes, which are saved for each individual participant.",
+    "rewrite": "During the game, participants can create mailboxes, which will be saved for each individual."
+   },
+   "6": {
+    "original": "Individual accounts include nicknames, avatars and a unique password.",
+    "rewrite": "Individual accounts consist of nicknames, avatars, and a unique password."
+   },
+   "12": {
+    "original": "Free online support, plus a forum to ask more questions available.",
+    "rewrite": "Free online support is available, along with a forum for asking more questions."
+   },
+   "4": {
+    "original": "Mafia Boss, like any other version, allows up to 23 players.",
+    "rewrite": "Mafia Boss accommodates a maximum of 23 players, just like any other version."
+   },
+   "9": {
+    "original": "These feature attachments such as avatars and documents.",
+    "rewrite": "These include attachments like avatars and documents."
+   },
+   "21": {
+    "original": "Also fixed bug where game priorities are ignored.",
+    "rewrite": "Also fixed a bug that ignored game priorities."
+   },
+   "7": {
+    "original": "Multiple player profiles are possible.",
+    "rewrite": "Multiple player profiles can be created."
+   },
+   "16": {
+    "original": "Mafia, nothing more, nothing less.",
+    "rewrite": "Mafia, no more, no less."
+   }
+  },
+  "sentences_rewritten": 14,
+  "eligible": 14,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 18,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 15,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 17,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 20,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 2,
+    "rewritten": true
+   },
+   {
+    "index": 21,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 16,
+    "survivors": 5,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "time, the Mafia secretly tries to eliminate the Town players by voting them off. It is extremely important that the Town players work together to succeed in removing the Mafia. The success of the Town is shown by the number of players among those they let go. Players often find it more enjoyable when they repeatedly join, die, and join again to play the game nonstop. Mafia Boss accommodates a maximum of 23 players, just like any other version. As soon as fewer than 4 remaining players decide, the winner is announced - or sooner if killing traps or special conditions are triggered during the game. All player accounts and their personal statistics are saved. Individual accounts consist of nicknames, avatars, and a unique password. Multiple player profiles can be created. During the game, participants can create mailboxes, which will be saved for each individual. These include attachments like avatars and documents. Additional \"macros\" for standard welcome messages enable easy communication with participants. Note: Mafia Boss utilizes Macros for storing personalized usage data files, needed for certain game customizations; this might decrease available storage space. Free online support is available, along with a forum for asking more questions.\n\"\"Mafia\"\" in your pocket \u0096 whenever you want to play or is playing somebody else you always get the current state and your roles information right at your finger tips! \u0095 Record group members and role assignments \u0095 Send \"Preview Invitation\" requests \u0095 Keep useful information for your next meetings \u0095 Eliminate \"Monopoly and time consuming\" game sessions \"Time freezes are no fun!\" C. Foers\n\"\"Send/Get Invitation\" \u0096 let the fun start \u0095 Keep the whole data in one very clean and clear file\"\"Mafia\"\" in your iPhoneStore\nMafia, no more, no less.\nAmazing. Anymore stars?!\nno its free. but if you want to send mor invites you pay a few bucks\n- fixed a bug that shows duplicate lines of the logs when they are not blocked by any other players. Also fixed a bug that ignored game priorities.\n- bug fix only\n- fixed a bug where deleting documents didn't work properly.\n- it now shows who changes the roles",
+  "z0": 17.083559348098394,
+  "seconds": 342.2
+ }
+}

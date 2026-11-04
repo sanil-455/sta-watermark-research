@@ -1,0 +1,829 @@
+{
+ "sample_id": "sta16_len500:86",
+ "source": "results/raw/sta16_len500.json",
+ "layout": "span",
+ "tokens": 499,
+ "eligible_share": 0.9687232219365896,
+ "needed_share": 0.8802235501142698,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2334,
+  "segments": 18,
+  "eligible": 16,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "too short": 1
+  },
+  "eligible_chars": 2261,
+  "eligible_char_share": 0.9687232219365896
+ },
+ "attack": {
+  "z0": 16.697773242637027,
+  "z_final": 1.8745517392452975,
+  "status": "broken",
+  "reason": null,
+  "passes": 2,
+  "queries": 859,
+  "seconds": 830.2,
+  "seconds_by_phase": {
+   "generate": 762.5,
+   "gates": 67.2,
+   "detector": 0.6
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 242,
+    "z_before": 16.697773242637027,
+    "z_after": 15.05878053381628,
+    "accepted": true,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 23,
+     "after_content": 23,
+     "after_semantic": 23,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 35
+     }
+    },
+    "queries_total": 24,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.17
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 226,
+    "z_before": 15.05878053381628,
+    "z_after": 13.820869260098036,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "preamble": 1,
+      "CJK text": 1,
+      "unknown word": 1,
+      "glued punctuation": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 79,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.5
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 216,
+    "z_before": 13.820869260098036,
+    "z_after": 12.526372996597928,
+    "accepted": true,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "duplicate": 3
+     }
+    },
+    "queries_total": 136,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.8
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 194,
+    "z_before": 12.526372996597928,
+    "z_after": 10.874876549119632,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 2,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 186,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.24
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 174,
+    "z_before": 10.874876549119632,
+    "z_after": 9.86839631863452,
+    "accepted": true,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 33,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "CJK text": 1,
+      "negation count changed": 26,
+      "meaning too different": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 214,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.42
+   },
+   {
+    "pass": 1,
+    "segment": 13,
+    "chars": 171,
+    "z_before": 9.86839631863452,
+    "z_after": 8.439191861002003,
+    "accepted": true,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 59,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "unknown word": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 271,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.92
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 147,
+    "z_before": 8.439191861002003,
+    "z_after": 7.44634575970765,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "duplicate": 5,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 324,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.65
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 144,
+    "z_before": 7.44634575970765,
+    "z_after": 6.388882043455035,
+    "accepted": true,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 38,
+     "after_spelling": 38,
+     "after_content": 38,
+     "after_semantic": 38,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "duplicate": 22,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 359,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.35
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 131,
+    "z_before": 6.388882043455035,
+    "z_after": 6.041186552271796,
+    "accepted": true,
+    "survivors": 3,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 3,
+     "fluency_skipped": false,
+     "after_fluency": 3,
+     "rejected": {
+      "duplicate": 2,
+      "unknown word": 2,
+      "meaning too different": 53
+     }
+    },
+    "queries_total": 362,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.89
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 131,
+    "z_before": 6.041186552271796,
+    "z_after": 5.692099788303083,
+    "accepted": true,
+    "survivors": 15,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 18,
+     "after_spelling": 18,
+     "after_content": 18,
+     "after_semantic": 18,
+     "fluency_skipped": false,
+     "after_fluency": 15,
+     "rejected": {
+      "duplicate": 42,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 377,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.35
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 109,
+    "z_before": 5.692099788303083,
+    "z_after": 5.1291024855906615,
+    "accepted": true,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 52,
+     "after_content": 5,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "CJK text": 5,
+      "hit length limit": 1,
+      "duplicate": 2,
+      "negation count changed": 47
+     }
+    },
+    "queries_total": 382,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 27.47
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 108,
+    "z_before": 5.1291024855906615,
+    "z_after": 4.669737852696148,
+    "accepted": true,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 34,
+     "after_content": 34,
+     "after_semantic": 33,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "duplicate": 25,
+      "CJK text": 1,
+      "meaning too different": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 414,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.69
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 79,
+    "z_before": 4.669737852696148,
+    "z_after": 4.016513773418065,
+    "accepted": true,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 37,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "duplicate": 6,
+      "CJK text": 1,
+      "unknown word": 3,
+      "glued punctuation": 1,
+      "meaning too different": 12,
+      "perplexity too high": 10
+     }
+    },
+    "queries_total": 441,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 13.16
+   },
+   {
+    "pass": 1,
+    "segment": 17,
+    "chars": 79,
+    "z_before": 4.016513773418065,
+    "z_after": 3.412500738508723,
+    "accepted": true,
+    "survivors": 20,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 22,
+     "after_content": 22,
+     "after_semantic": 20,
+     "fluency_skipped": false,
+     "after_fluency": 20,
+     "rejected": {
+      "duplicate": 15,
+      "several lines": 1,
+      "unknown word": 22,
+      "meaning too different": 2
+     }
+    },
+    "queries_total": 461,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 42.02
+   },
+   {
+    "pass": 1,
+    "segment": 15,
+    "chars": 78,
+    "z_before": 3.412500738508723,
+    "z_after": 2.963487483441786,
+    "accepted": true,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 21,
+     "after_spelling": 21,
+     "after_content": 21,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "duplicate": 39,
+      "meaning too different": 10
+     }
+    },
+    "queries_total": 472,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.19
+   },
+   {
+    "pass": 1,
+    "segment": 14,
+    "chars": 32,
+    "z_before": 2.963487483441786,
+    "z_after": 2.6832815729997477,
+    "accepted": true,
+    "survivors": 10,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 37,
+     "after_spelling": 37,
+     "after_content": 37,
+     "after_semantic": 14,
+     "fluency_skipped": false,
+     "after_fluency": 10,
+     "rejected": {
+      "duplicate": 21,
+      "CJK text": 2,
+      "meaning too different": 23,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 482,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.43
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 242,
+    "z_before": 2.6832815729997477,
+    "z_after": 2.452328791372404,
+    "accepted": true,
+    "survivors": 25,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 26,
+     "after_content": 26,
+     "after_semantic": 26,
+     "fluency_skipped": false,
+     "after_fluency": 25,
+     "rejected": {
+      "unknown word": 34,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 507,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 39.38
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 226,
+    "z_before": 2.452328791372404,
+    "z_after": 2.3678653735264823,
+    "accepted": true,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "CJK text": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 564,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.94
+   },
+   {
+    "pass": 2,
+    "segment": 8,
+    "chars": 216,
+    "z_before": 2.3678653735264823,
+    "z_after": 2.4444651431480002,
+    "accepted": false,
+    "survivors": 56,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 56,
+     "rejected": {
+      "duplicate": 3,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 620,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.24
+   },
+   {
+    "pass": 2,
+    "segment": 12,
+    "chars": 194,
+    "z_before": 2.3678653735264823,
+    "z_after": 2.4474678771949163,
+    "accepted": false,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 1,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 672,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.45
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 174,
+    "z_before": 2.3678653735264823,
+    "z_after": 2.3162640965743444,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 57,
+     "after_content": 47,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 2,
+      "negation count changed": 10,
+      "meaning too different": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 715,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.57
+   },
+   {
+    "pass": 2,
+    "segment": 13,
+    "chars": 171,
+    "z_before": 2.3162640965743444,
+    "z_after": 2.5094200037100367,
+    "accepted": false,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 769,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 31.01
+   },
+   {
+    "pass": 2,
+    "segment": 11,
+    "chars": 147,
+    "z_before": 2.3162640965743444,
+    "z_after": 2.27397760654532,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "duplicate": 10,
+      "CJK text": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 817,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.22
+   },
+   {
+    "pass": 2,
+    "segment": 6,
+    "chars": 144,
+    "z_before": 2.27397760654532,
+    "z_after": 2.2316092133872587,
+    "accepted": true,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 40,
+     "after_spelling": 40,
+     "after_content": 40,
+     "after_semantic": 40,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "duplicate": 19,
+      "several lines": 1,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 852,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.76
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 131,
+    "z_before": 2.2316092133872587,
+    "z_after": 1.8745517392452975,
+    "accepted": true,
+    "survivors": 7,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 7,
+     "fluency_skipped": false,
+     "after_fluency": 7,
+     "rejected": {
+      "CJK text": 1,
+      "meaning too different": 52
+     }
+    },
+    "queries_total": 859,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 23.68
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "Backed up by research from Forrester, according to Forbes, digital consumers have been exposed to a healthy dose of personalized experiences that can be accessed on any platform, any time they need to find information or conduct transactions.",
+    "rewrite": "With Forrester research supporting, digital consumers, as cited by Forbes, have experienced a significant number of personalized interactions available across various platforms at any time for finding info or conducting deals."
+   },
+   "5": {
+    "original": "For healthcare institutions, rightfully so three of the top things consumers need from a provider\u2019s digital channel are access to a patient portal, links to an online form to schedule appointments and e-prescription reminders.",
+    "rewrite": "For healthcare facilities, it is true that top consumers' requirements for a provider\u2019s digital channel include access to a patient portal, links to an online appointment scheduler, and electronic prescription reminders."
+   },
+   "8": {
+    "original": "By getting to know our members at the core of our work helping health plan members save money, we can figure out just how each employer group\u2019s employees, dependents and covered spouses view digital technology today.",
+    "rewrite": "Understanding our members deeply at the heart of our work to assist health plan members in saving money allows us to ascertain how each employer group\u2019s employees, dependents, and covered spouses perceive digital technology currently."
+   },
+   "12": {
+    "original": "Help the Improvement Process Continue \u2013 Let us know if digital fitness and wellness program opportunities could make a difference in improving outcomes and work toward reducing healthcare costs.",
+    "rewrite": "Enhance the Process \u2013 Please share your thoughts on how digital fitness and wellness programs might impact outcomes and contribute to lowering healthcare expenses."
+   },
+   "1": {
+    "original": "It\u2019s what anyone watching healthcare in recent years has seen: industries like healthcare adopting technology meant to deliver a quality experience, not run more efficiently.",
+    "rewrite": "Anyone observant of healthcare trends over the past years has noticed: sectors such as healthcare embracing technology with the goal of enhancing the patient experience, not just operating more efficiently."
+   },
+   "13": {
+    "original": "If we discover something together, we can expand our product offering to other insurance carriers and come up with solutions that apply to a wider variety of health plans.",
+    "rewrite": "When we uncover something in collaboration, we have the potential to broaden our product range for other insurance companies and develop solutions applicable to a broader spectrum of health plans."
+   },
+   "11": {
+    "original": "Check out FilmStation for health and wellness content or Self-Pay/COB to join in and educate your members in their health insurance coverage needs.",
+    "rewrite": "Explore FilmStation for health and wellness content, or choose Self-Pay/COB to help inform your members about their health insurance coverage."
+   },
+   "6": {
+    "original": "Golden Rule is here to help employers and their health plan members understand how digital technology plays a critical role is healthcare today.",
+    "rewrite": "The Golden Rule aims to assist employers and their health plan members in understanding the pivotal role that digital technology plays in healthcare today."
+   },
+   "4": {
+    "original": "And an assumption that virtually every business or product available must be easily pored over anywhere, and at virtually any time.",
+    "rewrite": "And the assumption that essentially every business or product needs to be easily accessible and available at virtually any time and place."
+   },
+   "9": {
+    "original": "Golden Rule has is taking on the challenge one member at a time through its digital products and internal support for health plans.",
+    "rewrite": "Golden Rule is accepting the challenge one member at a time via its digital products and internal support for health plans."
+   },
+   "7": {
+    "original": "Like healthcare itself, we are constantly evolving to deliver a quality experience, not run more efficiently.",
+    "rewrite": "Similar to healthcare itself, we are perpetually changing to offer a high-quality experience, not to operate more efficiently."
+   },
+   "10": {
+    "original": "Digital health planners and benefit consultants can partner with their members to explore the possibilities.",
+    "rewrite": "Digital health planners and benefit consultants can collaborate with their members to investigate the potential benefits."
+   },
+   "2": {
+    "original": "Start with the headline: Digital Consumers Demand Digital Healthcare Treatment.",
+    "rewrite": "Digital Healthcare Must Match Consumers' Digital Expectations."
+   },
+   "17": {
+    "original": "Contact Greg Polcyn or Call (855) 453-3833 x2149 to start a conversation today.",
+    "rewrite": "Reach out to Greg Polcyn at (855) 453-3833 extension 2149 to initiate a dialogue today."
+   },
+   "15": {
+    "original": "We want to make sure its available wherever you need it, whenever you need it.",
+    "rewrite": "We aim to ensure it is accessible wherever you require it, whenever you need it."
+   },
+   "14": {
+    "original": "We know we can do this together.",
+    "rewrite": "Together, we have the capability to accomplish this."
+   }
+  },
+  "final_span": "isn\u2019t as readily recognizable as others. Anyone observant of healthcare trends over the past years has noticed: sectors such as healthcare embracing technology with the goal of enhancing the patient experience, not just operating more efficiently.\nDigital Healthcare Must Match Consumers' Digital Expectations.\nWith Forrester research supporting, digital consumers, as cited by Forbes, have experienced a significant number of personalized interactions available across various platforms at any time for finding info or conducting deals. And the assumption that essentially every business or product needs to be easily accessible and available at virtually any time and place.\nFor healthcare facilities, it is true that top consumers' requirements for a provider\u2019s digital channel include access to a patient portal, links to an online appointment scheduler, and electronic prescription reminders.\nThe Golden Rule aims to assist employers and their health plan members in understanding the pivotal role that digital technology plays in healthcare today. Similar to healthcare itself, we are perpetually changing to offer a high-quality experience, not to operate more efficiently. Understanding our members deeply at the heart of our work to assist health plan members in saving money allows us to ascertain how each employer group\u2019s employees, dependents, and covered spouses perceive digital technology currently.\nGolden Rule is accepting the challenge one member at a time via its digital products and internal support for health plans. Digital health planners and benefit consultants can collaborate with their members to investigate the potential benefits. Explore FilmStation for health and wellness content, or choose Self-Pay/COB to help inform your members about their health insurance coverage.\nEnhance the Process \u2013 Please share your thoughts on how digital fitness and wellness programs might impact outcomes and contribute to lowering healthcare expenses.\nWhen we uncover something in collaboration, we have the potential to broaden our product range for other insurance companies and develop solutions applicable to a broader spectrum of health plans. Together, we have the capability to accomplish this. We aim to ensure it is accessible wherever you require it, whenever you need it. Are you with us? Reach out to Greg Polcyn at (855) 453-3833 extension 2149 to initiate a dialogue today.",
+  "break_point": {
+   "step": 24,
+   "sentences_rewritten": 16,
+   "queries": 859
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 16,
+   "eligible": 16,
+   "segments": 18,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 88.88888888888889
+  },
+  "tokens": {
+   "original": 500,
+   "final": 503,
+   "length_change": 3,
+   "pct_not_preserved": 40.400000000000006,
+   "pct_new": 40.75546719681908
+  },
+  "words": {
+   "original": 367,
+   "final": 357,
+   "length_change": -10,
+   "pct_not_preserved": 48.50136239782016,
+   "pct_new": 47.05882352941176
+  },
+  "characters": {
+   "original": 2334,
+   "final": 2404,
+   "length_change": 70,
+   "pct_not_preserved": 29.134532990574126,
+   "pct_new": 31.198003327787017
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 436,
+   "green_after": 272,
+   "pairs_before": 499,
+   "pairs_after": 502,
+   "pairs_changed_before": 291,
+   "pairs_changed_after": 294,
+   "green_fraction_of_new_pairs": 0.3299319727891156,
+   "delta_achieved": 0.17006802721088438
+  }
+ }
+}

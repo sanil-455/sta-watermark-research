@@ -1,0 +1,134 @@
+{
+ "sample_id": "sta16_len500:106",
+ "nobox": {
+  "z_final": 8.782189356549525,
+  "status": "not broken",
+  "rewrites": {
+   "9": {
+    "original": "In the case of the car companies, we don\u2019t see that consummate as much information as we do for tech companies, where cloud data is incredibly obvious, but after a lot of searching and some deductive reasoning, here are what we considered to be relevant totals in California for the broader group of these companies.",
+    "rewrite": "For car companies, we don't gather as much information as we do for tech companies, where cloud data is readily available. However, after extensive research and some logical inference, we compiled the relevant totals for California within this broader sector of companies."
+   },
+   "1": {
+    "original": "The fact that BMW, Mercedes, and Volkswagen did no official driving at all is notable, particularly in Mercedes\u2019 case, because they are probably the farthest along of the car companies in developing human-machine collaboration software, which is something of a precursor to a fully autonomous vehicle.",
+    "rewrite": "Notable is the fact that BMW, Mercedes, and Volkswagen performed no official driving at all, especially in Mercedes\u2019 case, since they are likely the furthest along among car companies in developing human-machine collaboration software, which serves as a precursor to a fully autonomous vehicle."
+   },
+   "7": {
+    "original": "Nissan maybe would have been one of the largest movers out of the starting gate had its all-important fatality with a man walking across a darkened road happened in California and not in Las Vegas, where the Drivemaster system did not feature.",
+    "rewrite": "Nissan potentially could have been one of the earliest leaders if the fatal accident involving the pedestrian on a dark road had occurred in California, not in Las Vegas, where the Drivemaster system was not installed."
+   },
+   "4": {
+    "original": "The same went for Honda, which made no entries for California driving but a total of 750 miles in other states and about 750 more research miles in California versus passenger miles it drove with passengers paying to ride.",
+    "rewrite": "The same applied to Honda, which recorded no California driving entries but a total of 750 miles in other states and approximately another 750 research miles in California, compared to the passenger miles driven with paying riders."
+   },
+   "8": {
+    "original": "These reporting requirements have led us to want to aggregate them into a total, not just the reported miles of the parent company but what numbers the pieces and divisions are reporting.",
+    "rewrite": "These reporting requirements have driven us to aggregate them into a total, including not just the reported miles of the parent company but also the numbers from the various pieces and divisions."
+   },
+   "3": {
+    "original": "BMW only reported the distance their researchers walked on city sidewalks and some parking lots in California for testing of the car\u2019s new software versions and the sensors.",
+    "rewrite": "BMW only documented the distance their researchers walked on city sidewalks and some parking lots in California during testing of the car\u2019s new software versions and sensors."
+   },
+   "11": {
+    "original": "Then comes Waymo and Uber, which we estimated at the combined total of its 61,000 Arizona miles plus what it\u2019s driving in California so far.",
+    "rewrite": "Then comes Waymo and Uber, estimated at the combined total of their 61,000 Arizona miles along with the ones driven in California so far."
+   },
+   "5": {
+    "original": "BMW and Ford even reported only information about pedestrian crashes their cars were involved in as part of the HMC research.",
+    "rewrite": "BMW and Ford even reported to the HMC research only the details of pedestrian crashes involving their vehicles."
+   },
+   "0": {
+    "original": "These cars can be tested and demonstrated on roads closed to other traffic, approved by the DMV.",
+    "rewrite": "These cars can be tested and showcased on roads that are closed to other traffic and approved by the DMV."
+   },
+   "2": {
+    "original": "Ditto for Ford, which named an entire division to work on HMC.",
+    "rewrite": "Similarly, Ford created an entire division dedicated to HMC."
+   },
+   "10": {
+    "original": "Cruise took the largest total of miles by a wide margin.",
+    "rewrite": "Cruise surpassed the others by a significant margin in terms of total miles."
+   },
+   "12": {
+    "original": "Nuro is the next biggest by a wide margin.",
+    "rewrite": "Nuro stands out as the largest by a wide margin."
+   },
+   "6": {
+    "original": "In all, they did 57 accidents.",
+    "rewrite": "In total, they experienced 57 accidents."
+   }
+  },
+  "sentences_rewritten": 13,
+  "eligible": 13,
+  "per_sentence": [
+   {
+    "index": 9,
+    "survivors": 17,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 1,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 19,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "\nThese cars can be tested and showcased on roads that are closed to other traffic and approved by the DMV. Notable is the fact that BMW, Mercedes, and Volkswagen performed no official driving at all, especially in Mercedes\u2019 case, since they are likely the furthest along among car companies in developing human-machine collaboration software, which serves as a precursor to a fully autonomous vehicle. Similarly, Ford created an entire division dedicated to HMC.\nBMW only documented the distance their researchers walked on city sidewalks and some parking lots in California during testing of the car\u2019s new software versions and sensors. The same applied to Honda, which recorded no California driving entries but a total of 750 miles in other states and approximately another 750 research miles in California, compared to the passenger miles driven with paying riders. BMW and Ford even reported to the HMC research only the details of pedestrian crashes involving their vehicles. In total, they experienced 57 accidents.\nNissan potentially could have been one of the earliest leaders if the fatal accident involving the pedestrian on a dark road had occurred in California, not in Las Vegas, where the Drivemaster system was not installed.\nThese reporting requirements have driven us to aggregate them into a total, including not just the reported miles of the parent company but also the numbers from the various pieces and divisions. For car companies, we don't gather as much information as we do for tech companies, where cloud data is readily available. However, after extensive research and some logical inference, we compiled the relevant totals for California within this broader sector of companies.\nCruise surpassed the others by a significant margin in terms of total miles. Then comes Waymo and Uber, estimated at the combined total of their 61,000 Arizona miles along with the ones driven in California so far.\nNuro stands out as the largest by a wide margin. It reported close to 50,000 public miles because its 4-foot, supercheap delivery vehicles do so well on the safety test \u2014 4 mph at best, but they really couldn\u2019t have gotten to",
+  "z0": 16.84311784565064,
+  "seconds": 543.1
+ }
+}

@@ -1,0 +1,107 @@
+{
+ "sample_id": "sta16_len500:132",
+ "nobox": {
+  "z_final": 8.390850642336094,
+  "status": "not broken",
+  "rewrites": {
+   "8": {
+    "original": "For those planning to view the Children\u2019s Parade on Friday or fireworks Saturday night, police request that people refrain from parking on the following streets: West Olentangy Street from High Street to Home Road, North Liberty Street from Commons Boulevard to Burr Oak Circle, North Liberty Street from Filmore Lane to Burr Oak Circle, Commons Boulevard from Home Road to West Olentangy Street, Elsa Drive from Commons Boulevard to Sills Road and Olde Salem Drive from Commons Boulevard to Sills Road.",
+    "rewrite": "For spectators who plan to watch the Children\u2019s Parade on Friday or the fireworks on Saturday night, police ask that you avoid parking on these streets: West Olentangy Street from High Street to Home Road, North Liberty Street from Commons Boulevard to Burr Oak Circle, North Liberty Street from Filmore Lane to Burr Oak Circle, Commons Boulevard from Home Road to West Olentangy Street, Elsa Drive from Commons Boulevard to Sills Road and Olde Salem Drive from Commons Boulevard to Sills Road."
+   },
+   "2": {
+    "original": "There are at 6 p.m. Monday at the Village Green in Historic Dublin; and the Concert on the Green at 7 p.m. at the Sycamore Park Amphitheater, at North High Street and River Road.",
+    "rewrite": "There is at 6 p.m. on Monday at the Village Green in Historic Dublin, and a Concert on the Green at 7 p.m. at the Sycamore Park Amphitheater, located at the intersection of North High Street and River Road."
+   },
+   "11": {
+    "original": "The other is in Trimper Family Amusements between the Hilton Columbus/Polaris (I-71/S.R. 161, Exit 138) and the Village/Crosswoods shopping malls (I-71/S.R. 161, Exit 145).",
+    "rewrite": "Between the Hilton Columbus/Polaris (I-71/SR 161, Exit 138) and the Village/Crosswoods shopping malls (I-71/SR 161, Exit 145), the other location is at Trimper Family Amusements."
+   },
+   "6": {
+    "original": "There\u2019s no better place to celebrate July Fourth than Powell\u2019s Freedom Fest 2016 on Friday; more events the rest of the week, and fireworks Saturday night.",
+    "rewrite": "There\u2019s no better place to celebrate July Fourth than at Powell\u2019s Freedom Fest 2016 on Friday, with more events throughout the week and fireworks on Saturday night."
+   },
+   "3": {
+    "original": "Free and open to the public, there will be local, regional, and nationally performing artists and the cities of Dublin and Worthington.",
+    "rewrite": "Open to the public for free, it will feature local, regional, and national performing artists along with the cities of Dublin and Worthington."
+   },
+   "9": {
+    "original": "These restrictions will be in effect after 4 a.m. Saturday, and at 4 a.m. Monday to close to all traffic into Tuesday morning.",
+    "rewrite": "These restrictions will take place after 4 a.m. on Saturday and from 4 a.m. Monday, closing almost all traffic until Tuesday morning."
+   },
+   "1": {
+    "original": "The fun/frolic is open to kids who enter through Hilderbrand Park.",
+    "rewrite": "The fun/frolic is available for children entering through Hilderbrand Park."
+   },
+   "10": {
+    "original": "There are only two public fireworks displays in Dublin on Friday.",
+    "rewrite": "On Friday, there are only two public fireworks displays in Dublin."
+   },
+   "4": {
+    "original": "Fireworks begin at 10 p.m. at the Sycamore Park Amphitheater.",
+    "rewrite": "Fireworks start at 10 p.m. at the Sycamore Park Amphitheater."
+   },
+   "0": {
+    "original": "Center to the Dublin Veterans Memorial Auditorium.",
+    "rewrite": "At the center of the Dublin Veterans Memorial Auditorium."
+   }
+  },
+  "sentences_rewritten": 10,
+  "eligible": 10,
+  "per_sentence": [
+   {
+    "index": 8,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 15,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 10,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 4,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "At the center of the Dublin Veterans Memorial Auditorium. The fun/frolic is available for children entering through Hilderbrand Park.\nThere is at 6 p.m. on Monday at the Village Green in Historic Dublin, and a Concert on the Green at 7 p.m. at the Sycamore Park Amphitheater, located at the intersection of North High Street and River Road. Open to the public for free, it will feature local, regional, and national performing artists along with the cities of Dublin and Worthington.\nFireworks start at 10 p.m. at the Sycamore Park Amphitheater. The fireworks align with sound from the country and big-band radio station Q106 (and can be heard at 105.7 FM, Q105.7 FM and Q106.com online) from the west side podium.\nThere\u2019s no better place to celebrate July Fourth than at Powell\u2019s Freedom Fest 2016 on Friday, with more events throughout the week and fireworks on Saturday night. From the city\u2019s official Web site, here are event tips and wrinkles \u2026\nFor spectators who plan to watch the Children\u2019s Parade on Friday or the fireworks on Saturday night, police ask that you avoid parking on these streets: West Olentangy Street from High Street to Home Road, North Liberty Street from Commons Boulevard to Burr Oak Circle, North Liberty Street from Filmore Lane to Burr Oak Circle, Commons Boulevard from Home Road to West Olentangy Street, Elsa Drive from Commons Boulevard to Sills Road and Olde Salem Drive from Commons Boulevard to Sills Road. These restrictions will take place after 4 a.m. on Saturday and from 4 a.m. Monday, closing almost all traffic until Tuesday morning.\nOn Friday, there are only two public fireworks displays in Dublin. Between the Hilton Columbus/Polaris (I-71/SR 161, Exit 138) and the Village/Crosswoods shopping malls (I-71/SR 161, Exit 145), the other location is at Trimper Family Amusements. It is slated to",
+  "z0": 11.716996202098898,
+  "seconds": 468.0
+ }
+}

@@ -1,0 +1,152 @@
+{
+ "sample_id": "sta16_len500:141",
+ "nobox": {
+  "z_final": 9.214064786997643,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "I sometimes get jealous or sceptical, but since these particular dogs are small, and the majority is made up of Westies, I always get intimidated at first, but then I realize I three time their size, no need to be jealous whatsoever\u2026 now if I had a Pekingese, there you got me.",
+    "rewrite": "At times I feel jealous or skeptical, but as these particular dogs are small, and the majority consists of Westies, I invariably get intimidated initially. But then I remind myself that I am three times their size, so there's no reason to be jealous... yet if I had a Pekingese, that would be a different story."
+   },
+   "7": {
+    "original": "I am fascinated by our furry children, and how amazed the humans around us are about this \u2013 boundless energy and general good moods, unlike our own, hehe\u2026 or even Britt does is just continue their fascination every day.",
+    "rewrite": "I find my furry children endlessly captivating, especially how shocked those around them are \u2013 unending energy and universally positive moods, compared to ours, hehe\u2026 Even Britt just amplifies their fascination every day."
+   },
+   "12": {
+    "original": "I think big dog followers leave more tracks than cats to begin as I believe do, now I may be speaking out of turn, but the two indifferent strangers at the dog part (a German a d British?",
+    "rewrite": "I believe big dog followers leave more tracks than cats at first, though I might be mistaken, but the two unrelated strangers at the dog segment (a German and a British one?)"
+   },
+   "15": {
+    "original": "Genetics plays a part in animal adoption but the sandpaper tongue is much appreciated \u2013 that\u2019s where we differ from dogs..and my level isn\u2019t sandpaper.",
+    "rewrite": "While genetics influences animal adoption, the sandpaper-like texture of the tongue is highly favored \u2014 that\u2019s where our differences lie compared to dogs, and my texture isn\u2019t as rough."
+   },
+   "2": {
+    "original": "Anyway, after you\u2019ve overturned your bookcase this month (as H is apt to do, I must confess) take a break and flip through Very Interesting.",
+    "rewrite": "Anyway, if you've overturned your bookcase this month (as H tends to do, I must admit), take a break and flip through Very Interesting."
+   },
+   "5": {
+    "original": "He has formed binds with many canines in two of our local dog parks and is named as a dog\u2019s favourite person without exception.",
+    "rewrite": "He has formed bonds with many canines in two of our local dog parks and is named as the dog's favorite person without exception."
+   },
+   "10": {
+    "original": "Though with a luxury of boot 5 cent or is it you or no delusion I don\u2019t know, I said, I looked like a Canadian red neck?",
+    "rewrite": "Though with a choice of boot size being 5 cent or perhaps not, and without knowing for sure, I commented, did I resemble a Canadian redneck?"
+   },
+   "11": {
+    "original": "I guess I exceeded the limit\u2026 something about care of pets, I guess, throwing it back at me though.",
+    "rewrite": "It seems I exceeded the limit, perhaps regarding care of pets, and it came back to me similarly."
+   },
+   "4": {
+    "original": "On a lighter note, H is continuing to master the art of being chased by a dog.",
+    "rewrite": "On a lighter note, H is still learning to handle being chased by a dog."
+   },
+   "9": {
+    "original": "I shall wright a whole publish wrath, H is the talk of the town, I suppose?",
+    "rewrite": "I shall write an entire manuscript, it seems that H is the talk of the town, I suppose?"
+   },
+   "13": {
+    "original": "I believe) Britt cannot resist this fur ball\u2026 but what to work about H ?!",
+    "rewrite": "I believe Britt cannot resist this fur ball\u2026 but what about H?!"
+   },
+   "16": {
+    "original": "I have my sandpaper tongue on order for extra care when needed!",
+    "rewrite": "I have my sandpaper tongue ready for extra care when needed!"
+   },
+   "8": {
+    "original": "Britt with the Westie, doesn\u2019t she make a pretty pair thou\u2026?",
+    "rewrite": "Doesn't Britt with her Westie make a pretty pair, thou...?"
+   },
+   "14": {
+    "original": "She properly humps his dam legs very much like a dog \u2013 lol.",
+    "rewrite": "She properly mounts his dam legs in a manner similar to a dog \u2014 lol."
+   },
+   "1": {
+    "original": "We don\u2019t have anyone\u2019s poodle.",
+    "rewrite": "We don't have anybody's poodle."
+   }
+  },
+  "sentences_rewritten": 15,
+  "eligible": 15,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 20,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 15,
+    "survivors": 8,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 18,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 2,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 6,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 25,
+    "rewritten": true
+   },
+   {
+    "index": 16,
+    "survivors": 18,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 14,
+    "survivors": 7,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 14,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "unrelated species as pets. We don't have anybody's poodle.\nAnyway, if you've overturned your bookcase this month (as H tends to do, I must admit), take a break and flip through Very Interesting. I think you\u2019ll love it.\nOn a lighter note, H is still learning to handle being chased by a dog. He has formed bonds with many canines in two of our local dog parks and is named as the dog's favorite person without exception.\nAt times I feel jealous or skeptical, but as these particular dogs are small, and the majority consists of Westies, I invariably get intimidated initially. But then I remind myself that I am three times their size, so there's no reason to be jealous... yet if I had a Pekingese, that would be a different story.\nI find my furry children endlessly captivating, especially how shocked those around them are \u2013 unending energy and universally positive moods, compared to ours, hehe\u2026 Even Britt just amplifies their fascination every day.\nDoesn't Britt with her Westie make a pretty pair, thou...? I shall write an entire manuscript, it seems that H is the talk of the town, I suppose? Though with a choice of boot size being 5 cent or perhaps not, and without knowing for sure, I commented, did I resemble a Canadian redneck? It seems I exceeded the limit, perhaps regarding care of pets, and it came back to me similarly.\nI believe big dog followers leave more tracks than cats at first, though I might be mistaken, but the two unrelated strangers at the dog segment (a German and a British one?) I believe Britt cannot resist this fur ball\u2026 but what about H?! She properly mounts his dam legs in a manner similar to a dog \u2014 lol.\nWhile genetics influences animal adoption, the sandpaper-like texture of the tongue is highly favored \u2014 that\u2019s where our differences lie compared to dogs, and my texture isn\u2019t as rough.\nI have my sandpaper tongue ready for extra care when needed!\nOh, and I sometimes wonder if cats have been deserted animals",
+  "z0": 18.872413730098224,
+  "seconds": 532.1
+ }
+}

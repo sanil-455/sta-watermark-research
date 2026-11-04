@@ -1,0 +1,107 @@
+{
+ "sample_id": "sta16_len500:134",
+ "nobox": {
+  "z_final": 13.925241491536495,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "In June, SpaceX landed at another historic first, winning a contract by the American Civilian Services Administration -- the public services component of the government's \"go to\" government solutions -- as its official Civilian Launch Provider, again beating both Orbital ATK and Boeing to the prize.",
+    "rewrite": "In June, SpaceX achieved another historic first by securing a contract through the American Civilian Services Administration -- the public services wing of the government's \"go to\" for reliable government solutions -- as the government's official Civilian Launch Provider, once more outpacing both Orbital ATK and Boeing for the award."
+   },
+   "4": {
+    "original": "So now Musk and his team will have the extra time needed to figure out how a missile the company loads up loaded at the pad, and then successfully boosts into space, and lands vertically inches from the ground, has gone up in a terrible fireball.",
+    "rewrite": "So now Musk and his team will have the additional time required to understand why a missile the company launches from the pad, and then boosts into space, and lands vertically just inches from the ground, ended up in a terrible fireball."
+   },
+   "2": {
+    "original": "And an unbeatable streak it would have been, if indeed it could ever be beaten, since SpaceX has rightfully argued before that time-to-launch is the only factor that matters in a success-oriented competitive business like it.",
+    "rewrite": "It would have been an unbeatable streak, if it could indeed ever be challenged, as SpaceX has consistently maintained that time-to-launch is the sole determinant of success in their competitive business environment."
+   },
+   "6": {
+    "original": "And when they do, is anyone surprised that Elon Musk will throw resources at the challenge, and at the cost of further exceedingly risky business ventures?",
+    "rewrite": "And when they do, does anyone find it surprising that Elon Musk will commit resources to the challenge, even if it means additional exceedingly risky business ventures?"
+   },
+   "9": {
+    "original": "And it does already have contracts from NASA worth a total of $198.6 million for three launches of unmanned cargo to and from the space station.",
+    "rewrite": "And it already has contracts from NASA worth a total of $198.6 million for three launches of unmanned cargo to and from the space station."
+   },
+   "12": {
+    "original": "Oh, and if SpaceX wants some help investigating this explosion, they need only ask its old roommates at Boeing.",
+    "rewrite": "Oh, and if SpaceX wants assistance with investigating this explosion, they only need to ask their old roommates at Boeing for help."
+   },
+   "3": {
+    "original": "But podiums are podiums and this time SpaceX was BMOC even faster than anyone had predicted.",
+    "rewrite": "But podium positions are podium positions, and this time SpaceX was the standout again even faster than anticipated."
+   },
+   "10": {
+    "original": "But you work at Boeing properly humble about these things.",
+    "rewrite": "But you work at Boeing and are properly humble about these things."
+   },
+   "5": {
+    "original": "And to all appearances, they are determined to find out.",
+    "rewrite": "From all appearances, they seem determined to find out."
+   },
+   "11": {
+    "original": "It is just our little firm here humbly reporting.",
+    "rewrite": "Our small firm is humbly reporting."
+   }
+  },
+  "sentences_rewritten": 10,
+  "eligible": 10,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 4,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 25,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 57,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 36,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 5,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 6,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 9,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "military's \"certified\" launchers capable of going from pad ready to space worthy in as few as 50 days, not counting time-pressure mandated delays. In June, SpaceX achieved another historic first by securing a contract through the American Civilian Services Administration -- the public services wing of the government's \"go to\" for reliable government solutions -- as the government's official Civilian Launch Provider, once more outpacing both Orbital ATK and Boeing for the award.\nIt would have been an unbeatable streak, if it could indeed ever be challenged, as SpaceX has consistently maintained that time-to-launch is the sole determinant of success in their competitive business environment. But podium positions are podium positions, and this time SpaceX was the standout again even faster than anticipated.\nSo now Musk and his team will have the additional time required to understand why a missile the company launches from the pad, and then boosts into space, and lands vertically just inches from the ground, ended up in a terrible fireball. From all appearances, they seem determined to find out. And when they do, does anyone find it surprising that Elon Musk will commit resources to the challenge, even if it means additional exceedingly risky business ventures? No, I don't think so either.\nTrue, if SpaceX loses its big NASA contract, which still goes to winner picks 4-17 in multiple success as much as just 1, due to being \"outbid by the low bidder.\" And it already has contracts from NASA worth a total of $198.6 million for three launches of unmanned cargo to and from the space station. But you work at Boeing and are properly humble about these things. Our small firm is humbly reporting.\nOh, and if SpaceX wants assistance with investigating this explosion, they only need to ask their old roommates at Boeing for help.\nSherman was a software mainstay in Las Vegan-based Haas Automation's pinnacle of the business, and currently any other supervisor of the manufacturing business's pc tools who don't plan to be perhaps having in a the chance the biggest and most important liqudation commences at 8:00",
+  "z0": 18.78297101099823,
+  "seconds": 368.8
+ }
+}

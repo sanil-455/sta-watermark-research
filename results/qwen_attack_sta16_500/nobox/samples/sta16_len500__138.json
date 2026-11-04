@@ -1,0 +1,35 @@
+{
+ "sample_id": "sta16_len500:138",
+ "nobox": {
+  "z_final": 14.096811027175708,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "He reportedly considered dropping the Kabbalah part of his act when he became White House chief of staff but decided otherwise, instead wearing spikes and all in D.C. And when he got back to Chicago for the mayorship, he said, essentially, he was who he was: don\u2019t expect a rhetoric change from anything he might have ever said at the podium.",
+    "rewrite": "He is said to have thought about removing the Kabbalah element from his act upon becoming White House chief of staff but opted against it, choosing instead to wear spikes and all in D.C. When he returned to Chicago for the mayoral position, he stated essentially that he was who he was: no change in rhetoric from anything he might have previously said at the podium."
+   },
+   "2": {
+    "original": "Michelle Robinson: Alter writes that Obama had considered nominating Jarrett to be his ambassador to the United Nations and she was definitely on \u201cshort list,\u201d though in the end she was passed over, having supported Hillary Clinton in 2008.",
+    "rewrite": "Michelle Robinson: Alter writes that Obama had considered nominating Jarrett to be his UN ambassador and she was on \u201cshort list,\u201d albeit ultimately passed over because she had supported Hillary Clinton in 2008."
+   }
+  },
+  "sentences_rewritten": 2,
+  "eligible": 2,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 6,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "been allies in Democratic politics, most famously, Nancy Pelosi, after she overturned Obama\u2019s planned HCR compromise: \u201cI\u2019m at a real tricky place.\u201d The \u201ccrappy deals in meetings\u201d he frequently offered up for compromiser\u2019s consumption \u201creminded some people of the tasteless pickled eggs\u201d that first-grader Axelrod dispensed, claims Alter, to have scintillated his classmates during recess.\nMichelle Robinson: Alter writes that Obama had considered nominating Jarrett to be his UN ambassador and she was on \u201cshort list,\u201d albeit ultimately passed over because she had supported Hillary Clinton in 2008.\nEmanuel, during his tenure in D.C., changed his own sartorial accoutrements from a blowsy red to an all-black in a morph from \u201cformer opposition congressman\u2026.to national military service\u2014and Kabbalah mystic.\u201d He is said to have thought about removing the Kabbalah element from his act upon becoming White House chief of staff but opted against it, choosing instead to wear spikes and all in D.C. When he returned to Chicago for the mayoral position, he stated essentially that he was who he was: no change in rhetoric from anything he might have previously said at the podium.\nCarl Karcher: Alter picks up Jesse Jackson to join Ron Sider and Claim 66 (late President Ronald Reagan\u2019s aforementioned campaign ad) after Jackson had called a 2008 meeting of the Rev. Wright/\u201dnutty\u201d types that would \u201creckon with the poison tree\u2026.disrupt the status quo\u2026[to] bring our country together by a new and different kind of politics\u201d\u2014and Jackson told him, straight out, to go away, harshly, according to what Jackson later recanted.\nJim Messina, Obama\u2019s 2012 campaign manager, and Jeremy Bird, senior Obama campaign strategist who led grassroots priorities who don\u2019t plan to work again in a campaign, and David Simas, Obama campaign message director, and David Simas, Obama campaign message director, Matt Compton, Obama campaign sp",
+  "z0": 15.652475842498527,
+  "seconds": 160.4
+ }
+}

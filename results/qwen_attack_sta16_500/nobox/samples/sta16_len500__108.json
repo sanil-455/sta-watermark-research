@@ -1,0 +1,89 @@
+{
+ "sample_id": "sta16_len500:108",
+ "nobox": {
+  "z_final": 9.37761457794112,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "There remains this fact even in a country as accustomed to blows to the head as Mexico, now in a state of near anarchy since a Trump campaign promise, since reneged on apparently, to pay for a U.S.-Mexico border wall, reminded the country's 109 million poor just how \u201cout of order\u201d their nation actually was.",
+    "rewrite": "In a country like Mexico, known for violent episodes, now in a state of near-anarchy since a Trump campaign promise was reneged on, the reminder to pay for a U.S.-Mexico border wall highlighted how \"out of order\" the nation was, especially for its 109 million poor citizens."
+   },
+   "1": {
+    "original": "Much of the reported impoverishment and lack of economic opportunity is more a product, not of human nature but of long histories of Western nations dominating the rest of the world, and then insisting that non-Western countries adapt to the expectations of globalized \u201cfree markets.\u201d",
+    "rewrite": "A significant portion of reported impoverishment and limited economic opportunities stems more from historical dynamics, not inherent human nature, but from Western nations' prolonged domination and subsequent insistence that non-Western countries conform to the standards of globalized \"free markets.\""
+   },
+   "7": {
+    "original": "On the other hand, throwing Molotov cocktails at the Trebevi\u0107 Fortress, where much of the Jewish resistance against the Third Reich was centred, might well be a step too far in Croatia.",
+    "rewrite": "Alternatively, launching Molotov cocktails at the Trebevi\u0107 Fortress, which housed significant parts of the Jewish resistance against the Third Reich, could easily be seen as going too far in Croatia."
+   },
+   "3": {
+    "original": "Until recently, at any rate, right-wing populism in large non-Western democracies was a fairly new occurrence, and so there was something relatively fresh and new to be inspired by.",
+    "rewrite": "Until recently, right-wing populism in major non-Western democracies was relatively new, providing a fresh inspiration for many."
+   },
+   "8": {
+    "original": "For many in Croatia, and indeed, after a while, throughout much of the world, demagoguery and mass protest eventually turn to oppression, and often, violence.",
+    "rewrite": "For many in Croatia, and later on, across much of the world, demagoguery and mass protests eventually lead to oppression, and frequently, violence."
+   },
+   "2": {
+    "original": "As India has pointed out many times in UN forums, India's historic poverty has for too long been blamed on the country\u2019s own government and not on the West.",
+    "rewrite": "India has repeatedly emphasized in UN forums that the country's historical poverty should not be solely blamed on its own government but also on the West."
+   },
+   "5": {
+    "original": "Nor do the left in Latin America and the Muslim World have any shortage of valorous revolutionary iconography to inspire their proletariat.",
+    "rewrite": "Nor does the left in Latin America and the Muslim World lack valorous revolutionary iconography to inspire their proletariat."
+   },
+   "6": {
+    "original": "In both cases, they can remind their suffering citizenry of the many sacrifices of the long war against Western imperialism.",
+    "rewrite": "In both instances, they can remind their suffering citizens of the numerous sacrifices made during the prolonged war against Western imperialism."
+   }
+  },
+  "sentences_rewritten": 8,
+  "eligible": 8,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 15,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 6,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 56,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 23,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 27,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 34,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "other hand, there are reasons why Colour Revolutions did not happen in places like Argentina, Chile, Belarus, Pakistan and Burma, despite similar levels of Western repression and corruption in their leadership, all of which is observable today in the United States.\nA significant portion of reported impoverishment and limited economic opportunities stems more from historical dynamics, not inherent human nature, but from Western nations' prolonged domination and subsequent insistence that non-Western countries conform to the standards of globalized \"free markets.\" India has repeatedly emphasized in UN forums that the country's historical poverty should not be solely blamed on its own government but also on the West.\nUntil recently, right-wing populism in major non-Western democracies was relatively new, providing a fresh inspiration for many.\nIn a country like Mexico, known for violent episodes, now in a state of near-anarchy since a Trump campaign promise was reneged on, the reminder to pay for a U.S.-Mexico border wall highlighted how \"out of order\" the nation was, especially for its 109 million poor citizens.\nNor does the left in Latin America and the Muslim World lack valorous revolutionary iconography to inspire their proletariat. In both instances, they can remind their suffering citizens of the numerous sacrifices made during the prolonged war against Western imperialism.\nAlternatively, launching Molotov cocktails at the Trebevi\u0107 Fortress, which housed significant parts of the Jewish resistance against the Third Reich, could easily be seen as going too far in Croatia.\nFor many in Croatia, and later on, across much of the world, demagoguery and mass protests eventually lead to oppression, and frequently, violence.\nWith so much of the world's population simply waiting for the comfortable dupes of our global elites to move past the age of fake news, fake charity, fake outrage (including over this election result that gave rise to a global shock and awe electronic reaction) and fake concern to fake emotional solutions of fake compassion, we may be looking at",
+  "z0": 15.741918561598519,
+  "seconds": 397.0
+ }
+}

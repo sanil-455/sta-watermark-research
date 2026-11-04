@@ -1,0 +1,139 @@
+{
+ "sample_id": "sta16_len500:152",
+ "nobox": {
+  "z_final": 11.494739329713594,
+  "status": "not broken",
+  "rewrites": {
+   "8": {
+    "original": "It was a bulky and expensive device, plastic, and it sat somewhere on the kitchen counter until laughter would sound as three or four of them - after gathering on the nearby couch - would hook up a dial-up line from the it, and start playing Dungeons and Dragons, instead of Space Invaders.",
+    "rewrite": "It was a large and costly device, made of plastic, and it remained on the kitchen counter until laughter echoed as three or four of them - having gathered on the nearby couch - would hook up a dial-up line from it, and start playing Dungeons and Dragons, instead of Space Invaders."
+   },
+   "20": {
+    "original": "No self respecting poker player would reject the opportunity to test out the latest poker playing software to roll out of the WYSIWYG labs (What You see is What You Get!)",
+    "rewrite": "No self-respecting poker player would reject the chance to test the latest poker playing software rolled out of the WYSIWYG labs (What You See is What You Get!)."
+   },
+   "1": {
+    "original": "It seems like Time Warner now likes what Comcast is doing and is asking the FCC for permission to put their planned caps into practice.",
+    "rewrite": "It appears that Time Warner now approves of what Comcast is doing and is requesting the FCC's permission to implement their planned caps."
+   },
+   "2": {
+    "original": "If all is cleared up, Time Warner will be able to head out with broadband caps just the same as Comcast customers do, at 300 GB limits.",
+    "rewrite": "If everything is cleared up, Time Warner will be able to operate with broadband caps at 300 GB limits, just like Comcast customers."
+   },
+   "15": {
+    "original": "If the price of the DS is already low, especially as gaming machines go, how could this be \"ready to DS\" for under $150?",
+    "rewrite": "If the DS price is already relatively low compared to other gaming machines, how can it be \"ready to DS\" for under $150?"
+   },
+   "18": {
+    "original": "The screen is colored and if a retailer has known you and your gamester, he or she may even know what color ...",
+    "rewrite": "The screen is colored, and if a retailer knows you and your history with games, they might even know the specific color..."
+   },
+   "14": {
+    "original": "Nintendo has announced the low price of the much awaited redesigned DS: It is just, \"Ready to DS.\"",
+    "rewrite": "Nintendo has announced the affordable price of the much-anticipated redesigned DS: It is just, \"Ready to DS.\""
+   },
+   "9": {
+    "original": "To them, online gaming was a new concept with many unreasonable passwords to remember.",
+    "rewrite": "To them, online gaming was a new idea involving many unrealistic passwords to remember."
+   },
+   "3": {
+    "original": "Just another way to screw over the consumer by raking in more revenue.",
+    "rewrite": "Just another way to exploit the consumer for higher profits."
+   },
+   "7": {
+    "original": "Older people will recall the day an ancestor bought their first modem.",
+    "rewrite": "Older individuals will remember the day an ancestor purchased their first modem."
+   },
+   "6": {
+    "original": "Old Payphones Go Online - What Does the Future Hold?",
+    "rewrite": "What Will the Future Entail for Old Payphones That Go Online?"
+   },
+   "11": {
+    "original": "The next revolutionary concept just occurred.",
+    "rewrite": "The next revolutionary concept just emerged."
+   },
+   "16": {
+    "original": "For a simple, yet important solution.",
+    "rewrite": "For a straightforward, yet essential solution."
+   }
+  },
+  "sentences_rewritten": 13,
+  "eligible": 14,
+  "per_sentence": [
+   {
+    "index": 8,
+    "survivors": 56,
+    "rewritten": true
+   },
+   {
+    "index": 20,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 15,
+    "survivors": 12,
+    "rewritten": true
+   },
+   {
+    "index": 18,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 14,
+    "survivors": 27,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 21,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 6,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 6,
+    "rewritten": true
+   },
+   {
+    "index": 16,
+    "survivors": 12,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "everyday user and as it seems, most are satisfied with the test plans. It appears that Time Warner now approves of what Comcast is doing and is requesting the FCC's permission to implement their planned caps.\nIf everything is cleared up, Time Warner will be able to operate with broadband caps at 300 GB limits, just like Comcast customers.\nJust another way to exploit the consumer for higher profits.\n...I am angry.\nfor people named jimmmy....\nWhat Will the Future Entail for Old Payphones That Go Online?\nOlder individuals will remember the day an ancestor purchased their first modem. It was a large and costly device, made of plastic, and it remained on the kitchen counter until laughter echoed as three or four of them - having gathered on the nearby couch - would hook up a dial-up line from it, and start playing Dungeons and Dragons, instead of Space Invaders. To them, online gaming was a new idea involving many unrealistic passwords to remember.\nNo more. The next revolutionary concept just emerged.\n\"Switching on pre-pay broadband with the new RapidShare PIN Swap tool customers all over Denmark can access NetZero Classical, now supplied on pre-pay option by Fastweb\" To them, online gaming ...\nNintendo Announces U Ready to DS 2 Package for $129.99\nNintendo has announced the affordable price of the much-anticipated redesigned DS: It is just, \"Ready to DS.\"\nIf the DS price is already relatively low compared to other gaming machines, how can it be \"ready to DS\" for under $150? For a straightforward, yet essential solution.\nColor. The screen is colored, and if a retailer knows you and your history with games, they might even know the specific color...\nWhat is another $5? No self-respecting poker player would reject the chance to test the latest poker playing software rolled out of the WYSIWYG labs (What You See is What You Get!).\nLet me take just a second to break down that lsit ...\nPhilips Blu-Ray Dreambox: F",
+  "z0": 16.16057946539401,
+  "seconds": 430.3
+ }
+}

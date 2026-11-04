@@ -1,0 +1,62 @@
+{
+ "sample_id": "sta16_len500:109",
+ "nobox": {
+  "z_final": 13.866804620305775,
+  "status": "not broken",
+  "rewrites": {
+   "7": {
+    "original": "In the meantime, America's leading missile-defense contractor, Boeing, announced in February that it had struck a contract with the Pentagon to deliver components for an advanced missile interceptor being built in Maryland.",
+    "rewrite": "Meanwhile, Boeing, which leads America's missile-defense contractors, announced in February a contract with the Pentagon for delivering components of an advanced missile interceptor to be constructed in Maryland."
+   },
+   "4": {
+    "original": "One particularly concerning advanced Russian cruise missile's range far exceeds anything the Pentagon would need to defend the continental United States, but would instead cover its overseas territories such as Europe.",
+    "rewrite": "One especially worrying advanced Russian cruise missile has a range that vastly surpasses what the Pentagon would require to defend the continental United States, but it would predominantly cover its overseas territories like Europe."
+   },
+   "8": {
+    "original": "One such interceptor will be included in a new missile-defense system plundered nearly $1 billion and due to be completed in Romania sometime before the end of the year, according to the MDA.",
+    "rewrite": "One such interceptor will be included in a new missile-defense system costing nearly $1 billion and due to be completed in Romania sometime before the end of the year, according to the MDA."
+   },
+   "11": {
+    "original": "According to the MDA, choosing between the two weapons would ultimately boil down to where the risk of an incoming barrage from a country like North Korea is greater.",
+    "rewrite": "According to the MDA, selecting between the two weapons would ultimately hinge on where the risk of an incoming barrage from a country like North Korea is higher."
+   },
+   "10": {
+    "original": "One such system is being developed at another plant in Romania.",
+    "rewrite": "At another plant in Romania, one such system is being developed."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 7,
+    "survivors": 57,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 58,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 18,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Kohler, who coordinated defense system development for America's European allies during the Obama administration, described the current setup as \"frozen in time because our overall military budget was so constrained.\"\n\"You can fix the sensors but there is no longer the capability, basically due to the missile penetration radar, to pick up missiles coming in... unless you expose large quantities of interceptors that might not be needed to begin with,\" Kohler said during a recent panel discussion on nuclear defense policy at the Kennedy School of Government at Harvard University.\n\"You don't know if part of the incoming ballistic missile attack was made of cruise missiles, guided by North Korean missile technology right in your face. So your interceptor would not have any way of detecting the incoming threat and responding to it,\" he added.\nOne especially worrying advanced Russian cruise missile has a range that vastly surpasses what the Pentagon would require to defend the continental United States, but it would predominantly cover its overseas territories like Europe.\nNuclear missile in North Korea\n\"This may be a challenge that just is either unsolvable or causes us to have to resort to possible use of the full array of our forces,\" said Michael O'Hanlon, senior fellow at the Brookings Institution think tank.\nMeanwhile, Boeing, which leads America's missile-defense contractors, announced in February a contract with the Pentagon for delivering components of an advanced missile interceptor to be constructed in Maryland.\nOne such interceptor will be included in a new missile-defense system costing nearly $1 billion and due to be completed in Romania sometime before the end of the year, according to the MDA.\nAnother project, called Aegis Ashore, provides five additional \"defense as needed\" strategic locations, to protect against so-called \"limited provocative strikes using theatre ballistic missiles from regional powers,\" according to MDA plans.\nAt another plant in Romania, one such system is being developed.\nAccording to the MDA, selecting between the two weapons would ultimately hinge on where the risk of an incoming barrage from a country like North Korea is higher.\n\"We're not exactly sure when it would deploy but the original plan",
+  "z0": 15.831361280698511,
+  "seconds": 207.9
+ }
+}

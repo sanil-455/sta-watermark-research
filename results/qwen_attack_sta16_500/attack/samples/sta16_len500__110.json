@@ -1,0 +1,530 @@
+{
+ "sample_id": "sta16_len500:110",
+ "source": "results/raw/sta16_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.9148524431543299,
+ "needed_share": 0.8881966011250105,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2067,
+  "segments": 17,
+  "eligible": 14,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "too short": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1891,
+  "eligible_char_share": 0.9148524431543299
+ },
+ "attack": {
+  "z0": 17.88854381999832,
+  "z_final": 1.6988666832892252,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 557,
+  "seconds": 531.9,
+  "seconds_by_phase": {
+   "generate": 487.9,
+   "gates": 43.6,
+   "detector": 0.4
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 15,
+    "chars": 248,
+    "z_before": 17.88854381999832,
+    "z_after": 16.035674514745462,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "CJK text": 5,
+      "unknown word": 11,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 44,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 55.38
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 214,
+    "z_before": 16.035674514745462,
+    "z_after": 14.314646028075263,
+    "accepted": true,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "CJK text": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 101,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.88
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 198,
+    "z_before": 14.314646028075263,
+    "z_after": 13.121862174717082,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "CJK text": 12
+     }
+    },
+    "queries_total": 149,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.04
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 163,
+    "z_before": 13.121862174717082,
+    "z_after": 11.881344058382595,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "duplicate": 1,
+      "CJK text": 2,
+      "several lines": 1,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 200,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.76
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 157,
+    "z_before": 11.881344058382595,
+    "z_after": 10.046925473121147,
+    "accepted": true,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 56,
+     "after_content": 35,
+     "after_semantic": 35,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 2,
+      "unknown word": 1,
+      "negation count changed": 17,
+      "numbers changed": 4
+     }
+    },
+    "queries_total": 235,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 52.14
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 125,
+    "z_before": 10.046925473121147,
+    "z_after": 9.17511368858328,
+    "accepted": true,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 28,
+     "after_content": 28,
+     "after_semantic": 28,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "duplicate": 29,
+      "CJK text": 1,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 263,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.68
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 114,
+    "z_before": 9.17511368858328,
+    "z_after": 7.924058156930615,
+    "accepted": true,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 41,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "CJK text": 9,
+      "duplicate": 9,
+      "several lines": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 301,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.98
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 111,
+    "z_before": 7.924058156930615,
+    "z_after": 6.979325372767739,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 10,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 343,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.38
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 109,
+    "z_before": 6.979325372767739,
+    "z_after": 5.810975981749118,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "CJK text": 5,
+      "duplicate": 2,
+      "meaning too different": 10,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 384,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.32
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 100,
+    "z_before": 5.810975981749118,
+    "z_after": 4.766237216968224,
+    "accepted": true,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "duplicate": 3,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 438,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.45
+   },
+   {
+    "pass": 1,
+    "segment": 13,
+    "chars": 99,
+    "z_before": 4.766237216968224,
+    "z_after": 3.9316682549746704,
+    "accepted": true,
+    "survivors": 21,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 25,
+     "after_content": 24,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 21,
+     "rejected": {
+      "duplicate": 13,
+      "unknown word": 22,
+      "negation count changed": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 459,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.47
+   },
+   {
+    "pass": 1,
+    "segment": 14,
+    "chars": 99,
+    "z_before": 3.9316682549746704,
+    "z_after": 3.0171593391817195,
+    "accepted": true,
+    "survivors": 20,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 42,
+     "after_spelling": 37,
+     "after_content": 37,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 20,
+     "rejected": {
+      "CJK text": 10,
+      "duplicate": 5,
+      "several lines": 3,
+      "unknown word": 5,
+      "meaning too different": 15,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 479,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 35.34
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 98,
+    "z_before": 3.0171593391817195,
+    "z_after": 2.2215948935320635,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 7,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 528,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.51
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 56,
+    "z_before": 2.2215948935320635,
+    "z_after": 1.6988666832892252,
+    "accepted": true,
+    "survivors": 29,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 47,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 29,
+     "rejected": {
+      "duplicate": 11,
+      "unknown word": 2,
+      "negation count changed": 11,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 557,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.55
+   }
+  ],
+  "rewrites": {
+   "15": {
+    "original": "Dems and Republicans in Olympia are so partisan these days that joining forces to avoid a state budget shutdown, to revamp (or even compact down) permanent road construction funds, and plenty of other issues shows just how crazy things are getting.",
+    "rewrite": "Dems and Republicans in Olympia have become such partisans lately that they had to unite to avert a state budget shutdown, reform (or streamline) permanent road construction funds, and handle numerous other issues, indicating how chaotic the situation has become."
+   },
+   "2": {
+    "original": "In an attempt to show support for school safety in Olympia, KSH tribes are doing a Green Light/Slow Down campaign, since the public bus service stops near neighborhoods where children often wait for the school bus.",
+    "rewrite": "The KSH tribes are spearheading a Green Light/Slow Down campaign to demonstrate their backing for school safety in Olympia, as the public bus route frequently passes by areas where kids wait for their school buses."
+   },
+   "1": {
+    "original": "But the outlook for Snoqualmie, Crystal Mountain and Stevens Pass is beginning to look grim for a second winter in a row, leading most ski resorts to run on artificial snow and approaching capacity.",
+    "rewrite": "However, the future appears ominous for Snoqualmie, Crystal Mountain, and Stevens Pass yet again this winter, causing most ski resorts to operate with artificial snow and reaching capacity."
+   },
+   "11": {
+    "original": "Save the Children advocates were in Olympia last Thursday to voice support for children affected by plastic pollution nearly a world away, but something done here.",
+    "rewrite": "Save the Children representatives visited Olympia last Thursday to express support for children impacted by plastic pollution globally, highlighting local actions that can make a difference."
+   },
+   "9": {
+    "original": "From Soldier to Squishy Boo, Davy to Tank Man and tons in between, you could walk up and talk to a troop in Sicily today. 75 years on or is why or no longer?",
+    "rewrite": "From Sergeant to Tenderhearted Boy, David to Tank Commander and countless names in between, one can still approach and converse with soldiers in Sicily today. 75 years later, for what it is or is not?"
+   },
+   "12": {
+    "original": "Tracy Suangphak had her 6-month-old daughter testify about how dirty the plastic bottles are in Thailand, where she was born.",
+    "rewrite": "Tracy Suangphak had her 6-month-old daughter recount the dirtiness of the plastic bottles in Thailand, a country she was born in."
+   },
+   "5": {
+    "original": "City Center Market will have Irish food, beer and merchandise Saturday for a day long celebration with live music.",
+    "rewrite": "The City Center Market will offer Irish cuisine, beer, and souvenirs on Saturday, alongside live entertainment for a full-day celebration."
+   },
+   "8": {
+    "original": "Kids have been calling their military service members by nick names the longest, since World War II apparently.",
+    "rewrite": "Children have allegedly been giving nicknames to their military members for an extended period, starting from around World War II."
+   },
+   "3": {
+    "original": "All it takes is people letting up, pulling down, and signaling with their arms to make drivers aware we care.",
+    "rewrite": "People only need to relax, lower themselves, and gesture with their arms to alert drivers that they care."
+   },
+   "7": {
+    "original": "Yet this town, acclaimed as being named for a likely Saginaw missionary George Nob in a 1858 survey.",
+    "rewrite": "Nevertheless, this town is hailed for its name, possibly deriving from a 1858 survey honoring George Nob, a likely Saginaw missionary."
+   },
+   "13": {
+    "original": "It would surprise her mother, Imelda Suangphak, how safe it had become a few hours away in Olympia.",
+    "rewrite": "Imelda Suangphak would be surprised to find that it felt so safe just a few hours' drive away in Olympia."
+   },
+   "14": {
+    "original": "In Politics: At this rate they\u2019ll only get together for bills to let each side castigate the other.",
+    "rewrite": "In Politics: If they continue like this, they\u2019ll only convene to criticize each other with each bill."
+   },
+   "4": {
+    "original": "Local restaurants and brewers join in offering St. Paddy\u2019s part food, beverages and tunes in Yelm.",
+    "rewrite": "Local eateries and breweries collaborate to serve St. Paddy\u2019s day\u2019s fare, drinks, and music in Yelm."
+   },
+   "6": {
+    "original": "It is the kidnap capital of the world; Harvard it\u2019s not.",
+    "rewrite": "Kidnapping is rampant in this place, whereas Harvard is not."
+   }
+  },
+  "final_span": "the area has no snow; there\u2019s still plenty. However, the future appears ominous for Snoqualmie, Crystal Mountain, and Stevens Pass yet again this winter, causing most ski resorts to operate with artificial snow and reaching capacity.\nThe KSH tribes are spearheading a Green Light/Slow Down campaign to demonstrate their backing for school safety in Olympia, as the public bus route frequently passes by areas where kids wait for their school buses. People only need to relax, lower themselves, and gesture with their arms to alert drivers that they care.\nLocal eateries and breweries collaborate to serve St. Paddy\u2019s day\u2019s fare, drinks, and music in Yelm. The City Center Market will offer Irish cuisine, beer, and souvenirs on Saturday, alongside live entertainment for a full-day celebration. Kidnapping is rampant in this place, whereas Harvard is not. Nevertheless, this town is hailed for its name, possibly deriving from a 1858 survey honoring George Nob, a likely Saginaw missionary.\nChildren have allegedly been giving nicknames to their military members for an extended period, starting from around World War II. From Sergeant to Tenderhearted Boy, David to Tank Commander and countless names in between, one can still approach and converse with soldiers in Sicily today. 75 years later, for what it is or is not? Few missing pieces here.\nSave the Children representatives visited Olympia last Thursday to express support for children impacted by plastic pollution globally, highlighting local actions that can make a difference. Tracy Suangphak had her 6-month-old daughter recount the dirtiness of the plastic bottles in Thailand, a country she was born in. Imelda Suangphak would be surprised to find that it felt so safe just a few hours' drive away in Olympia.\nIn Politics: If they continue like this, they\u2019ll only convene to criticize each other with each bill. Dems and Republicans in Olympia have become such partisans lately that they had to unite to avert a state budget shutdown, reform (or streamline) permanent road construction funds, and handle numerous other issues, indicating how chaotic the situation has become. Then again, they need each other \u2013 any other session the two parties have held court, because",
+  "break_point": {
+   "step": 13,
+   "sentences_rewritten": 14,
+   "queries": 557
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 14,
+   "eligible": 14,
+   "segments": 17,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 82.3529411764706
+  },
+  "tokens": {
+   "original": 501,
+   "final": 528,
+   "length_change": 27,
+   "pct_not_preserved": 42.71457085828343,
+   "pct_new": 45.64393939393939
+  },
+  "words": {
+   "original": 358,
+   "final": 356,
+   "length_change": -2,
+   "pct_not_preserved": 53.072625698324025,
+   "pct_new": 52.80898876404494
+  },
+  "characters": {
+   "original": 2067,
+   "final": 2234,
+   "length_change": 167,
+   "pct_not_preserved": 33.09143686502177,
+   "pct_new": 38.09310653536257
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 450,
+   "green_after": 283,
+   "pairs_before": 500,
+   "pairs_after": 527,
+   "pairs_changed_before": 299,
+   "pairs_changed_after": 326,
+   "green_fraction_of_new_pairs": 0.3496932515337423,
+   "delta_achieved": 0.1503067484662577
+  }
+ }
+}

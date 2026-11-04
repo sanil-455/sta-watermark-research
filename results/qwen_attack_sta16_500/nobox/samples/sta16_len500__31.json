@@ -1,0 +1,112 @@
+{
+ "sample_id": "sta16_len500:31",
+ "nobox": {
+  "z_final": 12.457477875560539,
+  "status": "not broken",
+  "rewrites": {
+   "8": {
+    "original": "Johnson also discussed her religious conversion in a recent appearance on \u201cShalom in the Home,\u201d a daily television program broadcast from the Holy Lands, which is available nightly on Line 4 at EWTN.",
+    "rewrite": "Johnson also talked about her religious conversion during a recent appearance on \u201cShalom in the Home,\u201d a daily TV program aired from the Holy Lands, available nightly on Line 4 at EWTN."
+   },
+   "11": {
+    "original": "Johnson also discussed her experiences, both historical and personal, on \u201cConversation with Cardinal\u201d known as \u201cWissam\u2019s Kingdom\u201d, a show with Cardinal Wissam Ayd\u0437\u043d\u0430 in Egypt.",
+    "rewrite": "Johnson also shared her experiences, both from history and personally, on \"Conversation with Cardinal,\" titled \"Wissam's Kingdom,\" a show hosted by Cardinal Wissam Ayd\u0437\u043d\u0430 in Egypt."
+   },
+   "12": {
+    "original": "Johnson, featured in a new book coming out by Pope Francis, has also visited Project Pearls, Hillcrest Women\u2019s Center, and Door Village Chapel, according to her website.",
+    "rewrite": "Johnson, featured in a new book by Pope Francis, has also visited Project Pearls, Hillcrest Women\u2019s Center, and Door Village Chapel, as stated on her website."
+   },
+   "4": {
+    "original": "She said she finally asked God for help, and said she feels God brought her out of that time period with her, forgiving her and helping her in ways she cannot describe.",
+    "rewrite": "She said she ultimately prayed to God for help, and stated she feels God led her out of that time period, forgiving her and supporting her in ways she cannot articulate."
+   },
+   "2": {
+    "original": "Johnson described herself as feeling extremely depressed following the life-changing experience, approaching alcohol, food and exercising to deal with it.",
+    "rewrite": "Johnson described herself as feeling very depressed following the life-changing experience, using alcohol, food, and exercise to cope with it."
+   },
+   "10": {
+    "original": "Johnson described the impact the Christian sites of the Holy Land had on her, and how that impact was made more potent now that she is Catholic.",
+    "rewrite": "Johnson described the impact of the Christian sites in the Holy Land on her, and how that impact became even stronger now that she is Catholic."
+   },
+   "7": {
+    "original": "Johnson, speaking to the Argus, described how important it was that Americans be reminded about how abortions are carried out now.",
+    "rewrite": "Johnson, speaking to the Argus, explained how crucial it was to remind Americans about current practices for carrying out abortions."
+   },
+   "1": {
+    "original": "Johnson, now a pro-life speaker, discussed her journey on the panel at the Belo Center for New Media.",
+    "rewrite": "Now a pro-life speaker, Johnson discussed her journey on the panel at the Belo Center for New Media."
+   },
+   "3": {
+    "original": "The experience, she said, prompted in her a feeling of being disconnected from God\u2019s forgiveness.",
+    "rewrite": "She said that the experience prompted in her a feeling of disconnection from God\u2019s forgiveness."
+   },
+   "6": {
+    "original": "He added that he felt film was a different form of communication from a written documentary.",
+    "rewrite": "He stated that he considered film to be a distinct form of communication compared to a written documentary."
+   }
+  },
+  "sentences_rewritten": 10,
+  "eligible": 11,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 8,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 13,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 2,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 27,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": ". Now a pro-life speaker, Johnson discussed her journey on the panel at the Belo Center for New Media.\nJohnson described herself as feeling very depressed following the life-changing experience, using alcohol, food, and exercise to cope with it. She said that the experience prompted in her a feeling of disconnection from God\u2019s forgiveness. She said she ultimately prayed to God for help, and stated she feels God led her out of that time period, forgiving her and supporting her in ways she cannot articulate.\nKonzelman responded to the criticism by saying that people do not remember that in order to portray a part of Johnson\u2019s story, they changed her name, and it would not be illegal, if they showed it on film. He stated that he considered film to be a distinct form of communication compared to a written documentary.\nJohnson, speaking to the Argus, explained how crucial it was to remind Americans about current practices for carrying out abortions.\nJohnson also talked about her religious conversion during a recent appearance on \u201cShalom in the Home,\u201d a daily TV program aired from the Holy Lands, available nightly on Line 4 at EWTN.\nJohnson, whose visit to the Holy Lands was extensive, wrote about its physical and emotional effects on her in a recent appearance on the radio program, \u201cWriting Well with Dr. Wendy\u201d, aired February 4 on Fountain Square MediaRadio.\nJohnson described the impact of the Christian sites in the Holy Land on her, and how that impact became even stronger now that she is Catholic.\nJohnson also shared her experiences, both from history and personally, on \"Conversation with Cardinal,\" titled \"Wissam's Kingdom,\" a show hosted by Cardinal Wissam Ayd\u0437\u043d\u0430 in Egypt.\nJohnson, featured in a new book by Pope Francis, has also visited Project Pearls, Hillcrest Women\u2019s Center, and Door Village Chapel, as stated on her website. She wrote her autobiography, \u201cUnPlanned: Stories of the Dr. Dreamers and Defenders and the Savior,\u201d and she is the founder of And Then There Were None (ATTWN), an organization designed to bring companies out of the abortion business, according to her website.\n",
+  "z0": 15.563033123398535,
+  "seconds": 440.6
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "sample_id": "sta16_len500:29",
+ "source": "results/raw/sta16_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.0706967213114754,
+ "needed_share": 0.876242061475409,
+ "delta_needed": null,
+ "segmentation": {
+  "chars": 1952,
+  "segments": 13,
+  "eligible": 1,
+  "skipped": 12,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 9,
+   "too short": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 138,
+  "eligible_char_share": 0.0706967213114754
+ },
+ "attack": {
+  "z0": 16.16057946539401,
+  "z_final": 15.356253323289256,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 2,
+  "queries": 52,
+  "seconds": 72.9,
+  "seconds_by_phase": {
+   "generate": 68.5,
+   "gates": 4.3,
+   "detector": 0.0
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 138,
+    "z_before": 16.16057946539401,
+    "z_after": 15.356253323289256,
+    "accepted": true,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 33,
+     "after_spelling": 33,
+     "after_content": 33,
+     "after_semantic": 33,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "duplicate": 24,
+      "CJK text": 3
+     }
+    },
+    "queries_total": 34,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 31.55
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 138,
+    "z_before": 15.356253323289256,
+    "z_after": 15.502816690824329,
+    "accepted": false,
+    "survivors": 29,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 31,
+     "after_spelling": 31,
+     "after_content": 31,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 29,
+     "rejected": {
+      "duplicate": 25,
+      "CJK text": 3,
+      "hit length limit": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 52,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 36.95
+   }
+  ],
+  "rewrites": {
+   "4": {
+    "original": "McCoy said families travel all over north-central Ohio, and as far south as Southwest Louisiana, to participate in ASPO's sports programs.",
+    "rewrite": "McCoy noted that families come from across north-central Ohio and even as far southwest to Louisiana to join ASPO's sports programs."
+   }
+  },
+  "final_span": "athletes) have gotten to the highest levels of high school competitive sports. It's amazing \u2026 so awesome to see that,\" Tomassetti said.\n\"For someone with a disability \u2026 at 12, we have these young people in wheelchairs \u2026 involved in basketball and volleyball and sled hockey. We are debuting our wrestling program.\"\nMcCoy noted that families come from across north-central Ohio and even as far southwest to Louisiana to join ASPO's sports programs.\nTomassetti echoed the idea.\n\"Our reach has reached way farther than I think most people realize,\" he said.\nMcCoy said the KIDCHAMP honor validates ASPO's mission, which rightfully \"puts us in a different league \u2026 now we are operating at a different level\" for the beneficiaries, \"all those individuals \u2026 families and schools that exist in other parts of the state and are not blessed to have Adaptive Sport in their lives.\"\nMcCoy said the recognition helps in a number of ways, \"in the way that parents will be more apt to, I think, share (Followay's award) with family and friends\" and all the beneficiaries, to remind them what \"all they are doing.\"\n\"We have just so many kids and families and schools to be able to promote because they are doing such a great job \u2026 you obviously just put (Adaptive Sports) on the map,\" she said.\n\"We are so excited for what, I think, is the start of so much increase in people knowing what Adaptive Sports is \u2014 big things ahead,\" follow by naming five of \"the many success stories,\" she said, referring to \"Eric Kuhhlen\", also an adaptive hall of famer; Ryan Jesse, to be on the Tribe Warriors next season and Miles Bowman, featured in a video before the ceremony at the KIDCHAMP presentation.\nAmong some of the more vulnerable kids she said is in a wheelchair, but \"he's got full function\" and \"he's such a positive guy and he has done so proud and shows other younger kids how it can be done.\n\"It touches my heart when I talk to some of these families, how Ada",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 1,
+   "eligible": 1,
+   "segments": 13,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 7.6923076923076925
+  },
+  "tokens": {
+   "original": 500,
+   "final": 497,
+   "length_change": -3,
+   "pct_not_preserved": 2.200000000000002,
+   "pct_new": 1.6096579476861161
+  },
+  "words": {
+   "original": 346,
+   "final": 346,
+   "length_change": 0,
+   "pct_not_preserved": 3.1791907514450823,
+   "pct_new": 3.1791907514450823
+  },
+  "characters": {
+   "original": 1952,
+   "final": 1946,
+   "length_change": -6,
+   "pct_not_preserved": 1.8954918032786927,
+   "pct_new": 1.5930113052415207
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 430,
+   "green_after": 419,
+   "pairs_before": 499,
+   "pairs_after": 496,
+   "pairs_changed_before": 19,
+   "pairs_changed_after": 16,
+   "green_fraction_of_new_pairs": 0.375,
+   "delta_achieved": 0.125
+  }
+ }
+}

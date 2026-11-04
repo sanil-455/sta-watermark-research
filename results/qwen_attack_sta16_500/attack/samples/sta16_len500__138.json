@@ -1,0 +1,317 @@
+{
+ "sample_id": "sta16_len500:138",
+ "source": "results/raw/sta16_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.3024948024948025,
+ "needed_share": 0.872224687000012,
+ "delta_needed": null,
+ "segmentation": {
+  "chars": 1924,
+  "segments": 7,
+  "eligible": 2,
+  "skipped": 5,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 3,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 582,
+  "eligible_char_share": 0.3024948024948025
+ },
+ "attack": {
+  "z0": 15.652475842498527,
+  "z_final": 12.044362443345296,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 4,
+  "queries": 150,
+  "seconds": 583.5,
+  "seconds_by_phase": {
+   "generate": 563.2,
+   "gates": 20.2,
+   "detector": 0.1
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 342,
+    "z_before": 15.652475842498527,
+    "z_after": 13.32227072928282,
+    "accepted": true,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 53,
+     "after_content": 34,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 3,
+      "negation count changed": 19,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 33,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 85.54
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 240,
+    "z_before": 13.32227072928282,
+    "z_after": 12.425148121250308,
+    "accepted": true,
+    "survivors": 6,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 55,
+     "after_content": 6,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 6,
+     "rejected": {
+      "glued punctuation": 3,
+      "unknown word": 2,
+      "negation count changed": 39,
+      "quotation changed": 10
+     }
+    },
+    "queries_total": 39,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.61
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 342,
+    "z_before": 12.425148121250308,
+    "z_after": 12.335435860447056,
+    "accepted": true,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 56,
+     "after_content": 33,
+     "after_semantic": 33,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "unknown word": 4,
+      "negation count changed": 23,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 70,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 81.84
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 240,
+    "z_before": 12.335435860447056,
+    "z_after": 12.156011338840553,
+    "accepted": true,
+    "survivors": 9,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 57,
+     "after_content": 9,
+     "after_semantic": 9,
+     "fluency_skipped": false,
+     "after_fluency": 9,
+     "rejected": {
+      "CJK text": 1,
+      "glued punctuation": 1,
+      "unknown word": 1,
+      "negation count changed": 40,
+      "quotation changed": 8
+     }
+    },
+    "queries_total": 79,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 52.95
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 342,
+    "z_before": 12.156011338840553,
+    "z_after": 12.044362443345296,
+    "accepted": true,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 48,
+     "after_content": 27,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "CJK text": 8,
+      "several lines": 2,
+      "unknown word": 2,
+      "negation count changed": 21
+     }
+    },
+    "queries_total": 106,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 90.17
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 240,
+    "z_before": 12.044362443345296,
+    "z_after": 12.318150920704907,
+    "accepted": false,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 55,
+     "after_content": 4,
+     "after_semantic": 4,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "glued punctuation": 4,
+      "unknown word": 1,
+      "negation count changed": 38,
+      "quotation changed": 13
+     }
+    },
+    "queries_total": 110,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.32
+   },
+   {
+    "pass": 4,
+    "segment": 4,
+    "chars": 342,
+    "z_before": 12.044362443345296,
+    "z_after": 12.19674050891943,
+    "accepted": false,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 54,
+     "after_content": 33,
+     "after_semantic": 33,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "several lines": 3,
+      "CJK text": 2,
+      "unknown word": 1,
+      "negation count changed": 21
+     }
+    },
+    "queries_total": 143,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 91.23
+   },
+   {
+    "pass": 4,
+    "segment": 2,
+    "chars": 240,
+    "z_before": 12.044362443345296,
+    "z_after": 12.044362443345296,
+    "accepted": false,
+    "survivors": 7,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 57,
+     "after_content": 7,
+     "after_semantic": 7,
+     "fluency_skipped": false,
+     "after_fluency": 7,
+     "rejected": {
+      "glued punctuation": 3,
+      "negation count changed": 47,
+      "quotation changed": 3
+     }
+    },
+    "queries_total": 150,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.54
+   }
+  ],
+  "rewrites": {
+   "4": {
+    "original": "He reportedly considered dropping the Kabbalah part of his act when he became White House chief of staff but decided otherwise, instead wearing spikes and all in D.C. And when he got back to Chicago for the mayorship, he said, essentially, he was who he was: don\u2019t expect a rhetoric change from anything he might have ever said at the podium.",
+    "rewrite": "It was reportedly suggested that he might drop the Kabbalah aspect of his performance upon becoming White House chief of staff, but he opted against it, choosing to wear the spikes and remain that way in D.C. When he returned to Chicago for the mayoral position, he conveyed, essentially, that he would stay true to himself: do not expect any alteration in rhetoric from what he had previously said at public events."
+   },
+   "2": {
+    "original": "Michelle Robinson: Alter writes that Obama had considered nominating Jarrett to be his ambassador to the United Nations and she was definitely on \u201cshort list,\u201d though in the end she was passed over, having supported Hillary Clinton in 2008.",
+    "rewrite": "Michelle Robinson: Alter writes that Obama thought about nominating Jarrett as his UN ambassador and she was indeed among the \"short list,\" yet in the end she was overlooked due to her support of Hillary Clinton in 2008."
+   }
+  },
+  "final_span": "been allies in Democratic politics, most famously, Nancy Pelosi, after she overturned Obama\u2019s planned HCR compromise: \u201cI\u2019m at a real tricky place.\u201d The \u201ccrappy deals in meetings\u201d he frequently offered up for compromiser\u2019s consumption \u201creminded some people of the tasteless pickled eggs\u201d that first-grader Axelrod dispensed, claims Alter, to have scintillated his classmates during recess.\nMichelle Robinson: Alter writes that Obama thought about nominating Jarrett as his UN ambassador and she was indeed among the \"short list,\" yet in the end she was overlooked due to her support of Hillary Clinton in 2008.\nEmanuel, during his tenure in D.C., changed his own sartorial accoutrements from a blowsy red to an all-black in a morph from \u201cformer opposition congressman\u2026.to national military service\u2014and Kabbalah mystic.\u201d It was reportedly suggested that he might drop the Kabbalah aspect of his performance upon becoming White House chief of staff, but he opted against it, choosing to wear the spikes and remain that way in D.C. When he returned to Chicago for the mayoral position, he conveyed, essentially, that he would stay true to himself: do not expect any alteration in rhetoric from what he had previously said at public events.\nCarl Karcher: Alter picks up Jesse Jackson to join Ron Sider and Claim 66 (late President Ronald Reagan\u2019s aforementioned campaign ad) after Jackson had called a 2008 meeting of the Rev. Wright/\u201dnutty\u201d types that would \u201creckon with the poison tree\u2026.disrupt the status quo\u2026[to] bring our country together by a new and different kind of politics\u201d\u2014and Jackson told him, straight out, to go away, harshly, according to what Jackson later recanted.\nJim Messina, Obama\u2019s 2012 campaign manager, and Jeremy Bird, senior Obama campaign strategist who led grassroots priorities who don\u2019t plan to work again in a campaign, and David Simas, Obama campaign message director, and David Simas, Obama campaign message director, Matt Compton, Obama campaign sp",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 2,
+   "eligible": 2,
+   "segments": 7,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 28.571428571428573
+  },
+  "tokens": {
+   "original": 501,
+   "final": 511,
+   "length_change": 10,
+   "pct_not_preserved": 10.77844311377245,
+   "pct_new": 12.524461839530332
+  },
+  "words": {
+   "original": 300,
+   "final": 310,
+   "length_change": 10,
+   "pct_not_preserved": 17.666666666666664,
+   "pct_new": 20.322580645161292
+  },
+  "characters": {
+   "original": 1924,
+   "final": 1978,
+   "length_change": 54,
+   "pct_not_preserved": 8.887733887733884,
+   "pct_new": 11.375126390293222
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 425,
+   "green_after": 391,
+   "pairs_before": 500,
+   "pairs_after": 510,
+   "pairs_changed_before": 82,
+   "pairs_changed_after": 92,
+   "green_fraction_of_new_pairs": 0.42391304347826086,
+   "delta_achieved": 0.07608695652173914
+  }
+ }
+}

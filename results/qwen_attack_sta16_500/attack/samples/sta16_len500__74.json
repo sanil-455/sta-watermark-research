@@ -1,0 +1,595 @@
+{
+ "sample_id": "sta16_len500:74",
+ "source": "results/raw/sta16_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.47040971168437024,
+ "needed_share": 0.8652971097891693,
+ "delta_needed": 0.2786987872792025,
+ "segmentation": {
+  "chars": 1977,
+  "segments": 12,
+  "eligible": 6,
+  "skipped": 6,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 4,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 930,
+  "eligible_char_share": 0.47040971168437024
+ },
+ "attack": {
+  "z0": 14.847491370598602,
+  "z_final": 9.764727369282845,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 653,
+  "seconds": 779.4,
+  "seconds_by_phase": {
+   "generate": 725.1,
+   "gates": 53.9,
+   "detector": 0.4
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 297,
+    "z_before": 14.847491370598602,
+    "z_after": 13.591407511692575,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 1,
+      "duplicate": 5
+     }
+    },
+    "queries_total": 54,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 69.97
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 145,
+    "z_before": 13.591407511692575,
+    "z_after": 12.732860970849954,
+    "accepted": true,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 50,
+     "after_content": 27,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "CJK text": 6,
+      "several lines": 1,
+      "unknown word": 3,
+      "negation count changed": 21,
+      "quotation changed": 2
+     }
+    },
+    "queries_total": 81,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.0
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 137,
+    "z_before": 12.732860970849954,
+    "z_after": 11.994117179621394,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 1,
+      "unknown word": 3,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 133,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.2
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 129,
+    "z_before": 11.994117179621394,
+    "z_after": 11.258352235096616,
+    "accepted": true,
+    "survivors": 25,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 26,
+     "after_spelling": 25,
+     "after_content": 25,
+     "after_semantic": 25,
+     "fluency_skipped": false,
+     "after_fluency": 25,
+     "rejected": {
+      "duplicate": 34,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 158,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.8
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 116,
+    "z_before": 11.258352235096616,
+    "z_after": 10.77953675713445,
+    "accepted": true,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 33,
+     "after_spelling": 33,
+     "after_content": 33,
+     "after_semantic": 33,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "duplicate": 27
+     }
+    },
+    "queries_total": 191,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.81
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 106,
+    "z_before": 10.77953675713445,
+    "z_after": 10.19646997739904,
+    "accepted": true,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 37,
+     "after_spelling": 37,
+     "after_content": 37,
+     "after_semantic": 37,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "duplicate": 23,
+      "perplexity too high": 10
+     }
+    },
+    "queries_total": 218,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.79
+   },
+   {
+    "pass": 2,
+    "segment": 6,
+    "chars": 297,
+    "z_before": 10.19646997739904,
+    "z_after": 10.12730215782979,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 3,
+      "duplicate": 1
+     }
+    },
+    "queries_total": 273,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 70.63
+   },
+   {
+    "pass": 2,
+    "segment": 10,
+    "chars": 145,
+    "z_before": 10.12730215782979,
+    "z_after": 9.973590381184184,
+    "accepted": true,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 51,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "CJK text": 5,
+      "several lines": 1,
+      "unknown word": 3,
+      "quotation changed": 1,
+      "negation count changed": 18
+     }
+    },
+    "queries_total": 305,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.25
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 137,
+    "z_before": 9.973590381184184,
+    "z_after": 9.933211306958434,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "duplicate": 3,
+      "CJK text": 1,
+      "unknown word": 5,
+      "glued punctuation": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 353,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.48
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 129,
+    "z_before": 9.933211306958434,
+    "z_after": 9.953339415354094,
+    "accepted": false,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 28,
+     "after_spelling": 27,
+     "after_content": 27,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "duplicate": 32,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 380,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.57
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 116,
+    "z_before": 9.933211306958434,
+    "z_after": 9.768813585871214,
+    "accepted": true,
+    "survivors": 27,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 27,
+     "after_content": 27,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 27,
+     "rejected": {
+      "duplicate": 33
+     }
+    },
+    "queries_total": 407,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.46
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 106,
+    "z_before": 9.768813585871214,
+    "z_after": 9.764727369282845,
+    "accepted": true,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 42,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "duplicate": 18,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 443,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.06
+   },
+   {
+    "pass": 3,
+    "segment": 6,
+    "chars": 297,
+    "z_before": 9.764727369282845,
+    "z_after": 9.95801462822627,
+    "accepted": false,
+    "survivors": 56,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 56,
+     "rejected": {
+      "duplicate": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 499,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 64.23
+   },
+   {
+    "pass": 3,
+    "segment": 10,
+    "chars": 145,
+    "z_before": 9.764727369282845,
+    "z_after": 9.962905250875577,
+    "accepted": false,
+    "survivors": 25,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 48,
+     "after_content": 26,
+     "after_semantic": 26,
+     "fluency_skipped": false,
+     "after_fluency": 25,
+     "rejected": {
+      "several lines": 5,
+      "CJK text": 4,
+      "hit length limit": 2,
+      "unknown word": 1,
+      "negation count changed": 18,
+      "quotation changed": 4,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 524,
+    "hit_limit": 2,
+    "oom_events": [],
+    "seconds_generate": 53.96
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 137,
+    "z_before": 9.764727369282845,
+    "z_after": 9.838699100999074,
+    "accepted": false,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "duplicate": 2,
+      "glued punctuation": 2,
+      "unknown word": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 576,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.47
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 129,
+    "z_before": 9.764727369282845,
+    "z_after": 9.873551840553823,
+    "accepted": false,
+    "survivors": 26,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 26,
+     "after_spelling": 26,
+     "after_content": 26,
+     "after_semantic": 26,
+     "fluency_skipped": false,
+     "after_fluency": 26,
+     "rejected": {
+      "duplicate": 34
+     }
+    },
+    "queries_total": 602,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.91
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 116,
+    "z_before": 9.764727369282845,
+    "z_after": 9.928141820099066,
+    "accepted": false,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 34,
+     "after_content": 34,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "duplicate": 26
+     }
+    },
+    "queries_total": 636,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.1
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 106,
+    "z_before": 9.764727369282845,
+    "z_after": 9.80378643468501,
+    "accepted": false,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 36,
+     "after_spelling": 35,
+     "after_content": 35,
+     "after_semantic": 35,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "duplicate": 24,
+      "unknown word": 1,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 653,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.43
+   }
+  ],
+  "rewrites": {
+   "6": {
+    "original": "Earlier this week, Keith Cowart, dean of the Candler School of Theology at Emory University in Atlanta, where Dr. King studied, helped Cottman track down Barbara Nelson Armstrong, Neil's widow, is sending her a framed copy of the image accompanying this article for her the astronaut's collection.",
+    "rewrite": "Previously this week, Keith Cowart, dean of Emory University's Candler School of Theology, where Dr. King studied, aided Cottman in locating Barbara Nelson Armstrong, Neil's widow, who will receive a framed copy of the accompanying article's image for her collection."
+   },
+   "10": {
+    "original": "Anderson has tried not to cloud his historical memory with a critical eye, although she called a 1988 statement Dr. King made \"out of character.\"",
+    "rewrite": "Anderson tried to keep a historical perspective without criticism, yet she described a 1988 remark by Dr. King as \"out of character.\""
+   },
+   "3": {
+    "original": "Armstrong, like Martin Luther King Jr. a Kentuckian and a United Methodist, would come to love an ancestral Southern Christian tradition.",
+    "rewrite": "Armstrong, similar to Martin Luther King Jr., both being from Kentucky and affiliated with the United Methodist Church, would come to embrace an ancestral Southern Christian tradition."
+   },
+   "1": {
+    "original": "Michael Cottman, news director for Rev. Al Sharpton's radio network, has found a photo online of Armstrong inside the spacecraft.",
+    "rewrite": "Michael Cottman, who serves as news director for Rev. Al Sharpton\u2019s radio network, discovered an online photo showing Armstrong inside the spacecraft."
+   },
+   "4": {
+    "original": "He and Mrs. Armstrong, too, would mourn Dr. King's assassination on April 4, 1968, at the Lorraine Hotel in Memphis.",
+    "rewrite": "Both Mr. Armstrong and Mrs. Armstrong would grieve over Dr. King's assassination on April 4, 1968, at the Lorraine Hotel in Memphis."
+   },
+   "2": {
+    "original": "And Cottman is holding an interview on Sunday evening with the astronaut's daughter, Karen, to discuss it.",
+    "rewrite": "Cottman is set to conduct an interview with the astronaut's daughter, Karen, on Sunday evening regarding the matter."
+   }
+  },
+  "final_span": "'s Apollo 11 mission commander wore with pride the red silk scarf tied around his neck of the Mother Jonathan, which not long earlier saved Martin Luther King Jr.'s life.\nMichael Cottman, who serves as news director for Rev. Al Sharpton\u2019s radio network, discovered an online photo showing Armstrong inside the spacecraft. Cottman is set to conduct an interview with the astronaut's daughter, Karen, on Sunday evening regarding the matter.\nArmstrong, similar to Martin Luther King Jr., both being from Kentucky and affiliated with the United Methodist Church, would come to embrace an ancestral Southern Christian tradition. Both Mr. Armstrong and Mrs. Armstrong would grieve over Dr. King's assassination on April 4, 1968, at the Lorraine Hotel in Memphis.\n\"We - both of us - felt a part of the tragedy in that moment,\" said Neil Armstrong, according to news accounts.\nPreviously this week, Keith Cowart, dean of Emory University's Candler School of Theology, where Dr. King studied, aided Cottman in locating Barbara Nelson Armstrong, Neil's widow, who will receive a framed copy of the accompanying article's image for her collection.\nHeather Marie Dinich Anderson, Neil Armstrong's daughter, also is reminded of that moment as she wrangles with her own conflicted feelings about Dr. King, because he was a pro-integration civil rights activist who once called President Ronald Reagan \"the most dangerous I've ever looked in my life.\"\n\"In one TV special many years ago, he joked about how something might have been able to be saved if I'd just picked up a garbage can lid and thrown it or if I'd called them a few names. He said he was \u2018a reasonable young man,'\" she said via email.\nAnderson tried to keep a historical perspective without criticism, yet she described a 1988 remark by Dr. King as \"out of character.\"\n\"In this alleged 'kiss of death' telephone conversation with Dr. Nelson Rockefeller \u2014 very much a product of that time period,\u201d Anderson added, \"Dr. King said '[President Reagan] was a reasonable, harmless man,",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 6,
+   "eligible": 6,
+   "segments": 12,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 50.0
+  },
+  "tokens": {
+   "original": 501,
+   "final": 504,
+   "length_change": 3,
+   "pct_not_preserved": 12.774451097804395,
+   "pct_new": 13.29365079365079
+  },
+  "words": {
+   "original": 333,
+   "final": 334,
+   "length_change": 1,
+   "pct_not_preserved": 17.117117117117118,
+   "pct_new": 17.365269461077848
+  },
+  "characters": {
+   "original": 1977,
+   "final": 2029,
+   "length_change": 52,
+   "pct_not_preserved": 10.21750126454224,
+   "pct_new": 12.51848201084278
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 416,
+   "green_after": 361,
+   "pairs_before": 500,
+   "pairs_after": 503,
+   "pairs_changed_before": 98,
+   "pairs_changed_after": 101,
+   "green_fraction_of_new_pairs": 0.297029702970297,
+   "delta_achieved": 0.20297029702970298
+  }
+ }
+}

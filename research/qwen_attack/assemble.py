@@ -11,6 +11,8 @@ RUNS = [
     ("STA-1 500-tok, no-box",                 "results/qwen_attack_nobox/run500",                 "nobox",  "n=21, small"),
     ("STA-16 200-tok, adaptive",              "results/qwen_attack_fullscale/sta16_attack",       "attack", "robust variant"),
     ("STA-16 200-tok, no-box",                "results/qwen_attack_fullscale/sta16_nobox",        "nobox",  "robust variant"),
+    ("STA-16 500-tok, adaptive",              "results/qwen_attack_sta16_500/attack",             "attack", "robust variant, n=53"),
+    ("STA-16 500-tok, no-box",                "results/qwen_attack_sta16_500/nobox",              "nobox",  "robust variant, n=53"),
 ]
 
 def wilson(k, n):
@@ -52,6 +54,9 @@ def main():
     L.append("| STA-1 200-tok | %s | %s | %d/%d |" % (a200, nb200, na, nn))
     L.append("| STA-1 500-tok | %s | %s | %d/%d |" % (a500, nb500, a5, n5))
     L.append("| STA-16 (robust) 200-tok | %s | %s | %d/%d |" % (s16a, s16n, sa, sn))
+    s16a5,sa5=pct("results/qwen_attack_sta16_500/attack","attack")
+    s16n5,sn5=pct("results/qwen_attack_sta16_500/nobox","nobox")
+    L.append("| STA-16 (robust) 500-tok | %s | %s | %d/%d |" % (s16a5, s16n5, sa5, sn5))
     L += ["", "## Supporting analyses (full detail in the named files)\n",
           "- Bound (predicts breakability): results/qwen_attack/BOUND_CHECK.md",
           "- Query-budget defence: results/qwen_attack/QUERY_BUDGET.md",

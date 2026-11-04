@@ -1,0 +1,53 @@
+{
+ "sample_id": "sta16_len500:76",
+ "nobox": {
+  "z_final": 11.736410289722594,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "Cardinal Timothy Dolan of New York took issue with what he said is the trend toward decline in Catholic education, noting the nearly two-thirds of Americans who were baptized as infants and come from less affluent backgrounds but don&apos;t have any formal degrees in Catholic education.",
+    "rewrite": "Cardinal Timothy Dolan of New York expressed concern about the trend he perceives as a decline in Catholic education, pointing out that nearly two-thirds of Americans baptized as infants from less affluent backgrounds lack formal Catholic education degrees."
+   },
+   "14": {
+    "original": "Cardinals, after a weekend at the secluded summer palace outside Rome where they receive their party dress and the sword used in a symbolic papal coronation rite, hold a live televised debate at the Vatican later Friday in their largely ceremonial role before the election.",
+    "rewrite": "After a weekend at the secluded summer palace outside Rome where they prepare their ceremonial dress and the sword for a symbolic papal coronation, the Cardinals hold a live televised debate later Friday at the Vatican, fulfilling their mostly ceremonial function before the election."
+   },
+   "13": {
+    "original": "According to the report, Francis will follow up on an earlier decision to invite Protestant church leaders to issue as \"an ecumenical note\" and refer to a study by academics in a letter sent Sunday.",
+    "rewrite": "The report states that Francis will follow up on an earlier decision to invite Protestant church leaders, issuing it as \"an ecumenical note,\" and referring to a study by academics in a letter sent on Sunday."
+   },
+   "15": {
+    "original": "During the two-day conclave to choose a successor, each cardinal takes a turn quietly slipping into a designated voting room.",
+    "rewrite": "At the two-day conclave to select a successor, each cardinal enters a set voting room quietly in turn."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 14,
+    "survivors": 56,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 11,
+    "rewritten": true
+   },
+   {
+    "index": 15,
+    "survivors": 41,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": ". Human life can live only when society holds on to Christian tradition,\" Orban said hours after religious leaders converged in Rome for the annual overnight retreat of Cardinals marking the start of their new five-year terms run by Francis, who has said the Catholic Church&apos;s future depends on the faithful remaining connected to their tradition.\n\"Hearts may harden, but they can always soften. The tide can change...I am full of confidence. It is in your power to reverse negative trends,\" Francis said during his homily for the Mass.\nCardinal Timothy Dolan of New York expressed concern about the trend he perceives as a decline in Catholic education, pointing out that nearly two-thirds of Americans baptized as infants from less affluent backgrounds lack formal Catholic education degrees.\n\"Shocked? Sorry? Not much,\" said Massimo Faggioli, a professor of theology and religious studies at Villanova University in Pennsylvania. \"These in a sense are two themes of Pope Francis: Entropy, decay and the climate change for causes. These are recurring themes of pope, and no one can interpret it otherwise or accuse the pope, at least not in a way that gives the impression to be untruthful because he&apos;s citing a study of French historians one of the authors is working for the Catholic newspaper. These are not unreliable studies. The Pope is very much aware of the differences: There are differences, not nearly the Catholic intellectuals have been so focused for the last 40 years.\"\nThe report states that Francis will follow up on an earlier decision to invite Protestant church leaders, issuing it as \"an ecumenical note,\" and referring to a study by academics in a letter sent on Sunday.\nAfter a weekend at the secluded summer palace outside Rome where they prepare their ceremonial dress and the sword for a symbolic papal coronation, the Cardinals hold a live televised debate later Friday at the Vatican, fulfilling their mostly ceremonial function before the election. At the two-day conclave to select a successor, each cardinal enters a set voting room quietly in turn.\nOn any given morning, prior to their selection V",
+  "z0": 15.026376808798586,
+  "seconds": 204.6
+ }
+}

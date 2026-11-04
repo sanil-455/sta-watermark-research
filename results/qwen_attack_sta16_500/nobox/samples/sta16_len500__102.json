@@ -1,0 +1,134 @@
+{
+ "sample_id": "sta16_len500:102",
+ "nobox": {
+  "z_final": 13.403930842675408,
+  "status": "not broken",
+  "rewrites": {
+   "20": {
+    "original": "Smart readers soon will get the inside Track Mutant moo\u2019d my special evil plan, to compensate Oscar the Drunk Guy (R.I.P.) who sometimes gets wise to whats up prior, to recognize troubling trend\u2019s of fun.",
+    "rewrite": "Smart readers will soon learn about my special evil plan, named Mutant moo Track, to compensate Oscar the Drunk Guy (R.I.P.), as he often catches on to what\u2019s going on, to recognize troubling trends of fun."
+   },
+   "10": {
+    "original": "Never forget that in a world of instant gratification the Internet keeps the next ice cream truck loads in continuous motion with a constant supply of social engagement, instant or not publish wrath.",
+    "rewrite": "Do not forget that in a world of instant gratification, the Internet continuously keeps the next ice cream trucks in motion, supplying a constant stream of social engagement, whether immediate or not, and sometimes sparking outrage."
+   },
+   "1": {
+    "original": "Productivity tools like email, messaging and web-based documents have most of the usage share on consumer laptops and smartphones, because they are considered crucial in everyone\u2019s daily workflow.",
+    "rewrite": "Productivity tools such as email, messaging, and web-based documents hold the predominant usage share on consumer laptops and smartphones, as they are viewed as essential for daily workflows."
+   },
+   "2": {
+    "original": "The new online location is more around entertainment and communication with those people you wish to be around.",
+    "rewrite": "The new online location focuses more on entertainment and communication with people you wish to be around."
+   },
+   "6": {
+    "original": "There are times when I wish I had time to hang out and play games and chat via social networks on the web.",
+    "rewrite": "There are occasions when I wish I had time to hang out, play games, and chat via social networks on the web."
+   },
+   "19": {
+    "original": "Up high enough to avoid Television > Internet Wi-Fi electro magnetic fields in my sand castle!",
+    "rewrite": "High enough to escape Television > Internet Wi-Fi electro magnetic fields from my sand castle!"
+   },
+   "15": {
+    "original": "Gosh, I wonder if my Dad, Uncle Rico & Dick Clark (R.I.P.) are in my Mind properly mapped ?",
+    "rewrite": "Gosh, I wonder if my Dad, Uncle Rico & Dick Clark (R.I.P.) are correctly mapped in my mind?"
+   },
+   "3": {
+    "original": "Hence why email has to be done on your smartphone and mainly, done on your lunch break.",
+    "rewrite": "Hence, email must be done on your smartphone, primarily on your lunch break."
+   },
+   "7": {
+    "original": "But unfortunately, I spit only married sooo I don\u2019t time do those type of things.",
+    "rewrite": "But unfortunately, I only spit married people, so I don't do those types of things."
+   },
+   "12": {
+    "original": "I think your Dad should go pick a few or is he rich or no longer involved ?",
+    "rewrite": "I believe your Dad should pick some or is he not involved or financially capable?"
+   },
+   "8": {
+    "original": "I guess I learn to pick humor kidnap much or I podchunk too many people.",
+    "rewrite": "It appears that I learn to select humor from kidnappers rather than pods chucking people."
+   },
+   "4": {
+    "original": "Internet kills TV, and the Internet kills internet.",
+    "rewrite": "Internet kills TV, and the Internet eradicates itself."
+   },
+   "9": {
+    "original": "Everyday is the Internet\u2019s holiday.",
+    "rewrite": "Every day is the Internet's holiday."
+   }
+  },
+  "sentences_rewritten": 13,
+  "eligible": 13,
+  "per_sentence": [
+   {
+    "index": 20,
+    "survivors": 7,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 13,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 19,
+    "survivors": 8,
+    "rewritten": true
+   },
+   {
+    "index": 15,
+    "survivors": 14,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 4,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 23,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 17,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "consumer survey showed an interesting development for what anyone would consider a mainstream Internet killer tool. Productivity tools such as email, messaging, and web-based documents hold the predominant usage share on consumer laptops and smartphones, as they are viewed as essential for daily workflows. The new online location focuses more on entertainment and communication with people you wish to be around. Hence, email must be done on your smartphone, primarily on your lunch break. Internet kills TV, and the Internet eradicates itself.\nteugelman\nThere are occasions when I wish I had time to hang out, play games, and chat via social networks on the web. But unfortunately, I only spit married people, so I don't do those types of things. It appears that I learn to select humor from kidnappers rather than pods chucking people.\nEvery day is the Internet's holiday.\nDo not forget that in a world of instant gratification, the Internet continuously keeps the next ice cream trucks in motion, supplying a constant stream of social engagement, whether immediate or not, and sometimes sparking outrage.\nWith so many folks asking \u201cWhen will there smart TV finally become a luxury?\u201d I believe your Dad should pick some or is he not involved or financially capable? Lots of older folks still wonder what TV really is, and how it came to be: http://bit.ly/iRjEis I wish Uncle Rico Film Character that\u2019s holding Harry & Anns baby, would JUMP as high as he can, to now get twitter @ the Internet\u2019s house. Impressively &\nGosh, I wonder if my Dad, Uncle Rico & Dick Clark (R.I.P.) are correctly mapped in my mind? Hey! Hey! Uncle Rico! High enough to escape Television > Internet Wi-Fi electro magnetic fields from my sand castle! Smart readers will soon learn about my special evil plan, named Mutant moo Track, to compensate Oscar the Drunk Guy (R.I.P.), as he often catches on to what\u2019s going on, to recognize troubling trends of fun. And the biggest disruption ever commenced, at the power of Dick Clark to intentionally not be soverech\nUnrelated Web Site Daily Read tip: How Italain is Enron code married, involving the",
+  "z0": 18.69352829189824,
+  "seconds": 389.2
+ }
+}

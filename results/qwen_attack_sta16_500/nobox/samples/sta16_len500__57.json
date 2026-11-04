@@ -1,0 +1,80 @@
+{
+ "sample_id": "sta16_len500:57",
+ "nobox": {
+  "z_final": 11.479973165908548,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "In April, right before the UN Report on Myanmar was due out, Henri Tiphagne, executive director of the Serious Organized Crime Research Centre (SOCRCRE) and member of the UN Sanctions Committee Panel of Experts on Myanmar approached the director of the Permanent Mission of Myanmar to the UN, Kyaw Moe Tun, to discuss a possible collaboration between the SOCRCRE and the Permanent Mission.",
+    "rewrite": "In April, just prior to the release of the UN Report on Myanmar, Henri Tiphagne, the executive director of the Serious Organized Crime Research Centre (SOCRCRE) and a member of the UN Sanctions Committee's Panel of Experts on Myanmar, reached out to the director of the Permanent Mission of Myanmar to the UN, Kyaw Moe Tun, to explore a potential collaboration between the SOCRCRE and the Permanent Mission."
+   },
+   "9": {
+    "original": "The Historyscoper (2018) \u2018What really happened? 82,000 deaths after Myanmar chased northern civilians to Bangladesh\u2019, The Historyscoper- Blog Stuff, viewed on February 6.",
+    "rewrite": "The Historyscoper (2018) \"What Really Happened? 82,000 Deaths After Myanmar Chased Northern Civilians to Bangladesh,\" The Historyscoper-Blog Stuff, accessed on February 6."
+   },
+   "6": {
+    "original": "A letter drafted after the meeting explains in details what, how and the place where SOCRCRE and the Permanent Mission can cooperate and collaborate.",
+    "rewrite": "A letter drafted following the meeting details how SOCRCRE and the Permanent Mission can cooperate and collaborate, specifying what, how, and where."
+   },
+   "7": {
+    "original": "This kind of collaboration between the UN, Myanmar and civil society is much needed to ensure accountability, peace and stability for the population.",
+    "rewrite": "This kind of collaboration between the UN, Myanmar, and civil society is greatly needed to ensure accountability, peace, and stability for the population."
+   },
+   "3": {
+    "original": "The Tribunal will be able to ensure accountability, especially in Myanmar, which is still struggling to put the horror of genocide on trial.",
+    "rewrite": "The Tribunal will ensure accountability, particularly in Myanmar, which is still working to put the horror of genocide on trial."
+   },
+   "1": {
+    "original": "The international community at large must respond and this is where the Myanmar Tribunal will have a critical role to play.",
+    "rewrite": "At large, the international community must respond, and this is where the Myanmar Tribunal will play a critical role."
+   },
+   "8": {
+    "original": "Imtiaz Muqbil (2018) \u2018Speakers fail to back Reuters\u2019 jailed reporters\u2019, ASEAN Post, viewed on February 6.",
+    "rewrite": "Imtiaz Muqbil (2018) \u201cSpeakers Fail to Back Reuters' Jailed Reporters,\u201d ASEAN Post, accessed on February 6."
+   }
+  },
+  "sentences_rewritten": 7,
+  "eligible": 7,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 27,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 38,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "evidenced by the recent speech given by the country\u2019s SAC Commander, Min Aung Hlaing. At large, the international community must respond, and this is where the Myanmar Tribunal will play a critical role. As noted by Special Rapporteur on the situation of human rights in Myanmar, Yang Jiechi in the UN\u2019s report, there is increasing concern over the \u201ctendency of the civilian dispensation...to modify, amend or even nullify failures reports of the UN Human Rights Council.\u201d The Tribunal will ensure accountability, particularly in Myanmar, which is still working to put the horror of genocide on trial.\nIn April, just prior to the release of the UN Report on Myanmar, Henri Tiphagne, the executive director of the Serious Organized Crime Research Centre (SOCRCRE) and a member of the UN Sanctions Committee's Panel of Experts on Myanmar, reached out to the director of the Permanent Mission of Myanmar to the UN, Kyaw Moe Tun, to explore a potential collaboration between the SOCRCRE and the Permanent Mission. This meeting became possible since the Permanent Mission knew about a precedent from the Panel\u2019s work during its \u201c703 Mission to Myanmar in February 2018\u201d on \u201cchapter VI or is there a way you could valorise what I propose here\u201d. A letter drafted following the meeting details how SOCRCRE and the Permanent Mission can cooperate and collaborate, specifying what, how, and where. This kind of collaboration between the UN, Myanmar, and civil society is greatly needed to ensure accountability, peace, and stability for the population.\n Imtiaz Muqbil (2018) \u201cSpeakers Fail to Back Reuters' Jailed Reporters,\u201d ASEAN Post, accessed on February 6.\n The Historyscoper (2018) \"What Really Happened? 82,000 Deaths After Myanmar Chased Northern Civilians to Bangladesh,\" The Historyscoper-Blog Stuff, accessed on February 6.\n Irvin, Chris (2018) \u2018Myanmar military's Rohingya campaign \"clearly a genocide\" says UN investig",
+  "z0": 14.489720494198636,
+  "seconds": 352.2
+ }
+}

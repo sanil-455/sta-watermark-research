@@ -1,0 +1,44 @@
+{
+ "sample_id": "sta16_len500:32",
+ "nobox": {
+  "z_final": 16.926545321120212,
+  "status": "not broken",
+  "rewrites": {
+   "11": {
+    "original": "Those with crowns on the travel today were a mark of respect from those Geordies - one of the other \"seven\" clubs it has crowned them - which brought the Sunderland winger to tears before they were pulled from his head.",
+    "rewrite": "Those adorned with crowns on the trip today were a show of respect from those Geordies - one from the other \"seven\" clubs that have crowned them - which moved the Sunderland winger to tears before the crowns were removed from his head."
+   },
+   "2": {
+    "original": "Cattermole may be overjoyed by what has unfolded but he has insists that points on the board can not be squandered in similar fashion again.",
+    "rewrite": "Cattermole might be extremely pleased with how things have progressed, yet he insists that points on the board must not be wasted again in a similar manner."
+   },
+   "10": {
+    "original": "Cattermole's admiration for Sunderland fans is clear.",
+    "rewrite": "Cattermole shows obvious admiration for the Sunderland fans."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 11,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 19,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the country already. He's a quality finisher, keeps going forward and giving a 100 per cent run-a-thon, he's just brilliant.\"\nCattermole might be extremely pleased with how things have progressed, yet he insists that points on the board must not be wasted again in a similar manner.\n\"We're going to have ups and downs but the aim is to be getting to the top end of the table and not away,\" said Cattermole.\n\"We have got to play at games and not just turn up, have three or four players out of position but come away with results.\n\"We have got to be more consistent but there have been signs of improvement. I think the manager has adapted well, he's not just some guy who said he was here.\n\"He's a rapport with the rest of the team. We know what to do but when it comes to the nitty gritty stuff he's explaining to us how he wants us to play. We know what it means to play for Sunderland Football Club and the fans.\"\nCattermole shows obvious admiration for the Sunderland fans.\nThose adorned with crowns on the trip today were a show of respect from those Geordies - one from the other \"seven\" clubs that have crowned them - which moved the Sunderland winger to tears before the crowns were removed from his head.\n\"It feels like Wembley when you play the other teams in your city, especially Newcastle, and the fans were amazing.\n\"To hear every chant they were singing as I'm celebrating my 50th plus is the greatest feeling ever. We can bottle that up this week, bring it back into next week and the whole season.\"\nOn meeting Jonny Williams for the first time: \"It's a shame it had to be at Burton where I tied a neck-thug which is out of the way.\n\"We're both very competitive people so when you meet a new person you want to beat them but the boys were telling me he's a top guy.\n\"He's got good quality, I watched a few things this week and it looked like a real contradiction in styles, he just carries it and doesn't take any marks and",
+  "z0": 18.0674292581983,
+  "seconds": 120.2
+ }
+}

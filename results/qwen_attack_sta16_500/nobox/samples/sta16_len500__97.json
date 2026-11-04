@@ -1,0 +1,98 @@
+{
+ "sample_id": "sta16_len500:97",
+ "nobox": {
+  "z_final": 11.721705250676619,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "Launching the service was Ms Inez Lee, senior director, News and Direct Line, Google Singapore, who said the partnership -intended to provide training to up to 50,000 Singaporeans in a year - marked a new frontier for the search engine in training young people.",
+    "rewrite": "Ms Inez Lee, senior director of News and Direct Line at Google Singapore, launched the service, stating that the partnership aimed to train up to 50,000 Singaporeans yearly and represented a new frontier for the search engine in training youth."
+   },
+   "1": {
+    "original": "On Wednesday, Google partnered The Hive, Singapore's largest homegrown co-working space, to set up a Google Digital News Garage to show students how to be more tech savvy about media.",
+    "rewrite": "On Wednesday, Google partnered with The Hive, Singapore's largest homegrown co-working space, to establish a Google Digital News Garage to educate students on being more tech-savvy about media."
+   },
+   "7": {
+    "original": "To which we gave no answer, and he grasped his straw bag and strutted down Orchard Road to Ion Orchard to hang out at a Disney store: His TV, he said, made of \"real jade\".",
+    "rewrite": "To which we gave no response, and he picked up his straw bag and strode down Orchard Road to Ion Orchard to hang out at a Disney store: His television, he said, was made of \"real jade\"."
+   },
+   "5": {
+    "original": "He is the greatest fan of Donald Trump - the American President whose causes and statements have been the butt of much satire in Singapore - because he loves his name.",
+    "rewrite": "He is the biggest fan of Donald Trump - the American President who has often been the target of satire in Singapore - as he adores his name."
+   },
+   "11": {
+    "original": "He noted that he was a member of Jurong-Clementi Town Council which is chaired by PAP National Volunteer Leader Elaine Ng.",
+    "rewrite": "He mentioned that he is a member of the Jurong-Clementi Town Council, chaired by PAP National Volunteer Leader Elaine Ng."
+   },
+   "10": {
+    "original": "He is the area's grassroots adviser for block 52 and the only one on the Toa Payoh Town Council's board of directors.",
+    "rewrite": "He serves as the grassroots adviser for block 52 and is the lone member from the Toa Payoh Town Council's board of directors."
+   },
+   "3": {
+    "original": "Mr Chen Chang Xi three, meanwhile, has no need to be retrained in separating fake news from the real deal.",
+    "rewrite": "Meanwhile, Mr Chen Chang Xi III does not need to be retrained in distinguishing fake news from genuine information."
+   },
+   "13": {
+    "original": "He declined to comment on whether he went canvassing recently to the Dr Tan Chor Lin neighbourhood centre.",
+    "rewrite": "He refused to comment on whether he had recently gone canvassing in the Dr Tan Chor Lin neighbourhood centre."
+   },
+   "12": {
+    "original": "During electioneering for general elections, he attended some of the team's events.",
+    "rewrite": "During the campaign for general elections, he attended some of the team's events."
+   }
+  },
+  "sentences_rewritten": 9,
+  "eligible": 9,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 60,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 58,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 39,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "differentiate between valid and invalid information, to be better equipped to be discerning when consuming online news.\nOn Wednesday, Google partnered with The Hive, Singapore's largest homegrown co-working space, to establish a Google Digital News Garage to educate students on being more tech-savvy about media.\nMs Inez Lee, senior director of News and Direct Line at Google Singapore, launched the service, stating that the partnership aimed to train up to 50,000 Singaporeans yearly and represented a new frontier for the search engine in training youth.\nMeanwhile, Mr Chen Chang Xi III does not need to be retrained in distinguishing fake news from genuine information.\nOn Wednesday, aged three, it took him all of 15 seconds to bluntly tell this newspaper: \"It's so easy to read fake news now in a few seconds.\"\nHe is the biggest fan of Donald Trump - the American President who has often been the target of satire in Singapore - as he adores his name.\n\"Do you find it funny, being called Donald Trump?\" To which we gave no response, and he picked up his straw bag and strode down Orchard Road to Ion Orchard to hang out at a Disney store: His television, he said, was made of \"real jade\".\nAndover was here\nAsked about his role as \"policy secretary to the People's Association\", President Halimah Yacob's husband Ho Meng Kiat said he was still a PAP divisional councillor in Toa Payoh. He serves as the grassroots adviser for block 52 and is the lone member from the Toa Payoh Town Council's board of directors.\nHe mentioned that he is a member of the Jurong-Clementi Town Council, chaired by PAP National Volunteer Leader Elaine Ng. During the campaign for general elections, he attended some of the team's events.\nHe refused to comment on whether he had recently gone canvassing in the Dr Tan Chor Lin neighbourhood centre. It is operated by the Halimah's Youth Vote team - which is part of the Women's Political Al",
+  "z0": 15.741918561598519,
+  "seconds": 379.5
+ }
+}

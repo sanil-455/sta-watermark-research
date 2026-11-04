@@ -1,0 +1,166 @@
+{
+ "sample_id": "sta16_len500:120",
+ "nobox": {
+  "z_final": 10.31364129464293,
+  "status": "not broken",
+  "rewrites": {
+   "9": {
+    "original": "Both players became members of the church during their time at Northeastern, and both players gave credit to the church, their teammates and their coaches, at the conclusion of the successful season in 2017.",
+    "rewrite": "Both players joined the church while at Northeastern, and they credited the church, their teammates, and their coaches for the team's success at the end of the 2017 season."
+   },
+   "14": {
+    "original": "Both students had help in that season when it came to their success as they were both outstanding teammates in large part because of the mental capacity they used when they were playing the game.",
+    "rewrite": "In that season, both students succeeded with assistance, largely due to their outstanding teamwork and the mental capacity they demonstrated while playing the game."
+   },
+   "17": {
+    "original": "In addition to the podcast on local classic rock station B105.3, below are three Northeastern players taken by their respective colleges committing to play college football.",
+    "rewrite": "In addition to the podcast on local classic rock station B105.3, below are three Northeastern players committed to play college football by their respective colleges."
+   },
+   "8": {
+    "original": "On Thursday night during a podcast on the local classic rock radio station B105.3, Monila and Chimani said that playing college football for Louisburg was a God's will.",
+    "rewrite": "On Thursday night during a podcast on the local classic rock radio station B105.3, Monila and Chimani stated that playing college football for Louisburg was God's will."
+   },
+   "13": {
+    "original": "Monila and Chimani were key parts of the championship celebration and how Greenville players went to school the day after Northeastern\u2019s victory.",
+    "rewrite": "Monila and Chimani were crucial components of the championship celebration and how the Greenville players attended school the day after Northeastern\u2019s victory."
+   },
+   "12": {
+    "original": "Again, both of the student-athletes spoke highly of the Christian based football team's win over the league rival D.H. Conley.",
+    "rewrite": "Again, both student-athletes spoke highly of the Christian-based football team's victory over the league rival D.H. Conley."
+   },
+   "6": {
+    "original": "Northeastern punt returner Mack Chimani and defensive back Josh Monila were integral to NHS football program.",
+    "rewrite": "Mack Chimani, the Northeastern punt returner, and Josh Monila, a defensive back, were crucial to the NHS football program."
+   },
+   "7": {
+    "original": "Earlier this week, both players committed to play college football for Louisburg College this season.",
+    "rewrite": "Recently, both players committed to play college football at Louisburg College this season."
+   },
+   "5": {
+    "original": "With 57 or so fans in attendance, Hodge and his teammates had some team support on the sidelines.",
+    "rewrite": "With about 57 fans in attendance, Hodge and his teammates had some team support on the sidelines."
+   },
+   "16": {
+    "original": "There is more headed your way this week, and throughout the season in producing these stories.",
+    "rewrite": "A lot more is coming your way this week and throughout the season in producing these stories."
+   },
+   "10": {
+    "original": "Both players spoke on the podcast one day after having committed to play college football.",
+    "rewrite": "After both players had committed to playing college football, they spoke on the podcast the following day."
+   },
+   "3": {
+    "original": "His interception at North Topsail was key defensive play in that victory two years.",
+    "rewrite": "His interception at North Topsail was a crucial defensive play in that two-year victory."
+   },
+   "1": {
+    "original": "On defense, Hodge was a major bright spot for the Eagles.",
+    "rewrite": "In defense, Hodge stood out as a significant highlight for the Eagles."
+   },
+   "4": {
+    "original": "And then of course Hodge\u2019s play at the end of the game.",
+    "rewrite": "Then of course Hodge\u2019s play at the end of the game."
+   },
+   "2": {
+    "original": "The defensive back recorded 13 tackles (five solo).",
+    "rewrite": "The defensive back logged 13 tackles (five solo)."
+   },
+   "11": {
+    "original": "What about playing in Greenville on Friday?",
+    "rewrite": "How about playing in Greenville on Friday?"
+   }
+  },
+  "sentences_rewritten": 16,
+  "eligible": 17,
+  "per_sentence": [
+   {
+    "index": 9,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 14,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 17,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 15,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 6,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 16,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 20,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 12,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 1,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "observed that to have success defensively his team had to force their opponent to be patient and throw the ball.\nIn defense, Hodge stood out as a significant highlight for the Eagles. The defensive back logged 13 tackles (five solo). His interception at North Topsail was a crucial defensive play in that two-year victory.\nThen of course Hodge\u2019s play at the end of the game.\nWith about 57 fans in attendance, Hodge and his teammates had some team support on the sidelines.\nMack Chimani, the Northeastern punt returner, and Josh Monila, a defensive back, were crucial to the NHS football program.\nRecently, both players committed to play college football at Louisburg College this season.\nOn Thursday night during a podcast on the local classic rock radio station B105.3, Monila and Chimani stated that playing college football for Louisburg was God's will.\nBoth players joined the church while at Northeastern, and they credited the church, their teammates, and their coaches for the team's success at the end of the 2017 season.\nAfter both players had committed to playing college football, they spoke on the podcast the following day.\nHow about playing in Greenville on Friday?\nAgain, both student-athletes spoke highly of the Christian-based football team's victory over the league rival D.H. Conley.\nMonila and Chimani were crucial components of the championship celebration and how the Greenville players attended school the day after Northeastern\u2019s victory.\nIn that season, both students succeeded with assistance, largely due to their outstanding teamwork and the mental capacity they demonstrated while playing the game.\nAnd that made their team and opposing players better, and sometimes the game was controlled by the mind, not by the force.\nA lot more is coming your way this week and throughout the season in producing these stories.\nIn addition to the podcast on local classic rock station B105.3, below are three Northeastern players committed to play college football by their respective colleges.\nFrom colleges beyond the sport of football, I'",
+  "z0": 14.847491370598602,
+  "seconds": 528.0
+ }
+}

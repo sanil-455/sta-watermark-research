@@ -1,0 +1,166 @@
+{
+ "sample_id": "sta16_len500:37",
+ "nobox": {
+  "z_final": 11.338016020779358,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "According to Farkas, he and his team began by incubating their business, The Art of Quitting, after becoming fed up with their current nine to five job in August three years prior.",
+    "rewrite": "According to Farkas, he and his team started incubating their business, The Art of Quitting, after becoming fed up with their previous nine to five job in August three years earlier."
+   },
+   "9": {
+    "original": "Next to possible market saturation with The Art of Quitting, there are several reasons why Farkas would not recommend or encourage using your name to start any business.",
+    "rewrite": "Next to potential market saturation with The Art of Quitting, Farkas would not recommend or encourage using your name to start any business for several reasons."
+   },
+   "7": {
+    "original": "To establish the business, they printed some flyers and distributed them around the neighborhood where they were based to promote their newly formed business.",
+    "rewrite": "To establish the business, they printed some flyers and distributed them in the neighborhood where they were located to advertise their newly formed company."
+   },
+   "16": {
+    "original": "As opposed to dealing with the headache of dealing with potential cease and desist letters down the line, they opted to find another alternate name.",
+    "rewrite": "Instead of facing the issue of possibly receiving cease and desist letters later, they chose to find an alternative name."
+   },
+   "18": {
+    "original": "This paid off after a discussion with a fellow entrepreneur advised, try finding names by looking inside the current company\u2019s acronyms.",
+    "rewrite": "This paid off after a discussion with a fellow entrepreneur suggested trying to find names by looking within the current company\u2019s acronyms."
+   },
+   "15": {
+    "original": "They again pivoted as they were faced with a cease and desist letter from a website titled Dead Wild Flowers whom had a tile already.",
+    "rewrite": "They pivoted once more in response to a cease and desist letter from a website called Dead Wild Flowers, which already used a similar tile."
+   },
+   "3": {
+    "original": "It can aid those with physical limitations or other handicaps, and it can help to expand career possibilities.",
+    "rewrite": "It can assist individuals with physical limitations or other disabilities, and it can contribute to widening career opportunities."
+   },
+   "17": {
+    "original": "In the meantime, they also experimented with other names by using software like Verified Domains and Domainr.",
+    "rewrite": "In the meantime, they also used software like Verified Domains and Domainr to experiment with other names."
+   },
+   "14": {
+    "original": "Farkas said the business concept was originally named Art of Quitting, but they faced trademark conflicts.",
+    "rewrite": "Farkas stated that the original business concept was named Art of Quitting, but they encountered issues with trademarks."
+   },
+   "13": {
+    "original": "In reality, The Art of Quitting, not nearly the greatest title, has gone through a number of iterations.",
+    "rewrite": "In reality, The Art of Quitting, not one of the greatest titles, has undergone several iterations."
+   },
+   "12": {
+    "original": "Employing Farkas\u2019 experience, name conflicts can occur years before a business is even settled upon.",
+    "rewrite": "Using Farkas\u2019 experience, name conflicts can arise years before a business is ultimately determined."
+   },
+   "8": {
+    "original": "From the get-go, they encountered their first challenge with their business: approving their name.",
+    "rewrite": "At the beginning, they faced their first challenge with their business: getting their name approved."
+   },
+   "6": {
+    "original": "They had a simple idea for a business aimed at helping others; learn how to quit your job.",
+    "rewrite": "They had a straightforward idea for a business intended to assist others in learning how to quit their jobs."
+   },
+   "10": {
+    "original": "Building a recognizable name or successful business is no easy task.",
+    "rewrite": "Establishing a recognizable name or successful business is not an easy task."
+   },
+   "2": {
+    "original": "It can help to replace employees in repeatable, predictable tasks.",
+    "rewrite": "It can be beneficial to replace employees in tasks that are repetitive and predictable."
+   },
+   "1": {
+    "original": "But, he added, AI can help to shore up our workforce.",
+    "rewrite": "But, he added, AI can help bolster our workforce."
+   }
+  },
+  "sentences_rewritten": 16,
+  "eligible": 17,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 16,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 18,
+    "survivors": 36,
+    "rewritten": true
+   },
+   {
+    "index": 15,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 17,
+    "survivors": 38,
+    "rewritten": true
+   },
+   {
+    "index": 14,
+    "survivors": 38,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 10,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 30,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "workforce shortage. But, he added, AI can help bolster our workforce. It can be beneficial to replace employees in tasks that are repetitive and predictable. It can assist individuals with physical limitations or other disabilities, and it can contribute to widening career opportunities.\nIn January 2018, debut author Josh Farkas visited Medium.com to discuss his book Quitting, which he writes serves as a cautionary tale for those considering a career quit vehicle to found an online company.\nAccording to Farkas, he and his team started incubating their business, The Art of Quitting, after becoming fed up with their previous nine to five job in August three years earlier.\nThey had a straightforward idea for a business intended to assist others in learning how to quit their jobs. To establish the business, they printed some flyers and distributed them in the neighborhood where they were located to advertise their newly formed company.\nAt the beginning, they faced their first challenge with their business: getting their name approved.\nNext to potential market saturation with The Art of Quitting, Farkas would not recommend or encourage using your name to start any business for several reasons.\nEstablishing a recognizable name or successful business is not an easy task. Not to mention that coming up with a unique name to go forward is even more challenging.\nUsing Farkas\u2019 experience, name conflicts can arise years before a business is ultimately determined.\nIn reality, The Art of Quitting, not one of the greatest titles, has undergone several iterations. Farkas stated that the original business concept was named Art of Quitting, but they encountered issues with trademarks.\nThey pivoted once more in response to a cease and desist letter from a website called Dead Wild Flowers, which already used a similar tile. Instead of facing the issue of possibly receiving cease and desist letters later, they chose to find an alternative name.\nIn the meantime, they also used software like Verified Domains and Domainr to experiment with other names. This paid off after a discussion with a fellow entrepreneur suggested trying to find names by looking within the current company\u2019s acronyms.\nLosing the \u201cquitting,\u201d Farkas said he immediately identified with their current company name",
+  "z0": 17.44133022449836,
+  "seconds": 517.4
+ }
+}

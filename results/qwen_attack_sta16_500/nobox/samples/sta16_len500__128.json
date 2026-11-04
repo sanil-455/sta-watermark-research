@@ -1,0 +1,71 @@
+{
+ "sample_id": "sta16_len500:128",
+ "nobox": {
+  "z_final": 13.116481394350265,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Based on the videos circulating in different local news websites - such as Yamaniya TV - the neighborhoods apparently hit are located on the outskirts of the city - not close to its centre.",
+    "rewrite": "According to the videos shared across various local news websites, including Yamaniya TV, the affected neighborhoods are clearly located at the city's outskirts and not near its center."
+   },
+   "5": {
+    "original": "For the Security Council's peacekeeping body UNSCO three civilians in one family were killed on Sunday in Libya's western town of Zuwarah after a shell hit hospital they were in it.",
+    "rewrite": "For the Security Council's peacekeeping body UNSCO, three civilians from one family were killed on Sunday in Libya's western town of Zuwarah when a shell hit the hospital they were in."
+   },
+   "4": {
+    "original": "On Monday, claims circulating in Libyan media suggested that NATO jets launched up to 50 raids against targets near airports in Libyan part of the country.",
+    "rewrite": "On Monday, reports in Libyan media indicated that NATO jets conducted approximately 50 raids on targets near airports in the Libyan area of the country."
+   },
+   "2": {
+    "original": "There is no clarity yet about what kind of targets might have been the object of these bombings.",
+    "rewrite": "As yet, there is no clarity about what kind of targets might have been the object of these bombings."
+   },
+   "1": {
+    "original": "Eyewitnesses also say that over a dozen airstrikes hit locations around Tripoli overnight.",
+    "rewrite": "Eyewitnesses also report that more than a dozen airstrikes hit areas near Tripoli overnight."
+   },
+   "6": {
+    "original": "UNSCO has strongly regretted the incident.",
+    "rewrite": "UNSCO has expressed strong regret over the incident."
+   }
+  },
+  "sentences_rewritten": 6,
+  "eligible": 6,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 14,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 2,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "ten hours on the Qumashan neighbourhood of the city, close to the centre of Tripoli.\nEyewitnesses also report that more than a dozen airstrikes hit areas near Tripoli overnight.\nAs yet, there is no clarity about what kind of targets might have been the object of these bombings.\nAccording to the videos shared across various local news websites, including Yamaniya TV, the affected neighborhoods are clearly located at the city's outskirts and not near its center.\nOn Monday, reports in Libyan media indicated that NATO jets conducted approximately 50 raids on targets near airports in the Libyan area of the country.\nFor the Security Council's peacekeeping body UNSCO, three civilians from one family were killed on Sunday in Libya's western town of Zuwarah when a shell hit the hospital they were in.\nUNSCO has expressed strong regret over the incident.\nUNSCO Co-Ordinator Ingram has warned in a press release that \"the international community cannot stand idly by while Libyans kill, torture, rape and abduct civilians in a brutal crackdown on all pro-democracy demonstrations.\"\nIn another statement, Patrick, echoed the urgent calls for a humanitarian pause in fighting, both to ensure compliance with the UN Security Council resolution 1970, and enable humanitarian aid to reach people in Libya: \"I call upon the international community to provide the resources needed to enable humanitarian actors to provide assistance especially in areas around Benghazi, Misrata, Zlitan, and the southern half of the country.\"\nAccording to a press statement from the Special Representative of the Secretary General and the Head of the UN Mission, Ian Martin, Tripoli had \"an unprecedented number of fuel tankers\" in its streets of its capital over the weekend, apparently due to the fuel being needed to fuel Libyan army planes at the Safe military airbase north of the city, its primary target destination.\n\"Some fuel tankers have been hit and are burning in the streets of Tripoli,\" Martin is reported to have said, \" apresenting a real danger that these attacks could spark a wider conflagration with an unimagin",
+  "z0": 16.27857487619847,
+  "seconds": 211.7
+ }
+}

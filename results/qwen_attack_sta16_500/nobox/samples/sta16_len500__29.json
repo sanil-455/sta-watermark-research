@@ -1,0 +1,26 @@
+{
+ "sample_id": "sta16_len500:29",
+ "nobox": {
+  "z_final": 15.654789510167355,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "McCoy said families travel all over north-central Ohio, and as far south as Southwest Louisiana, to participate in ASPO's sports programs.",
+    "rewrite": "McCoy noted that families travel from across north-central Ohio and as far south as Southwest Louisiana to join in ASPO's sports programs."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 29,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "athletes) have gotten to the highest levels of high school competitive sports. It's amazing \u2026 so awesome to see that,\" Tomassetti said.\n\"For someone with a disability \u2026 at 12, we have these young people in wheelchairs \u2026 involved in basketball and volleyball and sled hockey. We are debuting our wrestling program.\"\nMcCoy noted that families travel from across north-central Ohio and as far south as Southwest Louisiana to join in ASPO's sports programs.\nTomassetti echoed the idea.\n\"Our reach has reached way farther than I think most people realize,\" he said.\nMcCoy said the KIDCHAMP honor validates ASPO's mission, which rightfully \"puts us in a different league \u2026 now we are operating at a different level\" for the beneficiaries, \"all those individuals \u2026 families and schools that exist in other parts of the state and are not blessed to have Adaptive Sport in their lives.\"\nMcCoy said the recognition helps in a number of ways, \"in the way that parents will be more apt to, I think, share (Followay's award) with family and friends\" and all the beneficiaries, to remind them what \"all they are doing.\"\n\"We have just so many kids and families and schools to be able to promote because they are doing such a great job \u2026 you obviously just put (Adaptive Sports) on the map,\" she said.\n\"We are so excited for what, I think, is the start of so much increase in people knowing what Adaptive Sports is \u2014 big things ahead,\" follow by naming five of \"the many success stories,\" she said, referring to \"Eric Kuhhlen\", also an adaptive hall of famer; Ryan Jesse, to be on the Tribe Warriors next season and Miles Bowman, featured in a video before the ceremony at the KIDCHAMP presentation.\nAmong some of the more vulnerable kids she said is in a wheelchair, but \"he's got full function\" and \"he's such a positive guy and he has done so proud and shows other younger kids how it can be done.\n\"It touches my heart when I talk to some of these families, how Ada",
+  "z0": 16.16057946539401,
+  "seconds": 38.1
+ }
+}

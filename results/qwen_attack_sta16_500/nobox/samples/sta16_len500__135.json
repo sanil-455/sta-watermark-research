@@ -1,0 +1,98 @@
+{
+ "sample_id": "sta16_len500:135",
+ "nobox": {
+  "z_final": 11.454545454545455,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "There is, however, such a need to be able to perform \"preverbs\" at the requirements level - particularly \"distill requirements into preconditions\", \"optimize constraints on preconditions\" and so on right through to three levels of refinement; from adding tables ('Observe') to establishing elements ('Preorder') it seems to be fairly unassailable.",
+    "rewrite": "Nevertheless, there is indeed a necessity to perform \"preverbs\" at the requirements level\u2014particularly \"distill requirements into preconditions,\" \"optimize constraints on preconditions,\" and so forth, all the way through to three levels of refinement; from adding tables ('Observe') to establishing elements ('Preorder'), it appears quite sound."
+   },
+   "11": {
+    "original": "An element called \"graphical user interface\" in a UML \"Deployment and Testing\" diagram will be a window (if we want to model the abstract view using windows rather than screen shots) and a window is the object that \"administrators\" (high-level actors, you might call them) get work with in Scrum and properly modeling-friendly development methods.",
+    "rewrite": "In a UML \"Deployment and Testing\" diagram, an element named \"graphical user interface\" will represent a window (if we wish to model the abstract view through windows instead of screen shots), and a window is an object that \"administrators\" (referred to as high-level actors) interact with during Scrum and other development methodologies that are modeling-friendly."
+   },
+   "8": {
+    "original": "There are plenty of refactorings at the analysis level that just aren't worth extending to the programming level, because taking Requirements Driven Development to the next level would skew or even reverse it altogether.",
+    "rewrite": "There are many refactorings at the analysis level that aren't worth advancing to the programming level, as pushing Requirements Driven Development further could distort or negate its intent entirely."
+   },
+   "1": {
+    "original": "It also tends to be process-oriented at the higher level - the refactor menu in Visual Studio includes features for renaming code sections, extracting code into classes, and optimizing conditionals and loops.",
+    "rewrite": "At the higher level, it also tends to focus on processes - the refactor menu in Visual Studio offers features for renaming code sections, extracting code into classes, and optimizing conditionals and loops."
+   },
+   "6": {
+    "original": "These requirements don't even need to specify atomic preconditions that need to be checked honestly, but should instead flow in a context diagram's \"effect chain\".",
+    "rewrite": "These requirements shouldn't specify atomic preconditions that need to be checked honestly, but should instead flow within a context diagram's \"effect chain.\""
+   },
+   "7": {
+    "original": "But this is beside the point, which is that these preconditions are intrinsic to UML, and so refining this sort of preconditions into code is straightforward.",
+    "rewrite": "However, this misses the main point, which is that these preconditions are integral to UML, and thus refining them into code is quite straightforward."
+   },
+   "3": {
+    "original": "Extracting a simple method into a new class seems straightforward enough at the programming level, but would we even want to?",
+    "rewrite": "Splitting a straightforward method into a new class appears simple enough in programming, but should we even do it?"
+   },
+   "4": {
+    "original": "There doesn't seem to be much need to be able to perform such a refactoring operation in a UML class diagram.",
+    "rewrite": "It doesn't appear necessary to be able to perform such a refactoring operation in a UML class diagram."
+   },
+   "2": {
+    "original": "So let's take these levels and consider what each would need to look like for UML.",
+    "rewrite": "Let's consider what each of these levels would need to look like for UML."
+   }
+  },
+  "sentences_rewritten": 9,
+  "eligible": 9,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 1,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 15,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 20,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 8,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 25,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "its intent (or \"operational\" level semantics). At the higher level, it also tends to focus on processes - the refactor menu in Visual Studio offers features for renaming code sections, extracting code into classes, and optimizing conditionals and loops.\nLet's consider what each of these levels would need to look like for UML.\nSplitting a straightforward method into a new class appears simple enough in programming, but should we even do it? It doesn't appear necessary to be able to perform such a refactoring operation in a UML class diagram.\nNevertheless, there is indeed a necessity to perform \"preverbs\" at the requirements level\u2014particularly \"distill requirements into preconditions,\" \"optimize constraints on preconditions,\" and so forth, all the way through to three levels of refinement; from adding tables ('Observe') to establishing elements ('Preorder'), it appears quite sound.\nThese requirements shouldn't specify atomic preconditions that need to be checked honestly, but should instead flow within a context diagram's \"effect chain.\" However, this misses the main point, which is that these preconditions are integral to UML, and thus refining them into code is quite straightforward.\nThere are many refactorings at the analysis level that aren't worth advancing to the programming level, as pushing Requirements Driven Development further could distort or negate its intent entirely. Modifying a traceability matrix, for instance, would basically mean: \"I'm satisfied with the user, but now I need to set up a portal\" and vice versa.\n\"Extract UI elements into classes\" is very much one-for-one. In a UML \"Deployment and Testing\" diagram, an element named \"graphical user interface\" will represent a window (if we wish to model the abstract view through windows instead of screen shots), and a window is an object that \"administrators\" (referred to as high-level actors) interact with during Scrum and other development methodologies that are modeling-friendly.\nIf our test cases are themselves logical sequences of actions, we just need to find where we're at the sand-dune end of the slide, compact that down to a rectangle,",
+  "z0": 17.799101100898326,
+  "seconds": 422.5
+ }
+}

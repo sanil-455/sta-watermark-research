@@ -1,0 +1,125 @@
+{
+ "sample_id": "sta16_len500:55",
+ "nobox": {
+  "z_final": 11.415367766414054,
+  "status": "not broken",
+  "rewrites": {
+   "13": {
+    "original": "The male caller was issued a summons for charges for the police to go, and said he understood and agreed to go and face charges, he was made aware that he\u2019d have to remain off the scene for another hour, and he then insisted police go sooner to issue the summons, which police did.",
+    "rewrite": "The male caller was given a summons for charges by the police, acknowledged and agreed to appear later, learned he needed to stay off the scene an additional hour, but then insisted the police go sooner to issue the summons, which they did."
+   },
+   "12": {
+    "original": "The man admitted he was at the woman\u2019s apartment for three days and told her he wouldn\u2019t return because he cannot stand being mistreated, but he also appeared remorseful and admitted he could wrere aggressive and/or violent in nature.",
+    "rewrite": "The man admitted he was at the woman\u2019s apartment for three days and told her he wouldn\u2019t return because he cannot endure being mistreated, but he also seemed remorseful and acknowledged he could be aggressive and/or violent in nature."
+   },
+   "15": {
+    "original": "A properly licensed disabled resident driver has damaged county equipment by taking a wheelchair with tied-down ramps on it through a traffic barrier at the county home. 8:47 am.",
+    "rewrite": "A disabled resident driver, appropriately licensed, has damaged county equipment by driving a wheelchair with tied-down ramps through a traffic barrier at the county home. 8:47 am."
+   },
+   "3": {
+    "original": "Officers reported at 6:23 p.m. a woman became ill after receiving overdose medication offered by a male subject on Ohio Street.",
+    "rewrite": "Officers reported at 6:23 p.m. that a woman became ill after taking overdose medication offered by a male subject on Ohio Street."
+   },
+   "7": {
+    "original": "Officers searched the area for the suspect without success, receiving no information about where he could be hiding.",
+    "rewrite": "Officers combed the area for the suspect but had no success, obtaining no clues regarding his hiding spot."
+   },
+   "10": {
+    "original": "A male requested police go to an East Mary Streethouse where he said he feared abuse.",
+    "rewrite": "A man requested the police to go to an East Mary Street house where he claimed he feared abuse."
+   },
+   "1": {
+    "original": "The owner relocated the vehicle to higher ground and moved it from the area.",
+    "rewrite": "The owner moved the vehicle to higher ground and relocated it from the area."
+   },
+   "2": {
+    "original": "It was CGFD/CGPD/CGFD who reported the vehicle in this area. 2:03 p.m.",
+    "rewrite": "It was CGFD/CGPD/CGFD who reported the vehicle in this area at 2:03 p.m."
+   },
+   "11": {
+    "original": "The man was agitated and drunk when he made the inquiries.",
+    "rewrite": "When the man was agitated and drunk, he made the inquiries."
+   },
+   "8": {
+    "original": "A domestic violence report was made on Sandusky Avenue.",
+    "rewrite": "An incident of domestic violence was reported on Sandusky Avenue."
+   },
+   "5": {
+    "original": "The woman became ill and the police were informed.",
+    "rewrite": "When the woman fell sick, she informed the police."
+   },
+   "6": {
+    "original": "The male subject later ran from the area.",
+    "rewrite": "The male subject then fled from the area."
+   }
+  },
+  "sentences_rewritten": 12,
+  "eligible": 12,
+  "per_sentence": [
+   {
+    "index": 13,
+    "survivors": 57,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 15,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 6,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 12,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 8,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the Broadway extension. The owner moved the vehicle to higher ground and relocated it from the area. It was CGFD/CGPD/CGFD who reported the vehicle in this area at 2:03 p.m.\nOfficers reported at 6:23 p.m. that a woman became ill after taking overdose medication offered by a male subject on Ohio Street. Police spoke with a man on Ohio Street who reportedly offered a woman medication and told her to \u201cshoot it in your hand, I know it\u2019s clean.\u201d When the woman fell sick, she informed the police. The male subject then fled from the area. Officers combed the area for the suspect but had no success, obtaining no clues regarding his hiding spot.\nAn incident of domestic violence was reported on Sandusky Avenue. The male called three hours later to \u201clet us know he\u2019s okay,\u201d and advised he has no plans on returning to the woman who reported the abuse. 7:28 p.m.\nA man requested the police to go to an East Mary Street house where he claimed he feared abuse. When the man was agitated and drunk, he made the inquiries. The man admitted he was at the woman\u2019s apartment for three days and told her he wouldn\u2019t return because he cannot endure being mistreated, but he also seemed remorseful and acknowledged he could be aggressive and/or violent in nature. The male caller was given a summons for charges by the police, acknowledged and agreed to appear later, learned he needed to stay off the scene an additional hour, but then insisted the police go sooner to issue the summons, which they did. The male caller later returned and said he\u2019d changed his mind and no longer wanted police to go there because \u201cI\u2019m already in enough trouble\u201d from a known suspended violator at the scene, and he\u2019d already been issued the summons to be at the alleged victim\u2019s home. 7:05 pm.\nA disabled resident driver, appropriately licensed, has damaged county equipment by driving a wheelchair with tied-down ramps through a traffic barrier at the county home. 8:47 am.\nA Hillcrest Drive resident reported she is being extorted. 8",
+  "z0": 15.949583742433099,
+  "seconds": 402.4
+ }
+}

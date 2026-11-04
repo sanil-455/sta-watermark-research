@@ -1,0 +1,776 @@
+{
+ "sample_id": "sta16_len500:109",
+ "source": "results/raw/sta16_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.379295154185022,
+ "needed_share": 0.8736684758474695,
+ "delta_needed": 0.4614036165174327,
+ "segmentation": {
+  "chars": 2270,
+  "segments": 13,
+  "eligible": 5,
+  "skipped": 8,
+  "skip_reasons": {
+   "quotation": 6,
+   "no final punctuation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 861,
+  "eligible_char_share": 0.379295154185022
+ },
+ "attack": {
+  "z0": 15.831361280698511,
+  "z_final": 10.340980211928025,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 5,
+  "queries": 1087,
+  "seconds": 949.9,
+  "seconds_by_phase": {
+   "generate": 858.2,
+   "gates": 91.1,
+   "detector": 0.7
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 223,
+    "z_before": 15.831361280698511,
+    "z_after": 14.638530429872139,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 56,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.19
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 218,
+    "z_before": 14.638530429872139,
+    "z_after": 13.000921201815215,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 56,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 1,
+      "negation count changed": 1,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 106,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.52
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 191,
+    "z_before": 13.000921201815215,
+    "z_after": 12.066299078037302,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "duplicate": 8,
+      "CJK text": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 155,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.57
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 166,
+    "z_before": 12.066299078037302,
+    "z_after": 11.146770877792546,
+    "accepted": true,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "duplicate": 5,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 209,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.05
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 63,
+    "z_before": 11.146770877792546,
+    "z_after": 10.622459855723353,
+    "accepted": true,
+    "survivors": 10,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 10,
+     "after_spelling": 10,
+     "after_content": 10,
+     "after_semantic": 10,
+     "fluency_skipped": false,
+     "after_fluency": 10,
+     "rejected": {
+      "duplicate": 50
+     }
+    },
+    "queries_total": 219,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.06
+   },
+   {
+    "pass": 2,
+    "segment": 7,
+    "chars": 223,
+    "z_before": 10.622459855723353,
+    "z_after": 10.742251141914323,
+    "accepted": false,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "duplicate": 1,
+      "CJK text": 1,
+      "unknown word": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 274,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.69
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 218,
+    "z_before": 10.622459855723353,
+    "z_after": 10.711724224258843,
+    "accepted": false,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 1,
+      "unknown word": 1,
+      "meaning too different": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 328,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.47
+   },
+   {
+    "pass": 2,
+    "segment": 8,
+    "chars": 191,
+    "z_before": 10.622459855723353,
+    "z_after": 10.745658885831807,
+    "accepted": false,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "duplicate": 8,
+      "CJK text": 1,
+      "unknown word": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 375,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.87
+   },
+   {
+    "pass": 2,
+    "segment": 11,
+    "chars": 166,
+    "z_before": 10.622459855723353,
+    "z_after": 10.67773253344961,
+    "accepted": false,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 432,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.13
+   },
+   {
+    "pass": 2,
+    "segment": 10,
+    "chars": 63,
+    "z_before": 10.622459855723353,
+    "z_after": 10.533195487187863,
+    "accepted": true,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 11,
+     "after_spelling": 11,
+     "after_content": 11,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "duplicate": 48,
+      "CJK text": 1
+     }
+    },
+    "queries_total": 437,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.94
+   },
+   {
+    "pass": 3,
+    "segment": 7,
+    "chars": 223,
+    "z_before": 10.533195487187863,
+    "z_after": 10.686515470593108,
+    "accepted": false,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 2,
+      "unknown word": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 491,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.44
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 218,
+    "z_before": 10.533195487187863,
+    "z_after": 10.78864169296387,
+    "accepted": false,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 2,
+      "meaning too different": 2,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 541,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.28
+   },
+   {
+    "pass": 3,
+    "segment": 8,
+    "chars": 191,
+    "z_before": 10.533195487187863,
+    "z_after": 10.656483293418265,
+    "accepted": false,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 46,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "duplicate": 12,
+      "CJK text": 2,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 585,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.43
+   },
+   {
+    "pass": 3,
+    "segment": 11,
+    "chars": 166,
+    "z_before": 10.533195487187863,
+    "z_after": 10.588379123127856,
+    "accepted": false,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 2,
+      "hit length limit": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 640,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 39.56
+   },
+   {
+    "pass": 3,
+    "segment": 10,
+    "chars": 63,
+    "z_before": 10.533195487187863,
+    "z_after": 10.443931118652372,
+    "accepted": true,
+    "survivors": 15,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 16,
+     "after_spelling": 16,
+     "after_content": 16,
+     "after_semantic": 16,
+     "fluency_skipped": false,
+     "after_fluency": 15,
+     "rejected": {
+      "duplicate": 43,
+      "CJK text": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 644,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.08
+   },
+   {
+    "pass": 4,
+    "segment": 7,
+    "chars": 223,
+    "z_before": 10.443931118652372,
+    "z_after": 10.430512508135195,
+    "accepted": true,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "duplicate": 2,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 701,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.7
+   },
+   {
+    "pass": 4,
+    "segment": 4,
+    "chars": 218,
+    "z_before": 10.430512508135195,
+    "z_after": 10.575412872778012,
+    "accepted": false,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 758,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.42
+   },
+   {
+    "pass": 4,
+    "segment": 8,
+    "chars": 191,
+    "z_before": 10.430512508135195,
+    "z_after": 10.464798134699015,
+    "accepted": false,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "duplicate": 15
+     }
+    },
+    "queries_total": 803,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 41.25
+   },
+   {
+    "pass": 4,
+    "segment": 11,
+    "chars": 166,
+    "z_before": 10.430512508135195,
+    "z_after": 10.541190644382029,
+    "accepted": false,
+    "survivors": 58,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 58,
+     "rejected": {
+      "duplicate": 2
+     }
+    },
+    "queries_total": 861,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.17
+   },
+   {
+    "pass": 4,
+    "segment": 10,
+    "chars": 63,
+    "z_before": 10.430512508135195,
+    "z_after": 10.340980211928025,
+    "accepted": true,
+    "survivors": 16,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 16,
+     "after_spelling": 16,
+     "after_content": 16,
+     "after_semantic": 16,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "duplicate": 44
+     }
+    },
+    "queries_total": 877,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.38
+   },
+   {
+    "pass": 5,
+    "segment": 7,
+    "chars": 223,
+    "z_before": 10.340980211928025,
+    "z_after": 10.485790729788368,
+    "accepted": false,
+    "survivors": 56,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 56,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 3
+     }
+    },
+    "queries_total": 933,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.84
+   },
+   {
+    "pass": 5,
+    "segment": 4,
+    "chars": 218,
+    "z_before": 10.340980211928025,
+    "z_after": 10.443931118652372,
+    "accepted": false,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 2,
+      "meaning too different": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 985,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.28
+   },
+   {
+    "pass": 5,
+    "segment": 8,
+    "chars": 191,
+    "z_before": 10.340980211928025,
+    "z_after": 10.430512508135195,
+    "accepted": false,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "duplicate": 12,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 1031,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.99
+   },
+   {
+    "pass": 5,
+    "segment": 11,
+    "chars": 166,
+    "z_before": 10.340980211928025,
+    "z_after": 10.451478383578777,
+    "accepted": false,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "duplicate": 8,
+      "CJK text": 2,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 1080,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.51
+   },
+   {
+    "pass": 5,
+    "segment": 10,
+    "chars": 63,
+    "z_before": 10.340980211928025,
+    "z_after": 10.520044804342364,
+    "accepted": false,
+    "survivors": 16,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 17,
+     "after_spelling": 17,
+     "after_content": 17,
+     "after_semantic": 17,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "duplicate": 43,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 1087,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.38
+   }
+  ],
+  "rewrites": {
+   "7": {
+    "original": "In the meantime, America's leading missile-defense contractor, Boeing, announced in February that it had struck a contract with the Pentagon to deliver components for an advanced missile interceptor being built in Maryland.",
+    "rewrite": "Meanwhile, Boeing, America's foremost missile defense contractor, disclosed in February a deal with the Pentagon to supply components for an advanced missile interceptor under construction in Maryland."
+   },
+   "4": {
+    "original": "One particularly concerning advanced Russian cruise missile's range far exceeds anything the Pentagon would need to defend the continental United States, but would instead cover its overseas territories such as Europe.",
+    "rewrite": "One notably worrisome Russian advanced cruise missile has a range that surpasses what the Pentagon needs for defending the continental U.S., extending instead to include overseas areas like Europe."
+   },
+   "8": {
+    "original": "One such interceptor will be included in a new missile-defense system plundered nearly $1 billion and due to be completed in Romania sometime before the end of the year, according to the MDA.",
+    "rewrite": "One such interceptor will be part of a new missile defense system estimated to cost nearly $1 billion and scheduled for completion in Romania by the end of the year, as stated by the MDA."
+   },
+   "11": {
+    "original": "According to the MDA, choosing between the two weapons would ultimately boil down to where the risk of an incoming barrage from a country like North Korea is greater.",
+    "rewrite": "The MDA indicated that the decision between the two weapons would essentially come down to which area poses a higher threat from an incoming arsenal, similar to that of North Korea."
+   },
+   "10": {
+    "original": "One such system is being developed at another plant in Romania.",
+    "rewrite": "At another facility in Romania, development of a similar system is underway."
+   }
+  },
+  "final_span": "Kohler, who coordinated defense system development for America's European allies during the Obama administration, described the current setup as \"frozen in time because our overall military budget was so constrained.\"\n\"You can fix the sensors but there is no longer the capability, basically due to the missile penetration radar, to pick up missiles coming in... unless you expose large quantities of interceptors that might not be needed to begin with,\" Kohler said during a recent panel discussion on nuclear defense policy at the Kennedy School of Government at Harvard University.\n\"You don't know if part of the incoming ballistic missile attack was made of cruise missiles, guided by North Korean missile technology right in your face. So your interceptor would not have any way of detecting the incoming threat and responding to it,\" he added.\nOne notably worrisome Russian advanced cruise missile has a range that surpasses what the Pentagon needs for defending the continental U.S., extending instead to include overseas areas like Europe.\nNuclear missile in North Korea\n\"This may be a challenge that just is either unsolvable or causes us to have to resort to possible use of the full array of our forces,\" said Michael O'Hanlon, senior fellow at the Brookings Institution think tank.\nMeanwhile, Boeing, America's foremost missile defense contractor, disclosed in February a deal with the Pentagon to supply components for an advanced missile interceptor under construction in Maryland.\nOne such interceptor will be part of a new missile defense system estimated to cost nearly $1 billion and scheduled for completion in Romania by the end of the year, as stated by the MDA.\nAnother project, called Aegis Ashore, provides five additional \"defense as needed\" strategic locations, to protect against so-called \"limited provocative strikes using theatre ballistic missiles from regional powers,\" according to MDA plans.\nAt another facility in Romania, development of a similar system is underway.\nThe MDA indicated that the decision between the two weapons would essentially come down to which area poses a higher threat from an incoming arsenal, similar to that of North Korea.\n\"We're not exactly sure when it would deploy but the original plan",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 5,
+   "eligible": 5,
+   "segments": 13,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 38.46153846153846
+  },
+  "tokens": {
+   "original": 501,
+   "final": 500,
+   "length_change": -1,
+   "pct_not_preserved": 17.964071856287422,
+   "pct_new": 17.800000000000004
+  },
+  "words": {
+   "original": 357,
+   "final": 355,
+   "length_change": -2,
+   "pct_not_preserved": 20.728291316526615,
+   "pct_new": 20.281690140845065
+  },
+  "characters": {
+   "original": 2270,
+   "final": 2251,
+   "length_change": -19,
+   "pct_not_preserved": 13.744493392070488,
+   "pct_new": 13.016437139049309
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 427,
+   "green_after": 365,
+   "pairs_before": 500,
+   "pairs_after": 499,
+   "pairs_changed_before": 121,
+   "pairs_changed_after": 120,
+   "green_fraction_of_new_pairs": 0.38333333333333336,
+   "delta_achieved": 0.11666666666666664
+  }
+ }
+}

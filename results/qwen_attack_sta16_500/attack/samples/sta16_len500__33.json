@@ -1,0 +1,1366 @@
+{
+ "sample_id": "sta16_len500:33",
+ "source": "results/raw/sta16_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.9076200417536534,
+ "needed_share": 0.8847387640464026,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 1916,
+  "segments": 15,
+  "eligible": 13,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1739,
+  "eligible_char_share": 0.9076200417536534
+ },
+ "attack": {
+  "z0": 17.351887505398366,
+  "z_final": 1.9407568021214159,
+  "status": "broken",
+  "reason": null,
+  "passes": 4,
+  "queries": 1541,
+  "seconds": 1756.9,
+  "seconds_by_phase": {
+   "generate": 1631.2,
+   "gates": 124.8,
+   "detector": 0.9
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 235,
+    "z_before": 17.351887505398366,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 55,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 4,
+      "numbers changed": 55
+     }
+    },
+    "queries_total": 1,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 60.1
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 208,
+    "z_before": 17.351887505398366,
+    "z_after": 16.010246718898493,
+    "accepted": true,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 33,
+     "after_spelling": 31,
+     "after_content": 31,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "CJK text": 27,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 32,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 59.49
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 194,
+    "z_before": 16.010246718898493,
+    "z_after": 14.369933541250631,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 87,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.06
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 186,
+    "z_before": 14.369933541250631,
+    "z_after": 13.116481394350265,
+    "accepted": true,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 45,
+     "after_content": 35,
+     "after_semantic": 35,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "CJK text": 12,
+      "unknown word": 3,
+      "negation count changed": 10,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 121,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.47
+   },
+   {
+    "pass": 1,
+    "segment": 13,
+    "chars": 174,
+    "z_before": 13.116481394350265,
+    "z_after": 11.919745017622674,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "unknown word": 5,
+      "meaning too different": 5,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 168,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.96
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 158,
+    "z_before": 11.919745017622674,
+    "z_after": 10.67773253344961,
+    "accepted": true,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "duplicate": 5,
+      "CJK text": 4,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 218,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.66
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 120,
+    "z_before": 10.67773253344961,
+    "z_after": 9.532317628209803,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "duplicate": 8,
+      "CJK text": 3,
+      "unknown word": 5,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 260,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.42
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 108,
+    "z_before": 9.532317628209803,
+    "z_after": 8.588387278156707,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 54,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "duplicate": 4,
+      "preamble": 1,
+      "unknown word": 1,
+      "negation count changed": 3,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 309,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.93
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 106,
+    "z_before": 8.588387278156707,
+    "z_after": 7.729069992831726,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "duplicate": 7,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 356,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.64
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 101,
+    "z_before": 7.729069992831726,
+    "z_after": 6.605563271626286,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "CJK text": 1,
+      "meaning too different": 5,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 403,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.67
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 75,
+    "z_before": 6.605563271626286,
+    "z_after": 5.992662179699436,
+    "accepted": true,
+    "survivors": 10,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 38,
+     "after_spelling": 33,
+     "after_content": 33,
+     "after_semantic": 11,
+     "fluency_skipped": false,
+     "after_fluency": 10,
+     "rejected": {
+      "duplicate": 20,
+      "CJK text": 2,
+      "unknown word": 5,
+      "meaning too different": 22,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 413,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.67
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 37,
+    "z_before": 5.992662179699436,
+    "z_after": 5.466950722368295,
+    "accepted": true,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 29,
+     "after_spelling": 29,
+     "after_content": 28,
+     "after_semantic": 28,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "duplicate": 31,
+      "negation count changed": 1,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 436,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.25
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 37,
+    "z_before": 5.466950722368295,
+    "z_after": 4.979030474580448,
+    "accepted": true,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 5,
+     "after_spelling": 5,
+     "after_content": 5,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "duplicate": 55,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 440,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 8.73
+   },
+   {
+    "pass": 2,
+    "segment": 6,
+    "chars": 235,
+    "z_before": 4.979030474580448,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 56,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 1,
+      "numbers changed": 56
+     }
+    },
+    "queries_total": 440,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 58.73
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 208,
+    "z_before": 4.979030474580448,
+    "z_after": 4.780407452213842,
+    "accepted": true,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 28,
+     "after_spelling": 28,
+     "after_content": 28,
+     "after_semantic": 28,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "CJK text": 32
+     }
+    },
+    "queries_total": 468,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 55.99
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 194,
+    "z_before": 4.780407452213842,
+    "z_after": 5.099618611193724,
+    "accepted": false,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 6,
+      "unknown word": 3
+     }
+    },
+    "queries_total": 519,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 39.75
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 186,
+    "z_before": 4.780407452213842,
+    "z_after": 4.422993810926826,
+    "accepted": true,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 50,
+     "after_content": 40,
+     "after_semantic": 40,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "CJK text": 9,
+      "several lines": 1,
+      "negation count changed": 10
+     }
+    },
+    "queries_total": 559,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.53
+   },
+   {
+    "pass": 2,
+    "segment": 13,
+    "chars": 174,
+    "z_before": 4.422993810926826,
+    "z_after": 4.467807455824589,
+    "accepted": false,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 5,
+      "meaning too different": 6,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 599,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.84
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 158,
+    "z_before": 4.422993810926826,
+    "z_after": 4.400329899655985,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 5,
+      "unknown word": 1,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 644,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 39.89
+   },
+   {
+    "pass": 2,
+    "segment": 8,
+    "chars": 120,
+    "z_before": 4.400329899655985,
+    "z_after": 4.490132550669373,
+    "accepted": false,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 43,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "duplicate": 13,
+      "CJK text": 3,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 686,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.13
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 108,
+    "z_before": 4.400329899655985,
+    "z_after": 4.44075690976094,
+    "accepted": false,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "duplicate": 4,
+      "CJK text": 1,
+      "negation count changed": 6,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 733,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 31.33
+   },
+   {
+    "pass": 2,
+    "segment": 10,
+    "chars": 106,
+    "z_before": 4.400329899655985,
+    "z_after": 4.122618577523632,
+    "accepted": true,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 7,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 779,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.06
+   },
+   {
+    "pass": 2,
+    "segment": 9,
+    "chars": 101,
+    "z_before": 4.122618577523632,
+    "z_after": 4.024922359499621,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 58,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "CJK text": 2,
+      "meaning too different": 6,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 824,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.11
+   },
+   {
+    "pass": 2,
+    "segment": 7,
+    "chars": 75,
+    "z_before": 4.024922359499621,
+    "z_after": 4.024922359499621,
+    "accepted": false,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 19,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "duplicate": 15,
+      "CJK text": 1,
+      "unknown word": 3,
+      "meaning too different": 22,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 842,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.93
+   },
+   {
+    "pass": 2,
+    "segment": 11,
+    "chars": 37,
+    "z_before": 4.024922359499621,
+    "z_after": 3.9354796403996297,
+    "accepted": true,
+    "survivors": 25,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 29,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 25,
+     "rejected": {
+      "duplicate": 30,
+      "negation count changed": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 867,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.24
+   },
+   {
+    "pass": 2,
+    "segment": 12,
+    "chars": 37,
+    "z_before": 3.9354796403996297,
+    "z_after": 3.9354796403996297,
+    "accepted": false,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 7,
+     "after_spelling": 7,
+     "after_content": 7,
+     "after_semantic": 5,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "duplicate": 53,
+      "meaning too different": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 870,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 8.73
+   },
+   {
+    "pass": 3,
+    "segment": 6,
+    "chars": 235,
+    "z_before": 3.9354796403996297,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 54,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 3,
+      "numbers changed": 54
+     }
+    },
+    "queries_total": 870,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 58.65
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 208,
+    "z_before": 3.9354796403996297,
+    "z_after": 4.310527248642598,
+    "accepted": false,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 32,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "CJK text": 25,
+      "several lines": 1,
+      "unknown word": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 901,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 63.49
+   },
+   {
+    "pass": 3,
+    "segment": 5,
+    "chars": 194,
+    "z_before": 3.9354796403996297,
+    "z_after": 3.951316644589048,
+    "accepted": false,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "CJK text": 3,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 956,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.39
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 186,
+    "z_before": 3.9354796403996297,
+    "z_after": 4.212240720513276,
+    "accepted": false,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 40,
+     "after_spelling": 38,
+     "after_content": 33,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "CJK text": 19,
+      "several lines": 1,
+      "unknown word": 2,
+      "negation count changed": 5,
+      "meaning too different": 1
+     }
+    },
+    "queries_total": 988,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 51.26
+   },
+   {
+    "pass": 3,
+    "segment": 13,
+    "chars": 174,
+    "z_before": 3.9354796403996297,
+    "z_after": 3.8791382699890753,
+    "accepted": true,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 6,
+      "meaning too different": 5,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 1027,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 39.74
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 158,
+    "z_before": 3.8791382699890753,
+    "z_after": 3.9526287659905153,
+    "accepted": false,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 59,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "duplicate": 1,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 1079,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 39.03
+   },
+   {
+    "pass": 3,
+    "segment": 8,
+    "chars": 120,
+    "z_before": 3.8791382699890753,
+    "z_after": 3.902483344941432,
+    "accepted": false,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "duplicate": 13,
+      "unknown word": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 1121,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.3
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 108,
+    "z_before": 3.8791382699890753,
+    "z_after": 3.7007870851619917,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 57,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "preamble": 1,
+      "duplicate": 1,
+      "unknown word": 1,
+      "negation count changed": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 1174,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 31.51
+   },
+   {
+    "pass": 3,
+    "segment": 10,
+    "chars": 106,
+    "z_before": 3.7007870851619917,
+    "z_after": 3.7416573867739413,
+    "accepted": false,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "duplicate": 4,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 1227,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.46
+   },
+   {
+    "pass": 3,
+    "segment": 9,
+    "chars": 101,
+    "z_before": 3.7007870851619917,
+    "z_after": 3.846036921299638,
+    "accepted": false,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 1,
+      "unknown word": 2,
+      "meaning too different": 5,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 1270,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.3
+   },
+   {
+    "pass": 3,
+    "segment": 7,
+    "chars": 75,
+    "z_before": 3.7007870851619917,
+    "z_after": 3.7007870851619917,
+    "accepted": false,
+    "survivors": 13,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 39,
+     "after_spelling": 37,
+     "after_content": 37,
+     "after_semantic": 13,
+     "fluency_skipped": false,
+     "after_fluency": 13,
+     "rejected": {
+      "duplicate": 19,
+      "CJK text": 2,
+      "unknown word": 2,
+      "meaning too different": 24
+     }
+    },
+    "queries_total": 1283,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 21.91
+   },
+   {
+    "pass": 3,
+    "segment": 11,
+    "chars": 37,
+    "z_before": 3.7007870851619917,
+    "z_after": 3.7899626775755335,
+    "accepted": false,
+    "survivors": 22,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 28,
+     "after_spelling": 28,
+     "after_content": 26,
+     "after_semantic": 26,
+     "fluency_skipped": false,
+     "after_fluency": 22,
+     "rejected": {
+      "duplicate": 32,
+      "negation count changed": 2,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 1305,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.06
+   },
+   {
+    "pass": 3,
+    "segment": 12,
+    "chars": 37,
+    "z_before": 3.7007870851619917,
+    "z_after": 3.7007870851619917,
+    "accepted": false,
+    "survivors": 5,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 8,
+     "after_spelling": 8,
+     "after_content": 8,
+     "after_semantic": 6,
+     "fluency_skipped": false,
+     "after_fluency": 5,
+     "rejected": {
+      "duplicate": 52,
+      "meaning too different": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 1309,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 8.86
+   },
+   {
+    "pass": 4,
+    "segment": 6,
+    "chars": 235,
+    "z_before": 3.7007870851619917,
+    "z_after": 2.0751006927352353,
+    "accepted": true,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 53,
+     "after_content": 1,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 4,
+      "numbers changed": 52
+     }
+    },
+    "queries_total": 1310,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 59.39
+   },
+   {
+    "pass": 4,
+    "segment": 3,
+    "chars": 208,
+    "z_before": 2.0751006927352353,
+    "z_after": 2.1718868151718875,
+    "accepted": false,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 32,
+     "after_spelling": 32,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "CJK text": 28
+     }
+    },
+    "queries_total": 1342,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 55.43
+   },
+   {
+    "pass": 4,
+    "segment": 5,
+    "chars": 194,
+    "z_before": 2.0751006927352353,
+    "z_after": 2.2183912735402846,
+    "accepted": false,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "CJK text": 4,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 1396,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.08
+   },
+   {
+    "pass": 4,
+    "segment": 2,
+    "chars": 186,
+    "z_before": 2.0751006927352353,
+    "z_after": 2.4378321394786493,
+    "accepted": false,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 48,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "CJK text": 8,
+      "several lines": 2,
+      "unknown word": 2,
+      "negation count changed": 4
+     }
+    },
+    "queries_total": 1440,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 48.81
+   },
+   {
+    "pass": 4,
+    "segment": 13,
+    "chars": 174,
+    "z_before": 2.0751006927352353,
+    "z_after": 2.307126924481896,
+    "accepted": false,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 6,
+      "meaning too different": 3,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 1487,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.02
+   },
+   {
+    "pass": 4,
+    "segment": 1,
+    "chars": 158,
+    "z_before": 2.0751006927352353,
+    "z_after": 1.9407568021214159,
+    "accepted": true,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "duplicate": 4,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 1541,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.21
+   }
+  ],
+  "rewrites": {
+   "3": {
+    "original": "So send him down to Midgard and then another well...replace your favorite God\u2019s son with a puppet; Loki\u2019s going to have him kidnap Hel, daughter of the Frost Giants, to force Frigga to release Balder instead.",
+    "rewrite": "Send him to Midgard, and then something else...replace your favored deity\u2019s offspring with a puppet; Loki intends to abduction Hel, the Frost Giant\u2019s daughter, to coerce Frigga into freeing Balder instead."
+   },
+   "5": {
+    "original": "He finally realizes he stepped outside the moral boundary when he discovers Sif\u2019s golden hair thou and all the puppet deaths, and remembers Nanna wringing the wrath of the gods out of her hands.",
+    "rewrite": "He eventually understands his breach of ethical norms upon finding Sif\u2019s golden hair and learning about all the puppet deaths, and recalling Nanna\u2019s anger that drew the gods\u2019 displeasure."
+   },
+   "2": {
+    "original": "See I really suck at explaining what my Husband does, but he\u2019s probably trying to make us understand that killing Balder for him to mourn him would not be as bad as killing him would it.",
+    "rewrite": "I find it difficult to explain what my husband does, but he might be trying to make us understand that letting Balder die so he can grieve is not as worse as if he had been killed, is it?"
+   },
+   "13": {
+    "original": "Also I understand because I attend a public college, he\u2019s a minor in a folk minority ethnic disorder, which frees him from most of colleges ridiculous marks and requirements.",
+    "rewrite": "Because I attend a public college, I understand that he is classified under a minor ethnicity in folk terms, thereby exempting him from most of the college's burdensome standards and requirements."
+   },
+   "1": {
+    "original": "She gives him the idea after telling him in a fit of jealousy that her husband Odin could only walk on Yggdrasil (the world tree) by having one foot elevated.",
+    "rewrite": "After expressing her jealousy, she shares the idea with him, mentioning that her husband Odin could traverse Yggdrasil, the world tree, by keeping one foot raised."
+   },
+   "8": {
+    "original": "He was a slave after he raped his father\u2019s daughter Jotunna (the Jotung were ancient people and the trolls of the world.",
+    "rewrite": "He became a slave after raping his father\u2019s daughter Jotunna, as the Jotun were ancient people often likened to trolls in the world."
+   },
+   "4": {
+    "original": "BUT Frigga is of course so over protective she won\u2019t free Balder, but Loki does get punished; his blindness.",
+    "rewrite": "BUT Frigga, of course, is exceedingly protective and doesn't free Balder, yet Loki is punished by being made blind."
+   },
+   "10": {
+    "original": "But you all know that in order to have Loki as your ancestor, I had to acquire him, and acquire him I did.",
+    "rewrite": "Yet, it is well-known that to be related to Loki, I needed to obtain him, and I succeeded in doing so."
+   },
+   "9": {
+    "original": "So that would give me enough ancestry to qualify and come from kindred and royal families, both true.",
+    "rewrite": "This would provide me with sufficient ancestry to meet the requirements and be related to both kindred and royal families, accurately."
+   },
+   "7": {
+    "original": "I know in real life how time consuming that would be but the joke\u2019s on you.",
+    "rewrite": "I understand the real-life time it would require, but the joke is on you."
+   },
+   "11": {
+    "original": "Loki (of whom I don\u2019t have any pics!)",
+    "rewrite": "Loki (for whose photos I do not have any!)"
+   },
+   "12": {
+    "original": "I understand was adept at persuasion.",
+    "rewrite": "I was skilled in persuasion."
+   },
+   "6": {
+    "original": "These two sides or is I guess three, I said he has 3, because they\u2019re all the same: full blown trickster Loki the puppet master Loki the middle path, are what I call him, and I still manage to be married to him every five to ten years.",
+    "rewrite": "These sides, or perhaps three of them, I referred to as he having 3, since they're all analogous: akin to a fully developed trickster Loki, a puppet master Loki, or one walking the middle path, which is how I describe him, yet despite this, our marriage survives every five to ten years."
+   }
+  },
+  "final_span": "him, and as it does in any household there is anyone who forgets to sign the agreements and Loki\u2019s name is there at the bottom for an approaching wedding. After expressing her jealousy, she shares the idea with him, mentioning that her husband Odin could traverse Yggdrasil, the world tree, by keeping one foot raised.\nI find it difficult to explain what my husband does, but he might be trying to make us understand that letting Balder die so he can grieve is not as worse as if he had been killed, is it? Send him to Midgard, and then something else...replace your favored deity\u2019s offspring with a puppet; Loki intends to abduction Hel, the Frost Giant\u2019s daughter, to coerce Frigga into freeing Balder instead. BUT Frigga, of course, is exceedingly protective and doesn't free Balder, yet Loki is punished by being made blind. He eventually understands his breach of ethical norms upon finding Sif\u2019s golden hair and learning about all the puppet deaths, and recalling Nanna\u2019s anger that drew the gods\u2019 displeasure.\nThese sides, or perhaps three of them, I referred to as he having 3, since they're all analogous: akin to a fully developed trickster Loki, a puppet master Loki, or one walking the middle path, which is how I describe him, yet despite this, our marriage survives every five to ten years. I understand the real-life time it would require, but the joke is on you. He became a slave after raping his father\u2019s daughter Jotunna, as the Jotun were ancient people often likened to trolls in the world.\nThis would provide me with sufficient ancestry to meet the requirements and be related to both kindred and royal families, accurately. Yet, it is well-known that to be related to Loki, I needed to obtain him, and I succeeded in doing so.\nLoki (for whose photos I do not have any!) I was skilled in persuasion. Because I attend a public college, I understand that he is classified under a minor ethnicity in folk terms, thereby exempting him from most of the college's burdensome standards and requirements. He is the",
+  "break_point": {
+   "step": 44,
+   "sentences_rewritten": 13,
+   "queries": 1541
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 13,
+   "eligible": 13,
+   "segments": 15,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 86.66666666666667
+  },
+  "tokens": {
+   "original": 501,
+   "final": 515,
+   "length_change": 14,
+   "pct_not_preserved": 43.5129740518962,
+   "pct_new": 45.04854368932038
+  },
+  "words": {
+   "original": 357,
+   "final": 352,
+   "length_change": -5,
+   "pct_not_preserved": 54.34173669467788,
+   "pct_new": 53.69318181818181
+  },
+  "characters": {
+   "original": 1916,
+   "final": 2028,
+   "length_change": 112,
+   "pct_not_preserved": 30.68893528183716,
+   "pct_new": 34.51676528599605
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 444,
+   "green_after": 279,
+   "pairs_before": 500,
+   "pairs_after": 514,
+   "pairs_changed_before": 306,
+   "pairs_changed_after": 320,
+   "green_fraction_of_new_pairs": 0.34375,
+   "delta_achieved": 0.15625
+  }
+ }
+}

@@ -1,0 +1,423 @@
+{
+ "sample_id": "sta16_len500:115",
+ "source": "results/raw/sta16_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.2313649564375605,
+ "needed_share": 0.8644807286363764,
+ "delta_needed": null,
+ "segmentation": {
+  "chars": 2066,
+  "segments": 12,
+  "eligible": 3,
+  "skipped": 9,
+  "skip_reasons": {
+   "too short": 1,
+   "quotation": 7,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 478,
+  "eligible_char_share": 0.2313649564375605
+ },
+ "attack": {
+  "z0": 14.758048651498612,
+  "z_final": 11.591416942960949,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 4,
+  "queries": 462,
+  "seconds": 625.0,
+  "seconds_by_phase": {
+   "generate": 579.0,
+   "gates": 45.8,
+   "detector": 0.3
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 235,
+    "z_before": 14.758048651498612,
+    "z_after": 13.510102250651608,
+    "accepted": true,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 51,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 6,
+      "numbers changed": 15
+     }
+    },
+    "queries_total": 37,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 71.08
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 135,
+    "z_before": 13.510102250651608,
+    "z_after": 12.854069069110611,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 43,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "duplicate": 17,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 78,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.51
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 108,
+    "z_before": 12.854069069110611,
+    "z_after": 12.124355652982143,
+    "accepted": true,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 35,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 1,
+      "meaning too different": 21,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 111,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.91
+   },
+   {
+    "pass": 2,
+    "segment": 6,
+    "chars": 235,
+    "z_before": 12.124355652982143,
+    "z_after": 12.294017127971522,
+    "accepted": false,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 55,
+     "after_content": 35,
+     "after_semantic": 35,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 4,
+      "numbers changed": 20
+     }
+    },
+    "queries_total": 146,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 71.1
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 135,
+    "z_before": 12.124355652982143,
+    "z_after": 12.213178771319008,
+    "accepted": false,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "duplicate": 9,
+      "unknown word": 5
+     }
+    },
+    "queries_total": 192,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.84
+   },
+   {
+    "pass": 2,
+    "segment": 7,
+    "chars": 108,
+    "z_before": 12.124355652982143,
+    "z_after": 11.914053215913572,
+    "accepted": true,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 35,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 4,
+      "unknown word": 1,
+      "meaning too different": 19
+     }
+    },
+    "queries_total": 225,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.49
+   },
+   {
+    "pass": 3,
+    "segment": 6,
+    "chars": 235,
+    "z_before": 11.914053215913572,
+    "z_after": 11.591416942960949,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 55,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 3,
+      "numbers changed": 14
+     }
+    },
+    "queries_total": 266,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 72.28
+   },
+   {
+    "pass": 3,
+    "segment": 5,
+    "chars": 135,
+    "z_before": 11.591416942960949,
+    "z_after": 11.60155500057525,
+    "accepted": false,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 43,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "duplicate": 14,
+      "CJK text": 1,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 309,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 45.94
+   },
+   {
+    "pass": 3,
+    "segment": 7,
+    "chars": 108,
+    "z_before": 11.591416942960949,
+    "z_after": 11.70003582074122,
+    "accepted": false,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 39,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 2,
+      "meaning too different": 17,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 345,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.59
+   },
+   {
+    "pass": 4,
+    "segment": 6,
+    "chars": 235,
+    "z_before": 11.591416942960949,
+    "z_after": 12.059341722178589,
+    "accepted": false,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 50,
+     "after_content": 39,
+     "after_semantic": 39,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 8,
+      "numbers changed": 11
+     }
+    },
+    "queries_total": 384,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 71.49
+   },
+   {
+    "pass": 4,
+    "segment": 5,
+    "chars": 135,
+    "z_before": 11.591416942960949,
+    "z_after": 11.634435021860172,
+    "accepted": false,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "duplicate": 8,
+      "unknown word": 8
+     }
+    },
+    "queries_total": 420,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.24
+   },
+   {
+    "pass": 4,
+    "segment": 7,
+    "chars": 108,
+    "z_before": 11.591416942960949,
+    "z_after": 11.7033463945866,
+    "accepted": false,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 2,
+      "meaning too different": 12,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 462,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 28.47
+   }
+  ],
+  "rewrites": {
+   "6": {
+    "original": "In a blow to the SAF's F-15 in a 2017 re-organisation which saw more F-15s retire, Prime Minister Lee Hsien Loong announced in February that a new naval unit of F-35B stealth fighter jets, built by the Americans, will be deployed here.",
+    "rewrite": "A setback for the SAF's F-15 during the 2017 restructuring, where numerous F-15s were retired, occurred when Prime Minister Lee Hsien Loong, in February, disclosed the deployment of a novel naval unit comprising F-35B stealth fighter jets, manufactured by the Americans."
+   },
+   "5": {
+    "original": "Singapore sought additional training areas when it bought the F-15s from the United States in 2014 for SG$7.6 billion (US$5.7 billion).",
+    "rewrite": "In 2014, Singapore purchased F-15s from the United States for SG$7.6 billion (US$5.7 billion) and looked for additional training sites."
+   },
+   "7": {
+    "original": "Cheers at the news were tempered with disappointment over the loss of the F-15 in Singapore's defence force.",
+    "rewrite": "Supportive cheers for the news were marred by dismay at the F-15 fighter's removal from Singapore's defense fleet."
+   }
+  },
+  "final_span": "Nanaia Mahuta.\n\"Defence cooperation between Singapore and New Zealand continued to be healthy,\" said MINDEF.\n\"Underlining this cooperation was the commitment to deepen and expand defence collaborations, and advance defence capacity building. This has seen increased defence exercises, training opportunities in different terrain and environments, and defence engagement on key defence interests such as disruptive technologies and evolving threats to the two countries.\n\"In the course of the discussions, both ministers agreed that New Zealand would continue to consider offering Singapore the opportunity to undertake basic pilot conversion training in Ohakea, should appropriate parameters on the training package were finalised and agreed to by both parties.\"\nIn 2014, Singapore purchased F-15s from the United States for SG$7.6 billion (US$5.7 billion) and looked for additional training sites. A setback for the SAF's F-15 during the 2017 restructuring, where numerous F-15s were retired, occurred when Prime Minister Lee Hsien Loong, in February, disclosed the deployment of a novel naval unit comprising F-35B stealth fighter jets, manufactured by the Americans.\nSupportive cheers for the news were marred by dismay at the F-15 fighter's removal from Singapore's defense fleet.\nCommander of the Republic of Singapore Air Force (RSAF) Hooper Shum on Friday (Feb 23) said the F-15s had provided valuable training, noting \"the associated higher mission readiness and response capabilities we had\". He added that training in Singapore and the F-35B will leave the service with \"the right warriors to now execute and carry out the F-35B\u2019s multiple missions for a new operating environment.\"\nOn Monday (Mar 12), Deputy Prime Minister Heng Swee Keat outlined the plan to procure four F-35B fighter planes, which is part of the government's efforts to \"invest heavily and come up with capabilities that would enhance our overall military might\".\nHe listed some of the capabilities: \"One, to ensure its credibility \u2026 two, to enhance its long-range strike and air electronic warfare capabilities, and three, to",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 3,
+   "segments": 12,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 25.0
+  },
+  "tokens": {
+   "original": 501,
+   "final": 508,
+   "length_change": 7,
+   "pct_not_preserved": 11.177644710578837,
+   "pct_new": 12.401574803149607
+  },
+  "words": {
+   "original": 319,
+   "final": 317,
+   "length_change": -2,
+   "pct_not_preserved": 14.420062695924763,
+   "pct_new": 13.880126182965302
+  },
+  "characters": {
+   "original": 2066,
+   "final": 2107,
+   "length_change": 41,
+   "pct_not_preserved": 7.938044530493704,
+   "pct_new": 9.729473184622684
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 415,
+   "green_after": 384,
+   "pairs_before": 500,
+   "pairs_after": 507,
+   "pairs_changed_before": 74,
+   "pairs_changed_after": 81,
+   "green_fraction_of_new_pairs": 0.41975308641975306,
+   "delta_achieved": 0.08024691358024694
+  }
+ }
+}

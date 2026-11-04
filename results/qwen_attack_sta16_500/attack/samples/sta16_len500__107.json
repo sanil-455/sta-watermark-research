@@ -1,0 +1,722 @@
+{
+ "sample_id": "sta16_len500:107",
+ "source": "results/raw/sta16_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8387872954764196,
+ "needed_share": 0.8557375498387232,
+ "delta_needed": 0.0062644950402230394,
+ "segmentation": {
+  "chars": 2078,
+  "segments": 12,
+  "eligible": 10,
+  "skipped": 2,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1743,
+  "eligible_char_share": 0.8387872954764196
+ },
+ "attack": {
+  "z0": 13.863621460498695,
+  "z_final": 1.9250668437592438,
+  "status": "broken",
+  "reason": null,
+  "passes": 3,
+  "queries": 824,
+  "seconds": 1006.1,
+  "seconds_by_phase": {
+   "generate": 940.9,
+   "gates": 64.6,
+   "detector": 0.5
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 339,
+    "z_before": 13.863621460498695,
+    "z_after": 11.811872214143362,
+    "accepted": true,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 37,
+     "after_content": 2,
+     "after_semantic": 2,
+     "fluency_skipped": true,
+     "after_fluency": 2,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 22,
+      "quotation changed": 35
+     }
+    },
+    "queries_total": 3,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 75.57
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 226,
+    "z_before": 11.811872214143362,
+    "z_after": 10.59671281957972,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 1,
+      "unknown word": 1,
+      "quotation changed": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 54,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.9
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 193,
+    "z_before": 10.59671281957972,
+    "z_after": 9.016082210726758,
+    "accepted": true,
+    "survivors": 22,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 22,
+     "after_content": 22,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 22,
+     "rejected": {
+      "several lines": 2,
+      "CJK text": 4,
+      "unknown word": 32
+     }
+    },
+    "queries_total": 76,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 57.26
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 182,
+    "z_before": 9.016082210726758,
+    "z_after": 7.987898178595478,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 6,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 128,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.07
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 177,
+    "z_before": 7.987898178595478,
+    "z_after": 6.634017131375906,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "CJK text": 4,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 183,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.46
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 161,
+    "z_before": 6.634017131375906,
+    "z_after": 5.240345836850457,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 3,
+      "meaning too different": 1,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 232,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.66
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 140,
+    "z_before": 5.240345836850457,
+    "z_after": 4.28728998286198,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 6,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 283,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.56
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 138,
+    "z_before": 4.28728998286198,
+    "z_after": 3.44743000836151,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 46,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "duplicate": 11,
+      "several lines": 1,
+      "CJK text": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 328,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.26
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 114,
+    "z_before": 3.44743000836151,
+    "z_after": 2.9030989544096926,
+    "accepted": true,
+    "survivors": 20,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 20,
+     "after_spelling": 20,
+     "after_content": 20,
+     "after_semantic": 20,
+     "fluency_skipped": false,
+     "after_fluency": 20,
+     "rejected": {
+      "duplicate": 40
+     }
+    },
+    "queries_total": 348,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.38
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 73,
+    "z_before": 2.9030989544096926,
+    "z_after": 2.2204019467042744,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "duplicate": 15
+     }
+    },
+    "queries_total": 393,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.6
+   },
+   {
+    "pass": 2,
+    "segment": 6,
+    "chars": 339,
+    "z_before": 2.2204019467042744,
+    "z_after": 2.927452769221792,
+    "accepted": false,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 37,
+     "after_content": 2,
+     "after_semantic": 2,
+     "fluency_skipped": true,
+     "after_fluency": 2,
+     "rejected": {
+      "several lines": 2,
+      "CJK text": 2,
+      "unknown word": 19,
+      "quotation changed": 35
+     }
+    },
+    "queries_total": 395,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 79.21
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 226,
+    "z_before": 2.2204019467042744,
+    "z_after": 2.2249753850138494,
+    "accepted": false,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 2,
+      "unknown word": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 445,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.5
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 193,
+    "z_before": 2.2204019467042744,
+    "z_after": 2.2633936510629633,
+    "accepted": false,
+    "survivors": 17,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 17,
+     "after_content": 17,
+     "after_semantic": 17,
+     "fluency_skipped": false,
+     "after_fluency": 17,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 4,
+      "unknown word": 36
+     }
+    },
+    "queries_total": 462,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.14
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 182,
+    "z_before": 2.2204019467042744,
+    "z_after": 2.082322158977926,
+    "accepted": true,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "duplicate": 1,
+      "unknown word": 13,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 507,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.22
+   },
+   {
+    "pass": 2,
+    "segment": 10,
+    "chars": 177,
+    "z_before": 2.082322158977926,
+    "z_after": 2.0604084592303353,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 3,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 562,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.78
+   },
+   {
+    "pass": 2,
+    "segment": 7,
+    "chars": 161,
+    "z_before": 2.0604084592303353,
+    "z_after": 2.099603137103137,
+    "accepted": false,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 1,
+      "meaning too different": 1,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 612,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.96
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 140,
+    "z_before": 2.0604084592303353,
+    "z_after": 2.1519821685294613,
+    "accepted": false,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 6,
+      "several lines": 1
+     }
+    },
+    "queries_total": 665,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.79
+   },
+   {
+    "pass": 2,
+    "segment": 8,
+    "chars": 138,
+    "z_before": 2.0604084592303353,
+    "z_after": 2.0604084592303353,
+    "accepted": false,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "duplicate": 9,
+      "unknown word": 4
+     }
+    },
+    "queries_total": 712,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.83
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 114,
+    "z_before": 2.0604084592303353,
+    "z_after": 2.1519821685294613,
+    "accepted": false,
+    "survivors": 21,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 23,
+     "after_spelling": 23,
+     "after_content": 23,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 21,
+     "rejected": {
+      "duplicate": 37,
+      "meaning too different": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 733,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.06
+   },
+   {
+    "pass": 2,
+    "segment": 9,
+    "chars": 73,
+    "z_before": 2.0604084592303353,
+    "z_after": 2.2388671456862737,
+    "accepted": false,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "duplicate": 13,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 779,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.47
+   },
+   {
+    "pass": 3,
+    "segment": 6,
+    "chars": 339,
+    "z_before": 2.0604084592303353,
+    "z_after": 2.34004048547973,
+    "accepted": false,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 35,
+     "after_content": 1,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "CJK text": 3,
+      "several lines": 1,
+      "unknown word": 21,
+      "quotation changed": 34
+     }
+    },
+    "queries_total": 780,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 81.21
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 226,
+    "z_before": 2.0604084592303353,
+    "z_after": 1.9250668437592438,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 48,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "CJK text": 7,
+      "hit length limit": 1,
+      "duplicate": 4,
+      "quotation changed": 4
+     }
+    },
+    "queries_total": 824,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 48.05
+   }
+  ],
+  "rewrites": {
+   "6": {
+    "original": "Shincho said the women came forward to blow the whistle after former ink maker Minobe Mamoru, who was convicted in February of sex crimes against women in a night club, discussed his ordeals in interviews with NHK publisher Minobe Mamoru, and the \u201cwell-polished methods\u201d he taught his disciple, Administrative Vice Finance Minister Fukuda.",
+    "rewrite": "Shincho mentioned that the women approached to expose Minobe Mamoru, a former ink manufacturer convicted in February of sexual offenses at a nightclub, shared his experiences and described \"well-polished methods\" used on his disciples during interviews with NHK. Publisher Minobe Mamoru is quoted alongside Administrative Vice Finance Minister Fukuda."
+   },
+   "3": {
+    "original": "An unidentified \u201cofficial\u201d at the finance ministry said the departure would not affect policy-making as fewer policy decisions are to be made prior to the government losing its majority in upper house elections in late summer.",
+    "rewrite": "A unrecognized \"official\" from the finance ministry stated that the resignation will not impact policy-making due to the limited number of key decisions ahead of the government Losing its majority in upper house elections later this summer."
+   },
+   "2": {
+    "original": "NHK said the resignation would come at a key meeting of Group of 20 finance officials at a time when Fukuda faces pressure from the government to resolve tax code issues with the United States.",
+    "rewrite": "NHK stated that the resignation would occur during a crucial meeting of G20 finance officials, a period when Fukuda was under government pressure to settle tax code disputes with the United States."
+   },
+   "5": {
+    "original": "Shincho reported last week that Fukuda sexually harassed several women members of the press party of the humor magazine Shinchonma, which is published by the ministry he was heading.",
+    "rewrite": "Last week, Shincho revealed that Fukuda had sexually harassed multiple women from the media group associated with Shinchonma, the humor magazine he used to lead."
+   },
+   "10": {
+    "original": "Abe\u2019s failure to carry out pledges to reform a properly-run state and carry out clean government has led to other scandals and damaged Abe\u2019s credibility in public opinion polls.",
+    "rewrite": "Abe's inability to fulfill promises for governing transparently and avoiding scandals has harmed his credibility in public opinion polls."
+   },
+   "7": {
+    "original": "One woman reporter from the press association fled to an empty rented apartment in a ghost town in their home town in western Japan to hide out and avoid Fukuda.",
+    "rewrite": "A female reporter from the press association sought refuge in an unoccupied apartment in a desolate town near their hometown in western Japan to escape Fukuda."
+   },
+   "1": {
+    "original": "Abe appointed Fukuda in May last year to replace an official caught accepting cash from a contractor for an official family Christmas party.",
+    "rewrite": "Last May, Abe named Fukuda to take over for an official who had accepted cash from a contractor at a family Christmas party."
+   },
+   "8": {
+    "original": "Abe\u2019s approval ratings, which topped as high as 66 percent immediately after he won two elections in one year in 2012, have been slipping.",
+    "rewrite": "After Abe won two elections in one year in 2012, his approval ratings peaked at 66 percent and have since been declining."
+   },
+   "4": {
+    "original": "The ministry official said the ministry would name another administrator at deputy vice minister level on April 1.",
+    "rewrite": "The ministry official stated that another administrator would be named at the deputy vice minister level on April 1."
+   },
+   "9": {
+    "original": "He was 50 percent in a daily poll by the Nikkei business daily on Sunday.",
+    "rewrite": "On Sunday, he led in a daily poll by the Nikkei business daily by 50%."
+   }
+  },
+  "final_span": "intent\u201d to violate anyone\u2019s rights as described by the women.\nLast May, Abe named Fukuda to take over for an official who had accepted cash from a contractor at a family Christmas party.\nNHK stated that the resignation would occur during a crucial meeting of G20 finance officials, a period when Fukuda was under government pressure to settle tax code disputes with the United States.\nA unrecognized \"official\" from the finance ministry stated that the resignation will not impact policy-making due to the limited number of key decisions ahead of the government Losing its majority in upper house elections later this summer. The ministry official stated that another administrator would be named at the deputy vice minister level on April 1.\nLast week, Shincho revealed that Fukuda had sexually harassed multiple women from the media group associated with Shinchonma, the humor magazine he used to lead.\nShincho mentioned that the women approached to expose Minobe Mamoru, a former ink manufacturer convicted in February of sexual offenses at a nightclub, shared his experiences and described \"well-polished methods\" used on his disciples during interviews with NHK. Publisher Minobe Mamoru is quoted alongside Administrative Vice Finance Minister Fukuda.\nA female reporter from the press association sought refuge in an unoccupied apartment in a desolate town near their hometown in western Japan to escape Fukuda.\nAfter Abe won two elections in one year in 2012, his approval ratings peaked at 66 percent and have since been declining. On Sunday, he led in a daily poll by the Nikkei business daily by 50%.\nAbe's inability to fulfill promises for governing transparently and avoiding scandals has harmed his credibility in public opinion polls.\nIn one of the latest cases, Abe\u2019s morals tsar, administrative vice head of the Cabinet Secretariat Hiroyuki Hosoda, resigned on Friday saying he could not carry out his job properly after a woman told a television interviewer he repeatedly touch her legs in a the",
+  "break_point": {
+   "step": 21,
+   "sentences_rewritten": 10,
+   "queries": 824
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 10,
+   "eligible": 10,
+   "segments": 12,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 83.33333333333333
+  },
+  "tokens": {
+   "original": 501,
+   "final": 477,
+   "length_change": -24,
+   "pct_not_preserved": 39.72055888223552,
+   "pct_new": 36.687631027253666
+  },
+  "words": {
+   "original": 347,
+   "final": 322,
+   "length_change": -25,
+   "pct_not_preserved": 45.53314121037464,
+   "pct_new": 41.30434782608695
+  },
+  "characters": {
+   "original": 2078,
+   "final": 2011,
+   "length_change": -67,
+   "pct_not_preserved": 29.788257940327235,
+   "pct_new": 27.449030333167578
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 405,
+   "green_after": 259,
+   "pairs_before": 500,
+   "pairs_after": 476,
+   "pairs_changed_before": 266,
+   "pairs_changed_after": 242,
+   "green_fraction_of_new_pairs": 0.3677685950413223,
+   "delta_achieved": 0.1322314049586777
+  }
+ }
+}

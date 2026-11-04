@@ -1,0 +1,161 @@
+{
+ "sample_id": "sta16_len500:136",
+ "nobox": {
+  "z_final": 10.167924782702435,
+  "status": "not broken",
+  "rewrites": {
+   "13": {
+    "original": "I publish weekly as I walk through with the freedom of the mind, is I write a weekly for the Manitowoc Minute: thoughts from the front lines, and this is the intent of the full plenitude of my job.",
+    "rewrite": "I publish weekly as I walk through with the freedom of the mind, writing a weekly column for the Manitowoc Minute: thoughts from the front lines, which encapsulates the fullness of my job's intent."
+   },
+   "4": {
+    "original": "As the head of my company, State of Grace, I believe that together in a community in one space, we can facilitate transformation together by teaching and utilizing wellness and personal discovery.",
+    "rewrite": "As the head of State of Grace, I believe we can facilitate transformation through teaching and utilizing wellness and personal discovery when we come together in a community space."
+   },
+   "10": {
+    "original": "To me, Manitowoc has an unbelievable blend of creativity with the art scenes and the business communities as in a newer food or even brewery scene, but most importantly, its heart for causes.",
+    "rewrite": "In my view, Manitowoc combines incredible creativity through its art scenes and business communities, especially in new food and brewery establishments, alongside a strong commitment to causes."
+   },
+   "15": {
+    "original": "Film, especially as I walk through with the freedom of the mind, is love or believe it or not that people don\u2019t believe they can grow or even now think they deserve being shown attention.",
+    "rewrite": "Film, particularly when I explore it with the freedom of thought, is love\u2014whether you believe it or not, people often don't think they can grow or sometimes doubt that they deserve attention."
+   },
+   "7": {
+    "original": "I believe in teamwork, I believe in loving others, I believe in myself, and I believe in merging together to find our truths as Manitowoc County.",
+    "rewrite": "I Believe in teamwork, I Believe in loving others, I Believe in myself, and I Believe in combining together to discover our truths as Manitowoc County."
+   },
+   "20": {
+    "original": "I really truly love being a mom, but since this last relationship I tried, I finally let go and relinquished my need to be a mother.",
+    "rewrite": "I genuinely love being a mom, but after this last relationship, I finally let go and released my need to be a mother."
+   },
+   "16": {
+    "original": "It is my Wild Mind Fulfillment piece and part of the whole transformation is after a time known at the MF3 Yoga Movie Film Club.",
+    "rewrite": "It is my Wild Mind Fulfillment piece, and part of the transformation whole is later known at the MF3 Yoga Movie Film Club."
+   },
+   "5": {
+    "original": "Using the practice of yoga to bring people together, I believe meditation can be a powerful tool in helping find our happiness.",
+    "rewrite": "I believe that through yoga, meditation can serve as a powerful tool for finding happiness and bringing people together."
+   },
+   "6": {
+    "original": "It allows the mind to find our truth, and I believe that to find our truth, we have to be resourceful and resilient.",
+    "rewrite": "It enables the mind to discover our truth, and I believe we must be resourceful and resilient to find it."
+   },
+   "1": {
+    "original": "I truly feel we are in a unique situation here on the CGC Campus and we have over a hundred members and counting.",
+    "rewrite": "We are truly in a unique situation here on the CGC Campus, with over one hundred members and counting."
+   },
+   "12": {
+    "original": "I believe my job title is owner, but my job description and all the pieces I contribute has to start with me.",
+    "rewrite": "I believe my job title is owner, but all the pieces I contribute and my job description have to start with me."
+   },
+   "19": {
+    "original": "How much of each do you share, and how has that changed?",
+    "rewrite": "What percentage of each do you share, and how has that sharing changed?"
+   },
+   "14": {
+    "original": "What is the biggest challenge you\u2019ve experienced here?",
+    "rewrite": "What is the largest challenge you have faced here?"
+   },
+   "8": {
+    "original": "What do you love most about this county?",
+    "rewrite": "What aspects of this county do you love the most?"
+   },
+   "2": {
+    "original": "What is the main goal of your company?",
+    "rewrite": "What are the primary objectives of your company?"
+   },
+   "11": {
+    "original": "What do you love most about your job?",
+    "rewrite": "What aspects of your job do you love the most?"
+   }
+  },
+  "sentences_rewritten": 16,
+  "eligible": 16,
+  "per_sentence": [
+   {
+    "index": 13,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 15,
+    "survivors": 11,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 27,
+    "rewritten": true
+   },
+   {
+    "index": 20,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 16,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 19,
+    "survivors": 11,
+    "rewritten": true
+   },
+   {
+    "index": 14,
+    "survivors": 18,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 8,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 2,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 9,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "empowerment. We are truly in a unique situation here on the CGC Campus, with over one hundred members and counting.\nWhat are the primary objectives of your company? In a word: transformation. As the head of State of Grace, I believe we can facilitate transformation through teaching and utilizing wellness and personal discovery when we come together in a community space. I believe that through yoga, meditation can serve as a powerful tool for finding happiness and bringing people together. It enables the mind to discover our truth, and I believe we must be resourceful and resilient to find it. I Believe in teamwork, I Believe in loving others, I Believe in myself, and I Believe in combining together to discover our truths as Manitowoc County.\nWhat aspects of this county do you love the most? I absolutely love humor. In my view, Manitowoc combines incredible creativity through its art scenes and business communities, especially in new food and brewery establishments, alongside a strong commitment to causes.\nWhat aspects of your job do you love the most? I believe my job title is owner, but all the pieces I contribute and my job description have to start with me. I publish weekly as I walk through with the freedom of the mind, writing a weekly column for the Manitowoc Minute: thoughts from the front lines, which encapsulates the fullness of my job's intent.\nWhat is the largest challenge you have faced here? Film, particularly when I explore it with the freedom of thought, is love\u2014whether you believe it or not, people often don't think they can grow or sometimes doubt that they deserve attention. It is my Wild Mind Fulfillment piece, and part of the transformation whole is later known at the MF3 Yoga Movie Film Club.\nDo you work? Family life? What percentage of each do you share, and how has that sharing changed? I genuinely love being a mom, but after this last relationship, I finally let go and released my need to be a mother. This has truly helped understand that opportunities may seem to sometimes arise spontaneously, but after that little experience, I learned the power of naming the chance of choice and not dis",
+  "z0": 18.246314696398283,
+  "seconds": 530.1
+ }
+}

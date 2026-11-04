@@ -1,0 +1,107 @@
+{
+ "sample_id": "sta16_len500:144",
+ "nobox": {
+  "z_final": 12.482568490860857,
+  "status": "not broken",
+  "rewrites": {
+   "21": {
+    "original": "Clients sign initial nine-month contracts and may live in any of Silicon Valley\u2019s 452 square miles in order to qualify (the Hill Bar at the Rosewood hosting parties is located in Woodside, part of San Mateo County).",
+    "rewrite": "Clients sign initial nine-month contracts and can reside anywhere within Silicon Valley's 452 square miles to qualify (the Hill Bar at the Rosewood hosts parties in Woodside, which is part of San Mateo County)."
+   },
+   "20": {
+    "original": "Like any traditional matchmaker, Andersen screens her candidates for marital history, children, political views, and work history, particularly in large tech organizations.",
+    "rewrite": "Similar to any traditional matchmaker, Andersen evaluates her candidates for marital history, children, political views, and work history, especially in large tech companies."
+   },
+   "14": {
+    "original": "But wedding days, years, and careers don\u2019t always have romantic resolutions: Andersen and her husband were divorced eight years later.",
+    "rewrite": "Yet, wedding days, years, and careers do not always end in romantic resolutions: Andersen and her husband divorced eight years later."
+   },
+   "13": {
+    "original": "She met her husband on Nantucket at a wrassling competition with a luxury cruise ship to Antarctica as their prize.",
+    "rewrite": "She met her husband on Nantucket at a wrestling competition where a luxury cruise ship to Antarctica was their prize."
+   },
+   "12": {
+    "original": "Like many successful people in their late thirties, Andersen has had loads of personal success with finding love.",
+    "rewrite": "Similar to many successful people in their late thirties, Andersen has experienced significant personal success in finding love."
+   },
+   "11": {
+    "original": "Andersen honestly reports that many clients have been through several breakups with other Bay Area dates.",
+    "rewrite": "Andersen honestly reports that many clients have experienced multiple breakups with other Bay Area individuals."
+   },
+   "16": {
+    "original": "She stresses that her service is much more invested in finding long-term success as much as just hookups.",
+    "rewrite": "She emphasizes that her service is much more focused on long-term success than just providing hookups."
+   },
+   "15": {
+    "original": "Andersen says some of her male clients have already been through three divorces.",
+    "rewrite": "Andersen says that some of her male clients have gone through three divorces already."
+   },
+   "19": {
+    "original": "She can screen potential suitors a few times before suggesting someone new.",
+    "rewrite": "She can evaluate potential suitors a few times before suggesting someone new."
+   },
+   "17": {
+    "original": "But it\u2019s a plus when you\u2019re the \u201clove concierge.\u201d",
+    "rewrite": "But it's a plus if you're the \"love concierge.\""
+   }
+  },
+  "sentences_rewritten": 10,
+  "eligible": 10,
+  "per_sentence": [
+   {
+    "index": 21,
+    "survivors": 58,
+    "rewritten": true
+   },
+   {
+    "index": 20,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 14,
+    "survivors": 36,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 16,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 15,
+    "survivors": 27,
+    "rewritten": true
+   },
+   {
+    "index": 19,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 17,
+    "survivors": 33,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the technology sector, but never got involved in their love life. It changes you and your life. In such a volatile town, we have run into a lot of divorces and broken marriages because they were never married according to their heart,\u201d she says.\nAndersen says most of her services are second relationships, but some are firsts and come from \u201ctech-challenged women. I call them Paypals because I really only want to work with an Ivy League grad. And with a Paypal, I don\u2019t care if they\u2019re liberal or conservative, if they\u2019re religious or judgmental. But they three things have to be really clicking. We talk on a lot of different levels. We talk deep and we have dinner dates. I ask it\u2019s not about money or success. It\u2019s whether they\u2019re able to be kind.\nAndersen honestly reports that many clients have experienced multiple breakups with other Bay Area individuals. Similar to many successful people in their late thirties, Andersen has experienced significant personal success in finding love. She met her husband on Nantucket at a wrestling competition where a luxury cruise ship to Antarctica was their prize. Yet, wedding days, years, and careers do not always end in romantic resolutions: Andersen and her husband divorced eight years later.\nAndersen says that some of her male clients have gone through three divorces already. She emphasizes that her service is much more focused on long-term success than just providing hookups. But it's a plus if you're the \"love concierge.\" Andersen says. She can evaluate potential suitors a few times before suggesting someone new. Similar to any traditional matchmaker, Andersen evaluates her candidates for marital history, children, political views, and work history, especially in large tech companies.\nClients sign initial nine-month contracts and can reside anywhere within Silicon Valley's 452 square miles to qualify (the Hill Bar at the Rosewood hosts parties in Woodside, which is part of San Mateo County). \u201cWhen you\u2019re working for CEOs, they\u2019re going to understand that any company spending $50,000 is very, very serious about it,\u201d Andersen says. Linx clients range",
+  "z0": 15.831361280698511,
+  "seconds": 343.9
+ }
+}

@@ -13,6 +13,8 @@ All numbers read directly from result folders. 'broken' = span z <= 2.0 under th
 | STA-1 500-tok, no-box | 1 | 21 | 5% [1%, 23%] | 0 | n=21, small |
 | STA-16 200-tok, adaptive | 32 | 99 | 32% [24%, 42%] | 0 | robust variant |
 | STA-16 200-tok, no-box | 0 | 99 | 0% [0%, 4%] | 0 | robust variant |
+| STA-16 500-tok, adaptive | 16 | 53 | 30% [20%, 44%] | 0 | robust variant, n=53 |
+| STA-16 500-tok, no-box | 0 | 53 | 0% [-0%, 7%] | 0 | robust variant, n=53 |
 
 ## Headline: detector guidance vs blind paraphrase (same spans, same gates)
 
@@ -21,6 +23,7 @@ All numbers read directly from result folders. 'broken' = span z <= 2.0 under th
 | STA-1 200-tok | 76% [62-86] | 12% [9-17] | 46/241 |
 | STA-1 500-tok | 75% [67-81] | 5% [1-23] | 134/21 |
 | STA-16 (robust) 200-tok | 32% [24-42] | 0% [0-4] | 99/99 |
+| STA-16 (robust) 500-tok | 30% [20-44] | 0% [-0-7] | 53/53 |
 
 ## Supporting analyses (full detail in the named files)
 

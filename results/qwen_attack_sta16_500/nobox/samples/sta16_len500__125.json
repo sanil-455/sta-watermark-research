@@ -1,0 +1,62 @@
+{
+ "sample_id": "sta16_len500:125",
+ "nobox": {
+  "z_final": 13.667705936513645,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "It is entirely possible that Mr Swanson\u2019s kidnap-themed track is far more innocent than we accuse it of being, but if the children at North Syracuse High honestly get drunk on the fluid craftsmanship of flow in a context not remotely connected to Britney Spears\u2019 \u201cSwitch,\u201d would it be for causes of the better or possible for the foreseeable future?",
+    "rewrite": "It is entirely possible that Mr Swanson\u2019s kidnap-themed track is far more innocent than we suspect, but if the children at North Syracuse High genuinely appreciate the fluid craftsmanship of the flow in a context not related to Britney Spears\u2019 \u201cSwitch,\u201d would such appreciation serve a better purpose and be sustainable?"
+   },
+   "2": {
+    "original": "Other featured artists in Mr. Swanson\u2019s roster of K-12, Syracuse, and North Syracuse students include tastemaker \u201cGucci Thizz\u201d (sic), who, claims Swanson, is particularly inspired by \u201cStop Snitching\u201d by East Coast rap giants Yall So Cold.",
+    "rewrite": "Other featured artists in Mr. Swanson\u2019s roster of K-12, Syracuse, and North Syracuse students include tastemaker \u201cGucci Thizz\u201d (sic), according to Swanson, who is notably inspired by \u201cStop Snitching\u201d by East Coast rap giants Yall So Cold."
+   },
+   "3": {
+    "original": "Gucci\u2019s own SoundCloud, if linked to and not totally ruined by his crude username, would not have been spotted by us in any event as it would not exactly appear to be a top player for those above age fifteen.",
+    "rewrite": "If Gucci's SoundCloud had been linked to but not overshadowed by his crude username, we likely still would not have noticed it, as it wouldn't seem to attract players above the age of fifteen."
+   },
+   "1": {
+    "original": "It is unclear if the students love Mr. Swanson\u2019s hip-hop enough to listen to, say, Kendrick Lamar, but they sure do like listening to their teacher rap.",
+    "rewrite": "It's uncertain whether the students love Mr. Swanson's hip-hop enough to follow along to, for example, Kendrick Lamar, but they clearly enjoy listening to their teacher rap."
+   },
+   "8": {
+    "original": "One of the two pictures at the disposal of reviewers seems to be a detached head.",
+    "rewrite": "One of the two images available to the reviewers appears to be a detached head."
+   }
+  },
+  "sentences_rewritten": 5,
+  "eligible": 5,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 2,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 23,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "are trying to make learning fun and give them a visual which helps them remember their new found knowledge.\u201d It's uncertain whether the students love Mr. Swanson's hip-hop enough to follow along to, for example, Kendrick Lamar, but they clearly enjoy listening to their teacher rap.\nOther featured artists in Mr. Swanson\u2019s roster of K-12, Syracuse, and North Syracuse students include tastemaker \u201cGucci Thizz\u201d (sic), according to Swanson, who is notably inspired by \u201cStop Snitching\u201d by East Coast rap giants Yall So Cold. If Gucci's SoundCloud had been linked to but not overshadowed by his crude username, we likely still would not have noticed it, as it wouldn't seem to attract players above the age of fifteen. It is entirely possible that Mr Swanson\u2019s kidnap-themed track is far more innocent than we suspect, but if the children at North Syracuse High genuinely appreciate the fluid craftsmanship of the flow in a context not related to Britney Spears\u2019 \u201cSwitch,\u201d would such appreciation serve a better purpose and be sustainable? More loaded Swanson explorations, all set to beefy club remixes, are expected on \u201choliday\u201d soon as Swanson is in \u201cserious discussions\u201d with a producer about \u201cturning my teacher raps into big room bangers for the older students.\u201d Most currently, and perhaps unrelatedly, he has released, and is trying to sell, their \u201cNear Film Character\u201d \u2014 a gimcrack, Hasbro/Playmobil-style \u201cstep brother character that has to be glued together to work properly.\u201d The \u201cfun and tasteless violation scene,\u201d according to a listing on the website for Mr Swanson\u2019s FingerLakesGoods shop, is available in both \u201cgory and damaged sets.\u201d One of the two images available to the reviewers appears to be a detached head.\nPresent Swanson adjectives, harshly assessed or not, would by definition include inspiring, motivating, and relatable and are \u201cexpected to be able to go beyond the classroom,\u201d and level teachers and classrooms any",
+  "z0": 17.620215662698342,
+  "seconds": 305.2
+ }
+}

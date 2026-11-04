@@ -1,0 +1,143 @@
+{
+ "sample_id": "sta16_len500:110",
+ "nobox": {
+  "z_final": 11.43512934932821,
+  "status": "not broken",
+  "rewrites": {
+   "15": {
+    "original": "Dems and Republicans in Olympia are so partisan these days that joining forces to avoid a state budget shutdown, to revamp (or even compact down) permanent road construction funds, and plenty of other issues shows just how crazy things are getting.",
+    "rewrite": "These days, Dems and Republicans in Olympia are so partisan that cooperating to prevent a state budget shutdown, reform (or consolidation of) permanent road construction funds, and numerous other issues illustrate just how insane things have become."
+   },
+   "2": {
+    "original": "In an attempt to show support for school safety in Olympia, KSH tribes are doing a Green Light/Slow Down campaign, since the public bus service stops near neighborhoods where children often wait for the school bus.",
+    "rewrite": "In an effort to support school safety in Olympia, the KSH tribes are conducting a Green Light/Slow Down campaign, as the public bus service stops near areas where children frequently wait for their bus."
+   },
+   "1": {
+    "original": "But the outlook for Snoqualmie, Crystal Mountain and Stevens Pass is beginning to look grim for a second winter in a row, leading most ski resorts to run on artificial snow and approaching capacity.",
+    "rewrite": "But the outlook for Snoqualmie, Crystal Mountain, and Stevens Pass is looking progressively grim for a consecutive second winter, forcing most ski resorts to operate with artificial snow and near full capacity."
+   },
+   "11": {
+    "original": "Save the Children advocates were in Olympia last Thursday to voice support for children affected by plastic pollution nearly a world away, but something done here.",
+    "rewrite": "Save the Children advocates were in Olympia last Thursday to voice support for children impacted by plastic pollution nearly worldwide, but actions taken here can make a difference."
+   },
+   "9": {
+    "original": "From Soldier to Squishy Boo, Davy to Tank Man and tons in between, you could walk up and talk to a troop in Sicily today. 75 years on or is why or no longer?",
+    "rewrite": "From Soldier to Squishy Boo, Davy to Tank Man and countless others in between, one could walk up and talk to a troop in Sicily today. 75 years on or is it why or no longer?"
+   },
+   "12": {
+    "original": "Tracy Suangphak had her 6-month-old daughter testify about how dirty the plastic bottles are in Thailand, where she was born.",
+    "rewrite": "Tracy Suangphak had her 6-month-old daughter recount how dirty the plastic bottles are in Thailand, where she was born."
+   },
+   "5": {
+    "original": "City Center Market will have Irish food, beer and merchandise Saturday for a day long celebration with live music.",
+    "rewrite": "City Center Market will offer Irish food, beer, and merchandise on Saturday for a day-long celebration with live music."
+   },
+   "8": {
+    "original": "Kids have been calling their military service members by nick names the longest, since World War II apparently.",
+    "rewrite": "Since World War II, kids have been calling their military service members by nicknames for the longest time."
+   },
+   "3": {
+    "original": "All it takes is people letting up, pulling down, and signaling with their arms to make drivers aware we care.",
+    "rewrite": "All it takes are people lowering themselves, signaling with their arms, and indicating to let drivers know we care."
+   },
+   "7": {
+    "original": "Yet this town, acclaimed as being named for a likely Saginaw missionary George Nob in a 1858 survey.",
+    "rewrite": "Yet this town, which was acclaimed for possibly being named after a Saginaw missionary named George Nob in a 1858 survey."
+   },
+   "13": {
+    "original": "It would surprise her mother, Imelda Suangphak, how safe it had become a few hours away in Olympia.",
+    "rewrite": "It would surprise her mother, Imelda Suangphak, to find how safe it had become just a few hours away in Olympia."
+   },
+   "14": {
+    "original": "In Politics: At this rate they\u2019ll only get together for bills to let each side castigate the other.",
+    "rewrite": "In Politics: At this pace, they\u2019ll only come together for bills allowing each side to criticize the other."
+   },
+   "4": {
+    "original": "Local restaurants and brewers join in offering St. Paddy\u2019s part food, beverages and tunes in Yelm.",
+    "rewrite": "Local restaurants and brewers come together to offer St. Paddy\u2019s day food, beverages, and music in Yelm."
+   },
+   "6": {
+    "original": "It is the kidnap capital of the world; Harvard it\u2019s not.",
+    "rewrite": "It is the kidnap capital of the world; Harvard is not."
+   }
+  },
+  "sentences_rewritten": 14,
+  "eligible": 14,
+  "per_sentence": [
+   {
+    "index": 15,
+    "survivors": 36,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 59,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 32,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 23,
+    "rewritten": true
+   },
+   {
+    "index": 14,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 32,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the area has no snow; there\u2019s still plenty. But the outlook for Snoqualmie, Crystal Mountain, and Stevens Pass is looking progressively grim for a consecutive second winter, forcing most ski resorts to operate with artificial snow and near full capacity.\nIn an effort to support school safety in Olympia, the KSH tribes are conducting a Green Light/Slow Down campaign, as the public bus service stops near areas where children frequently wait for their bus. All it takes are people lowering themselves, signaling with their arms, and indicating to let drivers know we care.\nLocal restaurants and brewers come together to offer St. Paddy\u2019s day food, beverages, and music in Yelm. City Center Market will offer Irish food, beer, and merchandise on Saturday for a day-long celebration with live music. It is the kidnap capital of the world; Harvard is not. Yet this town, which was acclaimed for possibly being named after a Saginaw missionary named George Nob in a 1858 survey.\nSince World War II, kids have been calling their military service members by nicknames for the longest time. From Soldier to Squishy Boo, Davy to Tank Man and countless others in between, one could walk up and talk to a troop in Sicily today. 75 years on or is it why or no longer? Few missing pieces here.\nSave the Children advocates were in Olympia last Thursday to voice support for children impacted by plastic pollution nearly worldwide, but actions taken here can make a difference. Tracy Suangphak had her 6-month-old daughter recount how dirty the plastic bottles are in Thailand, where she was born. It would surprise her mother, Imelda Suangphak, to find how safe it had become just a few hours away in Olympia.\nIn Politics: At this pace, they\u2019ll only come together for bills allowing each side to criticize the other. These days, Dems and Republicans in Olympia are so partisan that cooperating to prevent a state budget shutdown, reform (or consolidation of) permanent road construction funds, and numerous other issues illustrate just how insane things have become. Then again, they need each other \u2013 any other session the two parties have held court, because",
+  "z0": 17.88854381999832,
+  "seconds": 564.9
+ }
+}

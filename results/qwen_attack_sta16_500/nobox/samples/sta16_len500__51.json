@@ -1,0 +1,53 @@
+{
+ "sample_id": "sta16_len500:51",
+ "nobox": {
+  "z_final": 11.584541980726982,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Cohen Reynolds has said Daniels filed a defamation suit because Texas law permits recovery of legal fees only for litigation with \"frivolous\" claims or complaints that aren't filed in good faith \u2014 requirements that generally don't exist in California and most other states.",
+    "rewrite": "Cohen Reynolds stated that Daniels filed a defamation suit as Texas law allows recovery of legal fees exclusively in cases with \"frivolous\" claims or those not brought in good faith \u2014 criteria which usually do not apply in California and many other states."
+   },
+   "9": {
+    "original": "Trump's attorneys are expected to ask the court to order them paid before they get the fees, citing a 2013 ruling that held such private parties responsible for payment, according to legal experts.",
+    "rewrite": "According to legal experts, Trump's attorneys are expected to ask the court to order payment before they receive the fees, based on a 2013 ruling that held private parties responsible for payment."
+   },
+   "2": {
+    "original": "Cohen Reynolds is part of the Los Angeles law firm Cohen Milstein Sellers & Toll PLLC, which represented Daniels with the other law firm, Glendon J. Mangione PC of Inglewood.",
+    "rewrite": "Cohen Reynolds is part of the Los Angeles law firm Cohen Milstein Sellers & Toll PLLC, which worked alongside another law firm, Glendon J. Mangione PC of Inglewood, to represent Daniels."
+   },
+   "10": {
+    "original": "Related: Mutual Funds Fail at Providing Friendly Service \u2013 But Are They Breaking the Rules?",
+    "rewrite": "Isolated: Mutual Funds May Fail in Offering Good Customer Service\u2014but Are They Violating Any Rules?"
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 17,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 58,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 37,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "work honestly and diligently with Defendant has also interfered with CGC's reputation as a credible litigation organization, which in turn could impact the image of Cohen Reynolds. The Court also notes that because CGC has no overseer location, any negative impact on CGC would inherently have harmful tendencies and bind the conduct of other similarly situated attorneys,\" he wrote.\nCohen Reynolds is part of the Los Angeles law firm Cohen Milstein Sellers & Toll PLLC, which worked alongside another law firm, Glendon J. Mangione PC of Inglewood, to represent Daniels.\nCohen Reynolds stated that Daniels filed a defamation suit as Texas law allows recovery of legal fees exclusively in cases with \"frivolous\" claims or those not brought in good faith \u2014 criteria which usually do not apply in California and many other states.\nRelated Meanwhile, In Puerto Rico: Unhappy With His Legal Team, Hurricane Survivor Sues\n\"Ms. Daniels prevailed on the merits of her defamation claim and is pleased that Trump apologized to her, and she is confident her attorneys won't be defamed, and the Danny is happy,\" Alan Lee, spokesman for Glendon J. Mangione PC, wrote in a statement.\nRelated: Watch: It\u2019s Still Bigger Than National Heads: How Hurricane Maria Coverage Deliberately Left Puerto Rico\u2019s People Behind\n\"CMS&T as lead counsel for Ms. Daniels will be appealing the court's decision denying Ms. Daniels' joinder request,\" Cohen Reynolds said in its own statement. \"It's work product is confidential and we cannot comment.\"\nAccording to legal experts, Trump's attorneys are expected to ask the court to order payment before they receive the fees, based on a 2013 ruling that held private parties responsible for payment.\nIsolated: Mutual Funds May Fail in Offering Good Customer Service\u2014but Are They Violating Any Rules?\nTrump tweeted in February 2018 that Daniels had filed a false lawsuit",
+  "z0": 14.13194961779867,
+  "seconds": 196.4
+ }
+}

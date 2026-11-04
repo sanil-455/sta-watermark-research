@@ -1,0 +1,197 @@
+{
+ "sample_id": "sta16_len500:156",
+ "nobox": {
+  "z_final": 11.107974467660318,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "I\u2019m visiting North County San Diego tribal neighborhoods and I asked US Representative Mike Levin to partner with the federal effort to protect Ivy, Azalea and Morgan Territories from the anarchy that has overrun Iraq.",
+    "rewrite": "I'm visiting tribal neighborhoods in North County San Diego and asked US Representative Mike Levin to partner with the federal effort to protect Ivy, Azalea, and Morgan Territories from the chaos that has overtaken Iraq."
+   },
+   "18": {
+    "original": "So, if Jenkins and David relaxed with me into cool breezes and quiet happiness on the French slope, Patrick L\u2019s vacations had a political and secure, and sometimes, violent sounding to them.",
+    "rewrite": "So, when Jenkins and David spent their time on the French slope enjoying cool breezes and quiet happiness, Patrick L\u2019s vacations seemed to have a political and secure tone, at times even sounding violent."
+   },
+   "15": {
+    "original": "True patriots, they are as big in lives spent on shore, no injuries brought on others war as much as their largest cruiser.",
+    "rewrite": "True patriots, their impact in lives spent on shore is just as great as that of their largest cruiser, with no injuries incurred in war."
+   },
+   "1": {
+    "original": "President Obama also released an updated fact sheet reflecting the plan to degrade and ultimately defeat ISIL.",
+    "rewrite": "President Obama also released an updated fact sheet highlighting the plan to degrade and ultimately defeat ISIL."
+   },
+   "11": {
+    "original": "He is the grandfather I know keeps the next generations safe from the horrors of divorce publish wrath.",
+    "rewrite": "He is the grandfather who keeps the next generations safe from the horrors of divorce and public wrath."
+   },
+   "16": {
+    "original": "This time Patrick L\u2019s sons flew in from Switzerland where they worked for his tanner.",
+    "rewrite": "This time, Patrick L's sons flew in from Switzerland, where they work for his tanner."
+   },
+   "10": {
+    "original": "On Sea Ranch BnB, Patrick and I were treated with a gourmet meal after a day of fun.",
+    "rewrite": "At Sea Ranch BnB, Patrick and I were treated to a gourmet meal following a day of fun."
+   },
+   "14": {
+    "original": "Leo, Kurt and Denny joined us: Patrick told TV news, he made a Griot example.",
+    "rewrite": "Leo, Kurt, and Denny joined us, as Patrick told TV news; he made a Griot example."
+   },
+   "3": {
+    "original": "Congressional Democrats offered many suggestions last week, on capitol hill.",
+    "rewrite": "Last week, Congressional Democrats proposed numerous suggestions on Capitol Hill."
+   },
+   "13": {
+    "original": "On Domaine de Terrasses, French Christina and Patrick Lammerszelt put me up.",
+    "rewrite": "At Domaine de Terrasses, Christina and Patrick Lammerszelt, who are French, housed me."
+   },
+   "19": {
+    "original": "Older than I, he worked with me when he was spelled off mopping up a bar.",
+    "rewrite": "Older than me, he worked with me when he was substituted for mopping up a bar."
+   },
+   "12": {
+    "original": "With young Clara Folau, I used spyware methods to ensure freedom.",
+    "rewrite": "With young Clara Folau, I utilized spyware techniques to guarantee freedom."
+   },
+   "17": {
+    "original": "We\u2019re all wearing known brands with their Kinetic collection oil.",
+    "rewrite": "We're all wearing recognized brands with their Kinetic collection oil."
+   },
+   "9": {
+    "original": "We saw the whales from a hilltop in Carlsbad, CA, built in 1912.",
+    "rewrite": "From a hilltop in Carlsbad, CA, built in 1912, we saw the whales."
+   },
+   "6": {
+    "original": "Cal to Baghdad, we can help if partisan warfare ends in D.C.",
+    "rewrite": "Cal to Baghdad, we can assist if partisan warfare stops in D.C."
+   },
+   "7": {
+    "original": "For various versions and the translated article, CLICK HERE.",
+    "rewrite": "FOR DIFFERENT VERSIONS AND THE TRANSLATED ARTICLE, CLICK HERE."
+   },
+   "2": {
+    "original": "Congressional Democrats also welcomed the announcement.",
+    "rewrite": "Congressional Democrats likewise expressed welcome for the announcement."
+   },
+   "21": {
+    "original": "He is the kind of protector Levi was with the teachers.",
+    "rewrite": "He is the type of protector Levi was for the teachers."
+   },
+   "8": {
+    "original": "I\u2019m close to three beach retreats\u2013 what freedom.",
+    "rewrite": "I\u2019m near three beach retreats\u2014what freedom."
+   },
+   "20": {
+    "original": "The main stairway was bleeding proud shows.",
+    "rewrite": "The main stairway displayed proud shows."
+   }
+  },
+  "sentences_rewritten": 20,
+  "eligible": 20,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 57,
+    "rewritten": true
+   },
+   {
+    "index": 18,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 15,
+    "survivors": 21,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 38,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 16,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 14,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 11,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 10,
+    "rewritten": true
+   },
+   {
+    "index": 19,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 21,
+    "rewritten": true
+   },
+   {
+    "index": 17,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 23,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 17,
+    "rewritten": true
+   },
+   {
+    "index": 21,
+    "survivors": 32,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 17,
+    "rewritten": true
+   },
+   {
+    "index": 20,
+    "survivors": 3,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "and Pakistan; bringing an end to the war in Iraq; and decimating al Qaeda\u2019s operatives in Yemen and Somalia.\nPresident Obama also released an updated fact sheet highlighting the plan to degrade and ultimately defeat ISIL.\nCongressional Democrats likewise expressed welcome for the announcement.\nLast week, Congressional Democrats proposed numerous suggestions on Capitol Hill.\nI'm visiting tribal neighborhoods in North County San Diego and asked US Representative Mike Levin to partner with the federal effort to protect Ivy, Azalea, and Morgan Territories from the chaos that has overtaken Iraq.\nFrom So. Cal to Baghdad, we can assist if partisan warfare stops in D.C.\nFOR DIFFERENT VERSIONS AND THE TRANSLATED ARTICLE, CLICK HERE.\nI\u2019m near three beach retreats\u2014what freedom. From a hilltop in Carlsbad, CA, built in 1912, we saw the whales.\nAt Sea Ranch BnB, Patrick and I were treated to a gourmet meal following a day of fun. He is the grandfather who keeps the next generations safe from the horrors of divorce and public wrath.\nWith young Clara Folau, I utilized spyware techniques to guarantee freedom.\nAt Domaine de Terrasses, Christina and Patrick Lammerszelt, who are French, housed me. Leo, Kurt, and Denny joined us, as Patrick told TV news; he made a Griot example.\nTrue patriots, their impact in lives spent on shore is just as great as that of their largest cruiser, with no injuries incurred in war. This time, Patrick L's sons flew in from Switzerland, where they work for his tanner. We're all wearing recognized brands with their Kinetic collection oil.\nSo, when Jenkins and David spent their time on the French slope enjoying cool breezes and quiet happiness, Patrick L\u2019s vacations seemed to have a political and secure tone, at times even sounding violent.\nOlder than me, he worked with me when he was substituted for mopping up a bar. The main stairway displayed proud shows.\nHe is the type of protector Levi was for the teachers. I understand that and sometimes it\u2019s",
+  "z0": 17.709658381798334,
+  "seconds": 542.6
+ }
+}

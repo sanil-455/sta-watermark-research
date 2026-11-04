@@ -1,0 +1,429 @@
+{
+ "sample_id": "sta16_len500:32",
+ "source": "results/raw/sta16_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.2168421052631579,
+ "needed_share": 0.8893035654703074,
+ "delta_needed": null,
+ "segmentation": {
+  "chars": 1900,
+  "segments": 18,
+  "eligible": 3,
+  "skipped": 15,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 13,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 412,
+  "eligible_char_share": 0.2168421052631579
+ },
+ "attack": {
+  "z0": 18.0674292581983,
+  "z_final": 14.43057576696328,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 4,
+  "queries": 449,
+  "seconds": 466.3,
+  "seconds_by_phase": {
+   "generate": 428.8,
+   "gates": 37.2,
+   "detector": 0.3
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 219,
+    "z_before": 18.0674292581983,
+    "z_after": 16.42028448518044,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 47,
+     "after_content": 46,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "CJK text": 9,
+      "unknown word": 4,
+      "quotation changed": 1,
+      "meaning too different": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 43,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 55.23
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 140,
+    "z_before": 16.42028448518044,
+    "z_after": 15.440003263840381,
+    "accepted": true,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "CJK text": 6,
+      "unknown word": 1,
+      "meaning too different": 7
+     }
+    },
+    "queries_total": 89,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.11
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 53,
+    "z_before": 15.440003263840381,
+    "z_after": 14.759965499025277,
+    "accepted": true,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 24,
+     "after_spelling": 24,
+     "after_content": 24,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 34,
+      "several lines": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 112,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.23
+   },
+   {
+    "pass": 2,
+    "segment": 11,
+    "chars": 219,
+    "z_before": 14.759965499025277,
+    "z_after": 14.847401931972968,
+    "accepted": false,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "hit length limit": 1,
+      "CJK text": 6,
+      "unknown word": 6,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 158,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 59.57
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 140,
+    "z_before": 14.759965499025277,
+    "z_after": 14.6403078472205,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 3,
+      "meaning too different": 12
+     }
+    },
+    "queries_total": 200,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.27
+   },
+   {
+    "pass": 2,
+    "segment": 10,
+    "chars": 53,
+    "z_before": 14.6403078472205,
+    "z_after": 14.729306679118498,
+    "accepted": false,
+    "survivors": 21,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 25,
+     "after_spelling": 25,
+     "after_content": 25,
+     "after_semantic": 25,
+     "fluency_skipped": false,
+     "after_fluency": 21,
+     "rejected": {
+      "duplicate": 35,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 221,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.27
+   },
+   {
+    "pass": 3,
+    "segment": 11,
+    "chars": 219,
+    "z_before": 14.6403078472205,
+    "z_after": 14.43057576696328,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 3,
+      "quotation changed": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 274,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.9
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 140,
+    "z_before": 14.43057576696328,
+    "z_after": 14.608409307312,
+    "accepted": false,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 4,
+      "meaning too different": 12,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 313,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.6
+   },
+   {
+    "pass": 3,
+    "segment": 10,
+    "chars": 53,
+    "z_before": 14.43057576696328,
+    "z_after": 14.489720494198636,
+    "accepted": false,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 32,
+     "after_spelling": 31,
+     "after_content": 31,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "duplicate": 27,
+      "several lines": 1,
+      "unknown word": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 341,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.03
+   },
+   {
+    "pass": 4,
+    "segment": 11,
+    "chars": 219,
+    "z_before": 14.43057576696328,
+    "z_after": 14.637832115182155,
+    "accepted": false,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 53,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 3,
+      "quotation changed": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 390,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.44
+   },
+   {
+    "pass": 4,
+    "segment": 2,
+    "chars": 140,
+    "z_before": 14.43057576696328,
+    "z_after": 14.578242380528339,
+    "accepted": false,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 1,
+      "meaning too different": 6,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 438,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.31
+   },
+   {
+    "pass": 4,
+    "segment": 10,
+    "chars": 53,
+    "z_before": 14.43057576696328,
+    "z_after": 14.43057576696328,
+    "accepted": false,
+    "survivors": 24,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 24,
+     "rejected": {
+      "duplicate": 29,
+      "CJK text": 1,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 449,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.84
+   }
+  ],
+  "rewrites": {
+   "11": {
+    "original": "Those with crowns on the travel today were a mark of respect from those Geordies - one of the other \"seven\" clubs it has crowned them - which brought the Sunderland winger to tears before they were pulled from his head.",
+    "rewrite": "The crowning of those Geordie supporters today marked a show of respect for the Sunderland winger, a moment that brought him to tears before the crowns were removed from his head; among the \u201cseven\u201d clubs to have done so."
+   },
+   "2": {
+    "original": "Cattermole may be overjoyed by what has unfolded but he has insists that points on the board can not be squandered in similar fashion again.",
+    "rewrite": "Cattermole might be exceedingly pleased with how events have progressed, yet he has stressed that points should not be wasted in the same manner again."
+   },
+   "10": {
+    "original": "Cattermole's admiration for Sunderland fans is clear.",
+    "rewrite": "It is obvious that Cattermole holds Sunderland fans in high regard."
+   }
+  },
+  "final_span": "the country already. He's a quality finisher, keeps going forward and giving a 100 per cent run-a-thon, he's just brilliant.\"\nCattermole might be exceedingly pleased with how events have progressed, yet he has stressed that points should not be wasted in the same manner again.\n\"We're going to have ups and downs but the aim is to be getting to the top end of the table and not away,\" said Cattermole.\n\"We have got to play at games and not just turn up, have three or four players out of position but come away with results.\n\"We have got to be more consistent but there have been signs of improvement. I think the manager has adapted well, he's not just some guy who said he was here.\n\"He's a rapport with the rest of the team. We know what to do but when it comes to the nitty gritty stuff he's explaining to us how he wants us to play. We know what it means to play for Sunderland Football Club and the fans.\"\nIt is obvious that Cattermole holds Sunderland fans in high regard.\nThe crowning of those Geordie supporters today marked a show of respect for the Sunderland winger, a moment that brought him to tears before the crowns were removed from his head; among the \u201cseven\u201d clubs to have done so.\n\"It feels like Wembley when you play the other teams in your city, especially Newcastle, and the fans were amazing.\n\"To hear every chant they were singing as I'm celebrating my 50th plus is the greatest feeling ever. We can bottle that up this week, bring it back into next week and the whole season.\"\nOn meeting Jonny Williams for the first time: \"It's a shame it had to be at Burton where I tied a neck-thug which is out of the way.\n\"We're both very competitive people so when you meet a new person you want to beat them but the boys were telling me he's a top guy.\n\"He's got good quality, I watched a few things this week and it looked like a real contradiction in styles, he just carries it and doesn't take any marks and",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 3,
+   "eligible": 3,
+   "segments": 18,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 16.666666666666668
+  },
+  "tokens": {
+   "original": 501,
+   "final": 502,
+   "length_change": 1,
+   "pct_not_preserved": 12.17564870259481,
+   "pct_new": 12.350597609561753
+  },
+  "words": {
+   "original": 362,
+   "final": 364,
+   "length_change": 2,
+   "pct_not_preserved": 13.53591160220995,
+   "pct_new": 14.010989010989006
+  },
+  "characters": {
+   "original": 1900,
+   "final": 1926,
+   "length_change": 26,
+   "pct_not_preserved": 9.894736842105267,
+   "pct_new": 11.111111111111116
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 452,
+   "green_after": 412,
+   "pairs_before": 500,
+   "pairs_after": 501,
+   "pairs_changed_before": 80,
+   "pairs_changed_after": 81,
+   "green_fraction_of_new_pairs": 0.41975308641975306,
+   "delta_achieved": 0.08024691358024694
+  }
+ }
+}

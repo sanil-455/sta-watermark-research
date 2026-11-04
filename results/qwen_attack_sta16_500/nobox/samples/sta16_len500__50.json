@@ -1,0 +1,94 @@
+{
+ "sample_id": "sta16_len500:50",
+ "nobox": {
+  "z_final": 12.46480073988469,
+  "status": "not broken",
+  "rewrites": {
+   "10": {
+    "original": "Bills now go for years without payment and the insurance company sends it back, but the hall way of the office we known at kosher gourmet, is still forbidden for tzibur so you dont walk in only walk over it.",
+    "rewrite": "Bills often stay unpaid for years, and the insurance company returns them, but the passage outside the office at Kosher Gourmet remains off-limits to the public; one can walk over it but not into it."
+   },
+   "8": {
+    "original": "Compassion, I once followed your teachings years ago, and saw the signs of the times when he made no sense and plundered nearly everyone he got his hands on through his bogus business.",
+    "rewrite": "compassion, i used to follow your teachings many years ago and observed the signs of the times when he acted without logic and exploited nearly everyone he contacted through his fraudulent business."
+   },
+   "12": {
+    "original": "The other day i saw the Charie and Yoil Engel and i told them about how he treated me and ripped off so many people its a wonder he didn\u2019t end up bip. ???? ???????",
+    "rewrite": "The other day I saw Charlie and Yoil Engel and I told them about how he treated me and ripped off so many people, it's a wonder he didn't end up in big trouble. ???? ???????"
+   },
+   "7": {
+    "original": "By getting no credit and all the credit or accolades one can get by recognizing or praising those around us, he has had only one purpose and his great reward.",
+    "rewrite": "By receiving no credit and yet gathering all the accolades that come from acknowledging or praising those around him, he has pursued one purpose exclusively and reaped his great reward."
+   },
+   "1": {
+    "original": "HaShem has opened the way to us- The \u201cvoucher program\u201d was a policy approved by the community\u2019s Rabbanim and is according to all.",
+    "rewrite": "The \"voucher program\" has been opened for us by HaShem - it was approved by the community\u2019s Rabbanim and conforms to all."
+   },
+   "3": {
+    "original": "I learned from the BoimelYeshiva in Renueila, should have merit to be a refuel to my ancestors on the other side.",
+    "rewrite": "I gained knowledge from the BoimelYeshiva in Renueila and hope it merits to be a refuel for my ancestors on the other side."
+   },
+   "9": {
+    "original": "So many people got burned including scores of businessmen that were getting stone cold treatment.",
+    "rewrite": "So many people were burned, including dozens of businessmen who received cold treatment."
+   },
+   "6": {
+    "original": "He was a man with emunas chachomim whose name, wealth were not his own but loads shared by all.",
+    "rewrite": "He was a man with chachomim emunas whose name and wealth belonged to all, not just to him."
+   }
+  },
+  "sentences_rewritten": 8,
+  "eligible": 9,
+  "per_sentence": [
+   {
+    "index": 10,
+    "survivors": 1,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 11,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 3,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 27,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 4,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 4,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 0,
+    "rewritten": false
+   }
+  ],
+  "queries": 1,
+  "final_span": "the opportunity to have it reinstituted, to let the recipients be proud who wont be ashamed to show the tomchei boxes on kos this is the credit system that Rabbi Hershkowitz zt\u201dl and his partners put up.\nThe \"voucher program\" has been opened for us by HaShem - it was approved by the community\u2019s Rabbanim and conforms to all.\nI don\u2019t represent my community- I don\u2019t even know anyone at the office there, but l know that Rabbi Hershkowitz zt\u201dl left a will in type for us -\u201cLeave my boxes out- no delivery requests\u201d. I gained knowledge from the BoimelYeshiva in Renueila and hope it merits to be a refuel for my ancestors on the other side.\nI am only responding to a question that Hashem has let me see, Rabbi Hershkowitz zt\u201dl may be resting from this world, but tomchei shabbos Boro park cannot close, and let the recipients that Hashem has opened the way to us now.\nNo one is here to mince words. He was a man with chachomim emunas whose name and wealth belonged to all, not just to him. By receiving no credit and yet gathering all the accolades that come from acknowledging or praising those around him, he has pursued one purpose exclusively and reaped his great reward.\ncompassion, i used to follow your teachings many years ago and observed the signs of the times when he acted without logic and exploited nearly everyone he contacted through his fraudulent business. So many people were burned, including dozens of businessmen who received cold treatment. Bills often stay unpaid for years, and the insurance company returns them, but the passage outside the office at Kosher Gourmet remains off-limits to the public; one can walk over it but not into it.\nI can personally verify that. The other day I saw Charlie and Yoil Engel and I told them about how he treated me and ripped off so many people, it's a wonder he didn't end up in big trouble. ???? ???????\nHe shows how anyone who will not learn from past experience that made a career ri",
+  "z0": 19.051299168298208,
+  "seconds": 322.9
+ }
+}

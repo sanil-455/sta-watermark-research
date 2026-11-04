@@ -1,0 +1,765 @@
+{
+ "sample_id": "sta16_len500:143",
+ "source": "results/raw/sta16_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.7565217391304347,
+ "needed_share": 0.869235790789486,
+ "delta_needed": 0.050954524732764184,
+ "segmentation": {
+  "chars": 2300,
+  "segments": 11,
+  "eligible": 8,
+  "skipped": 3,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "URL, hashtag or handle": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1740,
+  "eligible_char_share": 0.7565217391304347
+ },
+ "attack": {
+  "z0": 15.29470496609856,
+  "z_final": 3.9010392199880246,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 1074,
+  "seconds": 1190.9,
+  "seconds_by_phase": {
+   "generate": 1092.9,
+   "gates": 97.2,
+   "detector": 0.7
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 320,
+    "z_before": 15.29470496609856,
+    "z_after": 14.1343313975464,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 15,
+      "unknown word": 3
+     }
+    },
+    "queries_total": 42,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 80.09
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 289,
+    "z_before": 14.1343313975464,
+    "z_after": 11.961425383755708,
+    "accepted": true,
+    "survivors": 59,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 59,
+     "fluency_skipped": false,
+     "after_fluency": 59,
+     "rejected": {
+      "CJK text": 1
+     }
+    },
+    "queries_total": 101,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.38
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 278,
+    "z_before": 11.961425383755708,
+    "z_after": 9.764727369282845,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 52,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "CJK text": 5,
+      "several lines": 1,
+      "unknown word": 2,
+      "negation count changed": 7,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 145,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 60.08
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 275,
+    "z_before": 9.764727369282845,
+    "z_after": 8.477808645907249,
+    "accepted": true,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 2,
+      "negation count changed": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 199,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 56.81
+   },
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 207,
+    "z_before": 8.477808645907249,
+    "z_after": 7.094409430057609,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 60,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "negation count changed": 4,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 254,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.63
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 172,
+    "z_before": 7.094409430057609,
+    "z_after": 5.924024774564363,
+    "accepted": true,
+    "survivors": 56,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 56,
+     "rejected": {
+      "duplicate": 1,
+      "CJK text": 1,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 310,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.41
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 108,
+    "z_before": 5.924024774564363,
+    "z_after": 5.381366016589001,
+    "accepted": true,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 21,
+     "after_spelling": 19,
+     "after_content": 19,
+     "after_semantic": 19,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "CJK text": 11,
+      "duplicate": 27,
+      "hit length limit": 1,
+      "unknown word": 2
+     }
+    },
+    "queries_total": 329,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 24.83
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 91,
+    "z_before": 5.381366016589001,
+    "z_after": 4.748264132284413,
+    "accepted": true,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 38,
+     "after_spelling": 38,
+     "after_content": 35,
+     "after_semantic": 35,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "duplicate": 20,
+      "CJK text": 1,
+      "several lines": 1,
+      "negation count changed": 3
+     }
+    },
+    "queries_total": 364,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.57
+   },
+   {
+    "pass": 2,
+    "segment": 6,
+    "chars": 320,
+    "z_before": 4.748264132284413,
+    "z_after": 4.626813958590447,
+    "accepted": true,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 42,
+     "after_spelling": 39,
+     "after_content": 39,
+     "after_semantic": 39,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "CJK text": 17,
+      "several lines": 1,
+      "unknown word": 3
+     }
+    },
+    "queries_total": 403,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 81.15
+   },
+   {
+    "pass": 2,
+    "segment": 8,
+    "chars": 289,
+    "z_before": 4.626813958590447,
+    "z_after": 4.386491626967505,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "CJK text": 4,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 458,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 45.21
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 278,
+    "z_before": 4.386491626967505,
+    "z_after": 4.55487518674277,
+    "accepted": false,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 54,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 2,
+      "negation count changed": 3
+     }
+    },
+    "queries_total": 509,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 57.98
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 275,
+    "z_before": 4.386491626967505,
+    "z_after": 4.14064337225894,
+    "accepted": true,
+    "survivors": 56,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 60,
+     "after_content": 59,
+     "after_semantic": 59,
+     "fluency_skipped": false,
+     "after_fluency": 56,
+     "rejected": {
+      "negation count changed": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 565,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.19
+   },
+   {
+    "pass": 2,
+    "segment": 9,
+    "chars": 207,
+    "z_before": 4.14064337225894,
+    "z_after": 4.016632088371218,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 2,
+      "negation count changed": 4,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 617,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.09
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 172,
+    "z_before": 4.016632088371218,
+    "z_after": 3.9010392199880246,
+    "accepted": true,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "duplicate": 2,
+      "CJK text": 1,
+      "unknown word": 3,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 670,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.69
+   },
+   {
+    "pass": 2,
+    "segment": 7,
+    "chars": 108,
+    "z_before": 3.9010392199880246,
+    "z_after": 3.9423463135361607,
+    "accepted": false,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 25,
+     "after_spelling": 25,
+     "after_content": 25,
+     "after_semantic": 25,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "CJK text": 6,
+      "duplicate": 28,
+      "hit length limit": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 693,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 28.18
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 91,
+    "z_before": 3.9010392199880246,
+    "z_after": 3.9504664999225487,
+    "accepted": false,
+    "survivors": 33,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 34,
+     "after_content": 33,
+     "after_semantic": 33,
+     "fluency_skipped": false,
+     "after_fluency": 33,
+     "rejected": {
+      "duplicate": 25,
+      "CJK text": 1,
+      "negation count changed": 1
+     }
+    },
+    "queries_total": 726,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.26
+   },
+   {
+    "pass": 3,
+    "segment": 6,
+    "chars": 320,
+    "z_before": 3.9010392199880246,
+    "z_after": 4.0,
+    "accepted": false,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "CJK text": 10,
+      "unknown word": 6
+     }
+    },
+    "queries_total": 770,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 71.44
+   },
+   {
+    "pass": 3,
+    "segment": 8,
+    "chars": 289,
+    "z_before": 3.9010392199880246,
+    "z_after": 4.166603773110234,
+    "accepted": false,
+    "survivors": 58,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 59,
+     "fluency_skipped": false,
+     "after_fluency": 58,
+     "rejected": {
+      "CJK text": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 828,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 46.01
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 278,
+    "z_before": 3.9010392199880246,
+    "z_after": 3.9171926605987815,
+    "accepted": false,
+    "survivors": 57,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 57,
+     "rejected": {
+      "CJK text": 2,
+      "negation count changed": 1
+     }
+    },
+    "queries_total": 885,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 56.02
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 275,
+    "z_before": 3.9010392199880246,
+    "z_after": 3.910359202286804,
+    "accepted": false,
+    "survivors": 59,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 60,
+     "after_content": 60,
+     "after_semantic": 60,
+     "fluency_skipped": false,
+     "after_fluency": 59,
+     "rejected": {
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 944,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.34
+   },
+   {
+    "pass": 3,
+    "segment": 9,
+    "chars": 207,
+    "z_before": 3.9010392199880246,
+    "z_after": 4.024719121650597,
+    "accepted": false,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "duplicate": 2,
+      "negation count changed": 3
+     }
+    },
+    "queries_total": 999,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.7
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 172,
+    "z_before": 3.9010392199880246,
+    "z_after": 4.099387668068492,
+    "accepted": false,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 1,
+      "unknown word": 4,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 1050,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.75
+   },
+   {
+    "pass": 3,
+    "segment": 7,
+    "chars": 108,
+    "z_before": 3.9010392199880246,
+    "z_after": 3.9423463135361607,
+    "accepted": false,
+    "survivors": 21,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 23,
+     "after_spelling": 22,
+     "after_content": 22,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 21,
+     "rejected": {
+      "CJK text": 10,
+      "duplicate": 27,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 1059,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.19
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 91,
+    "z_before": 3.9010392199880246,
+    "z_after": 4.0,
+    "accepted": false,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 34,
+     "after_content": 33,
+     "after_semantic": 33,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "several lines": 2,
+      "duplicate": 24,
+      "negation count changed": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 1074,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 22.96
+   }
+  ],
+  "rewrites": {
+   "6": {
+    "original": "For the D\u0103\u021bi \u0219i Realit\u0103\u021bi (which also covers European matters) it would be more appropriate to add that Romania needs the environmental and ecological expertise of the Climate Accountability Film Institute (more about this institute at the end of the follow-up article called Environmental Destruction of Ro\u0219ia Montan\u0103).",
+    "rewrite": "For the D\u0103\u021bi \u0219i Realit\u0103\u021bi (which similarly addresses European issues), it would be more suitable to note that Romania could benefit from the environmental and ecological knowledge of the Climate Accountability Film Institute (learn more about this institute towards the conclusion of the subsequent article on Environmental Destruction of Ro\u0219ia Montan\u0103)."
+   },
+   "8": {
+    "original": "GoldCorp, and many other mining companies, have already faced this issue in previous arbitrations, because they knew that governments preferred to work toward solutions that would meet their citizens' concerns, instead of destroying the community by mining operations in a particular area.",
+    "rewrite": "GoldCorp, along with numerous other mining firms, has encountered this challenge in prior arbitrations, since they understood that governments tended to seek resolutions addressing their citizens' worries rather than jeopardizing the community through mining activities in specific regions."
+   },
+   "1": {
+    "original": "Romania's failure to protect this area, which notably includes Ro\u0219ia Montan\u0103 and the surrounding mountains, is already evident in its application for an official protection status, because Ro\u0219ia Montan\u0103 has never been classified as part of the protected built cultural heritage.",
+    "rewrite": "Romania's ineffectiveness in securing protection for this region, highlighted by Ro\u0219ia Montan\u0103 and the adjacent mountains, clearly shows in its bid for official protection, as Ro\u0219ia Montan\u0103 is not recognized as part of the safeguarded cultural heritage."
+   },
+   "4": {
+    "original": "CEO also noted that Romania is sensitive to these options in merit three time more annual public spending what has been the Romanian public expenditure with ICSID versus the public expenditure on hospitalizations or the cost of incarcerations, and this will not be exclusive.",
+    "rewrite": "The CEO also observed that Romania is particularly responsive to these options, allocating three times more annual public spending than the spending on ICSID, hospitalizations, or imprisonments, and this will not be an exception."
+   },
+   "9": {
+    "original": "GoldCorp would know precisely why Gabriel Resources can not defend the case against the Romanian state and why a presence of the public in their trial will be beneficial rather than harmful to their efforts.",
+    "rewrite": "GoldCorp understands clearly why Gabriel Resources cannot defend against the Romanian state's case, and they recognize that public presence at their trial will benefit rather than harm their situation."
+   },
+   "3": {
+    "original": "ICSID expects that in both cases, Gabriel Resources will be able to base its demands on complaints that Romania violated articles 2 and 3 of the BIT UK and the BIT Cananda.",
+    "rewrite": "ICSID anticipates that Gabriel Resources can justify its claims on the basis of complaints about Romania\u2019s violation of articles 2 and 3 of both the UK BIT and the Canadian BIT."
+   },
+   "7": {
+    "original": "It would now be more appropriate to have Gabriel Resources as defendant in arbitrations rather than Romania.",
+    "rewrite": "It is now more suitable to consider Gabriel Resources as the defendant in arbitrations instead of Romania."
+   },
+   "2": {
+    "original": "In addition, its status as an important non-natural site has never been established either.",
+    "rewrite": "Furthermore, its significance as a crucial non-natural site has also never been confirmed."
+   }
+  },
+  "final_span": "the Ro\u0219ia Montan\u0103 project, to the extent of intensifying the disputes caused by the project. Romania's ineffectiveness in securing protection for this region, highlighted by Ro\u0219ia Montan\u0103 and the adjacent mountains, clearly shows in its bid for official protection, as Ro\u0219ia Montan\u0103 is not recognized as part of the safeguarded cultural heritage. Furthermore, its significance as a crucial non-natural site has also never been confirmed. ICSID anticipates that Gabriel Resources can justify its claims on the basis of complaints about Romania\u2019s violation of articles 2 and 3 of both the UK BIT and the Canadian BIT.\nThe CEO also observed that Romania is particularly responsive to these options, allocating three times more annual public spending than the spending on ICSID, hospitalizations, or imprisonments, and this will not be an exception. To raise public awareness, TeZei.net wrote on February 17, 2017 that approving ICSID to resolve possible arbitration for Gabriel Resources versus Romania is very convenient, because ICSID can be present to resolve any possible arbitration case between Romania and the Ro\u0219ia Montan\u0103 gold company.\nFor the D\u0103\u021bi \u0219i Realit\u0103\u021bi (which similarly addresses European issues), it would be more suitable to note that Romania could benefit from the environmental and ecological knowledge of the Climate Accountability Film Institute (learn more about this institute towards the conclusion of the subsequent article on Environmental Destruction of Ro\u0219ia Montan\u0103). It is now more suitable to consider Gabriel Resources as the defendant in arbitrations instead of Romania. GoldCorp, along with numerous other mining firms, has encountered this challenge in prior arbitrations, since they understood that governments tended to seek resolutions addressing their citizens' worries rather than jeopardizing the community through mining activities in specific regions.\nGoldCorp understands clearly why Gabriel Resources cannot defend against the Romanian state's case, and they recognize that public presence at their trial will benefit rather than harm their situation.\nIf journalists are willing to publish more articles prior to the hearing in September that might facilitate a clear and well informed judgment about what companies",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 8,
+   "eligible": 8,
+   "segments": 11,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 72.72727272727273
+  },
+  "tokens": {
+   "original": 501,
+   "final": 487,
+   "length_change": -14,
+   "pct_not_preserved": 29.540918163672657,
+   "pct_new": 27.515400410677614
+  },
+  "words": {
+   "original": 358,
+   "final": 335,
+   "length_change": -23,
+   "pct_not_preserved": 39.94413407821229,
+   "pct_new": 35.820895522388064
+  },
+  "characters": {
+   "original": 2300,
+   "final": 2260,
+   "length_change": -40,
+   "pct_not_preserved": 23.739130434782606,
+   "pct_new": 22.389380530973447
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 421,
+   "green_after": 286,
+   "pairs_before": 500,
+   "pairs_after": 486,
+   "pairs_changed_before": 227,
+   "pairs_changed_after": 213,
+   "green_fraction_of_new_pairs": 0.3286384976525822,
+   "delta_achieved": 0.17136150234741782
+  }
+ }
+}

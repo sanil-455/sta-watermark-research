@@ -1,0 +1,84 @@
+{
+ "sample_id": "sta16_len500:140",
+ "source": "results/raw/sta16_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.0,
+ "needed_share": 0.89352057250001,
+ "delta_needed": null,
+ "segmentation": {
+  "chars": 2131,
+  "segments": 10,
+  "eligible": 0,
+  "skipped": 10,
+  "skip_reasons": {
+   "quotation": 8,
+   "no final punctuation": 1,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 0,
+  "eligible_char_share": 0.0
+ },
+ "attack": {
+  "z0": 18.78297101099823,
+  "z_final": 18.78297101099823,
+  "status": "no eligible text",
+  "reason": "no eligible text",
+  "passes": 0,
+  "queries": 1,
+  "seconds": 0.0,
+  "seconds_by_phase": {
+   "generate": 0.0,
+   "gates": 0.0,
+   "detector": 0.0
+  },
+  "steps": [],
+  "rewrites": {},
+  "final_span": "Mayor, we have got to discuss it,\" Crs Light and Maddern said hours after.\n\"It's going to have ramifications that affect this council for a long period of time if the motion was passed, and the way this council has gone in meetings about CEO, basically giving her a character assassination - it's very defamatory.\n\"Our press release went about CEO issues that named names but the press release is still there, we still put it on the site, and I had a call with a journalist last week because since 2017 and the new government we have been getting a lot of phone calls from newspapers asking about CEO, asking about what three councillors did in bringing a CEO into council what were they charged for and nobody is answering any of these questions.\"\nCrs Light and Maddern said their decision to leave the chamber was a move of conscience,\n\"Reluctantly, honestly, we have stayed in line because in a sense of our duty but once that motion went forward, we just couldn't stomach that because basically we would become no different from the other councils or the other night when her name was bandied around, defamed, and I think that is the only time that Cr Edmondson and his team of four should have shown some degree of manners or civility about this council meeting,\" he said.\n\"And I'm very glad I took the stance because something has to be done and we are throwing mud at everyone here.\n\"It's not fair and quite frankly, we have been no different by naming names on that press release as well and we do understand that and how council works and we want to move forward, we don't want to stall this council for another year or leave the hall here and if a CEO can serve for three, we can stay for another year, but another year would bring in a properly elected Milestone council and we believe choosing one over our own team of four is the better move.\n\"We are just looking for nothing more than transparency and doing the best out of the office.\n\"Sadly, she is here now for another year, and we have got to move forward, we can't throw mud at everyone throughout this council.\"\nCrs Light and Leanne Donaldson also echoed Fraser",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 0,
+   "eligible": 0,
+   "segments": 10,
+   "pct_of_eligible": 0.0,
+   "pct_of_segments": 0.0
+  },
+  "tokens": {
+   "original": 501,
+   "final": 501,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "words": {
+   "original": 390,
+   "final": 390,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "characters": {
+   "original": 2131,
+   "final": 2131,
+   "length_change": 0,
+   "pct_not_preserved": 0.0,
+   "pct_new": 0.0
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 460,
+   "green_after": 460,
+   "pairs_before": 500,
+   "pairs_after": 500,
+   "pairs_changed_before": 0,
+   "pairs_changed_after": 0,
+   "green_fraction_of_new_pairs": null,
+   "delta_achieved": null
+  }
+ }
+}

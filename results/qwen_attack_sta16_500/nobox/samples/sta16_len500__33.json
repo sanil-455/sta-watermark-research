@@ -1,0 +1,130 @@
+{
+ "sample_id": "sta16_len500:33",
+ "nobox": {
+  "z_final": 13.053133946873066,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "So send him down to Midgard and then another well...replace your favorite God\u2019s son with a puppet; Loki\u2019s going to have him kidnap Hel, daughter of the Frost Giants, to force Frigga to release Balder instead.",
+    "rewrite": "So send him to Midgard, and then another...substitute your favorite God's son with a puppet; Loki plans to have him kidnap Hel, the daughter of the Frost Giants, to force Frigga to release Balder instead."
+   },
+   "5": {
+    "original": "He finally realizes he stepped outside the moral boundary when he discovers Sif\u2019s golden hair thou and all the puppet deaths, and remembers Nanna wringing the wrath of the gods out of her hands.",
+    "rewrite": "He eventually realizes he crossed the moral boundary when he finds Sif\u2019s golden hair and all the puppet deaths, remembering Nanna drawing the wrath of the gods into her hands."
+   },
+   "2": {
+    "original": "See I really suck at explaining what my Husband does, but he\u2019s probably trying to make us understand that killing Balder for him to mourn him would not be as bad as killing him would it.",
+    "rewrite": "I actually struggle to explain what my husband does, but he might be attempting to help us understand that making him mourn Balder would be less worse than killing him, wouldn't it."
+   },
+   "13": {
+    "original": "Also I understand because I attend a public college, he\u2019s a minor in a folk minority ethnic disorder, which frees him from most of colleges ridiculous marks and requirements.",
+    "rewrite": "Because I attend a public college, I understand that he is a minor in a folk minority ethnic disorder, which exempts him from most of the college's absurd marks and requirements."
+   },
+   "1": {
+    "original": "She gives him the idea after telling him in a fit of jealousy that her husband Odin could only walk on Yggdrasil (the world tree) by having one foot elevated.",
+    "rewrite": "In a fit of jealousy, she tells him that her husband Odin could only walk on Yggdrasil (the world tree) by having one foot elevated, which gives him the idea."
+   },
+   "8": {
+    "original": "He was a slave after he raped his father\u2019s daughter Jotunna (the Jotung were ancient people and the trolls of the world.",
+    "rewrite": "He became a slave after he raped his father's daughter Jotunna (the Jotung were an ancient people akin to the trolls of the world."
+   },
+   "4": {
+    "original": "BUT Frigga is of course so over protective she won\u2019t free Balder, but Loki does get punished; his blindness.",
+    "rewrite": "BUT Frigga, of course, is so protective that she doesn't allow Balder to be free, yet Loki gets punished with blindness."
+   },
+   "10": {
+    "original": "But you all know that in order to have Loki as your ancestor, I had to acquire him, and acquire him I did.",
+    "rewrite": "But you all know that to have Loki as my ancestor, I needed to acquire him, and acquire him I did."
+   },
+   "9": {
+    "original": "So that would give me enough ancestry to qualify and come from kindred and royal families, both true.",
+    "rewrite": "So that would give me sufficient ancestry to qualify and have roots in kindred and royal families, both true."
+   },
+   "7": {
+    "original": "I know in real life how time consuming that would be but the joke\u2019s on you.",
+    "rewrite": "I understand how time-consuming that would be in real life, but the joke is on you."
+   },
+   "11": {
+    "original": "Loki (of whom I don\u2019t have any pics!)",
+    "rewrite": "Loki (about whom I do not have any pics!)"
+   },
+   "12": {
+    "original": "I understand was adept at persuasion.",
+    "rewrite": "I understood that he was adept at persuasion."
+   }
+  },
+  "sentences_rewritten": 12,
+  "eligible": 13,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 3,
+    "survivors": 30,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 52,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 53,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 23,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 6,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "him, and as it does in any household there is anyone who forgets to sign the agreements and Loki\u2019s name is there at the bottom for an approaching wedding. In a fit of jealousy, she tells him that her husband Odin could only walk on Yggdrasil (the world tree) by having one foot elevated, which gives him the idea.\nI actually struggle to explain what my husband does, but he might be attempting to help us understand that making him mourn Balder would be less worse than killing him, wouldn't it. So send him to Midgard, and then another...substitute your favorite God's son with a puppet; Loki plans to have him kidnap Hel, the daughter of the Frost Giants, to force Frigga to release Balder instead. BUT Frigga, of course, is so protective that she doesn't allow Balder to be free, yet Loki gets punished with blindness. He eventually realizes he crossed the moral boundary when he finds Sif\u2019s golden hair and all the puppet deaths, remembering Nanna drawing the wrath of the gods into her hands.\nThese two sides or is I guess three, I said he has 3, because they\u2019re all the same: full blown trickster Loki the puppet master Loki the middle path, are what I call him, and I still manage to be married to him every five to ten years. I understand how time-consuming that would be in real life, but the joke is on you. He became a slave after he raped his father's daughter Jotunna (the Jotung were an ancient people akin to the trolls of the world.\nSo that would give me sufficient ancestry to qualify and have roots in kindred and royal families, both true. But you all know that to have Loki as my ancestor, I needed to acquire him, and acquire him I did.\nLoki (about whom I do not have any pics!) I understood that he was adept at persuasion. Because I attend a public college, I understand that he is a minor in a folk minority ethnic disorder, which exempts him from most of the college's absurd marks and requirements. He is the",
+  "z0": 17.351887505398366,
+  "seconds": 520.1
+ }
+}

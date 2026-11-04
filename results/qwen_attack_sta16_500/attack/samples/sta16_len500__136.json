@@ -1,0 +1,564 @@
+{
+ "sample_id": "sta16_len500:136",
+ "source": "results/raw/sta16_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.8622920517560074,
+ "needed_share": 0.8903888246323632,
+ "delta_needed": 0.013294200393252442,
+ "segmentation": {
+  "chars": 2164,
+  "segments": 22,
+  "eligible": 16,
+  "skipped": 6,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "too short": 4,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1866,
+  "eligible_char_share": 0.8622920517560074
+ },
+ "attack": {
+  "z0": 18.246314696398283,
+  "z_final": 1.8858556712811365,
+  "status": "broken",
+  "reason": null,
+  "passes": 1,
+  "queries": 501,
+  "seconds": 475.8,
+  "seconds_by_phase": {
+   "generate": 435.4,
+   "gates": 40.0,
+   "detector": 0.3
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 13,
+    "chars": 197,
+    "z_before": 18.246314696398283,
+    "z_after": 16.727272727272727,
+    "accepted": true,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 3,
+      "several lines": 1,
+      "unknown word": 1,
+      "meaning too different": 5,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 50,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.72
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 196,
+    "z_before": 16.727272727272727,
+    "z_after": 14.9084130707287,
+    "accepted": true,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "duplicate": 3,
+      "CJK text": 2,
+      "perplexity too high": 9
+     }
+    },
+    "queries_total": 96,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.02
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 191,
+    "z_before": 14.9084130707287,
+    "z_after": 13.15466713716892,
+    "accepted": true,
+    "survivors": 51,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 51,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 3,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 147,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.26
+   },
+   {
+    "pass": 1,
+    "segment": 15,
+    "chars": 187,
+    "z_before": 13.15466713716892,
+    "z_after": 11.203497996025115,
+    "accepted": true,
+    "survivors": 11,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 53,
+     "after_content": 16,
+     "after_semantic": 13,
+     "fluency_skipped": false,
+     "after_fluency": 11,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 5,
+      "negation count changed": 37,
+      "meaning too different": 3,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 158,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.74
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 145,
+    "z_before": 11.203497996025115,
+    "z_after": 9.538330938115967,
+    "accepted": true,
+    "survivors": 37,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 42,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 37,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 17,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 195,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 36.33
+   },
+   {
+    "pass": 1,
+    "segment": 20,
+    "chars": 132,
+    "z_before": 9.538330938115967,
+    "z_after": 8.492974287309362,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 48,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "CJK text": 9,
+      "several lines": 1,
+      "duplicate": 1,
+      "unknown word": 1,
+      "negation count changed": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 239,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.72
+   },
+   {
+    "pass": 1,
+    "segment": 16,
+    "chars": 128,
+    "z_before": 8.492974287309362,
+    "z_after": 7.552001048490447,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 3,
+      "unknown word": 1,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 287,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.13
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 127,
+    "z_before": 7.552001048490447,
+    "z_after": 6.5821883330722555,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "duplicate": 4,
+      "perplexity too high": 13
+     }
+    },
+    "queries_total": 330,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 24.97
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 116,
+    "z_before": 6.5821883330722555,
+    "z_after": 5.884823492763704,
+    "accepted": true,
+    "survivors": 30,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 33,
+     "after_content": 33,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 30,
+     "rejected": {
+      "duplicate": 26,
+      "unknown word": 1,
+      "meaning too different": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 360,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.78
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 113,
+    "z_before": 5.884823492763704,
+    "z_after": 4.688682100270648,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 58,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "CJK text": 1,
+      "meaning too different": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 415,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 27.09
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 109,
+    "z_before": 4.688682100270648,
+    "z_after": 3.5308940956582227,
+    "accepted": true,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 59,
+     "after_content": 59,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "duplicate": 1,
+      "meaning too different": 18,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 453,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.79
+   },
+   {
+    "pass": 1,
+    "segment": 19,
+    "chars": 56,
+    "z_before": 3.5308940956582227,
+    "z_after": 3.0236676721237123,
+    "accepted": true,
+    "survivors": 14,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 40,
+     "after_spelling": 40,
+     "after_content": 40,
+     "after_semantic": 14,
+     "fluency_skipped": false,
+     "after_fluency": 14,
+     "rejected": {
+      "CJK text": 1,
+      "hit length limit": 2,
+      "duplicate": 17,
+      "meaning too different": 26
+     }
+    },
+    "queries_total": 467,
+    "hit_limit": 2,
+    "oom_events": [],
+    "seconds_generate": 22.71
+   },
+   {
+    "pass": 1,
+    "segment": 14,
+    "chars": 54,
+    "z_before": 3.0236676721237123,
+    "z_after": 2.434508013602067,
+    "accepted": true,
+    "survivors": 22,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 26,
+     "after_content": 26,
+     "after_semantic": 25,
+     "fluency_skipped": false,
+     "after_fluency": 22,
+     "rejected": {
+      "duplicate": 33,
+      "unknown word": 1,
+      "meaning too different": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 489,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 13.44
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 40,
+    "z_before": 2.434508013602067,
+    "z_after": 2.112492902384825,
+    "accepted": true,
+    "survivors": 8,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 18,
+     "after_spelling": 18,
+     "after_content": 18,
+     "after_semantic": 8,
+     "fluency_skipped": false,
+     "after_fluency": 8,
+     "rejected": {
+      "duplicate": 41,
+      "CJK text": 1,
+      "meaning too different": 10
+     }
+    },
+    "queries_total": 497,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 15.33
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 38,
+    "z_before": 2.112492902384825,
+    "z_after": 1.8858556712811365,
+    "accepted": true,
+    "survivors": 4,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 6,
+     "after_spelling": 6,
+     "after_content": 6,
+     "after_semantic": 4,
+     "fluency_skipped": false,
+     "after_fluency": 4,
+     "rejected": {
+      "duplicate": 54,
+      "meaning too different": 2
+     }
+    },
+    "queries_total": 501,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 11.39
+   }
+  ],
+  "rewrites": {
+   "13": {
+    "original": "I publish weekly as I walk through with the freedom of the mind, is I write a weekly for the Manitowoc Minute: thoughts from the front lines, and this is the intent of the full plenitude of my job.",
+    "rewrite": "I publish weekly in the Manitowoc Minute with freely flowing thoughts, capturing the essence of my job as expressed in thoughts from the front lines."
+   },
+   "4": {
+    "original": "As the head of my company, State of Grace, I believe that together in a community in one space, we can facilitate transformation together by teaching and utilizing wellness and personal discovery.",
+    "rewrite": "At the helm of State of Grace, I affirm that convening in a communal setting allows us to foster transformation through the teachings and practice of wellness and self-discovery."
+   },
+   "10": {
+    "original": "To me, Manitowoc has an unbelievable blend of creativity with the art scenes and the business communities as in a newer food or even brewery scene, but most importantly, its heart for causes.",
+    "rewrite": "In my view, Manitowoc boasts a remarkable synergy between creative art scenes and business communities, including a fresher dining or brewery landscape, yet particularly notable is its commitment to social causes."
+   },
+   "15": {
+    "original": "Film, especially as I walk through with the freedom of the mind, is love or believe it or not that people don\u2019t believe they can grow or even now think they deserve being shown attention.",
+    "rewrite": "Watching films, particularly when I immerse myself in them mentally, can evoke love or, one might think, the idea that people do not believe they can grow or do not consider themselves deserving of attention."
+   },
+   "7": {
+    "original": "I believe in teamwork, I believe in loving others, I believe in myself, and I believe in merging together to find our truths as Manitowoc County.",
+    "rewrite": "I am convinced by teamwork, I am convinced by love for others, I am convinced by self-worth, and I am convinced by unifying to discover our truth as Manitowoc County."
+   },
+   "20": {
+    "original": "I really truly love being a mom, but since this last relationship I tried, I finally let go and relinquished my need to be a mother.",
+    "rewrite": "Being a mom is something I deeply adore, yet after the recent relationship experience, I have fully released my desire to have motherhood."
+   },
+   "16": {
+    "original": "It is my Wild Mind Fulfillment piece and part of the whole transformation is after a time known at the MF3 Yoga Movie Film Club.",
+    "rewrite": "This is the Wild Mind Fulfillment segment, with the broader transformation known as of later at the MF3 Yoga Movie Film Club."
+   },
+   "5": {
+    "original": "Using the practice of yoga to bring people together, I believe meditation can be a powerful tool in helping find our happiness.",
+    "rewrite": "I believe that meditation, when practiced as a way to connect people, can be a powerful tool in aiding our search for happiness."
+   },
+   "6": {
+    "original": "It allows the mind to find our truth, and I believe that to find our truth, we have to be resourceful and resilient.",
+    "rewrite": "It enables the mind to discover our truth, and I believe we must be resourceful and resilient to do so."
+   },
+   "1": {
+    "original": "I truly feel we are in a unique situation here on the CGC Campus and we have over a hundred members and counting.",
+    "rewrite": "We truly believe we find ourselves in a distinctive situation at the CGC Campus, with our membership numbers exceeding one hundred and still growing."
+   },
+   "12": {
+    "original": "I believe my job title is owner, but my job description and all the pieces I contribute has to start with me.",
+    "rewrite": "My role is titled owner, yet the contributions I make demand that my tasks align with that title."
+   },
+   "19": {
+    "original": "How much of each do you share, and how has that changed?",
+    "rewrite": "To what extent do you share each one, and how has that sharing shifted?"
+   },
+   "14": {
+    "original": "What is the biggest challenge you\u2019ve experienced here?",
+    "rewrite": "What challenge have you found to be the most significant here?"
+   },
+   "8": {
+    "original": "What do you love most about this county?",
+    "rewrite": "What aspects of this county do you cherish the most?"
+   },
+   "2": {
+    "original": "What is the main goal of your company?",
+    "rewrite": "What are the primary objectives of your company?"
+   }
+  },
+  "final_span": "empowerment. We truly believe we find ourselves in a distinctive situation at the CGC Campus, with our membership numbers exceeding one hundred and still growing.\nWhat are the primary objectives of your company? In a word: transformation. At the helm of State of Grace, I affirm that convening in a communal setting allows us to foster transformation through the teachings and practice of wellness and self-discovery. I believe that meditation, when practiced as a way to connect people, can be a powerful tool in aiding our search for happiness. It enables the mind to discover our truth, and I believe we must be resourceful and resilient to do so. I am convinced by teamwork, I am convinced by love for others, I am convinced by self-worth, and I am convinced by unifying to discover our truth as Manitowoc County.\nWhat aspects of this county do you cherish the most? I absolutely love humor. In my view, Manitowoc boasts a remarkable synergy between creative art scenes and business communities, including a fresher dining or brewery landscape, yet particularly notable is its commitment to social causes.\nWhat do you love most about your job? My role is titled owner, yet the contributions I make demand that my tasks align with that title. I publish weekly in the Manitowoc Minute with freely flowing thoughts, capturing the essence of my job as expressed in thoughts from the front lines.\nWhat challenge have you found to be the most significant here? Watching films, particularly when I immerse myself in them mentally, can evoke love or, one might think, the idea that people do not believe they can grow or do not consider themselves deserving of attention. This is the Wild Mind Fulfillment segment, with the broader transformation known as of later at the MF3 Yoga Movie Film Club.\nDo you work? Family life? To what extent do you share each one, and how has that sharing shifted? Being a mom is something I deeply adore, yet after the recent relationship experience, I have fully released my desire to have motherhood. This has truly helped understand that opportunities may seem to sometimes arise spontaneously, but after that little experience, I learned the power of naming the chance of choice and not dis",
+  "break_point": {
+   "step": 14,
+   "sentences_rewritten": 15,
+   "queries": 501
+  }
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 15,
+   "eligible": 16,
+   "segments": 22,
+   "pct_of_eligible": 93.75,
+   "pct_of_segments": 68.18181818181819
+  },
+  "tokens": {
+   "original": 501,
+   "final": 497,
+   "length_change": -4,
+   "pct_not_preserved": 47.30538922155688,
+   "pct_new": 46.881287726358146
+  },
+  "words": {
+   "original": 395,
+   "final": 376,
+   "length_change": -19,
+   "pct_not_preserved": 57.72151898734177,
+   "pct_new": 55.58510638297872
+  },
+  "characters": {
+   "original": 2164,
+   "final": 2222,
+   "length_change": 58,
+   "pct_not_preserved": 34.79667282809612,
+   "pct_new": 36.4986498649865
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 454,
+   "green_after": 269,
+   "pairs_before": 500,
+   "pairs_after": 496,
+   "pairs_changed_before": 316,
+   "pairs_changed_after": 312,
+   "green_fraction_of_new_pairs": 0.3782051282051282,
+   "delta_achieved": 0.1217948717948718
+  }
+ }
+}

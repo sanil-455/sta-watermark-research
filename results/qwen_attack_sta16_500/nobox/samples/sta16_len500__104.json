@@ -1,0 +1,80 @@
+{
+ "sample_id": "sta16_len500:104",
+ "nobox": {
+  "z_final": 11.056695218959844,
+  "status": "not broken",
+  "rewrites": {
+   "7": {
+    "original": "Thornton Lockwood, senior director of Clemson University's Center for Educational Technology, doesn't blame Kohli, and he says UTSA should have gotten rid of the poorly cited and plagiarized bit, but he suggests care when it comes to the Internet, which is so easily mined for pieces and useful information.",
+    "rewrite": "Thornton Lockwood, senior director of Clemson University's Center for Educational Technology, does not blame Kohli, but he believes UTSA should have removed the poorly cited and plagiarized content, and he recommends caution regarding the Internet, given its ease of extracting pieces and information."
+   },
+   "10": {
+    "original": "UTSA, which is well past an honor code period that ran from the fall to the final spring exams of 2013, has no clear honor or code to deal with academic fraud cases besides the university's prior policies on troubling plagiarism.",
+    "rewrite": "UTSA, now beyond an honor code that was in place from the fall 2013 to the final spring exams of the same year, does not have a clear honor code for dealing with academic fraud cases aside from the university's previous policies on concerning plagiarism incidents."
+   },
+   "0": {
+    "original": "Kohli, a coordinator for UTSA's Center for Experiential Learning, is buried in over a dozen e-mails from The Washington Post and others, all inquiring about a slapdash official notice UTSA students posted last weekend.",
+    "rewrite": "Kohli, who coordinates UTSA's Center for Experiential Learning, is buried in over a dozen e-mails from The Washington Post and others, all inquiring about a poorly crafted official notice UTSA students posted last weekend."
+   },
+   "3": {
+    "original": "He unintentionally - or so he says - committed what would now be a sign of academic fraud, if only he should have rightfully placed an attribution to the California code on the what-could-have-been code.",
+    "rewrite": "He unintentionally, as he claims, perpetrated what is now considered academic fraud if he had failed to attribute the California code to the what-could-have-been code."
+   },
+   "6": {
+    "original": "Kohli ended up scrubbing out last weekend's notice so UTSA would not get dinged on academic fraud as it tried to promote a policy on \"integrity.\"",
+    "rewrite": "Kohli revoked the previous weekend's notice so UTSA would not face penalties for academic fraud while aiming to advocate a policy on \"integrity.\""
+   },
+   "4": {
+    "original": "He is still mystified by the missing credit line it should have received for authorship even of an honor code.",
+    "rewrite": "He remains perplexed by the omission of the credit line it should have gotten for authorship on the honor code."
+   },
+   "2": {
+    "original": "Kohli, 23, is the student coordinator for the office that promotes academic integrity.",
+    "rewrite": "Kohli, at 23, serves as the student coordinator for the office promoting academic integrity."
+   }
+  },
+  "sentences_rewritten": 7,
+  "eligible": 7,
+  "per_sentence": [
+   {
+    "index": 7,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 4,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 3,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 28,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Kohli, who coordinates UTSA's Center for Experiential Learning, is buried in over a dozen e-mails from The Washington Post and others, all inquiring about a poorly crafted official notice UTSA students posted last weekend.\nadministration approved last weekend, is reproduced almost word for word from a code at the California Polytechnic State University.\nKohli, at 23, serves as the student coordinator for the office promoting academic integrity. He unintentionally, as he claims, perpetrated what is now considered academic fraud if he had failed to attribute the California code to the what-could-have-been code.\nHe remains perplexed by the omission of the credit line it should have gotten for authorship on the honor code.\n\"It's a student initiative,\" Kohli said, \"We were trying to show a source when it comes to the penalties for violations.\"\nKohli revoked the previous weekend's notice so UTSA would not face penalties for academic fraud while aiming to advocate a policy on \"integrity.\"\nThornton Lockwood, senior director of Clemson University's Center for Educational Technology, does not blame Kohli, but he believes UTSA should have removed the poorly cited and plagiarized content, and he recommends caution regarding the Internet, given its ease of extracting pieces and information.\n\"We can cut and paste things that other people said,\" Lockwood warned as much of the world do, he said, \"when they shouldn't be.\"\nHe does, however, advise, \"to whom you cut and paste and at the bottom, put who you cut-and-pasted from and let the reader deal with the original author who said what that person says.\"\nUTSA, now beyond an honor code that was in place from the fall 2013 to the final spring exams of the same year, does not have a clear honor code for dealing with academic fraud cases aside from the university's previous policies on concerning plagiarism incidents. The Cal Poly startup was a disruption at the student group, which intentionally marks Saturday as \"Honor Code Awareness",
+  "z0": 16.189132157098477,
+  "seconds": 353.9
+ }
+}

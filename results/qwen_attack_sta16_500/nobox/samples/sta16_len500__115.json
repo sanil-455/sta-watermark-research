@@ -1,0 +1,44 @@
+{
+ "sample_id": "sta16_len500:115",
+ "nobox": {
+  "z_final": 13.98380871535451,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "In a blow to the SAF's F-15 in a 2017 re-organisation which saw more F-15s retire, Prime Minister Lee Hsien Loong announced in February that a new naval unit of F-35B stealth fighter jets, built by the Americans, will be deployed here.",
+    "rewrite": "In another blow to the SAF's F-15 fleet during the 2017 re-organisation when more F-15s retired, Prime Minister Lee Hsien Loong announced in February that a new naval unit of F-35B stealth fighter jets, manufactured by the Americans, would be deployed here."
+   },
+   "5": {
+    "original": "Singapore sought additional training areas when it bought the F-15s from the United States in 2014 for SG$7.6 billion (US$5.7 billion).",
+    "rewrite": "When Singapore purchased the F-15s from the United States in 2014 for SG$7.6 billion (US$5.7 billion), it sought extra training areas."
+   },
+   "7": {
+    "original": "Cheers at the news were tempered with disappointment over the loss of the F-15 in Singapore's defence force.",
+    "rewrite": "Cheers at the news were tinged with disappointment due to the loss of the F-15 in Singapore's defence force."
+   }
+  },
+  "sentences_rewritten": 3,
+  "eligible": 3,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 43,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Nanaia Mahuta.\n\"Defence cooperation between Singapore and New Zealand continued to be healthy,\" said MINDEF.\n\"Underlining this cooperation was the commitment to deepen and expand defence collaborations, and advance defence capacity building. This has seen increased defence exercises, training opportunities in different terrain and environments, and defence engagement on key defence interests such as disruptive technologies and evolving threats to the two countries.\n\"In the course of the discussions, both ministers agreed that New Zealand would continue to consider offering Singapore the opportunity to undertake basic pilot conversion training in Ohakea, should appropriate parameters on the training package were finalised and agreed to by both parties.\"\nWhen Singapore purchased the F-15s from the United States in 2014 for SG$7.6 billion (US$5.7 billion), it sought extra training areas. In another blow to the SAF's F-15 fleet during the 2017 re-organisation when more F-15s retired, Prime Minister Lee Hsien Loong announced in February that a new naval unit of F-35B stealth fighter jets, manufactured by the Americans, would be deployed here.\nCheers at the news were tinged with disappointment due to the loss of the F-15 in Singapore's defence force.\nCommander of the Republic of Singapore Air Force (RSAF) Hooper Shum on Friday (Feb 23) said the F-15s had provided valuable training, noting \"the associated higher mission readiness and response capabilities we had\". He added that training in Singapore and the F-35B will leave the service with \"the right warriors to now execute and carry out the F-35B\u2019s multiple missions for a new operating environment.\"\nOn Monday (Mar 12), Deputy Prime Minister Heng Swee Keat outlined the plan to procure four F-35B fighter planes, which is part of the government's efforts to \"invest heavily and come up with capabilities that would enhance our overall military might\".\nHe listed some of the capabilities: \"One, to ensure its credibility \u2026 two, to enhance its long-range strike and air electronic warfare capabilities, and three, to",
+  "z0": 14.758048651498612,
+  "seconds": 168.3
+ }
+}

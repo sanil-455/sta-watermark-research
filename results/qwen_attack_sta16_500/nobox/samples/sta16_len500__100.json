@@ -1,0 +1,53 @@
+{
+ "sample_id": "sta16_len500:100",
+ "nobox": {
+  "z_final": 13.684736022298713,
+  "status": "not broken",
+  "rewrites": {
+   "4": {
+    "original": "There are small concerns, particularly in attack where prolific centre-forward Robin van Persie is coming off the back of an awkward challenge that led to a thigh muscle injury.There is still the question of how manager David Moyes lines up ahead of the game and if Rooney's injury provides an opportunity for the Dutchman to make a right-footed cameo instead of bringing him on after an hour, which is the plan he may adopt on Sunday.",
+    "rewrite": "There are minor concerns, especially in attack, where the prolific centre-forward Robin van Persie recovered from an awkward challenge that resulted in a thigh muscle injury. There is yet the uncertainty of how manager David Moyes will arrange his team before the match and whether Rooney's absence opens a chance for van Persie to make a right-footed appearance early, potentially altering the original plan to substitute him after an hour on Sunday."
+   },
+   "15": {
+    "original": "Shaky and stodgy early-season City strugglers recently returned to Leeds' former symbolic and geographical centre and used an ageless touch of class to rustle maximum points from a 1-0 victory.",
+    "rewrite": "Shaky and stodgy early-season City struggled recently when they returned to Leeds' former symbolic and geographical centre, yet they displayed an ageless touch of class to earn maximum points with a 1-0 victory."
+   },
+   "16": {
+    "original": "They now plot their third away test of the campaign at Burnley in Dyche's first Old Trafford meeting.",
+    "rewrite": "In Dyche's first Old Trafford meeting, they will now face their third away test of the campaign against Burnley."
+   },
+   "5": {
+    "original": "Certain it has to be much better, there are few doubting it this time though.",
+    "rewrite": "Certain it has to be much better, few now doubt it this time."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 4,
+    "survivors": 39,
+    "rewritten": true
+   },
+   {
+    "index": 15,
+    "survivors": 18,
+    "rewritten": true
+   },
+   {
+    "index": 16,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 17,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "some hard results this season and are out of the Champions League so their home form is under more scrutiny.\n\"We are focused on progressing. I think the boys have been frustrated at our level because results are good but there are things we can be doing better. We are trying to put things together.\"\nThere are minor concerns, especially in attack, where the prolific centre-forward Robin van Persie recovered from an awkward challenge that resulted in a thigh muscle injury. There is yet the uncertainty of how manager David Moyes will arrange his team before the match and whether Rooney's absence opens a chance for van Persie to make a right-footed appearance early, potentially altering the original plan to substitute him after an hour on Sunday.\nCertain it has to be much better, few now doubt it this time.\n\"Some good things are in there, but there is still a lot of improvement,\" said Moyes. \"We are not blind either.\n\"We have been getting a lot of good chances in some games and let poor scoring decisions stand in the way. I don't talk too much publicly about opposition teams and methods but all I've had from them for the game on Tuesday is they are very much settled and everything they are trying to do is very well, they've handled the squad well and gotten something out of them - we are lucky that is the case.\n\"They are very well organised and know what they are trying to do. We know we are as good a football team now as any in England plus we've added the two Dutch players.\n\"It would be great if we got through this tough period and into some better form. We tend to find our way at the business end of the season when other teams get weary.\n\"We must keep focused, and sometimes we have drawn sand in a few games, but soon will get points on the board.\"\nShaky and stodgy early-season City struggled recently when they returned to Leeds' former symbolic and geographical centre, yet they displayed an ageless touch of class to earn maximum points with a 1-0 victory.\nIn Dyche's first Old Trafford meeting, they will now face their third away test of the campaign against Burnley.\n\"Mike and he's",
+  "z0": 16.90467390989841,
+  "seconds": 220.5
+ }
+}

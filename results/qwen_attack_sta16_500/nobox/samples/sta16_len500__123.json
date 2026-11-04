@@ -1,0 +1,94 @@
+{
+ "sample_id": "sta16_len500:123",
+ "nobox": {
+  "z_final": 12.094486171172418,
+  "status": "not broken",
+  "rewrites": {
+   "14": {
+    "original": "It is alleged that these two electroencephalography students sit across from each other in a college room with a viewing box full of morbid body parts and brains, and stare at the things.",
+    "rewrite": "It is claimed that these two electroencephalography students sit across from each other in a college room containing a viewing box filled with morbid body parts and brains, and gaze at them."
+   },
+   "10": {
+    "original": "General causes state of the art possible brain drain with stunning arrogance, By Bob Gebelhoff, August 5, 2013 - -As soon as it opened its mouth, Merck had lost control of the situation.",
+    "rewrite": "General causes exhibited state-of-the-art possible brain drain with breathtaking arrogance, As noted by Bob Gebelhoff on August 5, 2013 - -Scarcely had Merck opened its mouth when it lost control of the situation."
+   },
+   "8": {
+    "original": "With the Commonwealth Report on the Partners pay gap with other hospitals, Governor Patrick's administration has exposed to the light of day a breakdown in competition in Massachusetts.",
+    "rewrite": "Following the release of the Commonwealth Report on the partners' pay gap with other hospitals, Governor Patrick's administration has brought to light a breakdown in competition in Massachusetts."
+   },
+   "7": {
+    "original": "Glass Hospital: Partners HealthCare spinoff is another piece in merit three-piece puzzle - -The Boston Globe, July 7, 2013 - -It's not just kidnap, rape, and torture.",
+    "rewrite": "Glass Hospital: Partners HealthCare's spinoff fits into the merit three-piece puzzle - The Boston Globe, July 7, 2013 - It's not just kidnapping, rape, and torture."
+   },
+   "4": {
+    "original": "Coakley is considering requiring greater proactive disclosure of salary information by hospitals and medical schools that receive taxpayer funds.",
+    "rewrite": "Coakley is contemplating the need for more proactive disclosure of salary information from hospitals and medical schools that receive taxpayer funding."
+   },
+   "12": {
+    "original": "But it refused to make necessary information about its Monsanto acquisition knowledgeable and open, not nearly fast enough.",
+    "rewrite": "But it refused to share the necessary information about its Monsanto acquisition in a knowledgeable and open manner, not nearly quickly enough."
+   },
+   "5": {
+    "original": "Globe Spotlight Team reporters Andrew C. Revkin and Mark Pratt contributed to this report.",
+    "rewrite": "Globe Spotlight Team reporters Andrew C. Revkin and Mark Pratt assisted in this report."
+   },
+   "11": {
+    "original": "It tried to \"retrain\" the public relations disaster.",
+    "rewrite": "It attempted to \"retrain\" the public relations crisis."
+   }
+  },
+  "sentences_rewritten": 8,
+  "eligible": 9,
+  "per_sentence": [
+   {
+    "index": 13,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 14,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 3,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 14,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 15,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 4,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the Health Care Quality and Cost Council. Partners' \"significant market power\" is \"indirectly harmful to the Massachusetts resident, but very directly harmful to the overall market that is looking to be competitive.\"\n\"Whether or not it enables them to pay doctors a lot of money has never been reported by them,\" she said. \"But it must enable them to pay more, otherwise they wouldn't be able to staff themselves like they are.\"\nCoakley is contemplating the need for more proactive disclosure of salary information from hospitals and medical schools that receive taxpayer funding.\nGlobe Spotlight Team reporters Andrew C. Revkin and Mark Pratt assisted in this report. Ben Kesling can be reached at bkesling@wsj.com\nGlass Hospital: Partners HealthCare's spinoff fits into the merit three-piece puzzle - The Boston Globe, July 7, 2013 - It's not just kidnapping, rape, and torture. Following the release of the Commonwealth Report on the partners' pay gap with other hospitals, Governor Patrick's administration has brought to light a breakdown in competition in Massachusetts.\nShame on the Partners: Mass. General causes exhibited state-of-the-art possible brain drain with breathtaking arrogance, As noted by Bob Gebelhoff on August 5, 2013 - -Scarcely had Merck opened its mouth when it lost control of the situation. It attempted to \"retrain\" the public relations crisis. But it refused to share the necessary information about its Monsanto acquisition in a knowledgeable and open manner, not nearly quickly enough.\nMorgue Box: When government inspections don't meet public safety expectations, they \"defect\" as much as any consumer product, August 4, 2013 - -As you might know if you follow the immensely popular Morgue Box space allegedly inhabited by Andy Meserghis and Miles Fernandez. It is claimed that these two electroencephalography students sit across from each other in a college room containing a viewing box filled with morbid body parts and brains, and gaze at them.\n- - - - - - - - Image of the Day, August 4,",
+  "z0": 14.758048651498612,
+  "seconds": 342.2
+ }
+}

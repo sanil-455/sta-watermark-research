@@ -1,0 +1,161 @@
+{
+ "sample_id": "sta16_len500:86",
+ "nobox": {
+  "z_final": 9.950293128010518,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "Backed up by research from Forrester, according to Forbes, digital consumers have been exposed to a healthy dose of personalized experiences that can be accessed on any platform, any time they need to find information or conduct transactions.",
+    "rewrite": "According to Forbes, backed by research from Forrester, digital consumers have encountered a substantial amount of personalized experiences available on various platforms, anytime they seek information or carry out transactions."
+   },
+   "5": {
+    "original": "For healthcare institutions, rightfully so three of the top things consumers need from a provider\u2019s digital channel are access to a patient portal, links to an online form to schedule appointments and e-prescription reminders.",
+    "rewrite": "For healthcare institutions, it is right that access to a patient portal, links to an online appointment scheduling form, and e-prescription reminders are among the top three things consumers need from a provider\u2019s digital channel."
+   },
+   "8": {
+    "original": "By getting to know our members at the core of our work helping health plan members save money, we can figure out just how each employer group\u2019s employees, dependents and covered spouses view digital technology today.",
+    "rewrite": "By understanding our members at the core of our work to assist health plan members in saving money, we can determine how each employer group views digital technology among their employees, dependents, and covered spouses today."
+   },
+   "12": {
+    "original": "Help the Improvement Process Continue \u2013 Let us know if digital fitness and wellness program opportunities could make a difference in improving outcomes and work toward reducing healthcare costs.",
+    "rewrite": "Help Continue the Improvement Process \u2013 Please let us know if the digital fitness and wellness programs could enhance outcomes and contribute to lowering healthcare costs."
+   },
+   "1": {
+    "original": "It\u2019s what anyone watching healthcare in recent years has seen: industries like healthcare adopting technology meant to deliver a quality experience, not run more efficiently.",
+    "rewrite": "What anyone watching healthcare over the past years has noted is industries like healthcare implementing technology aimed at improving the quality experience, not just running more efficiently."
+   },
+   "13": {
+    "original": "If we discover something together, we can expand our product offering to other insurance carriers and come up with solutions that apply to a wider variety of health plans.",
+    "rewrite": "If we find something together, we can expand our product offerings to other insurance companies and develop solutions applicable to more health plans."
+   },
+   "11": {
+    "original": "Check out FilmStation for health and wellness content or Self-Pay/COB to join in and educate your members in their health insurance coverage needs.",
+    "rewrite": "Explore FilmStation for health and wellness content or Self-Pay/COB to educate your members about their health insurance coverage needs."
+   },
+   "6": {
+    "original": "Golden Rule is here to help employers and their health plan members understand how digital technology plays a critical role is healthcare today.",
+    "rewrite": "Golden Rule is here to assist employers and their health plan members in understanding the critical role that digital technology plays in healthcare today."
+   },
+   "4": {
+    "original": "And an assumption that virtually every business or product available must be easily pored over anywhere, and at virtually any time.",
+    "rewrite": "And an assumption that nearly every business or product available must be easily perused anywhere, and at nearly any time."
+   },
+   "9": {
+    "original": "Golden Rule has is taking on the challenge one member at a time through its digital products and internal support for health plans.",
+    "rewrite": "Golden Rule is taking on the challenge one member at a time through its digital products and internal support for health plans."
+   },
+   "7": {
+    "original": "Like healthcare itself, we are constantly evolving to deliver a quality experience, not run more efficiently.",
+    "rewrite": "Like healthcare itself, we continuously evolve to provide a high-quality experience, not to operate more efficiently."
+   },
+   "10": {
+    "original": "Digital health planners and benefit consultants can partner with their members to explore the possibilities.",
+    "rewrite": "Digital health planners and benefit consultants can collaborate with their members to explore the possibilities."
+   },
+   "2": {
+    "original": "Start with the headline: Digital Consumers Demand Digital Healthcare Treatment.",
+    "rewrite": "Headline: Digital Healthcare Treatment Is Demanded by Consumers."
+   },
+   "17": {
+    "original": "Contact Greg Polcyn or Call (855) 453-3833 x2149 to start a conversation today.",
+    "rewrite": "Contact Greg Polcyn by calling (855) 453-3833 extension 2149 to begin a conversation today."
+   },
+   "15": {
+    "original": "We want to make sure its available wherever you need it, whenever you need it.",
+    "rewrite": "We want to ensure it is available wherever and whenever you need it."
+   },
+   "14": {
+    "original": "We know we can do this together.",
+    "rewrite": "Together, we know we can accomplish this."
+   }
+  },
+  "sentences_rewritten": 16,
+  "eligible": 16,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 19,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 57,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 7,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 12,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 36,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 24,
+    "rewritten": true
+   },
+   {
+    "index": 17,
+    "survivors": 17,
+    "rewritten": true
+   },
+   {
+    "index": 15,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 14,
+    "survivors": 13,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "isn\u2019t as readily recognizable as others. What anyone watching healthcare over the past years has noted is industries like healthcare implementing technology aimed at improving the quality experience, not just running more efficiently.\nHeadline: Digital Healthcare Treatment Is Demanded by Consumers.\nAccording to Forbes, backed by research from Forrester, digital consumers have encountered a substantial amount of personalized experiences available on various platforms, anytime they seek information or carry out transactions. And an assumption that nearly every business or product available must be easily perused anywhere, and at nearly any time.\nFor healthcare institutions, it is right that access to a patient portal, links to an online appointment scheduling form, and e-prescription reminders are among the top three things consumers need from a provider\u2019s digital channel.\nGolden Rule is here to assist employers and their health plan members in understanding the critical role that digital technology plays in healthcare today. Like healthcare itself, we continuously evolve to provide a high-quality experience, not to operate more efficiently. By understanding our members at the core of our work to assist health plan members in saving money, we can determine how each employer group views digital technology among their employees, dependents, and covered spouses today.\nGolden Rule is taking on the challenge one member at a time through its digital products and internal support for health plans. Digital health planners and benefit consultants can collaborate with their members to explore the possibilities. Explore FilmStation for health and wellness content or Self-Pay/COB to educate your members about their health insurance coverage needs.\nHelp Continue the Improvement Process \u2013 Please let us know if the digital fitness and wellness programs could enhance outcomes and contribute to lowering healthcare costs.\nIf we find something together, we can expand our product offerings to other insurance companies and develop solutions applicable to more health plans. Together, we know we can accomplish this. We want to ensure it is available wherever and whenever you need it. Are you with us? Contact Greg Polcyn by calling (855) 453-3833 extension 2149 to begin a conversation today.",
+  "z0": 16.697773242637027,
+  "seconds": 531.4
+ }
+}

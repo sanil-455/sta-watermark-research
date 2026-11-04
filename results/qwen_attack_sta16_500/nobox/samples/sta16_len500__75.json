@@ -1,0 +1,107 @@
+{
+ "sample_id": "sta16_len500:75",
+ "nobox": {
+  "z_final": 14.907127318493647,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "In the Pee Wee championship Bantam Oak Ridge Bowen defeated their \u201cAll-City in a Heartbeat\u201d club partner Belleville Bulldogs/All-City Shoe Repairs 5-0 in a defensive struggle.",
+    "rewrite": "In the Pee Wee championship Bantam Oak Ridge Bowen defeated their \"All-City in a Heartbeat\" club partner Belleville Bulldogs/All-City Shoe Repairs 5-0 in a tight defensive contest."
+   },
+   "7": {
+    "original": "In the other semi, Jim Coyle, Isei Lippiano and Josh Leo led the \u201cDogtown, Baby Town\u201d Chatham Chickens to their first \u201cA\u201d win over the \u201cAll-Town Boardwalk Boxers\u201d.",
+    "rewrite": "In the other semi, Jim Coyle, Isei Lippiano, and Josh Leo led the \u201cDogtown, Baby Town\u201d Chatham Chickens to their first \"A\" victory against the \"All-Town Boardwalk Boxers\"."
+   },
+   "6": {
+    "original": "Austin Denault supplied the only goal in the \u201cAll-Town Big Toe\u201d Junior \u201cA\u201d semifinals, rounding out the only goal in the semi.",
+    "rewrite": "Austin Denault scored the sole goal in the \u201cAll-Town Big Toe\u201d Junior \u201cA\u201d semifinals, completing the only goal in the semi."
+   },
+   "9": {
+    "original": "Riley Wyer, Ryan MacDonald and Ty Greenwood all scored in the \u201cAll-Town, Improvement Centre Jr \u201cC\u201d championship tilt.",
+    "rewrite": "Riley Wyer, Ryan MacDonald, and Ty Greenwood all scored in the \u201cAll-Town, Improvement Centre Jr\u201d C championship game."
+   },
+   "3": {
+    "original": "Jourdan Wood and Chad Harris each scored a pair of major\u2019s, but could only respond with an extra point in the loss.",
+    "rewrite": "Jourdan Wood and Chad Harris each scored two majors, but managed only an extra point in the loss."
+   },
+   "11": {
+    "original": "Reed Gullegosh, Tyler Courser,and Evan Lugten all scored in a 7-0 victory over the Sweet Syrups Jr.\u201dA\u201d Tankers.",
+    "rewrite": "Reed Gullegosh, Tyler Courser, and Evan Lugten all scored in a 7-0 win against the Sweet Syrups Jr. \u201cA\u201d Tankers."
+   },
+   "2": {
+    "original": "Brownfie and Saxon Talbot added a convert and an extra point, respectively, to pad the score.",
+    "rewrite": "Brownfie and Saxon Talbot increased the score by adding a convert and an extra point, respectively."
+   },
+   "4": {
+    "original": "Mikey Schad completed both major\u2019s, scoring the other point in the loss.",
+    "rewrite": "Mikey Schad completed both majors' scores, contributing to the other point in the loss."
+   },
+   "8": {
+    "original": "Robbie Campbell scored the \u201cA\u201d winner.",
+    "rewrite": "Robbie Campbell scored the \"A\" winning goal."
+   },
+   "12": {
+    "original": "In the \u201cAll-Town Burger Barge.\u201d",
+    "rewrite": "In the \"All-Town Burger Barge.\""
+   }
+  },
+  "sentences_rewritten": 10,
+  "eligible": 10,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 17,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 33,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 10,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 2,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "was in the \u201cC\u201d semifinals where the T.H. Titans/Laurier Chevrolet Invasion defeated their club partner Trent Halls Saints/Whetung Lumber Rage 8-0.\nIn the \u201cHawks Pack It In Jamaica Bowl\u201d sponsored by Smith Enterprises, Tyler Brownfie and Josh Pelover scored a pair of touchdowns to lead the \u201cStars and Stripes\u201d South Shore Payday Titanintos to a 28-15 win over the \u201cBlack Sea\u201d ICB Crude Masters. Brownfie and Saxon Talbot increased the score by adding a convert and an extra point, respectively.\nJourdan Wood and Chad Harris each scored two majors, but managed only an extra point in the loss. Mikey Schad completed both majors' scores, contributing to the other point in the loss.\nIn the Pee Wee championship Bantam Oak Ridge Bowen defeated their \"All-City in a Heartbeat\" club partner Belleville Bulldogs/All-City Shoe Repairs 5-0 in a tight defensive contest.\nAustin Denault scored the sole goal in the \u201cAll-Town Big Toe\u201d Junior \u201cA\u201d semifinals, completing the only goal in the semi.\nIn the other semi, Jim Coyle, Isei Lippiano, and Josh Leo led the \u201cDogtown, Baby Town\u201d Chatham Chickens to their first \"A\" victory against the \"All-Town Boardwalk Boxers\". Robbie Campbell scored the \"A\" winning goal.\nRiley Wyer, Ryan MacDonald, and Ty Greenwood all scored in the \u201cAll-Town, Improvement Centre Jr\u201d C championship game.\nKinesio Jays \u201cGold.\u201d Reed Gullegosh, Tyler Courser, and Evan Lugten all scored in a 7-0 win against the Sweet Syrups Jr. \u201cA\u201d Tankers.\nIn the \"All-Town Burger Barge.\" Junior \u201cB\u201d game, Ryan MacDonald, Robert Stone, and Darian McCann supplied the goals to send the Oscar Energy Drinks \u201cCross Stitch\u201d War Leaguelers to a 3-0",
+  "z0": 16.636345752598434,
+  "seconds": 370.5
+ }
+}

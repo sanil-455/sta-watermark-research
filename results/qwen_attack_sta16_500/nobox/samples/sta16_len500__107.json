@@ -1,0 +1,107 @@
+{
+ "sample_id": "sta16_len500:107",
+ "nobox": {
+  "z_final": 7.68587843208096,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "Shincho said the women came forward to blow the whistle after former ink maker Minobe Mamoru, who was convicted in February of sex crimes against women in a night club, discussed his ordeals in interviews with NHK publisher Minobe Mamoru, and the \u201cwell-polished methods\u201d he taught his disciple, Administrative Vice Finance Minister Fukuda.",
+    "rewrite": "Shincho stated that the women came forward to expose Minobe Mamoru, the former ink maker convicted in February of sex crimes in a nightclub, after he revealed his own experiences and the \"well-polished methods\" he had imparted to his disciple, Administrative Vice Finance Minister Fukuda, in interviews with NHK."
+   },
+   "3": {
+    "original": "An unidentified \u201cofficial\u201d at the finance ministry said the departure would not affect policy-making as fewer policy decisions are to be made prior to the government losing its majority in upper house elections in late summer.",
+    "rewrite": "An unidentified \"official\" from the finance ministry stated that the departure would not impact policy-making, given that few policy decisions will be made before the government loses its majority in upper house elections later this summer."
+   },
+   "2": {
+    "original": "NHK said the resignation would come at a key meeting of Group of 20 finance officials at a time when Fukuda faces pressure from the government to resolve tax code issues with the United States.",
+    "rewrite": "NHK stated that the resignation would occur during a crucial meeting of Group of 20 finance officials, a time when Fukuda is under government pressure to address tax code issues with the United States."
+   },
+   "5": {
+    "original": "Shincho reported last week that Fukuda sexually harassed several women members of the press party of the humor magazine Shinchonma, which is published by the ministry he was heading.",
+    "rewrite": "Last week, Shincho reported that Fukuda sexually harassed several women from the press party of the humor magazine Shinchonma, which is published by the ministry he led."
+   },
+   "10": {
+    "original": "Abe\u2019s failure to carry out pledges to reform a properly-run state and carry out clean government has led to other scandals and damaged Abe\u2019s credibility in public opinion polls.",
+    "rewrite": "Abe\u2019s inability to fulfill promises of reforming the state properly and ensuring clean government has resulted in additional scandals and weakened his credibility in public opinion polls."
+   },
+   "7": {
+    "original": "One woman reporter from the press association fled to an empty rented apartment in a ghost town in their home town in western Japan to hide out and avoid Fukuda.",
+    "rewrite": "A female reporter from the press association sought refuge in an empty apartment in a virtually deserted town in their hometown in western Japan to evade Fukuda."
+   },
+   "1": {
+    "original": "Abe appointed Fukuda in May last year to replace an official caught accepting cash from a contractor for an official family Christmas party.",
+    "rewrite": "Abe appointed Fukuda in May of the previous year to replace an official who was found to have accepted cash from a contractor at an official family Christmas party."
+   },
+   "8": {
+    "original": "Abe\u2019s approval ratings, which topped as high as 66 percent immediately after he won two elections in one year in 2012, have been slipping.",
+    "rewrite": "Abe's approval ratings, reaching as high as 66 percent right after he won two elections in one year in 2012, have since been declining."
+   },
+   "4": {
+    "original": "The ministry official said the ministry would name another administrator at deputy vice minister level on April 1.",
+    "rewrite": "The ministry official said the ministry would name another administrator of deputy vice minister level on April 1."
+   },
+   "9": {
+    "original": "He was 50 percent in a daily poll by the Nikkei business daily on Sunday.",
+    "rewrite": "On Sunday, he was 50 percent in a daily poll by the Nikkei business daily."
+   }
+  },
+  "sentences_rewritten": 10,
+  "eligible": 10,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 3,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 45,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 10,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 36,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 51,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 21,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 41,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "intent\u201d to violate anyone\u2019s rights as described by the women.\nAbe appointed Fukuda in May of the previous year to replace an official who was found to have accepted cash from a contractor at an official family Christmas party.\nNHK stated that the resignation would occur during a crucial meeting of Group of 20 finance officials, a time when Fukuda is under government pressure to address tax code issues with the United States.\nAn unidentified \"official\" from the finance ministry stated that the departure would not impact policy-making, given that few policy decisions will be made before the government loses its majority in upper house elections later this summer. The ministry official said the ministry would name another administrator of deputy vice minister level on April 1.\nLast week, Shincho reported that Fukuda sexually harassed several women from the press party of the humor magazine Shinchonma, which is published by the ministry he led.\nShincho stated that the women came forward to expose Minobe Mamoru, the former ink maker convicted in February of sex crimes in a nightclub, after he revealed his own experiences and the \"well-polished methods\" he had imparted to his disciple, Administrative Vice Finance Minister Fukuda, in interviews with NHK.\nA female reporter from the press association sought refuge in an empty apartment in a virtually deserted town in their hometown in western Japan to evade Fukuda.\nAbe's approval ratings, reaching as high as 66 percent right after he won two elections in one year in 2012, have since been declining. On Sunday, he was 50 percent in a daily poll by the Nikkei business daily.\nAbe\u2019s inability to fulfill promises of reforming the state properly and ensuring clean government has resulted in additional scandals and weakened his credibility in public opinion polls.\nIn one of the latest cases, Abe\u2019s morals tsar, administrative vice head of the Cabinet Secretariat Hiroyuki Hosoda, resigned on Friday saying he could not carry out his job properly after a woman told a television interviewer he repeatedly touch her legs in a the",
+  "z0": 13.863621460498695,
+  "seconds": 470.8
+ }
+}

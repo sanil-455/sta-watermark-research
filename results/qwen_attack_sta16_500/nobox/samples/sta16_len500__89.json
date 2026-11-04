@@ -1,0 +1,157 @@
+{
+ "sample_id": "sta16_len500:89",
+ "nobox": {
+  "z_final": 10.043414885176302,
+  "status": "not broken",
+  "rewrites": {
+   "5": {
+    "original": "I looked over the new address book and saw the names and addresses of an amazing number of incredible people - many people closer to the core of my heart than anyone who had made their laugh three rows down at our wedding reception.",
+    "rewrite": "I went through the new address book and noticed the names and addresses of an incredible number of amazing people\u2014many closer to my heart than those whose laughter was three rows away at our wedding reception."
+   },
+   "15": {
+    "original": "On my previous blog entry Film's New Paramount I discussed Paramount Pictures potential move from it's \"75 year\" Hollywood and shutting it doors for the new year.",
+    "rewrite": "In my previous blog entry, I discussed the potential move by Paramount Pictures from its \"75 year\" Hollywood home and closing its doors for the new year."
+   },
+   "3": {
+    "original": "I realized it had only taken me thirty-odd years to return to the highest level of identity I'd always wanted, yet never dared ask for.",
+    "rewrite": "I realized it took me around thirty years to reach the highest level of identity I'd always wanted but never dared ask for."
+   },
+   "14": {
+    "original": "Speech after speech trying to put reason into a deeply disturbing situation; 4:18 p.m., September, 1st, the start of the new year.",
+    "rewrite": "Speech after speech attempting to instill reason into a highly disturbing situation; 4:18 p.m., September 1st, marking the start of the new year."
+   },
+   "1": {
+    "original": "I added new friends who were amazingly attractive and talented, but were also loyal and wouldn't mind my mistakes in public.",
+    "rewrite": "I added new friends who were astonishingly attractive and talented, but also loyal and wouldn't mind my errors in public."
+   },
+   "8": {
+    "original": "I remembered kidnap attempts, car accidents, moving itineraries, diffusing temper tantrums, mad cats and cool dogs.",
+    "rewrite": "I recalled kidnap attempts, car accidents, ever-changing itineraries, calming temper tantrums, mad cats, and cool dogs."
+   },
+   "11": {
+    "original": "It reminds me of my friends and family - both distant and immediate - because they are what makes me me.",
+    "rewrite": "It reminds me of the people in my life, whether far away or close by, as they define who I am."
+   },
+   "13": {
+    "original": "I'm sitting in a grand, spacious city hall in Northern California listening to the squawks of skeptics.",
+    "rewrite": "I am seated in a grand, ample city hall in Northern California, hearing the squawks of skeptics."
+   },
+   "17": {
+    "original": "Of course the the joke here is this is the only remaining space left inHollywood to be used.",
+    "rewrite": "The joke is that this is the last space available inHollywood to be used."
+   },
+   "9": {
+    "original": "In one of life's small paradoxes, I'll get more use out of the now-defunct address book.",
+    "rewrite": "One of life's small paradoxes is that I will find more use in the now-defunct address book."
+   },
+   "16": {
+    "original": "Imagine how a new year could start in a totally different matter.",
+    "rewrite": "Imagine how a new year could start in an entirely different way."
+   },
+   "2": {
+    "original": "Starting my new address book was a cleansing experience.",
+    "rewrite": "Beginning my new address book was a cleansing experience."
+   },
+   "6": {
+    "original": "I remembered wonderful gatherings of friends and family.",
+    "rewrite": "I recalled wonderful gatherings of friends and family."
+   },
+   "7": {
+    "original": "I remembered my son's deep compassion humor.",
+    "rewrite": "I recalled my son's profound compassion and humor."
+   },
+   "10": {
+    "original": "It is tattered; maybe it has learned.",
+    "rewrite": "It is worn and tattered; perhaps it has learned something."
+   }
+  },
+  "sentences_rewritten": 15,
+  "eligible": 16,
+  "per_sentence": [
+   {
+    "index": 5,
+    "survivors": 54,
+    "rewritten": true
+   },
+   {
+    "index": 15,
+    "survivors": 1,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 14,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 42,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 1,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 17,
+    "survivors": 7,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 18,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 16,
+    "survivors": 27,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 16,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 11,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 10,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 1,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "to ask whether it was a to-go order or if I was dining in. I added new friends who were astonishingly attractive and talented, but also loyal and wouldn't mind my errors in public.\nBeginning my new address book was a cleansing experience. I realized it took me around thirty years to reach the highest level of identity I'd always wanted but never dared ask for.\nRIGHT, I WAS being haughty. I went through the new address book and noticed the names and addresses of an incredible number of amazing people\u2014many closer to my heart than those whose laughter was three rows away at our wedding reception. I recalled wonderful gatherings of friends and family. I recalled my son's profound compassion and humor. I recalled kidnap attempts, car accidents, ever-changing itineraries, calming temper tantrums, mad cats, and cool dogs.\nOne of life's small paradoxes is that I will find more use in the now-defunct address book. It is worn and tattered; perhaps it has learned something. It reminds me of the people in my life, whether far away or close by, as they define who I am.\nNew year publish wrath,\nI am seated in a grand, ample city hall in Northern California, hearing the squawks of skeptics. Speech after speech attempting to instill reason into a highly disturbing situation; 4:18 p.m., September 1st, marking the start of the new year.\nIn my previous blog entry, I discussed the potential move by Paramount Pictures from its \"75 year\" Hollywood home and closing its doors for the new year. Imagine how a new year could start in an entirely different way.\nThe joke is that this is the last space available inHollywood to be used. Lot's of block busters and million dollar hits are being produced in choosing locations. I guess Paramount found that other states and cities were pulling out all the stops and taking all the incentives from them (I'm guess this is why Michigan gave Ford a hefty chop), and why should a head honcho in their organization go down with the ship but the crews and cast members will",
+  "z0": 15.981514872979675,
+  "seconds": 468.3
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "sample_id": "sta16_len500:72",
+ "nobox": {
+  "z_final": 13.349157276772193,
+  "status": "not broken",
+  "rewrites": {
+   "3": {
+    "original": "And at right under three dollars each - after thirty years, and being featured in over forty movies - let us kidnap the legend that is John Belushi and give the Tito\u2019s taco business to the original Beverly Hillbillies.",
+    "rewrite": "And for less than three dollars each - after thirty years and featuring in over forty movies - let's kidnap the legend that is John Belushi and give the Tito\u2019s taco business to the original Beverly Hillbillies."
+   },
+   "6": {
+    "original": "Spearheaded by master chef Andre Guerrero (founder of the Westside food cart which inspired, Marmalade), Lucha\u2019s new location is twice the size and offers a wider variety of tacos than ever before.",
+    "rewrite": "Led by master chef Andre Guerrero (the founder of the Westside food cart that inspired Marmalade), Lucha\u2019s new location is double the size and presents a greater diversity of tacos than before."
+   },
+   "7": {
+    "original": "The gourmet-style Mexican tacos offered by Guerrero at Lucha\u2019s war as much against the sprawling taco scene in Santa Monica as they are hungry food carts.",
+    "rewrite": "The gourmet-style Mexican tacos provided by Guerrero at Lucha's war as much against the expansive taco scene in Santa Monica as they satisfy hungry food carts."
+   },
+   "2": {
+    "original": "More to the point, everyone from Johnny Depp to Bill Clinton, has gone to Tito\u2019s and not returned disappointed.",
+    "rewrite": "In point of fact, everyone from Johnny Depp to Bill Clinton has gone to Tito\u2019s and left without being disappointed."
+   }
+  },
+  "sentences_rewritten": 4,
+  "eligible": 4,
+  "per_sentence": [
+   {
+    "index": 3,
+    "survivors": 22,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 41,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "never rang more true. Stories which have been passed down between generations, border kids going from El Segundo to Santa Monica Pier and their first Tito\u2019s taco will begin to make sense once tasters put their hands on anything; be it the warm \u201chorchata,\u201d the freshly made soft, hard shells and debut a flavor palette especially conducive to taco-eating, which in turn conducts to a proverbial sensation which Gold, claims is, \u201clike taking a cold plunge or getting stung by a thousand bees!\u201d In point of fact, everyone from Johnny Depp to Bill Clinton has gone to Tito\u2019s and left without being disappointed. And for less than three dollars each - after thirty years and featuring in over forty movies - let's kidnap the legend that is John Belushi and give the Tito\u2019s taco business to the original Beverly Hillbillies.\nTitos Tacos is located at 640 S Robertson Blvd #1, Los Angeles CA 90035.\nLucha Tacos has officially hit Santa Monica after nearly a decade and multiple mouth-watering tacos and carnitas, at \u201c70 percent of its cost\u201d at Tacos/Grinds on the Westside, Lucha has traded in its food cart for a flagship location on the Westside. Led by master chef Andre Guerrero (the founder of the Westside food cart that inspired Marmalade), Lucha\u2019s new location is double the size and presents a greater diversity of tacos than before. The gourmet-style Mexican tacos provided by Guerrero at Lucha's war as much against the expansive taco scene in Santa Monica as they satisfy hungry food carts. As opposed to a daily rotation of entr\u00e9es, at Lucha there are eight tacos daily to choose from: lengua taco, carnitas taco, carne asada taco, carrillo de Res taco, chile relleno taco, chicharrono taco, and Korean Burrito (beef bowl), served on house-made chips or hard shells and are \u201cbathed in one of our many secret",
+  "z0": 14.638530429872139,
+  "seconds": 195.4
+ }
+}

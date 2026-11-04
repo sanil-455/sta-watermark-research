@@ -1,0 +1,98 @@
+{
+ "sample_id": "sta16_len500:114",
+ "nobox": {
+  "z_final": 13.331751065824523,
+  "status": "not broken",
+  "rewrites": {
+   "2": {
+    "original": "A discussion over Highland County Jobs and Family Services\u2019 (JFS) request for Fiscal Year 2023 (FY23) Coronavirus Response Funds was brought forward.",
+    "rewrite": "A discussion on Highland County Jobs and Family Services' (JFS) request for Fiscal Year 2023 (FY23) Coronavirus Response Funds was brought forward."
+   },
+   "0": {
+    "original": "Growth; Representative Sarah Bowman, Representative Colleen Landrum; Representative Jess Ferguson; and Greenfield Mayor Roxanne Hemmingway Hathaway.",
+    "rewrite": "Growth; Representatives Sarah Bowman and Colleen Landrum; Representative Jess Ferguson; and Greenfield Mayor Roxanne Hemmingway Hathaway."
+   },
+   "3": {
+    "original": "The FY23 allocation from the American Rescue Plan Act (ARPA) went to the county\u2019s JFS program for a total of $1.823 million.",
+    "rewrite": "The FY23 allocation from the American Rescue Plan Act (ARPA) was directed to the county\u2019s JFS program in the amount of $1.823 million."
+   },
+   "6": {
+    "original": "He explained that some of the remaining ARPA funds are to be used towards County Commissioners\u2019 Courts Discretionary needs.",
+    "rewrite": "He explained that some of the remaining ARPA funds will be used for County Commissioners' Courts Discretionary needs."
+   },
+   "7": {
+    "original": "Wilkin suggested that $175,000 of the remaining ARPA funds will be used towards youth services at the Boys and Girls Club.",
+    "rewrite": "Wilkin suggested that $175,000 of the remaining ARPA funds will be directed towards youth services at the Boys and Girls Club."
+   },
+   "4": {
+    "original": "From that fund, commissioners previously approved $640,000 in request and approved another $1,057,000 three weeks later.",
+    "rewrite": "From that fund, commissioners approved $640,000 in a previous request and another $1,057,000 three weeks later."
+   },
+   "1": {
+    "original": "For most of the public session, commissioners focused on items concerning COVID-19 relief funds.",
+    "rewrite": "During the majority of the public session, commissioners concentrating on items related to COVID-19 relief funds."
+   },
+   "5": {
+    "original": "Earlier this session, Wilkin brought the final $675,000 of the ARPA funds for commission review.",
+    "rewrite": "Earlier in the session, Wilkin added the final $675,000 of the ARPA funds for commission review."
+   },
+   "10": {
+    "original": "Commissioners and County Administrator Barry Kite discussed loan forgiveness.",
+    "rewrite": "Commissioners and County Administrator Barry Kite talked about loan forgiveness."
+   }
+  },
+  "sentences_rewritten": 9,
+  "eligible": 9,
+  "per_sentence": [
+   {
+    "index": 2,
+    "survivors": 41,
+    "rewritten": true
+   },
+   {
+    "index": 0,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 40,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 26,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 35,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 27,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 38,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 12,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "Growth; Representatives Sarah Bowman and Colleen Landrum; Representative Jess Ferguson; and Greenfield Mayor Roxanne Hemmingway Hathaway.\nDuring the majority of the public session, commissioners concentrating on items related to COVID-19 relief funds.\nA discussion on Highland County Jobs and Family Services' (JFS) request for Fiscal Year 2023 (FY23) Coronavirus Response Funds was brought forward. The FY23 allocation from the American Rescue Plan Act (ARPA) was directed to the county\u2019s JFS program in the amount of $1.823 million.\nFrom that fund, commissioners approved $640,000 in a previous request and another $1,057,000 three weeks later.\nEarlier in the session, Wilkin added the final $675,000 of the ARPA funds for commission review.\nHe explained that some of the remaining ARPA funds will be used for County Commissioners' Courts Discretionary needs.\nWilkin suggested that $175,000 of the remaining ARPA funds will be directed towards youth services at the Boys and Girls Club.\nWilkin said, \u201cI cannot make a precedent with that $175 thou and all the different projects or I don\u2019t even want to start wringing my hands right now because I don\u2019t know what I think about all these things. But, I think it would be hard for me to defend a situation when I give the Boys and Girls Club funds, which were not requested by the Boys and Girls Clubs and we didn\u2019t, I think it\u2019d be very hard for me to defend, their increase in staff or the increase in their facilities or the increase in hours or the expansion when I don\u2019t believe every JFS employee warrants that.\u201d\nCommissioners and County Administrator Barry Kite talked about loan forgiveness.\nWilkin said, \u201cI think it\u2019s kind of immoral to loan the government that much money they\u2019re going to waste when you\u2019re looking at all the dollars coming in from the federal government and you\u2019re saying we want to guarantee these people\u2019s jobs, quite honestly they\u2019re not in my humble opinion but in my hum",
+  "z0": 15.652475842498527,
+  "seconds": 330.3
+ }
+}

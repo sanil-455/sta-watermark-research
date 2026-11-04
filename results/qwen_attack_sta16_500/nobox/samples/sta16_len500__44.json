@@ -1,0 +1,107 @@
+{
+ "sample_id": "sta16_len500:44",
+ "nobox": {
+  "z_final": 9.525793444156804,
+  "status": "not broken",
+  "rewrites": {
+   "9": {
+    "original": "If the increase in plan-level contributions remains intact, and holding small businesses to the asinine standard that everyone gets to participate in plan administrative costs \u201cat a reasonable level\u201d after a 50 employee minimum makes a difference, large businesses would find it virtually costless \u2014 very nearly \u201cfree lunch\u201d territory.",
+    "rewrite": "If plan-level contributions stay unchanged, and maintaining the current standard for small businesses to participate in plan administrative costs \"at a reasonable level\" after reaching a 50-employee threshold makes a significant impact, then large businesses would effectively experience minimal cost increase \u2014 essentially a \"free lunch\" situation."
+   },
+   "1": {
+    "original": "These rule changes are essentially an extension to the current regulatory framework which now treats anyone who co-sponsors a defined contribution (DC) retirement plan, like a 401(k), as sharing in its fiduciary responsibility.",
+    "rewrite": "These rule changes are essentially an expansion of the current regulatory framework, which now considers anyone who co-sponsors a defined contribution (DC) retirement plan, such as a 401(k), to be sharing in its fiduciary responsibility."
+   },
+   "5": {
+    "original": "These elements may make a difference \u2014 there is no easy answer to the question of how small businesses can co-band together to provide high-quality, efficient retirement offerings \u2014 but they hardly address the main impediment.",
+    "rewrite": "While these elements could make a difference \u2014 there is no straightforward answer to how small businesses can band together to offer high-quality, efficient retirement services \u2014 they scarcely address the primary barrier."
+   },
+   "8": {
+    "original": "An \u00e9p\u00e9e thrown across the floor squashes progress, and if finalizing and bringing a new rule before the public would add red tape, there are steps Congress can and should take to streamline, not disrupt, implementation.",
+    "rewrite": "The \u00e9p\u00e9e thrown across the floor stifles progress, and if finalizing and introducing a new rule before the public would introduce bureaucracy, Congress has steps it can and should take to streamline, not disrupt, implementation."
+   },
+   "7": {
+    "original": "Like many retirement rules, part of the challenge comes from the Byzantine procedural requirements imposed by the Obama-era Employee Benefits Security Administration as it tried to adjudicate conflicts of interest.",
+    "rewrite": "Like many retirement rules, part of the challenge stems from the intricate procedural requirements set by the Obama-era Employee Benefits Security Administration, which sought to address conflicts of interest."
+   },
+   "4": {
+    "original": "The rule change would allow sponsors to align administration with the benefits employees received, meeting conditions spelled out in a separate notice right before the increase in plan-level contributions.",
+    "rewrite": "The rule change would permit sponsors to align administration with the benefits employees received, as detailed in an additional notice that preceded the rise in plan-level contributions."
+   },
+   "11": {
+    "original": "Maybe that\u2019s not such a bad idea \u2014 but of course it\u2019s exactly the kind of extra accountability that wouldska former EBSA regulator to waver about limiting the number of participants to a whopping 50.",
+    "rewrite": "Perhaps that's not such a bad idea \u2014 but it's precisely the type of extra accountability that would make a former EBSA regulator hesitate about limiting the number of participants to a staggering 50."
+   },
+   "2": {
+    "original": "For most small employers, according to the plan, requirements about contributing money for administrative costs would prevent them from offering a DC plan, unless an administrative fee was waived.",
+    "rewrite": "For the majority of small employers, the plan's requirement of contributing for administrative costs would prevent them from offering a DC plan, unless an administrative fee was waived."
+   },
+   "10": {
+    "original": "The plan-level contributions are at the disposal of the plan sponsors, and some might use the increases to raise retirement contributions to their full levels.",
+    "rewrite": "Plan-level contributions are available to the plan sponsors, and some may use the increases to boost retirement contributions to their fullest amounts."
+   },
+   "6": {
+    "original": "Nevertheless, there is plenty of conservative enthusiasm for the rule change.",
+    "rewrite": "Nevertheless, there is substantial conservative enthusiasm for the rule change."
+   }
+  },
+  "sentences_rewritten": 10,
+  "eligible": 10,
+  "per_sentence": [
+   {
+    "index": 9,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 9,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 55,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 35,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": ".\nThese rule changes are essentially an expansion of the current regulatory framework, which now considers anyone who co-sponsors a defined contribution (DC) retirement plan, such as a 401(k), to be sharing in its fiduciary responsibility.\nFor the majority of small employers, the plan's requirement of contributing for administrative costs would prevent them from offering a DC plan, unless an administrative fee was waived. Ditto things like complying with statutory notice requirements, which fail to \u201creflect the reality that many employers receive only minimal, if any, financial benefit from participating in multiple-employer plans or adding individual employees.\u201d The rule change would permit sponsors to align administration with the benefits employees received, as detailed in an additional notice that preceded the rise in plan-level contributions.\nWhile these elements could make a difference \u2014 there is no straightforward answer to how small businesses can band together to offer high-quality, efficient retirement services \u2014 they scarcely address the primary barrier.\nNevertheless, there is substantial conservative enthusiasm for the rule change. Like many retirement rules, part of the challenge stems from the intricate procedural requirements set by the Obama-era Employee Benefits Security Administration, which sought to address conflicts of interest. The \u00e9p\u00e9e thrown across the floor stifles progress, and if finalizing and introducing a new rule before the public would introduce bureaucracy, Congress has steps it can and should take to streamline, not disrupt, implementation.\nIf plan-level contributions stay unchanged, and maintaining the current standard for small businesses to participate in plan administrative costs \"at a reasonable level\" after reaching a 50-employee threshold makes a significant impact, then large businesses would effectively experience minimal cost increase \u2014 essentially a \"free lunch\" situation. Plan-level contributions are available to the plan sponsors, and some may use the increases to boost retirement contributions to their fullest amounts.\nPerhaps that's not such a bad idea \u2014 but it's precisely the type of extra accountability that would make a former EBSA regulator hesitate about limiting the number of participants to a staggering 50.\nI\u2019ve run out of ink and the",
+  "z0": 15.652475842498527,
+  "seconds": 472.1
+ }
+}

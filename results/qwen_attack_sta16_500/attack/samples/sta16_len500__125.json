@@ -1,0 +1,530 @@
+{
+ "sample_id": "sta16_len500:125",
+ "source": "results/raw/sta16_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.5223577235772358,
+ "needed_share": 0.886494011294427,
+ "delta_needed": 0.27465794202880184,
+ "segmentation": {
+  "chars": 1968,
+  "segments": 10,
+  "eligible": 5,
+  "skipped": 5,
+  "skip_reasons": {
+   "starts mid-sentence": 1,
+   "quotation": 3,
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1028,
+  "eligible_char_share": 0.5223577235772358
+ },
+ "attack": {
+  "z0": 17.620215662698342,
+  "z_final": 10.014465922890707,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 3,
+  "queries": 420,
+  "seconds": 847.2,
+  "seconds_by_phase": {
+   "generate": 810.3,
+   "gates": 36.6,
+   "detector": 0.3
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 349,
+    "z_before": 17.620215662698342,
+    "z_after": 15.808244953797677,
+    "accepted": true,
+    "survivors": 3,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 50,
+     "after_content": 9,
+     "after_semantic": 3,
+     "fluency_skipped": false,
+     "after_fluency": 3,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 8,
+      "negation count changed": 33,
+      "quotation changed": 8,
+      "meaning too different": 6
+     }
+    },
+    "queries_total": 4,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 71.42
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 238,
+    "z_before": 15.808244953797677,
+    "z_after": 14.518787164322354,
+    "accepted": true,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "several lines": 5,
+      "CJK text": 10,
+      "duplicate": 1,
+      "unknown word": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 45,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 90.05
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 208,
+    "z_before": 14.518787164322354,
+    "z_after": 12.6877798327769,
+    "accepted": true,
+    "survivors": 26,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 36,
+     "after_content": 26,
+     "after_semantic": 26,
+     "fluency_skipped": false,
+     "after_fluency": 26,
+     "rejected": {
+      "CJK text": 10,
+      "several lines": 2,
+      "unknown word": 9,
+      "glued punctuation": 3,
+      "negation count changed": 10
+     }
+    },
+    "queries_total": 71,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.64
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 152,
+    "z_before": 12.6877798327769,
+    "z_after": 11.574697872153855,
+    "accepted": true,
+    "survivors": 56,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 56,
+     "rejected": {
+      "CJK text": 3,
+      "several lines": 1
+     }
+    },
+    "queries_total": 127,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.06
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 81,
+    "z_before": 11.574697872153855,
+    "z_after": 10.536624217354936,
+    "accepted": true,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 25,
+     "after_spelling": 21,
+     "after_content": 21,
+     "after_semantic": 20,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "duplicate": 35,
+      "unknown word": 4,
+      "meaning too different": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 146,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.82
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 349,
+    "z_before": 10.536624217354936,
+    "z_after": 10.61445555206044,
+    "accepted": false,
+    "survivors": 3,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 55,
+     "after_content": 9,
+     "after_semantic": 3,
+     "fluency_skipped": false,
+     "after_fluency": 3,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 4,
+      "negation count changed": 37,
+      "quotation changed": 9,
+      "meaning too different": 6
+     }
+    },
+    "queries_total": 149,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 68.07
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 238,
+    "z_before": 10.536624217354936,
+    "z_after": 10.2241544067631,
+    "accepted": true,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 47,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "CJK text": 7,
+      "several lines": 5,
+      "unknown word": 1,
+      "numbers changed": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 192,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 88.68
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 208,
+    "z_before": 10.2241544067631,
+    "z_after": 10.035093063021646,
+    "accepted": true,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 48,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "CJK text": 7,
+      "several lines": 1,
+      "glued punctuation": 2,
+      "unknown word": 2,
+      "negation count changed": 12,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 226,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 51.23
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 152,
+    "z_before": 10.035093063021646,
+    "z_after": 10.014465922890707,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "several lines": 2,
+      "CJK text": 5,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 278,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 44.16
+   },
+   {
+    "pass": 2,
+    "segment": 8,
+    "chars": 81,
+    "z_before": 10.014465922890707,
+    "z_after": 10.446181091025709,
+    "accepted": false,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 22,
+     "after_spelling": 21,
+     "after_content": 21,
+     "after_semantic": 19,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "duplicate": 38,
+      "unknown word": 1,
+      "meaning too different": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 296,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.57
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 349,
+    "z_before": 10.014465922890707,
+    "z_after": 10.498015685515684,
+    "accepted": false,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 49,
+     "after_content": 7,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "CJK text": 8,
+      "unknown word": 3,
+      "negation count changed": 30,
+      "quotation changed": 12,
+      "meaning too different": 6
+     }
+    },
+    "queries_total": 297,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 70.29
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 238,
+    "z_before": 10.014465922890707,
+    "z_after": 10.502146540932149,
+    "accepted": false,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 46,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "several lines": 3,
+      "CJK text": 7,
+      "unknown word": 4,
+      "numbers changed": 1
+     }
+    },
+    "queries_total": 342,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 82.71
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 208,
+    "z_before": 10.014465922890707,
+    "z_after": 10.195723224662485,
+    "accepted": false,
+    "survivors": 22,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 37,
+     "after_content": 23,
+     "after_semantic": 23,
+     "fluency_skipped": false,
+     "after_fluency": 22,
+     "rejected": {
+      "CJK text": 7,
+      "several lines": 2,
+      "unknown word": 12,
+      "glued punctuation": 2,
+      "negation count changed": 14,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 364,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 52.48
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 152,
+    "z_before": 10.014465922890707,
+    "z_after": 10.090909090909092,
+    "accepted": false,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 9,
+      "several lines": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 413,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 40.63
+   },
+   {
+    "pass": 3,
+    "segment": 8,
+    "chars": 81,
+    "z_before": 10.014465922890707,
+    "z_after": 10.188866871741984,
+    "accepted": false,
+    "survivors": 15,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 19,
+     "after_spelling": 19,
+     "after_content": 19,
+     "after_semantic": 19,
+     "fluency_skipped": false,
+     "after_fluency": 15,
+     "rejected": {
+      "duplicate": 41,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 420,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 18.5
+   }
+  ],
+  "rewrites": {
+   "4": {
+    "original": "It is entirely possible that Mr Swanson\u2019s kidnap-themed track is far more innocent than we accuse it of being, but if the children at North Syracuse High honestly get drunk on the fluid craftsmanship of flow in a context not remotely connected to Britney Spears\u2019 \u201cSwitch,\u201d would it be for causes of the better or possible for the foreseeable future?",
+    "rewrite": "It's entirely possible that Mr Swanson\u2019s kidnap-themed track is much more innocent than we suspect, but would the children at North Syracuse High truly appreciate the refined skill in delivery if it weren't related to themes distant from Britney Spears\u2019 \u201cSwitch,\u201d leading to improvements rather than problematic outcomes for the foreseeable future?"
+   },
+   "2": {
+    "original": "Other featured artists in Mr. Swanson\u2019s roster of K-12, Syracuse, and North Syracuse students include tastemaker \u201cGucci Thizz\u201d (sic), who, claims Swanson, is particularly inspired by \u201cStop Snitching\u201d by East Coast rap giants Yall So Cold.",
+    "rewrite": "Mr. Swanson features other notable artists from his K-12, Syracuse, and North Syracuse student roster, including \"Gucci Thizz\" (sic), according to Swanson, who is notably inspired by \"Stop Snitching\" by East Coast rap groups Yall So Cold."
+   },
+   "3": {
+    "original": "Gucci\u2019s own SoundCloud, if linked to and not totally ruined by his crude username, would not have been spotted by us in any event as it would not exactly appear to be a top player for those above age fifteen.",
+    "rewrite": "Even if Gucci's SoundCloud was linked, it wouldn't have been noticed by us unless his crude username didn't interfere completely, as its presence would not clearly indicate a leading profile for listeners over fifteen years old."
+   },
+   "1": {
+    "original": "It is unclear if the students love Mr. Swanson\u2019s hip-hop enough to listen to, say, Kendrick Lamar, but they sure do like listening to their teacher rap.",
+    "rewrite": "It's uncertain whether the students enjoy Mr. Swanson's hip-hop style enough to seek out artists like Kendrick Lamar, but they clearly relish listening to their teacher rap."
+   },
+   "8": {
+    "original": "One of the two pictures at the disposal of reviewers seems to be a detached head.",
+    "rewrite": "Two pictures available for review appear to include a head detached from its body."
+   }
+  },
+  "final_span": "are trying to make learning fun and give them a visual which helps them remember their new found knowledge.\u201d It's uncertain whether the students enjoy Mr. Swanson's hip-hop style enough to seek out artists like Kendrick Lamar, but they clearly relish listening to their teacher rap.\nMr. Swanson features other notable artists from his K-12, Syracuse, and North Syracuse student roster, including \"Gucci Thizz\" (sic), according to Swanson, who is notably inspired by \"Stop Snitching\" by East Coast rap groups Yall So Cold. Even if Gucci's SoundCloud was linked, it wouldn't have been noticed by us unless his crude username didn't interfere completely, as its presence would not clearly indicate a leading profile for listeners over fifteen years old. It's entirely possible that Mr Swanson\u2019s kidnap-themed track is much more innocent than we suspect, but would the children at North Syracuse High truly appreciate the refined skill in delivery if it weren't related to themes distant from Britney Spears\u2019 \u201cSwitch,\u201d leading to improvements rather than problematic outcomes for the foreseeable future? More loaded Swanson explorations, all set to beefy club remixes, are expected on \u201choliday\u201d soon as Swanson is in \u201cserious discussions\u201d with a producer about \u201cturning my teacher raps into big room bangers for the older students.\u201d Most currently, and perhaps unrelatedly, he has released, and is trying to sell, their \u201cNear Film Character\u201d \u2014 a gimcrack, Hasbro/Playmobil-style \u201cstep brother character that has to be glued together to work properly.\u201d The \u201cfun and tasteless violation scene,\u201d according to a listing on the website for Mr Swanson\u2019s FingerLakesGoods shop, is available in both \u201cgory and damaged sets.\u201d Two pictures available for review appear to include a head detached from its body.\nPresent Swanson adjectives, harshly assessed or not, would by definition include inspiring, motivating, and relatable and are \u201cexpected to be able to go beyond the classroom,\u201d and level teachers and classrooms any",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 5,
+   "eligible": 5,
+   "segments": 10,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 50.0
+  },
+  "tokens": {
+   "original": 501,
+   "final": 488,
+   "length_change": -13,
+   "pct_not_preserved": 24.35129740518962,
+   "pct_new": 22.33606557377049
+  },
+  "words": {
+   "original": 326,
+   "final": 313,
+   "length_change": -13,
+   "pct_not_preserved": 32.20858895705522,
+   "pct_new": 29.392971246006393
+  },
+  "characters": {
+   "original": 1968,
+   "final": 2009,
+   "length_change": 41,
+   "pct_not_preserved": 17.428861788617887,
+   "pct_new": 19.113987058237925
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 447,
+   "green_after": 354,
+   "pairs_before": 500,
+   "pairs_after": 487,
+   "pairs_changed_before": 165,
+   "pairs_changed_after": 152,
+   "green_fraction_of_new_pairs": 0.40131578947368424,
+   "delta_achieved": 0.09868421052631576
+  }
+ }
+}

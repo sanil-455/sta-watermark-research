@@ -1,0 +1,3740 @@
+{
+ "sample_id": "sta16_len500:106",
+ "source": "results/raw/sta16_len500.json",
+ "layout": "span",
+ "tokens": 500,
+ "eligible_share": 0.912963811268896,
+ "needed_share": 0.8812571390684383,
+ "delta_needed": 0.0,
+ "segmentation": {
+  "chars": 2183,
+  "segments": 14,
+  "eligible": 13,
+  "skipped": 1,
+  "skip_reasons": {
+   "trailing fragment": 1
+  },
+  "eligible_chars": 1993,
+  "eligible_char_share": 0.912963811268896
+ },
+ "attack": {
+  "z0": 16.84311784565064,
+  "z_final": 2.1954688979824715,
+  "status": "stalled",
+  "reason": "improved but not enough (stalled)",
+  "passes": 10,
+  "queries": 4319,
+  "seconds": 4906.3,
+  "seconds_by_phase": {
+   "generate": 4543.9,
+   "gates": 359.7,
+   "detector": 2.7
+  },
+  "steps": [
+   {
+    "pass": 1,
+    "segment": 9,
+    "chars": 316,
+    "z_before": 16.84311784565064,
+    "z_after": 15.47937330654378,
+    "accepted": true,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 20,
+     "after_semantic": 20,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 3,
+      "unknown word": 1,
+      "negation count changed": 35,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 19,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 62.09
+   },
+   {
+    "pass": 1,
+    "segment": 1,
+    "chars": 301,
+    "z_before": 15.47937330654378,
+    "z_after": 13.818181818181818,
+    "accepted": true,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 55,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 3,
+      "negation count changed": 12,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 61,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 51.94
+   },
+   {
+    "pass": 1,
+    "segment": 7,
+    "chars": 243,
+    "z_before": 13.818181818181818,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 51,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 6,
+      "several lines": 1,
+      "glued punctuation": 2,
+      "negation count changed": 51
+     }
+    },
+    "queries_total": 61,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 55.8
+   },
+   {
+    "pass": 1,
+    "segment": 4,
+    "chars": 222,
+    "z_before": 13.818181818181818,
+    "z_after": 12.239923814699504,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "CJK text": 1,
+      "several lines": 2,
+      "negation count changed": 10
+     }
+    },
+    "queries_total": 108,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.87
+   },
+   {
+    "pass": 1,
+    "segment": 8,
+    "chars": 187,
+    "z_before": 12.239923814699504,
+    "z_after": 10.705177394385743,
+    "accepted": true,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 53,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "CJK text": 3,
+      "several lines": 2,
+      "unknown word": 2,
+      "negation count changed": 7
+     }
+    },
+    "queries_total": 154,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 47.23
+   },
+   {
+    "pass": 1,
+    "segment": 3,
+    "chars": 173,
+    "z_before": 10.705177394385743,
+    "z_after": 9.762647097509747,
+    "accepted": true,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 3,
+      "unknown word": 3,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 201,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.55
+   },
+   {
+    "pass": 1,
+    "segment": 11,
+    "chars": 140,
+    "z_before": 9.762647097509747,
+    "z_after": 8.727272727272727,
+    "accepted": true,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 253,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.17
+   },
+   {
+    "pass": 1,
+    "segment": 5,
+    "chars": 125,
+    "z_before": 8.727272727272727,
+    "z_after": 7.904571759259701,
+    "accepted": true,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 42,
+     "after_spelling": 41,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 16,
+      "unknown word": 1,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 288,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.83
+   },
+   {
+    "pass": 1,
+    "segment": 0,
+    "chars": 96,
+    "z_before": 7.904571759259701,
+    "z_after": 7.181818181818182,
+    "accepted": true,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 41,
+     "after_spelling": 40,
+     "after_content": 39,
+     "after_semantic": 39,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "CJK text": 13,
+      "hit length limit": 2,
+      "duplicate": 4,
+      "unknown word": 1,
+      "negation count changed": 1,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 320,
+    "hit_limit": 2,
+    "oom_events": [],
+    "seconds_generate": 35.99
+   },
+   {
+    "pass": 1,
+    "segment": 2,
+    "chars": 62,
+    "z_before": 7.181818181818182,
+    "z_after": 6.7272727272727275,
+    "accepted": true,
+    "survivors": 29,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 32,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 29,
+     "rejected": {
+      "duplicate": 26,
+      "CJK text": 2,
+      "unknown word": 2,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 349,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.51
+   },
+   {
+    "pass": 1,
+    "segment": 10,
+    "chars": 56,
+    "z_before": 6.7272727272727275,
+    "z_after": 5.975359238806223,
+    "accepted": true,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "duplicate": 8,
+      "CJK text": 2,
+      "unknown word": 2,
+      "meaning too different": 4,
+      "perplexity too high": 10
+     }
+    },
+    "queries_total": 383,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.43
+   },
+   {
+    "pass": 1,
+    "segment": 12,
+    "chars": 42,
+    "z_before": 5.975359238806223,
+    "z_after": 5.471809142918228,
+    "accepted": true,
+    "survivors": 21,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 27,
+     "after_spelling": 27,
+     "after_content": 27,
+     "after_semantic": 26,
+     "fluency_skipped": false,
+     "after_fluency": 21,
+     "rejected": {
+      "duplicate": 31,
+      "CJK text": 2,
+      "meaning too different": 1,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 404,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.28
+   },
+   {
+    "pass": 1,
+    "segment": 6,
+    "chars": 30,
+    "z_before": 5.471809142918228,
+    "z_after": 5.0195935112720935,
+    "accepted": true,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 22,
+     "after_spelling": 22,
+     "after_content": 22,
+     "after_semantic": 21,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "duplicate": 36,
+      "CJK text": 2,
+      "meaning too different": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 423,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 12.37
+   },
+   {
+    "pass": 2,
+    "segment": 9,
+    "chars": 316,
+    "z_before": 5.0195935112720935,
+    "z_after": 4.698241095107306,
+    "accepted": true,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 50,
+     "after_content": 19,
+     "after_semantic": 19,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "CJK text": 3,
+      "several lines": 3,
+      "unknown word": 4,
+      "negation count changed": 31
+     }
+    },
+    "queries_total": 442,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 64.01
+   },
+   {
+    "pass": 2,
+    "segment": 1,
+    "chars": 301,
+    "z_before": 4.698241095107306,
+    "z_after": 4.648324928787199,
+    "accepted": true,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 56,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 3,
+      "negation count changed": 7,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 486,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.33
+   },
+   {
+    "pass": 2,
+    "segment": 7,
+    "chars": 243,
+    "z_before": 4.648324928787199,
+    "z_after": 3.2526284504589045,
+    "accepted": true,
+    "survivors": 2,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 50,
+     "after_content": 2,
+     "after_semantic": 2,
+     "fluency_skipped": true,
+     "after_fluency": 2,
+     "rejected": {
+      "CJK text": 5,
+      "several lines": 2,
+      "unknown word": 3,
+      "negation count changed": 48
+     }
+    },
+    "queries_total": 488,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 55.67
+   },
+   {
+    "pass": 2,
+    "segment": 4,
+    "chars": 222,
+    "z_before": 3.2526284504589045,
+    "z_after": 3.3709993123162105,
+    "accepted": false,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 1,
+      "negation count changed": 10
+     }
+    },
+    "queries_total": 533,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 51.43
+   },
+   {
+    "pass": 2,
+    "segment": 8,
+    "chars": 187,
+    "z_before": 3.2526284504589045,
+    "z_after": 3.2328954364819484,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 54,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "CJK text": 5,
+      "unknown word": 1,
+      "negation count changed": 6
+     }
+    },
+    "queries_total": 581,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.4
+   },
+   {
+    "pass": 2,
+    "segment": 3,
+    "chars": 173,
+    "z_before": 3.2328954364819484,
+    "z_after": 3.2679288115616703,
+    "accepted": false,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 2,
+      "unknown word": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 633,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 32.41
+   },
+   {
+    "pass": 2,
+    "segment": 11,
+    "chars": 140,
+    "z_before": 3.2328954364819484,
+    "z_after": 3.2877546485106284,
+    "accepted": false,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "CJK text": 6,
+      "duplicate": 1,
+      "unknown word": 3,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 681,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.4
+   },
+   {
+    "pass": 2,
+    "segment": 5,
+    "chars": 125,
+    "z_before": 3.2328954364819484,
+    "z_after": 3.2328954364819484,
+    "accepted": false,
+    "survivors": 38,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 38,
+     "rejected": {
+      "duplicate": 13,
+      "CJK text": 2,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 718,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.84
+   },
+   {
+    "pass": 2,
+    "segment": 0,
+    "chars": 96,
+    "z_before": 3.2328954364819484,
+    "z_after": 3.2811059973211116,
+    "accepted": false,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "CJK text": 10,
+      "duplicate": 5,
+      "hit length limit": 1,
+      "unknown word": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 758,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 28.58
+   },
+   {
+    "pass": 2,
+    "segment": 2,
+    "chars": 62,
+    "z_before": 3.2328954364819484,
+    "z_after": 3.2328954364819484,
+    "accepted": false,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 36,
+     "after_spelling": 36,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "duplicate": 24,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 790,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.5
+   },
+   {
+    "pass": 2,
+    "segment": 10,
+    "chars": 56,
+    "z_before": 3.2328954364819484,
+    "z_after": 3.4056414336064784,
+    "accepted": false,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "duplicate": 10,
+      "CJK text": 1,
+      "unknown word": 1,
+      "meaning too different": 5,
+      "perplexity too high": 12
+     }
+    },
+    "queries_total": 821,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.67
+   },
+   {
+    "pass": 2,
+    "segment": 12,
+    "chars": 42,
+    "z_before": 3.2328954364819484,
+    "z_after": 3.2328954364819484,
+    "accepted": false,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 34,
+     "after_content": 34,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "duplicate": 26,
+      "meaning too different": 7,
+      "perplexity too high": 8
+     }
+    },
+    "queries_total": 839,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.41
+   },
+   {
+    "pass": 2,
+    "segment": 6,
+    "chars": 30,
+    "z_before": 3.2328954364819484,
+    "z_after": 3.2328954364819484,
+    "accepted": false,
+    "survivors": 20,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 22,
+     "after_spelling": 22,
+     "after_content": 22,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 20,
+     "rejected": {
+      "duplicate": 38,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 859,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 12.48
+   },
+   {
+    "pass": 3,
+    "segment": 9,
+    "chars": 316,
+    "z_before": 3.2328954364819484,
+    "z_after": 3.412500738508723,
+    "accepted": false,
+    "survivors": 20,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 52,
+     "after_content": 23,
+     "after_semantic": 23,
+     "fluency_skipped": false,
+     "after_fluency": 20,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 6,
+      "negation count changed": 29,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 879,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 57.39
+   },
+   {
+    "pass": 3,
+    "segment": 1,
+    "chars": 301,
+    "z_before": 3.2328954364819484,
+    "z_after": 3.1202878583583287,
+    "accepted": true,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 56,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 1,
+      "negation count changed": 7,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 925,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.06
+   },
+   {
+    "pass": 3,
+    "segment": 7,
+    "chars": 243,
+    "z_before": 3.1202878583583287,
+    "z_after": 3.2306118618723594,
+    "accepted": false,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 52,
+     "after_content": 1,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "CJK text": 6,
+      "unknown word": 2,
+      "negation count changed": 51
+     }
+    },
+    "queries_total": 926,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.29
+   },
+   {
+    "pass": 3,
+    "segment": 4,
+    "chars": 222,
+    "z_before": 3.1202878583583287,
+    "z_after": 3.34297924074943,
+    "accepted": false,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 1,
+      "negation count changed": 6,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 973,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 50.06
+   },
+   {
+    "pass": 3,
+    "segment": 8,
+    "chars": 187,
+    "z_before": 3.1202878583583287,
+    "z_after": 3.1622776601683795,
+    "accepted": false,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 52,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "CJK text": 6,
+      "unknown word": 2,
+      "negation count changed": 9
+     }
+    },
+    "queries_total": 1016,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 42.13
+   },
+   {
+    "pass": 3,
+    "segment": 3,
+    "chars": 173,
+    "z_before": 3.1202878583583287,
+    "z_after": 3.34297924074943,
+    "accepted": false,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 1071,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.78
+   },
+   {
+    "pass": 3,
+    "segment": 11,
+    "chars": 140,
+    "z_before": 3.1202878583583287,
+    "z_after": 3.3147592470614486,
+    "accepted": false,
+    "survivors": 53,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 53,
+     "rejected": {
+      "CJK text": 2,
+      "preamble": 1,
+      "unknown word": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 1124,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.72
+   },
+   {
+    "pass": 3,
+    "segment": 5,
+    "chars": 125,
+    "z_before": 3.1202878583583287,
+    "z_after": 3.1622776601683795,
+    "accepted": false,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 50,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "duplicate": 8,
+      "CJK text": 1,
+      "unknown word": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 1171,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.58
+   },
+   {
+    "pass": 3,
+    "segment": 0,
+    "chars": 96,
+    "z_before": 3.1202878583583287,
+    "z_after": 3.1687511114881484,
+    "accepted": false,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 43,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "CJK text": 11,
+      "duplicate": 4,
+      "hit length limit": 1,
+      "unknown word": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 1212,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 32.51
+   },
+   {
+    "pass": 3,
+    "segment": 2,
+    "chars": 62,
+    "z_before": 3.1202878583583287,
+    "z_after": 3.042313281549549,
+    "accepted": true,
+    "survivors": 30,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 34,
+     "after_content": 34,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 30,
+     "rejected": {
+      "duplicate": 26,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 1242,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.26
+   },
+   {
+    "pass": 3,
+    "segment": 10,
+    "chars": 56,
+    "z_before": 3.042313281549549,
+    "z_after": 3.133128603386849,
+    "accepted": false,
+    "survivors": 30,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 39,
+     "fluency_skipped": false,
+     "after_fluency": 30,
+     "rejected": {
+      "duplicate": 10,
+      "CJK text": 2,
+      "unknown word": 4,
+      "meaning too different": 5,
+      "perplexity too high": 9
+     }
+    },
+    "queries_total": 1272,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.18
+   },
+   {
+    "pass": 3,
+    "segment": 12,
+    "chars": 42,
+    "z_before": 3.042313281549549,
+    "z_after": 3.042313281549549,
+    "accepted": false,
+    "survivors": 20,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 31,
+     "after_spelling": 31,
+     "after_content": 31,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 20,
+     "rejected": {
+      "duplicate": 27,
+      "CJK text": 2,
+      "meaning too different": 7,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 1291,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.28
+   },
+   {
+    "pass": 3,
+    "segment": 6,
+    "chars": 30,
+    "z_before": 3.042313281549549,
+    "z_after": 3.042313281549549,
+    "accepted": false,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 20,
+     "after_spelling": 20,
+     "after_content": 20,
+     "after_semantic": 20,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "duplicate": 39,
+      "CJK text": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 1308,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 12.62
+   },
+   {
+    "pass": 4,
+    "segment": 9,
+    "chars": 316,
+    "z_before": 3.042313281549549,
+    "z_after": 3.4126181639496753,
+    "accepted": false,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 51,
+     "after_content": 24,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "CJK text": 7,
+      "several lines": 1,
+      "unknown word": 1,
+      "negation count changed": 27,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 1331,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 61.38
+   },
+   {
+    "pass": 4,
+    "segment": 1,
+    "chars": 301,
+    "z_before": 3.042313281549549,
+    "z_after": 3.113926408605017,
+    "accepted": false,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 2,
+      "negation count changed": 8,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 1380,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 58.67
+   },
+   {
+    "pass": 4,
+    "segment": 7,
+    "chars": 243,
+    "z_before": 3.042313281549549,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 50,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 6,
+      "glued punctuation": 2,
+      "unknown word": 2,
+      "negation count changed": 50
+     }
+    },
+    "queries_total": 1380,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 51.17
+   },
+   {
+    "pass": 4,
+    "segment": 4,
+    "chars": 222,
+    "z_before": 3.042313281549549,
+    "z_after": 3.4126181639496753,
+    "accepted": false,
+    "survivors": 42,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 54,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 42,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 4,
+      "duplicate": 1,
+      "negation count changed": 12
+     }
+    },
+    "queries_total": 1422,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 57.12
+   },
+   {
+    "pass": 4,
+    "segment": 8,
+    "chars": 187,
+    "z_before": 3.042313281549549,
+    "z_after": 2.9637448918190956,
+    "accepted": true,
+    "survivors": 46,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 46,
+     "rejected": {
+      "CJK text": 3,
+      "hit length limit": 1,
+      "unknown word": 1,
+      "negation count changed": 9
+     }
+    },
+    "queries_total": 1468,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 42.28
+   },
+   {
+    "pass": 4,
+    "segment": 3,
+    "chars": 173,
+    "z_before": 2.9637448918190956,
+    "z_after": 3.0486055597950434,
+    "accepted": false,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 53,
+     "after_content": 53,
+     "after_semantic": 53,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "CJK text": 4,
+      "duplicate": 1,
+      "unknown word": 2,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 1517,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.53
+   },
+   {
+    "pass": 4,
+    "segment": 11,
+    "chars": 140,
+    "z_before": 2.9637448918190956,
+    "z_after": 3.006217623250228,
+    "accepted": false,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 1,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 1569,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.6
+   },
+   {
+    "pass": 4,
+    "segment": 5,
+    "chars": 125,
+    "z_before": 2.9637448918190956,
+    "z_after": 3.0486055597950434,
+    "accepted": false,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 11,
+      "unknown word": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 1613,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.83
+   },
+   {
+    "pass": 4,
+    "segment": 0,
+    "chars": 96,
+    "z_before": 2.9637448918190956,
+    "z_after": 2.9699258055022,
+    "accepted": false,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 38,
+     "after_spelling": 33,
+     "after_content": 33,
+     "after_semantic": 33,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "duplicate": 8,
+      "CJK text": 11,
+      "several lines": 2,
+      "hit length limit": 1,
+      "unknown word": 5,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 1645,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 33.61
+   },
+   {
+    "pass": 4,
+    "segment": 2,
+    "chars": 62,
+    "z_before": 2.9637448918190956,
+    "z_after": 3.0845426390602984,
+    "accepted": false,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 35,
+     "after_spelling": 35,
+     "after_content": 35,
+     "after_semantic": 35,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "duplicate": 25,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 1679,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.39
+   },
+   {
+    "pass": 4,
+    "segment": 10,
+    "chars": 56,
+    "z_before": 2.9637448918190956,
+    "z_after": 3.0549370423366065,
+    "accepted": false,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "duplicate": 8,
+      "unknown word": 3,
+      "meaning too different": 3,
+      "perplexity too high": 11
+     }
+    },
+    "queries_total": 1714,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.17
+   },
+   {
+    "pass": 4,
+    "segment": 12,
+    "chars": 42,
+    "z_before": 2.9637448918190956,
+    "z_after": 2.9637448918190956,
+    "accepted": false,
+    "survivors": 21,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 21,
+     "rejected": {
+      "duplicate": 29,
+      "CJK text": 1,
+      "meaning too different": 3,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 1734,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.09
+   },
+   {
+    "pass": 4,
+    "segment": 6,
+    "chars": 30,
+    "z_before": 2.9637448918190956,
+    "z_after": 3.0124740662784135,
+    "accepted": false,
+    "survivors": 17,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 22,
+     "after_spelling": 21,
+     "after_content": 21,
+     "after_semantic": 21,
+     "fluency_skipped": false,
+     "after_fluency": 17,
+     "rejected": {
+      "duplicate": 38,
+      "unknown word": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 1751,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 12.62
+   },
+   {
+    "pass": 5,
+    "segment": 9,
+    "chars": 316,
+    "z_before": 2.9637448918190956,
+    "z_after": 2.7813605907840744,
+    "accepted": true,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 50,
+     "after_content": 21,
+     "after_semantic": 21,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "CJK text": 4,
+      "several lines": 2,
+      "unknown word": 4,
+      "negation count changed": 29,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 1769,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 72.49
+   },
+   {
+    "pass": 5,
+    "segment": 1,
+    "chars": 301,
+    "z_before": 2.7813605907840744,
+    "z_after": 2.9030989544096926,
+    "accepted": false,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "CJK text": 2,
+      "negation count changed": 7,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 1816,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.98
+   },
+   {
+    "pass": 5,
+    "segment": 7,
+    "chars": 243,
+    "z_before": 2.7813605907840744,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 52,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 6,
+      "unknown word": 2,
+      "negation count changed": 52
+     }
+    },
+    "queries_total": 1816,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 49.13
+   },
+   {
+    "pass": 5,
+    "segment": 4,
+    "chars": 222,
+    "z_before": 2.7813605907840744,
+    "z_after": 3.042313281549549,
+    "accepted": false,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 2,
+      "negation count changed": 8
+     }
+    },
+    "queries_total": 1865,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 51.45
+   },
+   {
+    "pass": 5,
+    "segment": 8,
+    "chars": 187,
+    "z_before": 2.7813605907840744,
+    "z_after": 2.860682637874949,
+    "accepted": false,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 52,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "CJK text": 8,
+      "negation count changed": 8,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 1908,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.93
+   },
+   {
+    "pass": 5,
+    "segment": 3,
+    "chars": 173,
+    "z_before": 2.7813605907840744,
+    "z_after": 2.860682637874949,
+    "accepted": false,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 6,
+      "duplicate": 1,
+      "hit length limit": 1
+     }
+    },
+    "queries_total": 1960,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 36.99
+   },
+   {
+    "pass": 5,
+    "segment": 11,
+    "chars": 140,
+    "z_before": 2.7813605907840744,
+    "z_after": 2.872552741301585,
+    "accepted": false,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 3,
+      "unknown word": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 2012,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 39.89
+   },
+   {
+    "pass": 5,
+    "segment": 5,
+    "chars": 125,
+    "z_before": 2.7813605907840744,
+    "z_after": 2.824022615780517,
+    "accepted": false,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 48,
+     "after_spelling": 48,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "duplicate": 12,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 2053,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.57
+   },
+   {
+    "pass": 5,
+    "segment": 0,
+    "chars": 96,
+    "z_before": 2.7813605907840744,
+    "z_after": 2.824022615780517,
+    "accepted": false,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 42,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "CJK text": 13,
+      "duplicate": 5,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 2092,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 29.4
+   },
+   {
+    "pass": 5,
+    "segment": 2,
+    "chars": 62,
+    "z_before": 2.7813605907840744,
+    "z_after": 2.81237711208439,
+    "accepted": false,
+    "survivors": 37,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 38,
+     "after_spelling": 37,
+     "after_content": 37,
+     "after_semantic": 37,
+     "fluency_skipped": false,
+     "after_fluency": 37,
+     "rejected": {
+      "duplicate": 21,
+      "CJK text": 1,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 2129,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.64
+   },
+   {
+    "pass": 5,
+    "segment": 10,
+    "chars": 56,
+    "z_before": 2.7813605907840744,
+    "z_after": 2.7813605907840744,
+    "accepted": false,
+    "survivors": 37,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 51,
+     "after_content": 51,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 37,
+     "rejected": {
+      "duplicate": 5,
+      "CJK text": 1,
+      "unknown word": 3,
+      "meaning too different": 3,
+      "perplexity too high": 11
+     }
+    },
+    "queries_total": 2165,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.73
+   },
+   {
+    "pass": 5,
+    "segment": 12,
+    "chars": 42,
+    "z_before": 2.7813605907840744,
+    "z_after": 2.7386127875258306,
+    "accepted": true,
+    "survivors": 20,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 31,
+     "after_spelling": 31,
+     "after_content": 31,
+     "after_semantic": 26,
+     "fluency_skipped": false,
+     "after_fluency": 20,
+     "rejected": {
+      "duplicate": 29,
+      "meaning too different": 5,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 2185,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.22
+   },
+   {
+    "pass": 5,
+    "segment": 6,
+    "chars": 30,
+    "z_before": 2.7386127875258306,
+    "z_after": 2.787161140548218,
+    "accepted": false,
+    "survivors": 12,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 14,
+     "after_spelling": 14,
+     "after_content": 14,
+     "after_semantic": 14,
+     "fluency_skipped": false,
+     "after_fluency": 12,
+     "rejected": {
+      "duplicate": 44,
+      "CJK text": 2,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 2197,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 12.36
+   },
+   {
+    "pass": 6,
+    "segment": 9,
+    "chars": 316,
+    "z_before": 2.7386127875258306,
+    "z_after": 2.824022615780517,
+    "accepted": false,
+    "survivors": 24,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 25,
+     "after_semantic": 25,
+     "fluency_skipped": false,
+     "after_fluency": 24,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 1,
+      "unknown word": 2,
+      "negation count changed": 31,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 2221,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 60.93
+   },
+   {
+    "pass": 6,
+    "segment": 1,
+    "chars": 301,
+    "z_before": 2.7386127875258306,
+    "z_after": 2.915648476105668,
+    "accepted": false,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 58,
+     "after_content": 50,
+     "after_semantic": 50,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 1,
+      "negation count changed": 8,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 2269,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.89
+   },
+   {
+    "pass": 6,
+    "segment": 7,
+    "chars": 243,
+    "z_before": 2.7386127875258306,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 51,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 4,
+      "glued punctuation": 2,
+      "unknown word": 3,
+      "negation count changed": 51
+     }
+    },
+    "queries_total": 2269,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 49.71
+   },
+   {
+    "pass": 6,
+    "segment": 4,
+    "chars": 222,
+    "z_before": 2.7386127875258306,
+    "z_after": 2.872552741301585,
+    "accepted": false,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 54,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "several lines": 3,
+      "CJK text": 2,
+      "duplicate": 1,
+      "negation count changed": 9,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 2313,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 57.64
+   },
+   {
+    "pass": 6,
+    "segment": 8,
+    "chars": 187,
+    "z_before": 2.7386127875258306,
+    "z_after": 2.824022615780517,
+    "accepted": false,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "CJK text": 4,
+      "unknown word": 1,
+      "negation count changed": 7,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 2360,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.46
+   },
+   {
+    "pass": 6,
+    "segment": 3,
+    "chars": 173,
+    "z_before": 2.7386127875258306,
+    "z_after": 2.8298998804433584,
+    "accepted": false,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 5,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 2412,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 35.0
+   },
+   {
+    "pass": 6,
+    "segment": 11,
+    "chars": 140,
+    "z_before": 2.7386127875258306,
+    "z_after": 2.604396475594237,
+    "accepted": true,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 57,
+     "after_content": 57,
+     "after_semantic": 57,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "duplicate": 2,
+      "CJK text": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 2467,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.58
+   },
+   {
+    "pass": 6,
+    "segment": 5,
+    "chars": 125,
+    "z_before": 2.604396475594237,
+    "z_after": 2.604396475594237,
+    "accepted": false,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 50,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 9,
+      "unknown word": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 2511,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.76
+   },
+   {
+    "pass": 6,
+    "segment": 0,
+    "chars": 96,
+    "z_before": 2.604396475594237,
+    "z_after": 2.56138038097955,
+    "accepted": true,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 44,
+     "after_spelling": 43,
+     "after_content": 41,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "CJK text": 12,
+      "duplicate": 4,
+      "unknown word": 1,
+      "negation count changed": 2,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 2545,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 26.18
+   },
+   {
+    "pass": 6,
+    "segment": 2,
+    "chars": 62,
+    "z_before": 2.56138038097955,
+    "z_after": 2.5935898046017534,
+    "accepted": false,
+    "survivors": 28,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 30,
+     "fluency_skipped": false,
+     "after_fluency": 28,
+     "rejected": {
+      "duplicate": 30,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 2573,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.44
+   },
+   {
+    "pass": 6,
+    "segment": 10,
+    "chars": 56,
+    "z_before": 2.56138038097955,
+    "z_after": 2.56138038097955,
+    "accepted": false,
+    "survivors": 32,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 32,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 8,
+      "meaning too different": 2,
+      "perplexity too high": 15
+     }
+    },
+    "queries_total": 2605,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.04
+   },
+   {
+    "pass": 6,
+    "segment": 12,
+    "chars": 42,
+    "z_before": 2.56138038097955,
+    "z_after": 2.56138038097955,
+    "accepted": false,
+    "survivors": 23,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 30,
+     "after_spelling": 30,
+     "after_content": 30,
+     "after_semantic": 28,
+     "fluency_skipped": false,
+     "after_fluency": 23,
+     "rejected": {
+      "duplicate": 28,
+      "hit length limit": 1,
+      "CJK text": 1,
+      "meaning too different": 2,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 2627,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 16.46
+   },
+   {
+    "pass": 6,
+    "segment": 6,
+    "chars": 30,
+    "z_before": 2.56138038097955,
+    "z_after": 2.6098507150250914,
+    "accepted": false,
+    "survivors": 16,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 20,
+     "after_spelling": 20,
+     "after_content": 20,
+     "after_semantic": 20,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "duplicate": 40,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 2643,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 12.61
+   },
+   {
+    "pass": 7,
+    "segment": 9,
+    "chars": 316,
+    "z_before": 2.56138038097955,
+    "z_after": 2.8417653407874552,
+    "accepted": false,
+    "survivors": 17,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 52,
+     "after_content": 17,
+     "after_semantic": 17,
+     "fluency_skipped": false,
+     "after_fluency": 17,
+     "rejected": {
+      "CJK text": 4,
+      "several lines": 2,
+      "unknown word": 2,
+      "negation count changed": 35
+     }
+    },
+    "queries_total": 2660,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 67.29
+   },
+   {
+    "pass": 7,
+    "segment": 1,
+    "chars": 301,
+    "z_before": 2.56138038097955,
+    "z_after": 2.7813605907840744,
+    "accepted": false,
+    "survivors": 47,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 58,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 47,
+     "rejected": {
+      "unknown word": 2,
+      "negation count changed": 4,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 2707,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.44
+   },
+   {
+    "pass": 7,
+    "segment": 7,
+    "chars": 243,
+    "z_before": 2.56138038097955,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 53,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 4,
+      "glued punctuation": 2,
+      "unknown word": 1,
+      "negation count changed": 53
+     }
+    },
+    "queries_total": 2707,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 48.27
+   },
+   {
+    "pass": 7,
+    "segment": 4,
+    "chars": 222,
+    "z_before": 2.56138038097955,
+    "z_after": 2.7443361224780896,
+    "accepted": false,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 40,
+     "after_semantic": 40,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 1,
+      "several lines": 1,
+      "negation count changed": 14,
+      "numbers changed": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 2746,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 56.53
+   },
+   {
+    "pass": 7,
+    "segment": 8,
+    "chars": 187,
+    "z_before": 2.56138038097955,
+    "z_after": 2.647325694608303,
+    "accepted": false,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 49,
+     "after_content": 39,
+     "after_semantic": 39,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "several lines": 4,
+      "CJK text": 4,
+      "unknown word": 3,
+      "negation count changed": 10
+     }
+    },
+    "queries_total": 2785,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 43.02
+   },
+   {
+    "pass": 7,
+    "segment": 3,
+    "chars": 173,
+    "z_before": 2.56138038097955,
+    "z_after": 2.647325694608303,
+    "accepted": false,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 52,
+     "after_spelling": 52,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 4,
+      "duplicate": 3
+     }
+    },
+    "queries_total": 2837,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 37.5
+   },
+   {
+    "pass": 7,
+    "segment": 11,
+    "chars": 140,
+    "z_before": 2.56138038097955,
+    "z_after": 2.7443361224780896,
+    "accepted": false,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 5,
+      "unknown word": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 2887,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.16
+   },
+   {
+    "pass": 7,
+    "segment": 5,
+    "chars": 125,
+    "z_before": 2.56138038097955,
+    "z_after": 2.6528582517288197,
+    "accepted": false,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 49,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "duplicate": 10,
+      "CJK text": 1,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 2931,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.57
+   },
+   {
+    "pass": 7,
+    "segment": 0,
+    "chars": 96,
+    "z_before": 2.56138038097955,
+    "z_after": 2.6418276083108063,
+    "accepted": false,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 38,
+     "after_spelling": 37,
+     "after_content": 36,
+     "after_semantic": 36,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "CJK text": 14,
+      "duplicate": 8,
+      "unknown word": 1,
+      "negation count changed": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 2963,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 25.41
+   },
+   {
+    "pass": 7,
+    "segment": 2,
+    "chars": 62,
+    "z_before": 2.56138038097955,
+    "z_after": 2.6418276083108063,
+    "accepted": false,
+    "survivors": 30,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 31,
+     "after_spelling": 31,
+     "after_content": 31,
+     "after_semantic": 31,
+     "fluency_skipped": false,
+     "after_fluency": 30,
+     "rejected": {
+      "duplicate": 28,
+      "CJK text": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 2976,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.57
+   },
+   {
+    "pass": 7,
+    "segment": 10,
+    "chars": 56,
+    "z_before": 2.56138038097955,
+    "z_after": 2.707105659672629,
+    "accepted": false,
+    "survivors": 29,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 46,
+     "after_spelling": 43,
+     "after_content": 43,
+     "after_semantic": 41,
+     "fluency_skipped": false,
+     "after_fluency": 29,
+     "rejected": {
+      "duplicate": 11,
+      "CJK text": 3,
+      "unknown word": 3,
+      "meaning too different": 2,
+      "perplexity too high": 12
+     }
+    },
+    "queries_total": 2999,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 16.67
+   },
+   {
+    "pass": 7,
+    "segment": 12,
+    "chars": 42,
+    "z_before": 2.56138038097955,
+    "z_after": 2.604396475594237,
+    "accepted": false,
+    "survivors": 21,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 28,
+     "after_spelling": 28,
+     "after_content": 28,
+     "after_semantic": 24,
+     "fluency_skipped": false,
+     "after_fluency": 21,
+     "rejected": {
+      "duplicate": 31,
+      "CJK text": 1,
+      "meaning too different": 4,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 3012,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.09
+   },
+   {
+    "pass": 7,
+    "segment": 6,
+    "chars": 30,
+    "z_before": 2.56138038097955,
+    "z_after": 2.513014143117246,
+    "accepted": true,
+    "survivors": 16,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 19,
+     "after_spelling": 19,
+     "after_content": 19,
+     "after_semantic": 19,
+     "fluency_skipped": false,
+     "after_fluency": 16,
+     "rejected": {
+      "duplicate": 39,
+      "CJK text": 2,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 3019,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 12.42
+   },
+   {
+    "pass": 8,
+    "segment": 9,
+    "chars": 316,
+    "z_before": 2.513014143117246,
+    "z_after": 2.9272918639766288,
+    "accepted": false,
+    "survivors": 20,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 52,
+     "after_content": 22,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 20,
+     "rejected": {
+      "CJK text": 3,
+      "several lines": 1,
+      "unknown word": 4,
+      "negation count changed": 30,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 3039,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 65.31
+   },
+   {
+    "pass": 8,
+    "segment": 1,
+    "chars": 301,
+    "z_before": 2.513014143117246,
+    "z_after": 2.7528914626797976,
+    "accepted": false,
+    "survivors": 49,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 60,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 49,
+     "rejected": {
+      "negation count changed": 8,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 3088,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 53.78
+   },
+   {
+    "pass": 8,
+    "segment": 7,
+    "chars": 243,
+    "z_before": 2.513014143117246,
+    "z_after": null,
+    "accepted": false,
+    "survivors": 0,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 55,
+     "after_content": 0,
+     "after_semantic": 0,
+     "fluency_skipped": true,
+     "after_fluency": 0,
+     "rejected": {
+      "CJK text": 3,
+      "glued punctuation": 1,
+      "unknown word": 1,
+      "negation count changed": 55
+     }
+    },
+    "queries_total": 3088,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 49.99
+   },
+   {
+    "pass": 8,
+    "segment": 4,
+    "chars": 222,
+    "z_before": 2.513014143117246,
+    "z_after": 2.915120119515372,
+    "accepted": false,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "several lines": 2,
+      "CJK text": 2,
+      "unknown word": 1,
+      "negation count changed": 13,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 3127,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.24
+   },
+   {
+    "pass": 8,
+    "segment": 8,
+    "chars": 187,
+    "z_before": 2.513014143117246,
+    "z_after": 2.4115835025244374,
+    "accepted": true,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 56,
+     "after_content": 48,
+     "after_semantic": 48,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 1,
+      "several lines": 1,
+      "negation count changed": 8
+     }
+    },
+    "queries_total": 3175,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 42.14
+   },
+   {
+    "pass": 8,
+    "segment": 3,
+    "chars": 173,
+    "z_before": 2.4115835025244374,
+    "z_after": 2.497421350525749,
+    "accepted": false,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "CJK text": 3,
+      "duplicate": 2,
+      "unknown word": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 3227,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 34.94
+   },
+   {
+    "pass": 8,
+    "segment": 11,
+    "chars": 140,
+    "z_before": 2.4115835025244374,
+    "z_after": 2.4115835025244374,
+    "accepted": false,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 57,
+     "after_spelling": 56,
+     "after_content": 56,
+     "after_semantic": 56,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "CJK text": 3,
+      "unknown word": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 3281,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.97
+   },
+   {
+    "pass": 8,
+    "segment": 5,
+    "chars": 125,
+    "z_before": 2.4115835025244374,
+    "z_after": 2.4115835025244374,
+    "accepted": false,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 14,
+      "perplexity too high": 9
+     }
+    },
+    "queries_total": 3316,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.31
+   },
+   {
+    "pass": 8,
+    "segment": 0,
+    "chars": 96,
+    "z_before": 2.4115835025244374,
+    "z_after": 2.540211585108481,
+    "accepted": false,
+    "survivors": 34,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 38,
+     "after_spelling": 36,
+     "after_content": 35,
+     "after_semantic": 35,
+     "fluency_skipped": false,
+     "after_fluency": 34,
+     "rejected": {
+      "CJK text": 11,
+      "duplicate": 11,
+      "unknown word": 1,
+      "glued punctuation": 1,
+      "negation count changed": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 3350,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 30.36
+   },
+   {
+    "pass": 8,
+    "segment": 2,
+    "chars": 62,
+    "z_before": 2.4115835025244374,
+    "z_after": 2.4444651431480002,
+    "accepted": false,
+    "survivors": 36,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 39,
+     "after_spelling": 39,
+     "after_content": 39,
+     "after_semantic": 39,
+     "fluency_skipped": false,
+     "after_fluency": 36,
+     "rejected": {
+      "duplicate": 21,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 3386,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.51
+   },
+   {
+    "pass": 8,
+    "segment": 10,
+    "chars": 56,
+    "z_before": 2.4115835025244374,
+    "z_after": 2.4596326008410956,
+    "accepted": false,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 51,
+     "after_spelling": 49,
+     "after_content": 49,
+     "after_semantic": 46,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "duplicate": 8,
+      "CJK text": 1,
+      "unknown word": 2,
+      "meaning too different": 3,
+      "perplexity too high": 11
+     }
+    },
+    "queries_total": 3421,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.67
+   },
+   {
+    "pass": 8,
+    "segment": 12,
+    "chars": 42,
+    "z_before": 2.4115835025244374,
+    "z_after": 2.4545454545454546,
+    "accepted": false,
+    "survivors": 25,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 34,
+     "after_spelling": 34,
+     "after_content": 34,
+     "after_semantic": 29,
+     "fluency_skipped": false,
+     "after_fluency": 25,
+     "rejected": {
+      "duplicate": 26,
+      "meaning too different": 5,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 3446,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.47
+   },
+   {
+    "pass": 8,
+    "segment": 6,
+    "chars": 30,
+    "z_before": 2.4115835025244374,
+    "z_after": 2.5077841392315428,
+    "accepted": false,
+    "survivors": 18,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 21,
+     "after_spelling": 21,
+     "after_content": 21,
+     "after_semantic": 20,
+     "fluency_skipped": false,
+     "after_fluency": 18,
+     "rejected": {
+      "duplicate": 38,
+      "CJK text": 1,
+      "meaning too different": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 3464,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 12.42
+   },
+   {
+    "pass": 9,
+    "segment": 9,
+    "chars": 316,
+    "z_before": 2.4115835025244374,
+    "z_after": 2.9761455522215954,
+    "accepted": false,
+    "survivors": 21,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 52,
+     "after_content": 21,
+     "after_semantic": 21,
+     "fluency_skipped": false,
+     "after_fluency": 21,
+     "rejected": {
+      "CJK text": 6,
+      "unknown word": 2,
+      "negation count changed": 31
+     }
+    },
+    "queries_total": 3485,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 58.05
+   },
+   {
+    "pass": 9,
+    "segment": 1,
+    "chars": 301,
+    "z_before": 2.4115835025244374,
+    "z_after": 2.6363636363636362,
+    "accepted": false,
+    "survivors": 48,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 54,
+     "after_content": 51,
+     "after_semantic": 51,
+     "fluency_skipped": false,
+     "after_fluency": 48,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 4,
+      "negation count changed": 3,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 3533,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.07
+   },
+   {
+    "pass": 9,
+    "segment": 7,
+    "chars": 243,
+    "z_before": 2.4115835025244374,
+    "z_after": 2.2482741919315052,
+    "accepted": true,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 59,
+     "after_spelling": 55,
+     "after_content": 1,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "CJK text": 1,
+      "unknown word": 3,
+      "glued punctuation": 1,
+      "negation count changed": 54
+     }
+    },
+    "queries_total": 3534,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 48.67
+   },
+   {
+    "pass": 9,
+    "segment": 4,
+    "chars": 222,
+    "z_before": 2.2482741919315052,
+    "z_after": 2.4699025102302805,
+    "accepted": false,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 54,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "CJK text": 2,
+      "several lines": 4,
+      "negation count changed": 10
+     }
+    },
+    "queries_total": 3578,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 55.53
+   },
+   {
+    "pass": 9,
+    "segment": 8,
+    "chars": 187,
+    "z_before": 2.2482741919315052,
+    "z_after": 2.566755791678992,
+    "accepted": false,
+    "survivors": 52,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 60,
+     "after_spelling": 59,
+     "after_content": 52,
+     "after_semantic": 52,
+     "fluency_skipped": false,
+     "after_fluency": 52,
+     "rejected": {
+      "unknown word": 1,
+      "negation count changed": 7
+     }
+    },
+    "queries_total": 3630,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 38.14
+   },
+   {
+    "pass": 9,
+    "segment": 3,
+    "chars": 173,
+    "z_before": 2.2482741919315052,
+    "z_after": 2.4267032964268394,
+    "accepted": false,
+    "survivors": 54,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 54,
+     "rejected": {
+      "CJK text": 2,
+      "several lines": 1,
+      "duplicate": 2,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 3684,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 33.83
+   },
+   {
+    "pass": 9,
+    "segment": 11,
+    "chars": 140,
+    "z_before": 2.2482741919315052,
+    "z_after": 2.282177322938192,
+    "accepted": false,
+    "survivors": 50,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 54,
+     "after_content": 54,
+     "after_semantic": 54,
+     "fluency_skipped": false,
+     "after_fluency": 50,
+     "rejected": {
+      "CJK text": 4,
+      "preamble": 1,
+      "duplicate": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 3734,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 39.21
+   },
+   {
+    "pass": 9,
+    "segment": 5,
+    "chars": 125,
+    "z_before": 2.2482741919315052,
+    "z_after": 2.2482741919315052,
+    "accepted": false,
+    "survivors": 41,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 47,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 41,
+     "rejected": {
+      "duplicate": 13,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 3774,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.89
+   },
+   {
+    "pass": 9,
+    "segment": 0,
+    "chars": 96,
+    "z_before": 2.2482741919315052,
+    "z_after": 2.1954688979824715,
+    "accepted": true,
+    "survivors": 40,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 42,
+     "after_spelling": 42,
+     "after_content": 42,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 40,
+     "rejected": {
+      "hit length limit": 3,
+      "CJK text": 12,
+      "duplicate": 3,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 3814,
+    "hit_limit": 3,
+    "oom_events": [],
+    "seconds_generate": 37.03
+   },
+   {
+    "pass": 9,
+    "segment": 2,
+    "chars": 62,
+    "z_before": 2.1954688979824715,
+    "z_after": 2.282177322938192,
+    "accepted": false,
+    "survivors": 30,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 32,
+     "after_spelling": 32,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 30,
+     "rejected": {
+      "duplicate": 27,
+      "CJK text": 1,
+      "perplexity too high": 2
+     }
+    },
+    "queries_total": 3844,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.37
+   },
+   {
+    "pass": 9,
+    "segment": 10,
+    "chars": 56,
+    "z_before": 2.1954688979824715,
+    "z_after": 2.2000763928677074,
+    "accepted": false,
+    "survivors": 37,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 46,
+     "after_content": 46,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 37,
+     "rejected": {
+      "CJK text": 2,
+      "duplicate": 9,
+      "unknown word": 3,
+      "meaning too different": 3,
+      "perplexity too high": 6
+     }
+    },
+    "queries_total": 3881,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.36
+   },
+   {
+    "pass": 9,
+    "segment": 12,
+    "chars": 42,
+    "z_before": 2.1954688979824715,
+    "z_after": 2.1954688979824715,
+    "accepted": false,
+    "survivors": 22,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 32,
+     "after_spelling": 32,
+     "after_content": 32,
+     "after_semantic": 27,
+     "fluency_skipped": false,
+     "after_fluency": 22,
+     "rejected": {
+      "duplicate": 28,
+      "meaning too different": 5,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 3902,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.53
+   },
+   {
+    "pass": 9,
+    "segment": 6,
+    "chars": 30,
+    "z_before": 2.1954688979824715,
+    "z_after": 2.1954688979824715,
+    "accepted": false,
+    "survivors": 15,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 16,
+     "after_spelling": 16,
+     "after_content": 16,
+     "after_semantic": 16,
+     "fluency_skipped": false,
+     "after_fluency": 15,
+     "rejected": {
+      "duplicate": 44,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 3917,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 12.55
+   },
+   {
+    "pass": 10,
+    "segment": 9,
+    "chars": 316,
+    "z_before": 2.1954688979824715,
+    "z_after": 2.727272727272727,
+    "accepted": false,
+    "survivors": 15,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 50,
+     "after_content": 15,
+     "after_semantic": 15,
+     "fluency_skipped": false,
+     "after_fluency": 15,
+     "rejected": {
+      "several lines": 3,
+      "CJK text": 3,
+      "unknown word": 4,
+      "negation count changed": 35
+     }
+    },
+    "queries_total": 3932,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 70.83
+   },
+   {
+    "pass": 10,
+    "segment": 1,
+    "chars": 301,
+    "z_before": 2.1954688979824715,
+    "z_after": 2.4318067790279545,
+    "accepted": false,
+    "survivors": 44,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 58,
+     "after_spelling": 56,
+     "after_content": 47,
+     "after_semantic": 47,
+     "fluency_skipped": false,
+     "after_fluency": 44,
+     "rejected": {
+      "CJK text": 2,
+      "unknown word": 2,
+      "negation count changed": 9,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 3976,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 51.87
+   },
+   {
+    "pass": 10,
+    "segment": 7,
+    "chars": 243,
+    "z_before": 2.1954688979824715,
+    "z_after": 2.2342076876790107,
+    "accepted": false,
+    "survivors": 1,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 53,
+     "after_spelling": 52,
+     "after_content": 1,
+     "after_semantic": 1,
+     "fluency_skipped": true,
+     "after_fluency": 1,
+     "rejected": {
+      "CJK text": 6,
+      "several lines": 1,
+      "unknown word": 1,
+      "negation count changed": 51
+     }
+    },
+    "queries_total": 3977,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 49.45
+   },
+   {
+    "pass": 10,
+    "segment": 4,
+    "chars": 222,
+    "z_before": 2.1954688979824715,
+    "z_after": 2.4699025102302805,
+    "accepted": false,
+    "survivors": 45,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 54,
+     "after_content": 45,
+     "after_semantic": 45,
+     "fluency_skipped": false,
+     "after_fluency": 45,
+     "rejected": {
+      "several lines": 3,
+      "CJK text": 3,
+      "negation count changed": 8,
+      "numbers changed": 1
+     }
+    },
+    "queries_total": 4022,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 54.78
+   },
+   {
+    "pass": 10,
+    "segment": 8,
+    "chars": 187,
+    "z_before": 2.1954688979824715,
+    "z_after": 2.5776089301153053,
+    "accepted": false,
+    "survivors": 43,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 54,
+     "after_spelling": 53,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 43,
+     "rejected": {
+      "several lines": 1,
+      "CJK text": 5,
+      "unknown word": 1,
+      "negation count changed": 9,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 4065,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 39.7
+   },
+   {
+    "pass": 10,
+    "segment": 3,
+    "chars": 173,
+    "z_before": 2.1954688979824715,
+    "z_after": 2.4647515087732477,
+    "accepted": false,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 55,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "CJK text": 3,
+      "hit length limit": 1,
+      "duplicate": 1
+     }
+    },
+    "queries_total": 4120,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 36.33
+   },
+   {
+    "pass": 10,
+    "segment": 11,
+    "chars": 140,
+    "z_before": 2.1954688979824715,
+    "z_after": 2.34004048547973,
+    "accepted": false,
+    "survivors": 55,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 56,
+     "after_spelling": 55,
+     "after_content": 55,
+     "after_semantic": 55,
+     "fluency_skipped": false,
+     "after_fluency": 55,
+     "rejected": {
+      "CJK text": 2,
+      "preamble": 1,
+      "duplicate": 1,
+      "unknown word": 1
+     }
+    },
+    "queries_total": 4175,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 37.64
+   },
+   {
+    "pass": 10,
+    "segment": 5,
+    "chars": 125,
+    "z_before": 2.1954688979824715,
+    "z_after": 2.1954688979824715,
+    "accepted": false,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 45,
+     "after_spelling": 44,
+     "after_content": 44,
+     "after_semantic": 44,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "duplicate": 14,
+      "CJK text": 1,
+      "unknown word": 1,
+      "perplexity too high": 9
+     }
+    },
+    "queries_total": 4209,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 22.56
+   },
+   {
+    "pass": 10,
+    "segment": 0,
+    "chars": 96,
+    "z_before": 2.1954688979824715,
+    "z_after": 2.388439103308052,
+    "accepted": false,
+    "survivors": 39,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 47,
+     "after_spelling": 44,
+     "after_content": 43,
+     "after_semantic": 43,
+     "fluency_skipped": false,
+     "after_fluency": 39,
+     "rejected": {
+      "CJK text": 11,
+      "duplicate": 1,
+      "hit length limit": 1,
+      "unknown word": 3,
+      "negation count changed": 1,
+      "perplexity too high": 4
+     }
+    },
+    "queries_total": 4242,
+    "hit_limit": 1,
+    "oom_events": [],
+    "seconds_generate": 29.28
+   },
+   {
+    "pass": 10,
+    "segment": 2,
+    "chars": 62,
+    "z_before": 2.1954688979824715,
+    "z_after": 2.277437593371385,
+    "accepted": false,
+    "survivors": 31,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 32,
+     "after_spelling": 32,
+     "after_content": 32,
+     "after_semantic": 32,
+     "fluency_skipped": false,
+     "after_fluency": 31,
+     "rejected": {
+      "duplicate": 27,
+      "CJK text": 1,
+      "perplexity too high": 1
+     }
+    },
+    "queries_total": 4258,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 19.51
+   },
+   {
+    "pass": 10,
+    "segment": 10,
+    "chars": 56,
+    "z_before": 2.1954688979824715,
+    "z_after": 2.2435558778285873,
+    "accepted": false,
+    "survivors": 35,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 49,
+     "after_spelling": 45,
+     "after_content": 45,
+     "after_semantic": 42,
+     "fluency_skipped": false,
+     "after_fluency": 35,
+     "rejected": {
+      "duplicate": 7,
+      "CJK text": 4,
+      "unknown word": 4,
+      "meaning too different": 3,
+      "perplexity too high": 7
+     }
+    },
+    "queries_total": 4288,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 17.24
+   },
+   {
+    "pass": 10,
+    "segment": 12,
+    "chars": 42,
+    "z_before": 2.1954688979824715,
+    "z_after": 2.1954688979824715,
+    "accepted": false,
+    "survivors": 29,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 37,
+     "after_spelling": 37,
+     "after_content": 37,
+     "after_semantic": 34,
+     "fluency_skipped": false,
+     "after_fluency": 29,
+     "rejected": {
+      "CJK text": 1,
+      "duplicate": 22,
+      "meaning too different": 3,
+      "perplexity too high": 5
+     }
+    },
+    "queries_total": 4310,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 14.85
+   },
+   {
+    "pass": 10,
+    "segment": 6,
+    "chars": 30,
+    "z_before": 2.1954688979824715,
+    "z_after": 2.2435558778285873,
+    "accepted": false,
+    "survivors": 19,
+    "funnel": {
+     "generated": 60,
+     "after_clean": 22,
+     "after_spelling": 22,
+     "after_content": 22,
+     "after_semantic": 22,
+     "fluency_skipped": false,
+     "after_fluency": 19,
+     "rejected": {
+      "duplicate": 38,
+      "perplexity too high": 3
+     }
+    },
+    "queries_total": 4319,
+    "hit_limit": 0,
+    "oom_events": [],
+    "seconds_generate": 12.56
+   }
+  ],
+  "rewrites": {
+   "9": {
+    "original": "In the case of the car companies, we don\u2019t see that consummate as much information as we do for tech companies, where cloud data is incredibly obvious, but after a lot of searching and some deductive reasoning, here are what we considered to be relevant totals in California for the broader group of these companies.",
+    "rewrite": "For car companies, we don\u2019t have the same level of data transparency as we do for tech companies, where cloud data is easily accessible, but after extensive research and logical analysis, here are the figures we found to be pertinent for the larger pool of these companies in California."
+   },
+   "1": {
+    "original": "The fact that BMW, Mercedes, and Volkswagen did no official driving at all is notable, particularly in Mercedes\u2019 case, because they are probably the farthest along of the car companies in developing human-machine collaboration software, which is something of a precursor to a fully autonomous vehicle.",
+    "rewrite": "It is noteworthy that none of BMW, Mercedes, and Volkswagen engaged in official driving, especially considering Mercedes\u2019s advancement in creating human-machine collaboration software, which precedes the development of fully autonomous vehicles."
+   },
+   "4": {
+    "original": "The same went for Honda, which made no entries for California driving but a total of 750 miles in other states and about 750 more research miles in California versus passenger miles it drove with passengers paying to ride.",
+    "rewrite": "The same applied to Honda, which recorded no driving hours in California but accumulated 750 miles in other states and approximately an additional 750 miles for research in California compared to passenger miles driven with paying passengers."
+   },
+   "8": {
+    "original": "These reporting requirements have led us to want to aggregate them into a total, not just the reported miles of the parent company but what numbers the pieces and divisions are reporting.",
+    "rewrite": "These reporting demands have spurred a desire to consolidate them into a total, encompassing not only the parent company's reported miles but also the numbers from its various branches and divisions."
+   },
+   "3": {
+    "original": "BMW only reported the distance their researchers walked on city sidewalks and some parking lots in California for testing of the car\u2019s new software versions and the sensors.",
+    "rewrite": "BMW provided data on the walking distances covered by their researchers on California city sidewalks and some parking lots for testing the car\u2019s new software and sensors."
+   },
+   "11": {
+    "original": "Then comes Waymo and Uber, which we estimated at the combined total of its 61,000 Arizona miles plus what it\u2019s driving in California so far.",
+    "rewrite": "Next are Waymo and Uber, whose driving totals we estimated to include their 61,000 Arizona miles alongside the distances covered in California thus far."
+   },
+   "5": {
+    "original": "BMW and Ford even reported only information about pedestrian crashes their cars were involved in as part of the HMC research.",
+    "rewrite": "BMW and Ford only provided data on pedestrian crashes involving their vehicles for the HMC research."
+   },
+   "0": {
+    "original": "These cars can be tested and demonstrated on roads closed to other traffic, approved by the DMV.",
+    "rewrite": "These cars can undergo testing and demonstration on designated roadways that are closed to other traffic, as approved by the DMV."
+   },
+   "2": {
+    "original": "Ditto for Ford, which named an entire division to work on HMC.",
+    "rewrite": "Similarly, Ford created a whole division dedicated to HMC."
+   },
+   "10": {
+    "original": "Cruise took the largest total of miles by a wide margin.",
+    "rewrite": "Cruise outdistanced the competition by a substantial margin in terms of total miles."
+   },
+   "12": {
+    "original": "Nuro is the next biggest by a wide margin.",
+    "rewrite": "Nuro stands out as significantly larger than the competition."
+   },
+   "6": {
+    "original": "In all, they did 57 accidents.",
+    "rewrite": "They accounted for 57 accidents in total."
+   },
+   "7": {
+    "original": "Nissan maybe would have been one of the largest movers out of the starting gate had its all-important fatality with a man walking across a darkened road happened in California and not in Las Vegas, where the Drivemaster system did not feature.",
+    "rewrite": "Nissan potentially could have been one of the earliest leaders had the fatal accident with a pedestrian on a dark road occurred in California and not in Las Vegas, where the Drivemaster technology was not present."
+   }
+  },
+  "final_span": "\nThese cars can undergo testing and demonstration on designated roadways that are closed to other traffic, as approved by the DMV. It is noteworthy that none of BMW, Mercedes, and Volkswagen engaged in official driving, especially considering Mercedes\u2019s advancement in creating human-machine collaboration software, which precedes the development of fully autonomous vehicles. Similarly, Ford created a whole division dedicated to HMC.\nBMW provided data on the walking distances covered by their researchers on California city sidewalks and some parking lots for testing the car\u2019s new software and sensors. The same applied to Honda, which recorded no driving hours in California but accumulated 750 miles in other states and approximately an additional 750 miles for research in California compared to passenger miles driven with paying passengers. BMW and Ford only provided data on pedestrian crashes involving their vehicles for the HMC research. They accounted for 57 accidents in total.\nNissan potentially could have been one of the earliest leaders had the fatal accident with a pedestrian on a dark road occurred in California and not in Las Vegas, where the Drivemaster technology was not present.\nThese reporting demands have spurred a desire to consolidate them into a total, encompassing not only the parent company's reported miles but also the numbers from its various branches and divisions. For car companies, we don\u2019t have the same level of data transparency as we do for tech companies, where cloud data is easily accessible, but after extensive research and logical analysis, here are the figures we found to be pertinent for the larger pool of these companies in California.\nCruise outdistanced the competition by a substantial margin in terms of total miles. Next are Waymo and Uber, whose driving totals we estimated to include their 61,000 Arizona miles alongside the distances covered in California thus far.\nNuro stands out as significantly larger than the competition. It reported close to 50,000 public miles because its 4-foot, supercheap delivery vehicles do so well on the safety test \u2014 4 mph at best, but they really couldn\u2019t have gotten to",
+  "break_point": null
+ },
+ "measures": {
+  "sentences": {
+   "rewritten": 13,
+   "eligible": 13,
+   "segments": 14,
+   "pct_of_eligible": 100.0,
+   "pct_of_segments": 92.85714285714286
+  },
+  "tokens": {
+   "original": 502,
+   "final": 479,
+   "length_change": -23,
+   "pct_not_preserved": 38.44621513944223,
+   "pct_new": 35.490605427974955
+  },
+  "words": {
+   "original": 375,
+   "final": 342,
+   "length_change": -33,
+   "pct_not_preserved": 48.53333333333333,
+   "pct_new": 43.5672514619883
+  },
+  "characters": {
+   "original": 2183,
+   "final": 2171,
+   "length_change": -12,
+   "pct_not_preserved": 33.25698579935869,
+   "pct_new": 32.88807001381851
+  },
+  "entities": {
+   "before": 0,
+   "after": 0
+  },
+  "pairs": {
+   "green_before": 439,
+   "green_after": 263,
+   "pairs_before": 501,
+   "pairs_after": 478,
+   "pairs_changed_before": 276,
+   "pairs_changed_after": 253,
+   "green_fraction_of_new_pairs": 0.2964426877470356,
+   "delta_achieved": 0.20355731225296442
+  }
+ }
+}

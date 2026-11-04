@@ -1,0 +1,80 @@
+{
+ "sample_id": "sta16_len500:59",
+ "nobox": {
+  "z_final": 12.139800056735501,
+  "status": "not broken",
+  "rewrites": {
+   "1": {
+    "original": "That breaks your heart to be confronted with that type of suffering of children, but there was very, very little to show who had run these camps that did the murdering of the children, and we had nothing to prosecute - nothing to show at all.",
+    "rewrite": "It breaks your heart to see such suffering in children, yet there was virtually nothing that pointed to who operated those camps and murdered the children, and we had no evidence whatsoever to prosecute."
+   },
+   "10": {
+    "original": "Mr Horn called in experts, and over hours spent poring over the details, they determined they were RAF aircrew, but more as sexual predators than as fighting soldiers.",
+    "rewrite": "Mr. Horn called in experts, and after spending hours poring over the details, they concluded that the individuals were RAF aircrew, more so as sexual predators than as fighting soldiers."
+   },
+   "6": {
+    "original": "In 1983, he was commissioned to the UK to look at a number of World War II remains found after a heavy rainstorm.",
+    "rewrite": "In 1983, he was commissioned to the UK to examine several World War II remains discovered after a heavy rainstorm."
+   },
+   "5": {
+    "original": "Det Sgt Horn even received a medal for his role in finding a man whose identity lay buried for decades.",
+    "rewrite": "Det Sgt Horn even received a medal for his part in identifying a man whose identity had been buried for decades."
+   },
+   "3": {
+    "original": "Det Sgt Horn took time off after receiving death threats and is still the only person on the case.",
+    "rewrite": "After receiving death threats, Det Sgt Horn took time off but remains the sole investigator on the case."
+   },
+   "14": {
+    "original": "Det Sgt Horn had unraveled a simple case with a simple solution.",
+    "rewrite": "Det Sgt Horn had solved a simple case with an easy solution."
+   },
+   "7": {
+    "original": "He narrowed down to a group believed to be British airmen.",
+    "rewrite": "He narrowed down the group to those believed to be British airmen."
+   }
+  },
+  "sentences_rewritten": 7,
+  "eligible": 7,
+  "per_sentence": [
+   {
+    "index": 1,
+    "survivors": 18,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 57,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 29,
+    "rewritten": true
+   },
+   {
+    "index": 14,
+    "survivors": 31,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 17,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the area? It breaks your heart to see such suffering in children, yet there was virtually nothing that pointed to who operated those camps and murdered the children, and we had no evidence whatsoever to prosecute.\n\"Any opportunity to shed light and help other countries - you do things for that and I think every man and woman in war crimes is there to make sure people don&apos;t repeat those atrocities.\"\nAfter receiving death threats, Det Sgt Horn took time off but remains the sole investigator on the case.\n\"It&apos;s not been easy at time - at times I wasn&apos;t sure if I could go on or not - it happens over a number of years and you do pay a heavy price.\"\nDet Sgt Horn even received a medal for his part in identifying a man whose identity had been buried for decades.\nIn 1983, he was commissioned to the UK to examine several World War II remains discovered after a heavy rainstorm.\nHe narrowed down the group to those believed to be British airmen.\n\"We were looking at a group of seven skulls and I noticed all these holes throughout the squamosal portion of the skull - you could see what looked like a saw cuts on the surface,\" Det Sgt Horn said.\n\"And I remember saying, &apos;that looks very much like a dental procedure.&apos;\nMr. Horn called in experts, and after spending hours poring over the details, they concluded that the individuals were RAF aircrew, more so as sexual predators than as fighting soldiers.\n\"We tried to put the two groups together, but could not because they didn&apos;t fit together. It wasn&apos;t until a week or so later they pulled one of the remains out because they were all buried and we got to look properly at the rest of the body,\" he said.\n\"And of course we got to the chest area and we weren&apos;t too far away from a dental cavity ... its left aspect, inside the inside of the front of the body.\"\nDet Sgt Horn had solved a simple case with an easy solution.\n\"Were they dental cavities? I",
+  "z0": 14.936934089698594,
+  "seconds": 272.3
+ }
+}

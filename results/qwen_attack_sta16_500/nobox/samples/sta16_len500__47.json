@@ -1,0 +1,130 @@
+{
+ "sample_id": "sta16_len500:47",
+ "nobox": {
+  "z_final": 9.60237124864676,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "There is plenty of passenger ergonomics - you\u2019ll struggle to find much fault as to the Yeti\u2019s interior, particularly with the B&O sound system displaying good quality bass notes and a blowsy mid-range sound.",
+    "rewrite": "There is ample passenger ergonomics - you\u2019re likely to find little to fault with the Yeti\u2019s interior, especially regarding the B&O sound system that offers high-quality bass notes and rich mid-range sound."
+   },
+   "12": {
+    "original": "There\u2019s a lot of relaxed work available with the Yeti and the dynamic models only offer a slightly perverse and awkward car that needs some serious coaxing to return to secure, predictable and safe handling.",
+    "rewrite": "There is ample relaxed work available with the Yeti, but the dynamic models present a somewhat perverse and awkward car that requires significant coaxing to achieve secure, predictable, and safe handling."
+   },
+   "3": {
+    "original": "In the boot the cube shape is highlighted by the prominent tribes on the carpet and there\u2019s a wide range of small storage options, and space to house a wheelchair in two of the full size, split seats.",
+    "rewrite": "In the boot, the cube shape is emphasized by the distinct tribal patterns on the carpet, and it offers various small storage options along with room for a wheelchair in two of the full-size, separate seats."
+   },
+   "10": {
+    "original": "True, you\u2019re never likely to be seriously off roofing or rock climbing in a Yeti and a lot of the excess unladen weight makes most of its 640kg mass a simple, if slightly noisy, companion.",
+    "rewrite": "You might not often find yourself critically exposed to roofing or rock climbing with a Yeti, and the extra unladen weight accounts for much of its 640kg mass, making it a straightforward yet mildly noisy travel companion."
+   },
+   "5": {
+    "original": "This will probably suit many buyers although personal music players and Blackberrys will probably not be able to be used simply throughuetooth three or through a plug socket.",
+    "rewrite": "This will likely suit many buyers, although personal music players and Blackberrys may not be capable of being used via Bluetooth or through a plug socket."
+   },
+   "9": {
+    "original": "Combine that with a high centre of gravity when it comes to the optional four-wheel drive models and you\u2019ve got some sportiness supressed off road.",
+    "rewrite": "Add to that a high centre of gravity in the optional four-wheel drive models, and you end up with suppressed sportiness off-road."
+   },
+   "8": {
+    "original": "The soft, damp ride and prominent high wring roar at high speeds can get wearing quickly, although with city cruising its a different story.",
+    "rewrite": "A soft, damp ride coupled with a loud, high-pitched roar at high speeds can be tiresome quickly; however, for city driving, the experience is quite different."
+   },
+   "11": {
+    "original": "What you do find is the hallmarks of German engineering and this is highlighted in the well judged four-wheel drive models.",
+    "rewrite": "You will notice the hallmarks of German engineering, which are highlighted in the well-judged four-wheel drive models."
+   },
+   "4": {
+    "original": "Skoda seems to have chosen buttons and dials over the latest technology for the Yeti.",
+    "rewrite": "Skoda appears to have opted for buttons and dials instead of the latest technology for the Yeti."
+   },
+   "7": {
+    "original": "If there is one issue the Yeti does not shake off readily it is its very noisy ride.",
+    "rewrite": "One aspect of the Yeti that does not easily shed is its loudly rumbling ride."
+   },
+   "13": {
+    "original": "Skoda Yeti road test - 4x4 car review - Which compact 4x4 car is best?",
+    "rewrite": "Skoda Yeti road test - 4x4 car review - Which is the best compact 4x4 car?"
+   },
+   "14": {
+    "original": "Skoda Yeti 2.0 TDI - 4x4 car review - Which compact 4x4 car is best?",
+    "rewrite": "Skoda Yeti 2.0 TDI - 4x4 car review - What's the best compact 4x4 car?"
+   }
+  },
+  "sentences_rewritten": 12,
+  "eligible": 13,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 46,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 1,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 5,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 49,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 0,
+    "rewritten": false
+   },
+   {
+    "index": 4,
+    "survivors": 34,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 1,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 21,
+    "rewritten": true
+   },
+   {
+    "index": 14,
+    "survivors": 35,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "tilted or rotated or folded out of the way to provide more cargo carrying space.\nThere\u2019s certainly no lack of leg room for the driver and their passenger but space is very tight behind the front seats.\nSkoda Yeti goes for an off-roading feel\nIn the boot, the cube shape is emphasized by the distinct tribal patterns on the carpet, and it offers various small storage options along with room for a wheelchair in two of the full-size, separate seats.\nSkoda appears to have opted for buttons and dials instead of the latest technology for the Yeti. This will likely suit many buyers, although personal music players and Blackberrys may not be capable of being used via Bluetooth or through a plug socket.\nThere is ample passenger ergonomics - you\u2019re likely to find little to fault with the Yeti\u2019s interior, especially regarding the B&O sound system that offers high-quality bass notes and rich mid-range sound.\nOne aspect of the Yeti that does not easily shed is its loudly rumbling ride. A soft, damp ride coupled with a loud, high-pitched roar at high speeds can be tiresome quickly; however, for city driving, the experience is quite different.\nAdd to that a high centre of gravity in the optional four-wheel drive models, and you end up with suppressed sportiness off-road.\nYou might not often find yourself critically exposed to roofing or rock climbing with a Yeti, and the extra unladen weight accounts for much of its 640kg mass, making it a straightforward yet mildly noisy travel companion.\nYou will notice the hallmarks of German engineering, which are highlighted in the well-judged four-wheel drive models.\nThere is ample relaxed work available with the Yeti, but the dynamic models present a somewhat perverse and awkward car that requires significant coaxing to achieve secure, predictable, and safe handling.\nSkoda Yeti road test - 4x4 car review - Which is the best compact 4x4 car?\nSkoda Yeti 2.0 TDI - 4x4 car review - What's the best compact 4x4 car?\nOverall the Yeti offers a touch of class to a market rarely associated",
+  "z0": 16.54690303349844,
+  "seconds": 501.4
+ }
+}

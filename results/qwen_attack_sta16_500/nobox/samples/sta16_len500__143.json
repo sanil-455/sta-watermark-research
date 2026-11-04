@@ -1,0 +1,89 @@
+{
+ "sample_id": "sta16_len500:143",
+ "nobox": {
+  "z_final": 9.993965459379574,
+  "status": "not broken",
+  "rewrites": {
+   "6": {
+    "original": "For the D\u0103\u021bi \u0219i Realit\u0103\u021bi (which also covers European matters) it would be more appropriate to add that Romania needs the environmental and ecological expertise of the Climate Accountability Film Institute (more about this institute at the end of the follow-up article called Environmental Destruction of Ro\u0219ia Montan\u0103).",
+    "rewrite": "For the D\u0103\u021bi \u0219i Realit\u0103\u021bi (which also addresses European issues), it would be more fitting to add that Romania requires the environmental and ecological expertise of the Climate Accountability Film Institute (more details about this institute are available at the end of the follow-up article called Environmental Destruction of Ro\u0219ia Montan\u0103)."
+   },
+   "8": {
+    "original": "GoldCorp, and many other mining companies, have already faced this issue in previous arbitrations, because they knew that governments preferred to work toward solutions that would meet their citizens' concerns, instead of destroying the community by mining operations in a particular area.",
+    "rewrite": "GoldCorp, along with numerous other mining companies, has already encountered this issue in past arbitrations, as they realized that governments typically sought solutions-aligning with their citizens' concerns rather than undermining the community through mining in specific areas."
+   },
+   "1": {
+    "original": "Romania's failure to protect this area, which notably includes Ro\u0219ia Montan\u0103 and the surrounding mountains, is already evident in its application for an official protection status, because Ro\u0219ia Montan\u0103 has never been classified as part of the protected built cultural heritage.",
+    "rewrite": "Romania\u2019s failure to protect these areas, notably Ro\u0219ia Montan\u0103 and the surrounding mountains, is apparent in its application for official protection status, as Ro\u0219ia Montan\u0103 has never been designated part of the protected cultural heritage."
+   },
+   "4": {
+    "original": "CEO also noted that Romania is sensitive to these options in merit three time more annual public spending what has been the Romanian public expenditure with ICSID versus the public expenditure on hospitalizations or the cost of incarcerations, and this will not be exclusive.",
+    "rewrite": "The CEO also noted that Romania is sensitive to these options, with merit three times more annual public spending than what has been the Romanian public expenditure through ICSID compared to spending on hospitalizations or the cost of incarcerations, and this will not be exclusive."
+   },
+   "9": {
+    "original": "GoldCorp would know precisely why Gabriel Resources can not defend the case against the Romanian state and why a presence of the public in their trial will be beneficial rather than harmful to their efforts.",
+    "rewrite": "GoldCorp would know precisely why Gabriel Resources cannot defend the case against the Romanian state, and why a public presence at their trial will be beneficial rather than harmful to their efforts."
+   },
+   "3": {
+    "original": "ICSID expects that in both cases, Gabriel Resources will be able to base its demands on complaints that Romania violated articles 2 and 3 of the BIT UK and the BIT Cananda.",
+    "rewrite": "ICSID anticipates that in both scenarios, Gabriel Resources can rely on complaints alleging that Romania violated articles 2 and 3 of the BIT UK and the BIT Canada."
+   },
+   "7": {
+    "original": "It would now be more appropriate to have Gabriel Resources as defendant in arbitrations rather than Romania.",
+    "rewrite": "Now it would be more appropriate to have Gabriel Resources as the defendant in arbitrations rather than Romania."
+   },
+   "2": {
+    "original": "In addition, its status as an important non-natural site has never been established either.",
+    "rewrite": "Moreover, its status as an important non-natural site has also never been established."
+   }
+  },
+  "sentences_rewritten": 8,
+  "eligible": 8,
+  "per_sentence": [
+   {
+    "index": 6,
+    "survivors": 44,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 57,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 56,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 57,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 57,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 21,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 27,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "the Ro\u0219ia Montan\u0103 project, to the extent of intensifying the disputes caused by the project. Romania\u2019s failure to protect these areas, notably Ro\u0219ia Montan\u0103 and the surrounding mountains, is apparent in its application for official protection status, as Ro\u0219ia Montan\u0103 has never been designated part of the protected cultural heritage. Moreover, its status as an important non-natural site has also never been established. ICSID anticipates that in both scenarios, Gabriel Resources can rely on complaints alleging that Romania violated articles 2 and 3 of the BIT UK and the BIT Canada.\nThe CEO also noted that Romania is sensitive to these options, with merit three times more annual public spending than what has been the Romanian public expenditure through ICSID compared to spending on hospitalizations or the cost of incarcerations, and this will not be exclusive. To raise public awareness, TeZei.net wrote on February 17, 2017 that approving ICSID to resolve possible arbitration for Gabriel Resources versus Romania is very convenient, because ICSID can be present to resolve any possible arbitration case between Romania and the Ro\u0219ia Montan\u0103 gold company.\nFor the D\u0103\u021bi \u0219i Realit\u0103\u021bi (which also addresses European issues), it would be more fitting to add that Romania requires the environmental and ecological expertise of the Climate Accountability Film Institute (more details about this institute are available at the end of the follow-up article called Environmental Destruction of Ro\u0219ia Montan\u0103). Now it would be more appropriate to have Gabriel Resources as the defendant in arbitrations rather than Romania. GoldCorp, along with numerous other mining companies, has already encountered this issue in past arbitrations, as they realized that governments typically sought solutions-aligning with their citizens' concerns rather than undermining the community through mining in specific areas.\nGoldCorp would know precisely why Gabriel Resources cannot defend the case against the Romanian state, and why a public presence at their trial will be beneficial rather than harmful to their efforts.\nIf journalists are willing to publish more articles prior to the hearing in September that might facilitate a clear and well informed judgment about what companies",
+  "z0": 15.29470496609856,
+  "seconds": 420.5
+ }
+}

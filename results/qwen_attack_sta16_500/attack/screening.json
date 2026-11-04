@@ -1,0 +1,320 @@
+[
+ {
+  "sample_id": "sta16_len500:29",
+  "z0": 16.16057946539401,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:31",
+  "z0": 15.563033123398535,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:32",
+  "z0": 18.0674292581983,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:33",
+  "z0": 17.351887505398366,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:35",
+  "z0": 16.636345752598434,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:37",
+  "z0": 17.44133022449836,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:44",
+  "z0": 15.652475842498527,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:47",
+  "z0": 16.54690303349844,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:50",
+  "z0": 19.051299168298208,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:51",
+  "z0": 14.13194961779867,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:54",
+  "z0": 19.051299168298208,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:55",
+  "z0": 15.949583742433099,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:57",
+  "z0": 14.489720494198636,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:59",
+  "z0": 14.936934089698594,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:60",
+  "z0": 16.099689437998485,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:61",
+  "z0": 16.42917635401552,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:72",
+  "z0": 14.638530429872139,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:74",
+  "z0": 14.847491370598602,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:75",
+  "z0": 16.636345752598434,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:76",
+  "z0": 15.026376808798586,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:78",
+  "z0": 16.636345752598434,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:80",
+  "z0": 18.78297101099823,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:86",
+  "z0": 16.697773242637027,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:89",
+  "z0": 15.981514872979675,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:97",
+  "z0": 15.741918561598519,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:100",
+  "z0": 16.90467390989841,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:102",
+  "z0": 18.69352829189824,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:104",
+  "z0": 16.189132157098477,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:106",
+  "z0": 16.84311784565064,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:107",
+  "z0": 13.863621460498695,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:108",
+  "z0": 15.741918561598519,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:109",
+  "z0": 15.831361280698511,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:110",
+  "z0": 17.88854381999832,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:114",
+  "z0": 15.652475842498527,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:115",
+  "z0": 14.758048651498612,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:120",
+  "z0": 14.847491370598602,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:123",
+  "z0": 14.758048651498612,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:125",
+  "z0": 17.620215662698342,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:128",
+  "z0": 16.27857487619847,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:132",
+  "z0": 11.716996202098898,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:134",
+  "z0": 18.78297101099823,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:135",
+  "z0": 17.799101100898326,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:136",
+  "z0": 18.246314696398283,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:138",
+  "z0": 15.652475842498527,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:139",
+  "z0": 16.27857487619847,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:140",
+  "z0": 18.78297101099823,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:141",
+  "z0": 18.872413730098224,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:143",
+  "z0": 15.29470496609856,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:144",
+  "z0": 15.831361280698511,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:148",
+  "z0": 17.083559348098394,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:152",
+  "z0": 16.16057946539401,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:154",
+  "z0": 16.099689437998485,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ },
+ {
+  "sample_id": "sta16_len500:156",
+  "z0": 17.709658381798334,
+  "flagged": true,
+  "source": "results/raw/sta16_len500.json"
+ }
+]

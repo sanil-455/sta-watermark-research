@@ -1,0 +1,26 @@
+{
+ "sample_id": "sta16_len500:139",
+ "nobox": {
+  "z_final": 16.010246718898493,
+  "status": "not broken",
+  "rewrites": {
+   "14": {
+    "original": "Ninja Warrior UK airs on ITV at 8.30pm and is available to stream now on Netflix in the US.",
+    "rewrite": "Ninja Warrior UK is shown at 8.30pm on ITV and can be streamed currently on Netflix in the US."
+   }
+  },
+  "sentences_rewritten": 1,
+  "eligible": 1,
+  "per_sentence": [
+   {
+    "index": 14,
+    "survivors": 3,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "where we've really got some hardcore guys and women going for it.\"\nBen continued: \"There are things on that course that take me back, I'm at 40 now. But because ITV let us do those walls, everyone's pretty much fine now. We had a call last week saying, 'You can't whack people in the t-bone, you can't whack people in the knee. People who are doing this in real life have scars all over their back, we don't want to be accused of that.\n\"It's just done in a different type of way - it's losing people in stages, if they're really not capable of doing it, they're not capable of doing it. We don't take any prisoners, but what it does is - we both agree with this - it gives people this platform.\"\nBen humorously agreed: \"It's not dangerous it's just our way of giving you your dream.\n\"They'll beat the hell out of that wall, break five or so toes off, but they'll throw it on the studio floor at the finish. And that's our way of doing it, ITV's our way of doing it. And that's ours and their buzz and we just give it to them on this plate.\"\nHe continued: \"Like we say to everyone, there's no shame with failing in your own grounds. 50 is the new 29 - there's no reason why 50, 60, 70 year olds, not many, but there are a few people every year, especially in big shape. And then you kind of feel like a crap half-hour TV special if they get themselves on that course - or the two minutes in training if they're doing it in training. And after a while, they're fit into it and it does them some good because they get all that time on telly.\"\nNinja Warrior UK is shown at 8.30pm on ITV and can be streamed currently on Netflix in the US.\nNinja Warrior UK 2017 (ITV)\nNinja Warrior UK's host was a headteacher and rugby star\nRochelle Humes on life after",
+  "z0": 16.27857487619847,
+  "seconds": 29.0
+ }
+}

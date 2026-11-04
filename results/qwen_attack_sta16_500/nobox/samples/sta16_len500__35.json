@@ -1,0 +1,143 @@
+{
+ "sample_id": "sta16_len500:35",
+ "nobox": {
+  "z_final": 8.090909090909092,
+  "status": "not broken",
+  "rewrites": {
+   "14": {
+    "original": "I think the upside is clearer now than when Apple first introduced this generation of the iPhone, and I really love a lot of the missing parts, but the harsh reality is that while full multitasking would address a lot of the issues and improve my level of satisfaction (which shows more cracks as each month goes by), it would not make it a work device for me.",
+    "rewrite": "While I see more positives now than at the initial launch of this iPhone generation, and I enjoy several missing features, the truth is that although full multitasking could resolve many problems and enhance my satisfaction (which continues to show cracks each month), it would still not turn it into a work device for me."
+   },
+   "2": {
+    "original": "I also haven't seen evidence that a larger screen would enable more battery life (does anybody have info?) - the physics of whichever size screen I'm holding is the limiting factor - it takes the same amount of energy to display pixels regardless of how many there are.",
+    "rewrite": "I haven't found evidence that a larger screen allows for more battery life (is anyone aware of any? ); the physics of whichever screen size I hold is the limiting factor \u2013 it consumes the same amount of energy to display pixels, irrespective of the number of them."
+   },
+   "8": {
+    "original": "But a 4.75-inch Retina is easy to sell; maybe Apple will either do it the next upgrade cycle or extend its cycle to let the iPhone die down, make iOS even more prominent, and really push it at the holidays next year.",
+    "rewrite": "But a 4.75-inch Retina display is easy to sell; perhaps Apple will either address it in the next upgrade cycle or stretch the current cycle to allow the iPhone sales to taper off, making iOS even more prominent, and focusing heavily on it during the holidays next year."
+   },
+   "12": {
+    "original": "Has anyone noticed if they've been able to cobble a 4:3 aspect ratio together from iTunes, YouTube, websites, apps, and ebooks after downloading them?",
+    "rewrite": "Has anyone observed if they managed to create a 4:3 aspect ratio by using iTunes, YouTube, websites, apps, and ebooks after downloading the content?"
+   },
+   "3": {
+    "original": "I suspect phones we're are holding will be getting an extra 50th of an inch each time - adding 0.5-1.0 inch would not be intolerable.",
+    "rewrite": "I suspect that phones we are holding will gain an extra 50th of an inch each time - adding 0.5 to 1.0 inch would not be intolerable."
+   },
+   "13": {
+    "original": "I've been thinking about this a lot this week because I'd love to be able to work properly with the iPad.",
+    "rewrite": "This has occupied my thoughts quite a bit this week because I would really like to work effectively with the iPad."
+   },
+   "1": {
+    "original": "I'd be willing to pay more for the extra iPhone screen real estate -- it wouldn't be as much as ~$150.",
+    "rewrite": "I am willing to pay more for the additional iPhone screen space \u2014 it would still be no more than around $150."
+   },
+   "11": {
+    "original": "I'd hate to lose 4 inches down, and it seems like the limit is the Film's 4:3 aspect ratio.",
+    "rewrite": "I'd hate to lose 4 inches down, and it appears that the limit is the Film's 4:3 aspect ratio."
+   },
+   "10": {
+    "original": "Google or other services I've worked with in passing support 4:3 aspect ratio.",
+    "rewrite": "Services I've interacted with, including Google, support the 4:3 aspect ratio."
+   },
+   "4": {
+    "original": "Yes, but should Apple (and others) come out with a 4.75-inch Retina phone?",
+    "rewrite": "Yes, but should Apple (and others) release a 4.75-inch Retina phone?"
+   },
+   "5": {
+    "original": "I think that would alienate some of the iPhone crowd.",
+    "rewrite": "I believe that would alienate some iPhone users."
+   },
+   "7": {
+    "original": "To be sure, I'm honestly not sure about feature envy.",
+    "rewrite": "To be certain, I'm genuinely not sure about feature envy."
+   },
+   "6": {
+    "original": "And it would create the risk of feature envy.",
+    "rewrite": "And it would introduce the risk of feature envy."
+   },
+   "9": {
+    "original": "I'd guess both scenarios are wrong or right.",
+    "rewrite": "I'd say both scenarios could be wrong or right."
+   }
+  },
+  "sentences_rewritten": 14,
+  "eligible": 14,
+  "per_sentence": [
+   {
+    "index": 14,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 2,
+    "survivors": 43,
+    "rewritten": true
+   },
+   {
+    "index": 8,
+    "survivors": 50,
+    "rewritten": true
+   },
+   {
+    "index": 12,
+    "survivors": 48,
+    "rewritten": true
+   },
+   {
+    "index": 3,
+    "survivors": 21,
+    "rewritten": true
+   },
+   {
+    "index": 13,
+    "survivors": 47,
+    "rewritten": true
+   },
+   {
+    "index": 1,
+    "survivors": 56,
+    "rewritten": true
+   },
+   {
+    "index": 11,
+    "survivors": 28,
+    "rewritten": true
+   },
+   {
+    "index": 10,
+    "survivors": 37,
+    "rewritten": true
+   },
+   {
+    "index": 4,
+    "survivors": 23,
+    "rewritten": true
+   },
+   {
+    "index": 5,
+    "survivors": 12,
+    "rewritten": true
+   },
+   {
+    "index": 7,
+    "survivors": 4,
+    "rewritten": true
+   },
+   {
+    "index": 6,
+    "survivors": 3,
+    "rewritten": true
+   },
+   {
+    "index": 9,
+    "survivors": 31,
+    "rewritten": true
+   }
+  ],
+  "queries": 1,
+  "final_span": "phone if every phone maxed out at 4.3-4.5 inches. I am willing to pay more for the additional iPhone screen space \u2014 it would still be no more than around $150. I haven't found evidence that a larger screen allows for more battery life (is anyone aware of any? ); the physics of whichever screen size I hold is the limiting factor \u2013 it consumes the same amount of energy to display pixels, irrespective of the number of them.\nI suspect that phones we are holding will gain an extra 50th of an inch each time - adding 0.5 to 1.0 inch would not be intolerable.\nYes, but should Apple (and others) release a 4.75-inch Retina phone? I believe that would alienate some iPhone users. And it would introduce the risk of feature envy. To be certain, I'm genuinely not sure about feature envy. But a 4.75-inch Retina display is easy to sell; perhaps Apple will either address it in the next upgrade cycle or stretch the current cycle to allow the iPhone sales to taper off, making iOS even more prominent, and focusing heavily on it during the holidays next year. I'd say both scenarios could be wrong or right.\nServices I've interacted with, including Google, support the 4:3 aspect ratio. I'd hate to lose 4 inches down, and it appears that the limit is the Film's 4:3 aspect ratio. Has anyone observed if they managed to create a 4:3 aspect ratio by using iTunes, YouTube, websites, apps, and ebooks after downloading the content? This has occupied my thoughts quite a bit this week because I would really like to work effectively with the iPad.\nWhile I see more positives now than at the initial launch of this iPhone generation, and I enjoy several missing features, the truth is that although full multitasking could resolve many problems and enhance my satisfaction (which continues to show cracks each month), it would still not turn it into a work device for me. The graphics chip is the biggest limiting factor for doing anything beyond web browser (or heavy text editing), and not",
+  "z0": 16.636345752598434,
+  "seconds": 529.1
+ }
+}
